@@ -1,0 +1,600 @@
+Abandon - கைவிடு
+Ability - திறன் / ஆற்றல்
+Able - தகுதியான / முடியும்
+Above - மேலே
+Absolute - முழுமையான
+Abstract - அருவமான / சுருக்கம்
+Accept - ஏற்றுக்கொள்
+Access - அணுகல் / அனுமதி
+Accident - விபத்து
+Accomplish - நிறைவேற்று / சாதி
+Account - கணக்கு
+Accurate - துல்லியமான
+Achieve - அடை / சாதனை செய்
+Acidic - அமிலத்தன்மை கொண்ட
+Acknowledge - ஒப்புக்கொள்
+Acquire - பெறு
+Act - செயல்படு / நடி
+Action - செயல் / நடவடிக்கை
+Active - சுறுசுறுப்பான
+Activity - செயல்பாடு
+Actual - உண்மையான
+Adapt - தகவமைத்துக் கொள்
+Add - கூட்டு / சேர்
+Address - முகவரி / உரையாற்று
+Adjust - சரிசெய்
+Baby - குழந்தை
+Back - முதுகு / பின்னால்
+Background - பின்னணி
+Bad - கெட்ட / மோசமான
+Baffle - குழப்பு / திகைக்கச் செய்
+Balance - சமநிலை
+Ball - பந்து
+Band - பட்டை / இசைக்குழு
+Bank - வங்கி / கரை
+Base - அடிப்படை
+Basic - அடிப்படையான
+Basis - அடிப்படை
+Basket - கூடை
+Battery - மின்கலம்
+Battle - போர்
+Beach - கடற்கரை
+Beam - ஒளிக்கற்றை / உத்திரம்
+Bear - கரடி / தாங்கு
+Beat - அடி / துடி
+Beautiful - அழகான
+Beauty - அழகு
+Because - ஏனெனில்
+Become - மாறு / ஆகு
+Bed - படுக்கை
+Before - முன்பு
+Calculate - கணக்கிடு
+Calendar - நாட்காட்டி
+Call - அழை / கூப்பிடு
+Calm - அமைதியான
+Camera - கேமரா / நிழற்படக்கருவி
+Campaign - பிரச்சாரம்
+Can - முடியும் / கூஜா
+Cancel - ரத்து செய்
+Candidate - வேட்பாளர்
+Cap - தொப்பி
+Capability - திறன்
+Capacity - கொள்ளளவு
+Capital - தலைநகரம் / மூலதனம்
+Captain - தலைவர் / கேப்டன்
+Car - கார்
+Card - அட்டை
+Care - கவனி / அக்கறை
+Career - தொழில் வாழ்க்கை
+Careful - எச்சரிக்கையான
+Carpet - கம்பளம்
+Carry - தூக்கிச் செல்
+Case - வழக்கு / பெட்டி
+Cash - ரொக்கம் / பணம்
+Cast - வார்ப்படம் / வீசு
+Cat - பூனை
+Dad - அப்பா
+Daily - தினசரி
+Damage - சேதம்
+Dance - நடனம்
+Danger - ஆபத்து
+Dangerous - ஆபத்தான
+Dark - இருண்ட / கருமை
+Data - தரவு
+Date - தேதி / பேரீச்சம்பழம்
+Daughter - மகள்
+Day - நாள்
+Dead - இறந்த
+Deal - ஒப்பந்தம் / வியாபாரம்
+Dear - அன்பான
+Death - மரணம்
+Debate - விவாதம்
+Debt - கடன்
+Decade - பத்தாண்டு
+Decide - முடிவு செய்
+Decision - முடிவு
+Declare - பிரகடனம் செய்
+Decline - குறை / மறு
+Decorate - அலங்கரி
+Decrease - குறைவு / குறை
+Deep - ஆழமான
+Each - ஒவ்வொரு
+Eager - ஆர்வமுள்ள
+Ear - காது
+Early - முன்கூட்டியே / சீக்கிரம்
+Earn - சம்பாதி
+Earth - பூமி
+Easily - எளிதாக
+Easy - எளிதான
+Eat - சாப்பிடு
+Economic - பொருளாதார
+Economy - பொருளாதாரம்
+Edge - விளிம்பு / முனை
+Edit - திருத்து
+Educate - கல்வி கற்பி
+Education - கல்வி
+Effect - தாக்கம் / விளைவு
+Effective - பயனுள்ள
+Efficiency - செயல்திறன்
+Efficient - திறமையான
+Effort - முயற்சி
+Efficacy - செயல்திறன்
+Egg - முட்டை
+Eight - எட்டு
+Either - ஏதாவது ஒன்று
+Elderly - முதிய
+Face - முகம் / எதிர்கொள்
+Fact - உண்மை
+Factor - காரணி
+Factory - தொழிற்சாலை
+Faculty - ஆசிரியர்கள் குழு / திறன்
+Fail - தோல்வியடை
+Failure - தோல்வி
+Fair - நியாயமான / கண்காட்சி
+Faith - நம்பிக்கை
+Fall - வீழ்ச்சி / விழு
+False - பொய்யான
+Fame - புகழ்
+Family - குடும்பம்
+Famous - புகழ்பெற்ற
+Fan - விசிறி / இரசிகர்
+Fancy - ஆடம்பரமான / கற்பனை
+Fantastic - அற்புதமா
+Far - தூரமான
+Farm - பண்ணை
+Farmer - விவசாயி
+Fashion - நாகரிகம்
+Fast - வேகமான / விரதம்
+Fat - கொழுப்பு / பருமனான
+Fate - விதி
+Father - தந்தை
+Gain - லாபம் / பெறு
+Galaxy - விண்மீன் திரள்
+Gallery - காட்சியகம்
+Game - விளையாட்டு
+Gap - இடைவெளி
+Garage - கார் நிறுத்துமிடம்
+Garden - தோட்டம்
+Gas - வாயு / எரிவாயு
+Gate - வாசல் / கேட்
+Gather - சேகரி / கூடிவா
+Gear - கியர் / சாதனம்
+Gender - பாலினம்
+General - பொதுவான
+Generate - உருவாக்கு
+Generation - தலைமுறை
+Generous - பெருந்தன்மையான
+Genius - மேதை
+Gentle - மென்மையான
+Genuine - உண்மையான
+Geography - புவியியல்
+Gesture - சைகை
+Ghost - பேய்
+Giant - பெரிய / ராட்சத
+Gift - பரிசு
+Girl - பெண்
+Habit - பழக்கம்
+Hair - முடி
+Half - பாதி
+Hall - மண்டபம்
+Hand - கை
+Handle - கையாள் / பிடி
+Handsome - அழகான (ஆண்)
+Hang - தொங்கவிடு
+Happen - நட
+Happiness - மகிழ்ச்சி
+Happy - மகிழ்ச்சியான
+Harbour - துறைமுகம்
+Hard - கடினமான
+Hardly - அரிதாக
+Harm - தீங்கு
+Hat - தொப்பி
+Hate - வெறு
+Have - வை / பெற்றுக்கொள்
+He - அவன்
+Head - தலை / தலைவர்
+Headline - தலைப்புச் செய்தி
+Health - உடல்நலம்
+Healthy - ஆரோக்கியமான
+Hear - கேள்
+Heart - இதயம்
+Idea - யோசனை / கருத்து
+Ideal - சிறந்த / லட்சியமான
+Identical - ஒத்த / ஒரே மாதிரியான
+Identify - அடையாளம் கண்டுபிடி
+Identity - அடையாளம்
+Ignore - கண்டுகொள்ளாமல் இரு
+Illegal - சட்டவிரோதமான
+Illness - நோய்
+Illuminate - விளக்கேற்று / வெளிச்சமாக்கு
+Image - உருவம் / பிம்பம்
+Imagination - கற்பனை
+Imagine - கற்பனை செய்
+Immediate - உடனடி
+Immigrate - குடிபெயர்
+Impact - தாக்கம்
+Impatient - பொறுமையற்ற
+Implement - நடைமுறைப்படுத்து
+Implication - மறைமுகக் கருத்து
+Imply - குறிப்பால் உணர்த்து
+Import - இறக்குமதி
+Importance - முக்கியத்துவம்
+Important - முக்கியமான
+Impose - திணி
+Impress - ஈர்க்க / முத்திரையிடு
+Improve - மேம்படுத்து
+Jacket - ஜாக்கெட் / மேலாடை
+Jail - சிறைச்சாலை
+Jam - நெரிசல் / ஜாம்
+January - ஜனவரி
+Jar - ஜாடி
+Jazz - ஜாஸ் இசை
+Jealous - பொறாமை கொண்ட
+Jeans - ஜீன்ஸ் உடை
+Jet - ஜெட் விமானம்
+Job - வேலை
+Join - இணை / சேர்
+Joint - கூட்டு / மூட்டு
+Joke - நகைச்சுவை / கேலி
+Journal - இதழ் / நாள்குறிப்பு
+Journey - பயணம்
+Joy - மகிழ்ச்சி
+Judge - நீதிபதி / தீர்ப்பளி
+Judgment - தீர்ப்பு
+Juice - பழச்சாறு
+July - ஜூலை
+June - ஜூன்
+Jungle - காடு
+Junior - இளைய
+Just - சும்மா / நீதி
+Justice - நீதி
+Justify - நியாயப்படுத்து
+Keep - வை / வைத்திரு
+Key - சாவி / முக்கியம்
+Kick - உதை
+Kid - குழந்தை
+Kill - கொல்
+Kilometer - கிலோமீட்டர்
+Kind - கனிவான / வகை
+King - அரசன்
+Kiss - முத்தம்
+Kitchen - சமையலறை
+Knee - முழங்கால்
+Knife - கத்தி
+Knock - தட்டு (கதவை)
+Know - தெரிந்துகொள்
+Knowledge - அறிவு
+Lab - ஆய்வகம்
+Label - சீட்டு / பெயர்ப்பட்டியல்
+Labor - உழைப்பு
+Lack - பற்றாக்குறை
+Lady - பெண் / மாது
+Lake - ஏரி
+Lamp - விளக்கு
+Land - நிலம் / தரை இறங்கு
+Landscape - நிலப்பரப்பு
+Language - மொழி
+Large - பெரிய
+Last - கடைசி / கடந்த
+Late - தாமதமான
+Lately - சமீபத்தில்
+Later - பின்னர்
+Laugh - சிரி
+Launch - தொடங்கு / ஏவு
+Law - சட்டம்
+Lawyer - வழக்கறிஞர்
+Lay - வை / இடு
+Lazy - சோம்பேறி
+Lead - வழிநடத்து
+Leader - தலைவர்
+Leaf - இலை
+Machine - இயந்திரம்
+Mad - வெறிபிடித்த / கோபமான
+Magazine - சஞ்சிகை / இதழ்
+Magic - மந்திரம்
+Mail - அஞ்சல்
+Main - முக்கிய
+Maintain - பராமரி
+Major - முக்கிய / பெரிய
+Make - உருவாக்கு / செய்
+Male - ஆண்
+Mall - வணிக வளாகம்
+Man - மனிதன்
+Manage - நிர்வகி
+Management - மேலாண்மை
+Manager - மேலாளர்
+Mandatory - கட்டாயமான
+Manifest - வெளிப்படுத்து
+Manipulate - கையாளு / வளை
+Manner - முறை / பழக்கம்
+Manufacture - உற்பத்தி செய்
+Many - பல
+Map - வரைபடம்
+Margin - விளிம்பு / லாபம்
+Mark - குறி / மதிப்பெண்
+Market - சந்தை
+Marriage - திருமணம்
+Married - திருமணமாக
+Marry - திருமணம் செய்
+Mass - நிறை / திரள்
+Master - எஜமானர் / தேர்ச்சி பெற்ற
+Name - பெயர்
+Narrow - குறுகிய
+Nation - நாடு / தேசம்
+National - தேசிய
+Native - சொந்த ஊர் / பூர்வீக
+Natural - இயற்கையான
+Nature - இயற்கை
+Naughty - குறும்புக்கார
+Near - அருகில்
+Nearly - கிட்டத்தட்ட
+Necessary - அவசியமான
+Neck - கழுத்து
+Need - தேவை
+Negative - எதிர்மறை
+Negotiate - பேச்சுவார்த்தை நடத்து
+Neighbor - அயல் வீட்டுக்காரர்
+Neither - எதுவுமில்லை
+Nerve - நரம்பு / தைரியம்
+Net - வலை
+Network - வலையமைப்பு
+Neutral - நடுநிலை
+Never - ஒருபோதும் இல்லை
+New - புதிய
+News - செய்தி
+Next - அடுத்த
+Object - பொருள் / எதிர்ப்புத் தெரிவி
+Objective - குறிக்கோள் / குறிக்கோளான
+Obligation - கடமை
+Observation - கவனிப்பு
+Observe - கவனி / பார்
+Obtain - பெறு
+Obvious - வெளிப்படையான
+Occasion - நிகழ்வு / சமயம்
+Occur - நிகழ்தல்
+Ocean - பெருங்கடல்
+Odd - ஒற்றை / விசித்திரமான
+Of - உடைய
+Off - அணைக்கப்பட்ட / வெளியே
+Offer - சலுகை / வழங்கு
+Office - அலுவலகம்
+Officer - அதிகாரி
+Official - அதிகாரப்பூர்வமான
+Often - அடிக்கடி
+Oil - எண்ணெய்
+Old - பழைய / வயதான
+Pack - கட்டு / மூட்டை
+Package - பொதி / பார்சல்
+Page - பக்கம்
+Pain - வலி
+Paint - வர்ணம் பூசு
+Pair - ஜோடி
+Pale - வெளிரிய
+Palm -ங்கை / பனைமரம்
+Pan - வாணலி
+Panel - குழு
+Panic - பீதி / பயம்
+Paper - காகிதம்
+Paragraph - பத்தி
+Parallel - இணை
+Parent - பெற்றோர்
+Park - பூங்கா / வாகனம் நிறுத்து
+Participant - பங்கேற்பாளர்
+Participate - பங்கேற்றுக்கொள்
+Particular - குறிப்பிட்ட
+Partly - பகுதியாக
+Partner - பங்குதாரர் / ஜோடி
+Party - விருந்து / கட்சி
+Pass - கடந்து செல் / தேர்ச்சி பெறு
+Passage - நடைபாதை / பகுதி
+Passion - ஆர்வம் / தீவிரம்
+Past - கடந்த காலம் / கடந்த
+Path - பாதை
+Patient - நோயாளி / பொறுமையான
+Pattern - மாதிரி / வடிவம்
+Pause - இடைநிறுத்தம்
+Qualify - தகுதி பெறு
+Quality - தரம்
+Quantity - அளவு
+Quarrel - சண்டை / வாக்குவாதம்
+Quarter - கால் பகுதி / காலாண்டு
+Queen - அரசி
+Query - கேள்வி / ஐயம்
+Quest - தேடுதல்
+Question - கேள்வி
+Quick - விரைவான
+Quiet - அமைதியான
+Quit - வெளியேறு / விடு
+Quite - முற்றிலும் / மிகவும்
+Quote - மேற்கோள் காட்டு
+Quotient - ஈவு (கணிதம்)
+Race - பந்தயம் / இனம்
+Radio - வானொலி
+Rail - ரயில் பாதை / கைப்பிடி
+Rain - மழை
+Raise - உயர்த்து
+Random - தற்செயலான
+Range - வரம்பு / எல்லை
+Rank - தரம் / நிலை
+Rapid - வேகமான
+Rare - அரிதான
+Rate - வீதம் / விலை
+Rather - மாறாக / சற்று
+Ratio - விகிதம்
+Raw - பச்சையான / சமைக்காத
+Reach - அடை / தொடு
+React - எதிர்வினையாற்று
+Reaction - எதிர்வினை
+Read - படி
+Ready - தயாரான
+Real - உண்மையான
+Realize - உண்மையை உணர்
+Really - உண்மையில்
+Reason - காரணம்
+Reasonable - நியாயமான
+Recall - நினைவுகூரு
+Receive - பெறு
+Recent - சமீபத்திய
+Recipe - சமையல் குறிப்பு
+Recognize - அடையாளம் கண்டு கொள்
+Recommend - பரிந்துரை செய்
+Sacrifice - தியாகம்
+Sad - வருத்தமான / சோகமான
+Safe - பாதுகாப்பான
+Safety - பாதுகாப்பு
+Sail - பாய்க்கப்பல் / பயணம் செய்
+Salary - ஊதியம் / சம்பளம்
+Sale - விற்பனை
+Salt - உப்பு
+Same - அதே / ஒத்த
+Sample - மாதிரி
+Sand - மணல்
+Satellite - செயற்கைக்கோள்
+Satisfy - திருப்திப்படுத்து
+Save - சேமி / காப்பாற்று
+Say - சொல்
+Scale - அளவுக்கோல் / செதில்
+Scare - பயமுறுத்து
+Scene - காட்சி
+Schedule - அட்டவணை
+Scheme - திட்டம்
+School - பள்ளி
+Science - அறிவியல்
+Scientific - அறிவியல் சார்ந்த
+Scientist - அறிவியலாளர்
+Score - மதிப்பெண்
+Screen - திரை
+Script - திரைக்கதை / எழுத்து வடிவம்
+Sea - கடல்
+Search - தேடு
+Season - பருவகாலம்
+Seat - இருக்கை
+Second - இரண்டாவது / நொடி
+Secret - ரகசியம்
+Secretary - செயலாளர்
+Section - பிரிவு
+Table - மேஜை / அட்டவணை
+Tackle - எதிர்கொள் / கையாளு
+Tail - வால்
+Take - எடு
+Tale - கதை
+Talent - திறமை
+Talk - பேசு
+Tall - உயரமான
+Tank - தொட்டி / பீரங்கி
+Tape - பட்டை நாடா
+Target - இலக்கு
+Task - வேலை / பணி
+Taste - சுவை
+Tax - வரி
+Taxi - வாடகை ஊர்தி
+Tea - தேநீர்
+Teach - கற்பி / கற்றுக்கொடு
+Teacher - ஆசிரியர்
+Team - அணி
+Tear - கண்ணீர் / கிழி
+Technical - தொழில்நுட்ப
+Technique - நுட்பம்
+Technology - தொழில்நுட்பம்
+Telephone - தொலைபேசி
+Television - தொலைக்காட்சி
+Tell - கூறு / சொல்
+Temperature - வெப்பநிலை
+Temporary - தற்காலிகமான
+Ten - பத்து
+Tend - நாட்டம் கொள்
+Ultimate - இறுதியான
+Umbrella - குடை
+Unable - முடியாத
+Uncanny - விசித்திரமான
+Uncle - மாமா / பெரியப்பா
+Uncomfortable - சங்கடமான
+Under - கீழே
+Understand - புரிந்துகொள்
+Undergo - உட்படு / அனுபவி
+Undertake - பொறுப்பேற்றுக்கொள்
+Unemployment - வேலையின்மை
+Unfair - நியாயமற்ற
+Unfortunate - துரதிர்ஷ்டவசமான
+Uniform - சீருடை / ஒரே சீரான
+Union - சங்கம் / ஒன்றியம்
+Unique - தனித்துவமான
+Unit - அலகு / பிரிவு
+Universal - உலகளாவிய
+University - பல்கலைக்கழகம்
+Unless - இல்லாவிட்டால்
+Vacant - காலியான
+Vacation - விடுமுறை
+Valid - செல்லுபடியாகும்
+Valley - பள்ளத்தாக்கு
+Valuable - மதிப்புமிக்க
+Value - மதிப்பு
+Van - சரக்குந்து / வேன்
+Vanish - மறைந்துபோ
+Variable - மாறக்கூடிய / மாறி
+Variation - மாறுபாடு
+Variety - பல்வேறு வகை
+Various - பல்வேறு
+Vast - அகன்ற / மிகப்பெரிய
+Vegetable - காய் / க்கறி
+Vehicle - வாகனம்
+Velocity - திசைவேகம்
+Venture - துணிச்சலான தொழில் முயற்சி
+Verbal - வாய்மொழி சார்ந்த
+Verdict - தீர்ப்பு
+Verify - சரிபார்
+Version - வடிவம் / பதிப்பு
+Vertical - செங்குத்தான
+Very - மிகவும்
+Vessel - கப்பல் / பாத்திரம்
+Veteran - அனுபவமிக்க போர் வீரர் / மூத்தவர்
+Wage - கூலி / சம்பளம்
+Wait - காத்திரு
+Wake - விழித்தெழு
+Walk - நட
+Wall - சுவர் / சுவர்
+Wander - அலைந்து திரி
+Want - வேண்டும் / விரும்பு
+War - போர்
+Warm - வெதுவெதுப்பான
+Warn - எச்சரி
+Wash - கழுவு
+Waste - கழிவு / வீணாக்கு
+Watch - பார் / கைக்கடிகாரம்
+Water - தண்ணீர்
+Wave - அலை / கை அசை
+Way - வழி / முறை
+Weak - பலவீனமான
+Wealth - செல்வம்
+Weapon - ஆயுதம்
+Wear - அணி
+Weather - வானிலை
+Web - வலைத்தளம் / சிலந்திவலை
+Website - இணையதளம்
+Wedding - திருமணம்
+Week - வாரம்
+Xerox - நகல் எடு / ஜெராக்ஸ்
+Xylophone - சைலோபோன் (இசைக் கருவி)
+Yacht - ஆடம்பரப் படகு
+Yard - முற்றம் / யார்டு அளவு
+Yawn - கொட்டாவி விடு
+Year - ஆண்டு / வருடம்
+Yell - கத்து
+Yellow - மஞ்சள் நிறம்
+Yes - ஆம்
+Yesterday - நேற்று
+Yet - இன்னும் / இருப்பினும்
+Yield - விளைச்சல் / வழிவிடு
+Yogurt - தயிர்
+You - நீங்கள் / நீ
+Young - இளமையான
+Your - உனது / உங்களுடைய
+Youth - இளைஞர் / இளமைப் பருவம்
+Zeal - தீராத ஆர்வம் / வெறி
+Zealous - ஆர்வமிக்க
+Zenith - உச்சம்
+Zero - பூஜ்ஜியம்
+Zest - ஆர்வம் / சுவைக்கூட்டு
+Zinc - துத்தநாகம்
+Zip - ஜிப் / மின்னல் மூடி
+Zone - பகுதி / மண்டலம்
