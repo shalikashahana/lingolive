@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useAuth } from "../context/AuthContext";
 import { READING_PASSAGES, VOCABULARY_LIST } from "../data/mockData";
 import {
   BookOpen,
@@ -14,6 +15,35 @@ export default function Reading() {
   const [selectedPassage, setSelectedPassage] = useState(null);
   const [selectedWordPopover, setSelectedWordPopover] = useState(null);
   const [completedPassages, setCompletedPassages] = useState({});
+  const { user } = useAuth();
+
+  useEffect(() => {
+    async function fetchLearned() {
+      if (user) {
+        try {
+          const token = await user.getIdToken();
+          const res = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/progress/me`, {
+            headers: { Authorization: `Bearer ${token}` }
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.length > 0 && data[0].user_progress) {
+              const completed = {};
+              data[0].user_progress.forEach(p => {
+                if (p.reading_completed) {
+                  completed[p.level_id] = true;
+                }
+              });
+              setCompletedPassages(completed);
+            }
+          }
+        } catch (e) {
+          console.error("Failed to fetch reading progress", e);
+        }
+      }
+    }
+    fetchLearned();
+  }, [user]);
 
   const playAudio = (text) => {
     if ("speechSynthesis" in window) {
@@ -36,8 +66,23 @@ export default function Reading() {
     setSelectedWordPopover(found);
   };
 
-  const markCompleted = (id) => {
+  const markCompleted = async (id) => {
     setCompletedPassages((prev) => ({ ...prev, [id]: true }));
+    if (user) {
+      try {
+        const token = await user.getIdToken();
+        await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/reading/read`, {
+          method: "POST",
+          headers: { 
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ passage_id: id, level_id: id })
+        });
+      } catch (e) {
+        console.error("Failed to update reading progress", e);
+      }
+    }
   };
 
   return (

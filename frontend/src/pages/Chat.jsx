@@ -13,9 +13,12 @@ import {
   Zap
 } from "lucide-react";
 
+import { useAuth } from "../context/AuthContext";
+
 export default function Chat() {
   const [searchParams] = useSearchParams();
   const levelNum = searchParams.get("level") || "13";
+  const { user } = useAuth();
 
   const [inputMessage, setInputMessage] = useState("");
   const [loading, setLoading] = useState(false);
@@ -62,10 +65,17 @@ export default function Chat() {
     setLoading(true);
 
     try {
-      // Try backend endpoint first
-      const res = await fetch("http://localhost:8000/chat/message", {
+      let token = "";
+      if (user) {
+        token = await user.getIdToken();
+      }
+      
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/chat/message`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          ...(token && { Authorization: `Bearer ${token}` })
+        },
         body: JSON.stringify({ message: userText, level: levelNum }),
       });
 

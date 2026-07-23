@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useAuth } from "../context/AuthContext";
 import { VOCABULARY_LIST, CEFR_BANDS } from "../data/mockData";
 import {
   Volume2,
@@ -19,6 +20,35 @@ export default function Vocabulary() {
   const ALPHABET = ["ALL", ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
   const [activeTab, setActiveTab] = useState("flashcards"); // 'flashcards' | 'list'
   const [flippedCards, setFlippedCards] = useState({});
+  const { user } = useAuth();
+
+  useEffect(() => {
+    async function fetchLearned() {
+      if (user) {
+        try {
+          const token = await user.getIdToken();
+          const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/progress/me`, {
+            headers: { Authorization: `Bearer ${token}` }
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.length > 0 && data[0].user_progress) {
+              const allLearned = new Set();
+              data[0].user_progress.forEach(p => {
+                if (p.vocab_learned_ids) {
+                  p.vocab_learned_ids.forEach(id => allLearned.add(id));
+                }
+              });
+              setVocabList(prev => prev.map(v => ({ ...v, learned: allLearned.has(v.id) })));
+            }
+          }
+        } catch (e) {
+          console.error("Failed to fetch learned vocab", e);
+        }
+      }
+    }
+    fetchLearned();
+  }, [user]);
 
   const toggleFlip = (id) => {
     setFlippedCards((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -33,10 +63,31 @@ export default function Vocabulary() {
     }
   };
 
-  const toggleLearned = (id) => {
+  const toggleLearned = async (id) => {
+    const isLearned = vocabList.find(v => v.id === id)?.learned;
     setVocabList((prev) =>
       prev.map((v) => (v.id === id ? { ...v, learned: !v.learned } : v))
     );
+    
+    if (user) {
+      try {
+        const token = await user.getIdToken();
+        const updatedList = vocabList.map((v) => (v.id === id ? { ...v, learned: !v.learned } : v));
+        const newLearnedIds = updatedList.filter(v => v.learned).map(v => v.id);
+        
+        // Post to a general level, e.g., level 1 for now if we don't have per-level vocab mapping
+        await fetch(`${import.meta.env.VITE_API_BASE_URL}/vocabulary/1/learn`, {
+          method: "POST",
+          headers: { 
+            Authorization: `Bearer ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ learned_ids: newLearnedIds })
+        });
+      } catch (e) {
+        console.error("Failed to update learned vocab", e);
+      }
+    }
   };
 
   const filteredVocab = vocabList.filter((v) => {

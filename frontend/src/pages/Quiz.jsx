@@ -20,9 +20,7 @@ export default function Quiz() {
   const { user } = useAuth();
   const levelNum = parseInt(searchParams.get("level") || "13", 10);
 
-  const quizData = SAMPLE_QUIZZES[levelNum] || SAMPLE_QUIZZES[13];
-  const questions = quizData.questions;
-
+  const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [textAnswer, setTextAnswer] = useState("");
@@ -30,6 +28,7 @@ export default function Quiz() {
   const [scoreCount, setScoreCount] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
   const [loadingProgress, setLoadingProgress] = useState(true);
+  const [generatingQuiz, setGeneratingQuiz] = useState(false);
   
   // Track if we are doing initial load so we don't accidentally overwrite DB with default state
   const isInitialLoad = useRef(true);
@@ -76,9 +75,41 @@ export default function Quiz() {
         }
       }
       setSelectedOption(null);
-      setTextAnswer("");
+      // After fetching progress, if we don't have questions stored locally, fetch them from backend
+      const savedQs = localStorage.getItem(`lingolive_quiz_questions_${levelNum}`);
+      if (savedQs) {
+        setQuestions(JSON.parse(savedQs));
+      } else {
+        await generateNewQuiz();
+      }
+
       setLoadingProgress(false);
       isInitialLoad.current = false;
+    };
+
+    const generateNewQuiz = async () => {
+      setGeneratingQuiz(true);
+      if (user) {
+        try {
+          const token = await user.getIdToken();
+          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+          const res = await fetch(`${baseUrl}/quiz/generate/${levelNum}`, {
+            headers: {
+              Authorization: `Bearer ${token}`
+            }
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.questions) {
+              setQuestions(data.questions);
+              localStorage.setItem(`lingolive_quiz_questions_${levelNum}`, JSON.stringify(data.questions));
+            }
+          }
+        } catch (e) {
+          console.error("Failed to generate quiz", e);
+        }
+      }
+      setGeneratingQuiz(false);
     };
 
     fetchProgress();
@@ -204,10 +235,23 @@ export default function Quiz() {
     );
   }
 
-  if (loadingProgress) {
+  if (loadingProgress || generatingQuiz) {
+    return (
+      <div className="flex h-[50vh] flex-col items-center justify-center space-y-4">
+        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#14213D] animate-bounce text-[#C9A227]">
+          <Zap className="h-6 w-6" />
+        </div>
+        <div className="text-[#14213D] font-semibold animate-pulse">
+          {generatingQuiz ? "Gemma is crafting your personalized quiz..." : "Loading Test Progress..."}
+        </div>
+      </div>
+    );
+  }
+
+  if (questions.length === 0) {
     return (
       <div className="flex h-[50vh] items-center justify-center">
-        <div className="text-[#14213D] font-semibold animate-pulse">Loading Test Progress...</div>
+        <div className="text-red-500 font-semibold">Failed to load quiz. Please try again later.</div>
       </div>
     );
   }
@@ -373,6 +417,8 @@ export default function Quiz() {
                 setScoreCount(0);
                 setAnswersSubmitted({});
                 localStorage.removeItem(`lingolive_quiz_progress_${levelNum}`);
+                localStorage.removeItem(`lingolive_quiz_questions_${levelNum}`);
+                window.location.reload();
               }}
               className="flex items-center justify-center gap-2 w-full sm:w-auto rounded-xl border border-[#14213D]/20 bg-white px-6 py-3 font-sans text-sm font-bold text-[#14213D] hover:bg-[#F8F6F0]"
             >

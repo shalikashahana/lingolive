@@ -16,15 +16,39 @@ import {
   X,
   Library,
   Video,
-  MessageCircle
+  MessageCircle,
+  BookA,
+  Globe
 } from "lucide-react";
 
-export default function AppLayout({ children, userStats = { streak: 5, xp: 1420, level: 13, cefr: 'C1' } }) {
+export default function AppLayout({ children, userStats = { streak: 0, xp: 0, level: 1, cefr: 'A1' } }) {
   const { user, logout } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+
+  const availableLanguages = [
+    { code: "en", name: "English", flag: "🇺🇸" },
+    { code: "te", name: "Telugu", flag: "🇮🇳" },
+    { code: "ml", name: "Malayalam", flag: "🇮🇳" },
+    { code: "hi", name: "Hindi", flag: "🇮🇳" },
+    { code: "ar", name: "Arabic", flag: "🇸🇦" },
+    { code: "ko", name: "Korean", flag: "🇰🇷" },
+    { code: "th", name: "Thai", flag: "🇹🇭" },
+    { code: "zh", name: "Chinese", flag: "🇨🇳" },
+    { code: "ja", name: "Japanese", flag: "🇯🇵" },
+  ];
+
+  const changeLanguage = (code) => {
+    localStorage.setItem("lingolive_target_language", code);
+    setLangDropdownOpen(false);
+    window.location.reload(); // Reload to reflect the new target language content
+  };
+
+  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const navItems = [
     { label: "Quiz Dashboard", path: "/", icon: Map },
@@ -34,6 +58,7 @@ export default function AppLayout({ children, userStats = { streak: 5, xp: 1420,
     { label: "Quizzes", path: "/quiz", icon: Zap, hidden: true },
     { label: "Sentences", path: "/sentences", icon: MessageCircle },
     { label: "Idioms", path: "/idioms", icon: Sparkles },
+    { label: "Grammar", path: "/grammar", icon: BookA },
     { label: "Analytics", path: "/analytics", icon: BarChart3 },
     { label: "Story", path: "/story", icon: Library },
     { label: "Videos", path: "/videos", icon: Video },
@@ -47,6 +72,66 @@ export default function AppLayout({ children, userStats = { streak: 5, xp: 1420,
       console.error(e);
     }
   };
+
+  if (currentLanguageCode !== "en") {
+    return (
+      <div className="flex h-screen w-full flex-col items-center justify-center bg-[#F8F6F0] font-sans text-[#14213D] relative overflow-hidden">
+        {/* Top Right Language Switcher for the standalone screen */}
+        <div className="absolute top-4 right-4 md:right-8 z-30">
+          <div className="relative">
+            <button
+              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              className="flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white text-[#14213D] shadow-sm hover:border-[#14213D]/30 transition-all"
+            >
+              <span className="text-lg leading-none">{currentLanguage.flag}</span>
+              <span className="hidden md:inline font-sans text-sm font-bold uppercase">
+                {currentLanguage.code}
+              </span>
+            </button>
+            {langDropdownOpen && (
+              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+                {availableLanguages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
+                      currentLanguageCode === lang.code
+                        ? "bg-[#14213D]/5 text-[#C9A227]"
+                        : "text-[#14213D] hover:bg-[#14213D]/5"
+                    }`}
+                  >
+                    <span>{lang.flag}</span>
+                    <span>{lang.name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center text-center px-6 animate-in zoom-in-95 duration-500">
+          <div className="flex h-24 w-24 items-center justify-center rounded-[2rem] bg-[#14213D] text-[#C9A227] shadow-2xl mb-8 rotate-3 hover:rotate-6 transition-transform">
+            <Globe className="h-12 w-12" />
+          </div>
+          <h1 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-[#14213D] mb-4">
+            {currentLanguage.name} Course
+            <br />
+            <span className="text-[#C9A227]">Coming Soon</span>
+          </h1>
+          <p className="font-sans text-lg sm:text-xl text-[#14213D]/70 max-w-lg mb-10 leading-relaxed">
+            Our language experts and AI tutors are currently building a world-class curriculum for {currentLanguage.name}. 
+          </p>
+          <button
+            onClick={() => changeLanguage("en")}
+            className="group flex items-center gap-2 rounded-2xl bg-[#14213D] px-8 py-4 font-sans text-base font-bold text-white shadow-lg hover:bg-[#14213D]/90 transition-all hover:scale-105 active:scale-95"
+          >
+            <span>Switch to English</span>
+            <span className="text-[#C9A227] group-hover:translate-x-1 transition-transform">→</span>
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex h-screen overflow-hidden bg-[#F8F6F0] font-sans text-[#14213D] selection:bg-[#C9A227]/30">
@@ -226,7 +311,41 @@ export default function AppLayout({ children, userStats = { streak: 5, xp: 1420,
 
       {/* Main Content Area */}
       <main className="flex-1 overflow-y-auto pt-16 md:pt-0 relative bg-gradient-to-br from-[#F8F6F0] to-[#f0efe9]">
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 pb-20">
+        
+        {/* Top Right Language Switcher */}
+        <div className="absolute top-4 right-4 md:right-8 z-30">
+          <div className="relative">
+            <button
+              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              className="flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white text-[#14213D] shadow-sm hover:border-[#14213D]/30 transition-all"
+            >
+              <span className="text-lg leading-none">{currentLanguage.flag}</span>
+              <span className="hidden md:inline font-sans text-sm font-bold uppercase">
+                {currentLanguage.code}
+              </span>
+            </button>
+            {langDropdownOpen && (
+              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+                {availableLanguages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
+                      currentLanguageCode === lang.code
+                        ? "bg-[#14213D]/5 text-[#C9A227]"
+                        : "text-[#14213D] hover:bg-[#14213D]/5"
+                    }`}
+                  >
+                    <span>{lang.flag}</span>
+                    <span>{lang.name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 pb-20 mt-4 md:mt-12">
           {children}
         </div>
       </main>

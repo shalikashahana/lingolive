@@ -12,8 +12,10 @@ import Story from "./pages/Story";
 import Videos from "./pages/Videos";
 import Sentences from "./pages/Sentences";
 import Idioms from "./pages/Idioms";
+import Grammar from "./pages/Grammar";
+import SelectLanguage from "./pages/SelectLanguage";
 
-function PrivateRoute({ children }) {
+function PrivateRoute({ children, checkLanguage = true }) {
   const { user, loading } = useAuth();
   if (loading) {
     return (
@@ -22,7 +24,15 @@ function PrivateRoute({ children }) {
       </div>
     );
   }
+  
   // In demo/dev mode, allow accessing platform routes seamlessly
+  if (checkLanguage) {
+    const lang = localStorage.getItem("lingolive_target_language");
+    if (!lang) {
+      return <Navigate to="/select-language" replace />;
+    }
+  }
+
   return children;
 }
 
@@ -32,6 +42,14 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route 
+            path="/select-language" 
+            element={
+              <PrivateRoute checkLanguage={false}>
+                <SelectLanguage />
+              </PrivateRoute>
+            } 
+          />
           <Route
             path="/*"
             element={
@@ -49,6 +67,7 @@ export default function App() {
                     <Route path="/videos" element={<Videos />} />
                     <Route path="/sentences" element={<Sentences />} />
                     <Route path="/idioms" element={<Idioms />} />
+                    <Route path="/grammar" element={<Grammar />} />
                     <Route path="*" element={<Navigate to="/" replace />} />
                   </Routes>
                 </AppLayout>

@@ -20,6 +20,55 @@ async def get_my_progress(user: dict = Depends(get_current_user)):
     )
     return result.data
 
+@router.get("/dashboard")
+async def get_dashboard_levels(user: dict = Depends(get_current_user)):
+    firebase_uid = user.get("uid")
+    user_res = supabase.table("users").select("id, current_level").eq("firebase_uid", firebase_uid).single().execute()
+    if not user_res.data:
+        return {"error": "User not found"}
+        
+    user_id = user_res.data["id"]
+    current_level = user_res.data["current_level"]
+
+    # Get all 100 levels
+    levels_res = supabase.table("levels").select("*").order("level_number").execute()
+    levels = levels_res.data
+
+    # Get all progress for this user
+    progress_res = supabase.table("user_progress").select("*").eq("user_id", user_id).execute()
+    progress_map = {p["level_id"]: p for p in progress_res.data}
+
+    dashboard_levels = []
+    for lvl in levels:
+        level_number = lvl["level_number"]
+        lvl_id = lvl["id"]
+        prog = progress_map.get(lvl_id, {})
+        
+        status = "locked"
+        stars = 0
+        score = prog.get("quiz_best_score", 0)
+
+        if level_number < current_level:
+            status = "completed"
+            stars = 3 # You could calculate this based on score if needed
+        elif level_number == current_level:
+            status = "unlocked"
+            # check if in-progress based on quiz_state or something
+            if prog.get("quiz_state") and len(prog.get("quiz_state")) > 0:
+                status = "in-progress"
+
+        dashboard_levels.append({
+            **lvl,
+            "status": status,
+            "stars": stars,
+            "score": score
+        })
+
+    return {
+        "current_level": current_level,
+        "levels": dashboard_levels
+    }
+
 from pydantic import BaseModel
 from typing import Optional, Dict, Any
 

@@ -3292,12 +3292,9 @@ export const SAMPLE_QUIZZES = {
 };
 
 export const INITIAL_ANALYTICS = {
+  // Overview
   streak_days: 0,
   xp_points: 0,
-  words_learned_count: 0,
-  stories_read_count: 0,
-  conversations_count: 0,
-  average_accuracy: 0,
   cefr_distribution: [
     { band: 'A1', percentage: 100 },
     { band: 'A2', percentage: 0 },
@@ -3305,5 +3302,29 @@ export const INITIAL_ANALYTICS = {
     { band: 'B2', percentage: 0 },
     { band: 'C1', percentage: 0 },
     { band: 'C2', percentage: 0 }
-  ]
+  ],
+  
+  // Vocabulary & Idioms
+  words_learned_count: 0,
+  idioms_mastered_count: 0,
+  sentences_practiced_count: 0,
+  vocab_accuracy: 0,
+
+  // Reading & Stories
+  stories_read_count: 0,
+  reading_comprehension_score: 0,
+  reading_speed_wpm: 0,
+
+  // AI Chat & Speaking
+  conversations_count: 0,
+  gemma_skills: {
+    grammatical_accuracy: 0,
+    vocabulary_variety: 0,
+    pronunciation: 0,
+    conversational_fluency: 0
+  },
+
+  // Quizzes & Grammar
+  average_accuracy: 0,
+  grammar_modules_completed: 0
 };

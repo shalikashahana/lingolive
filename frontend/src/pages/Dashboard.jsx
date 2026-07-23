@@ -1,5 +1,6 @@
-import { useState, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 import { generate100Levels, CEFR_BANDS } from "../data/mockData";
 import {
   Zap,
@@ -13,31 +14,77 @@ import {
   Trophy,
   Filter,
   X,
-  ChevronRight
+  ChevronRight,
+  Loader2
 } from "lucide-react";
 
 export default function Dashboard() {
   const navigate = useNavigate();
-  const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+  const { user } = useAuth();
   
-  const levels = useMemo(() => {
-    const defaultLevels = generate100Levels();
-    return defaultLevels.map(lvl => {
-      if (lvl.level_number < maxUnlocked) {
-        return { ...lvl, status: 'completed', stars: 3 };
-      } else if (lvl.level_number === maxUnlocked) {
-        return { ...lvl, status: 'unlocked' };
-      } else {
-        return { ...lvl, status: 'locked' };
-      }
-    });
-  }, [maxUnlocked]);
+  const [levels, setLevels] = useState([]);
+  const [currentLevel, setCurrentLevel] = useState(null);
+  const [loading, setLoading] = useState(true);
+  
   const [selectedCefr, setSelectedCefr] = useState("ALL");
   const [selectedStatus, setSelectedStatus] = useState("ALL");
   const [selectedLevelModal, setSelectedLevelModal] = useState(null);
 
+  useEffect(() => {
+    async function fetchDashboard() {
+      let dataLevels = [];
+      let dataCurrentLevel = 1;
+      let usedMock = false;
+
+      if (user) {
+        try {
+          const token = await user.getIdToken();
+          const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/progress/dashboard`, {
+            headers: { Authorization: `Bearer ${token}` }
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data.levels && data.levels.length > 0) {
+              dataLevels = data.levels;
+              dataCurrentLevel = data.current_level;
+            } else {
+              usedMock = true;
+            }
+          } else {
+            usedMock = true;
+          }
+        } catch (err) {
+          console.error("Failed to fetch dashboard data:", err);
+          usedMock = true;
+        }
+      } else {
+        usedMock = true;
+      }
+
+      if (usedMock) {
+        // Fallback to mock data if backend isn't seeded or user not logged in
+        const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+        dataCurrentLevel = maxUnlocked;
+        const defaultLevels = generate100Levels();
+        dataLevels = defaultLevels.map(lvl => {
+          if (lvl.level_number < maxUnlocked) {
+            return { ...lvl, status: 'completed', stars: 3, score: 90 };
+          } else if (lvl.level_number === maxUnlocked) {
+            return { ...lvl, status: 'unlocked', score: 0 };
+          } else {
+            return { ...lvl, status: 'locked', score: 0 };
+          }
+        });
+      }
+
+      setLevels(dataLevels);
+      setCurrentLevel(dataLevels.find(l => l.level_number === dataCurrentLevel) || dataLevels[0]);
+      setLoading(false);
+    }
+    fetchDashboard();
+  }, [user]);
+
   const completedCount = levels.filter((l) => l.status === "completed").length;
-  const currentLevel = levels.find((l) => l.status === "unlocked") || levels[0];
 
   // Filtering
   const filteredLevels = levels.filter((l) => {
@@ -45,6 +92,47 @@ export default function Dashboard() {
     if (selectedStatus !== "ALL" && l.status !== selectedStatus) return false;
     return true;
   });
+
+  const targetLanguage = localStorage.getItem("lingolive_target_language") || "en";
+
+  if (targetLanguage !== "en") {
+    const langNames = {
+      te: "Telugu", ml: "Malayalam", hi: "Hindi", ar: "Arabic", 
+      ko: "Korean", th: "Thai", zh: "Chinese", ja: "Japanese"
+    };
+    const langName = langNames[targetLanguage] || targetLanguage;
+
+    return (
+      <div className="flex min-h-[70vh] w-full flex-col items-center justify-center text-center p-6 space-y-6">
+        <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-[#14213D]/5 text-[#14213D]/20 mb-4 shadow-sm">
+          <BookOpen className="h-10 w-10 text-[#C9A227]" />
+        </div>
+        <h1 className="font-display text-3xl font-bold text-[#14213D]">
+          {langName} Course Coming Soon
+        </h1>
+        <p className="max-w-md font-sans text-[#14213D]/60 leading-relaxed">
+          We are currently working hard to bring you the best learning experience for {langName}. 
+          Check back later as we add new content and data!
+        </p>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div className="flex h-[60vh] w-full items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-[#C9A227]" />
+      </div>
+    );
+  }
+  
+  if (!currentLevel) {
+    return (
+      <div className="flex h-[60vh] w-full items-center justify-center text-[#14213D] font-sans">
+        Failed to load levels. Ensure backend is running and database is seeded.
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-8 pb-16">
