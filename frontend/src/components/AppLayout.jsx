@@ -73,7 +73,9 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     }
   };
 
-  if (currentLanguageCode !== "en") {
+  // Only bypass the 'Coming Soon' screen if English, or if it's Telugu AND we are on the Dashboard (/)
+  const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard");
+  if (currentLanguageCode !== "en" && !isTeluguDashboard) {
     return (
       <div className="flex h-screen w-full flex-col items-center justify-center bg-[#F8F6F0] font-sans text-[#14213D] relative overflow-hidden">
         {/* Top Right Language Switcher for the standalone screen */}
@@ -137,7 +139,8 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     <div className="flex h-screen overflow-hidden bg-[#F8F6F0] font-sans text-[#14213D] selection:bg-[#C9A227]/30">
       
       {/* Desktop Sidebar */}
-      <aside className="hidden md:flex flex-col w-72 border-r border-[#14213D]/10 bg-white/80 backdrop-blur-xl z-20 shadow-[4px_0_24px_rgba(20,33,61,0.02)]">
+      {!isTeluguDashboard && (
+        <aside className="hidden md:flex flex-col w-72 border-r border-[#14213D]/10 bg-white/80 backdrop-blur-xl z-20 shadow-[4px_0_24px_rgba(20,33,61,0.02)]">
         {/* Brand logo */}
         <div className="p-6 border-b border-[#14213D]/5">
           <Link to="/" className="flex items-center gap-3 font-display text-2xl font-bold tracking-tight text-[#14213D]">
@@ -238,9 +241,11 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
           </div>
         </div>
       </aside>
+      )}
 
       {/* Mobile Header (Hidden on Desktop) */}
-      <div className="md:hidden absolute top-0 left-0 w-full z-40 flex flex-col">
+      {!isTeluguDashboard && (
+        <div className="md:hidden absolute top-0 left-0 w-full z-40 flex flex-col">
         <header className="border-b border-[#14213D]/10 bg-white/90 backdrop-blur-md">
           <div className="flex items-center justify-between px-4 py-3">
             <Link to="/" className="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-[#14213D]">
@@ -308,12 +313,13 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
           </div>
         )}
       </div>
+      )}
 
       {/* Main Content Area */}
       <main className="flex-1 overflow-y-auto pt-16 md:pt-0 relative bg-gradient-to-br from-[#F8F6F0] to-[#f0efe9]">
         
-        {/* Top Right Language Switcher */}
-        <div className="absolute top-4 right-4 md:right-8 z-30">
+        {/* Top Left Language Switcher */}
+        <div className="absolute top-4 left-4 md:left-8 z-30">
           <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
@@ -325,7 +331,7 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
               </span>
             </button>
             {langDropdownOpen && (
-              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
                 {availableLanguages.map((lang) => (
                   <button
                     key={lang.code}

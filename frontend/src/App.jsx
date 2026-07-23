@@ -24,8 +24,10 @@ function PrivateRoute({ children, checkLanguage = true }) {
       </div>
     );
   }
-  
-  // In demo/dev mode, allow accessing platform routes seamlessly
+  if (!user) {
+    return <Navigate to="/login" replace />;
+  }
+
   if (checkLanguage) {
     const lang = localStorage.getItem("lingolive_target_language");
     if (!lang) {

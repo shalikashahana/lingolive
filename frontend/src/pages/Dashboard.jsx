@@ -17,6 +17,7 @@ import {
   ChevronRight,
   Loader2
 } from "lucide-react";
+import TeluguDashboard from "./TeluguDashboard";
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -95,9 +96,13 @@ export default function Dashboard() {
 
   const targetLanguage = localStorage.getItem("lingolive_target_language") || "en";
 
+  if (targetLanguage === "te") {
+    return <TeluguDashboard />;
+  }
+
   if (targetLanguage !== "en") {
     const langNames = {
-      te: "Telugu", ml: "Malayalam", hi: "Hindi", ar: "Arabic", 
+      ml: "Malayalam", hi: "Hindi", ar: "Arabic", 
       ko: "Korean", th: "Thai", zh: "Chinese", ja: "Japanese"
     };
     const langName = langNames[targetLanguage] || targetLanguage;

@@ -1,26 +1,38 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import {
   signInWithPopup,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import { auth, googleProvider } from "../lib/firebase";
+import { useAuth } from "../context/AuthContext";
 import GoogleButton from "../components/auth/GoogleButton";
 import SentenceAssembly from "../components/auth/SentenceAssembly";
 
 export default function Login() {
+  const { user } = useAuth();
+  const navigate = useNavigate();
   const [mode, setMode] = useState("signin"); // 'signin' | 'signup'
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
+  useEffect(() => {
+    if (user) {
+      navigate("/dashboard");
+    }
+  }, [user, navigate]);
+
   const handleGoogle = async () => {
     setError("");
     setLoading(true);
     try {
       await signInWithPopup(auth, googleProvider);
+      navigate("/dashboard");
     } catch (err) {
+      console.error(err);
       setError("Couldn't sign in with Google. Try again.");
     } finally {
       setLoading(false);
@@ -37,6 +49,7 @@ export default function Login() {
       } else {
         await createUserWithEmailAndPassword(auth, email, password);
       }
+      navigate("/dashboard");
     } catch (err) {
       setError(
         mode === "signin"
