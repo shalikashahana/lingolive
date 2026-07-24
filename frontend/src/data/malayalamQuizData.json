@@ -1,0 +1,1274 @@
+{
+  "language": "Malayalam",
+  "code": "ml",
+  "total_questions": 140,
+  "modules": [
+    {
+      "module": 1,
+      "description": "Interactive Quiz Test with Options",
+      "total_questions": 140,
+      "quiz": [
+        {
+          "q_no": 1,
+          "malayalam": "വെള്ളം",
+          "english_transliteration": "Vellam",
+          "tamil_transliteration": "வெள்ளம்",
+          "options": { "A": "தண்ணீர்", "B": "பால்", "C": "தேநீர்", "D": "மோர்" },
+          "correct_option": "A",
+          "english_meaning": "Water"
+        },
+        {
+          "q_no": 2,
+          "malayalam": "പുസ്തകം",
+          "english_transliteration": "Pusthakam",
+          "tamil_transliteration": "புஸ்தகம்",
+          "options": { "A": "பேனா", "B": "புத்தகம்", "C": "காகிதம்", "D": "பெட்டி" },
+          "correct_option": "B",
+          "english_meaning": "Book"
+        },
+        {
+          "q_no": 3,
+          "malayalam": "സ്നേഹം",
+          "english_transliteration": "Sneham",
+          "tamil_transliteration": "ஸ்நேஹம்",
+          "options": { "A": "கோபம்", "B": "பயம்", "C": "அன்பு", "D": "துக்கம்" },
+          "correct_option": "C",
+          "english_meaning": "Love"
+        },
+        {
+          "q_no": 4,
+          "malayalam": "സൂര്യൻ",
+          "english_transliteration": "Sooryan",
+          "tamil_transliteration": "ஸூர்யன்",
+          "options": { "A": "சந்திரன்", "B": "நட்சத்திரம்", "C": "சூரியன்", "D": "வானம்" },
+          "correct_option": "C",
+          "english_meaning": "Sun"
+        },
+        {
+          "q_no": 5,
+          "malayalam": "മഴ",
+          "english_transliteration": "Mazha",
+          "tamil_transliteration": "மழ",
+          "options": { "A": "மழை", "B": "காற்று", "C": "வெயில்", "D": "மண்" },
+          "correct_option": "A",
+          "english_meaning": "Rain"
+        },
+        {
+          "q_no": 6,
+          "malayalam": "സമയം",
+          "english_transliteration": "Samayam",
+          "tamil_transliteration": "ஸமயம்",
+          "options": { "A": "நாள்", "B": "நேரம்", "C": "ஆண்டு", "D": "மாதம்" },
+          "correct_option": "B",
+          "english_meaning": "Time"
+        },
+        {
+          "q_no": 7,
+          "malayalam": "സന്തോഷം",
+          "english_transliteration": "Santhosham",
+          "tamil_transliteration": "ஸந்தோஷம்",
+          "options": { "A": "துக்கம்", "B": "கோபம்", "C": "மகிழ்ச்சி", "D": "பயம்" },
+          "correct_option": "C",
+          "english_meaning": "Happiness"
+        },
+        {
+          "q_no": 8,
+          "malayalam": "പൂവ്",
+          "english_transliteration": "Poovu",
+          "tamil_transliteration": "பூவ்",
+          "options": { "A": "மரம்", "B": "இலை", "C": "வேர்", "D": "பூ" },
+          "correct_option": "D",
+          "english_meaning": "Flower"
+        },
+        {
+          "q_no": 9,
+          "malayalam": "വഴി",
+          "english_transliteration": "Vazhi",
+          "tamil_transliteration": "வழி",
+          "options": { "A": "வழி", "B": "வீடு", "C": "கடை", "D": "மலை" },
+          "correct_option": "A",
+          "english_meaning": "Way"
+        },
+        {
+          "q_no": 10,
+          "malayalam": "വിജയം",
+          "english_transliteration": "Vijayam",
+          "tamil_transliteration": "விஜயம்",
+          "options": { "A": "தோல்வி", "B": "வெற்றி", "C": "முயற்சி", "D": "தவறு" },
+          "correct_option": "B",
+          "english_meaning": "Success"
+        },
+        {
+          "q_no": 11,
+          "malayalam": "അമ്മ",
+          "english_transliteration": "Amma",
+          "tamil_transliteration": "அம்மா",
+          "options": { "A": "அம்மா", "B": "அப்பா", "C": "சகோதரன்", "D": "நண்பன்" },
+          "correct_option": "A",
+          "english_meaning": "Mother"
+        },
+        {
+          "q_no": 12,
+          "malayalam": "അച്ഛൻ",
+          "english_transliteration": "Achan",
+          "tamil_transliteration": "அச்சன்",
+          "options": { "A": "அம்மா", "B": "அப்பா", "C": "தம்பி", "D": "தாத்தா" },
+          "correct_option": "B",
+          "english_meaning": "Father"
+        },
+        {
+          "q_no": 13,
+          "malayalam": "വീട്",
+          "english_transliteration": "Veedu",
+          "tamil_transliteration": "வீடு",
+          "options": { "A": "பள்ளி", "B": "கடை", "C": "வீடு", "D": "மருத்துவமனை" },
+          "correct_option": "C",
+          "english_meaning": "House"
+        },
+        {
+          "q_no": 14,
+          "malayalam": "ഭക്ഷണം",
+          "english_transliteration": "Bhakshanam",
+          "tamil_transliteration": "பக்ஷணம்",
+          "options": { "A": "தண்ணீர்", "B": "உணவு", "C": "பழம்", "D": "பால்" },
+          "correct_option": "B",
+          "english_meaning": "Food"
+        },
+        {
+          "q_no": 15,
+          "malayalam": "മരം",
+          "english_transliteration": "Maram",
+          "tamil_transliteration": "மரம்",
+          "options": { "A": "செடி", "B": "மரம்", "C": "புல்", "D": "பூ" },
+          "correct_option": "B",
+          "english_meaning": "Tree"
+        },
+        {
+          "q_no": 16,
+          "malayalam": "പണം",
+          "english_transliteration": "Panam",
+          "tamil_transliteration": "பணம்",
+          "options": { "A": "பணம்", "B": "தங்கம்", "C": "நிலம்", "D": "வீடு" },
+          "correct_option": "A",
+          "english_meaning": "Money"
+        },
+        {
+          "q_no": 17,
+          "malayalam": "കണ്ണ്",
+          "english_transliteration": "Kannu",
+          "tamil_transliteration": "கண்ணு",
+          "options": { "A": "காது", "B": "மூக்கு", "C": "கண்", "D": "வாய்" },
+          "correct_option": "C",
+          "english_meaning": "Eye"
+        },
+        {
+          "q_no": 18,
+          "malayalam": "കൈ",
+          "english_transliteration": "Kai",
+          "tamil_transliteration": "கை",
+          "options": { "A": "கால்", "B": "கை", "C": "தலை", "D": "விரல்" },
+          "correct_option": "B",
+          "english_meaning": "Hand"
+        },
+        {
+          "q_no": 19,
+          "malayalam": "കാൽ",
+          "english_transliteration": "Kaal",
+          "tamil_transliteration": "கால்",
+          "options": { "A": "கை", "B": "கால்", "C": "தோள்", "D": "முதுகு" },
+          "correct_option": "B",
+          "english_meaning": "Leg"
+        },
+        {
+          "q_no": 20,
+          "malayalam": "തല",
+          "english_transliteration": "Thala",
+          "tamil_transliteration": "தல",
+          "options": { "A": "முகம்", "B": "தலை", "C": "கழுத்து", "D": "முடி" },
+          "correct_option": "B",
+          "english_meaning": "Head"
+        },
+        {
+          "q_no": 21,
+          "malayalam": "പൂച്ച",
+          "english_transliteration": "Poocha",
+          "tamil_transliteration": "பூச்ச",
+          "options": { "A": "நாய்", "B": "பூனை", "C": "புலி", "D": "சிங்கம்" },
+          "correct_option": "B",
+          "english_meaning": "Cat"
+        },
+        {
+          "q_no": 22,
+          "malayalam": "നായ",
+          "english_transliteration": "Naya",
+          "tamil_transliteration": "நாய",
+          "options": { "A": "நாய்", "B": "பூனை", "C": "பசு", "D": "ஆடு" },
+          "correct_option": "A",
+          "english_meaning": "Dog"
+        },
+        {
+          "q_no": 23,
+          "malayalam": "പശു",
+          "english_transliteration": "Pashu",
+          "tamil_transliteration": "பஶு",
+          "options": { "A": "எருமை", "B": "ஆடு", "C": "பசு", "D": "குதிரை" },
+          "correct_option": "C",
+          "english_meaning": "Cow"
+        },
+        {
+          "q_no": 24,
+          "malayalam": "ആന",
+          "english_transliteration": "Aana",
+          "tamil_transliteration": "ஆன",
+          "options": { "A": "குதிரை", "B": "யானை", "C": "ஒட்டகம்", "D": "கழுதை" },
+          "correct_option": "B",
+          "english_meaning": "Elephant"
+        },
+        {
+          "q_no": 25,
+          "malayalam": "പക്ഷി",
+          "english_transliteration": "Pakshi",
+          "tamil_transliteration": "பக்ஷி",
+          "options": { "A": "விலங்கு", "B": "பறவை", "C": "பூச்சி", "D": "மீன்" },
+          "correct_option": "B",
+          "english_meaning": "Bird"
+        },
+        {
+          "q_no": 26,
+          "malayalam": "ചന്ദ്രൻ",
+          "english_transliteration": "Chandran",
+          "tamil_transliteration": "சந்திரன்",
+          "options": { "A": "சூரியன்", "B": "சந்திரன்", "C": "நட்சத்திரம்", "D": "மேகம்" },
+          "correct_option": "B",
+          "english_meaning": "Moon"
+        },
+        {
+          "q_no": 27,
+          "malayalam": "ആകാശം",
+          "english_transliteration": "Aakasham",
+          "tamil_transliteration": "ஆாகாசம்",
+          "options": { "A": "பூமி", "B": "வானம்", "C": "கடல்", "D": "மலை" },
+          "correct_option": "B",
+          "english_meaning": "Sky"
+        },
+        {
+          "q_no": 28,
+          "malayalam": "ഭൂമി",
+          "english_transliteration": "Bhoomi",
+          "tamil_transliteration": "பூமி",
+          "options": { "A": "வானம்", "B": "பூமி", "C": "கிரகம்", "D": "நிலம்" },
+          "correct_option": "B",
+          "english_meaning": "Earth"
+        },
+        {
+          "q_no": 29,
+          "malayalam": "തീ",
+          "english_transliteration": "Thee",
+          "tamil_transliteration": "தீ",
+          "options": { "A": "நீர்", "B": "காற்று", "C": "நெருப்பு", "D": "மண்" },
+          "correct_option": "C",
+          "english_meaning": "Fire"
+        },
+        {
+          "q_no": 30,
+          "malayalam": "കാറ്റ്",
+          "english_transliteration": "Kaattu",
+          "tamil_transliteration": "காட்டு",
+          "options": { "A": "காற்று", "B": "மழை", "C": "வெயில்", "D": "பனி" },
+          "correct_option": "A",
+          "english_meaning": "Wind"
+        },
+        {
+          "q_no": 31,
+          "malayalam": "പാൽ",
+          "english_transliteration": "Paal",
+          "tamil_transliteration": "பால்",
+          "options": { "A": "தண்ணீர்", "B": "பால்", "C": "மோர்", "D": "தயிர்" },
+          "correct_option": "B",
+          "english_meaning": "Milk"
+        },
+        {
+          "q_no": 32,
+          "malayalam": "ചായ",
+          "english_transliteration": "Chaya",
+          "tamil_transliteration": "சாய",
+          "options": { "A": "காபி", "B": "தேநீர்", "C": "பால்", "D": "தண்ணீர்" },
+          "correct_option": "B",
+          "english_meaning": "Tea"
+        },
+        {
+          "q_no": 33,
+          "malayalam": "കാപ്പി",
+          "english_transliteration": "Kappi",
+          "tamil_transliteration": "காப்பி",
+          "options": { "A": "தேநீர்", "B": "காபி", "C": "பால்", "D": "ஜூஸ்" },
+          "correct_option": "B",
+          "english_meaning": "Coffee"
+        },
+        {
+          "q_no": 34,
+          "malayalam": "ഉപ്പ്",
+          "english_transliteration": "Uppu",
+          "tamil_transliteration": "உப்பு",
+          "options": { "A": "சர்க்கரை", "B": "புளி", "C": "உப்பு", "D": "காரம்" },
+          "correct_option": "C",
+          "english_meaning": "Salt"
+        },
+        {
+          "q_no": 35,
+          "malayalam": "പഞ്ചസാര",
+          "english_transliteration": "Panchasara",
+          "tamil_transliteration": "பஞ்சஸாரா",
+          "options": { "A": "உப்பு", "B": "சர்க்கரை", "C": "தேென்", "D": "வெல்லம்" },
+          "correct_option": "B",
+          "english_meaning": "Sugar"
+        },
+        {
+          "q_no": 36,
+          "malayalam": "പേന",
+          "english_transliteration": "Pena",
+          "tamil_transliteration": "பேன",
+          "options": { "A": "பென்சில்", "B": "பேனா", "C": "அழிப்பான்", "D": "புத்தகம்" },
+          "correct_option": "B",
+          "english_meaning": "Pen"
+        },
+        {
+          "q_no": 37,
+          "malayalam": "സ്കൂൾ",
+          "english_transliteration": "School",
+          "tamil_transliteration": "ஸ்கூல்",
+          "options": { "A": "கல்லூரி", "B": "பள்ளி", "C": "வீடு", "D": "மைதானம்" },
+          "correct_option": "B",
+          "english_meaning": "School"
+        },
+        {
+          "q_no": 38,
+          "malayalam": "വാഹനം",
+          "english_transliteration": "Vahanam",
+          "tamil_transliteration": "வாஹனம்",
+          "options": { "A": "வீடு", "B": "வாகனம்", "C": "பாதை", "D": "பாலம்" },
+          "correct_option": "B",
+          "english_meaning": "Vehicle"
+        },
+        {
+          "q_no": 39,
+          "malayalam": "കടൽ",
+          "english_transliteration": "Kadal",
+          "tamil_transliteration": "கடல்",
+          "options": { "A": "ஆறு", "B": "குளம்", "C": "கடல்", "D": "ஏரி" },
+          "correct_option": "C",
+          "english_meaning": "Sea"
+        },
+        {
+          "q_no": 40,
+          "malayalam": "നദി",
+          "english_transliteration": "Nadi",
+          "tamil_transliteration": "நதி",
+          "options": { "A": "கடல்", "B": "ஆறு", "C": "குளம்", "D": "கிணறு" },
+          "correct_option": "B",
+          "english_meaning": "River"
+        },
+        {
+          "q_no": 41,
+          "malayalam": "മല",
+          "english_transliteration": "Mala",
+          "tamil_transliteration": "மல",
+          "options": { "A": "காடு", "B": "மலை", "C": "சமவெளி", "D": "பள்ளத்தாக்கு" },
+          "correct_option": "B",
+          "english_meaning": "Mountain"
+        },
+        {
+          "q_no": 42,
+          "malayalam": "കാട്",
+          "english_transliteration": "Kaadu",
+          "tamil_transliteration": "காடு",
+          "options": { "A": "மலை", "B": "காடு", "C": "வயல்", "D": "தோட்டம்" },
+          "correct_option": "B",
+          "english_meaning": "Forest"
+        },
+        {
+          "q_no": 43,
+          "malayalam": "നല്ലത്",
+          "english_transliteration": "Nallathu",
+          "tamil_transliteration": "நல்லது",
+          "options": { "A": "கெட்டது", "B": "நல்லது", "C": "தவறு", "D": "சரி" },
+          "correct_option": "B",
+          "english_meaning": "Good"
+        },
+        {
+          "q_no": 44,
+          "malayalam": "ചീത്ത",
+          "english_transliteration": "Cheetha",
+          "tamil_transliteration": "சீத்த",
+          "options": { "A": "நல்லது", "B": "கெட்டது", "C": "அழகு", "D": "பெரியது" },
+          "correct_option": "B",
+          "english_meaning": "Bad"
+        },
+        {
+          "q_no": 45,
+          "malayalam": "ശരി",
+          "english_transliteration": "Shari",
+          "tamil_transliteration": "ஶரி",
+          "options": { "A": "தவறு", "B": "சரி", "C": "உண்மை", "D": "பொய்" },
+          "correct_option": "B",
+          "english_meaning": "Correct"
+        },
+        {
+          "q_no": 46,
+          "malayalam": "തെറ്റ്",
+          "english_transliteration": "Thettu",
+          "tamil_transliteration": "தெட்டு",
+          "options": { "A": "சரி", "B": "தவறு", "C": "உண்மை", "D": "நன்மை" },
+          "correct_option": "B",
+          "english_meaning": "Wrong"
+        },
+        {
+          "q_no": 47,
+          "malayalam": "സത്യം",
+          "english_transliteration": "Sathyam",
+          "tamil_transliteration": "ஸத்யம்",
+          "options": { "A": "பொய்", "B": "உண்மை", "C": "ரகசியம்", "D": "கதை" },
+          "correct_option": "B",
+          "english_meaning": "Truth"
+        },
+        {
+          "q_no": 48,
+          "malayalam": "കോപം",
+          "english_transliteration": "Kopam",
+          "tamil_transliteration": "கோபம்",
+          "options": { "A": "மகிழ்ச்சி", "B": "கோபம்", "C": "அன்பு", "D": "அமைதி" },
+          "correct_option": "B",
+          "english_meaning": "Anger"
+        },
+        {
+          "q_no": 49,
+          "malayalam": "ഭയം",
+          "english_transliteration": "Bhayam",
+          "tamil_transliteration": "பயம்",
+          "options": { "A": "தைரியம்", "B": "பயம்", "C": "மகிழ்ச்சி", "D": "ஆச்சரியம்" },
+          "correct_option": "B",
+          "english_meaning": "Fear"
+        },
+        {
+          "q_no": 50,
+          "malayalam": "മുഖം",
+          "english_transliteration": "Mukham",
+          "tamil_transliteration": "முகம்",
+          "options": { "A": "தலை", "B": "முகம்", "C": "கண்", "D": "காது" },
+          "correct_option": "B",
+          "english_meaning": "Face"
+        },
+        {
+          "q_no": 51,
+          "malayalam": "രക്തം",
+          "english_transliteration": "Raktham",
+          "tamil_transliteration": "ரக்தம்",
+          "options": { "A": "நீர்", "B": "ரத்தம்", "C": "வியர்வை", "D": "கண்ணீர்" },
+          "correct_option": "B",
+          "english_meaning": "Blood"
+        },
+        {
+          "q_no": 52,
+          "malayalam": "മരുന്ന്",
+          "english_transliteration": "Marunnu",
+          "tamil_transliteration": "மருந்து",
+          "options": { "A": "உணவு", "B": "மருந்து", "C": "விஷம்", "D": "தண்ணீர்" },
+          "correct_option": "B",
+          "english_meaning": "Medicine"
+        },
+        {
+          "q_no": 53,
+          "malayalam": "നിറം",
+          "english_transliteration": "Niram",
+          "tamil_transliteration": "நிறம்",
+          "options": { "A": "வடிவம்", "B": "நிறம்", "C": "அளவு", "D": "எடை" },
+          "correct_option": "B",
+          "english_meaning": "Color"
+        },
+        {
+          "q_no": 54,
+          "malayalam": "വെളുപ്പ്",
+          "english_transliteration": "Veluppu",
+          "tamil_transliteration": "வெளுப்பு",
+          "options": { "A": "கருப்பு", "B": "வெள்ளை", "C": "சிவப்பு", "D": "நீலம்" },
+          "correct_option": "B",
+          "english_meaning": "White"
+        },
+        {
+          "q_no": 55,
+          "malayalam": "കറുപ്പ്",
+          "english_transliteration": "Karuppu",
+          "tamil_transliteration": "கருப்பு",
+          "options": { "A": "வெள்ளை", "B": "கருப்பு", "C": "பச்சை", "D": "மஞ்சள்" },
+          "correct_option": "B",
+          "english_meaning": "Black"
+        },
+        {
+          "q_no": 56,
+          "malayalam": "ചുവപ്പ്",
+          "english_transliteration": "Chuvappu",
+          "tamil_transliteration": "சுவப்பு",
+          "options": { "A": "நீலம்", "B": "சிவப்பு", "C": "மஞ்சள்", "D": "பச்சை" },
+          "correct_option": "B",
+          "english_meaning": "Red"
+        },
+        {
+          "q_no": 57,
+          "malayalam": "പച്ച",
+          "english_transliteration": "Pacha",
+          "tamil_transliteration": "பச்ச",
+          "options": { "A": "சிவப்பு", "B": "பச்சை", "C": "கருப்பு", "D": "வெள்ளை" },
+          "correct_option": "B",
+          "english_meaning": "Green"
+        },
+        {
+          "q_no": 58,
+          "malayalam": "മഞ്ഞ",
+          "english_transliteration": "Manja",
+          "tamil_transliteration": "மஞ்ச",
+          "options": { "A": "நீலம்", "B": "மஞ்சள்", "C": "சிவப்பு", "D": "பச்சை" },
+          "correct_option": "B",
+          "english_meaning": "Yellow"
+        },
+        {
+          "q_no": 59,
+          "malayalam": "നീല",
+          "english_transliteration": "Neela",
+          "tamil_transliteration": "நீல",
+          "options": { "A": "நீலம்", "B": "மஞ்சள்", "C": "சிவப்பு", "D": "வெள்ளை" },
+          "correct_option": "A",
+          "english_meaning": "Blue"
+        },
+        {
+          "q_no": 60,
+          "malayalam": "വില",
+          "english_transliteration": "Vila",
+          "tamil_transliteration": "வில",
+          "options": { "A": "எடை", "B": "விலை", "C": "அளவு", "D": "தூரம்" },
+          "correct_option": "B",
+          "english_meaning": "Price"
+        },
+        {
+          "q_no": 61,
+          "malayalam": "ചോദ്യം",
+          "english_transliteration": "Chodyam",
+          "tamil_transliteration": "சோத்யம்",
+          "options": { "A": "பதில்", "B": "கேள்வி", "C": "கதை", "D": "கவிதை" },
+          "correct_option": "B",
+          "english_meaning": "Question"
+        },
+        {
+          "q_no": 62,
+          "malayalam": "ഉത്തരം",
+          "english_transliteration": "Utharam",
+          "tamil_transliteration": "உதரம்",
+          "options": { "A": "கேள்வி", "B": "பதில்", "C": "எழுது", "D": "படி" },
+          "correct_option": "B",
+          "english_meaning": "Answer"
+        },
+        {
+          "q_no": 63,
+          "malayalam": "കഥ",
+          "english_transliteration": "Katha",
+          "tamil_transliteration": "கத",
+          "options": { "A": "பாட்டு", "B": "கதை", "C": "நாடகம்", "D": "படம்" },
+          "correct_option": "B",
+          "english_meaning": "Story"
+        },
+        {
+          "q_no": 64,
+          "malayalam": "പാട്ട്",
+          "english_transliteration": "Paattu",
+          "tamil_transliteration": "பாட்டு",
+          "options": { "A": "இசை", "B": "பாட்டு", "C": "நடனம்", "D": "நாடகம்" },
+          "correct_option": "B",
+          "english_meaning": "Song"
+        },
+        {
+          "q_no": 65,
+          "malayalam": "ചിത്രം",
+          "english_transliteration": "Chithram",
+          "tamil_transliteration": "சித்ரம்",
+          "options": { "A": "எழுத்து", "B": "படம்", "C": "புத்தகம்", "D": "பேனா" },
+          "correct_option": "B",
+          "english_meaning": "Picture"
+        },
+        {
+          "q_no": 66,
+          "malayalam": "കളി",
+          "english_transliteration": "Kali",
+          "tamil_transliteration": "களி",
+          "options": { "A": "படிப்பு", "B": "விளையாட்டு", "C": "வேலை", "D": "உறக்கம்" },
+          "correct_option": "B",
+          "english_meaning": "Game"
+        },
+        {
+          "q_no": 67,
+          "malayalam": "തോൽവി",
+          "english_transliteration": "Tholvi",
+          "tamil_transliteration": "தொல்வி",
+          "options": { "A": "வெற்றி", "B": "தோல்வி", "C": "முயற்சி", "D": "முடிவு" },
+          "correct_option": "B",
+          "english_meaning": "Defeat"
+        },
+        {
+          "q_no": 68,
+          "malayalam": "മാങ്ങ",
+          "english_transliteration": "Manganga",
+          "tamil_transliteration": "மாங்க",
+          "options": { "A": "வாழைப்பழம்", "B": "மாம்பழம்", "C": "ஆப்பிள்", "D": "ஆரஞ்சு" },
+          "correct_option": "B",
+          "english_meaning": "Mango"
+        },
+        {
+          "q_no": 69,
+          "malayalam": "മുട്ട",
+          "english_transliteration": "Mutta",
+          "tamil_transliteration": "முட்ட",
+          "options": { "A": "பால்", "B": "முட்டை", "C": "இறைச்சி", "D": "மீன்" },
+          "correct_option": "B",
+          "english_meaning": "Egg"
+        },
+        {
+          "q_no": 70,
+          "malayalam": "മീൻ",
+          "english_transliteration": "Meen",
+          "tamil_transliteration": "மீன்",
+          "options": { "A": "இறைச்சி", "B": "மீன்", "C": "முட்டை", "D": "காய்கறி" },
+          "correct_option": "B",
+          "english_meaning": "Fish"
+        },
+        {
+          "q_no": 71,
+          "malayalam": "കിഴക്ക്",
+          "english_transliteration": "Kizhakku",
+          "tamil_transliteration": "கிழக்கு",
+          "options": { "A": "மேற்கு", "B": "கிழக்கு", "C": "வடக்கு", "D": "தெற்கு" },
+          "correct_option": "B",
+          "english_meaning": "East"
+        },
+        {
+          "q_no": 72,
+          "malayalam": "പടിഞ്ഞാറ്",
+          "english_transliteration": "Pazhinjaru",
+          "tamil_transliteration": "படிஞாறு",
+          "options": { "A": "கிழக்கு", "B": "மேற்கு", "C": "வடக்கு", "D": "தெற்கு" },
+          "correct_option": "B",
+          "english_meaning": "West"
+        },
+        {
+          "q_no": 73,
+          "malayalam": "വടക്ക്",
+          "english_transliteration": "Vadakku",
+          "tamil_transliteration": "வடக்கு",
+          "options": { "A": "தெற்கு", "B": "வடக்கு", "C": "கிழக்கு", "D": "மேற்கு" },
+          "correct_option": "B",
+          "english_meaning": "North"
+        },
+        {
+          "q_no": 74,
+          "malayalam": "തെക്ക്",
+          "english_transliteration": "Thekku",
+          "tamil_transliteration": "தெக்கு",
+          "options": { "A": "வடக்கு", "B": "தெற்கு", "C": "கிழக்கு", "D": "மேற்கு" },
+          "correct_option": "B",
+          "english_meaning": "South"
+        },
+        {
+          "q_no": 75,
+          "malayalam": "ഇന്ന്",
+          "english_transliteration": "Innu",
+          "tamil_transliteration": "இன்னு",
+          "options": { "A": "நேற்று", "B": "இன்று", "C": "நாளை", "D": "மறுநாள்" },
+          "correct_option": "B",
+          "english_meaning": "Today"
+        },
+        {
+          "q_no": 76,
+          "malayalam": "നാളെ",
+          "english_transliteration": "Naale",
+          "tamil_transliteration": "நாளே",
+          "options": { "A": "இன்று", "B": "நாளை", "C": "நேற்று", "D": "எப்போது" },
+          "correct_option": "B",
+          "english_meaning": "Tomorrow"
+        },
+        {
+          "q_no": 77,
+          "malayalam": "ഇന്നലെ",
+          "english_transliteration": "Innale",
+          "tamil_transliteration": "இன்னலே",
+          "options": { "A": "இன்று", "B": "நேற்று", "C": "நாளை", "D": "முன்னாள்" },
+          "correct_option": "B",
+          "english_meaning": "Yesterday"
+        },
+        {
+          "q_no": 78,
+          "malayalam": "ഇവിടെ",
+          "english_transliteration": "Ivide",
+          "tamil_transliteration": "இவிடே",
+          "options": { "A": "அங்கே", "B": "இங்கே", "C": "எங்கே", "D": "எங்கும்" },
+          "correct_option": "B",
+          "english_meaning": "Here"
+        },
+        {
+          "q_no": 79,
+          "malayalam": "അവിടെ",
+          "english_transliteration": "Avide",
+          "tamil_transliteration": "அவிடே",
+          "options": { "A": "இங்கே", "B": "அங்கே", "C": "எங்கே", "D": "எங்கும்" },
+          "correct_option": "B",
+          "english_meaning": "There"
+        },
+        {
+          "q_no": 80,
+          "malayalam": "എവിടെ",
+          "english_transliteration": "Evide",
+          "tamil_transliteration": "எவிடே",
+          "options": { "A": "இங்கே", "B": "அங்கே", "C": "எங்கே", "D": "எப்போது" },
+          "correct_option": "C",
+          "english_meaning": "Where"
+        },
+        {
+          "q_no": 81,
+          "malayalam": "ആര്",
+          "english_transliteration": "Aaru",
+          "tamil_transliteration": "ஆரு",
+          "options": { "A": "என்ன", "B": "யார்", "C": "எது", "D": "எப்படி" },
+          "correct_option": "B",
+          "english_meaning": "Who"
+        },
+        {
+          "q_no": 82,
+          "malayalam": "എന്ത്",
+          "english_transliteration": "Enthu",
+          "tamil_transliteration": "எந்து",
+          "options": { "A": "யார்", "B": "என்ன", "C": "எங்கே", "D": "ஏன்" },
+          "correct_option": "B",
+          "english_meaning": "What"
+        },
+        {
+          "q_no": 83,
+          "malayalam": "എങ്ങനെ",
+          "english_transliteration": "Engane",
+          "tamil_transliteration": "எங்கனே",
+          "options": { "A": "எப்படி", "B": "எங்கே", "C": "என்ன", "D": "ஏன்" },
+          "correct_option": "A",
+          "english_meaning": "How"
+        },
+        {
+          "q_no": 84,
+          "malayalam": "പുതിയ",
+          "english_transliteration": "Puthiya",
+          "tamil_transliteration": "புதிய",
+          "options": { "A": "பழைய", "B": "புதிய", "C": "பெரிய", "D": "சிறிய" },
+          "correct_option": "B",
+          "english_meaning": "New"
+        },
+        {
+          "q_no": 85,
+          "malayalam": "പഴയ",
+          "english_transliteration": "Pazhaya",
+          "tamil_transliteration": "பழைய",
+          "options": { "A": "புதிய", "B": "பழைய", "C": "நல்ல", "D": "கெட்ட" },
+          "correct_option": "B",
+          "english_meaning": "Old"
+        },
+        {
+          "q_no": 86,
+          "malayalam": "വെളിച്ചം",
+          "english_transliteration": "Velicham",
+          "tamil_transliteration": "வெளிச்சம்",
+          "options": { "A": "இருட்டு", "B": "வெளிச்சம்", "C": "நிழல்", "D": "ஒளி" },
+          "correct_option": "B",
+          "english_meaning": "Light"
+        },
+        {
+          "q_no": 87,
+          "malayalam": "ഇരുട്ട്",
+          "english_transliteration": "Iruttu",
+          "tamil_transliteration": "இருட்டு",
+          "options": { "A": "வெளிச்சம்", "B": "இருட்டு", "C": "சூரியன்", "D": "சந்திரன்" },
+          "correct_option": "B",
+          "english_meaning": "Darkness"
+        },
+        {
+          "q_no": 88,
+          "malayalam": "സ്ത്രീ",
+          "english_transliteration": "Stree",
+          "tamil_transliteration": "ஸ்திரீ",
+          "options": { "A": "ஆண்", "B": "பெண்", "C": "குழந்தை", "D": "முதியவர்" },
+          "correct_option": "B",
+          "english_meaning": "Woman"
+        },
+        {
+          "q_no": 89,
+          "malayalam": "പുരുഷൻ",
+          "english_transliteration": "Purushan",
+          "tamil_transliteration": "புருஷன்",
+          "options": { "A": "பெண்", "B": "ஆண்", "C": "குழந்தை", "D": "நண்பன்" },
+          "correct_option": "B",
+          "english_meaning": "Man"
+        },
+        {
+          "q_no": 90,
+          "malayalam": "രാജ്യം",
+          "english_transliteration": "Rajyam",
+          "tamil_transliteration": "ராஜ்யம்",
+          "options": { "A": "ஊர்", "B": "நாடு", "C": "உலகம்", "D": "வீடு" },
+          "correct_option": "B",
+          "english_meaning": "Country"
+        },
+        {
+          "q_no": 91,
+          "malayalam": "ലോകം",
+          "english_transliteration": "Lokam",
+          "tamil_transliteration": "லோகம்",
+          "options": { "A": "நாடு", "B": "உலகம்", "C": "பூமி", "D": "வானம்" },
+          "correct_option": "B",
+          "english_meaning": "World"
+        },
+        {
+          "q_no": 92,
+          "malayalam": "ഭാഷ",
+          "english_transliteration": "Bhasha",
+          "tamil_transliteration": "பாஷா",
+          "options": { "A": "எழுத்து", "B": "மொழி", "C": "பேச்சு", "D": "வார்த்தை" },
+          "correct_option": "B",
+          "english_meaning": "Language"
+        },
+        {
+          "q_no": 93,
+          "malayalam": "വാക്ക്",
+          "english_transliteration": "Vaakku",
+          "tamil_transliteration": "வாக்கு",
+          "options": { "A": "வார்த்தை", "B": "வாக்கியம்", "C": "மொழி", "D": "எழுத்து" },
+          "correct_option": "A",
+          "english_meaning": "Word"
+        },
+        {
+          "q_no": 94,
+          "malayalam": "ചെവി",
+          "english_transliteration": "Chevi",
+          "tamil_transliteration": "செவி",
+          "options": { "A": "கண்", "B": "காது", "C": "மூக்கு", "D": "வாய்" },
+          "correct_option": "B",
+          "english_meaning": "Ear"
+        },
+        {
+          "q_no": 95,
+          "malayalam": "മൂക്ക്",
+          "english_transliteration": "Mookku",
+          "tamil_transliteration": "மூக்கு",
+          "options": { "A": "காது", "B": "மூக்கு", "C": "வாய்", "D": "கண்" },
+          "correct_option": "B",
+          "english_meaning": "Nose"
+        },
+        {
+          "q_no": 96,
+          "malayalam": "നാവ്",
+          "english_transliteration": "Naavu",
+          "tamil_transliteration": "நாவ்",
+          "options": { "A": "பல்", "B": "நாக்கு", "C": "உதடு", "D": "தொண்டை" },
+          "correct_option": "B",
+          "english_meaning": "Tongue"
+        },
+        {
+          "q_no": 97,
+          "malayalam": "പല്ല്",
+          "english_transliteration": "Pallu",
+          "tamil_transliteration": "பல்லு",
+          "options": { "A": "நாக்கு", "B": "பல்", "C": "உதடு", "D": "வாய்" },
+          "correct_option": "B",
+          "english_meaning": "Tooth"
+        },
+        {
+          "q_no": 98,
+          "malayalam": "വാതിൽ",
+          "english_transliteration": "Vathil",
+          "tamil_transliteration": "வாதில்",
+          "options": { "A": "சன்னல்", "B": "கதவு", "C": "சுவர்", "D": "தரை" },
+          "correct_option": "B",
+          "english_meaning": "Door"
+        },
+        {
+          "q_no": 99,
+          "malayalam": "ജനൽ",
+          "english_transliteration": "Janal",
+          "tamil_transliteration": "ஜனல்",
+          "options": { "A": "கதவு", "B": "சன்னல்", "C": "கூரை", "D": "சுவர்" },
+          "correct_option": "B",
+          "english_meaning": "Window"
+        },
+        {
+          "q_no": 100,
+          "malayalam": "താക്കോൽ",
+          "english_transliteration": "Thakkol",
+          "tamil_transliteration": "தாக்கோல்",
+          "options": { "A": "பூட்டு", "B": "சாவி", "C": "கதவு", "D": "பெட்டி" },
+          "correct_option": "B",
+          "english_meaning": "Key"
+        },
+        {
+          "q_no": 101,
+          "malayalam": "ചോദ്യം",
+          "english_transliteration": "Chodyam",
+          "tamil_transliteration": "சோத்யம்",
+          "options": { "A": "பதில்", "B": "கேள்வி", "C": "கதை", "D": "புத்தகம்" },
+          "correct_option": "B",
+          "english_meaning": "Question"
+        },
+        {
+          "q_no": 102,
+          "malayalam": "ഉത്തരം",
+          "english_transliteration": "Utharam",
+          "tamil_transliteration": "உதரம்",
+          "options": { "A": "கேள்வி", "B": "பதில்", "C": "எழுது", "D": "படி" },
+          "correct_option": "B",
+          "english_meaning": "Answer"
+        },
+        {
+          "q_no": 103,
+          "malayalam": "പാട്ട്",
+          "english_transliteration": "Paattu",
+          "tamil_transliteration": "பாட்டு",
+          "options": { "A": "நடனம்", "B": "பாட்டு", "C": "கதை", "D": "நாடகம்" },
+          "correct_option": "B",
+          "english_meaning": "Song"
+        },
+        {
+          "q_no": 104,
+          "malayalam": "സംഗീതം",
+          "english_transliteration": "Sangeetham",
+          "tamil_transliteration": "ஸங்கீதம்",
+          "options": { "A": "நடனம்", "B": "இசை", "C": "நாடகம்", "D": "ஓவியம்" },
+          "correct_option": "B",
+          "english_meaning": "Music"
+        },
+        {
+          "q_no": 105,
+          "malayalam": "നൃത്തം",
+          "english_transliteration": "Nritham",
+          "tamil_transliteration": "ந்ருத்தம்",
+          "options": { "A": "இசை", "B": "நடனம்", "C": "பாட்டு", "D": "நாடகம்" },
+          "correct_option": "B",
+          "english_meaning": "Dance"
+        },
+        {
+          "q_no": 106,
+          "malayalam": "വിശ്വാസം",
+          "english_transliteration": "Vishwasam",
+          "tamil_transliteration": "விஸ்வாஸம்",
+          "options": { "A": "சந்தேகம்", "B": "நம்பிக்கை", "C": "பயம்", "D": "கோபம்" },
+          "correct_option": "B",
+          "english_meaning": "Trust"
+        },
+        {
+          "q_no": 107,
+          "malayalam": "സഹായം",
+          "english_transliteration": "Sahayam",
+          "tamil_transliteration": "ஸஹாயம்",
+          "options": { "A": "உதவி", "B": "தடை", "C": "பகை", "D": "தோல்வி" },
+          "correct_option": "A",
+          "english_meaning": "Help"
+        },
+        {
+          "q_no": 108,
+          "malayalam": "തേൻ",
+          "english_transliteration": "Then",
+          "tamil_transliteration": "தேன்",
+          "options": { "A": "பால்", "B": "தேன்", "C": "சர்க்கரை", "D": "நெய்" },
+          "correct_option": "B",
+          "english_meaning": "Honey"
+        },
+        {
+          "q_no": 109,
+          "malayalam": "തൈര്",
+          "english_transliteration": "Thayir",
+          "tamil_transliteration": "தைர்",
+          "options": { "A": "பால்", "B": "தயிர்", "C": "மோர்", "D": "வெண்ணெய்" },
+          "correct_option": "B",
+          "english_meaning": "Curd"
+        },
+        {
+          "q_no": 110,
+          "malayalam": "മോര്",
+          "english_transliteration": "Mor",
+          "tamil_transliteration": "மோர்",
+          "options": { "A": "பால்", "B": "தயிர்", "C": "மோர்", "D": "தண்ணீர்" },
+          "correct_option": "C",
+          "english_meaning": "Buttermilk"
+        },
+        {
+          "q_no": 111,
+          "malayalam": "കിഴക്ക്",
+          "english_transliteration": "Kizhakku",
+          "tamil_transliteration": "கிழக்கு",
+          "options": { "A": "மேற்கு", "B": "கிழக்கு", "C": "வடக்கு", "D": "தெற்கு" },
+          "correct_option": "B",
+          "english_meaning": "East"
+        },
+        {
+          "q_no": 112,
+          "malayalam": "പടിഞ്ഞാറ്",
+          "english_transliteration": "Pazhinjaru",
+          "tamil_transliteration": "படிஞாறு",
+          "options": { "A": "கிழக்கு", "B": "மேற்கு", "C": "வடக்கு", "D": "தெற்கு" },
+          "correct_option": "B",
+          "english_meaning": "West"
+        },
+        {
+          "q_no": 113,
+          "malayalam": "വടക്ക്",
+          "english_transliteration": "Vadakku",
+          "tamil_transliteration": "வடக்கு",
+          "options": { "A": "தெற்கு", "B": "வடக்கு", "C": "கிழக்கு", "D": "மேற்கு" },
+          "correct_option": "B",
+          "english_meaning": "North"
+        },
+        {
+          "q_no": 114,
+          "malayalam": "തെക്ക്",
+          "english_transliteration": "Thekku",
+          "tamil_transliteration": "தெக்கு",
+          "options": { "A": "வடக்கு", "B": "தெற்கு", "C": "கிழக்கு", "D": "மேற்கு" },
+          "correct_option": "B",
+          "english_meaning": "South"
+        },
+        {
+          "q_no": 115,
+          "malayalam": "നൂറ്",
+          "english_transliteration": "Nooru",
+          "tamil_transliteration": "நூறு",
+          "options": { "A": "பத்து", "B": "நூறு", "C": "ஆயிரம்", "D": "லட்சம்" },
+          "correct_option": "B",
+          "english_meaning": "Hundred"
+        },
+        {
+          "q_no": 116,
+          "malayalam": "ആയിരം",
+          "english_transliteration": "Aayiram",
+          "tamil_transliteration": "ஆயிரம்",
+          "options": { "A": "நூறு", "B": "ஆயிரம்", "C": "பத்து", "D": "கோடி" },
+          "correct_option": "B",
+          "english_meaning": "Thousand"
+        },
+        {
+          "q_no": 117,
+          "malayalam": "ഇന്ന്",
+          "english_transliteration": "Innu",
+          "tamil_transliteration": "இன்னு",
+          "options": { "A": "நேற்று", "B": "இன்று", "C": "நாளை", "D": "எப்போது" },
+          "correct_option": "B",
+          "english_meaning": "Today"
+        },
+        {
+          "q_no": 118,
+          "malayalam": "നാളെ",
+          "english_transliteration": "Naale",
+          "tamil_transliteration": "நாளே",
+          "options": { "A": "இன்று", "B": "நாளை", "C": "நேற்று", "D": "மறுநாள்" },
+          "correct_option": "B",
+          "english_meaning": "Tomorrow"
+        },
+        {
+          "q_no": 119,
+          "malayalam": "ഇന്നലെ",
+          "english_transliteration": "Innale",
+          "tamil_transliteration": "இன்னலே",
+          "options": { "A": "இன்று", "B": "நேற்று", "C": "நாளை", "D": "முன்னாள்" },
+          "correct_option": "B",
+          "english_meaning": "Yesterday"
+        },
+        {
+          "q_no": 120,
+          "malayalam": "ഇപ്പോൾ",
+          "english_transliteration": "Ippol",
+          "tamil_transliteration": "இப்போல்",
+          "options": { "A": "அப்போது", "B": "இப்போது", "C": "எப்போது", "D": "பின்னர்" },
+          "correct_option": "B",
+          "english_meaning": "Now"
+        },
+        {
+          "q_no": 121,
+          "malayalam": "ഹൃദയം",
+          "english_transliteration": "Hridayam",
+          "tamil_transliteration": "ஹ்ருதயம்",
+          "options": { "A": "தலை", "B": "இதயம்", "C": "வயிறு", "D": "கை" },
+          "correct_option": "B",
+          "english_meaning": "Heart"
+        },
+        {
+          "q_no": 122,
+          "malayalam": "വയറു",
+          "english_transliteration": "Vayaru",
+          "tamil_transliteration": "வயறு",
+          "options": { "A": "தலை", "B": "வயிறு", "C": "கால்", "D": "கை" },
+          "correct_option": "B",
+          "english_meaning": "Stomach"
+        },
+        {
+          "q_no": 123,
+          "malayalam": "എല്ല്",
+          "english_transliteration": "Ellu",
+          "tamil_transliteration": "எல்லு",
+          "options": { "A": "இரத்தம்", "B": "எலும்பு", "C": "தோல்", "D": "தசை" },
+          "correct_option": "B",
+          "english_meaning": "Bone"
+        },
+        {
+          "q_no": 124,
+          "malayalam": "കസേര",
+          "english_transliteration": "Kasera",
+          "tamil_transliteration": "கஸேர",
+          "options": { "A": "மேஜை", "B": "நாற்காலி", "C": "கட்டில்", "D": "பீரோ" },
+          "correct_option": "B",
+          "english_meaning": "Chair"
+        },
+        {
+          "q_no": 125,
+          "malayalam": "മേശ",
+          "english_transliteration": "Mesha",
+          "tamil_transliteration": "மேஷ",
+          "options": { "A": "நாற்காலி", "B": "மேஜை", "C": "கட்டில்", "D": "அமரும் இடம்" },
+          "correct_option": "B",
+          "english_meaning": "Table"
+        },
+        {
+          "q_no": 126,
+          "malayalam": "കണ്ണാടി",
+          "english_transliteration": "Kannadi",
+          "tamil_transliteration": "கண்ணாடி",
+          "options": { "A": "மேஜை", "B": "கண்ணாடி", "C": "கதவு", "D": "சன்னல்" },
+          "correct_option": "B",
+          "english_meaning": "Mirror"
+        },
+        {
+          "q_no": 127,
+          "malayalam": "കത്തി",
+          "english_transliteration": "Kathi",
+          "tamil_transliteration": "கத்தி",
+          "options": { "A": "கரண்டி", "B": "கத்தி", "C": "தட்டு", "D": "பாத்திரம்" },
+          "correct_option": "B",
+          "english_meaning": "Knife"
+        },
+        {
+          "q_no": 128,
+          "malayalam": "തുണി",
+          "english_transliteration": "Thuni",
+          "tamil_transliteration": "துணி",
+          "options": { "A": "நூல்", "B": "துணி", "C": "ஊசி", "D": "கத்தரிக்கோல்" },
+          "correct_option": "B",
+          "english_meaning": "Cloth"
+        },
+        {
+          "q_no": 129,
+          "malayalam": "പെട്ടി",
+          "english_transliteration": "Petti",
+          "tamil_transliteration": "பெட்டி",
+          "options": { "A": "பை", "B": "பெட்டி", "C": "சாவி", "D": "பூட்டு" },
+          "correct_option": "B",
+          "english_meaning": "Box"
+        },
+        {
+          "q_no": 130,
+          "malayalam": "കട",
+          "english_transliteration": "Kada",
+          "tamil_transliteration": "கட",
+          "options": { "A": "வீடு", "B": "கடை", "C": "வங்கி", "D": "பள்ளி" },
+          "correct_option": "B",
+          "english_meaning": "Shop"
+        },
+        {
+          "q_no": 131,
+          "malayalam": "ബാങ്ക്",
+          "english_transliteration": "Bank",
+          "tamil_transliteration": "பாங்க்",
+          "options": { "A": "கடை", "B": "வங்கி", "C": "அலுவலகம்", "D": "மருத்துவமனை" },
+          "correct_option": "B",
+          "english_meaning": "Bank"
+        },
+        {
+          "q_no": 132,
+          "malayalam": "നിയമം",
+          "english_transliteration": "Niyamam",
+          "tamil_transliteration": "நியம்",
+          "options": { "A": "நீதி", "B": "சட்டம்", "C": "தண்டனை", "D": "குற்றம்" },
+          "correct_option": "B",
+          "english_meaning": "Law"
+        },
+        {
+          "q_no": 133,
+          "malayalam": "കുറ്റം",
+          "english_transliteration": "Kuttam",
+          "tamil_transliteration": "குற்றம்",
+          "options": { "A": "தண்டனை", "B": "குற்றம்", "C": "சட்டம்", "D": "நீதி" },
+          "correct_option": "B",
+          "english_meaning": "Crime"
+        },
+        {
+          "q_no": 134,
+          "malayalam": "ശിക്ഷ",
+          "english_transliteration": "Shiksha",
+          "tamil_transliteration": "ஶிக்ஷ",
+          "options": { "A": "குற்றம்", "B": "தண்டனை", "C": "நீதி", "D": "சட்டம்" },
+          "correct_option": "B",
+          "english_meaning": "Punishment"
+        },
+        {
+          "q_no": 135,
+          "malayalam": "യുദ്ധം",
+          "english_transliteration": "Yuddham",
+          "tamil_transliteration": "யுத்தம்",
+          "options": { "A": "சமாதானம்", "B": "போர்", "C": "ஒப்பந்தம்", "D": "நட்பு" },
+          "correct_option": "B",
+          "english_meaning": "War"
+        },
+        {
+          "q_no": 136,
+          "malayalam": "സമാധാനം",
+          "english_transliteration": "Samadhanam",
+          "tamil_transliteration": "ஸமாதானம்",
+          "options": { "A": "போர்", "B": "அமைதி", "C": "சண்டை", "D": "கோபம்" },
+          "correct_option": "B",
+          "english_meaning": "Peace"
+        },
+        {
+          "q_no": 137,
+          "malayalam": "സ്വാതന്ത്ര്യം",
+          "english_transliteration": "Swathanthryam",
+          "tamil_transliteration": "ஸ்வதந்த்ர்யம்",
+          "options": { "A": "அடிமைத்தனம்", "B": "சுதந்திரம்", "C": "கட்டுப்பாடு", "D": "சிறை" },
+          "correct_option": "B",
+          "english_meaning": "Freedom"
+        },
+        {
+          "q_no": 138,
+          "malayalam": "വിവാഹം",
+          "english_transliteration": "Vivaham",
+          "tamil_transliteration": "விவாஹம்",
+          "options": { "A": "பிறப்பு", "B": "திருமணம்", "C": "இறப்பு", "D": "விழா" },
+          "correct_option": "B",
+          "english_meaning": "Marriage"
+        },
+        {
+          "q_no": 139,
+          "malayalam": "സ്വപ്നം",
+          "english_transliteration": "Swapnam",
+          "tamil_transliteration": "ஸ்வப்னம்",
+          "options": { "A": "நினைவு", "B": "கனவு", "C": "நித்திரை", "D": "சிந்தனை" },
+          "correct_option": "B",
+          "english_meaning": "Dream"
+        },
+        {
+          "q_no": 140,
+          "malayalam": "ആരോഗ്യം",
+          "english_transliteration": "Aarogyam",
+          "tamil_transliteration": "ஆரோக்யம்",
+          "options": { "A": "நோய்", "B": "உடல்நலம்", "C": "சோர்வு", "D": "மருத்துவம்" },
+          "correct_option": "B",
+          "english_meaning": "Health"
+        }
+      ]
+    }
+  ]
+}

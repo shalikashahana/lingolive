@@ -4,6 +4,7 @@ import alphabetData from "../../data/malayalamAlphabetData.json";
 import malayalamWordsData from "../../data/malayalamWordsData.json";
 import malayalamNumbersData from "../../data/malayalamNumbersData.json";
 import malayalamSentencesData from "../../data/malayalamSentencesData.json";
+import malayalamQuizData from "../../data/malayalamQuizData.json";
 import { useAuth } from "../../context/AuthContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
@@ -99,6 +100,93 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
   );
 }
 
+function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLocked, onInteract, playAudio }) {
+  const [selectedOpt, setSelectedOpt] = useState(null);
+
+  const handleSelect = (optKey) => {
+    if (isLocked || selectedOpt) return;
+    setSelectedOpt(optKey);
+    playAudio(question.malayalam);
+    if (optKey === question.correct_option) {
+       // Wait a bit so user can see it turn green, then unlock next
+       setTimeout(() => {
+         onInteract();
+       }, 500);
+    }
+  };
+
+  return (
+    <div className={`group relative flex flex-col p-5 bg-white/80 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
+      isCompleted ? "border-emerald-500/30 bg-emerald-50/30" : 
+      isInProgress ? "border-[#8b5cf6]/50 ring-2 ring-[#8b5cf6]/30 bg-purple-50/30" :
+      "border-[#14213D]/10 opacity-70"
+    }`}>
+      {/* Top action/status bar */}
+      <div className="flex justify-between items-start mb-2">
+        <div className="flex items-center gap-1">
+          {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-500" />}
+          {isInProgress && <Play className="w-4 h-4 text-[#8b5cf6] animate-pulse" />}
+          {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+        </div>
+        <button 
+          onClick={(e) => { e.stopPropagation(); playAudio(question.malayalam); }}
+          disabled={isLocked}
+          className={`p-1.5 rounded-xl shadow-sm border transition-all z-10 hover:scale-110 active:scale-95 ${
+            isLocked ? "bg-gray-100 border-gray-200 cursor-not-allowed opacity-50" : "bg-[#14213D]/5 border-[#14213D]/5 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]/20"
+          }`}
+        >
+          <Volume2 className={`w-4 h-4 ${isLocked ? "text-gray-400" : "text-[#14213D]/60 hover:text-[#8b5cf6]"}`} />
+        </button>
+      </div>
+
+      <div className="flex-1 mb-4">
+        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-[#14213D] mb-3 pr-2 flex items-start gap-2 break-words">
+          <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-[#8b5cf6]/20 to-[#8b5cf6]/10 border border-[#8b5cf6]/20 text-[#6d28d9] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
+            {question.q_no}.
+          </span>
+          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{question.malayalam}</span>
+        </span>
+        
+        <div className={`flex flex-wrap gap-2 mb-2 ${isLocked ? "opacity-50" : ""}`}>
+          <span className="font-mono text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg">
+            {question.english_transliteration}
+          </span>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-2 mt-auto border-t border-[#14213D]/5 pt-4">
+        {Object.entries(question.options || {}).map(([key, val]) => {
+           let btnClass = "bg-white border-[#14213D]/10 hover:border-[#8b5cf6]/30 hover:bg-[#8b5cf6]/5 text-[#14213D]";
+           
+           if (selectedOpt) {
+              if (key === question.correct_option) {
+                 btnClass = "bg-emerald-50 border-emerald-500 text-emerald-700 font-bold";
+              } else if (key === selectedOpt) {
+                 btnClass = "bg-red-50 border-red-500 text-red-700";
+              } else {
+                 btnClass = "bg-white border-[#14213D]/10 opacity-50";
+              }
+           } else if (isCompleted && key === question.correct_option) {
+               btnClass = "bg-emerald-50 border-emerald-500 text-emerald-700 font-bold opacity-70";
+           }
+
+           return (
+             <button 
+               key={key} 
+               disabled={isLocked || selectedOpt !== null || isCompleted}
+               onClick={() => handleSelect(key)}
+               className={`text-left px-4 py-2.5 border rounded-xl text-sm transition-all shadow-sm flex items-center gap-3 ${btnClass} ${isLocked ? 'opacity-50 cursor-not-allowed' : ''}`}
+             >
+               <span className={`w-6 h-6 flex items-center justify-center rounded-lg text-xs font-bold ${selectedOpt && key === question.correct_option ? 'bg-emerald-200 text-emerald-800' : selectedOpt && key === selectedOpt ? 'bg-red-200 text-red-800' : 'bg-gray-100 text-gray-500'}`}>{key}</span> 
+               {val}
+             </button>
+           );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export default function MalayalamDashboard() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
@@ -136,7 +224,8 @@ export default function MalayalamDashboard() {
     "Alphabets (അക്ഷരമാല)",
     "Essential Words",
     "Numbers",
-    "Sentences"
+    "Sentences",
+    "Quiz"
   ];
 
   // Progress Tracking State
@@ -146,13 +235,14 @@ export default function MalayalamDashboard() {
     chillaksharangal: 0,
     words: 0,
     numbers: 0,
-    sentences: 0
+    sentences: 0,
+    quiz: 0
   });
   const [stats, setStats] = useState({ streak: 0, xp: 0 });
 
   useEffect(() => {
     const savedProgressStr = localStorage.getItem("malayalam_progress");
-    const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0 };
+    const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
     const savedProgress = savedProgressStr ? JSON.parse(savedProgressStr) : defaultProgress;
     setProgress({ ...defaultProgress, ...savedProgress });
 
@@ -199,6 +289,8 @@ export default function MalayalamDashboard() {
   const [activeNumberPartView, setActiveNumberPartView] = useState(null);
   const [activeSentenceModuleView, setActiveSentenceModuleView] = useState(null);
   const [activeSentencePartView, setActiveSentencePartView] = useState(null);
+  const [activeQuizModuleView, setActiveQuizModuleView] = useState(null);
+  const [activeQuizPartView, setActiveQuizPartView] = useState(null);
 
   // Dashboard overview cards
   const dashboardCards = [
@@ -207,7 +299,8 @@ export default function MalayalamDashboard() {
     { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
     { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
     { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" }
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -806,6 +899,136 @@ export default function MalayalamDashboard() {
                              isInProgress={isInProgress}
                              isLocked={isLocked}
                              onInteract={() => handleInteraction('sentences', globalIdx, sentence.malayalam)} 
+                           />
+                         );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {activeTab === "Quiz" && (
+              <div className="space-y-6">
+                {activeQuizModuleView === null ? (
+                  <div className="space-y-4 pt-4">
+                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#8b5cf6]" /> {malayalamQuizData.total_questions} Quiz Questions
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {malayalamQuizData.modules.map((moduleData, i) => (
+                        <button
+                          key={moduleData.module}
+                          onClick={() => {
+                            setActiveQuizModuleView(i);
+                            setActiveQuizPartView(null);
+                          }}
+                          className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
+                        >
+                          <BookOpen className="w-8 h-8 mb-3 text-[#8b5cf6]" />
+                          <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
+                          {moduleData.description && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.description}</span>}
+                          <div className="mt-4">
+                            <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">{moduleData.total_questions} Questions</span>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : activeQuizPartView === null ? (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveQuizModuleView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {malayalamQuizData.modules[activeQuizModuleView].module} ({malayalamQuizData.modules[activeQuizModuleView].total_questions} Questions)
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(malayalamQuizData.modules[activeQuizModuleView].quiz.length / 10) }).map((_, i) => {
+                        const startIdx = i * 10;
+                        const endIdx = Math.min((i + 1) * 10, malayalamQuizData.modules[activeQuizModuleView].quiz.length);
+                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
+                        
+                        let moduleGlobalStartIdx = 0;
+                        for (let m = 0; m < activeQuizModuleView; m++) {
+                           moduleGlobalStartIdx += malayalamQuizData.modules[m].total_questions;
+                        }
+                        const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
+                        const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
+                        
+                        const isLocked = progress.quiz < partGlobalStartIdx;
+                        const isCompleted = progress.quiz > partGlobalEndIdx;
+                        const isInProgress = !isLocked && !isCompleted;
+                        
+                        return (
+                          <button
+                            key={partName}
+                            disabled={isLocked}
+                            onClick={() => setActiveQuizPartView(i)}
+                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
+                              isLocked 
+                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                : isInProgress
+                                ? "border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                            }`}
+                          >
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#8b5cf6]" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <div className="mt-3">
+                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
+                               <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">In Progress</span>}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveQuizPartView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {malayalamQuizData.modules[activeQuizModuleView].module} - Part {activeQuizPartView + 1}
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {malayalamQuizData.modules[activeQuizModuleView].quiz.slice(activeQuizPartView * 10, (activeQuizPartView + 1) * 10).map((q, relIdx) => {
+                         let globalIdx = 0;
+                         for (let m = 0; m < activeQuizModuleView; m++) {
+                            globalIdx += malayalamQuizData.modules[m].total_questions;
+                         }
+                         globalIdx += (activeQuizPartView * 10) + relIdx;
+
+                         const isCompleted = globalIdx < progress.quiz;
+                         const isInProgress = globalIdx === progress.quiz;
+                         const isLocked = globalIdx > progress.quiz;
+                         
+                         return (
+                           <InteractiveQuizCard 
+                             key={globalIdx} 
+                             question={q} 
+                             index={globalIdx}
+                             isCompleted={isCompleted}
+                             isInProgress={isInProgress}
+                             isLocked={isLocked}
+                             playAudio={playAudio}
+                             onInteract={() => handleInteraction('quiz', globalIdx, q.malayalam)} 
                            />
                          );
                       })}

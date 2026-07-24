@@ -3337,7 +3337,7 @@
     {
       "module": 2,
       "description": "Medium to long sentences for advanced practice",
-      "total_sentences": 20,
+      "total_sentences": 100,
       "sentences": [
         {
           "malayalam": "ഞാൻ ഇന്ന് രാവിലെ ഓഫീസിലേക്ക് പോകുമ്പോൾ നല്ല മഴ പെയ്യുന്നുണ്ടായിരുന്നു.",
@@ -3478,9 +3478,569 @@
           "tamil_transliteration": "நமது பெற்றோரையும் ஆசிரியர்களையும் நாம் எப்போதும் மதிக்க வேண்டும்.",
           "english_meaning": "We should always respect our parents and teachers.",
           "tamil_meaning": "நமது பெற்றோரையும் ஆசிரியர்களையும் நாம் எப்போதும் மதிக்க வேண்டும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ജീവിതത്തിൽ ലക്ഷ്യബോധവും കഠിനാധ്വാനവും ഉണ്ടെങ്കിൽ ഏത് വിജയവും സ്വന്തമാക്കാം.",
+          "english_transliteration": "Nammude jeevithathil lakshyabodhavum kathinadhwanavum undengil ethu vijayamum swanthamakkam.",
+          "tamil_transliteration": "நம் வாழ்க்கையில் இலட்சியமும் கடின உழைப்பும் இருந்தால் எந்த வெற்றியையும் சொந்தமாக்கிக் கொள்ளலாம்.",
+          "english_meaning": "If we have a sense of purpose and hard work in our life, we can achieve any success.",
+          "tamil_meaning": "நம் வாழ்க்கையில் தெளிவான இலக்கும் கடின உழைப்பும் இருந்தால் எந்த வெற்றியையும் நம்மால் சொந்தமாக்கிக் கொள்ள முடியும்."
+        },
+        {
+          "malayalam": "ഓരോ മനുഷ്യനും തന്റെ ജീവിതത്തിൽ മറ്റുള്ളവർക്ക് മാതൃകയാകുന്ന രീതിയിൽ ജീവിക്കണം.",
+          "english_transliteration": "Ooro manushyanum thanne jeevithathil mattullavarkku mathrukayakunna reethiyil jeevikkanam.",
+          "tamil_transliteration": "ஒவ்வொரு மனிதனும் தன் வாழ்வில் மற்றவர்களுக்கு முன்மாதிரியாகும் வகையில் வாழ வேண்டும்.",
+          "english_meaning": "Every human should live in a way that sets an example to others in their life.",
+          "tamil_meaning": "ஒவ்வொரு மனிதனும் தன் வாழ்வில் மற்றவர்களுக்கு முன்மாதிரியாகத் திகழும் வகையில் வாழ வேண்டும்."
+        },
+        {
+          "malayalam": "മഴയും വെയിലും മാറിവരുമ്പോഴാണ് പ്രകൃതിയുടെ യഥാർത്ഥ സൗന്ദര്യം നമുക്ക് കാണാൻ കഴിയുന്നത്.",
+          "english_transliteration": "Mazhayum veyilum maarivarumbolanu prakruthiye yathartha saundaryam namukku kanan kazhiyunnathu.",
+          "tamil_transliteration": "மழையும் வெயிலும் மாறி மாறி வரும்போதுதான் இயற்கையின் உண்மையான அழகைக் காண முடியும்.",
+          "english_meaning": "Only when rain and shine alternate can we see the true beauty of nature.",
+          "tamil_meaning": "மழையும் வெயிலும் மாறி மாறி வரும்போதுதான் இயற்கையின் உண்மையான அழகை நம்மால் காண முடியும்."
+        },
+        {
+          "malayalam": "നല്ല ശീലങ്ങൾ കുട്ടികളിൽ വളർത്തിയെടുക്കേണ്ടത് അധ്യാപകരുടെയും മാതാപിതാക്കളുടെയും ചുമതലയാണ്.",
+          "english_transliteration": "Nalla sheelangal kuttikalil valarthiyedukkedathu adhyapakarudeyum mathapithakkaludejum chumathalanu.",
+          "tamil_transliteration": "நல்ல பழக்கவழக்கங்களை குழந்தைகளிடம் வளர்த்தெடுப்பது ஆசிரியர்களின் மற்றும் பெற்றோரின் பொறுப்பாகும்.",
+          "english_meaning": "Developing good habits in children is the responsibility of teachers and parents.",
+          "tamil_meaning": "நல்ல பழக்கவழக்கங்களைக் குழந்தைகளிடம் சிறுவயதிலேயே வளர்த்தெடுப்பது ஆசிரியர்கள் மற்றும் பெற்றோரின் முக்கியப் பொறுப்பாகும்."
+        },
+        {
+          "malayalam": "ഏത് ബുദ്ധിമുട്ടുള്ള സാഹചര്യത്തിലും നമ്മൾ ധൈര്യത്തോടെയും ആത്മവിശ്വാസത്തോടെയും നിലകൊള്ളണം.",
+          "english_transliteration": "Ethu buddhimuttulla sahacharyathilum nammal dhairyathodum aatmavishwasathodum nilakollanam.",
+          "tamil_transliteration": "எந்த ஒரு கடினமான சூழ்நிலையிலும் நாம் தைரியத்துடனும் தன்னம்பிக்கையுடனும் நிலைத்திருக்க வேண்டும்.",
+          "english_meaning": "In any difficult situation, we must stand with courage and self-confidence.",
+          "tamil_meaning": "எந்த ஒரு கடினமான சூழ்நிலையிலும் நாம் தைரியத்துடனும் தன்னம்பிக்கையுடனும் உறுதியாக நிற்க வேண்டும்."
+        },
+        {
+          "malayalam": "നാളെ നടക്കുന്ന സാംസ്കാരിക പരിപാടിയിൽ നമ്മുടെ നാട്ടിലെ പ്രശസ്തമായ നാടകം അവതരിപ്പിക്കും.",
+          "english_transliteration": "Naale nadakkunna samskarika paripadipil nammude naattile prashasthamaya nadakam avatharippikkum.",
+          "tamil_transliteration": "நாளை நடைபெறும் கலாச்சார நிகழ்ச்சியில் நமது ஊரின் புகழ்பெற்ற நாடகம் நடத்தப்படும்.",
+          "english_meaning": "Tomorrow in the cultural event, the famous drama of our town will be performed.",
+          "tamil_meaning": "நாளை நடைபெறும் கலாச்சார நிகழ்ச்சியில் நமது ஊரின் புகழ்பெற்ற நாடகம் மேடையேற்றப்படும்."
+        },
+        {
+          "malayalam": "പുതിയ ആശയങ്ങൾ ചിന്തിക്കാനും അത് നടപ്പിലാക്കാനും നമ്മുടെ യുവാക്കൾ മുന്നോട്ട് വരണം.",
+          "english_transliteration": "Puthiya aashayangal chinthikkanum athu nadappilakkanum nammude yuvakkal munnott varanam.",
+          "tamil_transliteration": "புதிய கருத்துக்களைச் சிந்திக்கவும் அதை நடைமுறைப்படுத்தவும் நமது இளைஞர்கள் முன்வர வேண்டும்.",
+          "english_meaning": "Our youth should come forward to think of new ideas and implement them.",
+          "tamil_meaning": "புதிய கருத்துக்களைச் சிந்திக்கவும் அதைச் செயல்படுத்தவும் நமது ஊத்து இளைஞர்கள் முன்வர வேண்டும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ജീവിതത്തിൽ സന്തോഷവും സമാധാനവും ഉണ്ടാകാൻ സ്നേഹവും കരുണയും അത്യാവശ്യമാണ്.",
+          "english_transliteration": "Nammude jeevithathil santhoshavum samadhavum undakan snehavum karunayum athyashyamanu.",
+          "tamil_transliteration": "நம் வாழ்வில் மகிழ்ச்சியும் அமைதியும் நிலவ அன்பும் கருணையும் மிகவும் அவசியமாகும்.",
+          "english_meaning": "Love and compassion are very essential for happiness and peace in our life.",
+          "tamil_meaning": "நம் வாழ்வில் மகிழ்ச்சியும் அமைதியும் நிலவ அன்பும் கருணையும் எப்போதும் அவசியமாகும்."
+        },
+        {
+          "malayalam": "നല്ല വായന ശീലമുള്ള ഒരു വ്യക്തിക്ക് എവിടെയും എപ്പോഴും വിജയം നേടാൻ കഴിയും.",
+          "english_transliteration": "Nalla vayana sheelamulla oru vyakthikku evideyum eppozhum vijayam nedan kazhiyum.",
+          "tamil_transliteration": "நல்ல வாசிப்புப் பழக்கம் உள்ள ஒருவரால் எங்கும எப்போதும வெற்றியைப் பெற முடியும்.",
+          "english_meaning": "A person with good reading habits can achieve success anywhere and anytime.",
+          "tamil_meaning": "நல்ல வாசிப்புப் பழக்கம் கொண்ட ஒருவரால் எங்கு எப்போதும் வெற்றியைப் பெற முடியும்."
+        },
+        {
+          "malayalam": "കഴിഞ്ഞ വർഷം ഉണ്ടായ പ്രളയത്തിൽ തകർന്ന വീടുകൾ എല്ലാം സർക്കാർ പുനർനിർമ്മിച്ചു നൽകി.",
+          "english_transliteration": "Kazhinja varsham undaya pralayam thakarna veedukal ellam sarkar punarnirminchu nalki.",
+          "tamil_transliteration": "கடந்த ஆண்டு ஏற்பட்ட வெள்ளப்பெருக்கில் இடிந்த வீடுகள் அனைத்தையும் அரசு மீள்கட்டுமானம் செய்து தந்தது.",
+          "english_meaning": "The government rebuilt and provided all the houses destroyed in the flood last year.",
+          "tamil_meaning": "கடந்த ஆண்டு ஏற்பட்ட வெள்ளப்பெருக்கில் சேதமடைந்த அனைத்து வீடுகளையும் அரசு மீள்கட்டுமானம் செய்து தந்துள்ளது."
+        },
+        {
+          "malayalam": "നമ്മുടെ രാജ്യത്തിന്റെ പുരോഗതിക്കായി ഓരോ പൗരനും തങ്ങളാൽ ആവുന്ന സംഭാവനകൾ നൽകണം.",
+          "english_transliteration": "Nammude rajyathinte purogathikkayi ovvoru pouranum thangalal avunna sambhavanakal nalkanam.",
+          "tamil_transliteration": "நம் நாட்டின் வளர்ச்சிக்கு ஒவ்வொரு குடிமகனும் தன்னால் இயன்ற பங்களிப்பை வழங்க வேண்டும்.",
+          "english_meaning": "Every citizen should give their possible contributions for the progress of our country.",
+          "tamil_meaning": "நம் நாட்டின் வளர்ச்சிக்குப் प्रत्येक குடிமகனும் தன்னால் முடிந்த பங்களிப்பைத் தவறாமல் வழங்க வேண்டும்."
+        },
+        {
+          "malayalam": "മറ്റുള്ളവരുടെ വിഷമങ്ങൾ മനസ്സിലാക്കി അവരെ സഹായിക്കുന്നതാണ് യഥാർത്ഥ മനുഷ്യത്വം.",
+          "english_transliteration": "Mattullavarde vishamangal manasilakki avare sahajikkunnathu yathartha manushyathwanu.",
+          "tamil_transliteration": "மற்றவர்களின் கஷ்டங்களைப் புரிந்து கொண்டு அவர்களுக்கு உதவுவதே உண்மையான மனிதநேயமாகும்.",
+          "english_meaning": "Understanding others' sorrows and helping them is true humanity.",
+          "tamil_meaning": "மற்றவர்களின் துயரங்களைப் புரிந்துகொண்டு அவர்களுக்கு உதவுவதே உண்மையான மனிதநேயமாகும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ നാട്ടിലെ പരമ്പരാഗതമായ കൈത്തൊഴിലുകൾ ഇക്കാലത്ത് വീണ്ടും പ്രചാരം നേടിക്കൊണ്ടിരിക്കുന്നു.",
+          "english_transliteration": "Nammude naattile paramparyathumaya kaithozhilukal ikkalathu veendum pracharam nedikkondirikkunnu.",
+          "tamil_transliteration": "நமது நாட்டின் பாரம்பரியக் கைவினைத் தொழில்கள் இக்காலத்தில் மீண்டும் மக்களிடையே பிரபலமடைந்து வருகின்றன.",
+          "english_meaning": "Traditional handicrafts of our country are gaining popularity again nowadays.",
+          "tamil_meaning": "நமது நாட்டின் பாரம்பரியக் கைவினைத் தொழில்கள் இக்காலத்தில் மீண்டும் மக்களிடம் பிரபலமடைந்து வருகின்றன."
+        },
+        {
+          "malayalam": "നല്ല അധ്യാപകരുടെ ശിക്ഷണത്തിൽ വളരുന്ന കുട്ടികൾ ഭാവിയിൽ വലിയ നിലയിലെത്തും.",
+          "english_transliteration": "Nalla adhyapakarude shikshanthil valarunna kuttikal bhaviyil valiya nilayilethum.",
+          "tamil_transliteration": "நல்ல ஆசிரியர்களின் வழிகாட்டுதலில் வளரும் குழந்தைகள் எதிர்காலத்தில் உயர்ந்த நிலையை அடைவார்கள்.",
+          "english_meaning": "Children growing up under the guidance of good teachers will reach high positions in the future.",
+          "tamil_meaning": "நல்ல ஆசிரியர்களின் வழிகாட்டுதலில் வளரும் குழந்தைகள் எதிர்காலத்தில் மிக உயர்ந்த நிலையை அடைவார்கள்."
+        },
+        {
+          "malayalam": "നമ്മുടെ മാതാപിതാക്കൾ നമുക്ക് നൽകിയ ഏറ്റവും വലിയ സമ്മാനം നല്ലൊരു വിദ്യാഭ്യാസമാണ്.",
+          "english_transliteration": "Nammude mathapithakkal namukku nalkiya etravum valiya sammanam nalloru vidhyabhyasamanu.",
+          "tamil_transliteration": "நமது பெற்றோர் நமக்கு வழங்கிய மிகப்பெரிய பரிசு நல்லதொரு கல்வியாகும்.",
+          "english_meaning": "The biggest gift our parents gave us is a good education.",
+          "tamil_meaning": "நமது பெற்றோர் நமக்கு வழங்கியிருக்கக் கூடிய மிகப்பெரிய பரிசு நல்லதொரு கல்வியாகும்."
+        },
+        {
+          "malayalam": "ഏതൊരു കാര്യവും തുടങ്ങുന്നതിന് മുൻപ് അതിന്റെ ഗുണദോഷങ്ങൾ നന്നായി ചിന്തിക്കണം.",
+          "english_transliteration": "Ethoru karyavum thudangunnathinu munpu athinte gunadoshangal nannayi chinthikkanam.",
+          "tamil_transliteration": "எந்த ஒரு செயலையும் தொடங்குவதற்கு முன்பு அதன் நன்மைகளையும் தீமைகளையும் நன்றாகச் சிந்திக்க வேண்டும்.",
+          "english_meaning": "Before starting any task, one should think well about its pros and cons.",
+          "tamil_meaning": "எந்த ஒரு செயலையும் தொடங்குவதற்கு முன்பு அதன் நன்மைகளையும் தீமைகளையும் நன்றாகச் சிந்திக்க வேண்டும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ നാടിന്റെ സംസ്കാരവും പാരമ്പര്യവും വരും തലമുറയ്ക്ക് കൈമാറേണ്ടതുണ്ട്.",
+          "english_transliteration": "Nammude naadinte samskaravum paramparyavum varum thalumurakku kaimarendathundu.",
+          "tamil_transliteration": "நமது நாட்டின் கலாச்சாரத்தையும் பாரம்பரியத்தையும் வரும் தலைமுறைக்குக் கொண்டு சேர்க்க வேண்டும்.",
+          "english_meaning": "We need to pass on the culture and tradition of our nation to the coming generation.",
+          "tamil_meaning": "நமது நாட்டின் கலாச்சாரத்தையும் பாரம்பரியத்தையும் எதிர்வரும் தலைமுறைக்குக் கொண்டு சேர்க்க வேண்டும்."
+        },
+        {
+          "malayalam": "കഴിഞ്ഞ കുറച്ചു ദിവസങ്ങളായി കേരളത്തിൽ കനത്ത മഴയും കാറ്റും തുടരുന്നു.",
+          "english_transliteration": "Kazhinja kurachu divasangalayi Keralathil kanatha mazhayum kaattum thudarunnu.",
+          "tamil_transliteration": "கடந்த சில நாட்களாக கேரளாவில் கனமழையும் பலத்த காற்றும் தொடர்கிறது.",
+          "english_meaning": "Heavy rain and wind continue in Kerala for the past few days.",
+          "tamil_meaning": "கடந்த சில நாட்களாக கேரளாவில் தொடர்ந்து கனமழையும் பலத்த காற்றும் வீசி வருகிறது."
+        },
+        {
+          "malayalam": "നമ്മുടെ ജീവിതത്തിൽ സന്തോഷവും സങ്കടങ്ങളും മാറിമാറി വരുന്നത് സ്വാഭാവികമാണ്.",
+          "english_transliteration": "Nammude jeevithathil santhoshavum sankadangalum maarimaari varunathu swabhavikamanu.",
+          "tamil_transliteration": "நம் வாழ்வில் இன்பமும் துன்பமும் மாறி மாறி வருவது இயற்கையான ஒரு விஷயமாகும்.",
+          "english_meaning": "It is natural for happiness and sorrows to alternate in our life.",
+          "tamil_meaning": "நம் வாழ்வில் இன்பமும் துன்பமும் மாறி மாறி வருவது இயற்கையான ஒரு நிகழ்வாகும்."
+        },
+        {
+          "malayalam": "ഒരു നല്ല പുസ്തകം വായിക്കുമ്പോൾ നമ്മുടെ മനസ്സ് പുതിയ ലോകത്തേക്ക് യാത്ര ചെയ്യുന്നു.",
+          "english_transliteration": "Oru nalla pusthakam vayikkumbol nammude manassu puthiya lokathekku yathra cheyyunnu.",
+          "tamil_transliteration": "ஒரு நல்ல புத்தகத்தைப் வாசிக்கும்போது நமது மனம் புதியதொரு உலகத்திற்குப் பயணம் செய்யும்.",
+          "english_meaning": "When reading a good book, our mind travels to a new world.",
+          "tamil_meaning": "ஒரு நல்ல புத்தகத்தை வாசிக்கும்போது நமது மனம் புதியதொரு கற்பனை உலகத்திற்குப் பயணம் செய்யும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ നാട്ടിലെ തനതായ ഭക്ഷണരീതികൾ ആരോഗ്യത്തിന് വളരെ ഗുണം ചെയ്യും.",
+          "english_transliteration": "Nammude naattile thanathaya bhakshanareethikal aarogyathinu valare gunam cheyyum.",
+          "tamil_transliteration": "நமது ஊரின் பாரம்பரிய உணவு முறைகள் ஆரோக்கியத்திற்கு மிகவும் நன்மை பயக்கும்.",
+          "english_meaning": "The traditional food habits of our town will do a lot of good for health.",
+          "tamil_meaning": "நமது நாட்டின் பாரம்பரிய உணவு முறைகள் நமது உடல் ஆரோக்கியத்திற்கு மிகவும் நன்மை பயக்கும்."
+        },
+        {
+          "malayalam": "കഠിനമായ പ്രയത്നത്തിലൂടെ മാത്രമേ വലിയ ലക്ഷ്യങ്ങൾ സ്വന്തമാക്കാൻ കഴിയൂ.",
+          "english_transliteration": "Kathinamaya prayathnathoorum mathrame valiya lakshyangal swanthamakan kazhiyu.",
+          "tamil_transliteration": "கடினமான முயற்சியின் மூலமாக மட்டுமே பெரிய இலக்குகளைச் சொந்தமாக்கிக் கொள்ள முடியும்.",
+          "english_meaning": "Only through hard work can one achieve big goals.",
+          "tamil_meaning": "கடினமான முயற்சியின் மூலமாக மட்டுமே வாழ்க்கையில் பெரிய இலக்குகளைச் சொந்தமாக்கிக் கொள்ள முடியும்."
+        },
+        {
+          "malayalam": "മനസ്സിൽ നല്ല ചിന്തകൾ ഉണ്ടെങ്കിൽ മാത്രമേ നമ്മുടെ പ്രവൃത്തികളും നന്നാകൂ.",
+          "english_transliteration": "Manassil nalla chinthakal undengil mathrame nammude pravruthikalum nannaku.",
+          "tamil_transliteration": "மனதில் நல்ல சிந்தனைகள் இருந்தால் மட்டுமே நமது செயல்களும் நல்லதாக அமையும்.",
+          "english_meaning": "Only if there are good thoughts in the mind, our actions will also be good.",
+          "tamil_meaning": "மனதில் நல்ல சிந்தனைகள் இருந்தால் மட்டுமே நமது செயல்களும் நல்ல முறையில் அமையும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ രാജ്യത്തിന്റെ സ്വാതന്ത്ര്യ ദിനം എല്ലാ വർഷവും വളരെ ആവേശത്തോടെ ആഘോഷിക്കുന്നു.",
+          "english_transliteration": "Nammude rajyathinte swathanthryathinte dinam ella varshavum valare aaveshathode aghoshikkunnu.",
+          "tamil_transliteration": "நம் நாட்டின் சுதந்திர தினம் ஒவ்வொரு ஆண்டும் மிகுந்த உற்சாகத்துடன் கொண்டாடப்படுகிறது.",
+          "english_meaning": "Our country's Independence Day is celebrated with great enthusiasm every year.",
+          "tamil_meaning": "நம் நாட்டின் சுதந்திர தினம் ஒவ்வொரு ஆண்டும் மிகவும் உற்சாகத்தோடும் பெருமையோடும் கொண்டாடப்படுகிறது."
+        },
+        {
+          "malayalam": "പഴയകാല സ്മരണകൾ നമ്മുടെ മനസ്സിൽ എപ്പോഴും മായാതെ നിൽക്കും.",
+          "english_transliteration": "Pazhayakala smaranakal nammude manassil eppozhum mayathe nilkkum.",
+          "tamil_transliteration": "பழைய காலத்து நினைவுகள் நமது மனதில் எப்போதுமே அழியாமல் நிலைத்திருக்கும்.",
+          "english_meaning": "Old memories will always stay un-faded in our minds.",
+          "tamil_meaning": "பழைய காலத்து இனிய நினைவுகள் நமது மனதில் எப்போதுமே அழியாமல் நிலைத்திருக்கும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ചുറ്റുമുള്ള പ്രകൃതിയെ സ്നേഹിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്യേണ്ടത് അത്യാവശ്യമാണ്.",
+          "english_transliteration": "Nammude chuttumulla prakruthiye snehikkukayum samrakshikkukayum cheyyendathu athyashyamanu.",
+          "tamil_transliteration": "நம்மைச் சுற்றியுள்ள இயற்கையை நேசிப்பதும் அதைப் பாதுகாப்பதும் மிகவும் அவசியமாகும்.",
+          "english_meaning": "It is essential to love and protect the nature around us.",
+          "tamil_meaning": "நம்மைச் சுற்றியுள்ள இயற்கையை நேசிப்பதும் அதைப் பாதுகாப்பதும் நமது கடமையாகும்."
+        },
+        {
+          "malayalam": "ഏത് കാര്യത്തിലും വിജയം നേടാൻ ആത്മവിശ്വാസവും കൃത്യമായ പ്ലാനിങ്ങും വേണം.",
+          "english_transliteration": "Ethu karyathilum vijayam nedan aatmavishwasavum krithyamaya planningum venam.",
+          "tamil_transliteration": "எந்த ஒரு காரியத்திலும் வெற்றி பெற தன்னம்பிக்கையும் சரியான திட்டமிடலும் இருக்க வேண்டும்.",
+          "english_meaning": "To achieve success in any task, self-confidence and proper planning are needed.",
+          "tamil_meaning": "எந்த ஒரு காரியத்திலும் வெற்றி பெற தன்னம்பிக்கையும் சரியான திட்டமிடலும் மிக அவசியமாகும்."
+        },
+        {
+          "malayalam": "നല്ല അധ്യാപകരുടെ വാക്കുകൾ നമ്മുടെ ജീവിതത്തിലെ വഴിവിളികളായി മാറും.",
+          "english_transliteration": "Nalla adhyapakarude vaakukal nammude jeevithathile vazhivilikalayi marum.",
+          "tamil_transliteration": "நல்ல ஆசிரியர்களின் வார்த்தைகள் நமது வாழ்க்கையின் வழிகாட்டியாக விளங்கும்.",
+          "english_meaning": "The words of good teachers will become lighthouse guides in our life.",
+          "tamil_meaning": "நல்ல ஆசிரியர்களின் பொன்னான வார்த்தைகள் நமது வாழ்க்கையின் சரியான வழிகாட்டியாக விளங்கும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ രാജ്യത്തിന്റെ പുരോഗതിക്കായി എല്ലാവരും ഒറ്റക്കെട്ടായി പ്രവർത്തിക്കണം.",
+          "english_transliteration": "Nammude rajyathinte purogathikkayi ellarum ottayettayi pravarthikanam.",
+          "tamil_transliteration": "நம் நாட்டின் முன்னேற்றத்திற்காக நாம் அனைவரும் ஒற்றுமையாகச் செயல்பட வேண்டும்.",
+          "english_meaning": "Everyone should work together unitedly for the progress of our country.",
+          "tamil_meaning": "நம் நாட்டின் முன்னேற்றத்திற்காக நாம் அனைவரும் ஒற்றுமையாக ஒன்றிணைந்து செயல்பட வேண்டும்."
+        },
+        {
+          "malayalam": "ഈ മനോഹരമായ യാത്ര നമുക്ക് ഒരിക്കലും മറക്കാൻ കഴിയാത്ത നല്ലൊരു അനുഭവമായി മാറി.",
+          "english_transliteration": "Ee manoharamaya yathra namukku orikkalum marakkan kazhiyatha nalloru anubhavamayi maari.",
+          "tamil_transliteration": "இந்த அழகான பயணம் நம்மால் எப்போதுமே மறக்க முடியாத ஒரு நல்ல அனுபவமாக மாறியது.",
+          "english_meaning": "This beautiful journey turned into a good experience that we can never forget.",
+          "tamil_meaning": "இந்த அழகான பயணம் நம்மால் எப்போதுமே மறக்க முடியாத ஒரு இனிய அனுபவமாக மாறியது."
+        },
+        {
+          "malayalam": "നമ്മുടെ ജീവിതത്തിൽ വിജയം കൈവരിക്കാൻ ഏറ്റവും പ്രധാനം അർപ്പണബോധമാണ്.",
+          "english_transliteration": "Nammude jeevithathil vijayam kaivirikan etravum pradhanam arppanabodhamanu.",
+          "tamil_transliteration": "நம் வாழ்க்கையில் வெற்றியை அடைய மிக முக்கியமானது அர்ப்பணிப்பு உணர்வாகும்.",
+          "english_meaning": "The most important thing to achieve success in our life is a sense of dedication.",
+          "tamil_meaning": "நம் வாழ்க்கையில் வெற்றியை அடைய மிக முக்கியமானது முழுமையான அர்ப்பணிப்பு உணர்வாகும்."
+        },
+        {
+          "malayalam": "കഴിഞ്ഞ കുറച്ചു കാലമായി നമ്മുടെ നാട്ടിൽ ഡിജിറ്റൽ സാങ്കേതികവിദ്യ അതിവേഗം വളർന്നുകൊണ്ടിരിക്കുന്നു.",
+          "english_transliteration": "Kazhinja kurachu kalamayi nammude naattil digital saanthnrikavidya athivegam valarnnukondirikkunnu.",
+          "tamil_transliteration": "கடந்த சில காலமாக நமது ஊரில் டிஜிட்டல் தொழில்நுட்பம் மிகவேகமாக வளர்ந்து வருகிறது.",
+          "english_meaning": "Digital technology has been growing very rapidly in our town for the past few days.",
+          "tamil_meaning": "கடந்த சில காலமாக நமது ஊரில் டிஜிட்டல் தொழில்நுட்பம் மிகவேகமாக வளர்ந்து வருகிறது."
+        },
+        {
+          "malayalam": "പഴയകാല തനിമയും സംസ്കാരവും നിലനിർത്തിക്കൊണ്ട് നാം മുന്നോട്ട് പോകണം.",
+          "english_transliteration": "Pazhayakala thanimayum samskaravum nilanirthikondu naam munnott pokanam.",
+          "tamil_transliteration": "பழைய காலத்துத் தனித்தன்மையும் கலாச்சாரத்தையும் பாதுகாத்துக்கொண்டு நாம் முன்னோக்கிச் செல்ல வேண்டும்.",
+          "english_meaning": "We should move forward while maintaining old uniqueness and culture.",
+          "tamil_meaning": "பழைய காலத்துத் தனித்தன்மையும் கலாச்சாரத்தையும் பாதுகாத்துக்கொண்டு நாம் முன்னோக்கிச் செல்ல வேண்டும்."
+        },
+        {
+          "malayalam": "നല്ല സുഹൃത്തുക്കളുടെ പിന്തുണയുണ്ടെങ്കിൽ ഏത് വലിയ പ്രതിസന്ധിയെയും നമ്മൾക്ക് തരണം ചെയ്യാം.",
+          "english_transliteration": "Nalla suhruthukkalude pinthunayundengil ethu valiya prathisandhiyum nammalkku tharanam cheyyam.",
+          "tamil_transliteration": "நல்ல நண்பர்களின் ஆதரவு இருந்தால் எந்தப் பெரிய நெருக்கடியையும் நம்மால் கடக்க முடியும்.",
+          "english_meaning": "If we have the support of good friends, we can overcome any big crisis.",
+          "tamil_meaning": "நல்ல நண்பர்களின் ஆதரவு இருந்தால் எந்தப் பெரிய நெருக்கடியையும் நம்மால் எளிதாகக் கடக்க முடியும்."
+        },
+        {
+          "malayalam": "കുട്ടികളിൽ വായനാശീലം വളർത്താൻ സ്കൂളുകളും രക്ഷിതാക്കളും ഒരുപോലെ ശ്രദ്ധിക്കണം.",
+          "english_transliteration": "Kuttikalil vayanasheelam valarthan school-kalum rakshithakkalum orupole shraddhikkanam.",
+          "tamil_transliteration": "குழந்தைகளிடம் வாசிப்புப் பழக்கத்தை வளர்க்க பள்ளிகளும் பெற்றோரும் ஒருசேர அக்கறை செலுத்த வேண்டும்.",
+          "english_meaning": "Both schools and parents should pay equal attention to fostering reading habits in children.",
+          "tamil_meaning": "குழந்தைகளிடம் வாசிப்புப் பழக்கத்தை வளர்க்க பள்ளிகளும் பெற்றோரும் ஒருசேர அக்கறை செலுத்த வேண்டும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ മാതൃഭാഷയിലൂടെ കാര്യങ്ങൾ പഠിക്കുന്നത് വളരെ വേഗത്തിൽ മനസ്സിലാക്കാൻ സഹായിക്കും.",
+          "english_transliteration": "Nammude mathrubhashayilude karyangal padikkunnathu valare vegathil manasilakkan sahajikkum.",
+          "tamil_transliteration": "நமது தாய்மொழி மூலம் விஷயங்களைக் கற்றுக்கொள்வது மிகவிரைவாகப் புரிந்துகொள்ள உதவும்.",
+          "english_meaning": "Learning things through our mother tongue will help understand very quickly.",
+          "tamil_meaning": "நமது தாய்மொழி மூலம் விஷயங்களைக் கற்றுக்கொள்வது மிகவிரைவாகப் புரிந்துகொள்ள உதவியாக இருக்கும்."
+        },
+        {
+          "malayalam": "ഏത് കാര്യത്തിലും വിജയം നേടാൻ കഠിനമായ അധ്വാനവും കൃത്യമായ സമയക്രമവും അത്യാവശ്യമാണ്.",
+          "english_transliteration": "Ethu karyathilum vijayam nedan kathinamaya adhyanavum krithyamaya samayakramavum athyashyamanu.",
+          "tamil_transliteration": "எந்த ஒரு காரியத்திலும் வெற்றி பெற கடின உழைப்பும் சரியான நேரக் கடைப்பிடிப்பும் அவசியமாகும்.",
+          "english_meaning": "Hard work and strict time management are essential to achieve success in any task.",
+          "tamil_meaning": "எந்த ஒரு காரியத்திலும் வெற்றி பெற கடின உழைப்பும் சரியான நேரக் கடைப்பிடிப்பும் அவசியமாகும்."
+        },
+        {
+          "malayalam": "മഴക്കാലത്ത് പകര്ച്ചവ്യാധികള് വരാതിരിക്കാൻ നമ്മള് നമ്മുടെ ചുറ്റുപാടുകൾ ശുദ്ധമായി സൂക്ഷിക്കണം.",
+          "english_transliteration": "Mazhakalathu pakarchavyadhikal varathirikkan namma nammude chuttuppadukal shudhamayi sooshikkanam.",
+          "tamil_transliteration": "மழைக்காலத்தில் தொற்றுநோய்கள் வராமல் இருக்க நாம் நம் சுற்றுப்புறத்தைச் சுத்தமாக வைத்திருக்க வேண்டும்.",
+          "english_meaning": "To prevent infectious diseases during the rainy season, we must keep our surroundings clean.",
+          "tamil_meaning": "மழைக்காலத்தில் தொற்றுநோய்கள் பரவாமல் இருக்க நாம் நம் சுற்றுப்புறத்தைத் தூய்மையாகப் பராமரிக்க வேண்டும்."
+        },
+        {
+          "malayalam": "നല്ല വായനയിലൂടെ പുതിയ അറിവുകളും വിപുലമായ കാഴ്ചപ്പാടുകളും നമ്മിൽ ഉണ്ടാകുന്നു.",
+          "english_transliteration": "Nalla vayanayilude puthiya arivukalum vipulamaya kazhchappadukalum nammil undakunnu.",
+          "tamil_transliteration": "நல்ல வாசிப்பின் மூலம் புதிய அறிவும் பரந்த பார்வையும் நமக்குள் உருவாகிறது.",
+          "english_meaning": "Through good reading, new knowledge and broad perspectives are created in us.",
+          "tamil_meaning": "நல்ல வாசிப்பின் மூலம் புதிய அறிவும் பரந்த பார்வையும் நமக்குள் உருவாகிறது."
+        },
+        {
+          "malayalam": "നമ്മുടെ രാജ്യത്തിന്റെ ഐക്യവും അഖണ്ഡതയും കാത്തുസൂക്ഷിക്കേണ്ടത് ഓരോ പൗരന്റെയും ചുമതലയാണ്.",
+          "english_transliteration": "Nammude rajyathinte aikyavum akhandathayum kathusooshikkendathu ovvoru pourantejum chumathalanu.",
+          "tamil_transliteration": "நம் நாட்டின் ஒற்றுமையையும் ஒருமைப்பாட்டையும் பாதுகாப்பது ஒவ்வொரு குடிமகனின் பொறுப்பாகும்.",
+          "english_meaning": "Protecting the unity and integrity of our country is the duty of every citizen.",
+          "tamil_meaning": "நம் நாட்டின் ஒற்றுமையையும் ஒருமைப்பாட்டையும் பாதுகாப்பது ஒவ்வொரு குடிமகனின் முக்கியப் பொறுப்பாகும்."
+        },
+        {
+          "malayalam": "ഓരോ പുതിയ ദിവസവും നമ്മൾക്ക് പുതിയ പ്രതീക്ഷകളും പുതിയ അവസരങ്ങളും തരുന്നു.",
+          "english_transliteration": "Ooro puthiya divasum nammalkku puthiya pratheekshagalum puthiya avasarangalum tharunnu.",
+          "tamil_transliteration": "ஒவ்வொரு புதிய நாளும் நமக்கு புதிய நம்பிக்கைகளையும் புதிய வாய்ப்புகளையும் தருகிறது.",
+          "english_meaning": "Every new day gives us new hopes and new opportunities.",
+          "tamil_meaning": "ஒவ்வொரு புதிய நாளும் நமக்கு புதிய நம்பிக்கைகளையும் புதிய வாய்ப்புகளையும் வழங்குகிறது."
+        },
+        {
+          "malayalam": "കഴിഞ്ഞ വർഷത്തെ അപേക്ഷിച്ച് ഈ വർഷം നമ്മുടെ നാട്ടിൽ കൂടുതൽ മഴ ലഭിച്ചു.",
+          "english_transliteration": "Kazhinja varshathe apekshichu ee varsham nammude naattil kooduthal mazha labhichu.",
+          "tamil_transliteration": "கடந்த ஆண்டை ஒப்பிடும்போது இந்த ஆண்டு நமது ஊரில் அதிக மழை கிடைத்துள்ளது.",
+          "english_meaning": "Compared to last year, we received more rain in our town this year.",
+          "tamil_meaning": "கடந்த ஆண்டைக் காட்டிலும் இந்த ஆண்டு நமது ஊரில் கூடுதல் மழை பெய்துள்ளது."
+        },
+        {
+          "malayalam": "നല്ല ഗുണങ്ങളും വിനയവും ഉള്ള മനുഷ്യരെ സമൂഹം എപ്പോഴും ആദരിക്കും.",
+          "english_transliteration": "Nalla gunangalum vinayavum ulla manushyare samooham eppozhum aadharikkum.",
+          "tamil_transliteration": "நல்ல குணமும் பணிவும் கொண்ட மனிதர்களைச் சமூகம் எப்போதும் மதிக்கப் போற்றும்.",
+          "english_meaning": "Society will always respect people with good qualities and humility.",
+          "tamil_meaning": "நல்ல குணமும் பணிவும் கொண்ட மனிதர்களைச் சமூகம் எப்போதும் மதித்துப் போற்றும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ലക്ഷ്യത്തിൽ എത്തിച്ചേരുന്നത് വരെ നാം ഒരിക്കലും പകുതിവഴിയിൽ ഉപേക്ഷിക്കരുത്.",
+          "english_transliteration": "Nammude lakshyathil ethicherunathu vare naam orikkalum pakuthivazhiyil upekshikkaruthu.",
+          "tamil_transliteration": "நம் இலக்கை அடையும் வரை நாம் ஒருபோதும் பாதியிலேயே விட்டுவிடக் கூடாது.",
+          "english_meaning": "We should never give up halfway until we reach our goal.",
+          "tamil_meaning": "நம் இலக்கை முழுமையாக அடையும் வரை நாம் ஒருபோதும் பாதியிலேயே கைவிட்டுவிடக் கூடாது."
+        },
+        {
+          "malayalam": "പ്രകൃതിയെ നാം സ്നേഹിച്ചാൽ പ്രകൃതി തിരിച്ചു നമുക്ക് നല്ല കാര്യങ്ങൾ തരും.",
+          "english_transliteration": "Prakruthiye naam snehichal prakruthi thirichu namukku nalla karyangal tharum.",
+          "tamil_transliteration": "இயற்கையை நாம் நேசித்தால் இயற்கை பதிலுக்கு நமக்கு நல்ல விஷயங்களைத் தரும்.",
+          "english_meaning": "If we love nature, nature in return will give us good things.",
+          "tamil_meaning": "இயற்கையை நாம் நேசித்து, அதைப் பாதுகாத்தால் இயற்கை பதிலுக்கு நமக்கு நல்ல பலன்களைத் தரும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ജീവിതത്തിൽ വരുന്ന ഓരോ തടസ്സങ്ങളും നമ്മെ കൂടുതൽ ശക്തരാക്കും.",
+          "english_transliteration": "Nammude jeevithathil varunna ooro thadassangalum namme kooduthal shaktharakkum.",
+          "tamil_transliteration": "நம் வாழ்வில் வரும் ஒவ்வொரு தடைகளும் நம்மை மேலும் பலமானவர்களாக மாற்றும்.",
+          "english_meaning": "Every obstacle that comes in our life will make us stronger.",
+          "tamil_meaning": "நம் வாழ்வில் வரும் ஒவ்வொரு தடைகளும் நம்மை மேலும் பலமானவர்களாக மாற்றும்."
+        },
+        {
+          "malayalam": "നല്ലൊരു മാതൃകയിലൂടെ മാത്രമേ കുട്ടികളെ ശരിയായ വഴിയിൽ നടത്താൻ കഴിയൂ.",
+          "english_transliteration": "Nalla oru mathrukayilude mathrame kuttikale shariyaya vazhiyil nadathan kazhiyu.",
+          "tamil_transliteration": "ஒரு நல்ல முன்மாதிரியின் மூலமாக மட்டுமே குழந்தைகளைச் சரியான பாதையில் நடத்த முடியும்.",
+          "english_meaning": "Only through a good example can children be led on the right path.",
+          "tamil_meaning": "ஒரு நல்ல முன்மாதிரியின் மூலமாக மட்டுமே குழந்தைகளைச் சரியான பாதையில் வழிநடத்த முடியும்."
+        },
+        {
+          "malayalam": "ഏത് കഠിനമായ ജോലിയും നമ്മൾ ഒത്തൊരുമയോടെ ചെയ്താൽ അത് വളരെ എളുപ്പമാകും.",
+          "english_transliteration": "Ethu kathinamaya joliyum nammal otthorumayode cheythal athu valare eluppamakum.",
+          "tamil_transliteration": "எந்தக் கடினமான வேலையையும் நாம் ஒற்றுமையுடன் செய்தால் அது மிகவும் எளிதாகிவிடும்.",
+          "english_meaning": "If we do any difficult work together, it will become very easy.",
+          "tamil_meaning": "எந்தக் கடினமான வேலையையும் நாம் ஒற்றுமையுடன் இணைந்து செய்தால் அது மிகவும் எளிதாகிவிடும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ സംസ്കാരവും പാരമ്പര്യവും വരും തലമുറയ്ക്ക് പകർന്നു നൽകേണ്ടത് നമ്മുടെ കടമയാണ്.",
+          "english_transliteration": "Nammude samskaravum paramparyavum varum thalumurakku pakarnnu nalkendathu nammude kadamanu.",
+          "tamil_transliteration": "நமது கலாச்சாரத்தையும் பாரம்பரியத்தையும் வரும் தலைமுறைக்குக் கடத்துவது நமது கடமையாகும்.",
+          "english_meaning": "It is our duty to pass on our culture and heritage to the next generation.",
+          "tamil_meaning": "நமது கலாச்சாரத்தையும் பாரம்பரியத்தையும் எதிர்வரும் தலைமுறைக்குக் கொண்டு சேர்ப்பது நமது கடமையாகும்."
+        },
+        {
+          "malayalam": "ജീവിതത്തിൽ അറിവ് നേടുന്നതിനൊപ്പം നല്ല മനുഷ്യനാകാനും നാം ശ്രമിക്കണം.",
+          "english_transliteration": "Jeevithathil arivu nedunathinodoppam nalla manushyanakanum naam sramikkanam.",
+          "tamil_transliteration": "வாழ்வில் அறிவைப் பெறுவதோடு நல்ல மனிதனாக மாறவும் நாம் முயற்சி செய்ய வேண்டும்.",
+          "english_meaning": "Along with gaining knowledge in life, we should also try to become a good human.",
+          "tamil_meaning": "வாழ்வில் அறிவைப் பெறுவதோடு நல்ல பண்புள்ள மனிதனாக மாறவும் நாம் தொடர்ந்து முயற்சி செய்ய வேண்டும்."
+        },
+        {
+          "malayalam": "നല്ല ചിന്തകൾ നമ്മുടെ മനസ്സിൽ എപ്പോഴും നല്ല ഊർജ്ജം നിറയ്ക്കും.",
+          "english_transliteration": "Nalla chinthakal nammude manassil eppozhum nalla oorjjam niraykkum.",
+          "tamil_transliteration": "நல்ல சிந்தனைகள் நமது மனதில் எப்போதும் நல்ல ஆற்றலை நிரப்பும்.",
+          "english_meaning": "Good thoughts will always fill our mind with good energy.",
+          "tamil_meaning": "நல்ல சிந்தனைகள் நமது மனதில் எப்போதும் நேர்மறையான ஆற்றலை நிரப்பிக் கொண்டிருக்கும்."
+        },
+        {
+          "malayalam": "ഓരോ വ്യക്തിയും സ്വന്തം കടമകൾ കൃത്യമായി നിർവഹിച്ചാൽ നാട് നന്നാകും.",
+          "english_transliteration": "Ooro vyakthiyum swantham kadamakal krithyamayi nirvahichal naadu nannakum.",
+          "tamil_transliteration": "ஒவ்வொரு நபரும் தனது கடமைகளைச் சரியாகச் செய்தால் நாடு நல்வழியில் முன்னேறும்.",
+          "english_meaning": "If every person performs their duties properly, the country will prosper.",
+          "tamil_meaning": "ஒவ்வொரு நபரும் தனது கடமைகளைச் சரியாகச் செய்தால் நாடு மிகச் சிறப்பாக முன்னேறும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ നാട്ടിലെ പരമ്പരാഗത ഉത്സവങ്ങൾ നമ്മുടെ സംസ്കാരത്തിന്റെ പ്രതീകമാണ്.",
+          "english_transliteration": "Nammude naattile paramparyathumaya utsavamgal nammude samskarathinte pratheekamanu.",
+          "tamil_transliteration": "நமது ஊரின் பாரம்பரியத் திருவிழாக்கள் நமது கலாச்சாரத்தின் அடையாளமாகும்.",
+          "english_meaning": "The traditional festivals of our town are the symbol of our culture.",
+          "tamil_meaning": "நமது ஊரின் பாரம்பரியத் திருவிழாக்கள் நமது கலாச்சாரத்தின் மிக முக்கியமான அடையாளமாகும்."
+        },
+        {
+          "malayalam": "ഏത് വലിയ പ്രശ്നത്തിനും സമാധാനപരമായ ചർച്ചയിലൂടെ പരിഹാരം കാണാം.",
+          "english_transliteration": "Ethu valiya prasnathinum samadhanaparamaya charchayilude pariharam kanam.",
+          "tamil_transliteration": "எந்தப் பெரிய பிரச்சினைக்கும் அமைதியான பேச்சுவார்த்தை மூலம் தீர்வு காண முடியும்.",
+          "english_meaning": "A solution can be found for any big problem through peaceful discussion.",
+          "tamil_meaning": "எந்தப் பெரிய பிரச்சினைக்கும் அமைதியான பேச்சுவார்த்தை மூலம் சுமுகமான தீர்வு காண முடியும்."
+        },
+        {
+          "malayalam": "കഴിഞ്ഞ കുറച്ചു വർഷങ്ങളായി നമ്മുടെ നാട്ടിൽ വിദ്യാഭ്യാസ രംഗത്ത് വലിയ മാറ്റങ്ങൾ വന്നു.",
+          "english_transliteration": "Kazhinja kurachu varshangalayee nammude naattil vidhyabhyasa rangathu valiya mattangal vannu.",
+          "tamil_transliteration": "கடந்த சில ஆண்டுகளாக நமது ஊரில் கல்வித்துறையில் மிகப்பெரிய மாற்றங்கள் ஏற்பட்டுள்ளன.",
+          "english_meaning": "Over the past few years, big changes have come in the education sector in our town.",
+          "tamil_meaning": "கடந்த சில ஆண்டுகளாக நமது ஊரில் கல்வித்துறையில் மிகப்பெரிய மாற்றங்கள் ஏற்பட்டுள்ளன."
+        },
+        {
+          "malayalam": "നല്ല വായനയും നല്ല കൂട്ടുകെട്ടും നമ്മുടെ ജീവിതത്തെ ഒരു ഉയർന്ന തലത്തിൽ എത്തിക്കും.",
+          "english_transliteration": "Nalla vayanayum nalla koottukettum nammude jeevithathe oru uyarnna thalathilethikkum.",
+          "tamil_transliteration": "நல்ல வாசிப்பும் நல்ல நட்பு வட்டமும் நமது வாழ்க்கையை ஒரு உயர்ந்த நிலைக்கு உயர்த்திடும்.",
+          "english_meaning": "Good reading and good company will bring our life to a high level.",
+          "tamil_meaning": "நல்ல வாசிப்பும் நல்ல நட்பு வட்டமும் நமது வாழ்க்கையை ஒரு உயர்ந்த நிலைக்கு உயர்த்திவிடும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ മാതാപിതാക്കളുടെയും അധ്യാപകരുടെയും അനുഗ്രഹം നമ്മുടെ വിജയത്തിന് കാരണമാകും.",
+          "english_transliteration": "Nammude mathapithakkaludeyum adhyapakarudeyum anugraham nammude vijayathinu kaaranamakum.",
+          "tamil_transliteration": "நமது பெற்றோரின் மற்றும் ஆசிரியர்களின் ஆசீர்வாதம் நமது வெற்றிக்கு முக்கிய காரணமாக அமையும்.",
+          "english_meaning": "The blessings of our parents and teachers will be the reason for our success.",
+          "tamil_meaning": "நமது பெற்றோரின் மற்றும் ஆசிரியர்களின் நல்வாழ்த்துகளும் ஆசீர்வாதமும் நமது வெற்றிக்குக் காரணமாக அமையும்."
+        },
+        {
+          "malayalam": "ജീവിതത്തിൽ ഒരിക്കലും തോറ്റുപോകാത്തവർ എന്ന് ആരുമില്ല, തോൽവികളിൽ നിന്ന് പഠിക്കുന്നവരാണ് വിജയികൾ.",
+          "english_transliteration": "Jeevithathil orikkalum thotupokathevar ennu aarumilla, tholvikalil ninnu padikkunnavaranu vijayikal.",
+          "tamil_transliteration": "வாழ்வில் எப்போதுமே தோற்காதவர்கள் என்று யாருமில்லை, தோல்விகளிலிருந்து கற்றுக்கொள்பவர்களே வெற்றியாளர்கள்.",
+          "english_meaning": "There is no one who never fails in life, winners are those who learn from failures.",
+          "tamil_meaning": "வாழ்வில் எப்போதுமே தோற்காதவர்கள் என்று யாருமில்லை, தோல்விகளிலிருந்து பாடம் கற்றுக்கொள்பவர்களே வெற்றியாளர்கள்."
+        },
+        {
+          "malayalam": "നമുക്ക് ചുറ്റുമുള്ള ലോകത്തെ അറിയാനും മനസ്സിലാക്കാനും യാത്രകൾ നമ്മെ സഹായിക്കും.",
+          "english_transliteration": "Namukku chuttumulla lokathe ariyanum manasilakkanum yathrakal namme sahajikkum.",
+          "tamil_transliteration": "நம்மைச் சுற்றியுள்ள உலகத்தைத் தெரிந்துகொள்ளவும் புரிந்துகொள்ளவும் பயணங்கள் நமக்கு உதவும்.",
+          "english_meaning": "Journeys will help us know and understand the world around us.",
+          "tamil_meaning": "நம்மைச் சுற்றியுள்ள உலகத்தைத் தெரிந்துகொள்ளவும் ஆழமாகப் புரிந்துகொள்ளவும் பயணங்கள் பெரிதும் உதவும்."
+        },
+        {
+          "malayalam": "ഈ മനോഹരമായ മലയാളം പഠന പ്രോജക്റ്റ് വളരെ വിജയകരമായി പൂർത്തിയാക്കാൻ നമുക്ക് കഴിഞ്ഞു.",
+          "english_transliteration": "Ee manoharamaya malayalam padhana project valare vijayakaramayi poorthiyakkan namukku kazhinju.",
+          "tamil_transliteration": "இந்த அழகான மலையாளக் கற்றல் திட்டத்தை மிக வெற்றிகரமாக முடிக்க நம்மால் முடிந்தது.",
+          "english_meaning": "We were able to complete this beautiful Malayalam learning project very successfully.",
+          "tamil_meaning": "இந்த அழகான மலையாளக் கற்றல் திட்டத்தை மிக வெற்றிகரமாக நிறைவு செய்ய நம்மால் முடிந்துள்ளது."
+        },
+        {
+          "malayalam": "ഓരോ പുതിയ ദിവസവും നമ്മൾക്ക് പുതിയ അറിവുകളും അനുഭവങ്ങളും നൽകുന്നു.",
+          "english_transliteration": "Ooro puthiya divasum nammalkku puthiya arivukalum anubhavangalum nalkunnu.",
+          "tamil_transliteration": "ஒவ்வொரு புதிய நாளும் நமக்கு புதிய அறிவையும் அனுபவங்களையும் வழங்குகிறது.",
+          "english_meaning": "Every new day gives us new knowledge and experiences.",
+          "tamil_meaning": "ஒவ்வொரு புதிய நாளும் நமக்கு புதிய அறிவையும் அனுபவங்களையும் வழங்குகிறது."
+        },
+        {
+          "malayalam": "നമ്മുടെ മാതൃഭാഷയെ ഹൃദയത്തോട് ചേർത്ത് പിടിക്കേണ്ടത് നമ്മുടെ കടമയാണ്.",
+          "english_transliteration": "Nammude mathrubhashayeyum hrudayathodu cherthu pidikkendathu nammude kadamanu.",
+          "tamil_transliteration": "நமது தாய்மொழியை இதயத்தோடு சேர்த்துப் பாதுகாக்க வேண்டியது நமது கடமையாகும்.",
+          "english_meaning": "It is our duty to hold our mother tongue close to our heart.",
+          "tamil_meaning": "நமது தாய்மொழியை இதயத்தோடு சேர்த்துப் பாதுகாக்க வேண்டியது நமது முக்கியக் கடமையாகும்."
+        },
+        {
+          "malayalam": "കഠിനാധ്വാനവും നല്ല ചിന്തകളും ഉണ്ടെങ്കിൽ ജീവിതത്തിൽ വലിയ മാറ്റങ്ങൾ ഉണ്ടാക്കാം.",
+          "english_transliteration": "Kathinadhwanavum nalla chinthakalum undengil jeevithathil valiya mattangal undakkam.",
+          "tamil_transliteration": "கடின உழைப்பும் நல்ல சிந்தனைகளும் இருந்தால் வாழ்க்கையில் பெரிய மாற்றங்களை ஏற்படுத்தலாம்.",
+          "english_meaning": "If we have hard work and good thoughts, we can bring big changes in life.",
+          "tamil_meaning": "கடின உழைப்பும் நல்ல சிந்தனைகளும் இருந்தால் வாழ்க்கையில் மிகப்பெரிய மாற்றங்களை ஏற்படுத்தலாம்."
+        },
+        {
+          "malayalam": "നല്ല സുഹൃത്തുക്കളുടെ കൂട്ടായ്മ ഒരാളുടെ വ്യക്തിത്വത്തെ കൂടുതൽ മനോഹരമാക്കും.",
+          "english_transliteration": "Nalla suhruthukkalude koottayma oralude vyakthithvathe kooduthal manoharamakkum.",
+          "tamil_transliteration": "நல்ல நண்பர்களின் கூட்டுறவு ஒருவனின் தனித்துவத்தை மேலும் அழகாக்கும்.",
+          "english_meaning": "The company of good friends will make a person's personality more beautiful.",
+          "tamil_meaning": "நல்ல நண்பர்களின் கூட்டுறவு ஒரு மனிதனின் ஆளுமையை மேலும் அழகாக்கும்."
+        },
+        {
+          "malayalam": "പ്രകൃതിയെ സംരക്ഷിക്കേണ്ടത് നമ്മുടെ എല്ലാവരുടെയും ഉത്തരവാദിത്തമാണ്.",
+          "english_transliteration": "Prakruthiye samrakshikendathu nammude ellarudeyum utharavadithamanu.",
+          "tamil_transliteration": "இயற்கையைப் பாதுகாக்க வேண்டியது நம்மில் அனைவரின் பொறுப்பாகும்.",
+          "english_meaning": "Protecting nature is the responsibility of all of us.",
+          "tamil_meaning": "இயற்கையைப் பாதுகாக்க வேண்டியது நம்மில் அனைவரின் அடிப்படைப் பொறுப்பாகும்."
+        },
+        {
+          "malayalam": "പഴയകാല ഓർമ്മകൾ എപ്പോഴും നമ്മുടെ മനസ്സിൽ ഒരു പ്രത്യേക ഊഷ്മളത തരും.",
+          "english_transliteration": "Pazhayakala oormmakal eppozhum nammude manassil oru prathyeka ooshmalatha tharum.",
+          "tamil_transliteration": "பழைய நினைவுகள் எப்போதும் நமது மனதில் ஒரு தனி উষ্ণத்தைத் தரும்.",
+          "english_meaning": "Old memories always give a special warmth in our mind.",
+          "tamil_meaning": "பழைய இனிய நினைவுகள் எப்போதும் நமது மனதில் ஒரு சிறப்பான அரவணைப்பைத் தரும்."
+        },
+        {
+          "malayalam": "ഏത് ബുദ്ധിമുട്ടുള്ള സാഹചര്യത്തിലും നമ്മൾ പരസ്പരം സഹായിക്കാൻ മുന്നോട്ട് വരണം.",
+          "english_transliteration": "Ethu buddhimuttulla sahacharyathilum nammal parasparam sahajikkan munnott varanam.",
+          "tamil_transliteration": "எந்தக் கடினமான சூழ்நிலையிலும் நாம் ஒருவருக்கொருவர் உதவ முன்வர வேண்டும்.",
+          "english_meaning": "In any difficult situation, we must come forward to help each other.",
+          "tamil_meaning": "எந்தக் கடினமான சூழ்நிலையிலும் நாம் ஒருவருக்கொருவர் உதவ முன்வர வேண்டும்."
+        },
+        {
+          "malayalam": "നല്ല വായന ശീലമാക്കിയാൽ നമ്മുടെ അറിവിന്റെ പരിധികൾ വികസിക്കും.",
+          "english_transliteration": "Nalla vayana sheelamakkiyal nammude arivinte paridhikal vikasikkum.",
+          "tamil_transliteration": "நல்ல வாசிப்பைப் பழக்கமாக்கிக் கொண்டால் நமது அறிவின் எல்லைகள் விரிவடையும்.",
+          "english_meaning": "If we make reading a habit, the limits of our knowledge will expand.",
+          "tamil_meaning": "நல்ல வாசிப்பைப் பழக்கமாக்கிக் கொண்டால் நமது அறிவின் எல்லைகள் மேலும் விரிவடையும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ രാജ്യത്തിന്റെ പുരോഗതിക്കായി നാം ഓരോരുത്തരും സത്യസന്ധമായി പ്രവർത്തിക്കണം.",
+          "english_transliteration": "Nammude rajyathinte purogathikkayi naam ovvorutharum sathyasandhamayi pravarthikanam.",
+          "tamil_transliteration": "நம் நாட்டின் முன்னேற்றத்திற்காக நாம் ஒவ்வொருவரும் நேர்மையுடன் செயல்பட வேண்டும்.",
+          "english_meaning": "Each of us must work honestly for the progress of our country.",
+          "tamil_meaning": "நம் நாட்டின் முன்னேற்றத்திற்காக நாம் ஒவ்வொருவரும் நேர்மையுடன் பணியாற்ற வேண்டும்."
+        },
+        {
+          "malayalam": "മനസ്സിൽ ശുദ്ധമായ ചിന്തകൾ സൂക്ഷിച്ചാൽ ജീവിതവും സന്തോഷം നിറഞ്ഞതാകും.",
+          "english_transliteration": "Manassil shudhamaya chinthakal sooshichal jeevithavum santhosham niranjathanu.",
+          "tamil_transliteration": "மனதில் தூய்மையான சிந்தனைகளை வைத்துக் கொண்டால் வாழ்க்கையும் மகிழ்ச்சி நிறைந்ததாக மாறும்.",
+          "english_meaning": "If we keep pure thoughts in mind, life will also become full of happiness.",
+          "tamil_meaning": "மனதில் தூய்மையான சிந்தனைகளை வைத்துக் கொண்டால் வாழ்க்கையும் மகிழ்ச்சி நிறைந்ததாக மாறும்."
+        },
+        {
+          "malayalam": "ഓരോ വിജയത്തിന് പിന്നിലും അണിയറയിൽ ചെയ്ത വലിയ പ്രയത്നം ഉണ്ടാകും.",
+          "english_transliteration": "Ooro vijayathinu pinnil aniyarayil cheytha valiya prayathnam undakum.",
+          "tamil_transliteration": "ஒவ்வொரு வெற்றிக்குப் பின்னேயும் திரைக்குப் பின்னால் செய்த பெரிய முயற்சி இருக்கும்.",
+          "english_meaning": "Behind every success, there will be great effort done behind the scenes.",
+          "tamil_meaning": "ஒவ்வொரு வெற்றிக்குப் பின்னேயும் திரைக்குப் பின்னால் செய்யப்பட்ட பெரிய உழைப்பு இருக்கும்."
+        },
+        {
+          "malayalam": "നല്ല അധ്യാപകരുടെ മാർഗ്ഗനിർദ്ദേശം നമ്മുടെ ജീവിതത്തിന് ഒരു വഴിവിളക്കാണ്.",
+          "english_transliteration": "Nalla adhyapakarude marganirdesam nammude jeevithathinu oru vazhivilakkanu.",
+          "tamil_transliteration": "நல்ல ஆசிரியர்களின் வழிகாட்டுதல் நமது வாழ்க்கைக்கு ஒரு ஒளியூட்டும் விளப்பாகும்.",
+          "english_meaning": "The guidance of good teachers is a lighthouse to our life.",
+          "tamil_meaning": "நல்ல ஆசிரியர்களின் வழிகாட்டுதல் நமது வாழ்க்கைக்கு எப்போதுமே சரியான வழிகாட்டியாகும்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ചുറ്റുമുള്ള സമൂഹത്തിലേക്ക് നന്മകൾ മാത്രം പകർന്നു നൽകുക.",
+          "english_transliteration": "Nammude chuttumulla samoohathilekku nanmakal mathram pakarnnu nalkuka.",
+          "tamil_transliteration": "நம்மைச் சுற்றியுள்ள சமூகத்திற்கு நன்மைகளை மட்டுமே பகிர்ந்துளியுங்கள்.",
+          "english_meaning": "Share only good things to the society around us.",
+          "tamil_meaning": "நம்மைச் சுற்றியுள்ள சமூகத்திற்கு நன்மைகளை மட்டுமே தொடர்ந்து பகிர்ந்தளியுங்கள்."
+        },
+        {
+          "malayalam": "ജീവിതത്തിൽ പ്രതിസന്ധികൾ വരുമ്പോൾ തളരാതെ മുന്നോട്ട് പോകാൻ പഠിക്കണം.",
+          "english_transliteration": "Jeevithathil prathisandhikal varumbol thalarathe munnott pokan padhikkanam.",
+          "tamil_transliteration": "வாழ்வில் சோதனைகள் வரும்போது தளராமல் முன்னோக்கிச் செல்லப் பழக வேண்டும்.",
+          "english_meaning": "When crises come in life, we must learn to move forward without getting discouraged.",
+          "tamil_meaning": "வாழ்வில் சோதனைகள் வரும்போது தளராமல் முன்னோக்கிச் செல்லப் பழக வேண்டும்."
+        },
+        {
+          "malayalam": "നല്ല ശീലങ്ങളും നല്ല സംസ്കാരവും ഉള്ളവരാണ് യഥാർത്ഥ സമ്പന്നർ.",
+          "english_transliteration": "Nalla sheelangalum nalla samskaravum ullavaranu yathartha sampannar.",
+          "tamil_transliteration": "நல்ல பழக்கவழக்கங்களும் கலாச்சாரமும் உள்ளவர்களே உண்மையான பணக்காரர்கள்.",
+          "english_meaning": "Those with good habits and culture are the true wealthy.",
+          "tamil_meaning": "நல்ல பழக்கவழக்கங்களும் நற்பண்புகளும் உள்ளவர்களே உண்மையான செல்வந்தர்கள்."
+        },
+        {
+          "malayalam": "നമ്മുടെ ഭാവി നമ്മൾ എടുക്കുന്ന തീരുമാനങ്ങളെ ആശ്രയിച്ചിരിക്കുന്നു.",
+          "english_transliteration": "Nammude bhavi nammal edukkunna thirumanangale ashrayichirikkunnu.",
+          "tamil_transliteration": "நம் எதிர்காலம் நாம் எடுக்கும் முடிவுகளைப் பொறுத்தே அமைகிறது.",
+          "english_meaning": "Our future depends on the decisions we make.",
+          "tamil_meaning": "நம்முடைய எதிர்காலம் நாம் அன்றாடம் எடுக்கும் முடிவுகளைப் பொறுத்தே அமைகிறது."
+        },
+        {
+          "malayalam": "നല്ല ഒരു പുസ്തകം നമ്മുടെ ഏറ്റവും അടുത്ത കൂട്ടുകാരനെപ്പോലെ ഒപ്പമുണ്ടാകും.",
+          "english_transliteration": "Nalla oru pusthakam nammude etravum adutha koottukarananupole oppamundakum.",
+          "tamil_transliteration": "ஒரு நல்ல புத்தகம் நமது மிக நெருங்கிய நண்பனைப் போல எப்போதும் கூடவே இருக்கும்.",
+          "english_meaning": "A good book will stay with us like our closest friend.",
+          "tamil_meaning": "ஒரு நல்ல புத்தகம் நமது மிக நெருங்கிய நண்பனைப் போல எப்போதும் நம்முடனே இருக்கும்."
+        },
+        {
+          "malayalam": "പഴയകാല പാരമ്പര്യങ്ങളെയും മൂല്യങ്ങളെയും നാം എപ്പോഴും ഓർമ്മിക്കണം.",
+          "english_transliteration": "Pazhayakala paramparyangaleyum moolyangaleyum naam eppozhum oormmikkanam.",
+          "tamil_transliteration": "பழைய பாரம்பரியங்களையும் நல்மதிப்புகளையும் நாம் எப்போதும் நினைவில் கொள்ள வேண்டும்.",
+          "english_meaning": "We should always remember old traditions and values.",
+          "tamil_meaning": "நமது பாரம்பரியக் கலாச்சாரத்தையும் நல்மதிப்புகளையும் நாம் எப்போதும் நினைவில் கொள்ள வேண்டும்."
+        },
+        {
+          "malayalam": "ഏത് വലിയ ലക്ഷ്യവും ചെറിയ ചുവടുകളിൽ നിന്നാണ് ആരംഭിക്കുന്നത്.",
+          "english_transliteration": "Ethu valiya lakshyamum cheriya chuvadukalil ninnanu aarambhikkunnu.",
+          "tamil_transliteration": "எந்த ஒரு பெரிய இலக்கும் சிறிய அடிகளில் இருந்தே தொடங்குகிறது.",
+          "english_meaning": "Every big goal starts from small steps.",
+          "tamil_meaning": "எந்த ஒரு பெரிய இலக்கையும் அடைவதற்கான பயணம் சிறிய சிறிய அடிகளில் இருந்தே தொடங்குகிறது."
+        },
+        {
+          "malayalam": "നമ്മുടെ നാട്ടിലെ മനോഹരമായ കാഴ്ചകൾ കാണാൻ നിരവധി സഞ്ചാരികൾ വരുന്നുണ്ട്.",
+          "english_transliteration": "Nammude naattile manoharamaya kazhchakal kanan niravathy sancharikal varunnundu.",
+          "tamil_transliteration": "நமது ஊரின் அழகிய காட்சிகளைக் காண ஏராளமான சுற்றுலா பயணிகள் வந்து செல்கின்றனர்.",
+          "english_meaning": "Many tourists are coming to see the beautiful sights of our town.",
+          "tamil_meaning": "நமது ஊரின் அழகிய இயற்கைக் காட்சிகளைக் காண ஏராளமான சுற்றுலா பயணிகள் வந்து செல்கின்றனர்."
         }
       ]
     }
   ],
-  "total_sentences": 495
+  "total_sentences": 575
 }
