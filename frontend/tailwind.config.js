@@ -14,6 +14,7 @@ export default {
         display: ["Fraunces", "serif"],
         sans: ["'Plus Jakarta Sans'", "sans-serif"],
         mono: ["'IBM Plex Mono'", "monospace"],
+        telugu: ["'Noto Sans Telugu'", "sans-serif"],
       },
     },
   },

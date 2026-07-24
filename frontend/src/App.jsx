@@ -1,19 +1,23 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import AppLayout from "./components/AppLayout";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Vocabulary from "./pages/Vocabulary";
-import Reading from "./pages/Reading";
-import Chat from "./pages/Chat";
-import Quiz from "./pages/Quiz";
-import Analytics from "./pages/Analytics";
-import Story from "./pages/Story";
-import Videos from "./pages/Videos";
-import Sentences from "./pages/Sentences";
-import Idioms from "./pages/Idioms";
-import Grammar from "./pages/Grammar";
-import SelectLanguage from "./pages/SelectLanguage";
+import Login from "./pages/shared/Login";
+import Dashboard from "./pages/shared/Dashboard";
+import Vocabulary from "./pages/english/Vocabulary";
+import Reading from "./pages/english/Reading";
+import Chat from "./pages/english/Chat";
+import Quiz from "./pages/english/Quiz";
+import TeluguQuiz from "./pages/telugu/TeluguQuiz";
+import Analytics from "./pages/shared/Analytics";
+import Story from "./pages/english/Story";
+import Videos from "./pages/shared/Videos";
+import Sentences from "./pages/english/Sentences";
+import TeluguSentences from "./pages/telugu/TeluguSentences";
+import Idioms from "./pages/english/Idioms";
+import Grammar from "./pages/english/Grammar";
+import SelectLanguage from "./pages/shared/SelectLanguage";
+import EnglishPath from "./pages/english/EnglishPath";
+import MalayalamAlphabet from "./pages/malayalam/MalayalamAlphabet";
 
 function PrivateRoute({ children, checkLanguage = true }) {
   const { user, loading } = useAuth();
@@ -60,10 +64,14 @@ export default function App() {
                   <Routes>
                     <Route path="/" element={<Dashboard />} />
                     <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/path" element={<EnglishPath />} />
                     <Route path="/vocabulary" element={<Vocabulary />} />
                     <Route path="/reading" element={<Reading />} />
                     <Route path="/chat" element={<Chat />} />
                     <Route path="/quiz" element={<Quiz />} />
+                    <Route path="/telugu-quiz" element={<TeluguQuiz />} />
+                    <Route path="/telugu-sentences" element={<TeluguSentences />} />
+                    <Route path="/malayalam-alphabet" element={<MalayalamAlphabet />} />
                     <Route path="/analytics" element={<Analytics />} />
                     <Route path="/story" element={<Story />} />
                     <Route path="/videos" element={<Videos />} />

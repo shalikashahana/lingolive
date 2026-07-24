@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { storyPages } from "../data/storyData";
+import { storyPages } from "../../data/storyData";
 import { ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
 
 export default function Story() {
@@ -22,6 +22,13 @@ export default function Story() {
   const nextPage = () => {
     if (currentPage < totalPages - 1) {
       setCurrentPage((prev) => prev + 1);
+      
+      // Update story read stat if reaching the last page
+      if (currentPage === totalPages - 2) {
+        const currentStats = JSON.parse(localStorage.getItem("story_stats") || '{"read":0}');
+        currentStats.read += 1;
+        localStorage.setItem("story_stats", JSON.stringify(currentStats));
+      }
     }
   };
 

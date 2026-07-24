@@ -5,10 +5,10 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
-import { auth, googleProvider } from "../lib/firebase";
-import { useAuth } from "../context/AuthContext";
-import GoogleButton from "../components/auth/GoogleButton";
-import SentenceAssembly from "../components/auth/SentenceAssembly";
+import { auth, googleProvider } from "../../lib/firebase";
+import { useAuth } from "../../context/AuthContext";
+import GoogleButton from "../../components/auth/GoogleButton";
+import SentenceAssembly from "../../components/auth/SentenceAssembly";
 
 export default function Login() {
   const { user } = useAuth();

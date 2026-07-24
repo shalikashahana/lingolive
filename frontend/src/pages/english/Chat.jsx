@@ -13,7 +13,7 @@ import {
   Zap
 } from "lucide-react";
 
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../../context/AuthContext";
 
 export default function Chat() {
   const [searchParams] = useSearchParams();

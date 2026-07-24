@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { useAuth } from "../context/AuthContext";
-import { READING_PASSAGES, VOCABULARY_LIST } from "../data/mockData";
+import { useAuth } from "../../context/AuthContext";
+import { READING_PASSAGES, VOCABULARY_LIST } from "../../data/mockData";
 import {
   BookOpen,
   Volume2,

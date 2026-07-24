@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
-import { generate100Levels, CEFR_BANDS } from "../data/mockData";
+import { useAuth } from "../../context/AuthContext";
+import { generate100Levels, CEFR_BANDS } from "../../data/mockData";
 import {
   Zap,
   CheckCircle2,
@@ -17,9 +17,8 @@ import {
   ChevronRight,
   Loader2
 } from "lucide-react";
-import TeluguDashboard from "./TeluguDashboard";
 
-export default function Dashboard() {
+export default function EnglishPath() {
   const navigate = useNavigate();
   const { user } = useAuth();
   
@@ -94,34 +93,6 @@ export default function Dashboard() {
     return true;
   });
 
-  const targetLanguage = localStorage.getItem("lingolive_target_language") || "en";
-
-  if (targetLanguage === "te") {
-    return <TeluguDashboard />;
-  }
-
-  if (targetLanguage !== "en") {
-    const langNames = {
-      ml: "Malayalam", hi: "Hindi", ar: "Arabic", 
-      ko: "Korean", th: "Thai", zh: "Chinese", ja: "Japanese"
-    };
-    const langName = langNames[targetLanguage] || targetLanguage;
-
-    return (
-      <div className="flex min-h-[70vh] w-full flex-col items-center justify-center text-center p-6 space-y-6">
-        <div className="flex h-24 w-24 items-center justify-center rounded-3xl bg-[#14213D]/5 text-[#14213D]/20 mb-4 shadow-sm">
-          <BookOpen className="h-10 w-10 text-[#C9A227]" />
-        </div>
-        <h1 className="font-display text-3xl font-bold text-[#14213D]">
-          {langName} Course Coming Soon
-        </h1>
-        <p className="max-w-md font-sans text-[#14213D]/60 leading-relaxed">
-          We are currently working hard to bring you the best learning experience for {langName}. 
-          Check back later as we add new content and data!
-        </p>
-      </div>
-    );
-  }
 
   if (loading) {
     return (

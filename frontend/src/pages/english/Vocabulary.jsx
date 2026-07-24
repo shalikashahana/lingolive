@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { useAuth } from "../context/AuthContext";
-import { VOCABULARY_LIST, CEFR_BANDS } from "../data/mockData";
+import { useAuth } from "../../context/AuthContext";
+import { VOCABULARY_LIST, CEFR_BANDS } from "../../data/mockData";
 import {
   Volume2,
   CheckCircle2,

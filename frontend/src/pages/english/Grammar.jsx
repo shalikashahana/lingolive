@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { grammarData } from "../data/grammarData";
+import { grammarData } from "../../data/grammarData";
 import { BookA, MessageCircle, Volume2, Languages, ChevronDown, ChevronUp, Search, GraduationCap, ArrowLeft, Layers, Component, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -46,6 +46,13 @@ export default function Grammar() {
       ...prev,
       [key]: !prev[key],
     }));
+
+    // Update grammar interactions stat
+    if (!visibleTranslations[key]) {
+      const currentStats = JSON.parse(localStorage.getItem("grammar_stats") || '{"interactions":0}');
+      currentStats.interactions += 1;
+      localStorage.setItem("grammar_stats", JSON.stringify(currentStats));
+    }
   };
 
   const playAudio = (text) => {

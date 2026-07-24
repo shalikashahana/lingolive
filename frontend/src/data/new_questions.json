@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "type": "fitb",
+    "en": "I am drinking ___",
+    "ta": "நான் ___ குடிக்கிறேன்",
+    "te_q": "నేను ___ తాగుతున్నాను",
+    "tr_q": "nenu ___ thaaguthunnaanu",
+    "opts": [
+      {
+        "te": "నీళ్లు",
+        "tr": "neellu",
+        "ans": true
+      },
+      {
+        "te": "అన్నం",
+        "tr": "annam",
+        "ans": false
+      },
+      {
+        "te": "పాలు",
+        "tr": "paalu",
+        "ans": false
+      },
+      {
+        "te": "పండు",
+        "tr": "pandu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "fitb",
+    "en": "He is eating ___",
+    "ta": "அவன் ___ சாப்பிடுகிறான்",
+    "te_q": "అతను ___ తింటున్నాడు",
+    "tr_q": "athanu ___ thintunnaadu",
+    "opts": [
+      {
+        "te": "పుస్తకం",
+        "tr": "pustakam",
+        "ans": false
+      },
+      {
+        "te": "భోజనం",
+        "tr": "bhojanam",
+        "ans": true
+      },
+      {
+        "te": "నీరు",
+        "tr": "neeru",
+        "ans": false
+      },
+      {
+        "te": "కుర్చీ",
+        "tr": "kurchi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "fitb",
+    "en": "They are going to ___",
+    "ta": "அவர்கள் ___ போகிறார்கள்",
+    "te_q": "వారు ___ వెళ్తున్నారు",
+    "tr_q": "vaaru ___ velthunnaaru",
+    "opts": [
+      {
+        "te": "బడికి",
+        "tr": "badiki",
+        "ans": true
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      },
+      {
+        "te": "చెట్టు",
+        "tr": "chettu",
+        "ans": false
+      },
+      {
+        "te": "పండు",
+        "tr": "pandu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "fitb",
+    "en": "My ___ is Raju",
+    "ta": "என் ___ ராஜு",
+    "te_q": "నా ___ రాజు",
+    "tr_q": "naa ___ raaju",
+    "opts": [
+      {
+        "te": "ఊరు",
+        "tr": "ooru",
+        "ans": false
+      },
+      {
+        "te": "పేరు",
+        "tr": "peru",
+        "ans": true
+      },
+      {
+        "te": "ఇల్లు",
+        "tr": "illu",
+        "ans": false
+      },
+      {
+        "te": "వయసు",
+        "tr": "vayasu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "fitb",
+    "en": "Where is the ___?",
+    "ta": "___ எங்கே இருக்கிறது?",
+    "te_q": "___ ఎక్కడ ఉంది?",
+    "tr_q": "___ ekkada undi?",
+    "opts": [
+      {
+        "te": "సమయం",
+        "tr": "samayam",
+        "ans": false
+      },
+      {
+        "te": "ఆసుపత్రి",
+        "tr": "aasupathri",
+        "ans": true
+      },
+      {
+        "te": "నిన్న",
+        "tr": "ninna",
+        "ans": false
+      },
+      {
+        "te": "రేపు",
+        "tr": "repu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "fitb",
+    "en": "I have a ___",
+    "ta": "என்னிடம் ஒரு ___ உள்ளது",
+    "te_q": "నా దగ్గర ఒక ___ ఉంది",
+    "tr_q": "naa daggara oka ___ undi",
+    "opts": [
+      {
+        "te": "కారు",
+        "tr": "kaaru",
+        "ans": true
+      },
+      {
+        "te": "నది",
+        "tr": "nadi",
+        "ans": false
+      },
+      {
+        "te": "సూర్యుడు",
+        "tr": "sooryudu",
+        "ans": false
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "fitb",
+    "en": "She is reading a ___",
+    "ta": "அவள் ஒரு ___ படிக்கிறாள்",
+    "te_q": "ఆమె ఒక ___ చదువుతోంది",
+    "tr_q": "aame oka ___ chaduvuthondi",
+    "opts": [
+      {
+        "te": "పుస్తకం",
+        "tr": "pustakam",
+        "ans": true
+      },
+      {
+        "te": "బట్టలు",
+        "tr": "battalu",
+        "ans": false
+      },
+      {
+        "te": "చెంచా",
+        "tr": "chencha",
+        "ans": false
+      },
+      {
+        "te": "గ్లాసు",
+        "tr": "glaasu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "fitb",
+    "en": "The sky is ___",
+    "ta": "வானம் ___ நிறத்தில் உள்ளது",
+    "te_q": "ఆకాశం ___ రంగులో ఉంది",
+    "tr_q": "aakaasham ___ rangulo undi",
+    "opts": [
+      {
+        "te": "ఎరుపు",
+        "tr": "erupu",
+        "ans": false
+      },
+      {
+        "te": "నీలం",
+        "tr": "neelam",
+        "ans": true
+      },
+      {
+        "te": "పసుపు",
+        "tr": "pasupu",
+        "ans": false
+      },
+      {
+        "te": "నలుపు",
+        "tr": "nalupu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "fitb",
+    "en": "Please give me ___",
+    "ta": "தயவுசெய்து எனக்கு ___ கொடுங்கள்",
+    "te_q": "దయచేసి నాకు ___ ఇవ్వండి",
+    "tr_q": "dayachesi naaku ___ ivvandi",
+    "opts": [
+      {
+        "te": "కోపం",
+        "tr": "kopam",
+        "ans": false
+      },
+      {
+        "te": "డబ్బు",
+        "tr": "dabbu",
+        "ans": true
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      },
+      {
+        "te": "చలి",
+        "tr": "chali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "fitb",
+    "en": "It is very ___ today",
+    "ta": "இன்று மிகவும் ___ இருக்கிறது",
+    "te_q": "ఈరోజు చాలా ___ గా ఉంది",
+    "tr_q": "eeroju chaalaa ___ gaa undi",
+    "opts": [
+      {
+        "te": "చీకటి",
+        "tr": "cheekati",
+        "ans": false
+      },
+      {
+        "te": "వేడి",
+        "tr": "vedi",
+        "ans": true
+      },
+      {
+        "te": "పుస్తకం",
+        "tr": "pustakam",
+        "ans": false
+      },
+      {
+        "te": "బస్సు",
+        "tr": "bassu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "fitb",
+    "en": "We are playing ___",
+    "ta": "நாங்கள் ___ விளையாடுகிறோம்",
+    "te_q": "మేము ___ ఆడుతున్నాము",
+    "tr_q": "memu ___ aaduthunnaamu",
+    "opts": [
+      {
+        "te": "పని",
+        "tr": "pani",
+        "ans": false
+      },
+      {
+        "te": "క్రికెట్",
+        "tr": "cricket",
+        "ans": true
+      },
+      {
+        "te": "అన్నం",
+        "tr": "annam",
+        "ans": false
+      },
+      {
+        "te": "పాట",
+        "tr": "paata",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "fitb",
+    "en": "Look at the ___",
+    "ta": "___ ஐப் பார்",
+    "te_q": "___ వైపు చూడు",
+    "tr_q": "___ vaipu choodu",
+    "opts": [
+      {
+        "te": "నక్షత్రం",
+        "tr": "nakshathram",
+        "ans": true
+      },
+      {
+        "te": "రుచి",
+        "tr": "ruchi",
+        "ans": false
+      },
+      {
+        "te": "వాసన",
+        "tr": "vaasana",
+        "ans": false
+      },
+      {
+        "te": "శబ్దం",
+        "tr": "shabdam",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "fitb",
+    "en": "I will come ___",
+    "ta": "நான் ___ வருவேன்",
+    "te_q": "నేను ___ వస్తాను",
+    "tr_q": "nenu ___ vastaanu",
+    "opts": [
+      {
+        "te": "నిన్న",
+        "tr": "ninna",
+        "ans": false
+      },
+      {
+        "te": "రేపు",
+        "tr": "repu",
+        "ans": true
+      },
+      {
+        "te": "అప్పుడు",
+        "tr": "appudu",
+        "ans": false
+      },
+      {
+        "te": "పోయిన వారం",
+        "tr": "poyina vaaram",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "fitb",
+    "en": "The dog is ___",
+    "ta": "நாய் ___",
+    "te_q": "కుక్క ___",
+    "tr_q": "kukka ___",
+    "opts": [
+      {
+        "te": "చదువుతోంది",
+        "tr": "chaduvuthondi",
+        "ans": false
+      },
+      {
+        "te": "మరుగుతోంది",
+        "tr": "maruguthondi",
+        "ans": false
+      },
+      {
+        "te": "మొరుగుతోంది",
+        "tr": "moruguthondi",
+        "ans": true
+      },
+      {
+        "te": "పాడుతోంది",
+        "tr": "paaduthondi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "fitb",
+    "en": "Wash your ___",
+    "ta": "உன் ___ கழுவு",
+    "te_q": "నీ ___ కడుక్కో",
+    "tr_q": "nee ___ kadukko",
+    "opts": [
+      {
+        "te": "చేతులు",
+        "tr": "chethulu",
+        "ans": true
+      },
+      {
+        "te": "బట్టలు",
+        "tr": "battalu",
+        "ans": false
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      },
+      {
+        "te": "పండ్లు",
+        "tr": "pandlu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "fitb",
+    "en": "Open the ___",
+    "ta": "___ திற",
+    "te_q": "___ తీయు",
+    "tr_q": "___ theeyu",
+    "opts": [
+      {
+        "te": "సమయం",
+        "tr": "samayam",
+        "ans": false
+      },
+      {
+        "te": "తలుపు",
+        "tr": "thalupu",
+        "ans": true
+      },
+      {
+        "te": "వర్షం",
+        "tr": "varsham",
+        "ans": false
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "fitb",
+    "en": "Close the ___",
+    "ta": "___ மூடு",
+    "te_q": "___ మూయు",
+    "tr_q": "___ mooyu",
+    "opts": [
+      {
+        "te": "కిటికీ",
+        "tr": "kitikee",
+        "ans": true
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      },
+      {
+        "te": "నది",
+        "tr": "nadi",
+        "ans": false
+      },
+      {
+        "te": "అగ్ని",
+        "tr": "agni",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "fitb",
+    "en": "Turn on the ___",
+    "ta": "___ போடு",
+    "te_q": "___ వేయు",
+    "tr_q": "___ veyu",
+    "opts": [
+      {
+        "te": "నీరు",
+        "tr": "neeru",
+        "ans": false
+      },
+      {
+        "te": "లైట్",
+        "tr": "light",
+        "ans": true
+      },
+      {
+        "te": "సూర్యుడు",
+        "tr": "sooryudu",
+        "ans": false
+      },
+      {
+        "te": "చంద్రుడు",
+        "tr": "chandrudu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "fitb",
+    "en": "He is my ___",
+    "ta": "அவன் என் ___",
+    "te_q": "అతను నా ___",
+    "tr_q": "athanu naa ___",
+    "opts": [
+      {
+        "te": "తల్లి",
+        "tr": "thalli",
+        "ans": false
+      },
+      {
+        "te": "స్నేహితుడు",
+        "tr": "snehithudu",
+        "ans": true
+      },
+      {
+        "te": "అక్క",
+        "tr": "akka",
+        "ans": false
+      },
+      {
+        "te": "చెల్లి",
+        "tr": "chelli",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "fitb",
+    "en": "She is my ___",
+    "ta": "அவள் என் ___",
+    "te_q": "ఆమె నా ___",
+    "tr_q": "aame naa ___",
+    "opts": [
+      {
+        "te": "సోదరి",
+        "tr": "sodari",
+        "ans": true
+      },
+      {
+        "te": "తమ్ముడు",
+        "tr": "thammudu",
+        "ans": false
+      },
+      {
+        "te": "నాన్న",
+        "tr": "naanna",
+        "ans": false
+      },
+      {
+        "te": "అన్నయ్య",
+        "tr": "annayya",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "fitb",
+    "en": "I am very ___",
+    "ta": "நான் மிகவும் ___ ஆக இருக்கிறேன்",
+    "te_q": "నేను చాలా ___ గా ఉన్నాను",
+    "tr_q": "nenu chaalaa ___ gaa unnaanu",
+    "opts": [
+      {
+        "te": "కోపం",
+        "tr": "kopam",
+        "ans": false
+      },
+      {
+        "te": "సంతోషం",
+        "tr": "santhosham",
+        "ans": true
+      },
+      {
+        "te": "పుస్తకం",
+        "tr": "pustakam",
+        "ans": false
+      },
+      {
+        "te": "గడియారం",
+        "tr": "gadiyaaram",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "fitb",
+    "en": "It is a beautiful ___",
+    "ta": "இது ஒரு அழகான ___",
+    "te_q": "ఇది ఒక అందమైన ___",
+    "tr_q": "idi oka andamaina ___",
+    "opts": [
+      {
+        "te": "పువ్వు",
+        "tr": "puvvu",
+        "ans": true
+      },
+      {
+        "te": "చీకటి",
+        "tr": "cheekati",
+        "ans": false
+      },
+      {
+        "te": "కోపం",
+        "tr": "kopam",
+        "ans": false
+      },
+      {
+        "te": "దుఃఖం",
+        "tr": "duhkham",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": "fitb",
+    "en": "Don't make ___",
+    "ta": "___ போடாதே",
+    "te_q": "___ చేయకు",
+    "tr_q": "___ cheyaku",
+    "opts": [
+      {
+        "te": "పని",
+        "tr": "pani",
+        "ans": false
+      },
+      {
+        "te": "శబ్దం",
+        "tr": "shabdam",
+        "ans": true
+      },
+      {
+        "te": "అన్నం",
+        "tr": "annam",
+        "ans": false
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "type": "fitb",
+    "en": "I love my ___",
+    "ta": "நான் என் ___ நேசிக்கிறேன்",
+    "te_q": "నేను నా ___ ప్రేమిస్తున్నాను",
+    "tr_q": "nenu naa ___ premisthunnaanu",
+    "opts": [
+      {
+        "te": "కుటుంబం",
+        "tr": "kutumbam",
+        "ans": true
+      },
+      {
+        "te": "శత్రువు",
+        "tr": "shathruvu",
+        "ans": false
+      },
+      {
+        "te": "కోపం",
+        "tr": "kopam",
+        "ans": false
+      },
+      {
+        "te": "భయం",
+        "tr": "bhayam",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "fitb",
+    "en": "Let's eat ___",
+    "ta": "நாம் ___ சாப்பிடலாம்",
+    "te_q": "మనం ___ తిందాం",
+    "tr_q": "manam ___ thindaam",
+    "opts": [
+      {
+        "te": "నీళ్లు",
+        "tr": "neellu",
+        "ans": false
+      },
+      {
+        "te": "భోజనం",
+        "tr": "bhojanam",
+        "ans": true
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "type": "fitb",
+    "en": "Drive the ___ slowly",
+    "ta": "___ மெதுவாக ஓட்டு",
+    "te_q": "___ నెమ్మదిగా నడుపు",
+    "tr_q": "___ nemmadigaa nadupu",
+    "opts": [
+      {
+        "te": "కారు",
+        "tr": "kaaru",
+        "ans": true
+      },
+      {
+        "te": "విమానం",
+        "tr": "vimaanam",
+        "ans": false
+      },
+      {
+        "te": "ఓడ",
+        "tr": "oda",
+        "ans": false
+      },
+      {
+        "te": "రైలు",
+        "tr": "railu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "fitb",
+    "en": "Write with a ___",
+    "ta": "___ கொண்டு எழுது",
+    "te_q": "___ తో రాయి",
+    "tr_q": "___ tho raayi",
+    "opts": [
+      {
+        "te": "పెన్",
+        "tr": "pen",
+        "ans": true
+      },
+      {
+        "te": "చెంచా",
+        "tr": "chencha",
+        "ans": false
+      },
+      {
+        "te": "గ్లాసు",
+        "tr": "glaasu",
+        "ans": false
+      },
+      {
+        "te": "కత్తి",
+        "tr": "katthi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "fitb",
+    "en": "Cut with a ___",
+    "ta": "___ கொண்டு வெட்டு",
+    "te_q": "___ తో కోయి",
+    "tr_q": "___ tho koyi",
+    "opts": [
+      {
+        "te": "పేపర్",
+        "tr": "paper",
+        "ans": false
+      },
+      {
+        "te": "కత్తి",
+        "tr": "katthi",
+        "ans": true
+      },
+      {
+        "te": "పెన్",
+        "tr": "pen",
+        "ans": false
+      },
+      {
+        "te": "నీరు",
+        "tr": "neeru",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "fitb",
+    "en": "The ___ is shining",
+    "ta": "___ பிரகாசிக்கிறது",
+    "te_q": "___ ప్రకాశిస్తున్నాడు",
+    "tr_q": "___ prakaashisthunnaadu",
+    "opts": [
+      {
+        "te": "సూర్యుడు",
+        "tr": "sooryudu",
+        "ans": true
+      },
+      {
+        "te": "వర్షం",
+        "tr": "varsham",
+        "ans": false
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      },
+      {
+        "te": "మబ్బు",
+        "tr": "mabbu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "fitb",
+    "en": "The ___ is flying",
+    "ta": "___ பறக்கிறது",
+    "te_q": "___ ఎగురుతోంది",
+    "tr_q": "___ eguruthondi",
+    "opts": [
+      {
+        "te": "పక్షి",
+        "tr": "pakshi",
+        "ans": true
+      },
+      {
+        "te": "చేప",
+        "tr": "chepa",
+        "ans": false
+      },
+      {
+        "te": "పాము",
+        "tr": "paamu",
+        "ans": false
+      },
+      {
+        "te": "చెట్టు",
+        "tr": "chettu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "fitb",
+    "en": "The fish swims in ___",
+    "ta": "மீன் ___ நீந்துகிறது",
+    "te_q": "చేప ___ లో ఈదుతుంది",
+    "tr_q": "chepa ___ lo eeduthundi",
+    "opts": [
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      },
+      {
+        "te": "నీరు",
+        "tr": "neeru",
+        "ans": true
+      },
+      {
+        "te": "మంట",
+        "tr": "manta",
+        "ans": false
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "fitb",
+    "en": "I sleep on a ___",
+    "ta": "நான் ___ தூங்குகிறேன்",
+    "te_q": "నేను ___ మీద పడుకుంటాను",
+    "tr_q": "nenu ___ meeda padukuntaanu",
+    "opts": [
+      {
+        "te": "మంచం",
+        "tr": "mancham",
+        "ans": true
+      },
+      {
+        "te": "పైకప్పు",
+        "tr": "paikappu",
+        "ans": false
+      },
+      {
+        "te": "నది",
+        "tr": "nadi",
+        "ans": false
+      },
+      {
+        "te": "చెట్టు",
+        "tr": "chettu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "type": "fitb",
+    "en": "Sit on the ___",
+    "ta": "___ உட்கார்",
+    "te_q": "___ మీద కూర్చో",
+    "tr_q": "___ meeda koorcho",
+    "opts": [
+      {
+        "te": "కుర్చీ",
+        "tr": "kurchi",
+        "ans": true
+      },
+      {
+        "te": "తలుపు",
+        "tr": "thalupu",
+        "ans": false
+      },
+      {
+        "te": "కిటికీ",
+        "tr": "kitikee",
+        "ans": false
+      },
+      {
+        "te": "ఫ్యాన్",
+        "tr": "fan",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "type": "fitb",
+    "en": "Buy some ___",
+    "ta": "கொஞ்சம் ___ வாங்கு",
+    "te_q": "కొన్ని ___ కొను",
+    "tr_q": "konni ___ konu",
+    "opts": [
+      {
+        "te": "కూరగాయలు",
+        "tr": "kooragaayalu",
+        "ans": true
+      },
+      {
+        "te": "సమయం",
+        "tr": "samayam",
+        "ans": false
+      },
+      {
+        "te": "నక్షత్రాలు",
+        "tr": "nakshathraalu",
+        "ans": false
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "fitb",
+    "en": "Pay the ___",
+    "ta": "___ செலுத்து",
+    "te_q": "___ చెల్లించు",
+    "tr_q": "___ chellinchu",
+    "opts": [
+      {
+        "te": "బిల్లు",
+        "tr": "billu",
+        "ans": true
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      },
+      {
+        "te": "సూర్యుడు",
+        "tr": "sooryudu",
+        "ans": false
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "fitb",
+    "en": "I am learning ___",
+    "ta": "நான் ___ கற்றுக்கொள்கிறேன்",
+    "te_q": "నేను ___ నేర్చుకుంటున్నాను",
+    "tr_q": "nenu ___ nerchukuntunnaanu",
+    "opts": [
+      {
+        "te": "తెలుగు",
+        "tr": "telugu",
+        "ans": true
+      },
+      {
+        "te": "నీరు",
+        "tr": "neeru",
+        "ans": false
+      },
+      {
+        "te": "మంట",
+        "tr": "manta",
+        "ans": false
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "fitb",
+    "en": "Today is ___",
+    "ta": "இன்று ___",
+    "te_q": "ఈరోజు ___",
+    "tr_q": "eeroju ___",
+    "opts": [
+      {
+        "te": "సోమవారం",
+        "tr": "somavaaram",
+        "ans": true
+      },
+      {
+        "te": "జనవరి",
+        "tr": "january",
+        "ans": false
+      },
+      {
+        "te": "ఉదయం",
+        "tr": "udayam",
+        "ans": false
+      },
+      {
+        "te": "రాత్రి",
+        "tr": "raathri",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "type": "fitb",
+    "en": "I want to ___",
+    "ta": "நான் ___ வேண்டும்",
+    "te_q": "నేను ___ అనుకుంటున్నాను",
+    "tr_q": "nenu ___ anukuntunnaanu",
+    "opts": [
+      {
+        "te": "నిద్రపోవాలి",
+        "tr": "nidrapovaali",
+        "ans": true
+      },
+      {
+        "te": "కుర్చీ",
+        "tr": "kurchi",
+        "ans": false
+      },
+      {
+        "te": "బల్ల",
+        "tr": "balla",
+        "ans": false
+      },
+      {
+        "te": "కారు",
+        "tr": "kaaru",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "fitb",
+    "en": "Brush your ___",
+    "ta": "உன் ___ துலக்கு",
+    "te_q": "నీ ___ తోముకో",
+    "tr_q": "nee ___ thomuko",
+    "opts": [
+      {
+        "te": "పళ్లు",
+        "tr": "pallu",
+        "ans": true
+      },
+      {
+        "te": "కళ్లు",
+        "tr": "kallu",
+        "ans": false
+      },
+      {
+        "te": "చెవులు",
+        "tr": "chevulu",
+        "ans": false
+      },
+      {
+        "te": "చేతులు",
+        "tr": "chethulu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "fitb",
+    "en": "Comb your ___",
+    "ta": "உன் ___ சீவு",
+    "te_q": "నీ ___ దువ్వుకో",
+    "tr_q": "nee ___ duvvuko",
+    "opts": [
+      {
+        "te": "జుట్టు",
+        "tr": "juttu",
+        "ans": true
+      },
+      {
+        "te": "కళ్లు",
+        "tr": "kallu",
+        "ans": false
+      },
+      {
+        "te": "ముక్కు",
+        "tr": "mukku",
+        "ans": false
+      },
+      {
+        "te": "నోరు",
+        "tr": "noru",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "fitb",
+    "en": "I have a ___",
+    "ta": "எனக்கு ஒரு ___ உள்ளது",
+    "te_q": "నాకు ఒక ___ ఉంది",
+    "tr_q": "naaku oka ___ undi",
+    "opts": [
+      {
+        "te": "సందేహం",
+        "tr": "sandeham",
+        "ans": true
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "type": "fitb",
+    "en": "He is my ___ brother",
+    "ta": "அவன் என் ___ சகோதரன்",
+    "te_q": "అతను నా ___ అన్నయ్య",
+    "tr_q": "athanu naa ___ annayya",
+    "opts": [
+      {
+        "te": "పెద్ద",
+        "tr": "pedda",
+        "ans": true
+      },
+      {
+        "te": "చిన్న",
+        "tr": "chinna",
+        "ans": false
+      },
+      {
+        "te": "పాత",
+        "tr": "paatha",
+        "ans": false
+      },
+      {
+        "te": "కొత్త",
+        "tr": "kottha",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "fitb",
+    "en": "This is a ___ house",
+    "ta": "இது ஒரு ___ வீடு",
+    "te_q": "ఇది ఒక ___ ఇల్లు",
+    "tr_q": "idi oka ___ illu",
+    "opts": [
+      {
+        "te": "పాత",
+        "tr": "paatha",
+        "ans": true
+      },
+      {
+        "te": "రుచికరమైన",
+        "tr": "ruchikaramaina",
+        "ans": false
+      },
+      {
+        "te": "కోపమైన",
+        "tr": "kopamaina",
+        "ans": false
+      },
+      {
+        "te": "వేగమైన",
+        "tr": "vegamaina",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "fitb",
+    "en": "Call the ___",
+    "ta": "___ கூப்பிடு",
+    "te_q": "___ పిలువు",
+    "tr_q": "___ piluvu",
+    "opts": [
+      {
+        "te": "డాక్టర్",
+        "tr": "doctor",
+        "ans": true
+      },
+      {
+        "te": "ఆసుపత్రి",
+        "tr": "aasupathri",
+        "ans": false
+      },
+      {
+        "te": "మందు",
+        "tr": "mandu",
+        "ans": false
+      },
+      {
+        "te": "రోగం",
+        "tr": "rogam",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "fitb",
+    "en": "What is your ___?",
+    "ta": "உன் ___ என்ன?",
+    "te_q": "నీ ___ ఏమిటి?",
+    "tr_q": "nee ___ emiti?",
+    "opts": [
+      {
+        "te": "వయసు",
+        "tr": "vayasu",
+        "ans": true
+      },
+      {
+        "te": "ఆకాశం",
+        "tr": "aakaasham",
+        "ans": false
+      },
+      {
+        "te": "వర్షం",
+        "tr": "varsham",
+        "ans": false
+      },
+      {
+        "te": "గాలి",
+        "tr": "gaali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "fitb",
+    "en": "Give me the ___",
+    "ta": "எனக்கு ___ கொடு",
+    "te_q": "నాకు ___ ఇవ్వు",
+    "tr_q": "naaku ___ ivvu",
+    "opts": [
+      {
+        "te": "తాళం",
+        "tr": "thaalam",
+        "ans": true
+      },
+      {
+        "te": "నిద్ర",
+        "tr": "nidra",
+        "ans": false
+      },
+      {
+        "te": "ఆకలి",
+        "tr": "aakali",
+        "ans": false
+      },
+      {
+        "te": "చలి",
+        "tr": "chali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "fitb",
+    "en": "Wipe your ___",
+    "ta": "உன் ___ துடை",
+    "te_q": "నీ ___ తుడుచుకో",
+    "tr_q": "nee ___ thuduchuko",
+    "opts": [
+      {
+        "te": "ముఖం",
+        "tr": "mukham",
+        "ans": true
+      },
+      {
+        "te": "గుండె",
+        "tr": "gunde",
+        "ans": false
+      },
+      {
+        "te": "రక్తం",
+        "tr": "raktham",
+        "ans": false
+      },
+      {
+        "te": "ఎముక",
+        "tr": "emuka",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "type": "fitb",
+    "en": "Wear your ___",
+    "ta": "உன் ___ அணிந்து கொள்",
+    "te_q": "నీ ___ వేసుకో",
+    "tr_q": "nee ___ vesuko",
+    "opts": [
+      {
+        "te": "చొక్కా",
+        "tr": "chokka",
+        "ans": true
+      },
+      {
+        "te": "కుర్చీ",
+        "tr": "kurchi",
+        "ans": false
+      },
+      {
+        "te": "బల్ల",
+        "tr": "balla",
+        "ans": false
+      },
+      {
+        "te": "తలుపు",
+        "tr": "thalupu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "fitb",
+    "en": "Don't tell a ___",
+    "ta": "___ சொல்லாதே",
+    "te_q": "___ చెప్పకు",
+    "tr_q": "___ cheppaku",
+    "opts": [
+      {
+        "te": "అబద్ధం",
+        "tr": "abaddham",
+        "ans": true
+      },
+      {
+        "te": "నిజం",
+        "tr": "nijam",
+        "ans": false
+      },
+      {
+        "te": "పాట",
+        "tr": "paata",
+        "ans": false
+      },
+      {
+        "te": "కథ",
+        "tr": "katha",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "fitb",
+    "en": "Listen to the ___",
+    "ta": "___ கேள்",
+    "te_q": "___ విను",
+    "tr_q": "___ vinu",
+    "opts": [
+      {
+        "te": "పాట",
+        "tr": "paata",
+        "ans": true
+      },
+      {
+        "te": "రుచి",
+        "tr": "ruchi",
+        "ans": false
+      },
+      {
+        "te": "వాసన",
+        "tr": "vaasana",
+        "ans": false
+      },
+      {
+        "te": "రంగు",
+        "tr": "rangu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "type": "mcq",
+    "en": "How do you say 'How are you?' in Telugu?",
+    "ta": "'எப்படி இருக்கிறாய்?' என்பதை தெலுங்கில் எப்படி கூறுவீர்கள்?",
+    "te_q": "Translate: How are you?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నువ్వు ఎలా ఉన్నావు?",
+        "tr": "nuvvu elaa unnaavu?",
+        "ans": true
+      },
+      {
+        "te": "నీ పేరు ఏమిటి?",
+        "tr": "nee peru emiti?",
+        "ans": false
+      },
+      {
+        "te": "నువ్వు ఎక్కడ ఉన్నావు?",
+        "tr": "nuvvu ekkada unnaavu?",
+        "ans": false
+      },
+      {
+        "te": "నువ్వు ఏం చేస్తున్నావు?",
+        "tr": "nuvvu em chesthunnaavu?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "mcq",
+    "en": "How do you say 'What is your name?'",
+    "ta": "'உன் பெயர் என்ன?' என்பதை தெலுங்கில் எப்படி கூறுவீர்கள்?",
+    "te_q": "Translate: What is your name?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నీ పేరు ఏమిటి?",
+        "tr": "nee peru emiti?",
+        "ans": true
+      },
+      {
+        "te": "మీరు ఎవరు?",
+        "tr": "meeru evaru?",
+        "ans": false
+      },
+      {
+        "te": "ఇది ఏమిటి?",
+        "tr": "idi emiti?",
+        "ans": false
+      },
+      {
+        "te": "ఎలా ఉన్నావు?",
+        "tr": "elaa unnaavu?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "mcq",
+    "en": "How do you ask 'Where are you going?'",
+    "ta": "'எங்கே போகிறாய்?' என்பதை எப்படி கேட்பீர்கள்?",
+    "te_q": "Translate: Where are you going?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఎక్కడికి వెళ్తున్నావు?",
+        "tr": "ekkadiki velthunnaavu?",
+        "ans": true
+      },
+      {
+        "te": "ఎప్పుడు వచ్చావు?",
+        "tr": "eppudu vacchaavu?",
+        "ans": false
+      },
+      {
+        "te": "ఏం తిన్నావు?",
+        "tr": "em thinnaavu?",
+        "ans": false
+      },
+      {
+        "te": "ఎందుకు నవ్వుతున్నావు?",
+        "tr": "enduku navvuthunnaavu?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "type": "mcq",
+    "en": "How do you say 'I am fine' in Telugu?",
+    "ta": "'நான் நன்றாக இருக்கிறேன்' என்பதை எப்படி கூறுவீர்கள்?",
+    "te_q": "Translate: I am fine",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నేను బాగున్నాను",
+        "tr": "nenu baagunnaanu",
+        "ans": true
+      },
+      {
+        "te": "నాకు తెలియదు",
+        "tr": "naaku theliyadu",
+        "ans": false
+      },
+      {
+        "te": "నేను వస్తున్నాను",
+        "tr": "nenu vasthunnaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను అలసిపోయాను",
+        "tr": "nenu alasipoyaanu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "type": "mcq",
+    "en": "How do you say 'Come here'?",
+    "ta": "'இங்கே வா' என்பதை எப்படி கூறுவீர்கள்?",
+    "te_q": "Translate: Come here",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఇక్కడికి రా",
+        "tr": "ikkadiki raa",
+        "ans": true
+      },
+      {
+        "te": "అక్కడికి వెళ్ళు",
+        "tr": "akkadiki vellu",
+        "ans": false
+      },
+      {
+        "te": "కింద కూర్చో",
+        "tr": "kinda koorcho",
+        "ans": false
+      },
+      {
+        "te": "లోపలికి రా",
+        "tr": "lopaliki raa",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "type": "mcq",
+    "en": "Translate: 'I don't know'",
+    "ta": "மொழிபெயர்க்க: 'எனக்கு தெரியாது'",
+    "te_q": "Translate: I don't know",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు తెలియదు",
+        "tr": "naaku theliyadu",
+        "ans": true
+      },
+      {
+        "te": "నాకు తెలుసు",
+        "tr": "naaku thelusu",
+        "ans": false
+      },
+      {
+        "te": "నాకు కావాలి",
+        "tr": "naaku kaavali",
+        "ans": false
+      },
+      {
+        "te": "నాకు వద్దు",
+        "tr": "naaku vaddu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "mcq",
+    "en": "Translate: 'Did you eat?'",
+    "ta": "மொழிபெயர்க்க: 'சாப்பிட்டாயா?'",
+    "te_q": "Translate: Did you eat?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "తిన్నావా?",
+        "tr": "thinnaavaa?",
+        "ans": true
+      },
+      {
+        "te": "తాగావా?",
+        "tr": "thaagaavaa?",
+        "ans": false
+      },
+      {
+        "te": "వెళ్లావా?",
+        "tr": "vellaavaa?",
+        "ans": false
+      },
+      {
+        "te": "వచ్చావా?",
+        "tr": "vacchaavaa?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "type": "mcq",
+    "en": "Translate: 'What happened?'",
+    "ta": "மொழிபெயர்க்க: 'என்ன ஆச்சு?'",
+    "te_q": "Translate: What happened?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఏమైంది?",
+        "tr": "emaindi?",
+        "ans": true
+      },
+      {
+        "te": "ఎక్కడుంది?",
+        "tr": "ekkadundi?",
+        "ans": false
+      },
+      {
+        "te": "ఎవరున్నారు?",
+        "tr": "evarunnaaru?",
+        "ans": false
+      },
+      {
+        "te": "ఎప్పుడు?",
+        "tr": "eppudu?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "type": "mcq",
+    "en": "Translate: 'I want water'",
+    "ta": "மொழிபெயர்க்க: 'எனக்கு தண்ணீர் வேண்டும்'",
+    "te_q": "Translate: I want water",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు నీళ్లు కావాలి",
+        "tr": "naaku neellu kaavali",
+        "ans": true
+      },
+      {
+        "te": "నాకు పాలు కావాలి",
+        "tr": "naaku paalu kaavali",
+        "ans": false
+      },
+      {
+        "te": "నాకు అన్నం కావాలి",
+        "tr": "naaku annam kaavali",
+        "ans": false
+      },
+      {
+        "te": "నాకు టీ కావాలి",
+        "tr": "naaku tea kaavali",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "mcq",
+    "en": "Translate: 'Thank you'",
+    "ta": "மொழிபெயர்க்க: 'நன்றி'",
+    "te_q": "Translate: Thank you",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ధన్యవాదాలు",
+        "tr": "dhanyavaadaalu",
+        "ans": true
+      },
+      {
+        "te": "క్షమించండి",
+        "tr": "kshaminchandi",
+        "ans": false
+      },
+      {
+        "te": "స్వాగతం",
+        "tr": "swaagatham",
+        "ans": false
+      },
+      {
+        "te": "నమస్కారం",
+        "tr": "namaskaram",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "type": "mcq",
+    "en": "Translate: 'Please help me'",
+    "ta": "மொழிபெயர்க்க: 'தயவுசெய்து எனக்கு உதவுங்கள்'",
+    "te_q": "Translate: Please help me",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "దయచేసి నాకు సహాయం చేయండి",
+        "tr": "dayachesi naaku sahaayam cheyandi",
+        "ans": true
+      },
+      {
+        "te": "దయచేసి నన్ను వదిలేయండి",
+        "tr": "dayachesi nannu vadileyandi",
+        "ans": false
+      },
+      {
+        "te": "దయచేసి ఇక్కడ కూర్చోండి",
+        "tr": "dayachesi ikkada koorchondi",
+        "ans": false
+      },
+      {
+        "te": "దయచేసి తలుపు తీయండి",
+        "tr": "dayachesi thalupu theeyandi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "type": "mcq",
+    "en": "Translate: 'How much is this?'",
+    "ta": "மொழிபெயர்க்க: 'இது எவ்வளவு?'",
+    "te_q": "Translate: How much is this?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఇది ఎంత?",
+        "tr": "idi entha?",
+        "ans": true
+      },
+      {
+        "te": "ఇది ఎక్కడ?",
+        "tr": "idi ekkada?",
+        "ans": false
+      },
+      {
+        "te": "ఇది ఎప్పుడు?",
+        "tr": "idi eppudu?",
+        "ans": false
+      },
+      {
+        "te": "ఇది ఎలా?",
+        "tr": "idi elaa?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "type": "mcq",
+    "en": "Translate: 'What is the time?'",
+    "ta": "மொழிபெயர்க்க: 'நேரம் என்ன?'",
+    "te_q": "Translate: What is the time?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "సమయం ఎంత?",
+        "tr": "samayam entha?",
+        "ans": true
+      },
+      {
+        "te": "రోజు ఏమిటి?",
+        "tr": "roju emiti?",
+        "ans": false
+      },
+      {
+        "te": "తేదీ ఎంత?",
+        "tr": "thedee entha?",
+        "ans": false
+      },
+      {
+        "te": "నెల ఏమిటి?",
+        "tr": "nela emiti?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "type": "mcq",
+    "en": "Translate: 'Turn right'",
+    "ta": "மொழிபெயர்க்க: 'வலது பக்கம் திரும்பு'",
+    "te_q": "Translate: Turn right",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "కుడివైపు తిరుగు",
+        "tr": "kudivaipu thirugu",
+        "ans": true
+      },
+      {
+        "te": "ఎడమవైపు తిరుగు",
+        "tr": "edamavaipu thirugu",
+        "ans": false
+      },
+      {
+        "te": "నేరుగా వెళ్ళు",
+        "tr": "nerugaa vellu",
+        "ans": false
+      },
+      {
+        "te": "వెనక్కి తిరుగు",
+        "tr": "venakki thirugu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "type": "mcq",
+    "en": "Translate: 'Turn left'",
+    "ta": "மொழிபெயர்க்க: 'இடது பக்கம் திரும்பு'",
+    "te_q": "Translate: Turn left",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఎడమవైపు తిరుగు",
+        "tr": "edamavaipu thirugu",
+        "ans": true
+      },
+      {
+        "te": "కుడివైపు తిరుగు",
+        "tr": "kudivaipu thirugu",
+        "ans": false
+      },
+      {
+        "te": "నేరుగా వెళ్ళు",
+        "tr": "nerugaa vellu",
+        "ans": false
+      },
+      {
+        "te": "వెనక్కి తిరుగు",
+        "tr": "venakki thirugu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "type": "mcq",
+    "en": "Translate: 'Go straight'",
+    "ta": "மொழிபெயர்க்க: 'நேராக போ'",
+    "te_q": "Translate: Go straight",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నేరుగా వెళ్ళు",
+        "tr": "nerugaa vellu",
+        "ans": true
+      },
+      {
+        "te": "కుడివైపు తిరుగు",
+        "tr": "kudivaipu thirugu",
+        "ans": false
+      },
+      {
+        "te": "ఎడమవైపు తిరుగు",
+        "tr": "edamavaipu thirugu",
+        "ans": false
+      },
+      {
+        "te": "ఆగిపో",
+        "tr": "aagipo",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "type": "mcq",
+    "en": "Translate: 'I am hungry'",
+    "ta": "மொழிபெயர்க்க: 'எனக்கு பசியாக இருக்கிறது'",
+    "te_q": "Translate: I am hungry",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు ఆకలిగా ఉంది",
+        "tr": "naaku aakaligaa undi",
+        "ans": true
+      },
+      {
+        "te": "నాకు దాహంగా ఉంది",
+        "tr": "naaku daahangaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు కోపంగా ఉంది",
+        "tr": "naaku kopangaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు నిద్ర వస్తోంది",
+        "tr": "naaku nidra vasthondi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "mcq",
+    "en": "Translate: 'I am thirsty'",
+    "ta": "மொழிபெயர்க்க: 'எனக்கு தாகமாக இருக்கிறது'",
+    "te_q": "Translate: I am thirsty",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు దాహంగా ఉంది",
+        "tr": "naaku daahangaa undi",
+        "ans": true
+      },
+      {
+        "te": "నాకు ఆకలిగా ఉంది",
+        "tr": "naaku aakaligaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు చలిగా ఉంది",
+        "tr": "naaku chaligaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు వేడిగా ఉంది",
+        "tr": "naaku vedigaa undi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "type": "mcq",
+    "en": "Translate: 'Is it true?'",
+    "ta": "மொழிபெயர்க்க: 'இது உண்மையா?'",
+    "te_q": "Translate: Is it true?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఇది నిజమా?",
+        "tr": "idi nijamaa?",
+        "ans": true
+      },
+      {
+        "te": "ఇది అబద్ధమా?",
+        "tr": "idi abaddhamaa?",
+        "ans": false
+      },
+      {
+        "te": "ఇది తప్పా?",
+        "tr": "idi thappaa?",
+        "ans": false
+      },
+      {
+        "te": "ఇది నీదా?",
+        "tr": "idi needaa?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "type": "mcq",
+    "en": "Translate: 'Don't talk'",
+    "ta": "மொழிபெயர்க்க: 'பேசாதே'",
+    "te_q": "Translate: Don't talk",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "మాట్లాడకు",
+        "tr": "maatlaadaku",
+        "ans": true
+      },
+      {
+        "te": "వినకు",
+        "tr": "vinaku",
+        "ans": false
+      },
+      {
+        "te": "చూడకు",
+        "tr": "choodaku",
+        "ans": false
+      },
+      {
+        "te": "వెళ్లకండి",
+        "tr": "vellakandi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "type": "mcq",
+    "en": "Translate: 'Sit down'",
+    "ta": "மொழிபெயர்க்க: 'உட்கார்'",
+    "te_q": "Translate: Sit down",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "కూర్చో",
+        "tr": "koorcho",
+        "ans": true
+      },
+      {
+        "te": "నిలబడు",
+        "tr": "nilabadu",
+        "ans": false
+      },
+      {
+        "te": "నడువు",
+        "tr": "naduvu",
+        "ans": false
+      },
+      {
+        "te": "పరిగెత్తు",
+        "tr": "parigetthu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "type": "mcq",
+    "en": "Translate: 'Stand up'",
+    "ta": "மொழிபெயர்க்க: 'எழுந்து நில்'",
+    "te_q": "Translate: Stand up",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నిలబడు",
+        "tr": "nilabadu",
+        "ans": true
+      },
+      {
+        "te": "కూర్చో",
+        "tr": "koorcho",
+        "ans": false
+      },
+      {
+        "te": "పడుకో",
+        "tr": "paduko",
+        "ans": false
+      },
+      {
+        "te": "ఆగు",
+        "tr": "aagu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "type": "mcq",
+    "en": "Translate: 'Listen to me'",
+    "ta": "மொழிபெயர்க்க: 'நான் சொல்வதைக் கேள்'",
+    "te_q": "Translate: Listen to me",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నా మాట విను",
+        "tr": "naa maata vinu",
+        "ans": true
+      },
+      {
+        "te": "నన్ను చూడు",
+        "tr": "nannu choodu",
+        "ans": false
+      },
+      {
+        "te": "నాతో మాట్లాడు",
+        "tr": "naatho maatlaadu",
+        "ans": false
+      },
+      {
+        "te": "నాకు చెప్పు",
+        "tr": "naaku cheppu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "mcq",
+    "en": "Translate: 'Look at this'",
+    "ta": "மொழிபெயர்க்க: 'இதைப் பார்'",
+    "te_q": "Translate: Look at this",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "దీన్ని చూడు",
+        "tr": "deennini choodu",
+        "ans": true
+      },
+      {
+        "te": "దీన్ని విను",
+        "tr": "deennini vinu",
+        "ans": false
+      },
+      {
+        "te": "దీన్ని తీసుకో",
+        "tr": "deennini theesuko",
+        "ans": false
+      },
+      {
+        "te": "దీన్ని ఇవ్వు",
+        "tr": "deennini ivvu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "type": "mcq",
+    "en": "Translate: 'Give it'",
+    "ta": "மொழிபெயர்க்க: 'அதைக் கொடு'",
+    "te_q": "Translate: Give it",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "అది ఇవ్వు",
+        "tr": "adi ivvu",
+        "ans": true
+      },
+      {
+        "te": "అది తీసుకో",
+        "tr": "adi theesuko",
+        "ans": false
+      },
+      {
+        "te": "అది పెట్టు",
+        "tr": "adi pettu",
+        "ans": false
+      },
+      {
+        "te": "అది చూడు",
+        "tr": "adi choodu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "type": "mcq",
+    "en": "Translate: 'Take this'",
+    "ta": "மொழிபெயர்க்க: 'இதை எடு'",
+    "te_q": "Translate: Take this",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఇది తీసుకో",
+        "tr": "idi theesuko",
+        "ans": true
+      },
+      {
+        "te": "ఇది ఇవ్వు",
+        "tr": "idi ivvu",
+        "ans": false
+      },
+      {
+        "te": "ఇది విను",
+        "tr": "idi vinu",
+        "ans": false
+      },
+      {
+        "te": "ఇది చదువు",
+        "tr": "idi chaduvu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "mcq",
+    "en": "Translate: 'Wait outside'",
+    "ta": "மொழிபெயர்க்க: 'வெளியே காத்திரு'",
+    "te_q": "Translate: Wait outside",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "బయట వేచి ఉండు",
+        "tr": "bayata vechi undu",
+        "ans": true
+      },
+      {
+        "te": "లోపల వేచి ఉండు",
+        "tr": "lopala vechi undu",
+        "ans": false
+      },
+      {
+        "te": "బయట ఆడుకో",
+        "tr": "bayata aaduko",
+        "ans": false
+      },
+      {
+        "te": "లోపల కూర్చో",
+        "tr": "lopala koorcho",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "type": "mcq",
+    "en": "Translate: 'Come inside'",
+    "ta": "மொழிபெயர்க்க: 'உள்ளே வா'",
+    "te_q": "Translate: Come inside",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "లోపలికి రా",
+        "tr": "lopaliki raa",
+        "ans": true
+      },
+      {
+        "te": "బయటికి వెళ్ళు",
+        "tr": "bayatiki vellu",
+        "ans": false
+      },
+      {
+        "te": "పైకి రా",
+        "tr": "paiki raa",
+        "ans": false
+      },
+      {
+        "te": "కిందకి వెళ్ళు",
+        "tr": "kindaki vellu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "type": "mcq",
+    "en": "Translate: 'Are you happy?'",
+    "ta": "மொழிபெயர்க்க: 'நீ சந்தோஷமாக இருக்கிறாயா?'",
+    "te_q": "Translate: Are you happy?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "సంతోషంగా ఉన్నావా?",
+        "tr": "santhoshangaa unnaavaa?",
+        "ans": true
+      },
+      {
+        "te": "బాధగా ఉన్నావా?",
+        "tr": "baadhagaa unnaavaa?",
+        "ans": false
+      },
+      {
+        "te": "కోపంగా ఉన్నావా?",
+        "tr": "kopangaa unnaavaa?",
+        "ans": false
+      },
+      {
+        "te": "బిజీగా ఉన్నావా?",
+        "tr": "busy-gaa unnaavaa?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "type": "mcq",
+    "en": "Translate: 'I am angry'",
+    "ta": "மொழிபெயர்க்க: 'நான் கோபமாக இருக்கிறேன்'",
+    "te_q": "Translate: I am angry",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు కోపంగా ఉంది",
+        "tr": "naaku kopangaa undi",
+        "ans": true
+      },
+      {
+        "te": "నాకు సంతోషంగా ఉంది",
+        "tr": "naaku santhoshangaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు బాధగా ఉంది",
+        "tr": "naaku baadhagaa undi",
+        "ans": false
+      },
+      {
+        "te": "నాకు అలసటగా ఉంది",
+        "tr": "naaku alasatagaa undi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "type": "mcq",
+    "en": "Translate: 'It is hot'",
+    "ta": "மொழிபெயர்க்க: 'சூடாக இருக்கிறது'",
+    "te_q": "Translate: It is hot",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "వేడిగా ఉంది",
+        "tr": "vedigaa undi",
+        "ans": true
+      },
+      {
+        "te": "చల్లగా ఉంది",
+        "tr": "challagaa undi",
+        "ans": false
+      },
+      {
+        "te": "చీకటిగా ఉంది",
+        "tr": "cheekatigaa undi",
+        "ans": false
+      },
+      {
+        "te": "వెలుతురుగా ఉంది",
+        "tr": "veluthurugaa undi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "type": "mcq",
+    "en": "Translate: 'It is cold'",
+    "ta": "மொழிபெயர்க்க: 'குளிராக இருக்கிறது'",
+    "te_q": "Translate: It is cold",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "చలిగా ఉంది",
+        "tr": "chaligaa undi",
+        "ans": true
+      },
+      {
+        "te": "వేడిగా ఉంది",
+        "tr": "vedigaa undi",
+        "ans": false
+      },
+      {
+        "te": "మురికిగా ఉంది",
+        "tr": "murikigaa undi",
+        "ans": false
+      },
+      {
+        "te": "శుభ్రంగా ఉంది",
+        "tr": "shubhrangaa undi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "mcq",
+    "en": "Translate: 'Why are you laughing?'",
+    "ta": "மொழிபெயர்க்க: 'ஏன் சிரிக்கிறாய்?'",
+    "te_q": "Translate: Why are you laughing?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఎందుకు నవ్వుతున్నావు?",
+        "tr": "enduku navvuthunnaavu?",
+        "ans": true
+      },
+      {
+        "te": "ఎందుకు ఏడుస్తున్నావు?",
+        "tr": "enduku edusthunnaavu?",
+        "ans": false
+      },
+      {
+        "te": "ఎందుకు అరుస్తున్నావు?",
+        "tr": "enduku arusthunnaavu?",
+        "ans": false
+      },
+      {
+        "te": "ఎందుకు పరిగెత్తుతున్నావు?",
+        "tr": "enduku parigetthuthunnaavu?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "type": "mcq",
+    "en": "Translate: 'Don't cry'",
+    "ta": "மொழிபெயர்க்க: 'அழாதே'",
+    "te_q": "Translate: Don't cry",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ఏడవకు",
+        "tr": "edavaku",
+        "ans": true
+      },
+      {
+        "te": "నవ్వకు",
+        "tr": "navvaku",
+        "ans": false
+      },
+      {
+        "te": "అరవకు",
+        "tr": "aravaku",
+        "ans": false
+      },
+      {
+        "te": "పరుగెత్తకు",
+        "tr": "parugetthaku",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "type": "mcq",
+    "en": "Translate: 'Don't go'",
+    "ta": "மொழிபெயர்க்க: 'போகாதே'",
+    "te_q": "Translate: Don't go",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "వెళ్ళకు",
+        "tr": "vellaku",
+        "ans": true
+      },
+      {
+        "te": "రాకు",
+        "tr": "raaku",
+        "ans": false
+      },
+      {
+        "te": "తినకు",
+        "tr": "thinaku",
+        "ans": false
+      },
+      {
+        "te": "తాగకు",
+        "tr": "thaagaku",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "type": "mcq",
+    "en": "Translate: 'I am ready'",
+    "ta": "மொழிபெயர்க்க: 'நான் தயார்'",
+    "te_q": "Translate: I am ready",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నేను సిద్ధంగా ఉన్నాను",
+        "tr": "nenu siddhangaa unnaanu",
+        "ans": true
+      },
+      {
+        "te": "నేను బిజీగా ఉన్నాను",
+        "tr": "nenu busy-gaa unnaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను అలసిపోయాను",
+        "tr": "nenu alasipoyaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను ఆకలిగా ఉన్నాను",
+        "tr": "nenu aakaligaa unnaanu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "mcq",
+    "en": "Translate: 'Let us go'",
+    "ta": "மொழிபெயர்க்க: 'நாம் போகலாம்'",
+    "te_q": "Translate: Let us go",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "మనం వెళ్దాం",
+        "tr": "manam veldaam",
+        "ans": true
+      },
+      {
+        "te": "మనం తిందాం",
+        "tr": "manam thindaam",
+        "ans": false
+      },
+      {
+        "te": "మనం ఆడుకుందాం",
+        "tr": "manam aadukundaam",
+        "ans": false
+      },
+      {
+        "te": "మనం పడుకుందాం",
+        "tr": "manam padukundaam",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "mcq",
+    "en": "Translate: 'See you tomorrow'",
+    "ta": "மொழிபெயர்க்க: 'நாளை சந்திப்போம்'",
+    "te_q": "Translate: See you tomorrow",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "రేపు కలుద్దాం",
+        "tr": "repu kaluddaam",
+        "ans": true
+      },
+      {
+        "te": "నిన్న కలుద్దాం",
+        "tr": "ninna kaluddaam",
+        "ans": false
+      },
+      {
+        "te": "తర్వాత కలుద్దాం",
+        "tr": "tharvaatha kaluddaam",
+        "ans": false
+      },
+      {
+        "te": "ఎప్పటికీ కలవొద్దు",
+        "tr": "eppatikii kalavoddu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "type": "mcq",
+    "en": "Translate: 'Good morning'",
+    "ta": "மொழிபெயர்க்க: 'காலை வணக்கம்'",
+    "te_q": "Translate: Good morning",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "శుభోదయం",
+        "tr": "shubhodayam",
+        "ans": true
+      },
+      {
+        "te": "శుభరాత్రి",
+        "tr": "shubharaathri",
+        "ans": false
+      },
+      {
+        "te": "శుభ మధ్యాహ్నం",
+        "tr": "shubha madhyaahnam",
+        "ans": false
+      },
+      {
+        "te": "శుభ సాయంత్రం",
+        "tr": "shubha saayanthram",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "type": "mcq",
+    "en": "Translate: 'Good night'",
+    "ta": "மொழிபெயர்க்க: 'இரவு வணக்கம்'",
+    "te_q": "Translate: Good night",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "శుభరాత్రి",
+        "tr": "shubharaathri",
+        "ans": true
+      },
+      {
+        "te": "శుభోదయం",
+        "tr": "shubhodayam",
+        "ans": false
+      },
+      {
+        "te": "శుభ దినం",
+        "tr": "shubha dinam",
+        "ans": false
+      },
+      {
+        "te": "నమస్కారం",
+        "tr": "namaskaram",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "type": "mcq",
+    "en": "Translate: 'I am sorry'",
+    "ta": "மொழிபெயர்க்க: 'என்னை மன்னியுங்கள்'",
+    "te_q": "Translate: I am sorry",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నన్ను క్షమించు",
+        "tr": "nannu kshaminchu",
+        "ans": true
+      },
+      {
+        "te": "నన్ను వదిలేయ్",
+        "tr": "nannu vadiley",
+        "ans": false
+      },
+      {
+        "te": "నన్ను చూడకు",
+        "tr": "nannu choodaku",
+        "ans": false
+      },
+      {
+        "te": "నన్ను పిలవకు",
+        "tr": "nannu pilavaku",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "type": "mcq",
+    "en": "Translate: 'It is raining'",
+    "ta": "மொழிபெயர்க்க: 'மழை பெய்கிறது'",
+    "te_q": "Translate: It is raining",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "వర్షం పడుతోంది",
+        "tr": "varsham paduthondi",
+        "ans": true
+      },
+      {
+        "te": "గాలి వీస్తోంది",
+        "tr": "gaali veesthondi",
+        "ans": false
+      },
+      {
+        "te": "ఎండ కొడుతోంది",
+        "tr": "enda koduthondi",
+        "ans": false
+      },
+      {
+        "te": "మంచు పడుతోంది",
+        "tr": "manchu paduthondi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "type": "mcq",
+    "en": "Translate: 'I have money'",
+    "ta": "மொழிபெயர்க்க: 'என்னிடம் பணம் உள்ளது'",
+    "te_q": "Translate: I have money",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నా దగ్గర డబ్బు ఉంది",
+        "tr": "naa daggara dabbu undi",
+        "ans": true
+      },
+      {
+        "te": "నా దగ్గర డబ్బు లేదు",
+        "tr": "naa daggara dabbu ledu",
+        "ans": false
+      },
+      {
+        "te": "నా దగ్గర కారు ఉంది",
+        "tr": "naa daggara kaaru undi",
+        "ans": false
+      },
+      {
+        "te": "నా దగ్గర ఫోన్ ఉంది",
+        "tr": "naa daggara phone undi",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "type": "mcq",
+    "en": "Translate: 'Open the window'",
+    "ta": "மொழிபெயர்க்க: 'ஜன்னலை திற'",
+    "te_q": "Translate: Open the window",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "కిటికీ తీయు",
+        "tr": "kitikee theeyu",
+        "ans": true
+      },
+      {
+        "te": "తలుపు తీయు",
+        "tr": "thalupu theeyu",
+        "ans": false
+      },
+      {
+        "te": "కిటికీ మూయు",
+        "tr": "kitikee mooyu",
+        "ans": false
+      },
+      {
+        "te": "తలుపు మూయు",
+        "tr": "thalupu mooyu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "type": "mcq",
+    "en": "Translate: 'Clean the room'",
+    "ta": "மொழிபெயர்க்க: 'அறையை சுத்தம் செய்'",
+    "te_q": "Translate: Clean the room",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "గదిని శుభ్రం చేయి",
+        "tr": "gadini shubhram cheyi",
+        "ans": true
+      },
+      {
+        "te": "కారుని శుభ్రం చేయి",
+        "tr": "kaaruni shubhram cheyi",
+        "ans": false
+      },
+      {
+        "te": "బట్టలు ఉతుకు",
+        "tr": "battalu uthuku",
+        "ans": false
+      },
+      {
+        "te": "పళ్ళు తోముకో",
+        "tr": "pallu thomuko",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "mcq",
+    "en": "Translate: 'I am studying'",
+    "ta": "மொழிபெயர்க்க: 'நான் படிக்கிறேன்'",
+    "te_q": "Translate: I am studying",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నేను చదువుతున్నాను",
+        "tr": "nenu chaduvuthunnaanu",
+        "ans": true
+      },
+      {
+        "te": "నేను రాస్తున్నాను",
+        "tr": "nenu raasthunnaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను ఆడుతున్నాను",
+        "tr": "nenu aaduthunnaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను పాడుతున్నాను",
+        "tr": "nenu paaduthunnaanu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "mcq",
+    "en": "Translate: 'Can you help me?'",
+    "ta": "மொழிபெயர்க்க: 'எனக்கு உதவ முடியுமா?'",
+    "te_q": "Translate: Can you help me?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నాకు సహాయం చేస్తావా?",
+        "tr": "naaku sahaayam chesthaavaa?",
+        "ans": true
+      },
+      {
+        "te": "నాతో వస్తావా?",
+        "tr": "naatho vastaavaa?",
+        "ans": false
+      },
+      {
+        "te": "నాతో మాట్లాడతావా?",
+        "tr": "naatho maatlaadataavaa?",
+        "ans": false
+      },
+      {
+        "te": "నాతో ఆడుకుంటావా?",
+        "tr": "naatho aadukuntaavaa?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "type": "mcq",
+    "en": "Translate: 'What is the price?'",
+    "ta": "மொழிபெயர்க்க: 'விலை என்ன?'",
+    "te_q": "Translate: What is the price?",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "ధర ఎంత?",
+        "tr": "dhara entha?",
+        "ans": true
+      },
+      {
+        "te": "బరువు ఎంత?",
+        "tr": "baruvu entha?",
+        "ans": false
+      },
+      {
+        "te": "దూరం ఎంత?",
+        "tr": "dooram entha?",
+        "ans": false
+      },
+      {
+        "te": "సమయం ఎంత?",
+        "tr": "samayam entha?",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "mcq",
+    "en": "Translate: 'I forgot'",
+    "ta": "மொழிபெயர்க்க: 'நான் மறந்துவிட்டேன்'",
+    "te_q": "Translate: I forgot",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "నేను మర్చిపోయాను",
+        "tr": "nenu marchipoyaanu",
+        "ans": true
+      },
+      {
+        "te": "నాకు గుర్తుంది",
+        "tr": "naaku gurthundi",
+        "ans": false
+      },
+      {
+        "te": "నేను చూశాను",
+        "tr": "nenu chooshaanu",
+        "ans": false
+      },
+      {
+        "te": "నేను విన్నాను",
+        "tr": "nenu vinnaanu",
+        "ans": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "type": "mcq",
+    "en": "Translate: 'Don't worry'",
+    "ta": "மொழிபெயர்க்க: 'கவலைப்படாதே'",
+    "te_q": "Translate: Don't worry",
+    "tr_q": "",
+    "opts": [
+      {
+        "te": "బాధపడకు",
+        "tr": "baadhapadaku",
+        "ans": true
+      },
+      {
+        "te": "సంతోషించు",
+        "tr": "santhoshinchu",
+        "ans": false
+      },
+      {
+        "te": "నవ్వు",
+        "tr": "navvu",
+        "ans": false
+      },
+      {
+        "te": "ఏడవకు",
+        "tr": "edavaku",
+        "ans": false
+      }
+    ]
+  }
+]

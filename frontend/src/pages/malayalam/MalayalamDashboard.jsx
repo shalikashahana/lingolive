@@ -1,0 +1,822 @@
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import alphabetData from "../../data/malayalamAlphabetData.json";
+import malayalamWordsData from "../../data/malayalamWordsData.json";
+import malayalamNumbersData from "../../data/malayalamNumbersData.json";
+import malayalamSentencesData from "../../data/malayalamSentencesData.json";
+import { useAuth } from "../../context/AuthContext";
+import { 
+  BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
+  Play, Volume2, Eye, EyeOff, User, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard 
+} from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+
+function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked, onInteract }) {
+  const [revealed, setRevealed] = useState(false);
+  
+  return (
+    <div className={`group relative flex flex-col p-5 bg-white/80 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
+      isInProgress ? "border-[#C9A227] ring-2 ring-[#C9A227]/30" : 
+      isCompleted ? "border-emerald-500/30 bg-emerald-50/30" : 
+      "border-[#14213D]/10"
+    }`}>
+      <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none" />
+      
+      {/* Top action/status bar */}
+      <div className="flex justify-between items-start mb-2">
+        <div className="flex items-center gap-1">
+          {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-500" />}
+          {isInProgress && <Play className="w-4 h-4 text-[#C9A227] animate-pulse" />}
+          {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+        </div>
+        <button 
+          onClick={(e) => { e.stopPropagation(); onInteract(); }}
+          disabled={isLocked}
+          className={`p-1.5 rounded-xl shadow-sm border transition-all z-10 hover:scale-110 active:scale-95 ${
+            isLocked ? "bg-gray-100 border-gray-200 cursor-not-allowed opacity-50" : "bg-[#14213D]/5 border-[#14213D]/5 hover:bg-[#C9A227]/10 hover:border-[#C9A227]/20"
+          }`}
+        >
+          <Volume2 className={`w-4 h-4 ${isLocked ? "text-gray-400" : "text-[#14213D]/60 hover:text-[#C9A227]"}`} />
+        </button>
+      </div>
+
+      <div className="flex-1">
+        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-[#14213D] mb-3 pr-2 flex items-start gap-2 break-words">
+          {word.digit && (
+            <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-[#C9A227]/20 to-[#C9A227]/10 border border-[#C9A227]/20 text-[#8C6D13] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
+              {word.digit}.
+            </span>
+          )}
+          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{word.malayalam}</span>
+        </span>
+        
+        <div className={`flex flex-wrap gap-2 mb-5 ${isLocked ? "opacity-50" : ""}`}>
+          <span className="font-mono text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
+            {word.english_transliteration}
+          </span>
+          {word.tamil_transliteration && (
+            <span className="font-sans text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
+              {word.tamil_transliteration}
+            </span>
+          )}
+        </div>
+      </div>
+
+      <div className="mt-auto border-t border-[#14213D]/5 pt-4">
+        {!revealed ? (
+          <button 
+            onClick={() => !isLocked && setRevealed(true)}
+            disabled={isLocked}
+            className={`flex items-center justify-center gap-2 w-full py-2.5 text-xs font-bold tracking-wide rounded-xl transition-all ${
+              isLocked 
+                ? "bg-gray-100 text-gray-400 cursor-not-allowed" 
+                : "text-[#14213D]/60 bg-[#14213D]/5 hover:bg-[#14213D]/10 hover:text-[#14213D]"
+            }`}
+          >
+            {isLocked ? <Lock className="w-4 h-4" /> : <Eye className="w-4 h-4" />} 
+            {isLocked ? "Locked" : "View Translation"}
+          </button>
+        ) : (
+          <div 
+            onClick={() => setRevealed(false)} 
+            className="flex flex-col gap-1.5 cursor-pointer group/reveal p-3 -mx-3 -mb-3 rounded-xl hover:bg-[#14213D]/5 transition-colors relative"
+          >
+            <div className="flex justify-between items-start pr-8">
+              <div className="flex flex-col gap-1">
+                <span className="font-sans font-bold text-sm text-[#14213D] leading-tight">
+                  {word.english_meaning}
+                </span>
+                <span className="font-sans font-medium text-[13px] text-[#14213D]/60 leading-tight">
+                  {word.tamil_meaning}
+                </span>
+              </div>
+              <EyeOff className="absolute top-3.5 right-3 w-4 h-4 text-[#14213D]/40 group-hover/reveal:text-[#14213D] transition-colors" />
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default function MalayalamDashboard() {
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
+  const savedTab = localStorage.getItem("malayalam_active_tab");
+  const [activeTab, setActiveTabState] = useState(savedTab || "Home");
+
+  const setActiveTab = (tab) => {
+    setActiveTabState(tab);
+    localStorage.setItem("malayalam_active_tab", tab);
+  };
+
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+  const availableLanguages = [
+    { code: "en", name: "English", flag: "🇺🇸" },
+    { code: "te", name: "Telugu", flag: "🇮🇳" },
+    { code: "ml", name: "Malayalam", flag: "🇮🇳" },
+    { code: "hi", name: "Hindi", flag: "🇮🇳" },
+    { code: "ar", name: "Arabic", flag: "🇸🇦" },
+    { code: "ko", name: "Korean", flag: "🇰🇷" },
+    { code: "th", name: "Thai", flag: "🇹🇭" },
+    { code: "zh", name: "Chinese", flag: "🇨🇳" },
+    { code: "ja", name: "Japanese", flag: "🇯🇵" },
+  ];
+  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
+
+  const changeLanguage = (code) => {
+    localStorage.setItem("lingolive_target_language", code);
+    setLangDropdownOpen(false);
+    window.location.href = "/"; 
+  };
+
+  const TABS = [
+    "Home",
+    "Alphabets (അക്ഷരമാല)",
+    "Essential Words",
+    "Numbers",
+    "Sentences"
+  ];
+
+  // Progress Tracking State
+  const [progress, setProgress] = useState({
+    swarangal: 0,
+    vyanjanangal: 0,
+    chillaksharangal: 0,
+    words: 0,
+    numbers: 0,
+    sentences: 0
+  });
+  const [stats, setStats] = useState({ streak: 0, xp: 0 });
+
+  useEffect(() => {
+    const savedProgressStr = localStorage.getItem("malayalam_progress");
+    const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0 };
+    const savedProgress = savedProgressStr ? JSON.parse(savedProgressStr) : defaultProgress;
+    setProgress({ ...defaultProgress, ...savedProgress });
+
+    const savedStats = JSON.parse(localStorage.getItem("malayalam_stats") || '{"streak":0,"xp":0}');
+    setStats(savedStats);
+  }, []);
+
+  const playAudio = (text) => {
+    if (!window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "ml-IN";
+    utterance.rate = 0.8;
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const handleInteraction = (type, index, text) => {
+    playAudio(text);
+    if (index === progress[type]) {
+      const newProgress = { ...progress, [type]: index + 1 };
+      const newStats = { 
+        streak: stats.streak === 0 ? 1 : stats.streak, 
+        xp: stats.xp + 10 
+      };
+      
+      setProgress(newProgress);
+      setStats(newStats);
+      
+      localStorage.setItem("malayalam_progress", JSON.stringify(newProgress));
+      localStorage.setItem("malayalam_stats", JSON.stringify(newStats));
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await logout();
+      navigate("/login");
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const [activeWordPartView, setActiveWordPartView] = useState(null);
+  const [activeNumberPartView, setActiveNumberPartView] = useState(null);
+  const [activeSentenceModuleView, setActiveSentenceModuleView] = useState(null);
+  const [activeSentencePartView, setActiveSentencePartView] = useState(null);
+
+  // Dashboard overview cards
+  const dashboardCards = [
+    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
+    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
+    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" }
+  ];
+
+  const renderLetterGrid = (type, lettersArray) => (
+    <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-5">
+      {lettersArray.map((letter, idx) => {
+        const isCompleted = idx < progress[type];
+        const isInProgress = idx === progress[type];
+        const isLocked = idx > progress[type];
+
+        return (
+          <div 
+            key={idx} 
+            onClick={() => !isLocked && handleInteraction(type, idx, letter.letter)}
+            className={`group relative flex flex-col items-center justify-between aspect-square p-3 rounded-2xl border transition-all duration-300 overflow-hidden ${
+              isInProgress
+                ? "border-[#3F6656] bg-[#3F6656]/10 ring-2 ring-[#3F6656]/50 shadow-lg cursor-pointer"
+                : isCompleted
+                ? "border-emerald-500/30 bg-emerald-50/50 cursor-pointer"
+                : "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed"
+            } ${!isLocked ? 'hover:-translate-y-1 hover:shadow-md' : ''}`}
+          >
+            <div className="flex w-full items-center justify-between z-10">
+               <span className="font-mono text-[10px] font-bold text-[#14213D]/60">{idx + 1}</span>
+               {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-600 fill-emerald-100" />}
+               {isInProgress && <Play className="w-4 h-4 text-[#3F6656] fill-[#3F6656] animate-bounce" />}
+               {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+            </div>
+
+            <div className="absolute inset-0 bg-gradient-to-b from-white/80 to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none" />
+            {!isLocked && <Volume2 className="absolute top-6 right-2 w-3.5 h-3.5 text-[#14213D]/20 group-hover:text-[#3F6656] transition-colors" />}
+            
+            <div className="my-1 flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-base font-bold transition shadow-sm bg-gradient-to-br text-[#14213D] shadow-[#14213D]/10 bg-white">
+              <span className={`text-[32px] font-bold font-sans leading-none ${isLocked ? 'text-gray-400' : 'text-[#14213D] group-hover:text-[#3F6656]'} transition-colors drop-shadow-sm`}>
+                {letter.letter}
+              </span>
+            </div>
+            
+            <div className="flex flex-col items-center gap-1 z-10 w-full px-1">
+              <span className="font-mono text-[10px] font-semibold bg-[#14213D]/5 text-[#14213D]/70 px-1.5 py-0.5 rounded w-full text-center truncate">
+                {letter.transliteration}
+              </span>
+              <div className="flex justify-center gap-1 mt-1">
+                {isCompleted ? (
+                   Array.from({ length: 3 }).map((_, i) => (
+                     <Star key={i} className="h-2.5 w-2.5 text-amber-500 fill-amber-500" />
+                   ))
+                 ) : isInProgress ? (
+                   <span className="font-mono text-[9px] font-bold text-[#3F6656]">In Progress</span>
+                 ) : (
+                   <span className="font-mono text-[9px] text-gray-400">Locked</span>
+                 )}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+
+  return (
+    <div className="flex h-screen bg-gray-50 overflow-hidden">
+      {/* Left Sidebar */}
+      <aside className="w-72 h-screen bg-white border-r border-[#14213D]/10 flex flex-col shadow-sm shrink-0">
+        {/* Top Section */}
+        <div className="p-6 border-b border-[#14213D]/10 flex flex-col gap-3">
+          <div className="flex items-center justify-between">
+            <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
+            </h1>
+            <div className="relative">
+              <button
+                onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+                className="group flex items-center justify-center h-8 px-2.5 gap-1.5 rounded-lg border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
+              >
+                <Globe className="h-3.5 w-3.5 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
+                <span className="text-[13px] leading-none">{currentLanguage.flag}</span>
+                <span className="font-sans text-[11px] font-bold uppercase mt-0.5">
+                  {currentLanguage.code}
+                </span>
+              </button>
+              {langDropdownOpen && (
+                <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+                  {availableLanguages.map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => changeLanguage(lang.code)}
+                      className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
+                        currentLanguageCode === lang.code
+                          ? "bg-[#14213D]/5 text-[#C9A227]"
+                          : "text-[#14213D] hover:bg-[#14213D]/5"
+                      }`}
+                    >
+                      <span>{lang.flag}</span>
+                      <span>{lang.name}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#14213D]/5 px-3 py-1.5 font-mono text-xs font-semibold text-[#14213D]/70 w-fit">
+            Malayalam Learning
+          </span>
+          <button 
+            onClick={() => navigate("/")}
+            className="mt-1 flex items-center gap-2 px-3 py-2 text-xs font-semibold text-[#14213D]/60 hover:text-[#14213D] hover:bg-[#14213D]/5 rounded-lg transition-colors border border-transparent hover:border-[#14213D]/10 w-fit"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" /> Back to Main
+          </button>
+        </div>
+
+        {/* Middle Section (Navigation) */}
+        <nav className="flex-1 overflow-y-auto p-4 space-y-2">
+          {TABS.map((tabName) => {
+            const getIcon = (name) => {
+              if (name === "Home") return <LayoutDashboard className="w-4 h-4 text-current" />;
+              if (name.includes("Alphabets")) return <span className="text-sm font-sans text-current">അ</span>;
+              if (name.includes("Words")) return <BookOpen className="w-4 h-4 text-current" />;
+              return <CheckCircle2 className="w-4 h-4 text-current" />;
+            };
+
+            const isActive = activeTab === tabName;
+
+            return (
+              <button
+                key={tabName}
+                onClick={() => setActiveTab(tabName)}
+                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all duration-200 ${
+                  isActive
+                    ? "bg-[#14213D] text-white shadow-md"
+                    : "text-[#14213D]/70 hover:bg-[#14213D]/5 hover:text-[#14213D]"
+                }`}
+              >
+                <div className={`flex items-center justify-center w-7 h-7 rounded-lg ${
+                  isActive ? "bg-white/20" : "bg-[#14213D]/10"
+                }`}>
+                  {getIcon(tabName)}
+                </div>
+                <span className="text-sm text-left truncate">{tabName}</span>
+              </button>
+            )
+          })}
+        </nav>
+
+        {/* Bottom Section */}
+        <div className="p-5 border-t border-[#14213D]/10 bg-gray-50/50 flex flex-col gap-4">
+          <div className="flex items-center justify-between px-1">
+            <div className="flex flex-col items-center gap-1">
+              <div className="flex items-center gap-1.5">
+                <Flame className={`w-4 h-4 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
+                <span className="text-xs font-semibold text-[#14213D]/70">Streak</span>
+              </div>
+              <span className={`font-mono font-bold ${stats.streak > 0 ? "text-amber-600" : "text-[#14213D]/40"}`}>{stats.streak}</span>
+            </div>
+            <div className="w-px h-8 bg-[#14213D]/10"></div>
+            <div className="flex flex-col items-center gap-1">
+              <div className="flex items-center gap-1.5">
+                <Zap className={`w-4 h-4 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
+                <span className="text-xs font-semibold text-[#14213D]/70">Points</span>
+              </div>
+              <span className={`font-mono font-bold ${stats.xp > 0 ? "text-[#C9A227]" : "text-[#14213D]/40"}`}>{stats.xp}</span>
+            </div>
+          </div>
+          
+          {user && (
+            <div className="flex items-center justify-between bg-white p-3 rounded-xl border border-[#14213D]/10 shadow-sm">
+              <div className="flex items-center gap-2 overflow-hidden">
+                <div className="w-8 h-8 rounded-full bg-[#14213D]/5 flex items-center justify-center shrink-0">
+                  <User className="w-4 h-4 text-[#3F6656]" />
+                </div>
+                <span className="text-xs font-semibold truncate text-[#14213D]">{user.email}</span>
+              </div>
+              <button 
+                onClick={handleLogout}
+                className="p-2 rounded-lg text-red-500 hover:bg-red-50 transition-colors shrink-0"
+                title="Logout"
+              >
+                <LogOut className="w-4 h-4" />
+              </button>
+            </div>
+          )}
+        </div>
+      </aside>
+
+      {/* Main Content Area */}
+      <main className="flex-1 flex flex-col overflow-y-auto">
+        <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-8 pb-16">
+          <div className="relative overflow-hidden rounded-3xl bg-[#14213D] p-6 text-white shadow-xl sm:p-10">
+            <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-[#C9A227]/10 blur-3xl" />
+            <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-[#3F6656]/20 blur-2xl" />
+
+            <div className="relative z-10 grid gap-6 md:grid-cols-[1fr_auto]">
+              <div className="space-y-4">
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C9A227] px-3 py-1 font-mono text-xs font-bold text-[#14213D]">
+                    <Sparkles className="h-3.5 w-3.5" />
+                    Malayalam Fundamentals
+                  </span>
+                  <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
+                    Beginner
+                  </span>
+                </div>
+
+                <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                  Learn the Malayalam Alphabet
+                </h1>
+                <p className="max-w-2xl font-sans text-sm text-white/70 leading-relaxed">
+                  Master the core {alphabetData.total_letters} letters of Malayalam. 
+                  Start with the vowels (സ്വരങ്ങൾ) and progress to the consonants (വ്യഞ്ജനങ്ങൾ) to build your foundation.
+                </p>
+
+                {/* Quick Action buttons */}
+                <div className="flex flex-wrap items-center gap-3 pt-2">
+                  <button
+                    onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
+                    className="flex items-center gap-2 rounded-xl bg-[#C9A227] px-5 py-3 font-sans text-sm font-bold text-[#14213D] shadow-lg transition hover:brightness-110 active:scale-95"
+                  >
+                    <BookOpen className="h-4 w-4" />
+                    <span>Start Learning</span>
+                  </button>
+
+                  <button
+                    onClick={() => navigate("/analytics")}
+                    className="flex items-center gap-2 rounded-xl bg-white/10 px-5 py-3 font-sans text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20 border border-white/15"
+                  >
+                    <BarChart3 className="h-4 w-4 text-[#C9A227]" />
+                    <span>View Analytics</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Right Progress Card (Streak and XP) */}
+              <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md md:w-64 space-y-4">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                     <Flame className={`w-5 h-5 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
+                     <span className="text-sm text-white/80 font-medium">Daily Streak</span>
+                  </div>
+                  <span className={`font-mono font-bold text-lg ${stats.streak > 0 ? "text-amber-500" : "text-white"}`}>{stats.streak}</span>
+                </div>
+                
+                <div className="flex items-center justify-between border-t border-white/10 pt-4">
+                  <div className="flex items-center gap-2">
+                     <Zap className={`w-5 h-5 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
+                     <span className="text-sm text-white/80 font-medium">Earned XP</span>
+                  </div>
+                  <span className={`font-mono font-bold text-lg ${stats.xp > 0 ? "text-[#C9A227]" : "text-white"}`}>{stats.xp}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Content Area Grid */}
+          <div className="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-[#14213D]/5">
+            {activeTab === "Home" && (
+              <div className="space-y-8 animate-fade-in">
+                <div className="space-y-2">
+                  <h2 className="font-display text-3xl font-bold text-[#14213D]">
+                    Welcome back! 👋
+                  </h2>
+                  <p className="font-sans text-sm text-[#14213D]/60 max-w-xl">
+                    Pick up where you left off or start a new lesson. Your Malayalam journey is waiting for you!
+                  </p>
+                </div>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {dashboardCards.map((card) => (
+                    <button
+                      key={card.key}
+                      onClick={() => setActiveTab(card.tab)}
+                      className={`flex flex-col items-start gap-4 p-6 rounded-2xl border text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${card.bg} ${card.border}`}
+                    >
+                      <div 
+                        className="w-12 h-12 rounded-xl flex items-center justify-center shadow-sm text-2xl font-bold text-white" 
+                        style={{ backgroundColor: card.color }}
+                      >
+                        {card.icon}
+                      </div>
+                      <div>
+                        <h3 className="font-display text-lg font-bold text-[#14213D]">{card.label}</h3>
+                        <p className="font-mono text-sm font-semibold text-[#14213D]/60 mt-1">
+                          {progress[card.key]} / {card.total} Completed
+                        </p>
+                      </div>
+                      {/* Progress Bar */}
+                      <div className="w-full h-1.5 rounded-full bg-white/50 mt-2 overflow-hidden border border-black/5">
+                        <div 
+                          className="h-full rounded-full transition-all duration-700" 
+                          style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
+                        />
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            {activeTab === "Alphabets (അക്ഷരമാല)" && (
+              <div className="space-y-12">
+                <div className="space-y-6">
+                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (സ്വരങ്ങൾ)
+                  </h3>
+                  {renderLetterGrid("swarangal", alphabetData.alphabet.swarangal)}
+                </div>
+
+                <div className="space-y-6">
+                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (വ്യഞ്ജനങ്ങൾ)
+                  </h3>
+                  {renderLetterGrid("vyanjanangal", alphabetData.alphabet.vyanjanangal)}
+                </div>
+
+                <div className="space-y-6">
+                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                    <Languages className="w-6 h-6 text-[#6366f1]" /> Chillu Letters (ചില്ലക്ഷരങ്ങൾ)
+                  </h3>
+                  {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
+                </div>
+              </div>
+            )}
+
+            {activeTab === "Essential Words" && (
+              <div className="space-y-6">
+                {activeWordPartView === null ? (
+                  <div className="space-y-4 pt-4">
+                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {malayalamWordsData.words.length} Essential Words
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(malayalamWordsData.words.length / 10) }).map((_, i) => {
+                        const startIdx = i * 10;
+                        const endIdx = (i + 1) * 10;
+                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
+                        const isLocked = progress.words < startIdx;
+                        const isCompleted = progress.words >= endIdx;
+                        const isInProgress = !isLocked && !isCompleted;
+                        
+                        return (
+                          <button
+                            key={partName}
+                            disabled={isLocked}
+                            onClick={() => setActiveWordPartView(i)}
+                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
+                              isLocked 
+                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                : isInProgress
+                                ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                            }`}
+                          >
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <div className="mt-3">
+                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
+                               <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveWordPartView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#0ea5e9]" /> Part {activeWordPartView + 1} ({(activeWordPartView * 10) + 1}-{(activeWordPartView + 1) * 10})
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {malayalamWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
+                         const globalIdx = (activeWordPartView * 10) + relIdx;
+                         const isCompleted = globalIdx < progress.words;
+                         const isInProgress = globalIdx === progress.words;
+                         const isLocked = globalIdx > progress.words;
+                         return (
+                           <WordCard 
+                             key={globalIdx} 
+                             word={word} 
+                             index={globalIdx}
+                             isCompleted={isCompleted}
+                             isInProgress={isInProgress}
+                             isLocked={isLocked}
+                             onInteract={() => handleInteraction('words', globalIdx, word.malayalam)} 
+                           />
+                         );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {activeTab === "Numbers" && (
+              <div className="space-y-6">
+                {activeNumberPartView === null ? (
+                  <div className="space-y-4 pt-4">
+                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {malayalamNumbersData.numbers.length} Numbers
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(malayalamNumbersData.numbers.length / 10) }).map((_, i) => {
+                        const startIdx = i * 10;
+                        const endIdx = (i + 1) * 10;
+                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
+                        const isLocked = progress.numbers < startIdx;
+                        const isCompleted = progress.numbers >= endIdx;
+                        const isInProgress = !isLocked && !isCompleted;
+                        
+                        return (
+                          <button
+                            key={partName}
+                            disabled={isLocked}
+                            onClick={() => setActiveNumberPartView(i)}
+                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
+                              isLocked 
+                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                : isInProgress
+                                ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                            }`}
+                          >
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <div className="mt-3">
+                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
+                               <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveNumberPartView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#ec4899]" /> Part {activeNumberPartView + 1} ({(activeNumberPartView * 10) + 1}-{(activeNumberPartView + 1) * 10})
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {malayalamNumbersData.numbers.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
+                         const globalIdx = (activeNumberPartView * 10) + relIdx;
+                         const isCompleted = globalIdx < progress.numbers;
+                         const isInProgress = globalIdx === progress.numbers;
+                         const isLocked = globalIdx > progress.numbers;
+                         return (
+                           <WordCard 
+                             key={globalIdx} 
+                             word={number} 
+                             index={globalIdx}
+                             isCompleted={isCompleted}
+                             isInProgress={isInProgress}
+                             isLocked={isLocked}
+                             onInteract={() => handleInteraction('numbers', globalIdx, number.malayalam)} 
+                           />
+                         );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {activeTab === "Sentences" && (
+              <div className="space-y-6">
+                {activeSentenceModuleView === null ? (
+                  <div className="space-y-4 pt-4">
+                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {malayalamSentencesData.total_sentences} Sentences
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {malayalamSentencesData.modules.map((moduleData, i) => (
+                        <button
+                          key={moduleData.module}
+                          onClick={() => setActiveSentenceModuleView(i)}
+                          className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
+                        >
+                          <BookOpen className="w-8 h-8 mb-3 text-[#C9A227]" />
+                          <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
+                          {moduleData.description && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.description}</span>}
+                          <div className="mt-4">
+                            <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">{moduleData.total_sentences} Sentences</span>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : activeSentencePartView === null ? (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveSentenceModuleView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {malayalamSentencesData.modules[activeSentenceModuleView].module} ({malayalamSentencesData.modules[activeSentenceModuleView].total_sentences} Sentences)
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(malayalamSentencesData.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
+                        const startIdx = i * 10;
+                        const endIdx = Math.min((i + 1) * 10, malayalamSentencesData.modules[activeSentenceModuleView].sentences.length);
+                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
+                        
+                        let moduleGlobalStartIdx = 0;
+                        for (let m = 0; m < activeSentenceModuleView; m++) {
+                           moduleGlobalStartIdx += malayalamSentencesData.modules[m].total_sentences;
+                        }
+                        const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
+                        const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
+                        
+                        const isLocked = progress.sentences < partGlobalStartIdx;
+                        const isCompleted = progress.sentences > partGlobalEndIdx;
+                        const isInProgress = !isLocked && !isCompleted;
+                        
+                        return (
+                          <button
+                            key={partName}
+                            disabled={isLocked}
+                            onClick={() => setActiveSentencePartView(i)}
+                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
+                              isLocked 
+                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                : isInProgress
+                                ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                            }`}
+                          >
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <div className="mt-3">
+                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
+                               <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveSentencePartView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {malayalamSentencesData.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {malayalamSentencesData.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
+                         let globalIdx = 0;
+                         for (let m = 0; m < activeSentenceModuleView; m++) {
+                            globalIdx += malayalamSentencesData.modules[m].total_sentences;
+                         }
+                         globalIdx += (activeSentencePartView * 10) + relIdx;
+
+                         const isCompleted = globalIdx < progress.sentences;
+                         const isInProgress = globalIdx === progress.sentences;
+                         const isLocked = globalIdx > progress.sentences;
+                         return (
+                           <WordCard 
+                             key={globalIdx} 
+                             word={sentence} 
+                             index={globalIdx}
+                             isCompleted={isCompleted}
+                             isInProgress={isInProgress}
+                             isLocked={isLocked}
+                             onInteract={() => handleInteraction('sentences', globalIdx, sentence.malayalam)} 
+                           />
+                         );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}

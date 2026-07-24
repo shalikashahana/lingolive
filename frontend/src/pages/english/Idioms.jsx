@@ -1,17 +1,17 @@
 import { useState, useMemo } from "react";
-import { sentencesData } from "../data/sentencesData";
+import { idiomsData } from "../../data/idiomsData";
 import { Sparkles, MessageCircle, Volume2, Languages, ChevronDown, ChevronUp, Search, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Sentences() {
-  const [activePhaseKey, setActivePhaseKey] = useState(sentencesData[0].phase);
+export default function Idioms() {
+  const [activePhaseKey, setActivePhaseKey] = useState(idiomsData[0].phase);
   const [visibleTranslations, setVisibleTranslations] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredData = useMemo(() => {
-    if (!searchQuery.trim()) return sentencesData;
+    if (!searchQuery.trim()) return idiomsData;
     
-    return sentencesData.map(phaseObj => {
+    return idiomsData.map(phaseObj => {
       const matchingSentences = phaseObj.sentences.filter(s => {
         const enMatch = s.english.toLowerCase().includes(searchQuery.toLowerCase());
         const taMatch = s.tamil.includes(searchQuery);
@@ -34,6 +34,13 @@ export default function Sentences() {
       ...prev,
       [key]: !prev[key],
     }));
+
+    // Update idioms viewed stat
+    if (!visibleTranslations[key]) {
+      const currentStats = JSON.parse(localStorage.getItem("idioms_stats") || '{"flips":0}');
+      currentStats.flips += 1;
+      localStorage.setItem("idioms_stats", JSON.stringify(currentStats));
+    }
   };
 
   const playAudio = (text) => {
@@ -66,10 +73,10 @@ export default function Sentences() {
             <Sparkles className="h-4 w-4" /> Fluent Expressions
           </motion.div>
           <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70">
-            Daily Conversations
+            Popular Idioms
           </h1>
           <p className="max-w-xl font-sans text-base sm:text-lg text-white/70 leading-relaxed text-center sm:text-left">
-            Master 300+ everyday English sentences grouped by real-life contexts. Use the search bar to find specific phrases instantly.
+            Master 100+ everyday English idioms grouped by real-life contexts. Understand their meanings with examples.
           </p>
         </div>
       </motion.div>
@@ -94,7 +101,7 @@ export default function Sentences() {
               setActivePhaseKey(filteredData[0].phase);
             }
           }}
-          placeholder="Search for sentences in English or Tamil..."
+          placeholder="Search for idioms in English or Tamil..."
           className="w-full bg-white/80 backdrop-blur-md border border-[#14213D]/15 rounded-2xl py-4 pl-12 pr-4 font-sans text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-[#C9A227]/50 focus:border-[#C9A227]/50 transition-all text-[#14213D] placeholder:text-[#14213D]/40"
         />
       </motion.div>
@@ -135,7 +142,7 @@ export default function Sentences() {
                   </div>
                 </button>
 
-                {/* Accordion Content (Sentences & Idioms) */}
+                {/* Accordion Content (Idioms) */}
                 <AnimatePresence>
                   {isActive && (
                     <motion.div

@@ -18,7 +18,8 @@ import {
   Video,
   MessageCircle,
   BookA,
-  Globe
+  Globe,
+  Home
 } from "lucide-react";
 
 export default function AppLayout({ children, userStats = { streak: 0, xp: 0, level: 1, cefr: 'A1' } }) {
@@ -44,14 +45,15 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
   const changeLanguage = (code) => {
     localStorage.setItem("lingolive_target_language", code);
     setLangDropdownOpen(false);
-    window.location.reload(); // Reload to reflect the new target language content
+    window.location.href = "/"; // Redirect to dashboard to reflect the new target language content
   };
 
   const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const navItems = [
-    { label: "Quiz Dashboard", path: "/", icon: Map },
+    { label: "Home", path: "/", icon: Home },
+    { label: "Quiz Dashboard", path: "/path", icon: Map },
     { label: "Vocabulary", path: "/vocabulary", icon: BookMarked },
     { label: "Reading", path: "/reading", icon: BookOpen },
     { label: "AI Tutor", path: "/chat", icon: MessageSquareCode, badge: "Gemma" },
@@ -73,9 +75,13 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     }
   };
 
-  // Only bypass the 'Coming Soon' screen if English, or if it's Telugu AND we are on the Dashboard (/)
-  const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard");
-  if (currentLanguageCode !== "en" && !isTeluguDashboard) {
+  // Only bypass the 'Coming Soon' screen if English, or if it's Telugu/Malayalam AND we are on allowed paths
+  const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/telugu-quiz" || location.pathname === "/telugu-sentences");
+  const isMalayalamDashboard = currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/malayalam-alphabet");
+  
+  const isStandaloneDashboard = isTeluguDashboard || isMalayalamDashboard;
+
+  if (currentLanguageCode !== "en" && !isStandaloneDashboard) {
     return (
       <div className="flex h-screen w-full flex-col items-center justify-center bg-[#F8F6F0] font-sans text-[#14213D] relative overflow-hidden">
         {/* Top Right Language Switcher for the standalone screen */}
@@ -83,9 +89,10 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
           <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white text-[#14213D] shadow-sm hover:border-[#14213D]/30 transition-all"
+              className="group flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
             >
-              <span className="text-lg leading-none">{currentLanguage.flag}</span>
+              <Globe className="h-4 w-4 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
+              <span className="text-lg leading-none hidden md:inline">{currentLanguage.flag}</span>
               <span className="hidden md:inline font-sans text-sm font-bold uppercase">
                 {currentLanguage.code}
               </span>
@@ -135,11 +142,20 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     );
   }
 
+
+    if (isStandaloneDashboard) {
+    return (
+      <div className="relative h-screen w-full overflow-hidden bg-gray-50">
+        {children}
+      </div>
+    );
+  }
+
   return (
     <div className="flex h-screen overflow-hidden bg-[#F8F6F0] font-sans text-[#14213D] selection:bg-[#C9A227]/30">
       
       {/* Desktop Sidebar */}
-      {!isTeluguDashboard && (
+      {!isStandaloneDashboard && (
         <aside className="hidden md:flex flex-col w-72 border-r border-[#14213D]/10 bg-white/80 backdrop-blur-xl z-20 shadow-[4px_0_24px_rgba(20,33,61,0.02)]">
         {/* Brand logo */}
         <div className="p-6 border-b border-[#14213D]/5">
@@ -244,7 +260,7 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
       )}
 
       {/* Mobile Header (Hidden on Desktop) */}
-      {!isTeluguDashboard && (
+      {!isStandaloneDashboard && (
         <div className="md:hidden absolute top-0 left-0 w-full z-40 flex flex-col">
         <header className="border-b border-[#14213D]/10 bg-white/90 backdrop-blur-md">
           <div className="flex items-center justify-between px-4 py-3">
@@ -318,20 +334,21 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
       {/* Main Content Area */}
       <main className="flex-1 overflow-y-auto pt-16 md:pt-0 relative bg-gradient-to-br from-[#F8F6F0] to-[#f0efe9]">
         
-        {/* Top Left Language Switcher */}
-        <div className="absolute top-4 left-4 md:left-8 z-30">
+        {/* Top Right Language Switcher */}
+        <div className="absolute top-4 right-4 md:right-8 z-30">
           <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white text-[#14213D] shadow-sm hover:border-[#14213D]/30 transition-all"
+              className="group flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
             >
-              <span className="text-lg leading-none">{currentLanguage.flag}</span>
+              <Globe className="h-4 w-4 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
+              <span className="text-lg leading-none hidden md:inline">{currentLanguage.flag}</span>
               <span className="hidden md:inline font-sans text-sm font-bold uppercase">
                 {currentLanguage.code}
               </span>
             </button>
             {langDropdownOpen && (
-              <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
                 {availableLanguages.map((lang) => (
                   <button
                     key={lang.code}

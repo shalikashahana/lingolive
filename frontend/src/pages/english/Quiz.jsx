@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
-import { SAMPLE_QUIZZES } from "../data/mockData";
-import { useAuth } from "../context/AuthContext";
+import { SAMPLE_QUIZZES } from "../../data/mockData";
+import { useAuth } from "../../context/AuthContext";
 import {
   Zap,
   CheckCircle2,
@@ -89,6 +89,7 @@ export default function Quiz() {
 
     const generateNewQuiz = async () => {
       setGeneratingQuiz(true);
+      let loadedFromBackend = false;
       if (user) {
         try {
           const token = await user.getIdToken();
@@ -100,15 +101,25 @@ export default function Quiz() {
           });
           if (res.ok) {
             const data = await res.json();
-            if (data.questions) {
+            if (data.questions && data.questions.length > 0) {
               setQuestions(data.questions);
               localStorage.setItem(`lingolive_quiz_questions_${levelNum}`, JSON.stringify(data.questions));
+              loadedFromBackend = true;
             }
           }
         } catch (e) {
           console.error("Failed to generate quiz", e);
         }
       }
+      
+      if (!loadedFromBackend) {
+        const fallbackQuiz = SAMPLE_QUIZZES[levelNum] || SAMPLE_QUIZZES[1];
+        if (fallbackQuiz && fallbackQuiz.questions) {
+          setQuestions(fallbackQuiz.questions);
+          localStorage.setItem(`lingolive_quiz_questions_${levelNum}`, JSON.stringify(fallbackQuiz.questions));
+        }
+      }
+
       setGeneratingQuiz(false);
     };
 
@@ -131,8 +142,8 @@ export default function Quiz() {
       const scorePercentage = Math.round((scoreCount / questions.length) * 100);
       const passed = scorePercentage >= 80;
       if (passed) {
-        const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
-        if (levelNum + 1 > maxUnlocked) {
+        const currentMax = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+        if (levelNum + 1 > currentMax) {
           localStorage.setItem('lingolive_max_unlocked_level', (levelNum + 1).toString());
         }
       }
@@ -163,38 +174,6 @@ export default function Quiz() {
     
     saveProgress();
   }, [levelNum, currentIndex, answersSubmitted, scoreCount, quizFinished, user, loadingProgress]);
-
-  const currentQ = questions[currentIndex];
-  const isAnswered = answersSubmitted[currentQ.id] !== undefined;
-
-  const handleMCQSubmit = (idx) => {
-    if (isAnswered) return;
-    setSelectedOption(idx);
-    const isCorrect = idx === currentQ.correct_index;
-    setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
-    if (isCorrect) setScoreCount((prev) => prev + 1);
-  };
-
-  const handleFillSubmit = (e) => {
-    e.preventDefault();
-    if (isAnswered || !textAnswer.trim()) return;
-    const isCorrect = textAnswer.trim().toLowerCase() === currentQ.correct_answer.toLowerCase();
-    setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
-    if (isCorrect) setScoreCount((prev) => prev + 1);
-  };
-
-  const handleNext = () => {
-    if (currentIndex < questions.length - 1) {
-      setCurrentIndex((prev) => prev + 1);
-      setSelectedOption(null);
-      setTextAnswer("");
-    } else {
-      setQuizFinished(true);
-    }
-  };
-
-  const scorePercentage = Math.round((scoreCount / questions.length) * 100);
-  const passed = scorePercentage >= 80;
 
   const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
   const alreadyCompleted = levelNum < maxUnlocked;
@@ -255,6 +234,38 @@ export default function Quiz() {
       </div>
     );
   }
+
+  const currentQ = questions[currentIndex];
+  const isAnswered = answersSubmitted[currentQ.id] !== undefined;
+
+  const handleMCQSubmit = (idx) => {
+    if (isAnswered) return;
+    setSelectedOption(idx);
+    const isCorrect = idx === currentQ.correct_index;
+    setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
+    if (isCorrect) setScoreCount((prev) => prev + 1);
+  };
+
+  const handleFillSubmit = (e) => {
+    e.preventDefault();
+    if (isAnswered || !textAnswer.trim()) return;
+    const isCorrect = textAnswer.trim().toLowerCase() === currentQ.correct_answer.toLowerCase();
+    setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
+    if (isCorrect) setScoreCount((prev) => prev + 1);
+  };
+
+  const handleNext = () => {
+    if (currentIndex < questions.length - 1) {
+      setCurrentIndex((prev) => prev + 1);
+      setSelectedOption(null);
+      setTextAnswer("");
+    } else {
+      setQuizFinished(true);
+    }
+  };
+
+  const scorePercentage = Math.round((scoreCount / questions.length) * 100);
+  const passed = scorePercentage >= 80;
 
   return (
     <div className="mx-auto max-w-3xl space-y-8 pb-16">
