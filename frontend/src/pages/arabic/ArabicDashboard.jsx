@@ -54,11 +54,11 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
         
         <div className={`flex flex-wrap gap-2 mb-5 ${isLocked ? "opacity-50" : ""}`}>
           <span className="font-mono text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
-            {word.english_transliteration}
+            {word.english_transliteration || word.transliteration}
           </span>
-          {word.tamil_transliteration && (
+          {(word.tamil_transliteration || word.transliteration_tamil) && (
             <span className="font-sans text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
-              {word.tamil_transliteration}
+              {word.tamil_transliteration || word.transliteration_tamil}
             </span>
           )}
         </div>
@@ -86,10 +86,10 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
             <div className="flex justify-between items-start pr-8">
               <div className="flex flex-col gap-1">
                 <span className="font-sans font-bold text-sm text-[#14213D] leading-tight">
-                  {word.english_meaning}
+                  {word.english_meaning || word.meaning_english}
                 </span>
                 <span className="font-sans font-medium text-[13px] text-[#14213D]/60 leading-tight">
-                  {word.tamil_meaning}
+                  {word.tamil_meaning || word.meaning_tamil}
                 </span>
               </div>
               <EyeOff className="absolute top-3.5 right-3 w-4 h-4 text-[#14213D]/40 group-hover/reveal:text-[#14213D] transition-colors" />
