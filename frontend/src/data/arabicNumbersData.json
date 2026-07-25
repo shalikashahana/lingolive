@@ -1,0 +1,517 @@
+{
+  "language": "Arabic",
+  "code": "ar",
+  "total_numbers": 51,
+  "numbers": [
+    {
+      "digit": "0",
+      "arabic_digit": "٠",
+      "arabic": "صفر",
+      "english_transliteration": "Sfr",
+      "tamil_transliteration": "ஷ்ஃப்ர்",
+      "english_meaning": "Zero",
+      "malayalam": "शून्य",
+      "tamil_meaning": "பூஜ்யம் / சுழியம்"
+    },
+    {
+      "digit": "1",
+      "arabic_digit": "١",
+      "arabic": "واحد",
+      "english_transliteration": "Whd",
+      "tamil_transliteration": "Wஹ்த்",
+      "english_meaning": "One",
+      "malayalam": "एक",
+      "tamil_meaning": "ஒன்று"
+    },
+    {
+      "digit": "2",
+      "arabic_digit": "٢",
+      "arabic": "اثنين",
+      "english_transliteration": "Thnyn",
+      "tamil_transliteration": "ட்ந்ய்ந்",
+      "english_meaning": "Two",
+      "malayalam": "दो",
+      "tamil_meaning": "இரண்டு"
+    },
+    {
+      "digit": "3",
+      "arabic_digit": "٣",
+      "arabic": "ثلاثة",
+      "english_transliteration": "Thlth@",
+      "tamil_transliteration": "ட்ல்த்@",
+      "english_meaning": "Three",
+      "malayalam": "तीन",
+      "tamil_meaning": "மூன்று"
+    },
+    {
+      "digit": "4",
+      "arabic_digit": "٤",
+      "arabic": "أربعة",
+      "english_transliteration": "'rb`@",
+      "tamil_transliteration": "'ர்ப்`@",
+      "english_meaning": "Four",
+      "malayalam": "चार",
+      "tamil_meaning": "நான்கு"
+    },
+    {
+      "digit": "5",
+      "arabic_digit": "٥",
+      "arabic": "خمسة",
+      "english_transliteration": "Khms@",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@",
+      "english_meaning": "Five",
+      "malayalam": "पाँच",
+      "tamil_meaning": "ஐந்து"
+    },
+    {
+      "digit": "6",
+      "arabic_digit": "٦",
+      "arabic": "ستة",
+      "english_transliteration": "St@",
+      "tamil_transliteration": "ஷ்த்@",
+      "english_meaning": "Six",
+      "malayalam": "छह",
+      "tamil_meaning": "ஆறு"
+    },
+    {
+      "digit": "7",
+      "arabic_digit": "٧",
+      "arabic": "سبعة",
+      "english_transliteration": "Sb`@",
+      "tamil_transliteration": "ஷ்ப்`@",
+      "english_meaning": "Seven",
+      "malayalam": "सात",
+      "tamil_meaning": "ஏழு"
+    },
+    {
+      "digit": "8",
+      "arabic_digit": "٨",
+      "arabic": "ثمانية",
+      "english_transliteration": "Thmny@",
+      "tamil_transliteration": "ட்ம்ந்ய்@",
+      "english_meaning": "Eight",
+      "malayalam": "आठ",
+      "tamil_meaning": "எட்டு"
+    },
+    {
+      "digit": "9",
+      "arabic_digit": "٩",
+      "arabic": "تسعة",
+      "english_transliteration": "Ts`@",
+      "tamil_transliteration": "ட்ஸ்`@",
+      "english_meaning": "Nine",
+      "malayalam": "नौ",
+      "tamil_meaning": "ஒன்பது"
+    },
+    {
+      "digit": "10",
+      "arabic_digit": "١٠",
+      "arabic": "عشرة",
+      "english_transliteration": "`shr@",
+      "tamil_transliteration": "`ஶ்ர்@",
+      "english_meaning": "Ten",
+      "malayalam": "दस",
+      "tamil_meaning": "பத்து"
+    },
+    {
+      "digit": "11",
+      "arabic_digit": "١١",
+      "arabic": "أحد عشر",
+      "english_transliteration": "'hd `shr",
+      "tamil_transliteration": "'ஹ்த் `ஶ்ர்",
+      "english_meaning": "Eleven",
+      "malayalam": "ग्यारह",
+      "tamil_meaning": "பதினொன்று"
+    },
+    {
+      "digit": "12",
+      "arabic_digit": "١٢",
+      "arabic": "اثنا عشر",
+      "english_transliteration": "Thn `shr",
+      "tamil_transliteration": "ட்ந் `ஶ்ர்",
+      "english_meaning": "Twelve",
+      "malayalam": "बारह",
+      "tamil_meaning": "பன்னிரண்டு"
+    },
+    {
+      "digit": "13",
+      "arabic_digit": "١٣",
+      "arabic": "ثلاثة عشر",
+      "english_transliteration": "Thlth@ `shr",
+      "tamil_transliteration": "ட்ல்த்@ `ஶ்ர்",
+      "english_meaning": "Thirteen",
+      "malayalam": "तेरह",
+      "tamil_meaning": "பதிமூன்று"
+    },
+    {
+      "digit": "14",
+      "arabic_digit": "١٤",
+      "arabic": "أربعة عشر",
+      "english_transliteration": "'rb`@ `shr",
+      "tamil_transliteration": "'ர்ப்`@ `ஶ்ர்",
+      "english_meaning": "Fourteen",
+      "malayalam": "चौदह",
+      "tamil_meaning": "பதினான்கு"
+    },
+    {
+      "digit": "15",
+      "arabic_digit": "١٥",
+      "arabic": "خمسة عشر",
+      "english_transliteration": "Khms@ `shr",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@ `ஶ்ர்",
+      "english_meaning": "Fifteen",
+      "malayalam": "पंद्रह",
+      "tamil_meaning": "பதினைந்து"
+    },
+    {
+      "digit": "16",
+      "arabic_digit": "١٦",
+      "arabic": "ستة عشر",
+      "english_transliteration": "St@ `shr",
+      "tamil_transliteration": "ஷ்த்@ `ஶ்ர்",
+      "english_meaning": "Sixteen",
+      "malayalam": "सोलह",
+      "tamil_meaning": "பதினாறு"
+    },
+    {
+      "digit": "17",
+      "arabic_digit": "١٧",
+      "arabic": "سبعة عشر",
+      "english_transliteration": "Sb`@ `shr",
+      "tamil_transliteration": "ஷ்ப்`@ `ஶ்ர்",
+      "english_meaning": "Seventeen",
+      "malayalam": "सत्रह",
+      "tamil_meaning": "பதினேழு"
+    },
+    {
+      "digit": "18",
+      "arabic_digit": "١٨",
+      "arabic": "ثمانية عشر",
+      "english_transliteration": "Thmny@ `shr",
+      "tamil_transliteration": "ட்ம்ந்ய்@ `ஶ்ர்",
+      "english_meaning": "Eighteen",
+      "malayalam": "अठारह",
+      "tamil_meaning": "பதினெட்டு"
+    },
+    {
+      "digit": "19",
+      "arabic_digit": "١٩",
+      "arabic": "تسعة عشر",
+      "english_transliteration": "Ts`@ `shr",
+      "tamil_transliteration": "ட்ஸ்`@ `ஶ்ர்",
+      "english_meaning": "Nineteen",
+      "malayalam": "उन्नीस",
+      "tamil_meaning": "பத்தொன்பது"
+    },
+    {
+      "digit": "20",
+      "arabic_digit": "٢٠",
+      "arabic": "عشرين",
+      "english_transliteration": "`shryn",
+      "tamil_transliteration": "`ஶ்ர்ய்ந்",
+      "english_meaning": "Twenty",
+      "malayalam": "बीस",
+      "tamil_meaning": "இருபது"
+    },
+    {
+      "digit": "21",
+      "arabic_digit": "٢١",
+      "arabic": "واحد وعشرون",
+      "english_transliteration": "Whd w`shrwn",
+      "tamil_transliteration": "Wஹ்த் வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-one",
+      "malayalam": "इक्कीस",
+      "tamil_meaning": "இருபத்தொன்று"
+    },
+    {
+      "digit": "22",
+      "arabic_digit": "٢٢",
+      "arabic": "إثنان وعشرون",
+      "english_transliteration": "Thnn w`shrwn",
+      "tamil_transliteration": "ட்ந்ந் வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-two",
+      "malayalam": "बाईस",
+      "tamil_meaning": "இருபத்திரண்டு"
+    },
+    {
+      "digit": "23",
+      "arabic_digit": "٢٣",
+      "arabic": "ثلاثة وعشرين",
+      "english_transliteration": "Thlth@ w`shryn",
+      "tamil_transliteration": "ட்ல்த்@ வ்`ஶ்ர்ய்ந்",
+      "english_meaning": "Twenty-three",
+      "malayalam": "तेईस",
+      "tamil_meaning": "இருபத்திமூன்று"
+    },
+    {
+      "digit": "24",
+      "arabic_digit": "٢٤",
+      "arabic": "أربعة وعشرون",
+      "english_transliteration": "'rb`@ w`shrwn",
+      "tamil_transliteration": "'ர்ப்`@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-four",
+      "malayalam": "चौबीस",
+      "tamil_meaning": "இருபத்துநான்கு"
+    },
+    {
+      "digit": "25",
+      "arabic_digit": "٢٥",
+      "arabic": "خمسة وعشرون",
+      "english_transliteration": "Khms@ w`shrwn",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-five",
+      "malayalam": "पच्चीस",
+      "tamil_meaning": "இருபத்தைந்து"
+    },
+    {
+      "digit": "26",
+      "arabic_digit": "٢٦",
+      "arabic": "ستة وعشرون",
+      "english_transliteration": "St@ w`shrwn",
+      "tamil_transliteration": "ஷ்த்@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-six",
+      "malayalam": "छब्बीस",
+      "tamil_meaning": "இருபத்தாறு"
+    },
+    {
+      "digit": "27",
+      "arabic_digit": "٢٧",
+      "arabic": "سبعة وعشرون",
+      "english_transliteration": "Sb`@ w`shrwn",
+      "tamil_transliteration": "ஷ்ப்`@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-seven",
+      "malayalam": "सत्ताईस",
+      "tamil_meaning": "இருபத்தேழு"
+    },
+    {
+      "digit": "28",
+      "arabic_digit": "٢٨",
+      "arabic": "ثمانية وعشرون",
+      "english_transliteration": "Thmny@ w`shrwn",
+      "tamil_transliteration": "ட்ம்ந்ய்@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-eight",
+      "malayalam": "अट्ठाईस",
+      "tamil_meaning": "இருபத்தெட்டு"
+    },
+    {
+      "digit": "29",
+      "arabic_digit": "٢٩",
+      "arabic": "تسعة وعشرون",
+      "english_transliteration": "Ts`@ w`shrwn",
+      "tamil_transliteration": "ட்ஸ்`@ வ்`ஶ்ர்வ்ந்",
+      "english_meaning": "Twenty-nine",
+      "malayalam": "उनतीस",
+      "tamil_meaning": "இருபத்தொன்பது"
+    },
+    {
+      "digit": "30",
+      "arabic_digit": "٣٠",
+      "arabic": "ثلاثون",
+      "english_transliteration": "Thlthwn",
+      "tamil_transliteration": "ட்ல்த்வ்ந்",
+      "english_meaning": "Thirty",
+      "malayalam": "तीस",
+      "tamil_meaning": "முப்பது"
+    },
+    {
+      "digit": "31",
+      "arabic_digit": "٣١",
+      "arabic": "واحد وثلاثون",
+      "english_transliteration": "Whd wthlthwn",
+      "tamil_transliteration": "Wஹ்த் வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-one",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "32",
+      "arabic_digit": "٣٢",
+      "arabic": "اثنان وثلاثون",
+      "english_transliteration": "Thnn wthlthwn",
+      "tamil_transliteration": "ட்ந்ந் வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-two",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "33",
+      "arabic_digit": "٣٣",
+      "arabic": "ثلاثة وثلاثون",
+      "english_transliteration": "Thlth@ wthlthwn",
+      "tamil_transliteration": "ட்ல்த்@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-three",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "34",
+      "arabic_digit": "٣٤",
+      "arabic": "أربعة وثلاثون",
+      "english_transliteration": "'rb`@ wthlthwn",
+      "tamil_transliteration": "'ர்ப்`@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-four",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "35",
+      "arabic_digit": "٣٥",
+      "arabic": "خمسة وثلاثون",
+      "english_transliteration": "Khms@ wthlthwn",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-five",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "36",
+      "arabic_digit": "٣٦",
+      "arabic": "ستة وثلاثون",
+      "english_transliteration": "St@ wthlthwn",
+      "tamil_transliteration": "ஷ்த்@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-six",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "37",
+      "arabic_digit": "٣٧",
+      "arabic": "سبعة وثلاثون",
+      "english_transliteration": "Sb`@ wthlthwn",
+      "tamil_transliteration": "ஷ்ப்`@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-seven",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "38",
+      "arabic_digit": "٣٨",
+      "arabic": "ثمانية وثلاثون",
+      "english_transliteration": "Thmny@ wthlthwn",
+      "tamil_transliteration": "ட்ம்ந்ய்@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-eight",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "39",
+      "arabic_digit": "٣٩",
+      "arabic": "تسعة وثلاثون",
+      "english_transliteration": "Ts`@ wthlthwn",
+      "tamil_transliteration": "ட்ஸ்`@ வ்த்ல்த்வ்ந்",
+      "english_meaning": "Thirty-nine",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "40",
+      "arabic_digit": "٤٠",
+      "arabic": "أربعون",
+      "english_transliteration": "'rb`wn",
+      "tamil_transliteration": "'ர்ப்`வ்ந்",
+      "english_meaning": "Forty",
+      "malayalam": "चालीस",
+      "tamil_meaning": "நாற்பது"
+    },
+    {
+      "digit": "41",
+      "arabic_digit": "٤١",
+      "arabic": "واحد وأربعون",
+      "english_transliteration": "Whd w'rb`wn",
+      "tamil_transliteration": "Wஹ்த் வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-one",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "42",
+      "arabic_digit": "٤٢",
+      "arabic": "اثنان وأربعون",
+      "english_transliteration": "Thnn w'rb`wn",
+      "tamil_transliteration": "ட்ந்ந் வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-two",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "43",
+      "arabic_digit": "٤٣",
+      "arabic": "ثلاثة وأربعون",
+      "english_transliteration": "Thlth@ w'rb`wn",
+      "tamil_transliteration": "ட்ல்த்@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-three",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "44",
+      "arabic_digit": "٤٤",
+      "arabic": "أربعة وأربعون",
+      "english_transliteration": "'rb`@ w'rb`wn",
+      "tamil_transliteration": "'ர்ப்`@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-four",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "45",
+      "arabic_digit": "٤٥",
+      "arabic": "خمسة وأربعون",
+      "english_transliteration": "Khms@ w'rb`wn",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-five",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "46",
+      "arabic_digit": "٤٦",
+      "arabic": "ستة وأربعون",
+      "english_transliteration": "St@ w'rb`wn",
+      "tamil_transliteration": "ஷ்த்@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-six",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "47",
+      "arabic_digit": "٤٧",
+      "arabic": "سبعة وأربعون",
+      "english_transliteration": "Sb`@ w'rb`wn",
+      "tamil_transliteration": "ஷ்ப்`@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-seven",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "48",
+      "arabic_digit": "٤٨",
+      "arabic": "ثمانية وأربعون",
+      "english_transliteration": "Thmny@ w'rb`wn",
+      "tamil_transliteration": "ட்ம்ந்ய்@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-eight",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "49",
+      "arabic_digit": "٤٩",
+      "arabic": "تسعة وأربعون",
+      "english_transliteration": "Ts`@ w'rb`wn",
+      "tamil_transliteration": "ட்ஸ்`@ வ்'ர்ப்`வ்ந்",
+      "english_meaning": "Forty-nine",
+      "malayalam": "",
+      "tamil_meaning": ""
+    },
+    {
+      "digit": "50",
+      "arabic_digit": "٥٠",
+      "arabic": "خمسون",
+      "english_transliteration": "Khmswn",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்வ்ந்",
+      "english_meaning": "Fifty",
+      "malayalam": "पचास",
+      "tamil_meaning": "ஐம்பது"
+    }
+  ]
+}

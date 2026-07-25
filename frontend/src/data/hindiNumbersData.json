@@ -1,0 +1,457 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "total_numbers": 50,
+  "numbers": [
+    {
+      "digit": "0",
+      "hindi": "शून्य",
+      "english_transliteration": "Shunya",
+      "tamil_transliteration": "ஷூன்ய",
+      "english_meaning": "Zero",
+      "tamil_meaning": "பூஜ்யம் / சுழியம்",
+      "malayalam": "शून्य"
+    },
+    {
+      "digit": "1",
+      "hindi": "एक",
+      "english_transliteration": "Ek",
+      "tamil_transliteration": "ஏக்",
+      "english_meaning": "One",
+      "tamil_meaning": "ஒன்று",
+      "malayalam": "एक"
+    },
+    {
+      "digit": "2",
+      "hindi": "दो",
+      "english_transliteration": "Do",
+      "tamil_transliteration": "தோ",
+      "english_meaning": "Two",
+      "tamil_meaning": "இரண்டு",
+      "malayalam": "दो"
+    },
+    {
+      "digit": "3",
+      "hindi": "तीन",
+      "english_transliteration": "Teen",
+      "tamil_transliteration": "தீன்",
+      "english_meaning": "Three",
+      "tamil_meaning": "மூன்று",
+      "malayalam": "तीन"
+    },
+    {
+      "digit": "4",
+      "hindi": "चार",
+      "english_transliteration": "Chaar",
+      "tamil_transliteration": "சார்",
+      "english_meaning": "Four",
+      "tamil_meaning": "நான்கு",
+      "malayalam": "चार"
+    },
+    {
+      "digit": "5",
+      "hindi": "पाँच",
+      "english_transliteration": "Paanch",
+      "tamil_transliteration": "பாஞ்ச்",
+      "english_meaning": "Five",
+      "tamil_meaning": "ஐந்து",
+      "malayalam": "पाँच"
+    },
+    {
+      "digit": "6",
+      "hindi": "छह",
+      "english_transliteration": "Chhah",
+      "tamil_transliteration": "சஹா",
+      "english_meaning": "Six",
+      "tamil_meaning": "ஆறு",
+      "malayalam": "छह"
+    },
+    {
+      "digit": "7",
+      "hindi": "सात",
+      "english_transliteration": "Saat",
+      "tamil_transliteration": "சாத்",
+      "english_meaning": "Seven",
+      "tamil_meaning": "ஏழு",
+      "malayalam": "सात"
+    },
+    {
+      "digit": "8",
+      "hindi": "आठ",
+      "english_transliteration": "Aath",
+      "tamil_transliteration": "ஆட்",
+      "english_meaning": "Eight",
+      "tamil_meaning": "எட்டு",
+      "malayalam": "आठ"
+    },
+    {
+      "digit": "9",
+      "hindi": "नौ",
+      "english_transliteration": "Nau",
+      "tamil_transliteration": "நவ்",
+      "english_meaning": "Nine",
+      "tamil_meaning": "ஒன்பது",
+      "malayalam": "नौ"
+    },
+    {
+      "digit": "10",
+      "hindi": "दस",
+      "english_transliteration": "Das",
+      "tamil_transliteration": "தஸ்",
+      "english_meaning": "Ten",
+      "tamil_meaning": "பத்து",
+      "malayalam": "दस"
+    },
+    {
+      "digit": "11",
+      "hindi": "ग्यारह",
+      "english_transliteration": "Gyarah",
+      "tamil_transliteration": "க்யாரஹ்",
+      "english_meaning": "Eleven",
+      "tamil_meaning": "பதினொன்று",
+      "malayalam": "ग्यारह"
+    },
+    {
+      "digit": "12",
+      "hindi": "बारह",
+      "english_transliteration": "Baarah",
+      "tamil_transliteration": "பாரஹ்",
+      "english_meaning": "Twelve",
+      "tamil_meaning": "பன்னிரண்டு",
+      "malayalam": "बारह"
+    },
+    {
+      "digit": "13",
+      "hindi": "तेरह",
+      "english_transliteration": "Terah",
+      "tamil_transliteration": "தேரஹ்",
+      "english_meaning": "Thirteen",
+      "tamil_meaning": "பதிமூன்று",
+      "malayalam": "तेरह"
+    },
+    {
+      "digit": "14",
+      "hindi": "चौदह",
+      "english_transliteration": "Chaudah",
+      "tamil_transliteration": "சவுதஹ்",
+      "english_meaning": "Fourteen",
+      "tamil_meaning": "பதினான்கு",
+      "malayalam": "चौदह"
+    },
+    {
+      "digit": "15",
+      "hindi": "पंद्रह",
+      "english_transliteration": "Pandrah",
+      "tamil_transliteration": "பன்த்ரஹ்",
+      "english_meaning": "Fifteen",
+      "tamil_meaning": "பதினைந்து",
+      "malayalam": "पंद्रह"
+    },
+    {
+      "digit": "16",
+      "hindi": "सोलह",
+      "english_transliteration": "Solah",
+      "tamil_transliteration": "சோலஹ்",
+      "english_meaning": "Sixteen",
+      "tamil_meaning": "பதினாறு",
+      "malayalam": "सोलह"
+    },
+    {
+      "digit": "17",
+      "hindi": "सत्रह",
+      "english_transliteration": "Satrah",
+      "tamil_transliteration": "ஸத்ரஹ்",
+      "english_meaning": "Seventeen",
+      "tamil_meaning": "பதினேழு",
+      "malayalam": "सत्रह"
+    },
+    {
+      "digit": "18",
+      "hindi": "अठारह",
+      "english_transliteration": "Atharah",
+      "tamil_transliteration": "அட்டாரஹ்",
+      "english_meaning": "Eighteen",
+      "tamil_meaning": "பதினெட்டு",
+      "malayalam": "अठारह"
+    },
+    {
+      "digit": "19",
+      "hindi": "उन्नीस",
+      "english_transliteration": "Unnees",
+      "tamil_transliteration": "உன்னீஸ்",
+      "english_meaning": "Nineteen",
+      "tamil_meaning": "பத்தொன்பது",
+      "malayalam": "उन्नीस"
+    },
+    {
+      "digit": "20",
+      "hindi": "बीस",
+      "english_transliteration": "Bees",
+      "tamil_transliteration": "பீஸ்",
+      "english_meaning": "Twenty",
+      "tamil_meaning": "இருபது",
+      "malayalam": "बीस"
+    },
+    {
+      "digit": "21",
+      "hindi": "इक्कीस",
+      "english_transliteration": "Ikkees",
+      "tamil_transliteration": "இக்கீஸ்",
+      "english_meaning": "Twenty-one",
+      "tamil_meaning": "இருபத்தொன்று",
+      "malayalam": "इक्कीस"
+    },
+    {
+      "digit": "22",
+      "hindi": "बाईस",
+      "english_transliteration": "Baees",
+      "tamil_transliteration": "பாஈஸ்",
+      "english_meaning": "Twenty-two",
+      "tamil_meaning": "இருபத்திரண்டு",
+      "malayalam": "बाईस"
+    },
+    {
+      "digit": "23",
+      "hindi": "तेईस",
+      "english_transliteration": "Tees",
+      "tamil_transliteration": "தேஈஸ்",
+      "english_meaning": "Twenty-three",
+      "tamil_meaning": "இருபத்திமூன்று",
+      "malayalam": "तेईस"
+    },
+    {
+      "digit": "24",
+      "hindi": "चौबीस",
+      "english_transliteration": "Chaubees",
+      "tamil_transliteration": "சவுபீஸ்",
+      "english_meaning": "Twenty-four",
+      "tamil_meaning": "இருபத்துநான்கு",
+      "malayalam": "चौबीस"
+    },
+    {
+      "digit": "25",
+      "hindi": "पच्चीस",
+      "english_transliteration": "Pachchees",
+      "tamil_transliteration": "பச்சீஸ்",
+      "english_meaning": "Twenty-five",
+      "tamil_meaning": "இருபத்தைந்து",
+      "malayalam": "पच्चीस"
+    },
+    {
+      "digit": "26",
+      "hindi": "छब्बीस",
+      "english_transliteration": "Chabbees",
+      "tamil_transliteration": "சப்பீஸ்",
+      "english_meaning": "Twenty-six",
+      "tamil_meaning": "இருபத்தாறு",
+      "malayalam": "छब्बीस"
+    },
+    {
+      "digit": "27",
+      "hindi": "सत्ताईस",
+      "english_transliteration": "Sattaaees",
+      "tamil_transliteration": "ஸத்தாஈஸ்",
+      "english_meaning": "Twenty-seven",
+      "tamil_meaning": "இருபத்தேழு",
+      "malayalam": "सत्ताईस"
+    },
+    {
+      "digit": "28",
+      "hindi": "अट्ठाईस",
+      "english_transliteration": "Atthaaees",
+      "tamil_transliteration": "அட்டாஈஸ்",
+      "english_meaning": "Twenty-eight",
+      "tamil_meaning": "இருபத்தெட்டு",
+      "malayalam": "अट्ठाईस"
+    },
+    {
+      "digit": "29",
+      "hindi": "उनतीस",
+      "english_transliteration": "Unatees",
+      "tamil_transliteration": "உனதீஸ்",
+      "english_meaning": "Twenty-nine",
+      "tamil_meaning": "இருபத்தொன்பது",
+      "malayalam": "उनतीस"
+    },
+    {
+      "digit": "30",
+      "hindi": "तीस",
+      "english_transliteration": "Tees",
+      "tamil_transliteration": "தீஸ்",
+      "english_meaning": "Thirty",
+      "tamil_meaning": "முப்பது",
+      "malayalam": "तीस"
+    },
+    {
+      "digit": "40",
+      "hindi": "चालीस",
+      "english_transliteration": "Chaalees",
+      "tamil_transliteration": "சாலீஸ்",
+      "english_meaning": "Forty",
+      "tamil_meaning": "நாற்பது",
+      "malayalam": "चालीस"
+    },
+    {
+      "digit": "50",
+      "hindi": "पचास",
+      "english_transliteration": "Pachaas",
+      "tamil_transliteration": "பசாஸ்",
+      "english_meaning": "Fifty",
+      "tamil_meaning": "ஐம்பது",
+      "malayalam": "पचास"
+    },
+    {
+      "digit": "60",
+      "hindi": "साठ",
+      "english_transliteration": "Saath",
+      "tamil_transliteration": "சாட்",
+      "english_meaning": "Sixty",
+      "tamil_meaning": "அறுபது",
+      "malayalam": "साठ"
+    },
+    {
+      "digit": "70",
+      "hindi": "सत्तर",
+      "english_transliteration": "Sattar",
+      "tamil_transliteration": "ஸத்தர்",
+      "english_meaning": "Seventy",
+      "tamil_meaning": "எழுபது",
+      "malayalam": "सत्तर"
+    },
+    {
+      "digit": "80",
+      "hindi": "अस्सी",
+      "english_transliteration": "Assee",
+      "tamil_transliteration": "அஸ்ஸீ",
+      "english_meaning": "Eighty",
+      "tamil_meaning": "எண்பது",
+      "malayalam": "अस्सी"
+    },
+    {
+      "digit": "90",
+      "hindi": "नब्बे",
+      "english_transliteration": "Nabbe",
+      "tamil_transliteration": "நப்பே",
+      "english_meaning": "Ninety",
+      "tamil_meaning": "தொண்ணூறு",
+      "malayalam": "नब्बे"
+    },
+    {
+      "digit": "100",
+      "hindi": "सौ",
+      "english_transliteration": "Sau",
+      "tamil_transliteration": "சவ்",
+      "english_meaning": "Hundred",
+      "tamil_meaning": "நூறு",
+      "malayalam": "सौ"
+    },
+    {
+      "digit": "200",
+      "hindi": "दो सौ",
+      "english_transliteration": "Do Sau",
+      "tamil_transliteration": "தோ சவ்",
+      "english_meaning": "Two Hundred",
+      "tamil_meaning": "இருநூறு",
+      "malayalam": "दो सौ"
+    },
+    {
+      "digit": "300",
+      "hindi": "तीन सौ",
+      "english_transliteration": "Teen Sau",
+      "tamil_transliteration": "தீன் சவ்",
+      "english_meaning": "Three Hundred",
+      "tamil_meaning": "முன்னூறு",
+      "malayalam": "तीन सौ"
+    },
+    {
+      "digit": "400",
+      "hindi": "चार सौ",
+      "english_transliteration": "Chaar Sau",
+      "tamil_transliteration": "சார் சவ்",
+      "english_meaning": "Four Hundred",
+      "tamil_meaning": "நானூறு",
+      "malayalam": "चार सौ"
+    },
+    {
+      "digit": "500",
+      "hindi": "पाँच सौ",
+      "english_transliteration": "Paanch Sau",
+      "tamil_transliteration": "பாஞ்ச் சவ்",
+      "english_meaning": "Five Hundred",
+      "tamil_meaning": "ஐந்நூறு",
+      "malayalam": "पाँच सौ"
+    },
+    {
+      "digit": "600",
+      "hindi": "छह सौ",
+      "english_transliteration": "Chhah Sau",
+      "tamil_transliteration": "சஹா சவ்",
+      "english_meaning": "Six Hundred",
+      "tamil_meaning": "ஆறுநூறு",
+      "malayalam": "छह सौ"
+    },
+    {
+      "digit": "700",
+      "hindi": "सात सौ",
+      "english_transliteration": "Saat Sau",
+      "tamil_transliteration": "சாத் சவ்",
+      "english_meaning": "Seven Hundred",
+      "tamil_meaning": "ஏழுநூறு",
+      "malayalam": "सात सौ"
+    },
+    {
+      "digit": "800",
+      "hindi": "आठ सौ",
+      "english_transliteration": "Aath Sau",
+      "tamil_transliteration": "ஆட் சவ்",
+      "english_meaning": "Eight Hundred",
+      "tamil_meaning": "எட்டுநூறு",
+      "malayalam": "आठ सौ"
+    },
+    {
+      "digit": "900",
+      "hindi": "नौ सौ",
+      "english_transliteration": "Nau Sau",
+      "tamil_transliteration": "நவ் சவ்",
+      "english_meaning": "Nine Hundred",
+      "tamil_meaning": "தொள்ளாயிரம்",
+      "malayalam": "नौ सौ"
+    },
+    {
+      "digit": "1000",
+      "hindi": "एक हज़ार",
+      "english_transliteration": "Ek Hazaar",
+      "tamil_transliteration": "ஏக் ஹஜார்",
+      "english_meaning": "Thousand",
+      "tamil_meaning": "ஆயிரம்",
+      "malayalam": "एक हज़ार"
+    },
+    {
+      "digit": "10000",
+      "hindi": "दस हज़ार",
+      "english_transliteration": "Das Hazaar",
+      "tamil_transliteration": "தஸ் ஹஜார்",
+      "english_meaning": "Ten Thousand",
+      "tamil_meaning": "பதினாயிரம்",
+      "malayalam": "दस हज़ार"
+    },
+    {
+      "digit": "100000",
+      "hindi": "एक लाख",
+      "english_transliteration": "Ek Laakh",
+      "tamil_transliteration": "ஏக் லாக்",
+      "english_meaning": "One Hundred Thousand / Lakh",
+      "tamil_meaning": "ஒரு லட்சம்",
+      "malayalam": "एक लाख"
+    },
+    {
+      "digit": "10000000",
+      "hindi": "एक करोड़",
+      "english_transliteration": "Ek Karod",
+      "tamil_transliteration": "ஏக் கரோட்",
+      "english_meaning": "Ten Million / Crore",
+      "tamil_meaning": "ஒரு கோடி",
+      "malayalam": "एक करोड़"
+    }
+  ]
+}

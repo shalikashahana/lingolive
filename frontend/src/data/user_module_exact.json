@@ -1,0 +1,138 @@
+{
+  "language": "Malayalam",
+  "code": "ml",
+  "module": "Quiz UI Format (Matching the Screenshot)",
+  "total_questions": 10,
+  "quiz": [
+    {
+      "q_no": 1,
+      "question_en": "What is 'Tree'",
+      "question_ta": "மரம்",
+      "options": [
+        { "text": "മരം", "transliteration": "maram" },
+        { "text": "പൂവ്", "transliteration": "poovu" },
+        { "text": "ഇല", "transliteration": "ela" },
+        { "text": "വേർ", "transliteration": "ver" }
+      ],
+      "correct_answer": "മരം",
+      "english_meaning": "Tree"
+    },
+    {
+      "q_no": 2,
+      "question_en": "What is 'Water'",
+      "question_ta": "தண்ணீர்",
+      "options": [
+        { "text": "പാൽ", "transliteration": "paal" },
+        { "text": "വെള്ളം", "transliteration": "vellam" },
+        { "text": "ചായ", "transliteration": "chaya" },
+        { "text": "മോര്", "transliteration": "mor" }
+      ],
+      "correct_answer": "വെള്ളം",
+      "english_meaning": "Water"
+    },
+    {
+      "q_no": 3,
+      "question_en": "What is 'Book'",
+      "question_ta": "புத்தகம்",
+      "options": [
+        { "text": "പേന", "transliteration": "pena" },
+        { "text": "കாகிതം", "transliteration": "kagitham" },
+        { "text": "പുസ്തകം", "transliteration": "pusthakam" },
+        { "text": "പെട്ടി", "transliteration": "petti" }
+      ],
+      "correct_answer": "പുസ്തകം",
+      "english_meaning": "Book"
+    },
+    {
+      "q_no": 4,
+      "question_en": "What is 'Love'",
+      "question_ta": "அன்பு",
+      "options": [
+        { "text": "സ്നേഹം", "transliteration": "sneham" },
+        { "text": "கோபம்", "transliteration": "kopam" },
+        { "text": "ഭയം", "transliteration": "bhayam" },
+        { "text": "ദുഃഖം", "transliteration": "dukham" }
+      ],
+      "correct_answer": "സ്നേഹം",
+      "english_meaning": "Love"
+    },
+    {
+      "q_no": 5,
+      "question_en": "What is 'Sun'",
+      "question_ta": "சூரியன்",
+      "options": [
+        { "text": "ചന്ദ്രൻ", "transliteration": "chandran" },
+        { "text": "നட்சத்திரം", "transliteration": "nakshathram" },
+        { "text": "സൂര്യൻ", "transliteration": "sooryan" },
+        { "text": "ആകാശം", "transliteration": "aakasham" }
+      ],
+      "correct_answer": "സൂര്യൻ",
+      "english_meaning": "Sun"
+    },
+    {
+      "q_no": 6,
+      "question_en": "What is 'Rain'",
+      "question_ta": "மழை",
+      "options": [
+        { "text": "മഴ", "transliteration": "mazha" },
+        { "text": "വെயில்", "transliteration": "veyil" },
+        { "text": "കാറ്റ്", "transliteration": "kaattu" },
+        { "text": "മഞ്ഞ്", "transliteration": "manju" }
+      ],
+      "correct_answer": "മഴ",
+      "english_meaning": "Rain"
+    },
+    {
+      "q_no": 7,
+      "question_en": "What is 'Time'",
+      "question_ta": "நேரம்",
+      "options": [
+        { "text": "ദിവസം", "transliteration": "divasam" },
+        { "text": "സമയം", "transliteration": "samayam" },
+        { "text": "വർഷം", "transliteration": "varsham" },
+        { "text": "മാസം", "transliteration": "masam" }
+      ],
+      "correct_answer": "സമയം",
+      "english_meaning": "Time"
+    },
+    {
+      "q_no": 8,
+      "question_en": "What is 'Happiness'",
+      "question_ta": "மகிழ்ச்சி",
+      "options": [
+        { "text": "ദുഃഖം", "transliteration": "dukham" },
+        { "text": "கோபம்", "transliteration": "kopam" },
+        { "text": "സന്തോഷം", "transliteration": "santhosham" },
+        { "text": "ഭയം", "transliteration": "bhayam" }
+      ],
+      "correct_answer": "സന്തോഷം",
+      "english_meaning": "Happiness"
+    },
+    {
+      "q_no": 9,
+      "question_en": "What is 'Flower'",
+      "question_ta": "பூ",
+      "options": [
+        { "text": "മരം", "transliteration": "maram" },
+        { "text": "ഇല", "transliteration": "ela" },
+        { "text": "വേർ", "transliteration": "ver" },
+        { "text": "പൂവ്", "transliteration": "poovu" }
+      ],
+      "correct_answer": "പൂവ്",
+      "english_meaning": "Flower"
+    },
+    {
+      "q_no": 10,
+      "question_en": "What is 'Success'",
+      "question_ta": "வெற்றி",
+      "options": [
+        { "text": "വിജയം", "transliteration": "vijayam" },
+        { "text": "തോൽവി", "transliteration": "tholvi" },
+        { "text": "മുயற்സി", "transliteration": "muyarchi" },
+        { "text": "തടസ്സം", "transliteration": "thadassam" }
+      ],
+      "correct_answer": "വിജയം",
+      "english_meaning": "Success"
+    }
+  ]
+}

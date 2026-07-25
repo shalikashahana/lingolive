@@ -1,0 +1,808 @@
+{
+  "language": "Malayalam",
+  "code": "ml",
+  "module": "Quiz - Find the Malayalam Word (English & Tamil Prompt)",
+  "total_questions": 100,
+  "quiz": [
+    {
+      "q_no": 1,
+      "question_en": "What is 'Tree' in Malayalam?",
+      "question_ta": "மரம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "മരം (Maram)", "B": "പൂവ് (Poovu)", "C": "ഇല (Ela)", "D": "വേർ (Ver)" },
+      "correct_option": "A",
+      "english_meaning": "Tree"
+    },
+    {
+      "q_no": 2,
+      "question_en": "What is 'Water' in Malayalam?",
+      "question_ta": "தண்ணீர் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "പാൽ (Paal)", "B": "വെള്ളം (Vellam)", "C": "ചായ (Chaya)", "D": "മോര് (Mor)" },
+      "correct_option": "B",
+      "english_meaning": "Water"
+    },
+    {
+      "q_no": 3,
+      "question_en": "What is 'Book' in Malayalam?",
+      "question_ta": "புத்தகம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "പേന (Pena)", "B": "കாகிതം (Kagitham)", "C": "പുസ്തകം (Pusthakam)", "D": "പെട്ടി (Petti)" },
+      "correct_option": "C",
+      "english_meaning": "Book"
+    },
+    {
+      "q_no": 4,
+      "question_en": "What is 'Love' in Malayalam?",
+      "question_ta": "அன்பு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "സ്നേഹം (Sneham)", "B": "கோപം (Kopam)", "C": "ഭയം (Bhayam)", "D": "ദുഃഖം (Dukham)" },
+      "correct_option": "A",
+      "english_meaning": "Love"
+    },
+    {
+      "q_no": 5,
+      "question_en": "What is 'Sun' in Malayalam?",
+      "question_ta": "சூரியன் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ചന്ദ്രൻ (Chandran)", "B": "നட்சத்திரം (Nakshathram)", "C": "സൂര്യൻ (Sooryan)", "D": "ആകാശം (Aakasham)" },
+      "correct_option": "C",
+      "english_meaning": "Sun"
+    },
+    {
+      "q_no": 6,
+      "question_en": "What is 'Rain' in Malayalam?",
+      "question_ta": "மழை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "മഴ (Mazha)", "B": "വെயில் (Veyil)", "C": "കാറ്റ് (Kaattu)", "D": "മഞ്ഞ് (Manju)" },
+      "correct_option": "A",
+      "english_meaning": "Rain"
+    },
+    {
+      "q_no": 7,
+      "question_en": "What is 'Time' in Malayalam?",
+      "question_ta": "நேரம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ദിവസം (Divasam)", "B": "സമയം (Samayam)", "C": "വർഷം (Varsham)", "D": "മാസം (Masam)" },
+      "correct_option": "B",
+      "english_meaning": "Time"
+    },
+    {
+      "q_no": 8,
+      "question_en": "What is 'Happiness' in Malayalam?",
+      "question_ta": "மகிழ்ச்சி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ദുഃഖം (Dukham)", "B": "கோபம் (Kopam)", "C": "സന്തോഷം (Santhosham)", "D": "ഭയം (Bhayam)" },
+      "correct_option": "C",
+      "english_meaning": "Happiness"
+    },
+    {
+      "q_no": 9,
+      "question_en": "What is 'Flower' in Malayalam?",
+      "question_ta": "பூ என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "മരം (Maram)", "B": "ഇല (Ela)", "C": "വേർ (Ver)", "D": "പൂവ് (Poovu)" },
+      "correct_option": "D",
+      "english_meaning": "Flower"
+    },
+    {
+      "q_no": 10,
+      "question_en": "What is 'Success' in Malayalam?",
+      "question_ta": "வெற்றி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "വിജയം (Vijayam)", "B": "തോൽവി (Tholvi)", "C": "முயற்சி (Muyarchi)", "D": "തടസ്സം (Thadassam)" },
+      "correct_option": "A",
+      "english_meaning": "Success"
+    },
+    {
+      "q_no": 11,
+      "question_en": "What is 'Mother' in Malayalam?",
+      "question_ta": "அம்மா என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "അച്ഛൻ (Achan)", "B": "അമ്മ (Amma)", "C": "സഹോദരി (Sahodari)", "D": "മുത്തശ്ശി (Muthashshi)" },
+      "correct_option": "B",
+      "english_meaning": "Mother"
+    },
+    {
+      "q_no": 12,
+      "question_en": "What is 'Father' in Malayalam?",
+      "question_ta": "அப்பா என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "അമ്മ (Amma)", "B": "അച്ഛൻ (Achan)", "C": "സഹോദരൻ (Sahodaran)", "D": "മുത്തച്ഛൻ (Muthachan)" },
+      "correct_option": "B",
+      "english_meaning": "Father"
+    },
+    {
+      "q_no": 13,
+      "question_en": "What is 'House' in Malayalam?",
+      "question_ta": "வீடு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "സ്കൂൾ (School)", "B": "കട (Kada)", "C": "വീട് (Veedu)", "D": "ആശുപത്രി (Aasupathri)" },
+      "correct_option": "C",
+      "english_meaning": "House"
+    },
+    {
+      "q_no": 14,
+      "question_en": "What is 'Food' in Malayalam?",
+      "question_ta": "உணவு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "വെള്ളം (Vellam)", "B": "ഭക്ഷണം (Bhakshanam)", "C": "പഴം (Pazham)", "D": "പാൽ (Paal)" },
+      "correct_option": "B",
+      "english_meaning": "Food"
+    },
+    {
+      "q_no": 15,
+      "question_en": "What is 'Money' in Malayalam?",
+      "question_ta": "பணம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "പணம் (Panam)", "B": "தங்கம் (Thangam)", "C": "நிலம் (Nilam)", "D": "வீடு (Veedu)" },
+      "correct_option": "A",
+      "english_meaning": "Money"
+    },
+    {
+      "q_no": 16,
+      "question_en": "What is 'Eye' in Malayalam?",
+      "question_ta": "கண் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "காது (Kaathu)", "B": "மூக்கு (Mookku)", "C": "കണ്ണ് (Kannu)", "D": "வாய் (Vaay)" },
+      "correct_option": "C",
+      "english_meaning": "Eye"
+    },
+    {
+      "q_no": 17,
+      "question_en": "What is 'Hand' in Malayalam?",
+      "question_ta": "கை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "കാൽ (Kaal)", "B": "കൈ (Kai)", "C": "തല (Thala)", "D": "விரல் (Viral)" },
+      "correct_option": "B",
+      "english_meaning": "Hand"
+    },
+    {
+      "q_no": 18,
+      "question_en": "What is 'Leg' in Malayalam?",
+      "question_ta": "கால் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கை (Kai)", "B": "കാൽ (Kaal)", "C": "தோள் (Thol)", "D": "முதுகு (Muthuku)" },
+      "correct_option": "B",
+      "english_meaning": "Leg"
+    },
+    {
+      "q_no": 19,
+      "question_en": "What is 'Head' in Malayalam?",
+      "question_ta": "தலை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "முகம் (Mukham)", "B": "തല (Thala)", "C": "കഴുത്ത് (Kazhuthu)", "D": "முடி (Mudi)" },
+      "correct_option": "B",
+      "english_meaning": "Head"
+    },
+    {
+      "q_no": 20,
+      "question_en": "What is 'Cat' in Malayalam?",
+      "question_ta": "பூனை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "നായ (Naya)", "B": "പൂച്ച (Poocha)", "C": "പുലി (Puli)", "D": "സിங்கம் (Singam)" },
+      "correct_option": "B",
+      "english_meaning": "Cat"
+    },
+    {
+      "q_no": 21,
+      "question_en": "What is 'Dog' in Malayalam?",
+      "question_ta": "நாய் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "നായ (Naya)", "B": "பூனை (Poocha)", "C": "பசு (Pashu)", "D": "ஆடு (Aadu)" },
+      "correct_option": "A",
+      "english_meaning": "Dog"
+    },
+    {
+      "q_no": 22,
+      "question_en": "What is 'Cow' in Malayalam?",
+      "question_ta": "பசு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "எருமை (Erumai)", "B": "ஆடு (Aadu)", "C": "പശു (Pashu)", "D": "குதிரை (Kuthirai)" },
+      "correct_option": "C",
+      "english_meaning": "Cow"
+    },
+    {
+      "q_no": 23,
+      "question_en": "What is 'Elephant' in Malayalam?",
+      "question_ta": "யானை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "குதிரை (Kuthirai)", "B": "ആന (Aana)", "C": "ஒட்டகம் (Ottakam)", "D": "കഴുதை (Kazhuthai)" },
+      "correct_option": "B",
+      "english_meaning": "Elephant"
+    },
+    {
+      "q_no": 24,
+      "question_en": "What is 'Bird' in Malayalam?",
+      "question_ta": "பறவை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "விலங்கு (Vilangu)", "B": "പക്ഷി (Pakshi)", "C": "பூச்சி (Poochi)", "D": "மீன் (Meen)" },
+      "correct_option": "B",
+      "english_meaning": "Bird"
+    },
+    {
+      "q_no": 25,
+      "question_en": "What is 'Moon' in Malayalam?",
+      "question_ta": "சந்திரன் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "சூரியன் (Sooryan)", "B": "ചന്ദ്രൻ (Chandran)", "C": "நட்சத்திரம் (Nakshathram)", "D": "மேகம் (Megam)" },
+      "correct_option": "B",
+      "english_meaning": "Moon"
+    },
+    {
+      "q_no": 26,
+      "question_en": "What is 'Sky' in Malayalam?",
+      "question_ta": "வானம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பூமி (Bhoomi)", "B": "ആകാശം (Aakasham)", "C": "கடல் (Kadal)", "D": "மலை (Mala)" },
+      "correct_option": "B",
+      "english_meaning": "Sky"
+    },
+    {
+      "q_no": 27,
+      "question_en": "What is 'Earth' in Malayalam?",
+      "question_ta": "பூமி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வானம் (Vanam)", "B": "ഭൂമി (Bhoomi)", "C": "கிரகம் (Kirakam)", "D": "நிலம் (Nilam)" },
+      "correct_option": "B",
+      "english_meaning": "Earth"
+    },
+    {
+      "q_no": 28,
+      "question_en": "What is 'Fire' in Malayalam?",
+      "question_ta": "நெருப்பு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நீர் (Neer)", "B": "காற்று (Kaatru)", "C": "തീ (Thee)", "D": "மண் (Mannu)" },
+      "correct_option": "C",
+      "english_meaning": "Fire"
+    },
+    {
+      "q_no": 29,
+      "question_en": "What is 'Wind' in Malayalam?",
+      "question_ta": "காற்று என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "കാറ്റ് (Kaattu)", "B": "மழை (Mazha)", "C": "வெயில் (Veyil)", "D": "பனி (Pani)" },
+      "correct_option": "A",
+      "english_meaning": "Wind"
+    },
+    {
+      "q_no": 30,
+      "question_en": "What is 'Milk' in Malayalam?",
+      "question_ta": "பால் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தண்ணீர் (Thanneer)", "B": "പാൽ (Paal)", "C": "மோர் (Mor)", "D": "தயி르 (Thayir)" },
+      "correct_option": "B",
+      "english_meaning": "Milk"
+    },
+    {
+      "q_no": 31,
+      "question_en": "What is 'Tea' in Malayalam?",
+      "question_ta": "தேநீர் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "காபி (Kappi)", "B": "ചായ (Chaya)", "C": "பால் (Paal)", "D": "தண்ணீர் (Thanneer)" },
+      "correct_option": "B",
+      "english_meaning": "Tea"
+    },
+    {
+      "q_no": 32,
+      "question_en": "What is 'Coffee' in Malayalam?",
+      "question_ta": "காபி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தேநீர் (Theneer)", "B": "കാപ്പി (Kappi)", "C": "பால் (Paal)", "D": "ஜூஸ் (Juice)" },
+      "correct_option": "B",
+      "english_meaning": "Coffee"
+    },
+    {
+      "q_no": 33,
+      "question_en": "What is 'Salt' in Malayalam?",
+      "question_ta": "உப்பு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "சர்க்கரை (Sarkarai)", "B": "புளி (Puli)", "C": "ഉപ്പ് (Uppu)", "D": "காரம் (Karam)" },
+      "correct_option": "C",
+      "english_meaning": "Salt"
+    },
+    {
+      "q_no": 34,
+      "question_en": "What is 'Sugar' in Malayalam?",
+      "question_ta": "சர்க்கரை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "உப்பு (Uppu)", "B": "പഞ്ചസാര (Panchasara)", "C": "தேன் (Then)", "D": "வெல்லம் (Vellam)" },
+      "correct_option": "B",
+      "english_meaning": "Sugar"
+    },
+    {
+      "q_no": 35,
+      "question_en": "What is 'Pen' in Malayalam?",
+      "question_ta": "பேனா என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பென்சில் (Pencil)", "B": "പേന (Pena)", "C": "அழிப்பான் (Azhipan)", "D": "புத்தகம் (Pusthakam)" },
+      "correct_option": "B",
+      "english_meaning": "Pen"
+    },
+    {
+      "q_no": 36,
+      "question_en": "What is 'School' in Malayalam?",
+      "question_ta": "பள்ளி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கல்லூரி (Kalluri)", "B": "സ്കൂൾ (School)", "C": "வீடு (Veedu)", "D": "மைதானம் (Maidanam)" },
+      "correct_option": "B",
+      "english_meaning": "School"
+    },
+    {
+      "q_no": 37,
+      "question_en": "What is 'Vehicle' in Malayalam?",
+      "question_ta": "வாகனம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வீடு (Veedu)", "B": "വാഹനം (Vahanam)", "C": "பாதை (Paathai)", "D": "பாலம் (Paalam)" },
+      "correct_option": "B",
+      "english_meaning": "Vehicle"
+    },
+    {
+      "q_no": 38,
+      "question_en": "What is 'Sea' in Malayalam?",
+      "question_ta": "கடல் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ஆறு (Aaru)", "B": "குளம் (Kulam)", "C": "കടൽ (Kadal)", "D": "ஏரி (Eri)" },
+      "correct_option": "C",
+      "english_meaning": "Sea"
+    },
+    {
+      "q_no": 39,
+      "question_en": "What is 'River' in Malayalam?",
+      "question_ta": "ஆறு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கடல் (Kadal)", "B": "നദി (Nadi)", "C": "குளம் (Kulam)", "D": "கிணறு (Kinaru)" },
+      "correct_option": "B",
+      "english_meaning": "River"
+    },
+    {
+      "q_no": 40,
+      "question_en": "What is 'Mountain' in Malayalam?",
+      "question_ta": "மலை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "காடு (Kaadu)", "B": "മല (Mala)", "C": "சமவெளி (Samaveli)", "D": "பள்ளத்தாக்கு (Pallathakku)" },
+      "correct_option": "B",
+      "english_meaning": "Mountain"
+    },
+    {
+      "q_no": 41,
+      "question_en": "What is 'Forest' in Malayalam?",
+      "question_ta": "காடு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "மலை (Mala)", "B": "കാട് (Kaadu)", "C": "வயல் (Vayal)", "D": "தோட்டம் (Thottam)" },
+      "correct_option": "B",
+      "english_meaning": "Forest"
+    },
+    {
+      "q_no": 42,
+      "question_en": "What is 'Good' in Malayalam?",
+      "question_ta": "நல்லது என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கெட்டது (Kettathu)", "B": "നല്ലത് (Nallathu)", "C": "தவறு (Thavaru)", "D": "சரி (Shari)" },
+      "correct_option": "B",
+      "english_meaning": "Good"
+    },
+    {
+      "q_no": 43,
+      "question_en": "What is 'Bad' in Malayalam?",
+      "question_ta": "கெட்டது என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நல்லது (Nallathu)", "B": "ചീത്ത (Cheetha)", "C": "அழகு (Alagu)", "D": "பெரியது (Periyathu)" },
+      "correct_option": "B",
+      "english_meaning": "Bad"
+    },
+    {
+      "q_no": 44,
+      "question_en": "What is 'Correct' in Malayalam?",
+      "question_ta": "சரி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தவறு (Thavaru)", "B": "ശരി (Shari)", "C": "உண்மை (Unmai)", "D": "பொய் (Poi)" },
+      "correct_option": "B",
+      "english_meaning": "Correct"
+    },
+    {
+      "q_no": 45,
+      "question_en": "What is 'Wrong' in Malayalam?",
+      "question_ta": "தவறு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "சரி (Shari)", "B": "തെറ്റ് (Thettu)", "C": "உண்மை (Unmai)", "D": "நன்மை (Nanmai)" },
+      "correct_option": "B",
+      "english_meaning": "Wrong"
+    },
+    {
+      "q_no": 46,
+      "question_en": "What is 'Truth' in Malayalam?",
+      "question_ta": "உண்மை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பொய் (Poi)", "B": "സത്യം (Sathyam)", "C": "ரகசியம் (Rakeshiyam)", "D": "கதை (Katha)" },
+      "correct_option": "B",
+      "english_meaning": "Truth"
+    },
+    {
+      "q_no": 47,
+      "question_en": "What is 'Anger' in Malayalam?",
+      "question_ta": "கோபம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "மகிழ்ச்சி (Maghizhchi)", "B": "കോപം (Kopam)", "C": "அன்பு (Anbu)", "D": "அமைதி (Amaidhi)" },
+      "correct_option": "B",
+      "english_meaning": "Anger"
+    },
+    {
+      "q_no": 48,
+      "question_en": "What is 'Fear' in Malayalam?",
+      "question_ta": "பயம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தைரியம் (Thairiyam)", "B": "ഭയം (Bhayam)", "C": "மகிழ்ச்சி (Maghizhchi)", "D": "ஆச்சரியம் (Aachariyam)" },
+      "correct_option": "B",
+      "english_meaning": "Fear"
+    },
+    {
+      "q_no": 49,
+      "question_en": "What is 'Face' in Malayalam?",
+      "question_ta": "முகம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தலை (Thalai)", "B": "முகம் (Mukham)", "C": "கண் (Kann)", "D": "காது (Kaathu)" },
+      "correct_option": "B",
+      "english_meaning": "Face"
+    },
+    {
+      "q_no": 50,
+      "question_en": "What is 'Blood' in Malayalam?",
+      "question_ta": "ரத்தம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நீர் (Neer)", "B": "രക്തം (Raktham)", "C": "வியர்வை (Viyarvai)", "D": "கண்ணீர் (Kanneer)" },
+      "correct_option": "B",
+      "english_meaning": "Blood"
+    },
+    {
+      "q_no": 51,
+      "question_en": "What is 'Medicine' in Malayalam?",
+      "question_ta": "மருந்து என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "உணவு (Unavu)", "B": "മരുന്ന് (Marunnu)", "C": "விஷம் (Visham)", "D": "தண்ணீர் (Thanneer)" },
+      "correct_option": "B",
+      "english_meaning": "Medicine"
+    },
+    {
+      "q_no": 52,
+      "question_en": "What is 'Color' in Malayalam?",
+      "question_ta": "நிறம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வடிவம் (Vadiwam)", "B": "നിറം (Niram)", "C": "அளவு (Alavu)", "D": "எடை (Edai)" },
+      "correct_option": "B",
+      "english_meaning": "Color"
+    },
+    {
+      "q_no": 53,
+      "question_en": "What is 'White' in Malayalam?",
+      "question_ta": "வெள்ளை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கருப்பு (Karuppu)", "B": "വെളുപ്പ് (Veluppu)", "C": "சிவப்பு (Sivappu)", "D": "நீலம் (Neelam)" },
+      "correct_option": "B",
+      "english_meaning": "White"
+    },
+    {
+      "q_no": 54,
+      "question_en": "What is 'Black' in Malayalam?",
+      "question_ta": "கருப்பு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வெள்ளை (Vellai)", "B": "കറുപ്പ് (Karuppu)", "C": "பச்சை (Pachai)", "D": "மஞ்சள் (Manjal)" },
+      "correct_option": "B",
+      "english_meaning": "Black"
+    },
+    {
+      "q_no": 55,
+      "question_en": "What is 'Red' in Malayalam?",
+      "question_ta": "சிவப்பு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நீலம் (Neelam)", "B": "ചുവപ്പ് (Chuvappu)", "C": "மஞ்சள் (Manjal)", "D": "பச்சை (Pachai)" },
+      "correct_option": "B",
+      "english_meaning": "Red"
+    },
+    {
+      "q_no": 56,
+      "question_en": "What is 'Green' in Malayalam?",
+      "question_ta": "பச்சை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "சிவப்பு (Sivappu)", "B": "പച്ച (Pacha)", "C": "கருப்பு (Karuppu)", "D": "வெள்ளை (Vellai)" },
+      "correct_option": "B",
+      "english_meaning": "Green"
+    },
+    {
+      "q_no": 57,
+      "question_en": "What is 'Yellow' in Malayalam?",
+      "question_ta": "மஞ்சள் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நீலம் (Neelam)", "B": "മഞ്ഞ (Manja)", "C": "சிவப்பு (Sivappu)", "D": "பச்சை (Pachai)" },
+      "correct_option": "B",
+      "english_meaning": "Yellow"
+    },
+    {
+      "q_no": 58,
+      "question_en": "What is 'Blue' in Malayalam?",
+      "question_ta": "நீலம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "നീല (Neela)", "B": "மஞ்சள் (Manjal)", "C": "சிவப்பு (Sivappu)", "D": "வெள்ளை (Vellai)" },
+      "correct_option": "A",
+      "english_meaning": "Blue"
+    },
+    {
+      "q_no": 59,
+      "question_en": "What is 'Price' in Malayalam?",
+      "question_ta": "விலை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "எடை (Edai)", "B": "വില (Vila)", "C": "அளவு (Alavu)", "D": "தூரம் (Thooram)" },
+      "correct_option": "B",
+      "english_meaning": "Price"
+    },
+    {
+      "q_no": 60,
+      "question_en": "What is 'Question' in Malayalam?",
+      "question_ta": "கேள்வி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பதில் (Pathil)", "B": "ചോദ്യം (Chodyam)", "C": "கதை (Katha)", "D": "கவிதை (Kavithai)" },
+      "correct_option": "B",
+      "english_meaning": "Question"
+    },
+    {
+      "q_no": 61,
+      "question_en": "What is 'Answer' in Malayalam?",
+      "question_ta": "பதில் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கேள்வி (Kezhvi)", "B": "ഉത്തരം (Utharam)", "C": "எழுது (Ezhuthu)", "D": "படி (Padi)" },
+      "correct_option": "B",
+      "english_meaning": "Answer"
+    },
+    {
+      "q_no": 62,
+      "question_en": "What is 'Story' in Malayalam?",
+      "question_ta": "கதை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பாட்டு (Paattu)", "B": "കഥ (Katha)", "C": "நாடகம் (Nadakam)", "D": "படம் (Padam)" },
+      "correct_option": "B",
+      "english_meaning": "Story"
+    },
+    {
+      "q_no": 63,
+      "question_en": "What is 'Song' in Malayalam?",
+      "question_ta": "பாட்டு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இசை (Isai)", "B": "പാട്ട് (Paattu)", "C": "நடனம் (Nadanam)", "D": "நாடகம் (Nadakam)" },
+      "correct_option": "B",
+      "english_meaning": "Song"
+    },
+    {
+      "q_no": 64,
+      "question_en": "What is 'Picture' in Malayalam?",
+      "question_ta": "படம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "எழுதுத்து (Ezhuthu)", "B": "ചിത്രം (Chithram)", "C": "புத்தகம் (Pusthakam)", "D": "பேனா (Pena)" },
+      "correct_option": "B",
+      "english_meaning": "Picture"
+    },
+    {
+      "q_no": 65,
+      "question_en": "What is 'Game' in Malayalam?",
+      "question_ta": "விளையாட்டு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "படிப்பு (Padippu)", "B": "കളി (Kali)", "C": "வேலை (Velai)", "D": "உறக்கம் (Urakkam)" },
+      "correct_option": "B",
+      "english_meaning": "Game"
+    },
+    {
+      "q_no": 66,
+      "question_en": "What is 'Defeat' in Malayalam?",
+      "question_ta": "தோல்வி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வெற்றி (Vetri)", "B": "തോൽവി (Tholvi)", "C": "முயற்சி (Muyarchi)", "D": "முடிவு (Mudivu)" },
+      "correct_option": "B",
+      "english_meaning": "Defeat"
+    },
+    {
+      "q_no": 67,
+      "question_en": "What is 'Mango' in Malayalam?",
+      "question_ta": "மாம்பழம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வாழைப்பழம் (Vazhapazham)", "B": "മാങ്ങ (Manganga)", "C": "ஆப்பிள் (Apple)", "D": "ஆரஞ்சு (Orange)" },
+      "correct_option": "B",
+      "english_meaning": "Mango"
+    },
+    {
+      "q_no": 68,
+      "question_en": "What is 'Egg' in Malayalam?",
+      "question_ta": "முட்டை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பால் (Paal)", "B": "മുട്ട (Mutta)", "C": "இறைச்சி (Iraichi)", "D": "மீன் (Meen)" },
+      "correct_option": "B",
+      "english_meaning": "Egg"
+    },
+    {
+      "q_no": 69,
+      "question_en": "What is 'Fish' in Malayalam?",
+      "question_ta": "மீன் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இறைச்சி (Iraichi)", "B": "മീൻ (Meen)", "C": "முட்டை (Mutta)", "D": "காய்கறி (Kaykari)" },
+      "correct_option": "B",
+      "english_meaning": "Fish"
+    },
+    {
+      "q_no": 70,
+      "question_en": "What is 'East' in Malayalam?",
+      "question_ta": "கிழக்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "மேற்கு (Merku)", "B": "കിഴക്ക് (Kizhakku)", "C": "வடക്ക് (Vadakku)", "D": "தெക്ക് (Thekku)" },
+      "correct_option": "B",
+      "english_meaning": "East"
+    },
+    {
+      "q_no": 71,
+      "question_en": "What is 'West' in Malayalam?",
+      "question_ta": "மேற்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கிழக்கு (Kizhakku)", "B": "പടിഞ്ഞാറ് (Pazhinjaru)", "C": "வடക്ക് (Vadakku)", "D": "தெക്ക് (Thekku)" },
+      "correct_option": "B",
+      "english_meaning": "West"
+    },
+    {
+      "q_no": 72,
+      "question_en": "What is 'North' in Malayalam?",
+      "question_ta": "வடக்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "தெற்கு (Thekku)", "B": "വടക്ക് (Vadakku)", "C": "கிழக்கு (Kizhakku)", "D": "மேற்கு (Merku)" },
+      "correct_option": "B",
+      "english_meaning": "North"
+    },
+    {
+      "q_no": 73,
+      "question_en": "What is 'South' in Malayalam?",
+      "question_ta": "தெற்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வடக்கு (Vadakku)", "B": "തെക്ക് (Thekku)", "C": "கிழக்கு (Kizhakku)", "D": "மேற்கு (Merku)" },
+      "correct_option": "B",
+      "english_meaning": "South"
+    },
+    {
+      "q_no": 74,
+      "question_en": "What is 'Today' in Malayalam?",
+      "question_ta": "இன்று என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நேற்று (Netru)", "B": "ഇന്ന് (Innu)", "C": "நாளை (Naalai)", "D": "மறுநாள் (Marunaal)" },
+      "correct_option": "B",
+      "english_meaning": "Today"
+    },
+    {
+      "q_no": 75,
+      "question_en": "What is 'Tomorrow' in Malayalam?",
+      "question_ta": "நாளை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இன்று (Inru)", "B": "നാളെ (Naale)", "C": "நேற்று (Netru)", "D": "மறுநாள் (Marunaal)" },
+      "correct_option": "B",
+      "english_meaning": "Tomorrow"
+    },
+    {
+      "q_no": 76,
+      "question_en": "What is 'Yesterday' in Malayalam?",
+      "question_ta": "நேற்று என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இன்று (Inru)", "B": "ഇന്നലെ (Innale)", "C": "நாளை (Naalai)", "D": "முன்னாள் (Munnaal)" },
+      "correct_option": "B",
+      "english_meaning": "Yesterday"
+    },
+    {
+      "q_no": 77,
+      "question_en": "What is 'Here' in Malayalam?",
+      "question_ta": "இங்கே என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "அங்கே (Ange)", "B": "ഇവിടെ (Ivide)", "C": "எங்கே (Enge)", "D": "எங்கும் (Engum)" },
+      "correct_option": "B",
+      "english_meaning": "Here"
+    },
+    {
+      "q_no": 78,
+      "question_en": "What is 'There' in Malayalam?",
+      "question_ta": "அங்கே என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இங்கே (Inge)", "B": "അവിടെ (Avide)", "C": "எங்கே (Enge)", "D": "எங்கும் (Engum)" },
+      "correct_option": "B",
+      "english_meaning": "There"
+    },
+    {
+      "q_no": 79,
+      "question_en": "What is 'Where' in Malayalam?",
+      "question_ta": "எங்கே என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இங்கே (Inge)", "B": "அங்கே (Ange)", "C": "എവിടെ (Evide)", "D": "எப்போது (Eppothu)" },
+      "correct_option": "C",
+      "english_meaning": "Where"
+    },
+    {
+      "q_no": 80,
+      "question_en": "What is 'Who' in Malayalam?",
+      "question_ta": "யார் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "என்ன (Enna)", "B": "ആര് (Aaru)", "C": "எது (Ethu)", "D": "எப்படி (Eppadi)" },
+      "correct_option": "B",
+      "english_meaning": "Who"
+    },
+    {
+      "q_no": 81,
+      "question_en": "What is 'What' in Malayalam?",
+      "question_ta": "என்ன என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "யார் (Yaar)", "B": "எന്ത് (Enthu)", "C": "எங்கே (Enge)", "D": "ஏன் (Aen)" },
+      "correct_option": "B",
+      "english_meaning": "What"
+    },
+    {
+      "q_no": 82,
+      "question_en": "What is 'How' in Malayalam?",
+      "question_ta": "எப்படி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "எങ്ങനെ (Engane)", "B": "எங்கே (Enge)", "C": "என்ன (Enna)", "D": "ஏன் (Aen)" },
+      "correct_option": "A",
+      "english_meaning": "How"
+    },
+    {
+      "q_no": 83,
+      "question_en": "What is 'New' in Malayalam?",
+      "question_ta": "புதிய என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பழைய (Pazhaya)", "B": "പുതിയ (Puthiya)", "C": "பெரிய (Periya)", "D": "சிறிய (Siriya)" },
+      "correct_option": "B",
+      "english_meaning": "New"
+    },
+    {
+      "q_no": 84,
+      "question_en": "What is 'Old' in Malayalam?",
+      "question_ta": "பழைய என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "புதிய (Puthiya)", "B": "പഴയ (Pazhaya)", "C": "நல்ல (Nalla)", "D": "கெட்ட (Ketta)" },
+      "correct_option": "B",
+      "english_meaning": "Old"
+    },
+    {
+      "q_no": 85,
+      "question_en": "What is 'Light' in Malayalam?",
+      "question_ta": "வெளிச்சம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "இருட்டு (Iruttu)", "B": "വെളിച്ചം (Velicham)", "C": "நிழல் (Nizhal)", "D": "ஒளி (Oli)" },
+      "correct_option": "B",
+      "english_meaning": "Light"
+    },
+    {
+      "q_no": 86,
+      "question_en": "What is 'Darkness' in Malayalam?",
+      "question_ta": "இருட்டு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "வெளிச்சம் (Velicham)", "B": "இருട്ട് (Iruttu)", "C": "சூரியன் (Sooryan)", "D": "சந்திரன் (Chandran)" },
+      "correct_option": "B",
+      "english_meaning": "Darkness"
+    },
+    {
+      "q_no": 87,
+      "question_en": "What is 'Woman' in Malayalam?",
+      "question_ta": "பெண் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ஆண் (Aan)", "B": "സ്ത്രീ (Stree)", "C": "குழந்தை (Kuzhandhai)", "D": "முதியவர் (Muthiyavar)" },
+      "correct_option": "B",
+      "english_meaning": "Woman"
+    },
+    {
+      "q_no": 88,
+      "question_en": "What is 'Man' in Malayalam?",
+      "question_ta": "ஆண் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பெண் (Penn)", "B": "പുരുഷൻ (Purushan)", "C": "குழந்தை (Kuzhandhai)", "D": "நண்பன் (Nanban)" },
+      "correct_option": "B",
+      "english_meaning": "Man"
+    },
+    {
+      "q_no": 89,
+      "question_en": "What is 'Country' in Malayalam?",
+      "question_ta": "நாடு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "ஊர் (Oor)", "B": "രാജ്യം (Rajyam)", "C": "உலகம் (Ulagam)", "D": "வீடு (Veedu)" },
+      "correct_option": "B",
+      "english_meaning": "Country"
+    },
+    {
+      "q_no": 90,
+      "question_en": "What is 'World' in Malayalam?",
+      "question_ta": "உலகம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நாடு (Naadu)", "B": "ലോകം (Lokam)", "C": "பூமி (Bhoomi)", "D": "வானம் (Vanam)" },
+      "correct_option": "B",
+      "english_meaning": "World"
+    },
+    {
+      "q_no": 91,
+      "question_en": "What is 'Language' in Malayalam?",
+      "question_ta": "மொழி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "எழுத்து (Ezhuthu)", "B": "ഭാഷ (Bhasha)", "C": "பேச்சு (Pechu)", "D": "வார்த்தை (Vaarthai)" },
+      "correct_option": "B",
+      "english_meaning": "Language"
+    },
+    {
+      "q_no": 92,
+      "question_en": "What is 'Word' in Malayalam?",
+      "question_ta": "வார்த்தை என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "വാക്ക് (Vaakku)", "B": "வாக்கியம் (Vaakkiyam)", "C": "மொழி (Mozhi)", "D": "எழுத்து (Ezhuthu)" },
+      "correct_option": "A",
+      "english_meaning": "Word"
+    },
+    {
+      "q_no": 93,
+      "question_en": "What is 'Ear' in Malayalam?",
+      "question_ta": "காது என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கண் (Kann)", "B": "ചെവി (Chevi)", "C": "மூக்கு (Mookku)", "D": "வாய் (Vaay)" },
+      "correct_option": "B",
+      "english_meaning": "Ear"
+    },
+    {
+      "q_no": 94,
+      "question_en": "What is 'Nose' in Malayalam?",
+      "question_ta": "மூக்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "காது (Kaathu)", "B": "മൂക്ക് (Mookku)", "C": "வாய் (Vaay)", "D": "கண் (Kann)" },
+      "correct_option": "B",
+      "english_meaning": "Nose"
+    },
+    {
+      "q_no": 95,
+      "question_en": "What is 'Tongue' in Malayalam?",
+      "question_ta": "நாக்கு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பல் (Pal)", "B": "നാവ് (Naavu)", "C": "உதடு (Udhadu)", "D": "தொண்டை (Thondai)" },
+      "correct_option": "B",
+      "english_meaning": "Tongue"
+    },
+    {
+      "q_no": 96,
+      "question_en": "What is 'Tooth' in Malayalam?",
+      "question_ta": "பல் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நாக்கு (Naakku)", "B": "പല്ല് (Pallu)", "C": "உதடு (Udhadu)", "D": "வாய் (Vaay)" },
+      "correct_option": "B",
+      "english_meaning": "Tooth"
+    },
+    {
+      "q_no": 97,
+      "question_en": "What is 'Door' in Malayalam?",
+      "question_ta": "கதவு என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "சன்னல் (Sannal)", "B": "വാതിൽ (Vathil)", "C": "சுവർ (Suvar)", "D": "தரை (Tharai)" },
+      "correct_option": "B",
+      "english_meaning": "Door"
+    },
+    {
+      "q_no": 98,
+      "question_en": "What is 'Window' in Malayalam?",
+      "question_ta": "சன்னல் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "கதவு (Kathavu)", "B": "ജനൽ (Janal)", "C": "கூரை (Koorai)", "D": "சுവർ (Suvar)" },
+      "correct_option": "B",
+      "english_meaning": "Window"
+    },
+    {
+      "q_no": 99,
+      "question_en": "What is 'Key' in Malayalam?",
+      "question_ta": "சாவி என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "பூட்டு (Poottu)", "B": "താക്കോൽ (Thakkol)", "C": "கதவு (Kathavu)", "D": "பெட்டி (Petti)" },
+      "correct_option": "B",
+      "english_meaning": "Key"
+    },
+    {
+      "q_no": 100,
+      "question_en": "What is 'Health' in Malayalam?",
+      "question_ta": "உடல்நலம் என்பதன் மலையாளச் சொல் என்ன?",
+      "options": { "A": "நோய் (Noi)", "B": "ആരോഗ്യം (Aarogyam)", "C": "சோர்வு (Shorvu)", "D": "மருத்துவம் (Maruthuvam)" },
+      "correct_option": "B",
+      "english_meaning": "Health"
+    }
+  ]
+}

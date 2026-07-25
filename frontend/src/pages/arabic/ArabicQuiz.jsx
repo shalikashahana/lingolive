@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { teluguQuizData } from "../../data/teluguQuizData";
+import arabicQuizData from "../../data/arabicQuizData.json";
 import {
   Zap,
   CheckCircle2,
@@ -14,7 +14,7 @@ import {
   Lock
 } from "lucide-react";
 
-export default function TeluguQuiz({ onExit }) {
+export default function ArabicQuiz({ onExit }) {
   const navigate = useNavigate();
   
   const handleExit = () => {
@@ -33,7 +33,7 @@ export default function TeluguQuiz({ onExit }) {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    const savedLevel = localStorage.getItem("telugu_quiz_unlocked_level");
+    const savedLevel = localStorage.getItem("arabic_quiz_unlocked_level");
     if (savedLevel) {
       setUnlockedLevel(parseInt(savedLevel, 10));
     }
@@ -43,7 +43,7 @@ export default function TeluguQuiz({ onExit }) {
     setActiveLevel(levelNum);
     // Grab the 10 questions for this level
     const startIndex = (levelNum - 1) * 10;
-    const levelQuestions = teluguQuizData.slice(startIndex, startIndex + 10);
+    const levelQuestions = flatQuizData.slice(startIndex, startIndex + 10);
     // Shuffle them so they aren't in the same order every time
     const shuffled = [...levelQuestions].sort(() => 0.5 - Math.random());
     setQuestions(shuffled);
@@ -58,7 +58,8 @@ export default function TeluguQuiz({ onExit }) {
   const currentQ = questions[currentIndex];
   const isAnswered = currentQ ? answersSubmitted[currentQ.id] !== undefined : false;
 
-  const handleMCQSubmit = (idx, isCorrect) => {
+  const playAudio = (text) => { if (!window.speechSynthesis) return; window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(text); u.lang = "ar-SA"; u.rate = 0.8; window.speechSynthesis.speak(u); };
+  const handleMCQSubmit = (idx, isCorrect, text) => { playAudio(text);
     if (isAnswered) return;
     setSelectedOption(idx);
     setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
@@ -78,22 +79,23 @@ export default function TeluguQuiz({ onExit }) {
       const scorePercentage = Math.round((scoreCount / questions.length) * 100);
       const passed = true; // Always unlock next level upon finishing
       
-      const totalLevels = Math.ceil(teluguQuizData.length / 10);
+      const flatQuizData = arabicQuizData.modules.flatMap(m => m.quiz);
+  const totalLevels = Math.ceil(flatQuizData.length / 10);
       try {
         // Unlock next level if passed and it's the current max
         if (passed && activeLevel === unlockedLevel && activeLevel < totalLevels) {
           const newUnlocked = activeLevel + 1;
           setUnlockedLevel(newUnlocked);
-          localStorage.setItem("telugu_quiz_unlocked_level", newUnlocked.toString());
+          localStorage.setItem("arabic_quiz_unlocked_level", newUnlocked.toString());
         }
 
-        const savedStats = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
+        const savedStats = JSON.parse(localStorage.getItem("arabic_stats") || '{"streak":0,"xp":0}');
         const xpGain = passed ? 50 : 10;
         const newStats = {
           streak: savedStats.streak === 0 ? 1 : savedStats.streak,
           xp: savedStats.xp + xpGain
         };
-        localStorage.setItem("telugu_stats", JSON.stringify(newStats));
+        localStorage.setItem("arabic_stats", JSON.stringify(newStats));
       } catch(e) {
         console.error(e);
       }
@@ -105,7 +107,8 @@ export default function TeluguQuiz({ onExit }) {
 
   const [activeModule, setActiveModule] = useState(null);
 
-  const totalLevels = Math.ceil(teluguQuizData.length / 10);
+  const flatQuizData = arabicQuizData.modules.flatMap(m => m.quiz);
+  const totalLevels = Math.ceil(flatQuizData.length / 10);
   const levelsPerModule = 40;
   const totalModules = Math.ceil(totalLevels / levelsPerModule);
 

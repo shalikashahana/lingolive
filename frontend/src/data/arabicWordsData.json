@@ -1,0 +1,3877 @@
+{
+  "words": [
+    {
+      "arabic": "مرحبا / تحياتي",
+      "english_transliteration": "Mrhb / thyty",
+      "tamil_transliteration": "ம்ர்ஹ்ப் / த்ய்த்ய்",
+      "tamil_meaning": "வணக்கம்",
+      "english_meaning": "Hello / Greetings",
+      "malayalam": "നമസ്കാരം"
+    },
+    {
+      "arabic": "شكرًا لك",
+      "english_transliteration": "Shkran lk",
+      "tamil_transliteration": "ஷ்க்ரந் ல்க்",
+      "tamil_meaning": "நன்றி",
+      "english_meaning": "Thank you",
+      "malayalam": "ധന്യവാദങ്ങൾ"
+    },
+    {
+      "arabic": "مرحباً",
+      "english_transliteration": "Mrhban",
+      "tamil_transliteration": "ம்ர்ஹ்பந்",
+      "tamil_meaning": "வரவேற்பு",
+      "english_meaning": "Welcome",
+      "malayalam": "സ്ഗതം"
+    },
+    {
+      "arabic": "صباح الخير",
+      "english_transliteration": "Sbh lkhyr",
+      "tamil_transliteration": "ஷ்ப் ல்க்ய்ர்",
+      "tamil_meaning": "காலை வணக்கம்",
+      "english_meaning": "Good morning",
+      "malayalam": "സുപ്രഭാതം"
+    },
+    {
+      "arabic": "طاب مساؤك",
+      "english_transliteration": "Tb msw'k",
+      "tamil_transliteration": "ட்ப் ம்ஸ்வ்'க்",
+      "tamil_meaning": "শুভ இரவு / இனிய இரவு",
+      "english_meaning": "Good night",
+      "malayalam": "ശുഭരാത്രി"
+    },
+    {
+      "arabic": "ماء",
+      "english_transliteration": "M",
+      "tamil_transliteration": "ம்",
+      "tamil_meaning": "தண்ணீர்",
+      "english_meaning": "Water",
+      "malayalam": "വെള്ളം"
+    },
+    {
+      "arabic": "طعام",
+      "english_transliteration": "T`m",
+      "tamil_transliteration": "ட்`ம்",
+      "tamil_meaning": "உணவு",
+      "english_meaning": "Food",
+      "malayalam": "ഭക്ഷണം"
+    },
+    {
+      "arabic": "البيت / المنزل",
+      "english_transliteration": "Lbyt / lmnzl",
+      "tamil_transliteration": "ள்ப்ய்த் / ல்ம்ந்ஃஜ்ல்",
+      "tamil_meaning": "வீடு",
+      "english_meaning": "House / Home",
+      "malayalam": "വീട്"
+    },
+    {
+      "arabic": "الأم",
+      "english_transliteration": "L'm",
+      "tamil_transliteration": "ள்'ம்",
+      "tamil_meaning": "அம்மா",
+      "english_meaning": "Mother",
+      "malayalam": "അമ്മ"
+    },
+    {
+      "arabic": "أب",
+      "english_transliteration": "'b",
+      "tamil_transliteration": "'ப்",
+      "tamil_meaning": "அப்பா",
+      "english_meaning": "Father",
+      "malayalam": "അച്ഛൻ"
+    },
+    {
+      "arabic": "أخ",
+      "english_transliteration": "'kh",
+      "tamil_transliteration": "'க்",
+      "tamil_meaning": "சகோதரன்",
+      "english_meaning": "Brother",
+      "malayalam": "സഹോദരൻ"
+    },
+    {
+      "arabic": "أخت",
+      "english_transliteration": "'kht",
+      "tamil_transliteration": "'க்த்",
+      "tamil_meaning": "சகோதரி",
+      "english_meaning": "Sister",
+      "malayalam": "സഹോദരി"
+    },
+    {
+      "arabic": "صديق",
+      "english_transliteration": "Sdyq",
+      "tamil_transliteration": "ஷ்த்ய்ஃ'க்",
+      "tamil_meaning": "நண்பன்",
+      "english_meaning": "Friend",
+      "malayalam": "സുഹൃത്ത്"
+    },
+    {
+      "arabic": "مال",
+      "english_transliteration": "Ml",
+      "tamil_transliteration": "ம்ல்",
+      "tamil_meaning": "பணம்",
+      "english_meaning": "Money",
+      "malayalam": "പണം"
+    },
+    {
+      "arabic": "وقت",
+      "english_transliteration": "Wqt",
+      "tamil_transliteration": "Wஃ'க்த்",
+      "tamil_meaning": "நேரம்",
+      "english_meaning": "Time",
+      "malayalam": "സമയം"
+    },
+    {
+      "arabic": "يوم",
+      "english_transliteration": "Ywm",
+      "tamil_transliteration": "ஃய்வ்ம்",
+      "tamil_meaning": "நாள்",
+      "english_meaning": "Day",
+      "malayalam": "ദിനം"
+    },
+    {
+      "arabic": "ليلة",
+      "english_transliteration": "Lyl@",
+      "tamil_transliteration": "ள்ய்ல்@",
+      "tamil_meaning": "இரவு",
+      "english_meaning": "Night",
+      "malayalam": "രാത്രി"
+    },
+    {
+      "arabic": "خلال النهار",
+      "english_transliteration": "Khll lnhr",
+      "tamil_transliteration": "ஃக²்ஹ்ல்ல் ல்ந்ஹ்ர்",
+      "tamil_meaning": "பகல்",
+      "english_meaning": "Daytime",
+      "malayalam": "പകൽ"
+    },
+    {
+      "arabic": "شمس",
+      "english_transliteration": "Shms",
+      "tamil_transliteration": "ஷ்ம்ஸ்",
+      "tamil_meaning": "சூரியன்",
+      "english_meaning": "Sun",
+      "malayalam": "സൂര്യൻ"
+    },
+    {
+      "arabic": "قمر",
+      "english_transliteration": "Qmr",
+      "tamil_transliteration": "Qம்ர்",
+      "tamil_meaning": "சந்திரன்",
+      "english_meaning": "Moon",
+      "malayalam": "ചന്ദ്രൻ"
+    },
+    {
+      "arabic": "سماء",
+      "english_transliteration": "Sm",
+      "tamil_transliteration": "ஷ்ம்",
+      "tamil_meaning": "வானம்",
+      "english_meaning": "Sky",
+      "malayalam": "ആകാശം"
+    },
+    {
+      "arabic": "أرض",
+      "english_transliteration": "'rd",
+      "tamil_transliteration": "'ர்த்",
+      "tamil_meaning": "பூமி",
+      "english_meaning": "Earth",
+      "malayalam": "ഭൂമി"
+    },
+    {
+      "arabic": "مطر",
+      "english_transliteration": "Mtr",
+      "tamil_transliteration": "ம்த்ர்",
+      "tamil_meaning": "மழை",
+      "english_meaning": "Rain",
+      "malayalam": "മഴ"
+    },
+    {
+      "arabic": "رياح",
+      "english_transliteration": "Ryh",
+      "tamil_transliteration": "ற்ய்ஹ்",
+      "tamil_meaning": "காற்று",
+      "english_meaning": "Wind",
+      "malayalam": "കാറ്റ്"
+    },
+    {
+      "arabic": "نار",
+      "english_transliteration": "Nr",
+      "tamil_transliteration": "ண்ர்",
+      "tamil_meaning": "நெருப்பு",
+      "english_meaning": "Fire",
+      "malayalam": "തീ"
+    },
+    {
+      "arabic": "ورد",
+      "english_transliteration": "Wrd",
+      "tamil_transliteration": "Wர்த்",
+      "tamil_meaning": "பூ",
+      "english_meaning": "Flower",
+      "malayalam": "പൂവ്"
+    },
+    {
+      "arabic": "شجرة",
+      "english_transliteration": "Shjr@",
+      "tamil_transliteration": "ஷ்ஜ்ர்@",
+      "tamil_meaning": "மரம்",
+      "english_meaning": "Tree",
+      "malayalam": "മരം"
+    },
+    {
+      "arabic": "الفاكهة",
+      "english_transliteration": "Lfkh@",
+      "tamil_transliteration": "ள்ஃப்க்@",
+      "tamil_meaning": "பழம்",
+      "english_meaning": "Fruit",
+      "malayalam": "പഴം"
+    },
+    {
+      "arabic": "لبن",
+      "english_transliteration": "Lbn",
+      "tamil_transliteration": "ள்ப்ந்",
+      "tamil_meaning": "பால்",
+      "english_meaning": "Milk",
+      "malayalam": "പാൽ"
+    },
+    {
+      "arabic": "شاي",
+      "english_transliteration": "Shy",
+      "tamil_transliteration": "ஷ்ய்",
+      "tamil_meaning": "தேநீர் (டீ)",
+      "english_meaning": "Tea",
+      "malayalam": "ചായ"
+    },
+    {
+      "arabic": "قهوة",
+      "english_transliteration": "Qhw@",
+      "tamil_transliteration": "Qஹ்வ்@",
+      "tamil_meaning": "காபி",
+      "english_meaning": "Coffee",
+      "malayalam": "കാപ്പി"
+    },
+    {
+      "arabic": "سكر",
+      "english_transliteration": "Skr",
+      "tamil_transliteration": "ஷ்க்ர்",
+      "tamil_meaning": "சர்க்கரை",
+      "english_meaning": "Sugar",
+      "malayalam": "പഞ്ചസാര"
+    },
+    {
+      "arabic": "ملح",
+      "english_transliteration": "Mlh",
+      "tamil_transliteration": "ம்ல்ஹ்",
+      "tamil_meaning": "உப்பு",
+      "english_meaning": "Salt",
+      "malayalam": "ഉപ്പ്"
+    },
+    {
+      "arabic": "كتاب",
+      "english_transliteration": "Ktb",
+      "tamil_transliteration": "ஃக²்த்ப்",
+      "tamil_meaning": "புத்தகம்",
+      "english_meaning": "Book",
+      "malayalam": "പുസ്തകം"
+    },
+    {
+      "arabic": "قلم",
+      "english_transliteration": "Qlm",
+      "tamil_transliteration": "Qல்ம்",
+      "tamil_meaning": "பேனா",
+      "english_meaning": "Pen",
+      "malayalam": "പേന"
+    },
+    {
+      "arabic": "ورق",
+      "english_transliteration": "Wrq",
+      "tamil_transliteration": "Wர்ஃ'க்",
+      "tamil_meaning": "காகிதம்",
+      "english_meaning": "Paper",
+      "malayalam": "കടലാസ്"
+    },
+    {
+      "arabic": "يذاكر",
+      "english_transliteration": "Ydhkr",
+      "tamil_transliteration": "ஃய்த்க்ர்",
+      "tamil_meaning": "படிப்பு",
+      "english_meaning": "Study",
+      "malayalam": "പഠനം"
+    },
+    {
+      "arabic": "مدرسة",
+      "english_transliteration": "Mdrs@",
+      "tamil_transliteration": "ம்த்ர்ஸ்@",
+      "tamil_meaning": "பள்ளி",
+      "english_meaning": "School",
+      "malayalam": "സ്കൂൾ"
+    },
+    {
+      "arabic": "مدرس",
+      "english_transliteration": "Mdrs",
+      "tamil_transliteration": "ம்த்ர்ஸ்",
+      "tamil_meaning": "ஆசிரியர்",
+      "english_meaning": "Teacher",
+      "malayalam": "അധ്യാപകൻ"
+    },
+    {
+      "arabic": "طالب",
+      "english_transliteration": "Tlb",
+      "tamil_transliteration": "ட்ல்ப்",
+      "tamil_meaning": "மாணவர்",
+      "english_meaning": "Student",
+      "malayalam": "വിദ്യാർത്ഥി"
+    },
+    {
+      "arabic": "الطريق / المسار",
+      "english_transliteration": "Ltryq / lmsr",
+      "tamil_transliteration": "ள்த்ர்ய்ஃ'க் / ல்ம்ஸ்ர்",
+      "tamil_meaning": "வழி",
+      "english_meaning": "Way / Path",
+      "malayalam": "വഴി"
+    },
+    {
+      "arabic": "عربة",
+      "english_transliteration": "`rb@",
+      "tamil_transliteration": "`ர்ப்@",
+      "tamil_meaning": "வாகனம்",
+      "english_meaning": "Vehicle",
+      "malayalam": "വാഹനം"
+    },
+    {
+      "arabic": "سيارة",
+      "english_transliteration": "Syr@",
+      "tamil_transliteration": "ஷ்ய்ர்@",
+      "tamil_meaning": "கார்",
+      "english_meaning": "Car",
+      "malayalam": "കാർ"
+    },
+    {
+      "arabic": "حافلة",
+      "english_transliteration": "Hfl@",
+      "tamil_transliteration": "ஃஃப்ல்@",
+      "tamil_meaning": "பேருந்து",
+      "english_meaning": "Bus",
+      "malayalam": "ബസ്"
+    },
+    {
+      "arabic": "يدرب",
+      "english_transliteration": "Ydrb",
+      "tamil_transliteration": "ஃய்த்ர்ப்",
+      "tamil_meaning": "ரெயில்",
+      "english_meaning": "Train",
+      "malayalam": "തീവണ്ടി"
+    },
+    {
+      "arabic": "طائرة",
+      "english_transliteration": "Ty'r@",
+      "tamil_transliteration": "ட்ய்'ர்@",
+      "tamil_meaning": "விமானம்",
+      "english_meaning": "Airplane",
+      "malayalam": "വിമാനം"
+    },
+    {
+      "arabic": "سفينة",
+      "english_transliteration": "Sfyn@",
+      "tamil_transliteration": "ஷ்ஃப்ய்ந்@",
+      "tamil_meaning": "கப்பல்",
+      "english_meaning": "Ship",
+      "malayalam": "കപ്പൽ"
+    },
+    {
+      "arabic": "بحر",
+      "english_transliteration": "Bhr",
+      "tamil_transliteration": "Bஹ்ர்",
+      "tamil_meaning": "கடல்",
+      "english_meaning": "Sea",
+      "malayalam": "കടൽ"
+    },
+    {
+      "arabic": "نهر",
+      "english_transliteration": "Nhr",
+      "tamil_transliteration": "ண்ஹ்ர்",
+      "tamil_meaning": "நதி / ஆறு",
+      "english_meaning": "River",
+      "malayalam": "നദി"
+    },
+    {
+      "arabic": "جبل",
+      "english_transliteration": "Jbl",
+      "tamil_transliteration": "ஃஜ்ப்ல்",
+      "tamil_meaning": "மலை",
+      "english_meaning": "Mountain",
+      "malayalam": "മല"
+    },
+    {
+      "arabic": "غابة",
+      "english_transliteration": "Gb@",
+      "tamil_transliteration": "ஃக³்ப்@",
+      "tamil_meaning": "காடு",
+      "english_meaning": "Forest",
+      "malayalam": "കാട്"
+    },
+    {
+      "arabic": "حيوان",
+      "english_transliteration": "Hywn",
+      "tamil_transliteration": "ஃய்வ்ந்",
+      "tamil_meaning": "விலங்கு",
+      "english_meaning": "Animal",
+      "malayalam": "മൃഗം"
+    },
+    {
+      "arabic": "طائر",
+      "english_transliteration": "Ty'r",
+      "tamil_transliteration": "ட்ய்'ர்",
+      "tamil_meaning": "பறவை",
+      "english_meaning": "Bird",
+      "malayalam": "പക്ഷി"
+    },
+    {
+      "arabic": "قطة",
+      "english_transliteration": "Qt@",
+      "tamil_transliteration": "Qத்@",
+      "tamil_meaning": "பூனை",
+      "english_meaning": "Cat",
+      "malayalam": "പൂച്ച"
+    },
+    {
+      "arabic": "كلب",
+      "english_transliteration": "Klb",
+      "tamil_transliteration": "ஃக²்ல்ப்",
+      "tamil_meaning": "நாய்",
+      "english_meaning": "Dog",
+      "malayalam": "നായ"
+    },
+    {
+      "arabic": "بقرة",
+      "english_transliteration": "Bqr@",
+      "tamil_transliteration": "Bஃ'க்ர்@",
+      "tamil_meaning": "பசு",
+      "english_meaning": "Cow",
+      "malayalam": "പശു"
+    },
+    {
+      "arabic": "الفيل",
+      "english_transliteration": "Lfyl",
+      "tamil_transliteration": "ள்ஃப்ய்ல்",
+      "tamil_meaning": "யானை",
+      "english_meaning": "Elephant",
+      "malayalam": "ആന"
+    },
+    {
+      "arabic": "نمر",
+      "english_transliteration": "Nmr",
+      "tamil_transliteration": "ண்ம்ர்",
+      "tamil_meaning": "புலி",
+      "english_meaning": "Tiger",
+      "malayalam": "കടുവ"
+    },
+    {
+      "arabic": "الأسد",
+      "english_transliteration": "L'sd",
+      "tamil_transliteration": "ள்'ஸ்த்",
+      "tamil_meaning": "சிங்கம்",
+      "english_meaning": "Lion",
+      "malayalam": "സിംഹം"
+    },
+    {
+      "arabic": "شخص غني",
+      "english_transliteration": "Shkhs gny",
+      "tamil_transliteration": "ஷ்க்ஸ் க்ந்ய்",
+      "tamil_meaning": " பணக்காரர்",
+      "english_meaning": "Rich person",
+      "malayalam": "പണക്കാരൻ"
+    },
+    {
+      "arabic": "شخص فقير",
+      "english_transliteration": "Shkhs fqyr",
+      "tamil_transliteration": "ஷ்க்ஸ் ஃப்ஃ'க்ய்ர்",
+      "tamil_meaning": "ஏழை",
+      "english_meaning": "Poor person",
+      "malayalam": "പാവപ്പെട്ടവൻ"
+    },
+    {
+      "arabic": "جيد",
+      "english_transliteration": "Jyd",
+      "tamil_transliteration": "ஃஜ்ய்த்",
+      "tamil_meaning": "நல்லது",
+      "english_meaning": "Good",
+      "malayalam": "നല്ലത്"
+    },
+    {
+      "arabic": "سيء",
+      "english_transliteration": "Sy",
+      "tamil_transliteration": "ஷ்ய்",
+      "tamil_meaning": "கெட்டது",
+      "english_meaning": "Bad",
+      "malayalam": "ചീത്ത"
+    },
+    {
+      "arabic": "كبير",
+      "english_transliteration": "Kbyr",
+      "tamil_transliteration": "ஃக²்ப்ய்ர்",
+      "tamil_meaning": "பெரியது",
+      "english_meaning": "Big",
+      "malayalam": "വലുത്"
+    },
+    {
+      "arabic": "صغير",
+      "english_transliteration": "Sgyr",
+      "tamil_transliteration": "ஷ்க்ய்ர்",
+      "tamil_meaning": "சிறியது",
+      "english_meaning": "Small",
+      "malayalam": "ചെറുത്"
+    },
+    {
+      "arabic": "سرعة",
+      "english_transliteration": "Sr`@",
+      "tamil_transliteration": "ஷ்ர்`@",
+      "tamil_meaning": "வேகம்",
+      "english_meaning": "Speed",
+      "malayalam": "വേഗത"
+    },
+    {
+      "arabic": "بطيء",
+      "english_transliteration": "Bty",
+      "tamil_transliteration": "Bத்ய்",
+      "tamil_meaning": "மெதுவாக",
+      "english_meaning": "Slow",
+      "malayalam": "മെല്ലെ"
+    },
+    {
+      "arabic": "صحيح / يمين",
+      "english_transliteration": "Shyh / ymyn",
+      "tamil_transliteration": "ஷ்ய்ஹ் / ய்ம்ய்ந்",
+      "tamil_meaning": "சரி",
+      "english_meaning": "Correct / Right",
+      "malayalam": "ശരി"
+    },
+    {
+      "arabic": "خطأ",
+      "english_transliteration": "Kht'",
+      "tamil_transliteration": "ஃக²்ஹ்த்'",
+      "tamil_meaning": "தவறு",
+      "english_meaning": "Wrong",
+      "malayalam": "തെറ്റ്"
+    },
+    {
+      "arabic": "حقيقة",
+      "english_transliteration": "Hqyq@",
+      "tamil_transliteration": "ஃஃ'க்ய்ஃ'க்@",
+      "tamil_meaning": "உண்மை",
+      "english_meaning": "Truth",
+      "malayalam": "സത്യം"
+    },
+    {
+      "arabic": "كذب",
+      "english_transliteration": "Kdhb",
+      "tamil_transliteration": "ஃக²்த்ப்",
+      "tamil_meaning": "பொய்",
+      "english_meaning": "Lie",
+      "malayalam": "നുണ"
+    },
+    {
+      "arabic": "حب",
+      "english_transliteration": "Hb",
+      "tamil_transliteration": "ஃப்",
+      "tamil_meaning": "அன்பு",
+      "english_meaning": "Love",
+      "malayalam": "സ്നേഹം"
+    },
+    {
+      "arabic": "الغضب",
+      "english_transliteration": "Lgdb",
+      "tamil_transliteration": "ள்க்த்ப்",
+      "tamil_meaning": "கோபம்",
+      "english_meaning": "Anger",
+      "malayalam": "കോപം"
+    },
+    {
+      "arabic": "سعادة",
+      "english_transliteration": "S`d@",
+      "tamil_transliteration": "ஷ்`த்@",
+      "tamil_meaning": "மகிழ்ச்சி",
+      "english_meaning": "Happiness",
+      "malayalam": "സന്തോഷം"
+    },
+    {
+      "arabic": "حزن / حزن",
+      "english_transliteration": "Hzn / hzn",
+      "tamil_transliteration": "ஃஃஜ்ந் / ஹ்ஃஜ்ந்",
+      "tamil_meaning": "துக்கம்",
+      "english_meaning": "Sorrow / Sadness",
+      "malayalam": "ദുഃഖം"
+    },
+    {
+      "arabic": "يخاف",
+      "english_transliteration": "Ykhf",
+      "tamil_transliteration": "ஃய்க்ஃப்",
+      "tamil_meaning": "பயம்",
+      "english_meaning": "Fear",
+      "malayalam": "ഭയം"
+    },
+    {
+      "arabic": "شجاعة",
+      "english_transliteration": "Shj`@",
+      "tamil_transliteration": "ஷ்ஜ்`@",
+      "tamil_meaning": "தைரியம்",
+      "english_meaning": "Courage",
+      "malayalam": "ധൈര്യം"
+    },
+    {
+      "arabic": "يأتي",
+      "english_transliteration": "Y'ty",
+      "tamil_transliteration": "ஃய்'த்ய்",
+      "tamil_meaning": "வா",
+      "english_meaning": "Come",
+      "malayalam": "വരു"
+    },
+    {
+      "arabic": "يذهب",
+      "english_transliteration": "Ydhhb",
+      "tamil_transliteration": "ஃய்த்ஹ்ப்",
+      "tamil_meaning": "போ",
+      "english_meaning": "Go",
+      "malayalam": "പോവുക"
+    },
+    {
+      "arabic": "يجلس",
+      "english_transliteration": "Yjls",
+      "tamil_transliteration": "ஃய்ஜ்ல்ஸ்",
+      "tamil_meaning": "உட்கார்",
+      "english_meaning": "Sit",
+      "malayalam": "ഇരിക്കുക"
+    },
+    {
+      "arabic": "يقف",
+      "english_transliteration": "Yqf",
+      "tamil_transliteration": "ஃய்ஃ'க்ஃப்",
+      "tamil_meaning": "நில்",
+      "english_meaning": "Stand",
+      "malayalam": "നിൽക്കുക"
+    },
+    {
+      "arabic": "عين",
+      "english_transliteration": "`yn",
+      "tamil_transliteration": "`ய்ந்",
+      "tamil_meaning": "கண்",
+      "english_meaning": "Eye",
+      "malayalam": "കണ്ണട"
+    },
+    {
+      "arabic": "وجه",
+      "english_transliteration": "Wjh",
+      "tamil_transliteration": "Wச்",
+      "tamil_meaning": "முகம்",
+      "english_meaning": "Face",
+      "malayalam": "മുഖം"
+    },
+    {
+      "arabic": "يُسلِّم",
+      "english_transliteration": "Yuslwim",
+      "tamil_transliteration": "ஃயுஸ்ல்விம்",
+      "tamil_meaning": "கை",
+      "english_meaning": "Hand",
+      "malayalam": "കൈ"
+    },
+    {
+      "arabic": "رجل",
+      "english_transliteration": "Rjl",
+      "tamil_transliteration": "ற்ஜ்ல்",
+      "tamil_meaning": "கால்",
+      "english_meaning": "Leg",
+      "malayalam": "കാൽ"
+    },
+    {
+      "arabic": "جسم",
+      "english_transliteration": "Jsm",
+      "tamil_transliteration": "ஃஜ்ஸ்ம்",
+      "tamil_meaning": "உடல்",
+      "english_meaning": "Body",
+      "malayalam": "ശരീരം"
+    },
+    {
+      "arabic": "دم",
+      "english_transliteration": "Dm",
+      "tamil_transliteration": "ட்ம்",
+      "tamil_meaning": "ரத்தம்",
+      "english_meaning": "Blood",
+      "malayalam": "രക്തം"
+    },
+    {
+      "arabic": "الطب (المهنة)",
+      "english_transliteration": "Ltb (lmhn@)",
+      "tamil_transliteration": "ள்த்ப் (ல்ம்ஹ்ந்@)",
+      "tamil_meaning": "மருத்துவம்",
+      "english_meaning": "Medicine (Profession)",
+      "malayalam": "വൈദ്യം"
+    },
+    {
+      "arabic": "الطب (المخدرات)",
+      "english_transliteration": "Ltb (lmkhdrt)",
+      "tamil_transliteration": "ள்த்ப் (ல்ம்க்த்ர்த்)",
+      "tamil_meaning": "மருந்து",
+      "english_meaning": "Medicine (Drug)",
+      "malayalam": "മരുന്ന്"
+    },
+    {
+      "arabic": "مستشفى",
+      "english_transliteration": "Mstshf~",
+      "tamil_transliteration": "ம்ஸ்த்ஶ்ஃப்ऽ",
+      "tamil_meaning": "மருத்துவமனை",
+      "english_meaning": "Hospital",
+      "malayalam": "ആശുപത്രി"
+    },
+    {
+      "arabic": "ملابس / فستان",
+      "english_transliteration": "Mlbs / fstn",
+      "tamil_transliteration": "ம்ல்ப்ஸ் / ஃப்ஸ்த்ந்",
+      "tamil_meaning": "ஆடை",
+      "english_meaning": "Clothes / Dress",
+      "malayalam": "വസ്ത്രം"
+    },
+    {
+      "arabic": "لون",
+      "english_transliteration": "Lwn",
+      "tamil_transliteration": "ள்வ்ந்",
+      "tamil_meaning": "நிறம் (வண்ணம்)",
+      "english_meaning": "Color",
+      "malayalam": "നിറം"
+    },
+    {
+      "arabic": "أبيض",
+      "english_transliteration": "'byd",
+      "tamil_transliteration": "'ப்ய்த்",
+      "tamil_meaning": "வெள்ளை",
+      "english_meaning": "White",
+      "malayalam": "വെളുപ്പ്"
+    },
+    {
+      "arabic": "أسود",
+      "english_transliteration": "'swd",
+      "tamil_transliteration": "'ஸ்வ்த்",
+      "tamil_meaning": "கருப்பு",
+      "english_meaning": "Black",
+      "malayalam": "കറുപ്പ്"
+    },
+    {
+      "arabic": "أحمر",
+      "english_transliteration": "'hmr",
+      "tamil_transliteration": "'ஹ்ம்ர்",
+      "tamil_meaning": "சிவப்பு",
+      "english_meaning": "Red",
+      "malayalam": "ചുവപ്പ്"
+    },
+    {
+      "arabic": "أخضر",
+      "english_transliteration": "'khdr",
+      "tamil_transliteration": "'க்த்ர்",
+      "tamil_meaning": "பச்சை",
+      "english_meaning": "Green",
+      "malayalam": "പച്ച"
+    },
+    {
+      "arabic": "أصفر",
+      "english_transliteration": "'sfr",
+      "tamil_transliteration": "'ஸ்ஃப்ர்",
+      "tamil_meaning": "மஞ்சள்",
+      "english_meaning": "Yellow",
+      "malayalam": "മഞ്ഞ"
+    },
+    {
+      "arabic": "أزرق",
+      "english_transliteration": "'zrq",
+      "tamil_transliteration": "'ஃஜ்ர்ஃ'க்",
+      "tamil_meaning": "நீலம்",
+      "english_meaning": "Blue",
+      "malayalam": "നീല"
+    },
+    {
+      "arabic": "محل",
+      "english_transliteration": "Mhl",
+      "tamil_transliteration": "ம்ஹ்ல்",
+      "tamil_meaning": "கடை",
+      "english_meaning": "Shop",
+      "malayalam": "കട"
+    },
+    {
+      "arabic": "سعر",
+      "english_transliteration": "S`r",
+      "tamil_transliteration": "ஷ்`ர்",
+      "tamil_meaning": "விலை",
+      "english_meaning": "Price",
+      "malayalam": "വില"
+    },
+    {
+      "arabic": "هدية",
+      "english_transliteration": "Hdy@",
+      "tamil_transliteration": "ஃத்ய்@",
+      "tamil_meaning": "பரிசு",
+      "english_meaning": "Gift",
+      "malayalam": "സമ്മാനം"
+    },
+    {
+      "arabic": "سؤال",
+      "english_transliteration": "Sw'l",
+      "tamil_transliteration": "ஷ்வ்'ல்",
+      "tamil_meaning": "கேள்வி",
+      "english_meaning": "Question",
+      "malayalam": "ചോദ്യം"
+    },
+    {
+      "arabic": "إجابة",
+      "english_transliteration": "Jb@",
+      "tamil_transliteration": "ஃஜ்ப்@",
+      "tamil_meaning": "பதில்",
+      "english_meaning": "Answer",
+      "malayalam": "ഉത്തരം"
+    },
+    {
+      "arabic": "قصة",
+      "english_transliteration": "Qs@",
+      "tamil_transliteration": "Qஸ்@",
+      "tamil_meaning": "கதை",
+      "english_meaning": "Story",
+      "malayalam": "കഥ"
+    },
+    {
+      "arabic": "أغنية",
+      "english_transliteration": "'gny@",
+      "tamil_transliteration": "'க்ந்ய்@",
+      "tamil_meaning": "பாட்டு",
+      "english_meaning": "Song",
+      "malayalam": "പാട്ട്"
+    },
+    {
+      "arabic": "موسيقى",
+      "english_transliteration": "Mwsyq~",
+      "tamil_transliteration": "ம்வ்ஸ்ய்ஃ'க்ऽ",
+      "tamil_meaning": "இசை",
+      "english_meaning": "Music",
+      "malayalam": "സംഗീതം"
+    },
+    {
+      "arabic": "الرقص",
+      "english_transliteration": "Lrqs",
+      "tamil_transliteration": "ள்ர்ஃ'க்ஸ்",
+      "tamil_meaning": "நடனம்",
+      "english_meaning": "Dance",
+      "malayalam": "നൃത്തം"
+    },
+    {
+      "arabic": "صورة / لوحة",
+      "english_transliteration": "Swr@ / lwh@",
+      "tamil_transliteration": "ஷ்வ்ர்@ / ல்வ்ஹ்@",
+      "tamil_meaning": "படம்",
+      "english_meaning": "Picture / Painting",
+      "malayalam": "ചിത്രം"
+    },
+    {
+      "arabic": "الرياضة",
+      "english_transliteration": "Lryd@",
+      "tamil_transliteration": "ள்ர்ய்த்@",
+      "tamil_meaning": "விளையாட்டு",
+      "english_meaning": "Sports",
+      "malayalam": "കായികം"
+    },
+    {
+      "arabic": "لعبة",
+      "english_transliteration": "L`b@",
+      "tamil_transliteration": "ள்`ப்@",
+      "tamil_meaning": "விளையாட்டு",
+      "english_meaning": "Game",
+      "malayalam": "കളി"
+    },
+    {
+      "arabic": "انتصار",
+      "english_transliteration": "Ntsr",
+      "tamil_transliteration": "ண்த்ஸ்ர்",
+      "tamil_meaning": "வெற்றி",
+      "english_meaning": "Victory",
+      "malayalam": "വിജയം"
+    },
+    {
+      "arabic": "هزيمة",
+      "english_transliteration": "Hzym@",
+      "tamil_transliteration": "ஃஃஜ்ய்ம்@",
+      "tamil_meaning": "தோல்வி",
+      "english_meaning": "Defeat",
+      "malayalam": "തോൽവി"
+    },
+    {
+      "arabic": "جهد",
+      "english_transliteration": "Jhd",
+      "tamil_transliteration": "ஃஜ்ஹ்த்",
+      "tamil_meaning": "முயற்சி",
+      "english_meaning": "Effort",
+      "malayalam": "പ്രയത്നം"
+    },
+    {
+      "arabic": "الثقة / الاعتقاد",
+      "english_transliteration": "Lthq@ / l`tqd",
+      "tamil_transliteration": "ள்த்ஃ'க்@ / ல்`த்ஃ'க்த்",
+      "tamil_meaning": "நம்பிக்கை",
+      "english_meaning": "Trust / Belief",
+      "malayalam": "വിശ്വാസം"
+    },
+    {
+      "arabic": "يساعد",
+      "english_transliteration": "Ys`d",
+      "tamil_transliteration": "ஃய்ஸ்`த்",
+      "tamil_meaning": "உதவி",
+      "english_meaning": "Help",
+      "malayalam": "സഹായം"
+    },
+    {
+      "arabic": "أرز مطبوخ",
+      "english_transliteration": "'rz mtbwkh",
+      "tamil_transliteration": "'ர்ஃஜ் ம்த்ப்வ்க்",
+      "tamil_meaning": "சோறு",
+      "english_meaning": "Cooked Rice",
+      "malayalam": "ചോറ്"
+    },
+    {
+      "arabic": "عصيدة الأرز",
+      "english_transliteration": "`syd@ l'rz",
+      "tamil_transliteration": "`ஸ்ய்த்@ ல்'ர்ஃஜ்",
+      "tamil_meaning": "கஞ்சி",
+      "english_meaning": "Rice Gruel",
+      "malayalam": "കഞ്ഞി"
+    },
+    {
+      "arabic": "سمنة",
+      "english_transliteration": "Smn@",
+      "tamil_transliteration": "ஷ்ம்ந்@",
+      "tamil_meaning": "வெண்ணெய்",
+      "english_meaning": "Butter",
+      "malayalam": "വെണ്ണ"
+    },
+    {
+      "arabic": "السمن",
+      "english_transliteration": "Lsmn",
+      "tamil_transliteration": "ள்ஸ்ம்ந்",
+      "tamil_meaning": "நெய்",
+      "english_meaning": "Ghee",
+      "malayalam": "നെയ്"
+    },
+    {
+      "arabic": "تخثر",
+      "english_transliteration": "Tkhthr",
+      "tamil_transliteration": "ட்க்த்ர்",
+      "tamil_meaning": "தயிர்",
+      "english_meaning": "Curd",
+      "malayalam": "തൈര്"
+    },
+    {
+      "arabic": "اللبن",
+      "english_transliteration": "Llbn",
+      "tamil_transliteration": "ள்ல்ப்ந்",
+      "tamil_meaning": "மோர்",
+      "english_meaning": "Buttermilk",
+      "malayalam": "മോര്"
+    },
+    {
+      "arabic": "عسل",
+      "english_transliteration": "`sl",
+      "tamil_transliteration": "`ஸ்ல்",
+      "tamil_meaning": "தேன்",
+      "english_meaning": "Honey",
+      "malayalam": "തേൻ"
+    },
+    {
+      "arabic": "الفواكه",
+      "english_transliteration": "Lfwkh",
+      "tamil_transliteration": "ள்ஃப்வ்க்",
+      "tamil_meaning": "பழங்கள்",
+      "english_meaning": "Fruits",
+      "malayalam": "പഴവർഗ്ഗങ്ങൾ"
+    },
+    {
+      "arabic": "نباتي",
+      "english_transliteration": "Nbty",
+      "tamil_transliteration": "ண்ப்த்ய்",
+      "tamil_meaning": "காய்கறி",
+      "english_meaning": "Vegetable",
+      "malayalam": "പച്ചക്കറി"
+    },
+    {
+      "arabic": "مانجو",
+      "english_transliteration": "Mnjw",
+      "tamil_transliteration": "ம்ந்ஜ்வ்",
+      "tamil_meaning": "மாம்பழம்",
+      "english_meaning": "Mango",
+      "malayalam": "മാങ്ങ"
+    },
+    {
+      "arabic": "موز",
+      "english_transliteration": "Mwz",
+      "tamil_transliteration": "ம்வ்ஃஜ்",
+      "tamil_meaning": "வாழைப்பழம்",
+      "english_meaning": "Banana",
+      "malayalam": "വാഴപ്പഴം"
+    },
+    {
+      "arabic": "تفاحة",
+      "english_transliteration": "Tfh@",
+      "tamil_transliteration": "ட்ஃப்ஹ்@",
+      "tamil_meaning": "ஆப்பிள்",
+      "english_meaning": "Apple",
+      "malayalam": "ആപ്പിൾ"
+    },
+    {
+      "arabic": "البرتقالي",
+      "english_transliteration": "Lbrtqly",
+      "tamil_transliteration": "ள்ப்ர்த்ஃ'க்ல்ய்",
+      "tamil_meaning": "ஆரஞ்சு",
+      "english_meaning": "Orange",
+      "malayalam": "ഓറഞ്ച്"
+    },
+    {
+      "arabic": "بيضة",
+      "english_transliteration": "Byd@",
+      "tamil_transliteration": "Bய்த்@",
+      "tamil_meaning": "முட்டை",
+      "english_meaning": "Egg",
+      "malayalam": "മുട്ട"
+    },
+    {
+      "arabic": "لحمة",
+      "english_transliteration": "Lhm@",
+      "tamil_transliteration": "ள்ஹ்ம்@",
+      "tamil_meaning": "இறைச்சி",
+      "english_meaning": "Meat",
+      "malayalam": "മാംസം"
+    },
+    {
+      "arabic": "سمكة",
+      "english_transliteration": "Smk@",
+      "tamil_transliteration": "ஷ்ம்க்@",
+      "tamil_meaning": "மீன்",
+      "english_meaning": "Fish",
+      "malayalam": "മീൻ"
+    },
+    {
+      "arabic": "عشاء",
+      "english_transliteration": "`sh",
+      "tamil_transliteration": "`ஶ்",
+      "tamil_meaning": "இரவு உணவு",
+      "english_meaning": "Dinner",
+      "malayalam": "രാത്രിഭക്ഷണം"
+    },
+    {
+      "arabic": "غداء",
+      "english_transliteration": "Gd",
+      "tamil_transliteration": "ஃக³்த்",
+      "tamil_meaning": "மதிய உணவு",
+      "english_meaning": "Lunch",
+      "malayalam": "ഉച്ചഭക്ഷണം"
+    },
+    {
+      "arabic": "إفطار",
+      "english_transliteration": "Ftr",
+      "tamil_transliteration": "Fத்ர்",
+      "tamil_meaning": "காலை உணவு",
+      "english_meaning": "Breakfast",
+      "malayalam": "പ്രാതൽ"
+    },
+    {
+      "arabic": "موسم الربيع",
+      "english_transliteration": "Mwsm lrby`",
+      "tamil_transliteration": "ம்வ்ஸ்ம் ல்ர்ப்ய்`",
+      "tamil_meaning": "வசந்த காலம்",
+      "english_meaning": "Spring Season",
+      "malayalam": "വസന്തം"
+    },
+    {
+      "arabic": "موسم الصيف",
+      "english_transliteration": "Mwsm lsyf",
+      "tamil_transliteration": "ம்வ்ஸ்ம் ல்ஸ்ய்ஃப்",
+      "tamil_meaning": "கோடை காலம்",
+      "english_meaning": "Summer Season",
+      "malayalam": "വേനൽക്കാലം"
+    },
+    {
+      "arabic": "الرياح الموسمية / موسم الأمطار",
+      "english_transliteration": "Lryh lmwsmy@ / mwsm l'mtr",
+      "tamil_transliteration": "ள்ர்ய்ஹ் ல்ம்வ்ஸ்ம்ய்@ / ம்வ்ஸ்ம் ல்'ம்த்ர்",
+      "tamil_meaning": "மழை காலம்",
+      "english_meaning": "Monsoon / Rainy Season",
+      "malayalam": "വർഷകാലം"
+    },
+    {
+      "arabic": "فصل الشتاء",
+      "english_transliteration": "Fsl lsht",
+      "tamil_transliteration": "Fஸ்ல் ல்ஶ்த்",
+      "tamil_meaning": "குளிர்காலம்",
+      "english_meaning": "Winter Season",
+      "malayalam": "ശീതകാലം"
+    },
+    {
+      "arabic": "موسم ثلجي / ضبابي",
+      "english_transliteration": "Mwsm thljy / dbby",
+      "tamil_transliteration": "ம்வ்ஸ்ம் த்ல்ஜ்ய் / த்ப்ப்ய்",
+      "tamil_meaning": "பனிக்காலம்",
+      "english_meaning": "Snowy / Foggy Season",
+      "malayalam": "മഞ്ഞുകാലം"
+    },
+    {
+      "arabic": "اتجاه",
+      "english_transliteration": "Tjh",
+      "tamil_transliteration": "ட்ச்",
+      "tamil_meaning": "திசை",
+      "english_meaning": "Direction",
+      "malayalam": "ദിശ"
+    },
+    {
+      "arabic": "شرق",
+      "english_transliteration": "Shrq",
+      "tamil_transliteration": "ஷ்ர்ஃ'க்",
+      "tamil_meaning": "கிழக்கு",
+      "english_meaning": "East",
+      "malayalam": "കിഴക്ക്"
+    },
+    {
+      "arabic": "الغرب",
+      "english_transliteration": "Lgrb",
+      "tamil_transliteration": "ள்க்ர்ப்",
+      "tamil_meaning": "மேற்கு",
+      "english_meaning": "West",
+      "malayalam": "പടിഞ്ഞാറ്"
+    },
+    {
+      "arabic": "شمال",
+      "english_transliteration": "Shml",
+      "tamil_transliteration": "ஷ்ம்ல்",
+      "tamil_meaning": "வடக்கு",
+      "english_meaning": "North",
+      "malayalam": "വടക്ക്"
+    },
+    {
+      "arabic": "جنوب",
+      "english_transliteration": "Jnwb",
+      "tamil_transliteration": "ஃஜ்ந்வ்ப்",
+      "tamil_meaning": "தெற்கு",
+      "english_meaning": "South",
+      "malayalam": "തെക്ക്"
+    },
+    {
+      "arabic": "واحد",
+      "english_transliteration": "Whd",
+      "tamil_transliteration": "Wஹ்த்",
+      "tamil_meaning": "ஒன்று",
+      "english_meaning": "One",
+      "malayalam": "ഒന്ന്"
+    },
+    {
+      "arabic": "اثنين",
+      "english_transliteration": "Thnyn",
+      "tamil_transliteration": "ட்ந்ய்ந்",
+      "tamil_meaning": "இரண்டு",
+      "english_meaning": "Two",
+      "malayalam": "രണ്ട്"
+    },
+    {
+      "arabic": "ثلاثة",
+      "english_transliteration": "Thlth@",
+      "tamil_transliteration": "ட்ல்த்@",
+      "tamil_meaning": "மூன்று",
+      "english_meaning": "Three",
+      "malayalam": "മൂന്ന്"
+    },
+    {
+      "arabic": "أربعة",
+      "english_transliteration": "'rb`@",
+      "tamil_transliteration": "'ர்ப்`@",
+      "tamil_meaning": "நான்கு",
+      "english_meaning": "Four",
+      "malayalam": "നാാല്"
+    },
+    {
+      "arabic": "خمسة",
+      "english_transliteration": "Khms@",
+      "tamil_transliteration": "ஃக²்ஹ்ம்ஸ்@",
+      "tamil_meaning": "ஐந்து",
+      "english_meaning": "Five",
+      "malayalam": "അഞ്ച്"
+    },
+    {
+      "arabic": "ستة",
+      "english_transliteration": "St@",
+      "tamil_transliteration": "ஷ்த்@",
+      "tamil_meaning": "ஆறு",
+      "english_meaning": "Six",
+      "malayalam": "ആറ്"
+    },
+    {
+      "arabic": "سبعة",
+      "english_transliteration": "Sb`@",
+      "tamil_transliteration": "ஷ்ப்`@",
+      "tamil_meaning": "ஏழு",
+      "english_meaning": "Seven",
+      "malayalam": "ഏഴ്"
+    },
+    {
+      "arabic": "ثمانية",
+      "english_transliteration": "Thmny@",
+      "tamil_transliteration": "ட்ம்ந்ய்@",
+      "tamil_meaning": "எட்டு",
+      "english_meaning": "Eight",
+      "malayalam": "എട്ട്"
+    },
+    {
+      "arabic": "تسعة",
+      "english_transliteration": "Ts`@",
+      "tamil_transliteration": "ட்ஸ்`@",
+      "tamil_meaning": "ஒன்பது",
+      "english_meaning": "Nine",
+      "malayalam": "ഒonപത്"
+    },
+    {
+      "arabic": "عشرة",
+      "english_transliteration": "`shr@",
+      "tamil_transliteration": "`ஶ்ர்@",
+      "tamil_meaning": "பத்து",
+      "english_meaning": "Ten",
+      "malayalam": "പത്ത്"
+    },
+    {
+      "arabic": "مائة",
+      "english_transliteration": "My'@",
+      "tamil_transliteration": "ம்ய்'@",
+      "tamil_meaning": "நூறு",
+      "english_meaning": "Hundred",
+      "malayalam": "നൂറ്"
+    },
+    {
+      "arabic": "ألف",
+      "english_transliteration": "'lf",
+      "tamil_transliteration": "'ல்ஃப்",
+      "tamil_meaning": "ஆயிரம்",
+      "english_meaning": "Thousand",
+      "malayalam": "ആയിരം"
+    },
+    {
+      "arabic": "اليوم",
+      "english_transliteration": "Lywm",
+      "tamil_transliteration": "ள்ய்வ்ம்",
+      "tamil_meaning": "இன்று",
+      "english_meaning": "Today",
+      "malayalam": "ഇന്ന്"
+    },
+    {
+      "arabic": "غداً",
+      "english_transliteration": "Gdan",
+      "tamil_transliteration": "ஃக³்தந்",
+      "tamil_meaning": "நாளை",
+      "english_meaning": "Tomorrow",
+      "malayalam": "നാളെ"
+    },
+    {
+      "arabic": "أمس",
+      "english_transliteration": "'ms",
+      "tamil_transliteration": "'ம்ஸ்",
+      "tamil_meaning": "நேற்று",
+      "english_meaning": "Yesterday",
+      "malayalam": "ഇന്നലെ"
+    },
+    {
+      "arabic": "الآن",
+      "english_transliteration": "Lan",
+      "tamil_transliteration": "ளந்",
+      "tamil_meaning": "இப்போது",
+      "english_meaning": "Now",
+      "malayalam": "ഇപ്പോൾ"
+    },
+    {
+      "arabic": "لاحقاً",
+      "english_transliteration": "Lhqan",
+      "tamil_transliteration": "ள்ஹ்ஃ'கந்",
+      "tamil_meaning": "பின்னர்",
+      "english_meaning": "Later",
+      "malayalam": "പിന്നീട്"
+    },
+    {
+      "arabic": "دائماً",
+      "english_transliteration": "Dy'man",
+      "tamil_transliteration": "ட்ய்'மந்",
+      "tamil_meaning": "எப்போதும்",
+      "english_meaning": "Always",
+      "malayalam": "എപ്പോഴും"
+    },
+    {
+      "arabic": "أبداً",
+      "english_transliteration": "'bdan",
+      "tamil_transliteration": "'ப்தந்",
+      "tamil_meaning": "ஒருபோதும் இல்லை",
+      "english_meaning": "Never",
+      "malayalam": "ഒരിക്കലും"
+    },
+    {
+      "arabic": "هنا",
+      "english_transliteration": "Hn",
+      "tamil_transliteration": "ஃந்",
+      "tamil_meaning": "இங்கே",
+      "english_meaning": "Here",
+      "malayalam": "ഇവിടെ"
+    },
+    {
+      "arabic": "هناك",
+      "english_transliteration": "Hnk",
+      "tamil_transliteration": "ஃந்க்",
+      "tamil_meaning": "அங்கே",
+      "english_meaning": "There",
+      "malayalam": "അവിടെ"
+    },
+    {
+      "arabic": "أين",
+      "english_transliteration": "'yn",
+      "tamil_transliteration": "'ய்ந்",
+      "tamil_meaning": "எங்கே",
+      "english_meaning": "Where",
+      "malayalam": "എവിടെ"
+    },
+    {
+      "arabic": "من",
+      "english_transliteration": "Mn",
+      "tamil_transliteration": "ம்ந்",
+      "tamil_meaning": "யார்",
+      "english_meaning": "Who",
+      "malayalam": "ആര്"
+    },
+    {
+      "arabic": "ماذا",
+      "english_transliteration": "Mdh",
+      "tamil_transliteration": "ம்த்",
+      "tamil_meaning": "என்ன",
+      "english_meaning": "What",
+      "malayalam": "എന്ത്"
+    },
+    {
+      "arabic": "لماذا",
+      "english_transliteration": "Lmdh",
+      "tamil_transliteration": "ள்ம்த்",
+      "tamil_meaning": "ஏன்",
+      "english_meaning": "Why",
+      "malayalam": "എന്തുകൊണ്ട്"
+    },
+    {
+      "arabic": "كيف",
+      "english_transliteration": "Kyf",
+      "tamil_transliteration": "ஃக²்ய்ஃப்",
+      "tamil_meaning": "எப்படி",
+      "english_meaning": "How",
+      "malayalam": "എങ്ങനെ"
+    },
+    {
+      "arabic": "متى",
+      "english_transliteration": "Mt~",
+      "tamil_transliteration": "ம்த்ऽ",
+      "tamil_meaning": "எப்போது",
+      "english_meaning": "When",
+      "malayalam": "എപ്പോൾ"
+    },
+    {
+      "arabic": "طويل",
+      "english_transliteration": "Twyl",
+      "tamil_transliteration": "ட்வ்ய்ல்",
+      "tamil_meaning": "நீளமான",
+      "english_meaning": "Long",
+      "malayalam": "നീളമുള്ള"
+    },
+    {
+      "arabic": "قصير",
+      "english_transliteration": "Qsyr",
+      "tamil_transliteration": "Qஸ்ய்ர்",
+      "tamil_meaning": "குட்டியான",
+      "english_meaning": "Short",
+      "malayalam": "ചെറിയ"
+    },
+    {
+      "arabic": "حار",
+      "english_transliteration": "Hr",
+      "tamil_transliteration": "ஃர்",
+      "tamil_meaning": "சூடான",
+      "english_meaning": "Hot",
+      "malayalam": "ചൂടുള്ള"
+    },
+    {
+      "arabic": "بارد",
+      "english_transliteration": "Brd",
+      "tamil_transliteration": "Bர்த்",
+      "tamil_meaning": "குளிர்ந்த",
+      "english_meaning": "Cold",
+      "malayalam": "തണുത്ത"
+    },
+    {
+      "arabic": "جديد",
+      "english_transliteration": "Jdyd",
+      "tamil_transliteration": "ஃஜ்த்ய்த்",
+      "tamil_meaning": "புதிய",
+      "english_meaning": "New",
+      "malayalam": "പുതിയ"
+    },
+    {
+      "arabic": "قديم",
+      "english_transliteration": "Qdym",
+      "tamil_transliteration": "Qத்ய்ம்",
+      "tamil_meaning": "பழைய",
+      "english_meaning": "Old",
+      "malayalam": "പഴയ"
+    },
+    {
+      "arabic": "ينظف",
+      "english_transliteration": "Ynzf",
+      "tamil_transliteration": "ஃய்ந்ஃஜ்ஃப்",
+      "tamil_meaning": "சுத்தமான",
+      "english_meaning": "Clean",
+      "malayalam": "ശുദ്ധമായ"
+    },
+    {
+      "arabic": "خطر",
+      "english_transliteration": "Khtr",
+      "tamil_transliteration": "ஃக²்ஹ்த்ர்",
+      "tamil_meaning": "ஆபத்து",
+      "english_meaning": "Danger",
+      "malayalam": "അപകടം"
+    },
+    {
+      "arabic": "آمن",
+      "english_transliteration": "Amn",
+      "tamil_transliteration": "ஆம்ந்",
+      "tamil_meaning": "பாதுகாப்பான",
+      "english_meaning": "Safe",
+      "malayalam": "സുരക്ഷിതം"
+    },
+    {
+      "arabic": "سريع",
+      "english_transliteration": "Sry`",
+      "tamil_transliteration": "ஷ்ர்ய்`",
+      "tamil_meaning": "வேகமான",
+      "english_meaning": "Fast",
+      "malayalam": "വേഗതയുള്ള"
+    },
+    {
+      "arabic": "ضوء",
+      "english_transliteration": "Dw",
+      "tamil_transliteration": "ட்வ்",
+      "tamil_meaning": "வெளிச்சம் / ஒளி",
+      "english_meaning": "Light",
+      "malayalam": "വെളിച്ചം"
+    },
+    {
+      "arabic": "الظلام",
+      "english_transliteration": "Lzlm",
+      "tamil_transliteration": "ள்ஃஜ்ல்ம்",
+      "tamil_meaning": "இருட்டு",
+      "english_meaning": "Darkness",
+      "malayalam": "ഇരുട്ട്"
+    },
+    {
+      "arabic": "جميل",
+      "english_transliteration": "Jmyl",
+      "tamil_transliteration": "ஃஜ்ம்ய்ல்",
+      "tamil_meaning": "அழகான",
+      "english_meaning": "Beautiful",
+      "malayalam": "സൗന്ദര്യമുള്ള"
+    },
+    {
+      "arabic": "أقل / قليل",
+      "english_transliteration": "'ql / qlyl",
+      "tamil_transliteration": "'ஃ'க்ல் / ஃ'க்ல்ய்ல்",
+      "tamil_meaning": "குறைவு",
+      "english_meaning": "Less / Few",
+      "malayalam": "കുറവ്"
+    },
+    {
+      "arabic": "المزيد / اضافية",
+      "english_transliteration": "Lmzyd / dfy@",
+      "tamil_transliteration": "ள்ம்ஃஜ்ய்த் / த்ஃப்ய்@",
+      "tamil_meaning": "கூடுதல்",
+      "english_meaning": "More / Extra",
+      "malayalam": "കൂടുതൽ"
+    },
+    {
+      "arabic": "أطفال",
+      "english_transliteration": "'tfl",
+      "tamil_transliteration": "'த்ஃப்ல்",
+      "tamil_meaning": "குழந்தைகள்",
+      "english_meaning": "Children",
+      "malayalam": "സഹോദരൻ"
+    },
+    {
+      "arabic": "إنسان / رجل",
+      "english_transliteration": "Nsn / rjl",
+      "tamil_transliteration": "ண்ஸ்ந் / ர்ஜ்ல்",
+      "tamil_meaning": "மனிதன்",
+      "english_meaning": "Human / Man",
+      "malayalam": "മനുഷ്യൻ"
+    },
+    {
+      "arabic": "امرأة",
+      "english_transliteration": "Mr'@",
+      "tamil_transliteration": "ம்ர்'@",
+      "tamil_meaning": "பெண்",
+      "english_meaning": "Woman",
+      "malayalam": "സ്ത്രീ"
+    },
+    {
+      "arabic": "رجل",
+      "english_transliteration": "Rjl",
+      "tamil_transliteration": "ற்ஜ்ல்",
+      "tamil_meaning": "ஆண்",
+      "english_meaning": "Man",
+      "malayalam": "പുരുഷൻ"
+    },
+    {
+      "arabic": "طفل",
+      "english_transliteration": "Tfl",
+      "tamil_transliteration": "ட்ஃப்ல்",
+      "tamil_meaning": "குழந்தை",
+      "english_meaning": "Baby",
+      "malayalam": "കുഞ്ഞ്"
+    },
+    {
+      "arabic": "محارب",
+      "english_transliteration": "Mhrb",
+      "tamil_transliteration": "ம்ஹ்ர்ப்",
+      "tamil_meaning": "வீரன்",
+      "english_meaning": "Warrior",
+      "malayalam": "യോദ്ധാവ്"
+    },
+    {
+      "arabic": "ملِك",
+      "english_transliteration": "Mlik",
+      "tamil_transliteration": "ம்லிக்",
+      "tamil_meaning": "ராஜா",
+      "english_meaning": "King",
+      "malayalam": "രാജാവ്"
+    },
+    {
+      "arabic": "ملكة",
+      "english_transliteration": "Mlk@",
+      "tamil_transliteration": "ம்ல்க்@",
+      "tamil_meaning": "ராணி",
+      "english_meaning": "Queen",
+      "malayalam": "രാജ്ഞി"
+    },
+    {
+      "arabic": "دولة",
+      "english_transliteration": "Dwl@",
+      "tamil_transliteration": "ட்வ்ல்@",
+      "tamil_meaning": "நாடு",
+      "english_meaning": "Country",
+      "malayalam": "രാജ്യം"
+    },
+    {
+      "arabic": "عالم",
+      "english_transliteration": "`lm",
+      "tamil_transliteration": "`ல்ம்",
+      "tamil_meaning": "உலகம்",
+      "english_meaning": "World",
+      "malayalam": "ലോകം"
+    },
+    {
+      "arabic": "طبيعة",
+      "english_transliteration": "Tby`@",
+      "tamil_transliteration": "ட்ப்ய்`@",
+      "tamil_meaning": "இயற்கை",
+      "english_meaning": "Nature",
+      "malayalam": "പ്രകൃതി"
+    },
+    {
+      "arabic": "تاريخ",
+      "english_transliteration": "Trykh",
+      "tamil_transliteration": "ட்ர்ய்க்",
+      "tamil_meaning": "வரலாறு",
+      "english_meaning": "History",
+      "malayalam": "ചരിത്രം"
+    },
+    {
+      "arabic": "علوم",
+      "english_transliteration": "`lwm",
+      "tamil_transliteration": "`ல்வ்ம்",
+      "tamil_meaning": "அறிவியல்",
+      "english_meaning": "Science",
+      "malayalam": "ശാസ്ത്രം"
+    },
+    {
+      "arabic": "الرياضيات",
+      "english_transliteration": "Lrydyt",
+      "tamil_transliteration": "ள்ர்ய்த்ய்த்",
+      "tamil_meaning": "கணிதம்",
+      "english_meaning": "Mathematics",
+      "malayalam": "ഗണിതം"
+    },
+    {
+      "arabic": "لغة",
+      "english_transliteration": "Lg@",
+      "tamil_transliteration": "ள்க்@",
+      "tamil_meaning": "மொழி",
+      "english_meaning": "Language",
+      "malayalam": "ഭാഷ"
+    },
+    {
+      "arabic": "القواعد",
+      "english_transliteration": "Lqw`d",
+      "tamil_transliteration": "ள்ஃ'க்வ்`த்",
+      "tamil_meaning": "இலக்கணம்",
+      "english_meaning": "Grammar",
+      "malayalam": "വ്യാകരണം"
+    },
+    {
+      "arabic": "كلمة",
+      "english_transliteration": "Klm@",
+      "tamil_transliteration": "ஃக²்ல்ம்@",
+      "tamil_meaning": "வார்த்தை",
+      "english_meaning": "Word",
+      "malayalam": "വാക്ക്"
+    },
+    {
+      "arabic": "معنى",
+      "english_transliteration": "M`n~",
+      "tamil_transliteration": "ம்`ந்ऽ",
+      "tamil_meaning": "பொருள்",
+      "english_meaning": "Meaning",
+      "malayalam": "അർത്ഥം"
+    },
+    {
+      "arabic": "قراءة",
+      "english_transliteration": "Qr@",
+      "tamil_transliteration": "Qர்@",
+      "tamil_meaning": "வாசிப்பு",
+      "english_meaning": "Reading",
+      "malayalam": "വായന"
+    },
+    {
+      "arabic": "كتابة",
+      "english_transliteration": "Ktb@",
+      "tamil_transliteration": "ஃக²்த்ப்@",
+      "tamil_meaning": "எழுதுதல்",
+      "english_meaning": "Writing",
+      "malayalam": "എഴുത്ത്"
+    },
+    {
+      "arabic": "الاستماع",
+      "english_transliteration": "Lstm`",
+      "tamil_transliteration": "ள்ஸ்த்ம்`",
+      "tamil_meaning": "கேட்டல்",
+      "english_meaning": "Listening",
+      "malayalam": "കേൾവി"
+    },
+    {
+      "arabic": "تكلم",
+      "english_transliteration": "Tklm",
+      "tamil_transliteration": "ட்க்ல்ம்",
+      "tamil_meaning": "பேசுதல்",
+      "english_meaning": "Speaking",
+      "malayalam": "സംസാരിക്കുക"
+    },
+    {
+      "arabic": "معتقد",
+      "english_transliteration": "M`tqd",
+      "tamil_transliteration": "ம்`த்ஃ'க்த்",
+      "tamil_meaning": "சிந்தனை",
+      "english_meaning": "Thought",
+      "malayalam": "ചിന്ത"
+    },
+    {
+      "arabic": "فكرة",
+      "english_transliteration": "Fkr@",
+      "tamil_transliteration": "Fக்ர்@",
+      "tamil_meaning": "கருத்து",
+      "english_meaning": "Idea",
+      "malayalam": "ആശയം"
+    },
+    {
+      "arabic": "أذن",
+      "english_transliteration": "'dhn",
+      "tamil_transliteration": "'த்ந்",
+      "tamil_meaning": "காது",
+      "english_meaning": "Ear",
+      "malayalam": "ചെവി"
+    },
+    {
+      "arabic": "أنف",
+      "english_transliteration": "'nf",
+      "tamil_transliteration": "'ந்ஃப்",
+      "tamil_meaning": "மூக்கு",
+      "english_meaning": "Nose",
+      "malayalam": "മൂക്ക്"
+    },
+    {
+      "arabic": "لسان",
+      "english_transliteration": "Lsn",
+      "tamil_transliteration": "ள்ஸ்ந்",
+      "tamil_meaning": "நாக்கு",
+      "english_meaning": "Tongue",
+      "malayalam": "നാവ്"
+    },
+    {
+      "arabic": "سن",
+      "english_transliteration": "Sn",
+      "tamil_transliteration": "ஷ்ந்",
+      "tamil_meaning": "பல்",
+      "english_meaning": "Tooth",
+      "malayalam": "പല്ല്"
+    },
+    {
+      "arabic": "رأس",
+      "english_transliteration": "R's",
+      "tamil_transliteration": "ற்'ஸ்",
+      "tamil_meaning": "தலை",
+      "english_meaning": "Head",
+      "malayalam": "തല"
+    },
+    {
+      "arabic": "شعر",
+      "english_transliteration": "Sh`r",
+      "tamil_transliteration": "ஷ்`ர்",
+      "tamil_meaning": "முடி",
+      "english_meaning": "Hair",
+      "malayalam": "മുടി"
+    },
+    {
+      "arabic": "قلب",
+      "english_transliteration": "Qlb",
+      "tamil_transliteration": "Qல்ப்",
+      "tamil_meaning": "இதயம்",
+      "english_meaning": "Heart",
+      "malayalam": "ഹൃദയം"
+    },
+    {
+      "arabic": "إصبع",
+      "english_transliteration": "Sb`",
+      "tamil_transliteration": "ஷ்ப்`",
+      "tamil_meaning": "விரல்",
+      "english_meaning": "Finger",
+      "malayalam": "കൈവിരൽ"
+    },
+    {
+      "arabic": "معدة",
+      "english_transliteration": "M`d@",
+      "tamil_transliteration": "ம்`த்@",
+      "tamil_meaning": "வயிறு",
+      "english_meaning": "Stomach",
+      "malayalam": "വയറു"
+    },
+    {
+      "arabic": "عظم",
+      "english_transliteration": "`zm",
+      "tamil_transliteration": "`ஃஜ்ம்",
+      "tamil_meaning": "எலும்பு",
+      "english_meaning": "Bone",
+      "malayalam": "എല്ല്"
+    },
+    {
+      "arabic": "وزن",
+      "english_transliteration": "Wzn",
+      "tamil_transliteration": "Wஃஜ்ந்",
+      "tamil_meaning": "எடை",
+      "english_meaning": "Weight",
+      "malayalam": "തൂക്കം"
+    },
+    {
+      "arabic": "مقاس",
+      "english_transliteration": "Mqs",
+      "tamil_transliteration": "ம்ஃ'க்ஸ்",
+      "tamil_meaning": "அளவு",
+      "english_meaning": "Size",
+      "malayalam": "വലുപ്പം"
+    },
+    {
+      "arabic": "مسافة",
+      "english_transliteration": "Msf@",
+      "tamil_transliteration": "ம்ஸ்ஃப்@",
+      "tamil_meaning": "தூரம்",
+      "english_meaning": "Distance",
+      "malayalam": "ദൂരം"
+    },
+    {
+      "arabic": "عمق",
+      "english_transliteration": "`mq",
+      "tamil_transliteration": "`ம்ஃ'க்",
+      "tamil_meaning": "ஆழம்",
+      "english_meaning": "Depth",
+      "malayalam": "ആഴം"
+    },
+    {
+      "arabic": "ارتفاع",
+      "english_transliteration": "Rtf`",
+      "tamil_transliteration": "ற்த்ஃப்`",
+      "tamil_meaning": "உயரம்",
+      "english_meaning": "Height",
+      "malayalam": "ഉയരം"
+    },
+    {
+      "arabic": "حائط",
+      "english_transliteration": "Hy't",
+      "tamil_transliteration": "ஃய்'த்",
+      "tamil_meaning": "சுவர்",
+      "english_meaning": "Wall",
+      "malayalam": "ചുമി"
+    },
+    {
+      "arabic": "باب",
+      "english_transliteration": "Bb",
+      "tamil_transliteration": "Bப்",
+      "tamil_meaning": "கதவு",
+      "english_meaning": "Door",
+      "malayalam": "വാതിൽ"
+    },
+    {
+      "arabic": "نافذة",
+      "english_transliteration": "Nfdh@",
+      "tamil_transliteration": "ண்ஃப்த்@",
+      "tamil_meaning": "சன்னல்",
+      "english_meaning": "Window",
+      "malayalam": "ജനൽ"
+    },
+    {
+      "arabic": "أرضية",
+      "english_transliteration": "'rdy@",
+      "tamil_transliteration": "'ர்த்ய்@",
+      "tamil_meaning": "த தரை",
+      "english_meaning": "Floor",
+      "malayalam": "തറ"
+    },
+    {
+      "arabic": "سَطح",
+      "english_transliteration": "Sath",
+      "tamil_transliteration": "ஷத்",
+      "tamil_meaning": "கூரை",
+      "english_meaning": "Roof",
+      "malayalam": "മേൽക്കൂര"
+    },
+    {
+      "arabic": "سرير",
+      "english_transliteration": "Sryr",
+      "tamil_transliteration": "ஷ்ர்ய்ர்",
+      "tamil_meaning": "படுக்கை",
+      "english_meaning": "Bed",
+      "malayalam": "കിടക്ക"
+    },
+    {
+      "arabic": "كرسي",
+      "english_transliteration": "Krsy",
+      "tamil_transliteration": "ஃக²்ர்ஸ்ய்",
+      "tamil_meaning": "நாற்காலி",
+      "english_meaning": "Chair",
+      "malayalam": "കസേര"
+    },
+    {
+      "arabic": "طاولة",
+      "english_transliteration": "Twl@",
+      "tamil_transliteration": "ட்வ்ல்@",
+      "tamil_meaning": "மேஜை",
+      "english_meaning": "Table",
+      "malayalam": "മേശ"
+    },
+    {
+      "arabic": "مرآة",
+      "english_transliteration": "Mra@",
+      "tamil_transliteration": "ம்ர@",
+      "tamil_meaning": "கண்ணாடி",
+      "english_meaning": "Mirror",
+      "malayalam": "കണ്ണാടി"
+    },
+    {
+      "arabic": "سكين",
+      "english_transliteration": "Skyn",
+      "tamil_transliteration": "ஷ்க்ய்ந்",
+      "tamil_meaning": "கத்தி",
+      "english_meaning": "Knife",
+      "malayalam": "കത്തി"
+    },
+    {
+      "arabic": "ملعقة / مغرفة",
+      "english_transliteration": "Ml`q@ / mgrf@",
+      "tamil_transliteration": "ம்ல்`ஃ'க்@ / ம்க்ர்ஃப்@",
+      "tamil_meaning": "கரண்டி",
+      "english_meaning": "Spoon / Ladle",
+      "malayalam": "തവി"
+    },
+    {
+      "arabic": "سفينة / إناء",
+      "english_transliteration": "Sfyn@ / n",
+      "tamil_transliteration": "ஷ்ஃப்ய்ந்@ / ந்",
+      "tamil_meaning": "பாத்திரம்",
+      "english_meaning": "Vessel / Utensil",
+      "malayalam": "പാത്രം"
+    },
+    {
+      "arabic": "علبة الثقاب",
+      "english_transliteration": "`lb@ lthqb",
+      "tamil_transliteration": "`ல்ப்@ ல்த்ஃ'க்ப்",
+      "tamil_meaning": "தீப்பெட்டி",
+      "english_meaning": "Matchbox",
+      "malayalam": "തീപ്പെട്ടി"
+    },
+    {
+      "arabic": "شمعة",
+      "english_transliteration": "Shm`@",
+      "tamil_transliteration": "ஷ்ம்`@",
+      "tamil_meaning": "மெழுகுவர்த்தி",
+      "english_meaning": "Candle",
+      "malayalam": "മെഴുകുതിരി"
+    },
+    {
+      "arabic": "قطعة قماش",
+      "english_transliteration": "Qt`@ qmsh",
+      "tamil_transliteration": "Qத்`@ ஃ'க்ம்ஶ்",
+      "tamil_meaning": "துணி",
+      "english_meaning": "Cloth",
+      "malayalam": "തുണി"
+    },
+    {
+      "arabic": "إبرة",
+      "english_transliteration": "Br@",
+      "tamil_transliteration": "Bர்@",
+      "tamil_meaning": "ஊசி",
+      "english_meaning": "Needle",
+      "malayalam": "സൂചി"
+    },
+    {
+      "arabic": "خيط",
+      "english_transliteration": "Khyt",
+      "tamil_transliteration": "ஃக²்ஹ்ய்த்",
+      "tamil_meaning": "நூல்",
+      "english_meaning": "Thread",
+      "malayalam": "നൂൽ"
+    },
+    {
+      "arabic": "مقص",
+      "english_transliteration": "Mqs",
+      "tamil_transliteration": "ம்ஃ'க்ஸ்",
+      "tamil_meaning": "கத்தரிக்கோல்",
+      "english_meaning": "Scissors",
+      "malayalam": "കത്രിക"
+    },
+    {
+      "arabic": "مفتاح",
+      "english_transliteration": "Mfth",
+      "tamil_transliteration": "ம்ஃப்த்",
+      "tamil_meaning": "சாவி",
+      "english_meaning": "Key",
+      "malayalam": "താക്കോൽ"
+    },
+    {
+      "arabic": "قفل",
+      "english_transliteration": "Qfl",
+      "tamil_transliteration": "Qஃப்ல்",
+      "tamil_meaning": "பூட்டு",
+      "english_meaning": "Lock",
+      "malayalam": "പൂട്ട്"
+    },
+    {
+      "arabic": "صندوق",
+      "english_transliteration": "Sndwq",
+      "tamil_transliteration": "ஷ்ந்த்வ்ஃ'க்",
+      "tamil_meaning": "பெட்டி",
+      "english_meaning": "Box",
+      "malayalam": "പെട്ടി"
+    },
+    {
+      "arabic": "بنك",
+      "english_transliteration": "Bnk",
+      "tamil_transliteration": "Bந்க்",
+      "tamil_meaning": "வங்கி",
+      "english_meaning": "Bank",
+      "malayalam": "ബാങ്ക്"
+    },
+    {
+      "arabic": "عمل",
+      "english_transliteration": "`ml",
+      "tamil_transliteration": "`ம்ல்",
+      "tamil_meaning": "வியாபாரம்",
+      "english_meaning": "Business",
+      "malayalam": "വ്യാപാരം"
+    },
+    {
+      "arabic": "الوظيفة / العمل",
+      "english_transliteration": "Lwzyf@ / l`ml",
+      "tamil_transliteration": "ள்வ்ஃஜ்ய்ஃப்@ / ல்`ம்ல்",
+      "tamil_meaning": "வேலை",
+      "english_meaning": "Job / Work",
+      "malayalam": "തൊഴിൽ"
+    },
+    {
+      "arabic": "الادخار",
+      "english_transliteration": "Ldkhr",
+      "tamil_transliteration": "ள்த்க்ர்",
+      "tamil_meaning": "சேமிப்பு",
+      "english_meaning": "Savings",
+      "malayalam": "സമ്പാദ്യം"
+    },
+    {
+      "arabic": "حساب",
+      "english_transliteration": "Hsb",
+      "tamil_transliteration": "ஃஸ்ப்",
+      "tamil_meaning": "செலவு",
+      "english_meaning": "Expense",
+      "malayalam": "ചെലവ്"
+    },
+    {
+      "arabic": "ربح",
+      "english_transliteration": "Rbh",
+      "tamil_transliteration": "ற்ப்",
+      "tamil_meaning": "லாபம்",
+      "english_meaning": "Profit",
+      "malayalam": "ലാഭം"
+    },
+    {
+      "arabic": "خسارة",
+      "english_transliteration": "Khsr@",
+      "tamil_transliteration": "ஃக²்ஹ்ஸ்ர்@",
+      "tamil_meaning": "நஷ்டம்",
+      "english_meaning": "Loss",
+      "malayalam": "നഷ്ടം"
+    },
+    {
+      "arabic": "حكومة",
+      "english_transliteration": "Hkwm@",
+      "tamil_transliteration": "ஃக்வ்ம்@",
+      "tamil_meaning": "அரசாங்கம்",
+      "english_meaning": "Government",
+      "malayalam": "സർക്കാർ"
+    },
+    {
+      "arabic": "قانون",
+      "english_transliteration": "Qnwn",
+      "tamil_transliteration": "Qந்வ்ந்",
+      "tamil_meaning": "சட்டம்",
+      "english_meaning": "Law",
+      "malayalam": "നിയമം"
+    },
+    {
+      "arabic": "عدالة",
+      "english_transliteration": "`dl@",
+      "tamil_transliteration": "`த்ல்@",
+      "tamil_meaning": "நீதி",
+      "english_meaning": "Justice",
+      "malayalam": "നീതിന്യായം"
+    },
+    {
+      "arabic": "جريمة / خطأ",
+      "english_transliteration": "Jrym@ / kht'",
+      "tamil_transliteration": "ஃஜ்ர்ய்ம்@ / க்த்'",
+      "tamil_meaning": "குற்றம்",
+      "english_meaning": "Crime / Fault",
+      "malayalam": "കുറ്റം"
+    },
+    {
+      "arabic": "العقوبة",
+      "english_transliteration": "L`qwb@",
+      "tamil_transliteration": "ள்`ஃ'க்வ்ப்@",
+      "tamil_meaning": "தண்டனை",
+      "english_meaning": "Punishment",
+      "malayalam": "ശിക്ഷ"
+    },
+    {
+      "arabic": "سلاح",
+      "english_transliteration": "Slh",
+      "tamil_transliteration": "ஷ்ல்ஹ்",
+      "tamil_meaning": "ஆயுதம்",
+      "english_meaning": "Weapon",
+      "malayalam": "ആയുധം"
+    },
+    {
+      "arabic": "حرب",
+      "english_transliteration": "Hrb",
+      "tamil_transliteration": "ஃர்ப்",
+      "tamil_meaning": "போர்",
+      "english_meaning": "War",
+      "malayalam": "യുദ്ധം"
+    },
+    {
+      "arabic": "سلام",
+      "english_transliteration": "Slm",
+      "tamil_transliteration": "ஷ்ல்ம்",
+      "tamil_meaning": "அமைதி",
+      "english_meaning": "Peace",
+      "malayalam": "സമാധാനം"
+    },
+    {
+      "arabic": "حرية",
+      "english_transliteration": "Hry@",
+      "tamil_transliteration": "ஃர்ய்@",
+      "tamil_meaning": "சுதந்திரம்",
+      "english_meaning": "Freedom",
+      "malayalam": "സ്വാതന്ത്ര്യം"
+    },
+    {
+      "arabic": "مهرجان",
+      "english_transliteration": "Mhrjn",
+      "tamil_transliteration": "ம்ஹ்ர்ஜ்ந்",
+      "tamil_meaning": "திருவிழா",
+      "english_meaning": "Festival",
+      "malayalam": "ഉത്സവം"
+    },
+    {
+      "arabic": "احتفال",
+      "english_transliteration": "Htfl",
+      "tamil_transliteration": "ஃத்ஃப்ல்",
+      "tamil_meaning": "கொண்டாட்டம்",
+      "english_meaning": "Celebration",
+      "malayalam": "ആഘോഷം"
+    },
+    {
+      "arabic": "زواج",
+      "english_transliteration": "Zwj",
+      "tamil_transliteration": "Zவ்ஜ்",
+      "tamil_meaning": "திருமணம்",
+      "english_meaning": "Marriage",
+      "malayalam": "വിവാഹം"
+    },
+    {
+      "arabic": "الولادة",
+      "english_transliteration": "Lwld@",
+      "tamil_transliteration": "ள்வ்ல்த்@",
+      "tamil_meaning": "பிறப்பு",
+      "english_meaning": "Birth",
+      "malayalam": "ജനനം"
+    },
+    {
+      "arabic": "موت",
+      "english_transliteration": "Mwt",
+      "tamil_transliteration": "ம்வ்த்",
+      "tamil_meaning": "இறப்பு",
+      "english_meaning": "Death",
+      "malayalam": "മരണം"
+    },
+    {
+      "arabic": "يٌقطِّع",
+      "english_transliteration": "Yunqtwi`",
+      "tamil_transliteration": "ஃயுந்ஃ'க்த்வி`",
+      "tamil_meaning": "கண்ணீர்",
+      "english_meaning": "Tear",
+      "malayalam": "കണ്ണുനീർ"
+    },
+    {
+      "arabic": "إبتسم / ضحك",
+      "english_transliteration": "Btsm / dhk",
+      "tamil_transliteration": "Bத்ஸ்ம் / த்க்",
+      "tamil_meaning": "புன்னகை / சிரிப்பு",
+      "english_meaning": "Smile / Laughter",
+      "malayalam": "ചിരി"
+    },
+    {
+      "arabic": "حلم",
+      "english_transliteration": "Hlm",
+      "tamil_transliteration": "ஃல்ம்",
+      "tamil_meaning": "கனவு",
+      "english_meaning": "Dream",
+      "malayalam": "സ്വപ്നം"
+    },
+    {
+      "arabic": "سر",
+      "english_transliteration": "Sr",
+      "tamil_transliteration": "ஷ்ர்",
+      "tamil_meaning": "ரகசியம்",
+      "english_meaning": "Secret",
+      "malayalam": "രഹസ്യം"
+    },
+    {
+      "arabic": "العجب / المعجزة",
+      "english_transliteration": "L`jb / lm`jz@",
+      "tamil_transliteration": "ள்`ஜ்ப் / ல்ம்`ஜ்ஃஜ்@",
+      "tamil_meaning": "அற்புதம்",
+      "english_meaning": "Wonder / Miracle",
+      "malayalam": "അത്ഭുതം"
+    },
+    {
+      "arabic": "مفاجأة",
+      "english_transliteration": "Mfj'@",
+      "tamil_transliteration": "ம்ஃப்ஜ்'@",
+      "tamil_meaning": "வியப்பு",
+      "english_meaning": "Surprise",
+      "malayalam": "ആശ്ചര്യം"
+    },
+    {
+      "arabic": "الحزن",
+      "english_transliteration": "Lhzn",
+      "tamil_transliteration": "ள்ஹ்ஃஜ்ந்",
+      "tamil_meaning": "துக்கம்",
+      "english_meaning": "Sadness",
+      "malayalam": "സങ്കടം"
+    },
+    {
+      "arabic": "القوة / القوة",
+      "english_transliteration": "Lqw@ / lqw@",
+      "tamil_transliteration": "ள்ஃ'க்வ்@ / ல்ஃ'க்வ்@",
+      "tamil_meaning": "சக்தி / பலம்",
+      "english_meaning": "Strength / Power",
+      "malayalam": "ശക്തി"
+    },
+    {
+      "arabic": "التعب / الضعف",
+      "english_transliteration": "Lt`b / ld`f",
+      "tamil_transliteration": "ள்த்`ப் / ல்த்`ஃப்",
+      "tamil_meaning": "சோர்வு",
+      "english_meaning": "Tiredness / Weakness",
+      "malayalam": "ക്ഷീണം"
+    },
+    {
+      "arabic": "صحة",
+      "english_transliteration": "Sh@",
+      "tamil_transliteration": "ஷ்@",
+      "tamil_meaning": "உடல்நலம்",
+      "english_meaning": "Health",
+      "malayalam": "ആരോഗ്യം"
+    },
+    {
+      "arabic": "المرض / المرض",
+      "english_transliteration": "Lmrd / lmrd",
+      "tamil_transliteration": "ள்ம்ர்த் / ல்ம்ர்த்",
+      "tamil_meaning": "நோய்",
+      "english_meaning": "Disease / Illness",
+      "malayalam": "രോഗം"
+    },
+    {
+      "arabic": "سم",
+      "english_transliteration": "Sm",
+      "tamil_transliteration": "ஷ்ம்",
+      "tamil_meaning": "நஞ்சு",
+      "english_meaning": "Poison",
+      "malayalam": "വിഷം"
+    },
+    {
+      "arabic": "رحيق",
+      "english_transliteration": "Rhyq",
+      "tamil_transliteration": "ற்ஹ்ய்ஃ'க்",
+      "tamil_meaning": "அமிர்தம்",
+      "english_meaning": "Nectar",
+      "malayalam": "അമൃത്"
+    },
+    {
+      "arabic": "بذرة",
+      "english_transliteration": "Bdhr@",
+      "tamil_transliteration": "Bத்ர்@",
+      "tamil_meaning": "விதை",
+      "english_meaning": "Seed",
+      "malayalam": "വിത്ത്"
+    },
+    {
+      "arabic": "جذر",
+      "english_transliteration": "Jdhr",
+      "tamil_transliteration": "ஃஜ்த்ர்",
+      "tamil_meaning": "வேர்",
+      "english_meaning": "Root",
+      "malayalam": "വേര്"
+    },
+    {
+      "arabic": "ورقة",
+      "english_transliteration": "Wrq@",
+      "tamil_transliteration": "Wர்ஃ'க்@",
+      "tamil_meaning": "இலை",
+      "english_meaning": "Leaf",
+      "malayalam": "ഇല"
+    },
+    {
+      "arabic": "برعم",
+      "english_transliteration": "Br`m",
+      "tamil_transliteration": "Bர்`ம்",
+      "tamil_meaning": "மொட்டு",
+      "english_meaning": "Bud",
+      "malayalam": "മൊട്ട്"
+    },
+    {
+      "arabic": "الفاكهة الخام / جراب",
+      "english_transliteration": "Lfkh@ lkhm / jrb",
+      "tamil_transliteration": "ள்ஃப்க்@ ல்க்ம் / ஜ்ர்ப்",
+      "tamil_meaning": "காய்",
+      "english_meaning": "Raw Fruit / Pod",
+      "malayalam": "കായ്"
+    },
+    {
+      "arabic": "التربة / الأرض",
+      "english_transliteration": "Ltrb@ / l'rd",
+      "tamil_transliteration": "ள்த்ர்ப்@ / ல்'ர்த்",
+      "tamil_meaning": "மண்",
+      "english_meaning": "Soil / Earth",
+      "malayalam": "മണ്ണ്"
+    },
+    {
+      "arabic": "صخرة / حجر",
+      "english_transliteration": "Skhr@ / hjr",
+      "tamil_transliteration": "ஷ்க்ர்@ / ஹ்ஜ்ர்",
+      "tamil_meaning": "பாறை",
+      "english_meaning": "Rock / Stone",
+      "malayalam": "പാറ"
+    },
+    {
+      "arabic": "رمل",
+      "english_transliteration": "Rml",
+      "tamil_transliteration": "ற்ம்ல்",
+      "tamil_meaning": "மணல்",
+      "english_meaning": "Sand",
+      "malayalam": "മണൽ"
+    },
+    {
+      "arabic": "بنزين",
+      "english_transliteration": "Bnzyn",
+      "tamil_transliteration": "Bந்ஃஜ்ய்ந்",
+      "tamil_meaning": "பெட்ரோல்",
+      "english_meaning": "Petrol",
+      "malayalam": "പെട്രോൾ"
+    },
+    {
+      "arabic": "الفحم",
+      "english_transliteration": "Lfhm",
+      "tamil_transliteration": "ள்ஃப்ஹ்ம்",
+      "tamil_meaning": "கரி",
+      "english_meaning": "Coal",
+      "malayalam": "കൽക്കരി"
+    },
+    {
+      "arabic": "الرياح / الهواء",
+      "english_transliteration": "Lryh / lhw",
+      "tamil_transliteration": "ள்ர்ய்ஹ் / ல்ஹ்வ்",
+      "tamil_meaning": "காற்று",
+      "english_meaning": "Wind / Air",
+      "malayalam": "കാറ്റ്"
+    },
+    {
+      "arabic": "نجم",
+      "english_transliteration": "Njm",
+      "tamil_transliteration": "ண்ஜ்ம்",
+      "tamil_meaning": "நட்சத்திரம்",
+      "english_meaning": "Star",
+      "malayalam": "നക്ഷത്രം"
+    },
+    {
+      "arabic": "سحاب",
+      "english_transliteration": "Shb",
+      "tamil_transliteration": "ஷ்ப்",
+      "tamil_meaning": "மேகம்",
+      "english_meaning": "Cloud",
+      "malayalam": "മേഘം"
+    },
+    {
+      "arabic": "البرق / الرعد",
+      "english_transliteration": "Lbrq / lr`d",
+      "tamil_transliteration": "ள்ப்ர்ஃ'க் / ல்ர்`த்",
+      "tamil_meaning": "இடிமின்னல்",
+      "english_meaning": "Lightning / Thunder",
+      "malayalam": "ഇടിമിന്നൽ"
+    },
+    {
+      "arabic": "البصر/العرض",
+      "english_transliteration": "Lbsr/l`rd",
+      "tamil_transliteration": "ள்ப்ஸ்ர்/ல்`ர்த்",
+      "tamil_meaning": "காட்சி",
+      "english_meaning": "Sight / View",
+      "malayalam": "കാഴ്ച"
+    },
+    {
+      "arabic": "صوت",
+      "english_transliteration": "Swt",
+      "tamil_transliteration": "ஷ்வ்த்",
+      "tamil_meaning": "சத்தம்",
+      "english_meaning": "Sound",
+      "malayalam": "ശബ്ദം"
+    },
+    {
+      "arabic": "الرائحة / العطر",
+      "english_transliteration": "Lry'h@ / l`tr",
+      "tamil_transliteration": "ள்ர்ய்'ஹ்@ / ல்`த்ர்",
+      "tamil_meaning": "வாசம் / மணம்",
+      "english_meaning": "Smell / Fragrance",
+      "malayalam": "മണം"
+    },
+    {
+      "arabic": "ذوق",
+      "english_transliteration": "Dhwq",
+      "tamil_transliteration": "ட்வ்ஃ'க்",
+      "tamil_meaning": "சுவை",
+      "english_meaning": "Taste",
+      "malayalam": "രുചി"
+    },
+    {
+      "arabic": "يلمس",
+      "english_transliteration": "Ylms",
+      "tamil_transliteration": "ஃய்ல்ம்ஸ்",
+      "tamil_meaning": "தொடுதல்",
+      "english_meaning": "Touch",
+      "malayalam": "സ്പർശം"
+    },
+    {
+      "arabic": "حياة",
+      "english_transliteration": "Hy@",
+      "tamil_transliteration": "ஃய்@",
+      "tamil_meaning": "வாழ்க்கை",
+      "english_meaning": "Life",
+      "malayalam": "ജീവിതം"
+    },
+    {
+      "arabic": "الزمن / العصر",
+      "english_transliteration": "Lzmn / l`sr",
+      "tamil_transliteration": "ள்ஃஜ்ம்ந் / ல்`ஸ்ர்",
+      "tamil_meaning": "காலம்",
+      "english_meaning": "Time / Era",
+      "malayalam": "കാലം"
+    },
+    {
+      "arabic": "العصر / العمر",
+      "english_transliteration": "L`sr / l`mr",
+      "tamil_transliteration": "ள்`ஸ்ர் / ல்`ம்ர்",
+      "tamil_meaning": "யுகம்",
+      "english_meaning": "Era / Age",
+      "malayalam": "യുഗം"
+    },
+    {
+      "arabic": "دقيقة / لحظة",
+      "english_transliteration": "Dqyq@ / lhz@",
+      "tamil_transliteration": "ட்ஃ'க்ய்ஃ'க்@ / ல்ஹ்ஃஜ்@",
+      "tamil_meaning": "நொடி / நிமிடம்",
+      "english_meaning": "Minute / Moment",
+      "malayalam": "നിമിഷം"
+    },
+    {
+      "arabic": "ساعة",
+      "english_transliteration": "S`@",
+      "tamil_transliteration": "ஷ்`@",
+      "tamil_meaning": "மணி நேரம்",
+      "english_meaning": "Hour",
+      "malayalam": "മണിക്കൂർ"
+    },
+    {
+      "arabic": "أسبوع",
+      "english_transliteration": "'sbw`",
+      "tamil_transliteration": "'ஸ்ப்வ்`",
+      "tamil_meaning": "வாரம்",
+      "english_meaning": "Week",
+      "malayalam": "ആഴ്ച"
+    },
+    {
+      "arabic": "شهر",
+      "english_transliteration": "Shhr",
+      "tamil_transliteration": "ஷ்ஹ்ர்",
+      "tamil_meaning": "மாதம்",
+      "english_meaning": "Month",
+      "malayalam": "മാസം"
+    },
+    {
+      "arabic": "سنة",
+      "english_transliteration": "Sn@",
+      "tamil_transliteration": "ஷ்ந்@",
+      "tamil_meaning": "ஆண்டு",
+      "english_meaning": "Year",
+      "malayalam": "വർഷം"
+    },
+    {
+      "arabic": "نسبة مئوية",
+      "english_transliteration": "Nsb@ my'wy@",
+      "tamil_transliteration": "ண்ஸ்ப்@ ம்ய்'வ்ய்@",
+      "tamil_meaning": "சவீதம்",
+      "english_meaning": "Percentage",
+      "malayalam": "ശതമാനം"
+    },
+    {
+      "arabic": "الرقم / العدد",
+      "english_transliteration": "Lrqm / l`dd",
+      "tamil_transliteration": "ள்ர்ஃ'க்ம் / ல்`த்த்",
+      "tamil_meaning": "எண்ணிக்கை",
+      "english_meaning": "Number / Count",
+      "malayalam": "എണ്ണം"
+    },
+    {
+      "arabic": "مشاركة / جزء",
+      "english_transliteration": "Mshrk@ / jz",
+      "tamil_transliteration": "ம்ஶ்ர்க்@ / ஜ்ஃஜ்",
+      "tamil_meaning": "பங்கு",
+      "english_meaning": "Share / Part",
+      "malayalam": "പങ്ക്"
+    },
+    {
+      "arabic": "كامل / كامل",
+      "english_transliteration": "Kml / kml",
+      "tamil_transliteration": "ஃக²்ம்ல் / க்ம்ல்",
+      "tamil_meaning": "முழுவதும்",
+      "english_meaning": "Whole / Complete",
+      "malayalam": "മുഴുവൻ"
+    },
+    {
+      "arabic": "نصف",
+      "english_transliteration": "Nsf",
+      "tamil_transliteration": "ண்ஸ்ஃப்",
+      "tamil_meaning": "பாதி",
+      "english_meaning": "Half",
+      "malayalam": "പാതി"
+    },
+    {
+      "arabic": "الاهتمام / الرعاية",
+      "english_transliteration": "Lhtmm / lr`y@",
+      "tamil_transliteration": "ள்ஹ்த்ம்ம் / ல்ர்`ய்@",
+      "tamil_meaning": "கவனம்",
+      "english_meaning": "Attention / Care",
+      "malayalam": "ശ്രദ്ധ"
+    },
+    {
+      "arabic": "نجاح",
+      "english_transliteration": "Njh",
+      "tamil_transliteration": "ண்ச்",
+      "tamil_meaning": "வெற்றி",
+      "english_meaning": "Success",
+      "malayalam": "വിജയം"
+    },
+    {
+      "arabic": "الهدف / الهدف",
+      "english_transliteration": "Lhdf / lhdf",
+      "tamil_transliteration": "ள்ஹ்த்ஃப் / ல்ஹ்த்ஃப்",
+      "tamil_meaning": "இலக்கு",
+      "english_meaning": "Goal / Target",
+      "malayalam": "ലക്ഷ്യം"
+    },
+    {
+      "arabic": "محاولة / عمل شاق",
+      "english_transliteration": "Mhwl@ / `ml shq",
+      "tamil_transliteration": "ம்ஹ்வ்ல்@ / `ம்ல் ஶ்ஃ'க்",
+      "tamil_meaning": "முயற்சி",
+      "english_meaning": "Attempt / Hard work",
+      "malayalam": "ശ്രമം"
+    },
+    {
+      "arabic": "الإيمان / الثقة",
+      "english_transliteration": "Lymn / lthq@",
+      "tamil_transliteration": "ள்ய்ம்ந் / ல்த்ஃ'க்@",
+      "tamil_meaning": "நம்பிக்கை",
+      "english_meaning": "Faith / Trust",
+      "malayalam": "വിശ്വാസം"
+    },
+    {
+      "arabic": "شك",
+      "english_transliteration": "Shk",
+      "tamil_transliteration": "ஷ்க்",
+      "tamil_meaning": "சந்தேகம்",
+      "english_meaning": "Doubt",
+      "malayalam": "സംശയം"
+    },
+    {
+      "arabic": "قرار",
+      "english_transliteration": "Qrr",
+      "tamil_transliteration": "Qர்ர்",
+      "tamil_meaning": "முடிவு",
+      "english_meaning": "Decision",
+      "malayalam": "തീരുമാനം"
+    },
+    {
+      "arabic": "رأي",
+      "english_transliteration": "R'y",
+      "tamil_transliteration": "ற்'ய்",
+      "tamil_meaning": "கருத்து",
+      "english_meaning": "Opinion",
+      "malayalam": "അഭിപ്രായം"
+    },
+    {
+      "arabic": "التدريب / الممارسة",
+      "english_transliteration": "Ltdryb / lmmrs@",
+      "tamil_transliteration": "ள்த்த்ர்ய்ப் / ல்ம்ம்ர்ஸ்@",
+      "tamil_meaning": "பயிற்சி",
+      "english_meaning": "Training / Practice",
+      "malayalam": "പരിശീലനം"
+    },
+    {
+      "arabic": "خبرة",
+      "english_transliteration": "Khbr@",
+      "tamil_transliteration": "ஃக²்ஹ்ப்ர்@",
+      "tamil_meaning": "அனுபவம்",
+      "english_meaning": "Experience",
+      "malayalam": "അനുഭവം"
+    },
+    {
+      "arabic": "الصداقة",
+      "english_transliteration": "Lsdq@",
+      "tamil_transliteration": "ள்ஸ்த்ஃ'க்@",
+      "tamil_meaning": "நட்பு",
+      "english_meaning": "Friendship",
+      "malayalam": "സൗഹൃദം"
+    },
+    {
+      "arabic": "العلاقة / السندات",
+      "english_transliteration": "L`lq@ / lsndt",
+      "tamil_transliteration": "ள்`ல்ஃ'க்@ / ல்ஸ்ந்த்த்",
+      "tamil_meaning": "உறவு",
+      "english_meaning": "Relation / Bond",
+      "malayalam": "ബന്ധം"
+    },
+    {
+      "arabic": "العدو",
+      "english_transliteration": "L`dw",
+      "tamil_transliteration": "ள்`த்வ்",
+      "tamil_meaning": "எதிரி",
+      "english_meaning": "Enemy",
+      "malayalam": "ശത്രു"
+    },
+    {
+      "arabic": "عائلة",
+      "english_transliteration": "`y'l@",
+      "tamil_transliteration": "`ய்'ல்@",
+      "tamil_meaning": "குடும்பம்",
+      "english_meaning": "Family",
+      "malayalam": "കുടുംബം"
+    },
+    {
+      "arabic": "جار",
+      "english_transliteration": "Jr",
+      "tamil_transliteration": "ஃஜ்ர்",
+      "tamil_meaning": "அண்டை வீட்டுக்காரர்",
+      "english_meaning": "Neighbor",
+      "malayalam": "അയൽവാസി"
+    },
+    {
+      "arabic": "ضيف",
+      "english_transliteration": "Dyf",
+      "tamil_transliteration": "ட்ய்ஃப்",
+      "tamil_meaning": "விருந்தினர்",
+      "english_meaning": "Guest",
+      "malayalam": "അതിഥി"
+    },
+    {
+      "arabic": "شخص",
+      "english_transliteration": "Shkhs",
+      "tamil_transliteration": "ஷ்க்ஸ்",
+      "tamil_meaning": "நபர்",
+      "english_meaning": "Person",
+      "malayalam": "ആൾ"
+    },
+    {
+      "arabic": "العامة / الناس",
+      "english_transliteration": "L`m@ / lns",
+      "tamil_transliteration": "ள்`ம்@ / ல்ந்ஸ்",
+      "tamil_meaning": "மக்கள் கூட்டம்",
+      "english_meaning": "Public / People",
+      "malayalam": "ജനത"
+    },
+    {
+      "arabic": "اجتماعي",
+      "english_transliteration": "Jtm`y",
+      "tamil_transliteration": "ஃஜ்த்ம்`ய்",
+      "tamil_meaning": "சமூகம் சார்ந்தது",
+      "english_meaning": "Social",
+      "malayalam": "സമൂഹിക"
+    },
+    {
+      "arabic": "منظمة",
+      "english_transliteration": "Mnzm@",
+      "tamil_transliteration": "ம்ந்ஃஜ்ம்@",
+      "tamil_meaning": "அமைப்பு",
+      "english_meaning": "Organization",
+      "malayalam": "സംഘടന"
+    },
+    {
+      "arabic": "قائد",
+      "english_transliteration": "Qy'd",
+      "tamil_transliteration": "Qய்'த்",
+      "tamil_meaning": "தலைவர்",
+      "english_meaning": "Leader",
+      "malayalam": "നേതാവ്"
+    },
+    {
+      "arabic": "تابع",
+      "english_transliteration": "Tb`",
+      "tamil_transliteration": "ட்ப்`",
+      "tamil_meaning": "தொண்டர் / பின்பற்றுபவர்",
+      "english_meaning": "Follower",
+      "malayalam": "അനുയായി"
+    },
+    {
+      "arabic": "مسؤولية",
+      "english_transliteration": "Msw'wly@",
+      "tamil_transliteration": "ம்ஸ்வ்'வ்ல்ய்@",
+      "tamil_meaning": "பொறுப்பு",
+      "english_meaning": "Responsibility",
+      "malayalam": "ചുമതല"
+    },
+    {
+      "arabic": "الحق / المطالبة",
+      "english_transliteration": "Lhq / lmtlb@",
+      "tamil_transliteration": "ள்ஹ்ஃ'க் / ல்ம்த்ல்ப்@",
+      "tamil_meaning": "உரிமை",
+      "english_meaning": "Right / Claim",
+      "malayalam": "അവകാശം"
+    },
+    {
+      "arabic": "واجب",
+      "english_transliteration": "Wjb",
+      "tamil_transliteration": "Wஜ்ப்",
+      "tamil_meaning": "கடமை",
+      "english_meaning": "Duty",
+      "malayalam": "കടമ"
+    },
+    {
+      "arabic": "خدمة",
+      "english_transliteration": "Khdm@",
+      "tamil_transliteration": "ஃக²்ஹ்த்ம்@",
+      "tamil_meaning": "சேவை",
+      "english_meaning": "Service",
+      "malayalam": "സേവനം"
+    },
+    {
+      "arabic": "مساعدة / مساعدة",
+      "english_transliteration": "Ms`d@ / ms`d@",
+      "tamil_transliteration": "ம்ஸ்`த்@ / ம்ஸ்`த்@",
+      "tamil_meaning": "உதவி",
+      "english_meaning": "Help / Aid",
+      "malayalam": "സഹായം"
+    },
+    {
+      "arabic": "التبرع / الخيرية",
+      "english_transliteration": "Ltbr` / lkhyry@",
+      "tamil_transliteration": "ள்த்ப்ர்` / ல்க்ய்ர்ய்@",
+      "tamil_meaning": "தானம்",
+      "english_meaning": "Donation / Charity",
+      "malayalam": "ദാനം"
+    },
+    {
+      "arabic": "هدية / جائزة",
+      "english_transliteration": "Hdy@ / jy'z@",
+      "tamil_transliteration": "ஃத்ய்@ / ஜ்ய்'ஃஜ்@",
+      "tamil_meaning": "பரிசு",
+      "english_meaning": "Gift / Prize",
+      "malayalam": "സമ്മാനം"
+    },
+    {
+      "arabic": "لجعل سعيدا",
+      "english_transliteration": "Lj`l s`yd",
+      "tamil_transliteration": "ள்ஜ்`ல் ஸ்`ய்த்",
+      "tamil_meaning": "மகிழ்ச்சிப்படுத்துதல்",
+      "english_meaning": "To Make Happy",
+      "malayalam": "സന്തോഷിപ്പിക്കുക"
+    },
+    {
+      "arabic": "لجعل البكاء",
+      "english_transliteration": "Lj`l lbk",
+      "tamil_transliteration": "ள்ஜ்`ல் ல்ப்க்",
+      "tamil_meaning": "அழவைத்தல்",
+      "english_meaning": "To Make Cry",
+      "malayalam": "കരയിപ്പിക്കുക"
+    },
+    {
+      "arabic": "موثوق",
+      "english_transliteration": "Mwthwq",
+      "tamil_transliteration": "ம்வ்த்வ்ஃ'க்",
+      "tamil_meaning": "நம்பகமான",
+      "english_meaning": "Reliable",
+      "malayalam": "വിശ്വാസയോഗ്യമായ"
+    },
+    {
+      "arabic": "مشهور",
+      "english_transliteration": "Mshhwr",
+      "tamil_transliteration": "ம்ஷ்வ்ர்",
+      "tamil_meaning": "புகழ்பெற்ற",
+      "english_meaning": "Famous",
+      "malayalam": "പ്രശസ്തമായ"
+    },
+    {
+      "arabic": "نادر",
+      "english_transliteration": "Ndr",
+      "tamil_transliteration": "ண்த்ர்",
+      "tamil_meaning": "அரிய",
+      "english_meaning": "Rare",
+      "malayalam": "അപൂർവ്വമായ"
+    },
+    {
+      "arabic": "عادي / عادي",
+      "english_transliteration": "`dy / `dy",
+      "tamil_transliteration": "`த்ய் / `த்ய்",
+      "tamil_meaning": "சாதாரணமான",
+      "english_meaning": "Common / Normal",
+      "malayalam": "സാധാരണ"
+    },
+    {
+      "arabic": "خاص",
+      "english_transliteration": "Khs",
+      "tamil_transliteration": "ஃக²்ஹ்ஸ்",
+      "tamil_meaning": "சிறப்பு",
+      "english_meaning": "Special",
+      "malayalam": "പ്രത്യേക"
+    },
+    {
+      "arabic": "رئيسي / رئيسي",
+      "english_transliteration": "Ry'ysy / ry'ysy",
+      "tamil_transliteration": "ற்ய்'ய்ஸ்ய் / ர்ய்'ய்ஸ்ய்",
+      "tamil_meaning": "முக்கியமான",
+      "english_meaning": "Main / Principal",
+      "malayalam": "മുഖ്യ"
+    },
+    {
+      "arabic": "قاصر / صغير",
+      "english_transliteration": "Qsr / sgyr",
+      "tamil_transliteration": "Qஸ்ர் / ஸ்க்ய்ர்",
+      "tamil_meaning": "சிறிய",
+      "english_meaning": "Minor / Small",
+      "malayalam": "ചെറിയ"
+    },
+    {
+      "arabic": "الرائد / الكبير",
+      "english_transliteration": "Lry'd / lkbyr",
+      "tamil_transliteration": "ள்ர்ய்'த் / ல்க்ப்ய்ர்",
+      "tamil_meaning": "பெரிய",
+      "english_meaning": "Major / Big",
+      "malayalam": "വലിയ"
+    },
+    {
+      "arabic": "حديث",
+      "english_transliteration": "Hdyth",
+      "tamil_transliteration": "ஃத்ய்த்",
+      "tamil_meaning": "நவீன",
+      "english_meaning": "Modern",
+      "malayalam": "ആധുനിക"
+    },
+    {
+      "arabic": "قديم / قديم",
+      "english_transliteration": "Qdym / qdym",
+      "tamil_transliteration": "Qத்ய்ம் / ஃ'க்த்ய்ம்",
+      "tamil_meaning": "பண்டைய / பழைய",
+      "english_meaning": "Ancient / Old",
+      "malayalam": "പഴയ"
+    },
+    {
+      "arabic": "جديد",
+      "english_transliteration": "Jdyd",
+      "tamil_transliteration": "ஃஜ்த்ய்த்",
+      "tamil_meaning": "புதியது",
+      "english_meaning": "New One",
+      "malayalam": "പുതിയത്"
+    },
+    {
+      "arabic": "قديم",
+      "english_transliteration": "Qdym",
+      "tamil_transliteration": "Qத்ய்ம்",
+      "tamil_meaning": "பழையது",
+      "english_meaning": "Old One",
+      "malayalam": "പഴയത്"
+    },
+    {
+      "arabic": "بشكل صحيح",
+      "english_transliteration": "Bshkl shyh",
+      "tamil_transliteration": "Bஶ்க்ல் ஶ்ய்ஹ்",
+      "tamil_meaning": " சரியாக",
+      "english_meaning": "Correctly",
+      "malayalam": "ശരിയായി"
+    },
+    {
+      "arabic": "خطأ",
+      "english_transliteration": "Kht'",
+      "tamil_transliteration": "ஃக²்ஹ்த்'",
+      "tamil_meaning": "தவறாக",
+      "english_meaning": "Wrongly",
+      "malayalam": "തെറ്റായി"
+    },
+    {
+      "arabic": "بدقة / على وجه السرعة",
+      "english_transliteration": "Bdq@ / `l~ wjh lsr`@",
+      "tamil_transliteration": "Bத்ஃ'க்@ / `ல்ऽ வ்ச் ல்ஸ்ர்`@",
+      "tamil_meaning": "துல்லியமாக",
+      "english_meaning": "Accurately / Promptly",
+      "malayalam": "കൃത്യമായി"
+    },
+    {
+      "arabic": "فجأة / بسرعة",
+      "english_transliteration": "Fj'@ / bsr`@",
+      "tamil_transliteration": "Fஜ்'@ / ப்ஸ்ர்`@",
+      "tamil_meaning": "திடீரென்று / உடனடியாக",
+      "english_meaning": "Suddenly / Quickly",
+      "malayalam": "പെട്ടെന്ന്"
+    },
+    {
+      "arabic": "ببطء / بهدوء",
+      "english_transliteration": "Bbt / bhdw",
+      "tamil_transliteration": "Bப்த் / ப்த்வ்",
+      "tamil_meaning": "மெதுவாக",
+      "english_meaning": "Slowly / Softly",
+      "malayalam": "പതുക്കെ"
+    },
+    {
+      "arabic": "بصوت عال",
+      "english_transliteration": "Bswt `l",
+      "tamil_transliteration": "Bஸ்வ்த் `ல்",
+      "tamil_meaning": "உரக்க",
+      "english_meaning": "Loudly",
+      "malayalam": "ഉച്ചത്തിൽ"
+    },
+    {
+      "arabic": "بصمت",
+      "english_transliteration": "Bsmt",
+      "tamil_transliteration": "Bஸ்ம்த்",
+      "tamil_meaning": "அமைதியாக",
+      "english_meaning": "Silently",
+      "malayalam": "നിശബ്ദമായി"
+    },
+    {
+      "arabic": "بوضوح",
+      "english_transliteration": "Bwdwh",
+      "tamil_transliteration": "Bவ்த்வ்ஹ்",
+      "tamil_meaning": "தெளிவாக",
+      "english_meaning": "Clearly",
+      "malayalam": "വ്യക്തമായി"
+    },
+    {
+      "arabic": "مختفي",
+      "english_transliteration": "Mkhtfy",
+      "tamil_transliteration": "ம்க்த்ஃப்ய்",
+      "tamil_meaning": "மறைந்திருக்கும்",
+      "english_meaning": "Hidden",
+      "malayalam": "മറഞ്ഞിരിക്കുന്ന"
+    },
+    {
+      "arabic": "يفتح",
+      "english_transliteration": "Yfth",
+      "tamil_transliteration": "ஃய்ஃப்த்",
+      "tamil_meaning": "திறந்த",
+      "english_meaning": "Open",
+      "malayalam": "തുറന്ന"
+    },
+    {
+      "arabic": "مغلق",
+      "english_transliteration": "Mglq",
+      "tamil_transliteration": "ம்க்ல்ஃ'க்",
+      "tamil_meaning": "மூடிய",
+      "english_meaning": "Closed",
+      "malayalam": "അടച്ച"
+    },
+    {
+      "arabic": "ممتلىء",
+      "english_transliteration": "Mmtl~",
+      "tamil_transliteration": "ம்ம்த்ல்ऽ",
+      "tamil_meaning": "நிறைந்த",
+      "english_meaning": "Full",
+      "malayalam": "നிறைந்த"
+    },
+    {
+      "arabic": "فارغ",
+      "english_transliteration": "Frg",
+      "tamil_transliteration": "Fர்க்",
+      "tamil_meaning": "வெற்று / காலியான",
+      "english_meaning": "Empty",
+      "malayalam": "ശൂന്യമായ"
+    },
+    {
+      "arabic": "متسخ",
+      "english_transliteration": "Mtskh",
+      "tamil_transliteration": "ம்த்ஸ்க்",
+      "tamil_meaning": "அழுக்கான",
+      "english_meaning": "Dirty",
+      "malayalam": "അവൃത്തിയായ"
+    },
+    {
+      "arabic": "سميك",
+      "english_transliteration": "Smyk",
+      "tamil_transliteration": "ஷ்ம்ய்க்",
+      "tamil_meaning": "தடிமனான",
+      "english_meaning": "Thick",
+      "malayalam": "കട്ടിയുള്ള"
+    },
+    {
+      "arabic": "رفيع",
+      "english_transliteration": "Rfy`",
+      "tamil_transliteration": "ற்ஃப்ய்`",
+      "tamil_meaning": "மெல்லிய",
+      "english_meaning": "Thin",
+      "malayalam": "കനംകുറഞ്ഞ"
+    },
+    {
+      "arabic": "ثقيل",
+      "english_transliteration": "Thqyl",
+      "tamil_transliteration": "ட்ஃ'க்ய்ல்",
+      "tamil_meaning": "பாரமான",
+      "english_meaning": "Heavy",
+      "malayalam": "ഭാരമുള്ള"
+    },
+    {
+      "arabic": "الضوء (الوزن)",
+      "english_transliteration": "Ldw (lwzn)",
+      "tamil_transliteration": "ள்த்வ் (ல்வ்ஃஜ்ந்)",
+      "tamil_meaning": "லேசான",
+      "english_meaning": "Light (Weight)",
+      "malayalam": "ഭാരമില്ലാത്ത"
+    },
+    {
+      "arabic": "عالية / طويل القامة",
+      "english_transliteration": "`ly@ / twyl lqm@",
+      "tamil_transliteration": "`ல்ய்@ / த்வ்ய்ல் ல்ஃ'க்ம்@",
+      "tamil_meaning": "உயர்ந்த",
+      "english_meaning": "High / Tall",
+      "malayalam": "ഉയർന്ന"
+    },
+    {
+      "arabic": "قليل",
+      "english_transliteration": "Qlyl",
+      "tamil_transliteration": "Qல்ய்ல்",
+      "tamil_meaning": "தாழ்ந்த",
+      "english_meaning": "Low",
+      "malayalam": "താഴ്ന്ന"
+    },
+    {
+      "arabic": "مستقيم",
+      "english_transliteration": "Mstqym",
+      "tamil_transliteration": "ம்ஸ்த்ஃ'க்ய்ம்",
+      "tamil_meaning": "நேரான",
+      "english_meaning": "Straight",
+      "malayalam": "നേരായ"
+    },
+    {
+      "arabic": "منحني / ملتوي",
+      "english_transliteration": "Mnhny / mltwy",
+      "tamil_transliteration": "ம்ந்ஹ்ந்ய் / ம்ல்த்வ்ய்",
+      "tamil_meaning": "வளைந்த",
+      "english_meaning": "Curved / Crooked",
+      "malayalam": "വളഞ്ഞ"
+    },
+    {
+      "arabic": "حاد",
+      "english_transliteration": "Hd",
+      "tamil_transliteration": "ஃத்",
+      "tamil_meaning": "கூர்மையான",
+      "english_meaning": "Sharp",
+      "malayalam": "കൂർത്ത"
+    },
+    {
+      "arabic": "صريح",
+      "english_transliteration": "Sryh",
+      "tamil_transliteration": "ஷ்ர்ய்ஹ்",
+      "tamil_meaning": "மழுங்கிய",
+      "english_meaning": "Blunt",
+      "malayalam": "മൊ偿 / മഴുங்கிய"
+    },
+    {
+      "arabic": "ناعم",
+      "english_transliteration": "N`m",
+      "tamil_transliteration": "ண்`ம்",
+      "tamil_meaning": "மென்மையான",
+      "english_meaning": "Soft",
+      "malayalam": "മൃദുവായ"
+    },
+    {
+      "arabic": "صعب / صعب",
+      "english_transliteration": "S`b / s`b",
+      "tamil_transliteration": "ஷ்`ப் / ஸ்`ப்",
+      "tamil_meaning": "கடினமான",
+      "english_meaning": "Hard / Tough",
+      "malayalam": "കഠിനമായ"
+    },
+    {
+      "arabic": "الرطب / الرطب",
+      "english_transliteration": "Lrtb / lrtb",
+      "tamil_transliteration": "ள்ர்த்ப் / ல்ர்த்ப்",
+      "tamil_meaning": "ஈரமான",
+      "english_meaning": "Wet / Damp",
+      "malayalam": "ഈർപ്പമുള്ള"
+    },
+    {
+      "arabic": "جاف",
+      "english_transliteration": "Jf",
+      "tamil_transliteration": "ஃஜ்ஃப்",
+      "tamil_meaning": "உலர்ந்த",
+      "english_meaning": "Dry",
+      "malayalam": "ഉണങ്ങിയ"
+    },
+    {
+      "arabic": "ليلا",
+      "english_transliteration": "Lyl",
+      "tamil_transliteration": "ள்ய்ல்",
+      "tamil_meaning": "இரவு நேரம்",
+      "english_meaning": "Nighttime",
+      "malayalam": "രാത്രിസമയം"
+    },
+    {
+      "arabic": "الفجر / الصباح الباكر",
+      "english_transliteration": "Lfjr / lsbh lbkr",
+      "tamil_transliteration": "ள்ஃப்ஜ்ர் / ல்ஸ்ப் ல்ப்க்ர்",
+      "tamil_meaning": "விடியற்காலை",
+      "english_meaning": "Dawn / Early Morning",
+      "malayalam": "പുലർച്ചെ"
+    },
+    {
+      "arabic": "مساء",
+      "english_transliteration": "Ms",
+      "tamil_transliteration": "ம்ஸ்",
+      "tamil_meaning": "மாலை நேரம்",
+      "english_meaning": "Evening",
+      "malayalam": "വൈകുന്നേരം"
+    },
+    {
+      "arabic": "مدينة",
+      "english_transliteration": "Mdyn@",
+      "tamil_transliteration": "ம்த்ய்ந்@",
+      "tamil_meaning": "நகரம்",
+      "english_meaning": "City",
+      "malayalam": "നഗരം"
+    },
+    {
+      "arabic": "قرية",
+      "english_transliteration": "Qry@",
+      "tamil_transliteration": "Qர்ய்@",
+      "tamil_meaning": "கிராமம்",
+      "english_meaning": "Village",
+      "malayalam": "ഗ്രാമം"
+    },
+    {
+      "arabic": "شارع",
+      "english_transliteration": "Shr`",
+      "tamil_transliteration": "ஷ்ர்`",
+      "tamil_meaning": "தெரு",
+      "english_meaning": "Street",
+      "malayalam": "തെരുവ്"
+    },
+    {
+      "arabic": "حارة / المسار",
+      "english_transliteration": "Hr@ / lmsr",
+      "tamil_transliteration": "ஃர்@ / ல்ம்ஸ்ர்",
+      "tamil_meaning": "வீதி",
+      "english_meaning": "Lane / Pathway",
+      "malayalam": "വീഥി"
+    },
+    {
+      "arabic": "كوبري",
+      "english_transliteration": "Kwbry",
+      "tamil_transliteration": "ஃக²்வ்ப்ர்ய்",
+      "tamil_meaning": "பாலம்",
+      "english_meaning": "Bridge",
+      "malayalam": "പാലം"
+    },
+    {
+      "arabic": "مبنى",
+      "english_transliteration": "Mbn~",
+      "tamil_transliteration": "ம்ப்ந்ऽ",
+      "tamil_meaning": "கட்டிடம்",
+      "english_meaning": "Building",
+      "malayalam": "കെട്ടിടം"
+    },
+    {
+      "arabic": "برج",
+      "english_transliteration": "Brj",
+      "tamil_transliteration": "Bர்ஜ்",
+      "tamil_meaning": "கோபுரம்",
+      "english_meaning": "Tower",
+      "malayalam": "ഗോപുരം"
+    },
+    {
+      "arabic": "معبد",
+      "english_transliteration": "M`bd",
+      "tamil_transliteration": "ம்`ப்த்",
+      "tamil_meaning": "கோவில்",
+      "english_meaning": "Temple",
+      "malayalam": "അമ്പലം"
+    },
+    {
+      "arabic": "مسجد / كنيسة",
+      "english_transliteration": "Msjd / knys@",
+      "tamil_transliteration": "ம்ஸ்ஜ்த் / க்ந்ய்ஸ்@",
+      "tamil_meaning": "பள்ளிவாசல் / தேவாலயம்",
+      "english_meaning": "Mosque / Church",
+      "malayalam": "പള്ളി"
+    },
+    {
+      "arabic": "متحف",
+      "english_transliteration": "Mthf",
+      "tamil_transliteration": "ம்த்ஃப்",
+      "tamil_meaning": "அருங்காட்சியகம்",
+      "english_meaning": "Museum",
+      "malayalam": "മ്യൂസിയം"
+    },
+    {
+      "arabic": "مكتبة",
+      "english_transliteration": "Mktb@",
+      "tamil_transliteration": "ம்க்த்ப்@",
+      "tamil_meaning": "நூலகம்",
+      "english_meaning": "Library",
+      "malayalam": "ഗ്രന്ഥശാല"
+    },
+    {
+      "arabic": "حديقة",
+      "english_transliteration": "Hdyq@",
+      "tamil_transliteration": "ஃத்ய்ஃ'க்@",
+      "tamil_meaning": "பூங்கா",
+      "english_meaning": "Park",
+      "malayalam": "പാർക്ക്"
+    },
+    {
+      "arabic": "حديقة الحيوان",
+      "english_transliteration": "Hdyq@ lhywn",
+      "tamil_transliteration": "ஃத்ய்ஃ'க்@ ல்ஹ்ய்வ்ந்",
+      "tamil_meaning": "விலங்குக்காட்சிச்சாலை",
+      "english_meaning": "Zoo",
+      "malayalam": "മൃഗശാല"
+    },
+    {
+      "arabic": "مطار",
+      "english_transliteration": "Mtr",
+      "tamil_transliteration": "ம்த்ர்",
+      "tamil_meaning": "விமான நிலையம்",
+      "english_meaning": "Airport",
+      "malayalam": "വിമാനത്താവളം"
+    },
+    {
+      "arabic": "محطة سكة حديد",
+      "english_transliteration": "Mht@ sk@ hdyd",
+      "tamil_transliteration": "ம்ஹ்த்@ ஸ்க்@ ஹ்த்ய்த்",
+      "tamil_meaning": "ரெயில் நிலையம்",
+      "english_meaning": "Railway Station",
+      "malayalam": "റെയിൽവേ സ്റ്റേഷൻ"
+    },
+    {
+      "arabic": "موقف الحافلات",
+      "english_transliteration": "Mwqf lhflt",
+      "tamil_transliteration": "ம்வ்ஃ'க்ஃப் ல்ஹ்ஃப்ல்த்",
+      "tamil_meaning": "பேருந்து நிலையம்",
+      "english_meaning": "Bus Stand",
+      "malayalam": "ബസ് സ്റ്റാൻഡ്"
+    },
+    {
+      "arabic": "الميناء / الميناء",
+      "english_transliteration": "Lmyn / lmyn",
+      "tamil_transliteration": "ள்ம்ய்ந் / ல்ம்ய்ந்",
+      "tamil_meaning": "துறைமுகம்",
+      "english_meaning": "Harbor / Port",
+      "malayalam": "തുറമുഖം"
+    },
+    {
+      "arabic": "المنطقة الساحلية",
+      "english_transliteration": "Lmntq@ lshly@",
+      "tamil_transliteration": "ள்ம்ந்த்ஃ'க்@ ல்ஶ்ல்ய்@",
+      "tamil_meaning": "கடற்கரை பகுதி",
+      "english_meaning": "Coastal Area",
+      "malayalam": "തീരപ്രദേശം"
+    },
+    {
+      "arabic": "جزيرة",
+      "english_transliteration": "Jzyr@",
+      "tamil_transliteration": "ஃஜ்ஃஜ்ய்ர்@",
+      "tamil_meaning": "தீவு",
+      "english_meaning": "Island",
+      "malayalam": "ദ്വീപ്"
+    },
+    {
+      "arabic": "شبه جزيرة",
+      "english_transliteration": "Shbh jzyr@",
+      "tamil_transliteration": "ஷ்ப் ஜ்ஃஜ்ய்ர்@",
+      "tamil_meaning": "தீபகற்பம்",
+      "english_meaning": "Peninsula",
+      "malayalam": "പെനിൻസുല"
+    },
+    {
+      "arabic": "شبه الجزيرة",
+      "english_transliteration": "Shbh ljzyr@",
+      "tamil_transliteration": "ஷ்ப் ல்ஜ்ஃஜ்ய்ர்@",
+      "tamil_meaning": "சிறிய தீவு",
+      "english_meaning": "Sub-island",
+      "malayalam": "ഉപദ്വീപ്"
+    },
+    {
+      "arabic": "مستنقع",
+      "english_transliteration": "Mstnq`",
+      "tamil_transliteration": "ம்ஸ்த்ந்ஃ'க்`",
+      "tamil_meaning": "சதுப்பு நிலம்",
+      "english_meaning": "Swamp",
+      "malayalam": "ചതുപ്പ്"
+    },
+    {
+      "arabic": "صحراء",
+      "english_transliteration": "Shr",
+      "tamil_transliteration": "ஷ்ர்",
+      "tamil_meaning": "பாலைவனம்",
+      "english_meaning": "Desert",
+      "malayalam": "മരുഭൂമി"
+    },
+    {
+      "arabic": "قمة التل",
+      "english_transliteration": "Qm@ ltl",
+      "tamil_transliteration": "Qம்@ ல்த்ல்",
+      "tamil_meaning": "குன்றின் மீது",
+      "english_meaning": "Hilltop",
+      "malayalam": "കുന്നിൻപുറം"
+    },
+    {
+      "arabic": "الوادي",
+      "english_transliteration": "Lwdy",
+      "tamil_transliteration": "ள்வ்த்ய்",
+      "tamil_meaning": "பள்ளத்தாக்கு",
+      "english_meaning": "Valley",
+      "malayalam": "താഴ്വര"
+    },
+    {
+      "arabic": "تيار / شلال",
+      "english_transliteration": "Tyr / shll",
+      "tamil_transliteration": "ட்ய்ர் / ஶ்ல்ல்",
+      "tamil_meaning": "அருவி",
+      "english_meaning": "Stream / Waterfall",
+      "malayalam": "അരുവി"
+    },
+    {
+      "arabic": "بركة",
+      "english_transliteration": "Brk@",
+      "tamil_transliteration": "Bர்க்@",
+      "tamil_meaning": "குளம்",
+      "english_meaning": "Pond",
+      "malayalam": "കുളം"
+    },
+    {
+      "arabic": "حسنًا",
+      "english_transliteration": "Hsnan",
+      "tamil_transliteration": "ஃஸ்நந்",
+      "tamil_meaning": "கிணறு",
+      "english_meaning": "Well",
+      "malayalam": "കിണർ"
+    },
+    {
+      "arabic": "بحيرة",
+      "english_transliteration": "Bhyr@",
+      "tamil_transliteration": "Bஹ்ய்ர்@",
+      "tamil_meaning": "ஏரி / தடாகம்",
+      "english_meaning": "Lake",
+      "malayalam": "തടാകം"
+    },
+    {
+      "arabic": "المناطق النائية / البحيرة",
+      "english_transliteration": "Lmntq lny'y@ / lbhyr@",
+      "tamil_transliteration": "ள்ம்ந்த்ஃ'க் ல்ந்ய்'ய்@ / ல்ப்ய்ர்@",
+      "tamil_meaning": "காயல்",
+      "english_meaning": "Backwaters / Lagoon",
+      "malayalam": "കായൽ"
+    },
+    {
+      "arabic": "محيط",
+      "english_transliteration": "Mhyt",
+      "tamil_transliteration": "ம்ஹ்ய்த்",
+      "tamil_meaning": "பெருங்கடல்",
+      "english_meaning": "Ocean",
+      "malayalam": "പെരുങ്കടൽ"
+    },
+    {
+      "arabic": "موجة",
+      "english_transliteration": "Mwj@",
+      "tamil_transliteration": "ம்வ்ஜ்@",
+      "tamil_meaning": "அலை",
+      "english_meaning": "Wave",
+      "malayalam": "തിരമാല"
+    },
+    {
+      "arabic": "جلمود",
+      "english_transliteration": "Jlmwd",
+      "tamil_transliteration": "ஃஜ்ல்ம்வ்த்",
+      "tamil_meaning": "பாறாங்கல்",
+      "english_meaning": "Boulder",
+      "malayalam": "പാറക്കല്ല്"
+    },
+    {
+      "arabic": "نهر جليدي / صفيحة جليدية",
+      "english_transliteration": "Nhr jlydy / sfyh@ jlydy@",
+      "tamil_transliteration": "ண்ஹ்ர் ஜ்ல்ய்த்ய் / ஸ்ஃப்ய்ஹ்@ ஜ்ல்ய்த்ய்@",
+      "tamil_meaning": "பனிப்பாறை",
+      "english_meaning": "Glacier / Ice Sheet",
+      "malayalam": "മഞ്ഞുപാളി"
+    },
+    {
+      "arabic": "جبال الهيمالايا",
+      "english_transliteration": "Jbl lhymly",
+      "tamil_transliteration": "ஃஜ்ப்ல் ல்ஹ்ய்ம்ல்ய்",
+      "tamil_meaning": "இமாலயம்",
+      "english_meaning": "Himalayas",
+      "malayalam": "ഹിമാലയം"
+    },
+    {
+      "arabic": "نيزك",
+      "english_transliteration": "Nyzk",
+      "tamil_transliteration": "ண்ய்ஃஜ்க்",
+      "tamil_meaning": "எல்கை / விண்கல்",
+      "english_meaning": "Meteor",
+      "malayalam": "ഉൽക്ക"
+    },
+    {
+      "arabic": "كوكب",
+      "english_transliteration": "Kwkb",
+      "tamil_transliteration": "ஃக²்வ்க்ப்",
+      "tamil_meaning": "கோள்",
+      "english_meaning": "Planet",
+      "malayalam": "ഗ്രഹം"
+    },
+    {
+      "arabic": "القمر الصناعي",
+      "english_transliteration": "Lqmr lsn`y",
+      "tamil_transliteration": "ள்ஃ'க்ம்ர் ல்ஸ்ந்`ய்",
+      "tamil_meaning": "துணைக்கோள்",
+      "english_meaning": "Satellite",
+      "malayalam": "ഉപഗ്രഹം"
+    },
+    {
+      "arabic": "المجرة / الكون الفضاء",
+      "english_transliteration": "Lmjr@ / lkwn lfd",
+      "tamil_transliteration": "ள்ம்ஜ்ர்@ / ல்க்வ்ந் ல்ஃப்த்",
+      "tamil_meaning": "விண்வெளி",
+      "english_meaning": "Galaxy / Universe Space",
+      "malayalam": "വിൺപടം"
+    },
+    {
+      "arabic": "الفضاء الخارجي",
+      "english_transliteration": "Lfd lkhrjy",
+      "tamil_transliteration": "ள்ஃப்த் ல்க்ர்ஜ்ய்",
+      "tamil_meaning": "வெளி மண்டலம்",
+      "english_meaning": "Outer Space",
+      "malayalam": "ബഹിരാകാശം"
+    },
+    {
+      "arabic": "عالم",
+      "english_transliteration": "`lm",
+      "tamil_transliteration": "`ல்ம்",
+      "tamil_meaning": "அறிவியலாளர்",
+      "english_meaning": "Scientist",
+      "malayalam": "ശാസ്ത്രജ്ഞൻ"
+    },
+    {
+      "arabic": "بحث",
+      "english_transliteration": "Bhth",
+      "tamil_transliteration": "Bஹ்த்",
+      "tamil_meaning": "ஆராய்ச்சி",
+      "english_meaning": "Research",
+      "malayalam": "ഗവേഷണം"
+    },
+    {
+      "arabic": "اختراع / اكتشاف",
+      "english_transliteration": "Khtr` / ktshf",
+      "tamil_transliteration": "ஃக²்ஹ்த்ர்` / க்த்ஶ்ஃப்",
+      "tamil_meaning": "கண்டுபிடிப்பு",
+      "english_meaning": "Invention / Discovery",
+      "malayalam": "കണ്ടുപിടുത്തം"
+    },
+    {
+      "arabic": "آلة",
+      "english_transliteration": "Al@",
+      "tamil_transliteration": "ஆல்@",
+      "tamil_meaning": "இயந்திரம்",
+      "english_meaning": "Machine",
+      "malayalam": "യന്ത്രം"
+    },
+    {
+      "arabic": "حاسوب",
+      "english_transliteration": "Hswb",
+      "tamil_transliteration": "ஃஸ்வ்ப்",
+      "tamil_meaning": "கணினி",
+      "english_meaning": "Computer",
+      "malayalam": "കമ്പ്യൂട്ടർ"
+    },
+    {
+      "arabic": "هاتف",
+      "english_transliteration": "Htf",
+      "tamil_transliteration": "ஃத்ஃப்",
+      "tamil_meaning": "பேசி / தொலைபேசி",
+      "english_meaning": "Phone",
+      "malayalam": "ഫോൺ"
+    },
+    {
+      "arabic": "آلة تصوير",
+      "english_transliteration": "Al@ tswyr",
+      "tamil_transliteration": "ஆல்@ த்ஸ்வ்ய்ர்",
+      "tamil_meaning": "புகைப்படக்கருவி",
+      "english_meaning": "Camera",
+      "malayalam": "ക്യാമറ"
+    },
+    {
+      "arabic": "راديو",
+      "english_transliteration": "Rdyw",
+      "tamil_transliteration": "ற்த்ய்வ்",
+      "tamil_meaning": "வானொலி",
+      "english_meaning": "Radio",
+      "malayalam": "റേഡിയോ"
+    },
+    {
+      "arabic": "تلفزيون",
+      "english_transliteration": "Tlfzywn",
+      "tamil_transliteration": "ட்ல்ஃப்ஃஜ்ய்வ்ந்",
+      "tamil_meaning": "தொலைக்காட்சி",
+      "english_meaning": "Television",
+      "malayalam": "ടെലിവിഷൻ"
+    },
+    {
+      "arabic": "كهرباء",
+      "english_transliteration": "Khrb",
+      "tamil_transliteration": "ஃக²்ஹ்ர்ப்",
+      "tamil_meaning": "மின்சாரம்",
+      "english_meaning": "Electricity",
+      "malayalam": "വൈദ്യുതി"
+    },
+    {
+      "arabic": "لمبة",
+      "english_transliteration": "Lmb@",
+      "tamil_transliteration": "ள்ம்ப்@",
+      "tamil_meaning": "மின்விளக்கு",
+      "english_meaning": "Bulb",
+      "malayalam": "ബൾബ്"
+    },
+    {
+      "arabic": "توضيح",
+      "english_transliteration": "Twdyh",
+      "tamil_transliteration": "ட்வ்த்ய்ஹ்",
+      "tamil_meaning": "விளக்கம்",
+      "english_meaning": "Explanation",
+      "malayalam": "വിശ채ീകരണം"
+    },
+    {
+      "arabic": "حل",
+      "english_transliteration": "Hl",
+      "tamil_transliteration": "ஃல்",
+      "tamil_meaning": "தீர்வு",
+      "english_meaning": "Solution",
+      "malayalam": "പരിഹാരം"
+    },
+    {
+      "arabic": "يستخدم",
+      "english_transliteration": "Ystkhdm",
+      "tamil_transliteration": "ஃய்ஸ்த்க்த்ம்",
+      "tamil_meaning": "பயன்பாடு",
+      "english_meaning": "Use",
+      "malayalam": "ഉപയോഗം"
+    },
+    {
+      "arabic": "منتج",
+      "english_transliteration": "Mntj",
+      "tamil_transliteration": "ம்ந்த்ஜ்",
+      "tamil_meaning": "தயாரிப்பு",
+      "english_meaning": "Product",
+      "malayalam": "ഉൽപന്നം"
+    },
+    {
+      "arabic": "أُوكَازيُون",
+      "english_transliteration": "'uwkazyuwn",
+      "tamil_transliteration": "'உவ்கஃஜ்யுவ்ந்",
+      "tamil_meaning": "விற்பனை",
+      "english_meaning": "Sale",
+      "malayalam": "വില്പന"
+    },
+    {
+      "arabic": "شراء / شراء",
+      "english_transliteration": "Shr / shr",
+      "tamil_transliteration": "ஷ்ர் / ஶ்ர்",
+      "tamil_meaning": "வாங்குதல்",
+      "english_meaning": "Buying / Purchase",
+      "malayalam": "വാങ്ങൽ"
+    },
+    {
+      "arabic": "مستهلك",
+      "english_transliteration": "Msthlk",
+      "tamil_transliteration": "ம்ஸ்த்ல்க்",
+      "tamil_meaning": "நுகர்வோர்",
+      "english_meaning": "Consumer",
+      "malayalam": "ഉപയോക്താവ്"
+    },
+    {
+      "arabic": "استثمار",
+      "english_transliteration": "Stthmr",
+      "tamil_transliteration": "ஷ்த்த்ம்ர்",
+      "tamil_meaning": "முதலீடு",
+      "english_meaning": "Investment",
+      "malayalam": "നിക്ഷേപം"
+    },
+    {
+      "arabic": "رئيس / مالك",
+      "english_transliteration": "Ry'ys / mlk",
+      "tamil_transliteration": "ற்ய்'ய்ஸ் / ம்ல்க்",
+      "tamil_meaning": "முதலாளி",
+      "english_meaning": "Boss / Owner",
+      "malayalam": "മുതലാളി"
+    },
+    {
+      "arabic": "عامل /عاملة",
+      "english_transliteration": "`ml /`ml@",
+      "tamil_transliteration": "`ம்ல் /`ம்ல்@",
+      "tamil_meaning": "தொழிலாளி",
+      "english_meaning": "Worker / Laborer",
+      "malayalam": "തൊഴിലാളി"
+    },
+    {
+      "arabic": "الراتب / الأجر",
+      "english_transliteration": "Lrtb / l'jr",
+      "tamil_transliteration": "ள்ர்த்ப் / ல்'ஜ்ர்",
+      "tamil_meaning": "சம்பளம்",
+      "english_meaning": "Salary / Wage",
+      "malayalam": "ശമ്പളം"
+    },
+    {
+      "arabic": "إجازة / عطلة",
+      "english_transliteration": "Jz@ / `tl@",
+      "tamil_transliteration": "ஃஜ்ஃஜ்@ / `த்ல்@",
+      "tamil_meaning": "விடுமுறை",
+      "english_meaning": "Leave / Holiday",
+      "malayalam": "അവധി"
+    },
+    {
+      "arabic": "استراحة",
+      "english_transliteration": "Strh@",
+      "tamil_transliteration": "ஷ்த்ர்ஹ்@",
+      "tamil_meaning": "ஓய்வு",
+      "english_meaning": "Rest",
+      "malayalam": "വിശ്രമം"
+    },
+    {
+      "arabic": "ملعب",
+      "english_transliteration": "Ml`b",
+      "tamil_transliteration": "ம்ல்`ப்",
+      "tamil_meaning": "விளையாட்டு மைதானம்",
+      "english_meaning": "Playground",
+      "malayalam": "കളിസ്ഥലം"
+    },
+    {
+      "arabic": "الترفيه / المرح",
+      "english_transliteration": "Ltrfyh / lmrh",
+      "tamil_transliteration": "ள்த்ர்ஃப்ய்ஹ் / ல்ம்ர்ஹ்",
+      "tamil_meaning": "பொழுதுபோக்கு",
+      "english_meaning": "Entertainment / Fun",
+      "malayalam": "വിനോദം"
+    },
+    {
+      "arabic": "رحلة / سفر",
+      "english_transliteration": "Rhl@ / sfr",
+      "tamil_transliteration": "ற்ஹ்ல்@ / ஸ்ஃப்ர்",
+      "tamil_meaning": "பயணம்",
+      "english_meaning": "Journey / Travel",
+      "malayalam": "യാത്ര"
+    },
+    {
+      "arabic": "المسافر / السائح",
+      "english_transliteration": "Lmsfr / lsy'h",
+      "tamil_transliteration": "ள்ம்ஸ்ஃப்ர் / ல்ஸ்ய்'ஹ்",
+      "tamil_meaning": "பய பயணி / சுற்றுலா பயணி",
+      "english_meaning": "Traveler / Tourist",
+      "malayalam": "സഞ്ചാരി"
+    },
+    {
+      "arabic": "استكشاف",
+      "english_transliteration": "Stkshf",
+      "tamil_transliteration": "ஷ்த்க்ஶ்ஃப்",
+      "tamil_meaning": "ஆய்வுப் பயணம்",
+      "english_meaning": "Exploration",
+      "malayalam": "പര്യവേക്ഷണം"
+    },
+    {
+      "arabic": "الهجرة / السياحة",
+      "english_transliteration": "Lhjr@ / lsyh@",
+      "tamil_transliteration": "ள்ஹ்ஜ்ர்@ / ல்ஸ்ய்ஹ்@",
+      "tamil_meaning": "நாடோடி பயணம்",
+      "english_meaning": "Migration / Tourism",
+      "malayalam": "ദേശാടനം"
+    },
+    {
+      "arabic": "الحدود / الحدود",
+      "english_transliteration": "Lhdwd / lhdwd",
+      "tamil_transliteration": "ள்ஹ்த்வ்த் / ல்ஹ்த்வ்த்",
+      "tamil_meaning": "எல்லை",
+      "english_meaning": "Border / Boundary",
+      "malayalam": "അതിർത്തി"
+    },
+    {
+      "arabic": "معاهدة / مفرق",
+      "english_transliteration": "M`hd@ / mfrq",
+      "tamil_transliteration": "ம்`ஹ்த்@ / ம்ஃப்ர்ஃ'க்",
+      "tamil_meaning": "உடன்படிக்கை / சந்திப்பு",
+      "english_meaning": "Treaty / Junction",
+      "malayalam": "സന്ധി"
+    },
+    {
+      "arabic": "التوقيع",
+      "english_transliteration": "Ltwqy`",
+      "tamil_transliteration": "ள்த்வ்ஃ'க்ய்`",
+      "tamil_meaning": "கையொப்பமிடுதல்",
+      "english_meaning": "Signing",
+      "malayalam": "ഒപ്പുവെക്കൽ"
+    },
+    {
+      "arabic": "الوثيقة / الخط",
+      "english_transliteration": "Lwthyq@ / lkht",
+      "tamil_transliteration": "ள்வ்த்ய்ஃ'க்@ / ல்க்த்",
+      "tamil_meaning": "ஆவணம் / கோடு",
+      "english_meaning": "Document / Line",
+      "malayalam": "രേഖ"
+    },
+    {
+      "arabic": "إمضاء",
+      "english_transliteration": "Md",
+      "tamil_transliteration": "ம்த்",
+      "tamil_meaning": "கையொப்பம்",
+      "english_meaning": "Signature",
+      "malayalam": "ഒപ്പ്"
+    },
+    {
+      "arabic": "ختم / ختم",
+      "english_transliteration": "Khtm / khtm",
+      "tamil_transliteration": "ஃக²்ஹ்த்ம் / க்த்ம்",
+      "tamil_meaning": "முத்திரை",
+      "english_meaning": "Stamp / Seal",
+      "malayalam": "മുദ്ര"
+    },
+    {
+      "arabic": "الموافقة / الاعتراف",
+      "english_transliteration": "Lmwfq@ / l`trf",
+      "tamil_transliteration": "ள்ம்வ்ஃப்ஃ'க்@ / ல்`த்ர்ஃப்",
+      "tamil_meaning": "அங்கீகாரம்",
+      "english_meaning": "Approval / Recognition",
+      "malayalam": "അംഗീകാരം"
+    },
+    {
+      "arabic": "إنكار / حظر",
+      "english_transliteration": "Nkr / hzr",
+      "tamil_transliteration": "ண்க்ர் / ஹ்ஃஜ்ர்",
+      "tamil_meaning": "மறுப்பு / தடை",
+      "english_meaning": "Denial / Prohibition",
+      "malayalam": "നിഷേധം"
+    },
+    {
+      "arabic": "إذن",
+      "english_transliteration": "Dhn",
+      "tamil_transliteration": "ட்ந்",
+      "tamil_meaning": "அனுமதி",
+      "english_meaning": "Permission",
+      "malayalam": "അനുമതി"
+    },
+    {
+      "arabic": "عقبة",
+      "english_transliteration": "`qb@",
+      "tamil_transliteration": "`ஃ'க்ப்@",
+      "tamil_meaning": "தடை",
+      "english_meaning": "Obstacle",
+      "malayalam": "തടസ്സം"
+    },
+    {
+      "arabic": "تعاون",
+      "english_transliteration": "T`wn",
+      "tamil_transliteration": "ட்`வ்ந்",
+      "tamil_meaning": "ஒத்துழைப்பு",
+      "english_meaning": "Cooperation",
+      "malayalam": "സഹകരണം"
+    },
+    {
+      "arabic": "مسابقة",
+      "english_transliteration": "Msbq@",
+      "tamil_transliteration": "ம்ஸ்ப்ஃ'க்@",
+      "tamil_meaning": "போட்டி",
+      "english_meaning": "Competition",
+      "malayalam": "മത്സരം"
+    },
+    {
+      "arabic": "مشاركة",
+      "english_transliteration": "Mshrk@",
+      "tamil_transliteration": "ம்ஶ்ர்க்@",
+      "tamil_meaning": "பங்கேற்பு",
+      "english_meaning": "Participation",
+      "malayalam": "പങ്കാളിത്തം"
+    },
+    {
+      "arabic": "الفائز",
+      "english_transliteration": "Lfy'z",
+      "tamil_transliteration": "ள்ஃப்ய்'ஃஜ்",
+      "tamil_meaning": "வெற்றியாளர்",
+      "english_meaning": "Winner",
+      "malayalam": "വിജയി"
+    },
+    {
+      "arabic": "خاسر",
+      "english_transliteration": "Khsr",
+      "tamil_transliteration": "ஃக²்ஹ்ஸ்ர்",
+      "tamil_meaning": "தோல்வியுற்றவர்",
+      "english_meaning": "Loser",
+      "malayalam": "പരാജിതൻ"
+    },
+    {
+      "arabic": "الشرف / الجائزة",
+      "english_transliteration": "Lshrf / ljy'z@",
+      "tamil_transliteration": "ள்ஶ்ர்ஃப் / ல்ஜ்ய்'ஃஜ்@",
+      "tamil_meaning": "கௌரவம் / விருது",
+      "english_meaning": "Honor / Award",
+      "malayalam": "ബഹുമതി"
+    },
+    {
+      "arabic": "أموال الجائزة",
+      "english_transliteration": "'mwl ljy'z@",
+      "tamil_transliteration": "'ம்வ்ல் ல்ஜ்ய்'ஃஜ்@",
+      "tamil_meaning": "பரிசுத்தொகை",
+      "english_meaning": "Prize Money",
+      "malayalam": "സമ്മാനത്തുക"
+    },
+    {
+      "arabic": "غنيمة",
+      "english_transliteration": "Gnym@",
+      "tamil_transliteration": "ஃக³்ந்ய்ம்@",
+      "tamil_meaning": "கோப்பை",
+      "english_meaning": "Trophy",
+      "malayalam": "ട്രോഫി"
+    },
+    {
+      "arabic": "علَم",
+      "english_transliteration": "`lam",
+      "tamil_transliteration": "`லம்",
+      "tamil_meaning": "கொடி",
+      "english_meaning": "Flag",
+      "malayalam": "പതാക"
+    },
+    {
+      "arabic": "النشيد الوطني",
+      "english_transliteration": "Lnshyd lwtny",
+      "tamil_transliteration": "ள்ந்ஶ்ய்த் ல்வ்த்ந்ய்",
+      "tamil_meaning": "தேசிய கீதம்",
+      "english_meaning": "National Anthem",
+      "malayalam": "ദേശീയഗാനം"
+    },
+    {
+      "arabic": "شخصية تاريخية",
+      "english_transliteration": "Shkhsy@ trykhy@",
+      "tamil_transliteration": "ஷ்க்ஸ்ய்@ த்ர்ய்க்ய்@",
+      "tamil_meaning": "வரலாற்று நாயகன்",
+      "english_meaning": "Historical Figure",
+      "malayalam": "ചരിത്രപുരുഷൻ"
+    },
+    {
+      "arabic": "مقاتل / ثوري",
+      "english_transliteration": "Mqtl / thwry",
+      "tamil_transliteration": "ம்ஃ'க்த்ல் / த்வ்ர்ய்",
+      "tamil_meaning": "போராளி",
+      "english_meaning": "Fighter / Revolutionary",
+      "malayalam": "പോരാളി"
+    },
+    {
+      "arabic": "ثورة",
+      "english_transliteration": "Thwr@",
+      "tamil_transliteration": "ட்வ்ர்@",
+      "tamil_meaning": "புரட்சி",
+      "english_meaning": "Revolution",
+      "malayalam": "വിപ്ലവം"
+    },
+    {
+      "arabic": "تقدم",
+      "english_transliteration": "Tqdm",
+      "tamil_transliteration": "ட்ஃ'க்த்ம்",
+      "tamil_meaning": "முன்னேற்றம்",
+      "english_meaning": "Progress",
+      "malayalam": "മുന്നേറ്റം"
+    },
+    {
+      "arabic": "التخلف",
+      "english_transliteration": "Ltkhlf",
+      "tamil_transliteration": "ள்த்க்ல்ஃப்",
+      "tamil_meaning": "பின்தங்குதல்",
+      "english_meaning": "Backwardness",
+      "malayalam": "പിന്നോക്കം"
+    },
+    {
+      "arabic": "مستقبل",
+      "english_transliteration": "Mstqbl",
+      "tamil_transliteration": "ம்ஸ்த்ஃ'க்ப்ல்",
+      "tamil_meaning": "எதிர்காலம்",
+      "english_meaning": "Future",
+      "malayalam": "ഭാവി"
+    },
+    {
+      "arabic": "ماضي",
+      "english_transliteration": "Mdy",
+      "tamil_transliteration": "ம்த்ய்",
+      "tamil_meaning": "கடந்த காலம்",
+      "english_meaning": "Past",
+      "malayalam": "ഭൂതകാലം"
+    },
+    {
+      "arabic": "حاضر",
+      "english_transliteration": "Hdr",
+      "tamil_transliteration": "ஃத்ர்",
+      "tamil_meaning": "நிகழ்காலம்",
+      "english_meaning": "Present",
+      "malayalam": "വർത്തമാനകാലം"
+    }
+  ],
+  "total_words": 484
+}

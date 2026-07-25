@@ -1,0 +1,4871 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "total_words": 608,
+  "words": [
+    {
+      "hindi": "नमस्ते",
+      "english_transliteration": "Namaste",
+      "tamil_transliteration": "நமஸ்தே",
+      "tamil_meaning": "வணக்கம்",
+      "english_meaning": "Hello / Greetings",
+      "malayalam": "नमस्ते"
+    },
+    {
+      "hindi": "धन्यवाद",
+      "english_transliteration": "Dhanyavaad",
+      "tamil_transliteration": "தன்யவாத்",
+      "tamil_meaning": "நன்றி",
+      "english_meaning": "Thank you",
+      "malayalam": "धन्यवाद"
+    },
+    {
+      "hindi": "स्वागत है",
+      "english_transliteration": "Swaagat hai",
+      "tamil_transliteration": "ஸ்வாகத் ஹை",
+      "tamil_meaning": "வரவேற்பு",
+      "english_meaning": "Welcome",
+      "malayalam": "स्वागत है"
+    },
+    {
+      "hindi": "शुभ प्रभात",
+      "english_transliteration": "Shubh Prabhaat",
+      "tamil_transliteration": "ஷுப் ப்ரபாத்",
+      "tamil_meaning": "காலை வணக்கம்",
+      "english_meaning": "Good morning",
+      "malayalam": "शुभ प्रभात"
+    },
+    {
+      "hindi": "शुभ रात्रि",
+      "english_transliteration": "Shubh Raatri",
+      "tamil_transliteration": "ஷுப் ராத்ரி",
+      "tamil_meaning": "இனிய இரவு",
+      "english_meaning": "Good night",
+      "malayalam": "शुभ रात्रि"
+    },
+    {
+      "hindi": "पानी",
+      "english_transliteration": "Paani",
+      "tamil_transliteration": "பாணி",
+      "tamil_meaning": "தண்ணீர்",
+      "english_meaning": "Water",
+      "malayalam": "पानी"
+    },
+    {
+      "hindi": "खाना",
+      "english_transliteration": "Khaana",
+      "tamil_transliteration": "கானா",
+      "tamil_meaning": "உணவு",
+      "english_meaning": "Food",
+      "malayalam": "खाना"
+    },
+    {
+      "hindi": "घर",
+      "english_transliteration": "Ghar",
+      "tamil_transliteration": "கர்",
+      "tamil_meaning": "வீடு",
+      "english_meaning": "House / Home",
+      "malayalam": "घर"
+    },
+    {
+      "hindi": "माँ",
+      "english_transliteration": "Maa",
+      "tamil_transliteration": "மா",
+      "tamil_meaning": "அம்மா",
+      "english_meaning": "Mother",
+      "malayalam": "माँ"
+    },
+    {
+      "hindi": "पिता",
+      "english_transliteration": "Pita",
+      "tamil_transliteration": "பிதா",
+      "tamil_meaning": "அப்பா",
+      "english_meaning": "Father",
+      "malayalam": "पिता"
+    },
+    {
+      "hindi": "भाई",
+      "english_transliteration": "Bhaai",
+      "tamil_transliteration": "பாய்",
+      "tamil_meaning": "சகோதரன்",
+      "english_meaning": "Brother",
+      "malayalam": "भाई"
+    },
+    {
+      "hindi": "बहन",
+      "english_transliteration": "Bahan",
+      "tamil_transliteration": "பஹன்",
+      "tamil_meaning": "சகோதரி",
+      "english_meaning": "Sister",
+      "malayalam": "बहन"
+    },
+    {
+      "hindi": "दोस्त",
+      "english_transliteration": "Dost",
+      "tamil_transliteration": "தோஸ்த்",
+      "tamil_meaning": "நண்பன்",
+      "english_meaning": "Friend",
+      "malayalam": "दोस्त"
+    },
+    {
+      "hindi": "पैसा",
+      "english_transliteration": "Paisa",
+      "tamil_transliteration": "பைஸா",
+      "tamil_meaning": "பணம்",
+      "english_meaning": "Money",
+      "malayalam": "पैसा"
+    },
+    {
+      "hindi": "समय",
+      "english_transliteration": "Samay",
+      "tamil_transliteration": "ஸமய்",
+      "tamil_meaning": "நேரம்",
+      "english_meaning": "Time",
+      "malayalam": "समय"
+    },
+    {
+      "hindi": "दिन",
+      "english_transliteration": "Din",
+      "tamil_transliteration": "தின்",
+      "tamil_meaning": "நாள்",
+      "english_meaning": "Day",
+      "malayalam": "दिन"
+    },
+    {
+      "hindi": "रात",
+      "english_transliteration": "Raat",
+      "tamil_transliteration": "ராத்",
+      "tamil_meaning": "இரவு",
+      "english_meaning": "Night",
+      "malayalam": "रात"
+    },
+    {
+      "hindi": "दोपहर",
+      "english_transliteration": "Dopahar",
+      "tamil_transliteration": "தோபஹர்",
+      "tamil_meaning": "பகல்",
+      "english_meaning": "Daytime",
+      "malayalam": "दोपहर"
+    },
+    {
+      "hindi": "सूरज",
+      "english_transliteration": "Sooraj",
+      "tamil_transliteration": "ஸூரஜ்",
+      "tamil_meaning": "சூரியன்",
+      "english_meaning": "Sun",
+      "malayalam": "सूरज"
+    },
+    {
+      "hindi": "चाँद",
+      "english_transliteration": "Chaand",
+      "tamil_transliteration": "சாந்த்",
+      "tamil_meaning": "சந்திரன்",
+      "english_meaning": "Moon",
+      "malayalam": "चाँद"
+    },
+    {
+      "hindi": "आसमान",
+      "english_transliteration": "Aasmaan",
+      "tamil_transliteration": "ஆஸ்மான்",
+      "tamil_meaning": "வானம்",
+      "english_meaning": "Sky",
+      "malayalam": "आसमान"
+    },
+    {
+      "hindi": "धरती",
+      "english_transliteration": "Dharti",
+      "tamil_transliteration": "தர்தி",
+      "tamil_meaning": "பூமி",
+      "english_meaning": "Earth",
+      "malayalam": "धरती"
+    },
+    {
+      "hindi": "बारिश",
+      "english_transliteration": "Baarish",
+      "tamil_transliteration": "பாரிஷ்",
+      "tamil_meaning": "மழை",
+      "english_meaning": "Rain",
+      "malayalam": "बारिश"
+    },
+    {
+      "hindi": "हवा",
+      "english_transliteration": "Hawa",
+      "tamil_transliteration": "ஹவா",
+      "tamil_meaning": "காற்று",
+      "english_meaning": "Wind",
+      "malayalam": "हवा"
+    },
+    {
+      "hindi": "आग",
+      "english_transliteration": "Aag",
+      "tamil_transliteration": "ஆக்",
+      "tamil_meaning": "நெருப்பு",
+      "english_meaning": "Fire",
+      "malayalam": "आग"
+    },
+    {
+      "hindi": "फूल",
+      "english_transliteration": "Phool",
+      "tamil_transliteration": "பூல்",
+      "tamil_meaning": "பூ",
+      "english_meaning": "Flower",
+      "malayalam": "फूल"
+    },
+    {
+      "hindi": "पेड़",
+      "english_transliteration": "Ped",
+      "tamil_transliteration": "பேட்",
+      "tamil_meaning": "மரம்",
+      "english_meaning": "Tree",
+      "malayalam": "पेड़"
+    },
+    {
+      "hindi": "फल",
+      "english_transliteration": "Phal",
+      "tamil_transliteration": "பல்",
+      "tamil_meaning": "பழம்",
+      "english_meaning": "Fruit",
+      "malayalam": "फल"
+    },
+    {
+      "hindi": "दूध",
+      "english_transliteration": "Doodh",
+      "tamil_transliteration": "தூத்",
+      "tamil_meaning": "பால்",
+      "english_meaning": "Milk",
+      "malayalam": "दूध"
+    },
+    {
+      "hindi": "चाय",
+      "english_transliteration": "Chai",
+      "tamil_transliteration": "சாய்",
+      "tamil_meaning": "தேநீர் (டீ)",
+      "english_meaning": "Tea",
+      "malayalam": "चाय"
+    },
+    {
+      "hindi": "कॉफ़ी",
+      "english_transliteration": "Coffee",
+      "tamil_transliteration": "காஃபி",
+      "tamil_meaning": "காபி",
+      "english_meaning": "Coffee",
+      "malayalam": "कॉफ़ी"
+    },
+    {
+      "hindi": "चीनी",
+      "english_transliteration": "Cheeni",
+      "tamil_transliteration": "சீனி",
+      "tamil_meaning": "சர்க்கரை",
+      "english_meaning": "Sugar",
+      "malayalam": "चीनी"
+    },
+    {
+      "hindi": "नमक",
+      "english_transliteration": "Namak",
+      "tamil_transliteration": "நமக்",
+      "tamil_meaning": "உப்பு",
+      "english_meaning": "Salt",
+      "malayalam": "नमक"
+    },
+    {
+      "hindi": "किताब",
+      "english_transliteration": "Kitaab",
+      "tamil_transliteration": "கிதாப்",
+      "tamil_meaning": "புத்தகம்",
+      "english_meaning": "Book",
+      "malayalam": "किताब"
+    },
+    {
+      "hindi": "कलम",
+      "english_transliteration": "Kalam",
+      "tamil_transliteration": "கலம்",
+      "tamil_meaning": "பேனா",
+      "english_meaning": "Pen",
+      "malayalam": "कलम"
+    },
+    {
+      "hindi": "कागज़",
+      "english_transliteration": "Kaagaz",
+      "tamil_transliteration": "காகஸ்",
+      "tamil_meaning": "காகிதம்",
+      "english_meaning": "Paper",
+      "malayalam": "कागज़"
+    },
+    {
+      "hindi": "पढ़ाई",
+      "english_transliteration": "Padhaai",
+      "tamil_transliteration": "படாய்",
+      "tamil_meaning": "படிப்பு",
+      "english_meaning": "Study",
+      "malayalam": "पढ़ाई"
+    },
+    {
+      "hindi": "स्कूल",
+      "english_transliteration": "School",
+      "tamil_transliteration": "ஸ்கூல்",
+      "tamil_meaning": "பள்ளி",
+      "english_meaning": "School",
+      "malayalam": "स्कूल"
+    },
+    {
+      "hindi": "अध्यापक",
+      "english_transliteration": "Adhyaapak",
+      "tamil_transliteration": "அத்யாபக்",
+      "tamil_meaning": "ஆசிரியர்",
+      "english_meaning": "Teacher",
+      "malayalam": "अध्यापक"
+    },
+    {
+      "hindi": "छात्र",
+      "english_transliteration": "Chhaatra",
+      "tamil_transliteration": "சாத்ர",
+      "tamil_meaning": "மாணவர்",
+      "english_meaning": "Student",
+      "malayalam": "छात्र"
+    },
+    {
+      "hindi": "रास्ता",
+      "english_transliteration": "Raasta",
+      "tamil_transliteration": "ராஸ்தா",
+      "tamil_meaning": "வழி",
+      "english_meaning": "Way / Path",
+      "malayalam": "रास्ता"
+    },
+    {
+      "hindi": "वाहन",
+      "english_transliteration": "Vaahan",
+      "tamil_transliteration": "வாஹன்",
+      "tamil_meaning": "வாகனம்",
+      "english_meaning": "Vehicle",
+      "malayalam": "वाहन"
+    },
+    {
+      "hindi": "कार",
+      "english_transliteration": "Car",
+      "tamil_transliteration": "கார்",
+      "tamil_meaning": "கார்",
+      "english_meaning": "Car",
+      "malayalam": "कार"
+    },
+    {
+      "hindi": "बस",
+      "english_transliteration": "Bus",
+      "tamil_transliteration": "பஸ்",
+      "tamil_meaning": "பேருந்து",
+      "english_meaning": "Bus",
+      "malayalam": "बस"
+    },
+    {
+      "hindi": "ट्रेन",
+      "english_transliteration": "Train",
+      "tamil_transliteration": "ட்ரேன்",
+      "tamil_meaning": "ரெயில்",
+      "english_meaning": "Train",
+      "malayalam": "ट्रेन"
+    },
+    {
+      "hindi": "हवाई जहाज़",
+      "english_transliteration": "Hawai Jahaaz",
+      "tamil_transliteration": "ஹவாய் ஜஹாஸ்",
+      "tamil_meaning": "விமானம்",
+      "english_meaning": "Airplane",
+      "malayalam": "हवाई जहाज़"
+    },
+    {
+      "hindi": "जहाज़",
+      "english_transliteration": "Jahaaz",
+      "tamil_transliteration": "ஜஹாஸ்",
+      "tamil_meaning": "கப்பல்",
+      "english_meaning": "Ship",
+      "malayalam": "जहाज़"
+    },
+    {
+      "hindi": "समुद्र",
+      "english_transliteration": "Samudra",
+      "tamil_transliteration": "ஸமுத்ர",
+      "tamil_meaning": "கடல்",
+      "english_meaning": "Sea",
+      "malayalam": "समुद्र"
+    },
+    {
+      "hindi": "नदी",
+      "english_transliteration": "Nadi",
+      "tamil_transliteration": "நதி",
+      "tamil_meaning": "நதி / ஆறு",
+      "english_meaning": "River",
+      "malayalam": "नदी"
+    },
+    {
+      "hindi": "पहाड़",
+      "english_transliteration": "Pahaard",
+      "tamil_transliteration": "பஹாட்",
+      "tamil_meaning": "மலை",
+      "english_meaning": "Mountain",
+      "malayalam": "पहाड़"
+    },
+    {
+      "hindi": "जंगल",
+      "english_transliteration": "Jangal",
+      "tamil_transliteration": "ஜங்கல்",
+      "tamil_meaning": "காடு",
+      "english_meaning": "Forest",
+      "malayalam": "जंगल"
+    },
+    {
+      "hindi": "जानवर",
+      "english_transliteration": "Jaanwar",
+      "tamil_transliteration": "ஜான்வர்",
+      "tamil_meaning": "விலங்கு",
+      "english_meaning": "Animal",
+      "malayalam": "जानवर"
+    },
+    {
+      "hindi": "पक्षी",
+      "english_transliteration": "Pakshi",
+      "tamil_transliteration": "பக்ஷி",
+      "tamil_meaning": "பறவை",
+      "english_meaning": "Bird",
+      "malayalam": "पक्षी"
+    },
+    {
+      "hindi": "बिल्ली",
+      "english_transliteration": "Billi",
+      "tamil_transliteration": "பில்லி",
+      "tamil_meaning": "பூனை",
+      "english_meaning": "Cat",
+      "malayalam": "बिल्ली"
+    },
+    {
+      "hindi": "कुत्ता",
+      "english_transliteration": "Kutta",
+      "tamil_transliteration": "குத்தா",
+      "tamil_meaning": "நாய்",
+      "english_meaning": "Dog",
+      "malayalam": "कुत्ता"
+    },
+    {
+      "hindi": "गाय",
+      "english_transliteration": "Gaay",
+      "tamil_transliteration": "காய்",
+      "tamil_meaning": "பசு",
+      "english_meaning": "Cow",
+      "malayalam": "गाय"
+    },
+    {
+      "hindi": "हाथी",
+      "english_transliteration": "Haathi",
+      "tamil_transliteration": "ஹாதி",
+      "tamil_meaning": "யானை",
+      "english_meaning": "Elephant",
+      "malayalam": "हाथी"
+    },
+    {
+      "hindi": "बाघ",
+      "english_transliteration": "Baagh",
+      "tamil_transliteration": "பாக்",
+      "tamil_meaning": "புலி",
+      "english_meaning": "Tiger",
+      "malayalam": "बाघ"
+    },
+    {
+      "hindi": "शेर",
+      "english_transliteration": "Sher",
+      "tamil_transliteration": "ஷேர்",
+      "tamil_meaning": "சிங்கம்",
+      "english_meaning": "Lion",
+      "malayalam": "शेर"
+    },
+    {
+      "hindi": "अमीर",
+      "english_transliteration": "Ameer",
+      "tamil_transliteration": "அமீர்",
+      "tamil_meaning": "பணக்காரர்",
+      "english_meaning": "Rich person",
+      "malayalam": "अमीर"
+    },
+    {
+      "hindi": "गरीब",
+      "english_transliteration": "Gareeb",
+      "tamil_transliteration": "கரீப்",
+      "tamil_meaning": "ஏழை",
+      "english_meaning": "Poor person",
+      "malayalam": "गरीब"
+    },
+    {
+      "hindi": "अच्छा",
+      "english_transliteration": "Acchha",
+      "tamil_transliteration": "அச்சா",
+      "tamil_meaning": "நல்லது",
+      "english_meaning": "Good",
+      "malayalam": "अच्छा"
+    },
+    {
+      "hindi": "बुरा",
+      "english_transliteration": "Bura",
+      "tamil_transliteration": "புரா",
+      "tamil_meaning": "கெட்டது",
+      "english_meaning": "Bad",
+      "malayalam": "बुरा"
+    },
+    {
+      "hindi": "बड़ा",
+      "english_transliteration": "Bada",
+      "tamil_transliteration": "படா",
+      "tamil_meaning": "பெரியது",
+      "english_meaning": "Big",
+      "malayalam": "बड़ा"
+    },
+    {
+      "hindi": "छोटा",
+      "english_transliteration": "Chhota",
+      "tamil_transliteration": "சோடா",
+      "tamil_meaning": "சிறியது",
+      "english_meaning": "Small",
+      "malayalam": "छोटा"
+    },
+    {
+      "hindi": "तेज़",
+      "english_transliteration": "Tez",
+      "tamil_transliteration": "தேஸ்",
+      "tamil_meaning": "வேகம்",
+      "english_meaning": "Speed",
+      "malayalam": "तेज़"
+    },
+    {
+      "hindi": "धीरे",
+      "english_transliteration": "Dheere",
+      "tamil_transliteration": "தீரே",
+      "tamil_meaning": "மெதுவாக",
+      "english_meaning": "Slow",
+      "malayalam": "धीरे"
+    },
+    {
+      "hindi": "सही",
+      "english_transliteration": "Sahi",
+      "tamil_transliteration": "ஸஹி",
+      "tamil_meaning": "சரி",
+      "english_meaning": "Correct / Right",
+      "malayalam": "सही"
+    },
+    {
+      "hindi": "गलत",
+      "english_transliteration": "Galat",
+      "tamil_transliteration": "கலத்",
+      "tamil_meaning": "தவறு",
+      "english_meaning": "Wrong",
+      "malayalam": "गलत"
+    },
+    {
+      "hindi": "सच",
+      "english_transliteration": "Sach",
+      "tamil_transliteration": "ஸச்",
+      "tamil_meaning": "உண்மை",
+      "english_meaning": "Truth",
+      "malayalam": "सच"
+    },
+    {
+      "hindi": "झूठ",
+      "english_transliteration": "Jhooth",
+      "tamil_transliteration": "ஜூட்",
+      "tamil_meaning": "பொய்",
+      "english_meaning": "Lie",
+      "malayalam": "झूठ"
+    },
+    {
+      "hindi": "प्यार",
+      "english_transliteration": "Pyaar",
+      "tamil_transliteration": "ப்யார்",
+      "tamil_meaning": "அன்பு",
+      "english_meaning": "Love",
+      "malayalam": "प्यार"
+    },
+    {
+      "hindi": "गुस्सा",
+      "english_transliteration": "Gussa",
+      "tamil_transliteration": "குஸ்ஸா",
+      "tamil_meaning": "கோபம்",
+      "english_meaning": "Anger",
+      "malayalam": "गुस्सा"
+    },
+    {
+      "hindi": "खुशी",
+      "english_transliteration": "Khushi",
+      "tamil_transliteration": "குஷி",
+      "tamil_meaning": "மகிழ்ச்சி",
+      "english_meaning": "Happiness",
+      "malayalam": "खुशी"
+    },
+    {
+      "hindi": "दुख",
+      "english_transliteration": "Dukh",
+      "tamil_transliteration": "துக்",
+      "tamil_meaning": "துக்கம்",
+      "english_meaning": "Sorrow / Sadness",
+      "malayalam": "दुख"
+    },
+    {
+      "hindi": "डर",
+      "english_transliteration": "Dar",
+      "tamil_transliteration": "டர்",
+      "tamil_meaning": "பயம்",
+      "english_meaning": "Fear",
+      "malayalam": "डर"
+    },
+    {
+      "hindi": "हिम्मत",
+      "english_transliteration": "Himmat",
+      "tamil_transliteration": "ஹிம்மத்",
+      "tamil_meaning": "தைரியம்",
+      "english_meaning": "Courage",
+      "malayalam": "हिम्मत"
+    },
+    {
+      "hindi": "आओ",
+      "english_transliteration": "Aao",
+      "tamil_transliteration": "ஆவோ",
+      "tamil_meaning": "வா",
+      "english_meaning": "Come",
+      "malayalam": "आओ"
+    },
+    {
+      "hindi": "जाओ",
+      "english_transliteration": "Jaao",
+      "tamil_transliteration": "ஜாவோ",
+      "tamil_meaning": "போ",
+      "english_meaning": "Go",
+      "malayalam": "जाओ"
+    },
+    {
+      "hindi": "बैठो",
+      "english_transliteration": "Baitho",
+      "tamil_transliteration": "பைடோ",
+      "tamil_meaning": "உட்கார்",
+      "english_meaning": "Sit",
+      "malayalam": "बैठो"
+    },
+    {
+      "hindi": "खड़े हो",
+      "english_transliteration": "Khade ho",
+      "tamil_transliteration": "கடே ஹோ",
+      "tamil_meaning": "நில்",
+      "english_meaning": "Stand",
+      "malayalam": "खड़े हो"
+    },
+    {
+      "hindi": "आँख",
+      "english_transliteration": "Aankh",
+      "tamil_transliteration": "ஆங்க்",
+      "tamil_meaning": "கண்",
+      "english_meaning": "Eye",
+      "malayalam": "आँख"
+    },
+    {
+      "hindi": "चेहरा",
+      "english_transliteration": "Chehra",
+      "tamil_transliteration": "சேஹ்ரா",
+      "tamil_meaning": "முகம்",
+      "english_meaning": "Face",
+      "malayalam": "चेहरा"
+    },
+    {
+      "hindi": "हाथ",
+      "english_transliteration": "Haath",
+      "tamil_transliteration": "ஹாத்",
+      "tamil_meaning": "கை",
+      "english_meaning": "Hand",
+      "malayalam": "हाथ"
+    },
+    {
+      "hindi": "पाँव",
+      "english_transliteration": "Paanv",
+      "tamil_transliteration": "பாந்வ்",
+      "tamil_meaning": "கால்",
+      "english_meaning": "Leg",
+      "malayalam": "पाँव"
+    },
+    {
+      "hindi": "शरीर",
+      "english_transliteration": "Shareer",
+      "tamil_transliteration": "ஷரீர்",
+      "tamil_meaning": "உடல்",
+      "english_meaning": "Body",
+      "malayalam": "शरीर"
+    },
+    {
+      "hindi": "खून",
+      "english_transliteration": "Khoon",
+      "tamil_transliteration": "கூன்",
+      "tamil_meaning": "ரத்தம்",
+      "english_meaning": "Blood",
+      "malayalam": "खून"
+    },
+    {
+      "hindi": "दवाई",
+      "english_transliteration": "Dawai",
+      "tamil_transliteration": "தவாய்",
+      "tamil_meaning": "மருத்துவம்",
+      "english_meaning": "Medicine (Profession)",
+      "malayalam": "दवाई"
+    },
+    {
+      "hindi": "दवा",
+      "english_transliteration": "Dawa",
+      "tamil_transliteration": "தவா",
+      "tamil_meaning": "மருந்து",
+      "english_meaning": "Medicine (Drug)",
+      "malayalam": "दवा"
+    },
+    {
+      "hindi": "अस्पताल",
+      "english_transliteration": "Aspatal",
+      "tamil_transliteration": "அஸ்பதால்",
+      "tamil_meaning": "மருத்துவமனை",
+      "english_meaning": "Hospital",
+      "malayalam": "अस्पताल"
+    },
+    {
+      "hindi": "कपड़ा",
+      "english_transliteration": "Kapda",
+      "tamil_transliteration": "கப்டா",
+      "tamil_meaning": "ஆடை",
+      "english_meaning": "Clothes / Dress",
+      "malayalam": "कपड़ा"
+    },
+    {
+      "hindi": "रंग",
+      "english_transliteration": "Rang",
+      "tamil_transliteration": "ரங்",
+      "tamil_meaning": "நிறம் (வண்ணம்)",
+      "english_meaning": "Color",
+      "malayalam": "रंग"
+    },
+    {
+      "hindi": "सफ़ेद",
+      "english_transliteration": "Safed",
+      "tamil_transliteration": "ஸபேத்",
+      "tamil_meaning": "வெள்ளை",
+      "english_meaning": "White",
+      "malayalam": "सफ़ेद"
+    },
+    {
+      "hindi": "काला",
+      "english_transliteration": "Kaala",
+      "tamil_transliteration": "காலா",
+      "tamil_meaning": "கருப்பு",
+      "english_meaning": "Black",
+      "malayalam": "काला"
+    },
+    {
+      "hindi": "लाल",
+      "english_transliteration": "Laal",
+      "tamil_transliteration": "லால்",
+      "tamil_meaning": "சிவப்பு",
+      "english_meaning": "Red",
+      "malayalam": "लाल"
+    },
+    {
+      "hindi": "हरा",
+      "english_transliteration": "Hara",
+      "tamil_transliteration": "ஹரா",
+      "tamil_meaning": "பச்சை",
+      "english_meaning": "Green",
+      "malayalam": "हरा"
+    },
+    {
+      "hindi": "पीला",
+      "english_transliteration": "Peela",
+      "tamil_transliteration": "பீலா",
+      "tamil_meaning": "மஞ்சள்",
+      "english_meaning": "Yellow",
+      "malayalam": "पीला"
+    },
+    {
+      "hindi": "नीला",
+      "english_transliteration": "Neela",
+      "tamil_transliteration": "நீலா",
+      "tamil_meaning": "நீலம்",
+      "english_meaning": "Blue",
+      "malayalam": "नीला"
+    },
+    {
+      "hindi": "दुकान",
+      "english_transliteration": "Dukaan",
+      "tamil_transliteration": "துகான்",
+      "tamil_meaning": "கடை",
+      "english_meaning": "Shop",
+      "malayalam": "दुकान"
+    },
+    {
+      "hindi": "कीमत",
+      "english_transliteration": "Keemat",
+      "tamil_transliteration": "கீமத்",
+      "tamil_meaning": "விலை",
+      "english_meaning": "Price",
+      "malayalam": "कीमत"
+    },
+    {
+      "hindi": "उपहार",
+      "english_transliteration": "Upahaar",
+      "tamil_transliteration": "உபஹார்",
+      "tamil_meaning": "பரிசு",
+      "english_meaning": "Gift",
+      "malayalam": "उपहार"
+    },
+    {
+      "hindi": "सवाल",
+      "english_transliteration": "Sawaal",
+      "tamil_transliteration": "ஸவால்",
+      "tamil_meaning": "கேள்வி",
+      "english_meaning": "Question",
+      "malayalam": "सवाल"
+    },
+    {
+      "hindi": "जवाब",
+      "english_transliteration": "Jawaab",
+      "tamil_transliteration": "ஜவாப்",
+      "tamil_meaning": "பதில்",
+      "english_meaning": "Answer",
+      "malayalam": "जवाब"
+    },
+    {
+      "hindi": "कहानी",
+      "english_transliteration": "Kahaani",
+      "tamil_transliteration": "கஹானி",
+      "tamil_meaning": "கதை",
+      "english_meaning": "Story",
+      "malayalam": "कहानी"
+    },
+    {
+      "hindi": "गाना",
+      "english_transliteration": "Gaana",
+      "tamil_transliteration": "கானா",
+      "tamil_meaning": "பாட்டு",
+      "english_meaning": "Song",
+      "malayalam": "गाना"
+    },
+    {
+      "hindi": "संगीत",
+      "english_transliteration": "Sangeet",
+      "tamil_transliteration": "ஸங்கீத்",
+      "tamil_meaning": "இசை",
+      "english_meaning": "Music",
+      "malayalam": "संगीत"
+    },
+    {
+      "hindi": "नृत्य",
+      "english_transliteration": "Nritya",
+      "tamil_transliteration": "ந்ருத்ய",
+      "tamil_meaning": "நடனம்",
+      "english_meaning": "Dance",
+      "malayalam": "नृत्य"
+    },
+    {
+      "hindi": "चित्र",
+      "english_transliteration": "Chitra",
+      "tamil_transliteration": "சித்ர",
+      "tamil_meaning": "படம்",
+      "english_meaning": "Picture / Painting",
+      "malayalam": "चित्र"
+    },
+    {
+      "hindi": "खेल",
+      "english_transliteration": "Khel",
+      "tamil_transliteration": "கேல்",
+      "tamil_meaning": "விளையாட்டு",
+      "english_meaning": "Sports",
+      "malayalam": "खेल"
+    },
+    {
+      "hindi": "खेलना",
+      "english_transliteration": "Khelna",
+      "tamil_transliteration": "கேல்னா",
+      "tamil_meaning": "விளையாட்டு",
+      "english_meaning": "Game",
+      "malayalam": "खेलना"
+    },
+    {
+      "hindi": "जीत",
+      "english_transliteration": "Jeet",
+      "tamil_transliteration": "ஜீத்",
+      "tamil_meaning": "வெற்றி",
+      "english_meaning": "Victory",
+      "malayalam": "जीत"
+    },
+    {
+      "hindi": "हार",
+      "english_transliteration": "Haar",
+      "tamil_transliteration": "ஹார்",
+      "tamil_meaning": "தோல்வி",
+      "english_meaning": "Defeat",
+      "malayalam": "हार"
+    },
+    {
+      "hindi": "कोशिश",
+      "english_transliteration": "Koshish",
+      "tamil_transliteration": "கோஷிஷ்",
+      "tamil_meaning": "முயற்சி",
+      "english_meaning": "Effort",
+      "malayalam": "कोशिश"
+    },
+    {
+      "hindi": "विश्वास",
+      "english_transliteration": "Vishwas",
+      "tamil_transliteration": "விஷ்வாஸ்",
+      "tamil_meaning": "நம்பிக்கை",
+      "english_meaning": "Faith / Trust",
+      "malayalam": "विश्वास"
+    },
+    {
+      "hindi": "ज़िंदगी",
+      "english_transliteration": "Zindagi",
+      "tamil_transliteration": "ஸிந்தகி",
+      "tamil_meaning": "வாழ்க்கை",
+      "english_meaning": "Life",
+      "malayalam": "ज़िंदगी"
+    },
+    {
+      "hindi": "मृत्यु",
+      "english_transliteration": "Mrityu",
+      "tamil_transliteration": "ம்ருத்யு",
+      "tamil_meaning": "மரணம்",
+      "english_meaning": "Death",
+      "malayalam": "मृत्यु"
+    },
+    {
+      "hindi": "जन्म",
+      "english_transliteration": "Janm",
+      "tamil_transliteration": "ஜன்ம்",
+      "tamil_meaning": "பிறப்பு",
+      "english_meaning": "Birth",
+      "malayalam": "जन्म"
+    },
+    {
+      "hindi": "परिवार",
+      "english_transliteration": "Parivaar",
+      "tamil_transliteration": "பரிவார்",
+      "tamil_meaning": "குடும்பம்",
+      "english_meaning": "Family",
+      "malayalam": "परिवार"
+    },
+    {
+      "hindi": "बच्चा",
+      "english_transliteration": "Bachcha",
+      "tamil_transliteration": "பச்சா",
+      "tamil_meaning": "குழந்தை",
+      "english_meaning": "Child",
+      "malayalam": "बच्चा"
+    },
+    {
+      "hindi": "बुज़ुर्ग",
+      "english_transliteration": "Buzurg",
+      "tamil_transliteration": "புஸுர்க்",
+      "tamil_meaning": "முதியவர்",
+      "english_meaning": "Old person / Elder",
+      "malayalam": "बुज़ुर्ग"
+    },
+    {
+      "hindi": "युवा",
+      "english_transliteration": "Yuwa",
+      "tamil_transliteration": "யுவா",
+      "tamil_meaning": "இளைஞர்",
+      "english_meaning": "Youth / Young",
+      "malayalam": "युवा"
+    },
+    {
+      "hindi": "स्वास्थ्य",
+      "english_transliteration": "Svaasthya",
+      "tamil_transliteration": "ஸ்வாஸ்த்ய",
+      "tamil_meaning": "ஆரோக்கியம்",
+      "english_meaning": "Health",
+      "malayalam": "स्वास्थ्य"
+    },
+    {
+      "hindi": "बीमारी",
+      "english_transliteration": "Beemaari",
+      "tamil_transliteration": "பீமாரி",
+      "tamil_meaning": "நோய்",
+      "english_meaning": "Illness / Disease",
+      "malayalam": "बीमारी"
+    },
+    {
+      "hindi": "भगवान",
+      "english_transliteration": "Bhagwaan",
+      "tamil_transliteration": "பகவான்",
+      "tamil_meaning": "கடவுள்",
+      "english_meaning": "God",
+      "malayalam": "भगवान"
+    },
+    {
+      "hindi": "मंदिर",
+      "english_transliteration": "Mandir",
+      "tamil_transliteration": "மந்திர்",
+      "tamil_meaning": "கோவில்",
+      "english_meaning": "Temple",
+      "malayalam": "मंदिर"
+    },
+    {
+      "hindi": "प्रार्थना",
+      "english_transliteration": "Praarthna",
+      "tamil_transliteration": "ப்ரார்த்னா",
+      "tamil_meaning": "பிரார்த்தனை",
+      "english_meaning": "Prayer",
+      "malayalam": "प्रार्थना"
+    },
+    {
+      "hindi": "गाँव",
+      "english_transliteration": "Gaanv",
+      "tamil_transliteration": "கான்வ்",
+      "tamil_meaning": "கிராமம்",
+      "english_meaning": "Village",
+      "malayalam": "गाँव"
+    },
+    {
+      "hindi": "शहर",
+      "english_transliteration": "Shahar",
+      "tamil_transliteration": "ஷஹர்",
+      "tamil_meaning": "நகரம்",
+      "english_meaning": "City",
+      "malayalam": "शहर"
+    },
+    {
+      "hindi": "देश",
+      "english_transliteration": "Desh",
+      "tamil_transliteration": "தேஷ்",
+      "tamil_meaning": "நாடு",
+      "english_meaning": "Country",
+      "malayalam": "देश"
+    },
+    {
+      "hindi": "दुनिया",
+      "english_transliteration": "Duniya",
+      "tamil_transliteration": "துனியா",
+      "tamil_meaning": "உலகம்",
+      "english_meaning": "World",
+      "malayalam": "दुनिया"
+    },
+    {
+      "hindi": "आकाश",
+      "english_transliteration": "Aakaash",
+      "tamil_transliteration": "ஆகாஷ்",
+      "tamil_meaning": "வானம்",
+      "english_meaning": "Sky / Heaven",
+      "malayalam": "आकाश"
+    },
+    {
+      "hindi": "तारा",
+      "english_transliteration": "Taara",
+      "tamil_transliteration": "தாரா",
+      "tamil_meaning": "நட்சத்திரம்",
+      "english_meaning": "Star",
+      "malayalam": "तारा"
+    },
+    {
+      "hindi": "अंधेरा",
+      "english_transliteration": "Andhera",
+      "tamil_transliteration": "அந்தேரா",
+      "tamil_meaning": "இருட்டு",
+      "english_meaning": "Darkness",
+      "malayalam": "अंधेरा"
+    },
+    {
+      "hindi": "रोशनी",
+      "english_transliteration": "Roshni",
+      "tamil_transliteration": "ரோஷ்னி",
+      "tamil_meaning": "வெளிச்சம்",
+      "english_meaning": "Light",
+      "malayalam": "रोशनी"
+    },
+    {
+      "hindi": "ठंड",
+      "english_transliteration": "Thand",
+      "tamil_transliteration": "தண்ட்",
+      "tamil_meaning": "குளிர்",
+      "english_meaning": "Cold",
+      "malayalam": "ठंड"
+    },
+    {
+      "hindi": "गर्मी",
+      "english_transliteration": "Garmi",
+      "tamil_transliteration": "கர்மி",
+      "tamil_meaning": "வெப்பம்",
+      "english_meaning": "Heat / Summer",
+      "malayalam": "गर्मी"
+    },
+    {
+      "hindi": "बर्फ़",
+      "english_transliteration": "Barf",
+      "tamil_transliteration": "பர்ஃப்",
+      "tamil_meaning": "பனி",
+      "english_meaning": "Snow / Ice",
+      "malayalam": "बर्फ़"
+    },
+    {
+      "hindi": "नदी",
+      "english_transliteration": "Nadi",
+      "tamil_transliteration": "நதி",
+      "tamil_meaning": "ஆறு",
+      "english_meaning": "Stream",
+      "malayalam": "नदी"
+    },
+    {
+      "hindi": "झील",
+      "english_transliteration": "Jheel",
+      "tamil_transliteration": "ஜீல்",
+      "tamil_meaning": "ஏரி",
+      "english_meaning": "Lake",
+      "malayalam": "झील"
+    },
+    {
+      "hindi": "मिट्टी",
+      "english_transliteration": "Mitti",
+      "tamil_transliteration": "மிட்டி",
+      "tamil_meaning": "மண்",
+      "english_meaning": "Soil / Clay",
+      "malayalam": "मिट्टी"
+    },
+    {
+      "hindi": "पत्थर",
+      "english_transliteration": "Patthar",
+      "tamil_transliteration": "பத்தர்",
+      "tamil_meaning": "கல்",
+      "english_meaning": "Stone",
+      "malayalam": "पत्थर"
+    },
+    {
+      "hindi": "लकड़ी",
+      "english_transliteration": "Lakdi",
+      "tamil_transliteration": "லக்டி",
+      "tamil_meaning": "மரம் / கட்டை",
+      "english_meaning": "Wood",
+      "malayalam": "लकड़ी"
+    },
+    {
+      "hindi": "लोहा",
+      "english_transliteration": "Loha",
+      "tamil_transliteration": "லோஹா",
+      "tamil_meaning": "இரும்பு",
+      "english_meaning": "Iron",
+      "malayalam": "लोहा"
+    },
+    {
+      "hindi": "सोना",
+      "english_transliteration": "Sona",
+      "tamil_transliteration": "ஸோனா",
+      "tamil_meaning": "தங்கம்",
+      "english_meaning": "Gold",
+      "malayalam": "सोना"
+    },
+    {
+      "hindi": "चाँदी",
+      "english_transliteration": "Chaandi",
+      "tamil_transliteration": "சாந்தி",
+      "tamil_meaning": "வெள்ளி",
+      "english_meaning": "Silver",
+      "malayalam": "चाँदी"
+    },
+    {
+      "hindi": "हीरा",
+      "english_transliteration": "Heera",
+      "tamil_transliteration": "ஹீரா",
+      "tamil_meaning": "வைரம்",
+      "english_meaning": "Diamond",
+      "malayalam": "हीरा"
+    },
+    {
+      "hindi": "रोटी",
+      "english_transliteration": "Roti",
+      "tamil_transliteration": "ரோடி",
+      "tamil_meaning": "சப்பாத்தி",
+      "english_meaning": "Bread / Roti",
+      "malayalam": "रोटी"
+    },
+    {
+      "hindi": "चावल",
+      "english_transliteration": "Chaawal",
+      "tamil_transliteration": "சாவல்",
+      "tamil_meaning": "அரிசி",
+      "english_meaning": "Rice",
+      "malayalam": "चावल"
+    },
+    {
+      "hindi": "दाल",
+      "english_transliteration": "Daal",
+      "tamil_transliteration": "தால்",
+      "tamil_meaning": "பருப்பு",
+      "english_meaning": "Lentils / Dal",
+      "malayalam": "दाल"
+    },
+    {
+      "hindi": "सब्ज़ी",
+      "english_transliteration": "Sabzi",
+      "tamil_transliteration": "ஸப்சி",
+      "tamil_meaning": "காய்கறி",
+      "english_meaning": "Vegetable",
+      "malayalam": "सब्ज़ी"
+    },
+    {
+      "hindi": "मछली",
+      "english_transliteration": "Machli",
+      "tamil_transliteration": "மச்லி",
+      "tamil_meaning": "மீன்",
+      "english_meaning": "Fish",
+      "malayalam": "मछली"
+    },
+    {
+      "hindi": "माँस",
+      "english_transliteration": "Maas",
+      "tamil_transliteration": "மாஸ்",
+      "tamil_meaning": "இறைச்சி",
+      "english_meaning": "Meat",
+      "malayalam": "माँस"
+    },
+    {
+      "hindi": "अंडा",
+      "english_transliteration": "Anda",
+      "tamil_transliteration": "அண்டா",
+      "tamil_meaning": "முட்டை",
+      "english_meaning": "Egg",
+      "malayalam": "अंडा"
+    },
+    {
+      "hindi": "तेल",
+      "english_transliteration": "Tel",
+      "tamil_transliteration": "தேல்",
+      "tamil_meaning": "எண்ணெய்",
+      "english_meaning": "Oil",
+      "malayalam": "तेल"
+    },
+    {
+      "hindi": "मसाला",
+      "english_transliteration": "Masaala",
+      "tamil_transliteration": "மஸாலா",
+      "tamil_meaning": "மசாலா",
+      "english_meaning": "Spice",
+      "malayalam": "मसाला"
+    },
+    {
+      "hindi": "मीठा",
+      "english_transliteration": "Meetha",
+      "tamil_transliteration": "மீடா",
+      "tamil_meaning": "இனிப்பு",
+      "english_meaning": "Sweet",
+      "malayalam": "मीठा"
+    },
+    {
+      "hindi": "खट्टा",
+      "english_transliteration": "Khatta",
+      "tamil_transliteration": "கட்டா",
+      "tamil_meaning": "புளிப்பு",
+      "english_meaning": "Sour",
+      "malayalam": "खट्टा"
+    },
+    {
+      "hindi": "कड़वा",
+      "english_transliteration": "Kadwa",
+      "tamil_transliteration": "கட்வா",
+      "tamil_meaning": "கசப்பு",
+      "english_meaning": "Bitter",
+      "malayalam": "कड़वा"
+    },
+    {
+      "hindi": "तीखा",
+      "english_transliteration": "Teekha",
+      "tamil_transliteration": "தீகா",
+      "tamil_meaning": "காரம்",
+      "english_meaning": "Spicy",
+      "malayalam": "तीखा"
+    },
+    {
+      "hindi": "नमकीन",
+      "english_transliteration": "Namkeen",
+      "tamil_transliteration": "நமகீன்",
+      "tamil_meaning": "உப்பு சுவை",
+      "english_meaning": "Salty",
+      "malayalam": "नमकीन"
+    },
+    {
+      "hindi": "भूख",
+      "english_transliteration": "Bhookh",
+      "tamil_transliteration": "பூக்",
+      "tamil_meaning": "பசி",
+      "english_meaning": "Hunger",
+      "malayalam": "भूख"
+    },
+    {
+      "hindi": "प्यास",
+      "english_transliteration": "Pyaas",
+      "tamil_transliteration": "ப்யாஸ்",
+      "tamil_meaning": "தாகம்",
+      "english_meaning": "Thirst",
+      "malayalam": "प्यास"
+    },
+    {
+      "hindi": "नींद",
+      "english_transliteration": "Neend",
+      "tamil_transliteration": "நீந்த்",
+      "tamil_meaning": "தூக்கம்",
+      "english_meaning": "Sleep",
+      "malayalam": "नींद"
+    },
+    {
+      "hindi": "थकान",
+      "english_transliteration": "Thakaan",
+      "tamil_transliteration": "தகான்",
+      "tamil_meaning": "சோர்வு",
+      "english_meaning": "Tiredness",
+      "malayalam": "थकान"
+    },
+    {
+      "hindi": "ताकत",
+      "english_transliteration": "Taakat",
+      "tamil_transliteration": "தாகத்",
+      "tamil_meaning": "வலிமை",
+      "english_meaning": "Strength",
+      "malayalam": "ताकत"
+    },
+    {
+      "hindi": "कमज़ोर",
+      "english_transliteration": "Kamzor",
+      "tamil_transliteration": "கம்ஸோர்",
+      "tamil_meaning": "பலவீனம்",
+      "english_meaning": "Weak",
+      "malayalam": "कमज़ोर"
+    },
+    {
+      "hindi": "स्वर्ग",
+      "english_transliteration": "Swarg",
+      "tamil_transliteration": "ஸ்வர்க்",
+      "tamil_meaning": "சொர்க்கம்",
+      "english_meaning": "Heaven",
+      "malayalam": "स्वर्ग"
+    },
+    {
+      "hindi": "नर्क",
+      "english_transliteration": "Nark",
+      "tamil_transliteration": "நர்க்",
+      "tamil_meaning": "நரகம்",
+      "english_meaning": "Hell",
+      "malayalam": "नर्क"
+    },
+    {
+      "hindi": "आत्मा",
+      "english_transliteration": "Aatma",
+      "tamil_transliteration": "ஆத்மா",
+      "tamil_meaning": "ஆன்மா",
+      "english_meaning": "Soul",
+      "malayalam": "आत्मा"
+    },
+    {
+      "hindi": "मन",
+      "english_transliteration": "Mann",
+      "tamil_transliteration": "மன்",
+      "tamil_meaning": "மனம்",
+      "english_meaning": "Mind",
+      "malayalam": "मन"
+    },
+    {
+      "hindi": "दिल",
+      "english_transliteration": "Dil",
+      "tamil_transliteration": "தில்",
+      "tamil_meaning": "இதயம்",
+      "english_meaning": "Heart",
+      "malayalam": "दिल"
+    },
+    {
+      "hindi": "सपना",
+      "english_transliteration": "Sapna",
+      "tamil_transliteration": "ஸப்னா",
+      "tamil_meaning": "கனவு",
+      "english_meaning": "Dream",
+      "malayalam": "सपना"
+    },
+    {
+      "hindi": "यादें",
+      "english_transliteration": "Yaadein",
+      "tamil_transliteration": "யாதேன்",
+      "tamil_meaning": "நினைவுகள்",
+      "english_meaning": "Memories",
+      "malayalam": "यादें"
+    },
+    {
+      "hindi": "भविष्य",
+      "english_transliteration": "Bhavishy",
+      "tamil_transliteration": "பவிஷ்ய",
+      "tamil_meaning": "எதிர்காலம்",
+      "english_meaning": "Future",
+      "malayalam": "भविष्य"
+    },
+    {
+      "hindi": "अतीत",
+      "english_transliteration": "Ateet",
+      "tamil_transliteration": "அதீத்",
+      "tamil_meaning": "கடந்த காலம்",
+      "english_meaning": "Past",
+      "malayalam": "अतीत"
+    },
+    {
+      "hindi": "वर्तमान",
+      "english_transliteration": "Vartamaan",
+      "tamil_transliteration": "வர்தமான்",
+      "tamil_meaning": "நிகழ்காலம்",
+      "english_meaning": "Present",
+      "malayalam": "वर्तमान"
+    },
+    {
+      "hindi": "ऊपर",
+      "english_transliteration": "Oopar",
+      "tamil_transliteration": "ஊபர்",
+      "tamil_meaning": "மேலே",
+      "english_meaning": "Above / Up",
+      "malayalam": "ऊपर"
+    },
+    {
+      "hindi": "नीचे",
+      "english_transliteration": "Neeche",
+      "tamil_transliteration": "நீசே",
+      "tamil_meaning": "கீழே",
+      "english_meaning": "Below / Down",
+      "malayalam": "नीचे"
+    },
+    {
+      "hindi": "दाएँ",
+      "english_transliteration": "Daayen",
+      "tamil_transliteration": "தாயேன்",
+      "tamil_meaning": "வலது",
+      "english_meaning": "Right side",
+      "malayalam": "दाएँ"
+    },
+    {
+      "hindi": "बाएँ",
+      "english_transliteration": "Baayen",
+      "tamil_transliteration": "பாயேன்",
+      "tamil_meaning": "இடது",
+      "english_meaning": "Left side",
+      "malayalam": "बाएँ"
+    },
+    {
+      "hindi": "आगे",
+      "english_transliteration": "Aage",
+      "tamil_transliteration": "ஆகே",
+      "tamil_meaning": "முன்னே",
+      "english_meaning": "Forward / Ahead",
+      "malayalam": "आगे"
+    },
+    {
+      "hindi": "पीछे",
+      "english_transliteration": "Peechhe",
+      "tamil_transliteration": "பீச்சே",
+      "tamil_meaning": "பின்னே",
+      "english_meaning": "Behind / Back",
+      "malayalam": "पीछे"
+    },
+    {
+      "hindi": "पास",
+      "english_transliteration": "Paas",
+      "tamil_transliteration": "பாஸ்",
+      "tamil_meaning": "அருகில்",
+      "english_meaning": "Near",
+      "malayalam": "पास"
+    },
+    {
+      "hindi": "दूर",
+      "english_transliteration": "Door",
+      "tamil_transliteration": "தூர்",
+      "tamil_meaning": "தூரத்தில்",
+      "english_meaning": "Far",
+      "malayalam": "दूर"
+    },
+    {
+      "hindi": "अंदर",
+      "english_transliteration": "Andar",
+      "tamil_transliteration": "அந்தர்",
+      "tamil_meaning": "உள்ளே",
+      "english_meaning": "Inside",
+      "malayalam": "अंदर"
+    },
+    {
+      "hindi": "बाहर",
+      "english_transliteration": "Baahar",
+      "tamil_transliteration": "பாஹர்",
+      "tamil_meaning": "வெளியே",
+      "english_meaning": "Outside",
+      "malayalam": "बाहर"
+    },
+    {
+      "hindi": "यहाँ",
+      "english_transliteration": "Yahaan",
+      "tamil_transliteration": "யஹான்",
+      "tamil_meaning": "இங்கே",
+      "english_meaning": "Here",
+      "malayalam": "यहाँ"
+    },
+    {
+      "hindi": "वहाँ",
+      "english_transliteration": "Vahaan",
+      "tamil_transliteration": "வஹான்",
+      "tamil_meaning": "அங்கே",
+      "english_meaning": "There",
+      "malayalam": "वहाँ"
+    },
+    {
+      "hindi": "कहाँ",
+      "english_transliteration": "Kahaan",
+      "tamil_transliteration": "கஹான்",
+      "tamil_meaning": "எங்கே",
+      "english_meaning": "Where",
+      "malayalam": "कहाँ"
+    },
+    {
+      "hindi": "क्यों",
+      "english_transliteration": "Kyun",
+      "tamil_transliteration": "க்யூன்",
+      "tamil_meaning": "ஏன்",
+      "english_meaning": "Why",
+      "malayalam": "क्यों"
+    },
+    {
+      "hindi": "कैसे",
+      "english_transliteration": "Kaise",
+      "tamil_transliteration": "கைஸே",
+      "tamil_meaning": "எப்படி",
+      "english_meaning": "How",
+      "malayalam": "कैसे"
+    },
+    {
+      "hindi": "कौन",
+      "english_transliteration": "Kaun",
+      "tamil_transliteration": "கவுன்",
+      "tamil_meaning": "யார்",
+      "english_meaning": "Who",
+      "malayalam": "कौन"
+    },
+    {
+      "hindi": "क्या",
+      "english_transliteration": "Kya",
+      "tamil_transliteration": "க்யா",
+      "tamil_meaning": "என்ன",
+      "english_meaning": "What",
+      "malayalam": "क्या"
+    },
+    {
+      "hindi": "कब",
+      "english_transliteration": "Kab",
+      "tamil_transliteration": "கப்",
+      "tamil_meaning": "எப்போது",
+      "english_meaning": "When",
+      "malayalam": "कब"
+    },
+    {
+      "hindi": "कितना",
+      "english_transliteration": "Kitna",
+      "tamil_transliteration": "கித்னா",
+      "tamil_meaning": "எவ்வளவு",
+      "english_meaning": "How much",
+      "malayalam": "कितना"
+    },
+    {
+      "hindi": "मैं",
+      "english_transliteration": "Main",
+      "tamil_transliteration": "மைன்",
+      "tamil_meaning": "நான்",
+      "english_meaning": "I / Me",
+      "malayalam": "मैं"
+    },
+    {
+      "hindi": "तुम",
+      "english_transliteration": "Tum",
+      "tamil_transliteration": "தும்",
+      "tamil_meaning": "நீ",
+      "english_meaning": "You",
+      "malayalam": "तुम"
+    },
+    {
+      "hindi": "वह",
+      "english_transliteration": "Vah",
+      "tamil_transliteration": "வஹ்",
+      "tamil_meaning": "அவன் / அவள்",
+      "english_meaning": "He / She",
+      "malayalam": "वह"
+    },
+    {
+      "hindi": "हम",
+      "english_transliteration": "Hum",
+      "tamil_transliteration": "ஹும்",
+      "tamil_meaning": "நாம்",
+      "english_meaning": "We",
+      "malayalam": "हम"
+    },
+    {
+      "hindi": "वे",
+      "english_transliteration": "Ve",
+      "tamil_transliteration": "வே",
+      "tamil_meaning": "அவர்கள்",
+      "english_meaning": "They",
+      "malayalam": "वे"
+    },
+    {
+      "hindi": "यह",
+      "english_transliteration": "Yah",
+      "tamil_transliteration": "யஹ்",
+      "tamil_meaning": "இது",
+      "english_meaning": "This",
+      "malayalam": "यह"
+    },
+    {
+      "hindi": "वो",
+      "english_transliteration": "Vo",
+      "tamil_transliteration": "வோ",
+      "tamil_meaning": "அது",
+      "english_meaning": "That",
+      "malayalam": "वो"
+    },
+    {
+      "hindi": "हाँ",
+      "english_transliteration": "Haan",
+      "tamil_transliteration": "ஹான்",
+      "tamil_meaning": "ஆம்",
+      "english_meaning": "Yes",
+      "malayalam": "हाँ"
+    },
+    {
+      "hindi": "नहीं",
+      "english_transliteration": "Nahin",
+      "tamil_transliteration": "நஹீன்",
+      "tamil_meaning": "இல்லை",
+      "english_meaning": "No",
+      "malayalam": "नहीं"
+    },
+    {
+      "hindi": "ठीक है",
+      "english_transliteration": "Theek hai",
+      "tamil_transliteration": "டீக் ஹை",
+      "tamil_meaning": "சரி",
+      "english_meaning": "Okay / Fine",
+      "malayalam": "ठीक है"
+    },
+    {
+      "hindi": "माफ़ करना",
+      "english_transliteration": "Maaf karna",
+      "tamil_transliteration": "மாஃப் கர்னா",
+      "tamil_meaning": "மன்னிக்கவும்",
+      "english_meaning": "Sorry / Excuse me",
+      "malayalam": "माफ़ करना"
+    },
+    {
+      "hindi": "मदद",
+      "english_transliteration": "Madad",
+      "tamil_transliteration": "மதத்",
+      "tamil_meaning": "உதவி",
+      "english_meaning": "Help",
+      "malayalam": "मदद"
+    },
+    {
+      "hindi": "काम",
+      "english_transliteration": "Kaam",
+      "tamil_transliteration": "காம்",
+      "tamil_meaning": "வேலை",
+      "english_meaning": "Work",
+      "malayalam": "काम"
+    },
+    {
+      "hindi": "आराम",
+      "english_transliteration": "Aaraam",
+      "tamil_transliteration": "ஆராம்",
+      "tamil_meaning": "ஓய்வு",
+      "english_meaning": "Rest",
+      "malayalam": "आराम"
+    },
+    {
+      "hindi": "सफ़र",
+      "english_transliteration": "Safar",
+      "tamil_transliteration": "ஸஃபர்",
+      "tamil_meaning": "பயணம்",
+      "english_meaning": "Journey / Travel",
+      "malayalam": "सफ़र"
+    },
+    {
+      "hindi": "छुट्टी",
+      "english_transliteration": "Chhutti",
+      "tamil_transliteration": "சுட்டி",
+      "tamil_meaning": "விடுமுறை",
+      "english_meaning": "Holiday / Vacation",
+      "malayalam": "छुट्टी"
+    },
+    {
+      "hindi": "बाज़ार",
+      "english_transliteration": "Baazaar",
+      "tamil_transliteration": "பாஸார்",
+      "tamil_meaning": "சந்தை",
+      "english_meaning": "Market / Bazaar",
+      "malayalam": "बाज़ार"
+    },
+    {
+      "hindi": "घड़ी",
+      "english_transliteration": "Ghadi",
+      "tamil_transliteration": "கடி",
+      "tamil_meaning": "கடிகாரம்",
+      "english_meaning": "Clock / Watch",
+      "malayalam": "घड़ी"
+    },
+    {
+      "hindi": "मेज़",
+      "english_transliteration": "Mez",
+      "tamil_transliteration": "மேஸ்",
+      "tamil_meaning": "மேசை",
+      "english_meaning": "Table",
+      "malayalam": "मेज़"
+    },
+    {
+      "hindi": "कुर्सी",
+      "english_transliteration": "Kursi",
+      "tamil_transliteration": "கூர்ஸி",
+      "tamil_meaning": "நாற்காலி",
+      "english_meaning": "Chair",
+      "malayalam": "कुर्सी"
+    },
+    {
+      "hindi": "दरवाज़ा",
+      "english_transliteration": "Darwaaza",
+      "tamil_transliteration": "தர்வாஸா",
+      "tamil_meaning": "கதவு",
+      "english_meaning": "Door",
+      "malayalam": "दरवाज़ा"
+    },
+    {
+      "hindi": "खिड़की",
+      "english_transliteration": "Khidki",
+      "tamil_transliteration": "கிட்கி",
+      "tamil_meaning": "ஜன்னல்",
+      "english_meaning": "Window",
+      "malayalam": "खिड़की"
+    },
+    {
+      "hindi": "छत",
+      "english_transliteration": "Chhat",
+      "tamil_transliteration": "சட்",
+      "tamil_meaning": "கூரை",
+      "english_meaning": "Roof",
+      "malayalam": "छत"
+    },
+    {
+      "hindi": "दीवार",
+      "english_transliteration": "Deewar",
+      "tamil_transliteration": "தீவார்",
+      "tamil_meaning": "சுவர்",
+      "english_meaning": "Wall",
+      "malayalam": "दीवार"
+    },
+    {
+      "hindi": "सड़क",
+      "english_transliteration": "Sadak",
+      "tamil_transliteration": "ஸடக்",
+      "tamil_meaning": "சாலை",
+      "english_meaning": "Road",
+      "malayalam": "सड़क"
+    },
+    {
+      "hindi": "पुल",
+      "english_transliteration": "Pul",
+      "tamil_transliteration": "புல்",
+      "tamil_meaning": "பாலம்",
+      "english_meaning": "Bridge",
+      "malayalam": "पुल"
+    },
+    {
+      "hindi": "बगीचा",
+      "english_transliteration": "Bageecha",
+      "tamil_transliteration": "பகீசா",
+      "tamil_meaning": "தோட்டம்",
+      "english_meaning": "Garden",
+      "malayalam": "बगीचा"
+    },
+    {
+      "hindi": "खेत",
+      "english_transliteration": "Khet",
+      "tamil_transliteration": "கேத்",
+      "tamil_meaning": "வயல்",
+      "english_meaning": "Farm / Field",
+      "malayalam": "खेत"
+    },
+    {
+      "hindi": "आसमान",
+      "english_transliteration": "Aasmaan",
+      "tamil_transliteration": "ஆஸ்மான்",
+      "tamil_meaning": "விண்மீன்",
+      "english_meaning": "Horizon",
+      "malayalam": "आसमान"
+    },
+    {
+      "hindi": "धूप",
+      "english_transliteration": "Dhoop",
+      "tamil_transliteration": "தூப்",
+      "tamil_meaning": "வெயில்",
+      "english_meaning": "Sunlight",
+      "malayalam": "धूप"
+    },
+    {
+      "hindi": "छाया",
+      "english_transliteration": "Chhaaya",
+      "tamil_transliteration": "சாயா",
+      "tamil_meaning": "நிழல்",
+      "english_meaning": "Shadow / Shade",
+      "malayalam": "छाया"
+    },
+    {
+      "hindi": "बादल",
+      "english_transliteration": "Baadal",
+      "tamil_transliteration": "பாதல்",
+      "tamil_meaning": "மேகம்",
+      "english_meaning": "Cloud",
+      "malayalam": "बादल"
+    },
+    {
+      "hindi": "इंद्रधनुष",
+      "english_transliteration": "Indradhanush",
+      "tamil_transliteration": "இந்த்ரதனுஷ்",
+      "tamil_meaning": "வானவில்",
+      "english_meaning": "Rainbow",
+      "malayalam": "इंद्रधनुष"
+    },
+    {
+      "hindi": "तूफ़ान",
+      "english_transliteration": "Toofaan",
+      "tamil_transliteration": "தூஃபான்",
+      "tamil_meaning": "புயல்",
+      "english_meaning": "Storm",
+      "malayalam": "तूफ़ान"
+    },
+    {
+      "hindi": "भूकंप",
+      "english_transliteration": "Bhookanp",
+      "tamil_transliteration": "பூகம்ப்",
+      "tamil_meaning": "நிலநடுக்கம்",
+      "english_meaning": "Earthquake",
+      "malayalam": "भूकंप"
+    },
+    {
+      "hindi": "बाढ़",
+      "english_transliteration": "Baadh",
+      "tamil_transliteration": "பாத்",
+      "tamil_meaning": "வெள்ளம்",
+      "english_meaning": "Flood",
+      "malayalam": "बाढ़"
+    },
+    {
+      "hindi": "आपदा",
+      "english_transliteration": "Aapda",
+      "tamil_transliteration": "ஆபதா",
+      "tamil_meaning": "இயற்கை பேரழிவு",
+      "english_meaning": "Disaster",
+      "malayalam": "आपदा"
+    },
+    {
+      "hindi": "बचाव",
+      "english_transliteration": "Bachaav",
+      "tamil_transliteration": "பசாவ்",
+      "tamil_meaning": "மீட்பு",
+      "english_meaning": "Rescue",
+      "malayalam": "बचाव"
+    },
+    {
+      "hindi": "सुरक्षा",
+      "english_transliteration": "Suraksha",
+      "tamil_transliteration": "ஸுரக்ஷா",
+      "tamil_meaning": "பாதுகாப்பு",
+      "english_meaning": "Safety / Security",
+      "malayalam": "सुरक्षा"
+    },
+    {
+      "hindi": "न्याय",
+      "english_transliteration": "Nyaay",
+      "tamil_transliteration": "ந்யாய்",
+      "tamil_meaning": "நீதி",
+      "english_meaning": "Justice",
+      "malayalam": "न्याय"
+    },
+    {
+      "hindi": "क़ानून",
+      "english_transliteration": "Qaanoon",
+      "tamil_transliteration": "கானூன்",
+      "tamil_meaning": "சட்டம்",
+      "english_meaning": "Law",
+      "malayalam": "क़ानून"
+    },
+    {
+      "hindi": "सरकार",
+      "english_transliteration": "Sarkaar",
+      "tamil_transliteration": "ஸர்கார்",
+      "tamil_meaning": "அரசு",
+      "english_meaning": "Government",
+      "malayalam": "सरकार"
+    },
+    {
+      "hindi": "नेता",
+      "english_transliteration": "Neta",
+      "tamil_transliteration": "நேதா",
+      "tamil_meaning": "தலைவர்",
+      "english_meaning": "Leader / Politician",
+      "malayalam": "नेता"
+    },
+    {
+      "hindi": "सेना",
+      "english_transliteration": "Sena",
+      "tamil_transliteration": "ஸேனா",
+      "tamil_meaning": "இராணுவம்",
+      "english_meaning": "Army",
+      "malayalam": "सेना"
+    },
+    {
+      "hindi": "पुलिस",
+      "english_transliteration": "Police",
+      "tamil_transliteration": "பொலீஸ்",
+      "tamil_meaning": "காவல்துறை",
+      "english_meaning": "Police",
+      "malayalam": "पुलिस"
+    },
+    {
+      "hindi": "चोर",
+      "english_transliteration": "Chor",
+      "tamil_transliteration": "சோர்",
+      "tamil_meaning": "திருடன்",
+      "english_meaning": "Thief",
+      "malayalam": "चोर"
+    },
+    {
+      "hindi": "ख़तरा",
+      "english_transliteration": "Khatra",
+      "tamil_transliteration": "கத்ரா",
+      "tamil_meaning": "ஆபத்து",
+      "english_meaning": "Danger",
+      "malayalam": "ख़तरा"
+    },
+    {
+      "hindi": "ख़ुशबू",
+      "english_transliteration": "Khushboo",
+      "tamil_transliteration": "குஷ்பூ",
+      "tamil_meaning": "வாசனை",
+      "english_meaning": "Fragrance",
+      "malayalam": "ख़ुशबू"
+    },
+    {
+      "hindi": "शोर",
+      "english_transliteration": "Shor",
+      "tamil_transliteration": "ஷோர்",
+      "tamil_meaning": "சத்தம்",
+      "english_meaning": "Noise",
+      "malayalam": "शोर"
+    },
+    {
+      "hindi": "शांति",
+      "english_transliteration": "Shaanti",
+      "tamil_transliteration": "ஷாந்தி",
+      "tamil_meaning": "அமைதி",
+      "english_meaning": "Peace",
+      "malayalam": "शांति"
+    },
+    {
+      "hindi": "युद्ध",
+      "english_transliteration": "Yuddh",
+      "tamil_transliteration": "யுத்த்",
+      "tamil_meaning": "போர்",
+      "english_meaning": "War",
+      "malayalam": "युद्ध"
+    },
+    {
+      "hindi": "मित्रता",
+      "english_transliteration": "Mitrata",
+      "tamil_transliteration": "மித்ரதா",
+      "tamil_meaning": "நட்பு",
+      "english_meaning": "Friendship",
+      "malayalam": "मित्रता"
+    },
+    {
+      "hindi": "दुश्मन",
+      "english_transliteration": "Dushman",
+      "tamil_transliteration": "துஷ்மன்",
+      "tamil_meaning": "எதிரி",
+      "english_meaning": "Enemy",
+      "malayalam": "दुश्मन"
+    },
+    {
+      "hindi": "सहायता",
+      "english_transliteration": "Sahayta",
+      "tamil_transliteration": "ஸஹாயதா",
+      "tamil_meaning": "உதவி",
+      "english_meaning": "Assistance",
+      "malayalam": "सहायता"
+    },
+    {
+      "hindi": "ज्ञान",
+      "english_transliteration": "Gyaan",
+      "tamil_transliteration": "க்யான்",
+      "tamil_meaning": "அறிவு",
+      "english_meaning": "Knowledge",
+      "malayalam": "ज्ञान"
+    },
+    {
+      "hindi": "बुद्धि",
+      "english_transliteration": "Buddhi",
+      "tamil_transliteration": "புத்தி",
+      "tamil_meaning": "புத்திசாலித்தனம்",
+      "english_meaning": "Intelligence / Wisdom",
+      "malayalam": "बुद्धि"
+    },
+    {
+      "hindi": "विचार",
+      "english_transliteration": "Vichaar",
+      "tamil_transliteration": "விசார்",
+      "tamil_meaning": "எண்ணம்",
+      "english_meaning": "Thought / Idea",
+      "malayalam": "विचार"
+    },
+    {
+      "hindi": "समझ",
+      "english_transliteration": "Samajh",
+      "tamil_transliteration": "ஸமஜ்",
+      "tamil_meaning": "புரிதல்",
+      "english_meaning": "Understanding",
+      "malayalam": "समझ"
+    },
+    {
+      "hindi": "सीखना",
+      "english_transliteration": "Seekhna",
+      "tamil_transliteration": "ஸீக்னா",
+      "tamil_meaning": "கற்றல்",
+      "english_meaning": "Learning",
+      "malayalam": "सीखना"
+    },
+    {
+      "hindi": "सिखाना",
+      "english_transliteration": "Sikhaana",
+      "tamil_transliteration": "ஸிகானா",
+      "tamil_meaning": "கற்பித்தல்",
+      "english_meaning": "Teaching",
+      "malayalam": "सिखाना"
+    },
+    {
+      "hindi": "परीक्षा",
+      "english_transliteration": "Pareeksha",
+      "tamil_transliteration": "பரீக்ஷா",
+      "tamil_meaning": "தேர்வு",
+      "english_meaning": "Examination / Test",
+      "malayalam": "परीक्षा"
+    },
+    {
+      "hindi": "नतीजा",
+      "english_transliteration": "Nateeja",
+      "tamil_transliteration": "நதீஜா",
+      "tamil_meaning": "முடிவு / பலன்",
+      "english_meaning": "Result",
+      "malayalam": "नतीजा"
+    },
+    {
+      "hindi": "पुरस्कार",
+      "english_transliteration": "Puraskaar",
+      "tamil_transliteration": "புரஸ்கார்",
+      "tamil_meaning": "பரிசு / விருது",
+      "english_meaning": "Award / Prize",
+      "malayalam": "पुरस्कार"
+    },
+    {
+      "hindi": "दंड",
+      "english_transliteration": "Dand",
+      "tamil_transliteration": "தண்ட்",
+      "tamil_meaning": "தண்டனை",
+      "english_meaning": "Punishment",
+      "malayalam": "दंड"
+    },
+    {
+      "hindi": "खुला",
+      "english_transliteration": "Khula",
+      "tamil_transliteration": "குலா",
+      "tamil_meaning": "திறந்திருக்கும்",
+      "english_meaning": "Open",
+      "malayalam": "खुला"
+    },
+    {
+      "hindi": "बंद",
+      "english_transliteration": "Band",
+      "tamil_transliteration": "பந்த்",
+      "tamil_meaning": "மூடியிருக்கும்",
+      "english_meaning": "Closed",
+      "malayalam": "बंद"
+    },
+    {
+      "hindi": "भरा हुआ",
+      "english_transliteration": "Bhara hua",
+      "tamil_transliteration": "பரா ஹுவா",
+      "tamil_meaning": "நிரம்பியது",
+      "english_meaning": "Full",
+      "malayalam": "भरा हुआ"
+    },
+    {
+      "hindi": "खाली",
+      "english_transliteration": "Khaali",
+      "tamil_transliteration": "காலி",
+      "tamil_meaning": "காலி",
+      "english_meaning": "Empty",
+      "malayalam": "खाली"
+    },
+    {
+      "hindi": "भारी",
+      "english_transliteration": "Bhaari",
+      "tamil_transliteration": "பாரி",
+      "tamil_meaning": "கனமானது",
+      "english_meaning": "Heavy",
+      "malayalam": "भारी"
+    },
+    {
+      "hindi": "हल्का",
+      "english_transliteration": "Halka",
+      "tamil_transliteration": "ஹல்கா",
+      "tamil_meaning": "இலகுவானது",
+      "english_meaning": "Light (weight)",
+      "malayalam": "हल्का"
+    },
+    {
+      "hindi": "लंबा",
+      "english_transliteration": "Lamba",
+      "tamil_transliteration": "லம்பா",
+      "tamil_meaning": "நீளமானது",
+      "english_meaning": "Long / Tall",
+      "malayalam": "लंबा"
+    },
+    {
+      "hindi": "छोटा",
+      "english_transliteration": "Chhota",
+      "tamil_transliteration": "சோடா",
+      "tamil_meaning": "குட்டையானது",
+      "english_meaning": "Short",
+      "malayalam": "छोटा"
+    },
+    {
+      "hindi": "चौड़ा",
+      "english_transliteration": "Chauda",
+      "tamil_transliteration": "சவுடா",
+      "tamil_meaning": "அகலமானது",
+      "english_meaning": "Wide",
+      "malayalam": "चौड़ा"
+    },
+    {
+      "hindi": "पतला",
+      "english_transliteration": "Patla",
+      "tamil_transliteration": "பட்லா",
+      "tamil_meaning": "மெல்லியது",
+      "english_meaning": "Thin / Narrow",
+      "malayalam": "पतला"
+    },
+    {
+      "hindi": "मोटा",
+      "english_transliteration": "Mota",
+      "tamil_transliteration": "மோடா",
+      "tamil_meaning": "தடிமனானது",
+      "english_meaning": "Thick / Fat",
+      "malayalam": "मोटा"
+    },
+    {
+      "hindi": "गोल",
+      "english_transliteration": "Gol",
+      "tamil_transliteration": "கோல்",
+      "tamil_meaning": "வட்டமானது",
+      "english_meaning": "Round",
+      "malayalam": "गोल"
+    },
+    {
+      "hindi": "सीधा",
+      "english_transliteration": "Seedha",
+      "tamil_transliteration": "ஸீதா",
+      "tamil_meaning": "நேரானது",
+      "english_meaning": "Straight",
+      "malayalam": "सीधा"
+    },
+    {
+      "hindi": "टेढ़ा",
+      "english_transliteration": "Tedha",
+      "tamil_transliteration": "டேடா",
+      "tamil_meaning": "வளைந்தது",
+      "english_meaning": "Curved / Crooked",
+      "malayalam": "टेढ़ा"
+    },
+    {
+      "hindi": "नया",
+      "english_transliteration": "Naya",
+      "tamil_transliteration": "நயா",
+      "tamil_meaning": "புதியது",
+      "english_meaning": "New",
+      "malayalam": "नया"
+    },
+    {
+      "hindi": "पुराना",
+      "english_transliteration": "Puraana",
+      "tamil_transliteration": "புரானா",
+      "tamil_meaning": "பழையது",
+      "english_meaning": "Old",
+      "malayalam": "पुराना"
+    },
+    {
+      "hindi": "साफ़",
+      "english_transliteration": "Saaf",
+      "tamil_transliteration": "ஸாஃப்",
+      "tamil_meaning": "சுத்தமானது",
+      "english_meaning": "Clean",
+      "malayalam": "साफ़"
+    },
+    {
+      "hindi": "गंदा",
+      "english_transliteration": "Ganda",
+      "tamil_transliteration": "கந்தா",
+      "tamil_meaning": "அழுக்கானது",
+      "english_meaning": "Dirty",
+      "malayalam": "गंदा"
+    },
+    {
+      "hindi": "सुंदर",
+      "english_transliteration": "Sundar",
+      "tamil_transliteration": "ஸுந்தர்",
+      "tamil_meaning": "அழகானது",
+      "english_meaning": "Beautiful",
+      "malayalam": "सुंदर"
+    },
+    {
+      "hindi": "बदसूरत",
+      "english_transliteration": "Badsoorat",
+      "tamil_transliteration": "பத்ஸூரத்",
+      "tamil_meaning": "அசிங்கமானது",
+      "english_meaning": "Ugly",
+      "malayalam": "बदसूरत"
+    },
+    {
+      "hindi": "अकेला",
+      "english_transliteration": "Akela",
+      "tamil_transliteration": "அகேலா",
+      "tamil_meaning": "தனிமை",
+      "english_meaning": "Alone",
+      "malayalam": "अकेला"
+    },
+    {
+      "hindi": "एक साथ",
+      "english_transliteration": "Ek saath",
+      "tamil_transliteration": "ஏக் ஸாத்",
+      "tamil_meaning": "ஒன்றாக",
+      "english_meaning": "Together",
+      "malayalam": "एक साथ"
+    },
+    {
+      "hindi": "पहले",
+      "english_transliteration": "Pahle",
+      "tamil_transliteration": "பஹ்லே",
+      "tamil_meaning": "முதலில்",
+      "english_meaning": "First / Before",
+      "malayalam": "पहले"
+    },
+    {
+      "hindi": "बाद में",
+      "english_transliteration": "Baad mein",
+      "tamil_transliteration": "பாத் மேன்",
+      "tamil_meaning": "பின்னர்",
+      "english_meaning": "Later / After",
+      "malayalam": "बाद में"
+    },
+    {
+      "hindi": "अभी",
+      "english_transliteration": "Abhi",
+      "tamil_transliteration": "அபி",
+      "tamil_meaning": "இப்போது",
+      "english_meaning": "Now",
+      "malayalam": "अभी"
+    },
+    {
+      "hindi": "कल",
+      "english_transliteration": "Kal",
+      "tamil_transliteration": "கல்",
+      "tamil_meaning": "நேற்று / நாளை",
+      "english_meaning": "Yesterday / Tomorrow",
+      "malayalam": "कल"
+    },
+    {
+      "hindi": "आज",
+      "english_transliteration": "Aaj",
+      "tamil_transliteration": "ஆஜ்",
+      "tamil_meaning": "இன்று",
+      "english_meaning": "Today",
+      "malayalam": "आज"
+    },
+    {
+      "hindi": "सप्ताह",
+      "english_transliteration": "Saptaah",
+      "tamil_transliteration": "ஸப்தாஹ்",
+      "tamil_meaning": "வாரம்",
+      "english_meaning": "Week",
+      "malayalam": "सप्ताह"
+    },
+    {
+      "hindi": "महीना",
+      "english_transliteration": "Mahina",
+      "tamil_transliteration": "மஹீனா",
+      "tamil_meaning": "மாதம்",
+      "english_meaning": "Month",
+      "malayalam": "महीना"
+    },
+    {
+      "hindi": "साल",
+      "english_transliteration": "Saal",
+      "tamil_transliteration": "ஸால்",
+      "tamil_meaning": "வருடம்",
+      "english_meaning": "Year",
+      "malayalam": "साल"
+    },
+    {
+      "hindi": "सोमवार",
+      "english_transliteration": "Somwar",
+      "tamil_transliteration": "ஸோம்வார்",
+      "tamil_meaning": "திங்கள்",
+      "english_meaning": "Monday",
+      "malayalam": "सोमवार"
+    },
+    {
+      "hindi": "मंगलवार",
+      "english_transliteration": "Mangalwar",
+      "tamil_transliteration": "மங்கல்வார்",
+      "tamil_meaning": "செவ்வாய்",
+      "english_meaning": "Tuesday",
+      "malayalam": "मंगलवार"
+    },
+    {
+      "hindi": "बुधवार",
+      "english_transliteration": "Budhwar",
+      "tamil_transliteration": "புத்வார்",
+      "tamil_meaning": "புதன்",
+      "english_meaning": "Wednesday",
+      "malayalam": "बुधवार"
+    },
+    {
+      "hindi": "गुरुवार",
+      "english_transliteration": "Guruwar",
+      "tamil_transliteration": "குருவார்",
+      "tamil_meaning": "வியாழன்",
+      "english_meaning": "Thursday",
+      "malayalam": "गुरुवार"
+    },
+    {
+      "hindi": "शुक्रवार",
+      "english_transliteration": "Shukrawar",
+      "tamil_transliteration": "ஷுக்ர்வார்",
+      "tamil_meaning": "வெள்ளி",
+      "english_meaning": "Friday",
+      "malayalam": "शुक्रवार"
+    },
+    {
+      "hindi": "शनिवार",
+      "english_transliteration": "Shaniwar",
+      "tamil_transliteration": "ஷனிவார்",
+      "tamil_meaning": "சனி",
+      "english_meaning": "Saturday",
+      "malayalam": "शनिवार"
+    },
+    {
+      "hindi": "रविवार",
+      "english_transliteration": "Raviwar",
+      "tamil_transliteration": "ரவிவார்",
+      "tamil_meaning": "ஞாயிறு",
+      "english_meaning": "Sunday",
+      "malayalam": "रविवार"
+    },
+    {
+      "hindi": "जनवरी",
+      "english_transliteration": "January",
+      "tamil_transliteration": "ஜனவரி",
+      "tamil_meaning": "ஜனவரி",
+      "english_meaning": "January",
+      "malayalam": "जनवरी"
+    },
+    {
+      "hindi": "फरवरी",
+      "english_transliteration": "February",
+      "tamil_transliteration": "ஃபரவரி",
+      "tamil_meaning": "பிப்ரவரி",
+      "english_meaning": "February",
+      "malayalam": "फरवरी"
+    },
+    {
+      "hindi": "मार्च",
+      "english_transliteration": "March",
+      "tamil_transliteration": "மார்ச்",
+      "tamil_meaning": "மார்ச்",
+      "english_meaning": "March",
+      "malayalam": "मार्च"
+    },
+    {
+      "hindi": "अप्रैल",
+      "english_transliteration": "April",
+      "tamil_transliteration": "அப்ரைல்",
+      "tamil_meaning": "ஏப்ரல்",
+      "english_meaning": "April",
+      "malayalam": "अप्रैल"
+    },
+    {
+      "hindi": "मई",
+      "english_transliteration": "May",
+      "tamil_transliteration": "மே",
+      "tamil_meaning": "மே",
+      "english_meaning": "May",
+      "malayalam": "मई"
+    },
+    {
+      "hindi": "जून",
+      "english_transliteration": "June",
+      "tamil_transliteration": "ஜூன்",
+      "tamil_meaning": "ஜூன்",
+      "english_meaning": "June",
+      "malayalam": "जून"
+    },
+    {
+      "hindi": "जुलाई",
+      "english_transliteration": "July",
+      "tamil_transliteration": "ஜுலாய்",
+      "tamil_meaning": "ஜூலை",
+      "english_meaning": "July",
+      "malayalam": "जुलाई"
+    },
+    {
+      "hindi": "अगस्त",
+      "english_transliteration": "August",
+      "tamil_transliteration": "அகஸ்த்",
+      "tamil_meaning": "ஆகஸ்ட்",
+      "english_meaning": "August",
+      "malayalam": "अगस्त"
+    },
+    {
+      "hindi": "सितंबर",
+      "english_transliteration": "September",
+      "tamil_transliteration": "ஸிதம்பர்",
+      "tamil_meaning": "செப்டம்பர்",
+      "english_meaning": "September",
+      "malayalam": "सितंबर"
+    },
+    {
+      "hindi": "अक्टूबर",
+      "english_transliteration": "October",
+      "tamil_transliteration": "அக்டூபர்",
+      "tamil_meaning": "அக்டோபர்",
+      "english_meaning": "October",
+      "malayalam": "अक्टूबर"
+    },
+    {
+      "hindi": "नवंबर",
+      "english_transliteration": "November",
+      "tamil_transliteration": "நவம்பர்",
+      "tamil_meaning": "நவம்பர்",
+      "english_meaning": "November",
+      "malayalam": "नवंबर"
+    },
+    {
+      "hindi": "दिसंबर",
+      "english_transliteration": "December",
+      "tamil_transliteration": "திஸம்பர்",
+      "tamil_meaning": "டிசம்பர்",
+      "english_meaning": "December",
+      "malayalam": "दिसंबर"
+    },
+    {
+      "hindi": "भरोसा/विश्वास",
+      "english_transliteration": "Bharosa/vishvasa",
+      "tamil_transliteration": "பரோஸா/விஶ்வாஸ",
+      "tamil_meaning": "நம்பிக்கை",
+      "english_meaning": "Trust / Belief",
+      "malayalam": "വിശ്വാസം"
+    },
+    {
+      "hindi": "पका हुआ चावल",
+      "english_transliteration": "Paka hua chavala",
+      "tamil_transliteration": "பகா ஹுஆ சாவல",
+      "tamil_meaning": "சோறு",
+      "english_meaning": "Cooked Rice",
+      "malayalam": "ചോറ്"
+    },
+    {
+      "hindi": "चावल का दलिया",
+      "english_transliteration": "Chavala ka daliya",
+      "tamil_transliteration": "சாவல கா தலியா",
+      "tamil_meaning": "கஞ்சி",
+      "english_meaning": "Rice Gruel",
+      "malayalam": "കഞ്ഞി"
+    },
+    {
+      "hindi": "मक्खन",
+      "english_transliteration": "Makkhana",
+      "tamil_transliteration": "மக்கந",
+      "tamil_meaning": "வெண்ணெய்",
+      "english_meaning": "Butter",
+      "malayalam": "വെണ്ണ"
+    },
+    {
+      "hindi": "घी",
+      "english_transliteration": "Ghi",
+      "tamil_transliteration": "கீ",
+      "tamil_meaning": "நெய்",
+      "english_meaning": "Ghee",
+      "malayalam": "നെയ്"
+    },
+    {
+      "hindi": "दही",
+      "english_transliteration": "Dahi",
+      "tamil_transliteration": "தஹீ",
+      "tamil_meaning": "தயிர்",
+      "english_meaning": "Curd",
+      "malayalam": "തൈര്"
+    },
+    {
+      "hindi": "छाछ",
+      "english_transliteration": "Chacha",
+      "tamil_transliteration": "சாச",
+      "tamil_meaning": "மோர்",
+      "english_meaning": "Buttermilk",
+      "malayalam": "മോര്"
+    },
+    {
+      "hindi": "शहद",
+      "english_transliteration": "Shahada",
+      "tamil_transliteration": "ஶஹத",
+      "tamil_meaning": "தேன்",
+      "english_meaning": "Honey",
+      "malayalam": "തേൻ"
+    },
+    {
+      "hindi": "फल",
+      "english_transliteration": "Phala",
+      "tamil_transliteration": "பல",
+      "tamil_meaning": "பழங்கள்",
+      "english_meaning": "Fruits",
+      "malayalam": "പഴവർഗ്ഗങ്ങൾ"
+    },
+    {
+      "hindi": "आम",
+      "english_transliteration": "Ama",
+      "tamil_transliteration": "ஆம",
+      "tamil_meaning": "மாம்பழம்",
+      "english_meaning": "Mango",
+      "malayalam": "മാങ്ങ"
+    },
+    {
+      "hindi": "केला",
+      "english_transliteration": "Kela",
+      "tamil_transliteration": "கேலா",
+      "tamil_meaning": "வாழைப்பழம்",
+      "english_meaning": "Banana",
+      "malayalam": "വാഴപ്പഴം"
+    },
+    {
+      "hindi": "सेब",
+      "english_transliteration": "Seba",
+      "tamil_transliteration": "ஸேப",
+      "tamil_meaning": "ஆப்பிள்",
+      "english_meaning": "Apple",
+      "malayalam": "ആപ്പിൾ"
+    },
+    {
+      "hindi": "नारंगी",
+      "english_transliteration": "Naramgi",
+      "tamil_transliteration": "நாரம்கீ",
+      "tamil_meaning": "ஆரஞ்சு",
+      "english_meaning": "Orange",
+      "malayalam": "ഓറഞ്ച്"
+    },
+    {
+      "hindi": "रात का खाना",
+      "english_transliteration": "Rata ka khana",
+      "tamil_transliteration": "ராத கா காநா",
+      "tamil_meaning": "இரவு உணவு",
+      "english_meaning": "Dinner",
+      "malayalam": "രാത്രിഭക്ഷണം"
+    },
+    {
+      "hindi": "दिन का खाना",
+      "english_transliteration": "Dina ka khana",
+      "tamil_transliteration": "திந கா காநா",
+      "tamil_meaning": "மதிய உணவு",
+      "english_meaning": "Lunch",
+      "malayalam": "ഉച്ചഭക്ഷണം"
+    },
+    {
+      "hindi": "नाश्ता",
+      "english_transliteration": "Nashta",
+      "tamil_transliteration": "நாஶ்தா",
+      "tamil_meaning": "காலை உணவு",
+      "english_meaning": "Breakfast",
+      "malayalam": "പ്രാതൽ"
+    },
+    {
+      "hindi": "वसंत का मौसम",
+      "english_transliteration": "Vasamta ka mausama",
+      "tamil_transliteration": "வஸம்த கா மௌஸம",
+      "tamil_meaning": "வசந்த காலம்",
+      "english_meaning": "Spring Season",
+      "malayalam": "വസന്തം"
+    },
+    {
+      "hindi": "गर्मी के मौसम",
+      "english_transliteration": "Garmi ke mausama",
+      "tamil_transliteration": "கர்மீ கே மௌஸம",
+      "tamil_meaning": "கோடை காலம்",
+      "english_meaning": "Summer Season",
+      "malayalam": "വേനൽക്കാലം"
+    },
+    {
+      "hindi": "मानसून / बरसात का मौसम",
+      "english_transliteration": "Manasuna / barasata ka mausama",
+      "tamil_transliteration": "மாநஸூந / பரஸாத கா மௌஸம",
+      "tamil_meaning": "மழை காலம்",
+      "english_meaning": "Monsoon / Rainy Season",
+      "malayalam": "വർഷകാലം"
+    },
+    {
+      "hindi": "शरद ऋतु",
+      "english_transliteration": "Sharada rritu",
+      "tamil_transliteration": "ஶரத ரு'து",
+      "tamil_meaning": "குளிர்காலம்",
+      "english_meaning": "Winter Season",
+      "malayalam": "ശീതകാലം"
+    },
+    {
+      "hindi": "बर्फ़ीला/कोहरा भरा मौसम",
+      "english_transliteration": "Barfila/kohara bhara mausama",
+      "tamil_transliteration": "பர்ஃபீலா/கோஹரா பரா மௌஸம",
+      "tamil_meaning": "பனிக்காலம்",
+      "english_meaning": "Snowy / Foggy Season",
+      "malayalam": "മഞ്ഞുകാലം"
+    },
+    {
+      "hindi": "दिशा",
+      "english_transliteration": "Disha",
+      "tamil_transliteration": "திஶா",
+      "tamil_meaning": "திசை",
+      "english_meaning": "Direction",
+      "malayalam": "ദിശ"
+    },
+    {
+      "hindi": "पूर्व",
+      "english_transliteration": "Purva",
+      "tamil_transliteration": "பூர்வ",
+      "tamil_meaning": "கிழக்கு",
+      "english_meaning": "East",
+      "malayalam": "കിഴക്ക്"
+    },
+    {
+      "hindi": "पश्चिम",
+      "english_transliteration": "Pashchima",
+      "tamil_transliteration": "பஶ்சிம",
+      "tamil_meaning": "மேற்கு",
+      "english_meaning": "West",
+      "malayalam": "പടിഞ്ഞാറ്"
+    },
+    {
+      "hindi": "उत्तर",
+      "english_transliteration": "Uttara",
+      "tamil_transliteration": "உத்தர",
+      "tamil_meaning": "வடக்கு",
+      "english_meaning": "North",
+      "malayalam": "വടക്ക്"
+    },
+    {
+      "hindi": "दक्षिण",
+      "english_transliteration": "Dakshina",
+      "tamil_transliteration": "தக்ஷிண",
+      "tamil_meaning": "தெற்கு",
+      "english_meaning": "South",
+      "malayalam": "തെക്ക്"
+    },
+    {
+      "hindi": "एक",
+      "english_transliteration": "Eka",
+      "tamil_transliteration": "ஏக",
+      "tamil_meaning": "ஒன்று",
+      "english_meaning": "One",
+      "malayalam": "ഒന്ന്"
+    },
+    {
+      "hindi": "दो",
+      "english_transliteration": "Do",
+      "tamil_transliteration": "தோ",
+      "tamil_meaning": "இரண்டு",
+      "english_meaning": "Two",
+      "malayalam": "രണ്ട്"
+    },
+    {
+      "hindi": "तीन",
+      "english_transliteration": "Tina",
+      "tamil_transliteration": "தீந",
+      "tamil_meaning": "மூன்று",
+      "english_meaning": "Three",
+      "malayalam": "മൂന്ന്"
+    },
+    {
+      "hindi": "चार",
+      "english_transliteration": "Chara",
+      "tamil_transliteration": "சார",
+      "tamil_meaning": "நான்கு",
+      "english_meaning": "Four",
+      "malayalam": "നാാല്"
+    },
+    {
+      "hindi": "पाँच",
+      "english_transliteration": "Pa.ncha",
+      "tamil_transliteration": "பாँச",
+      "tamil_meaning": "ஐந்து",
+      "english_meaning": "Five",
+      "malayalam": "അഞ്ച്"
+    },
+    {
+      "hindi": "छह",
+      "english_transliteration": "Chaha",
+      "tamil_transliteration": "சஹ",
+      "tamil_meaning": "ஆறு",
+      "english_meaning": "Six",
+      "malayalam": "ആറ്"
+    },
+    {
+      "hindi": "सात",
+      "english_transliteration": "Sata",
+      "tamil_transliteration": "ஸாத",
+      "tamil_meaning": "ஏழு",
+      "english_meaning": "Seven",
+      "malayalam": "ഏഴ്"
+    },
+    {
+      "hindi": "आठ",
+      "english_transliteration": "Atha",
+      "tamil_transliteration": "ஆட",
+      "tamil_meaning": "எட்டு",
+      "english_meaning": "Eight",
+      "malayalam": "എട്ട്"
+    },
+    {
+      "hindi": "नौ",
+      "english_transliteration": "Nau",
+      "tamil_transliteration": "நௌ",
+      "tamil_meaning": "ஒன்பது",
+      "english_meaning": "Nine",
+      "malayalam": "ഒonപത്"
+    },
+    {
+      "hindi": "दस",
+      "english_transliteration": "Dasa",
+      "tamil_transliteration": "தஸ",
+      "tamil_meaning": "பத்து",
+      "english_meaning": "Ten",
+      "malayalam": "പത്ത്"
+    },
+    {
+      "hindi": "सौ",
+      "english_transliteration": "Sau",
+      "tamil_transliteration": "ஸௌ",
+      "tamil_meaning": "நூறு",
+      "english_meaning": "Hundred",
+      "malayalam": "നൂറ്"
+    },
+    {
+      "hindi": "हज़ार",
+      "english_transliteration": "Hazara",
+      "tamil_transliteration": "ஹஃஜார",
+      "tamil_meaning": "ஆயிரம்",
+      "english_meaning": "Thousand",
+      "malayalam": "ആയിരം"
+    },
+    {
+      "hindi": "कल",
+      "english_transliteration": "Kala",
+      "tamil_transliteration": "கல",
+      "tamil_meaning": "நாளை",
+      "english_meaning": "Tomorrow",
+      "malayalam": "നാളെ"
+    },
+    {
+      "hindi": "कल",
+      "english_transliteration": "Kala",
+      "tamil_transliteration": "கல",
+      "tamil_meaning": "நேற்று",
+      "english_meaning": "Yesterday",
+      "malayalam": "ഇന്നലെ"
+    },
+    {
+      "hindi": "बाद में",
+      "english_transliteration": "Bada mem",
+      "tamil_transliteration": "பாத மேம்",
+      "tamil_meaning": "பின்னர்",
+      "english_meaning": "Later",
+      "malayalam": "പിന്നീട്"
+    },
+    {
+      "hindi": "हमेशा",
+      "english_transliteration": "Hamesha",
+      "tamil_transliteration": "ஹமேஶா",
+      "tamil_meaning": "எப்போதும்",
+      "english_meaning": "Always",
+      "malayalam": "എപ്പോഴും"
+    },
+    {
+      "hindi": "कभी नहीं",
+      "english_transliteration": "Kabhi nahim",
+      "tamil_transliteration": "கபீ நஹீம்",
+      "tamil_meaning": "ஒருபோதும் இல்லை",
+      "english_meaning": "Never",
+      "malayalam": "ഒരിക്കലും"
+    },
+    {
+      "hindi": "लंबा",
+      "english_transliteration": "Lamba",
+      "tamil_transliteration": "லம்பா",
+      "tamil_meaning": "நீளமான",
+      "english_meaning": "Long",
+      "malayalam": "നീളമുള്ള"
+    },
+    {
+      "hindi": "गर्म",
+      "english_transliteration": "Garma",
+      "tamil_transliteration": "கர்ம",
+      "tamil_meaning": "சூடான",
+      "english_meaning": "Hot",
+      "malayalam": "ചൂടുള്ള"
+    },
+    {
+      "hindi": "सुरक्षित",
+      "english_transliteration": "Surakshita",
+      "tamil_transliteration": "ஸுரக்ஷித",
+      "tamil_meaning": "பாதுகாப்பான",
+      "english_meaning": "Safe",
+      "malayalam": "സുരക്ഷിതം"
+    },
+    {
+      "hindi": "तेज़",
+      "english_transliteration": "Teza",
+      "tamil_transliteration": "தேஃஜ",
+      "tamil_meaning": "வேகமான",
+      "english_meaning": "Fast",
+      "malayalam": "വേഗതയുള്ള"
+    },
+    {
+      "hindi": "कम/कम",
+      "english_transliteration": "Kama/kama",
+      "tamil_transliteration": "கம/கம",
+      "tamil_meaning": "குறைவு",
+      "english_meaning": "Less / Few",
+      "malayalam": "കുറവ്"
+    },
+    {
+      "hindi": "अधिक/अतिरिक्त",
+      "english_transliteration": "Adhika/atirikta",
+      "tamil_transliteration": "அதிக/அதிரிக்த",
+      "tamil_meaning": "கூடுதல்",
+      "english_meaning": "More / Extra",
+      "malayalam": "കൂടുതൽ"
+    },
+    {
+      "hindi": "बच्चे",
+      "english_transliteration": "Bachche",
+      "tamil_transliteration": "பச்சே",
+      "tamil_meaning": "குழந்தைகள்",
+      "english_meaning": "Children",
+      "malayalam": "സഹോദരൻ"
+    },
+    {
+      "hindi": "मानव/आदमी",
+      "english_transliteration": "Manava/adami",
+      "tamil_transliteration": "மாநவ/ஆதமீ",
+      "tamil_meaning": "மனிதன்",
+      "english_meaning": "Human / Man",
+      "malayalam": "മനുഷ്യൻ"
+    },
+    {
+      "hindi": "महिला",
+      "english_transliteration": "Mahila",
+      "tamil_transliteration": "மஹிலா",
+      "tamil_meaning": "பெண்",
+      "english_meaning": "Woman",
+      "malayalam": "സ്ത്രീ"
+    },
+    {
+      "hindi": "आदमी",
+      "english_transliteration": "Adami",
+      "tamil_transliteration": "ஆதமீ",
+      "tamil_meaning": "ஆண்",
+      "english_meaning": "Man",
+      "malayalam": "പുരുഷൻ"
+    },
+    {
+      "hindi": "बच्चा",
+      "english_transliteration": "Bachcha",
+      "tamil_transliteration": "பச்சா",
+      "tamil_meaning": "குழந்தை",
+      "english_meaning": "Baby",
+      "malayalam": "കുഞ്ഞ്"
+    },
+    {
+      "hindi": "योद्धा",
+      "english_transliteration": "Yoddha",
+      "tamil_transliteration": "யோத்தா",
+      "tamil_meaning": "வீரன்",
+      "english_meaning": "Warrior",
+      "malayalam": "യോദ്ധാവ്"
+    },
+    {
+      "hindi": "राजा",
+      "english_transliteration": "Raja",
+      "tamil_transliteration": "ராஜா",
+      "tamil_meaning": "ராஜா",
+      "english_meaning": "King",
+      "malayalam": "രാജാവ്"
+    },
+    {
+      "hindi": "रानी",
+      "english_transliteration": "Rani",
+      "tamil_transliteration": "ராநீ",
+      "tamil_meaning": "ராணி",
+      "english_meaning": "Queen",
+      "malayalam": "രാജ്ഞി"
+    },
+    {
+      "hindi": "प्रकृति",
+      "english_transliteration": "Prakrriti",
+      "tamil_transliteration": "ப்ரக்ரு'தி",
+      "tamil_meaning": "இயற்கை",
+      "english_meaning": "Nature",
+      "malayalam": "പ്രകൃതി"
+    },
+    {
+      "hindi": "इतिहास",
+      "english_transliteration": "Itihasa",
+      "tamil_transliteration": "இதிஹாஸ",
+      "tamil_meaning": "வரலாறு",
+      "english_meaning": "History",
+      "malayalam": "ചരിത്രം"
+    },
+    {
+      "hindi": "विज्ञान",
+      "english_transliteration": "Vij~nana",
+      "tamil_transliteration": "விஜ்ஞாந",
+      "tamil_meaning": "அறிவியல்",
+      "english_meaning": "Science",
+      "malayalam": "ശാസ്ത്രം"
+    },
+    {
+      "hindi": "अंक शास्त्र",
+      "english_transliteration": "Amka shastra",
+      "tamil_transliteration": "அம்க ஶாஸ்த்ர",
+      "tamil_meaning": "கணிதம்",
+      "english_meaning": "Mathematics",
+      "malayalam": "ഗണിതം"
+    },
+    {
+      "hindi": "भाषा",
+      "english_transliteration": "Bhasha",
+      "tamil_transliteration": "பாஷா",
+      "tamil_meaning": "மொழி",
+      "english_meaning": "Language",
+      "malayalam": "ഭാഷ"
+    },
+    {
+      "hindi": "व्याकरण",
+      "english_transliteration": "Vyakarana",
+      "tamil_transliteration": "வ்யாகரண",
+      "tamil_meaning": "இலக்கணம்",
+      "english_meaning": "Grammar",
+      "malayalam": "വ്യാകരണം"
+    },
+    {
+      "hindi": "शब्द",
+      "english_transliteration": "Shabda",
+      "tamil_transliteration": "ஶப்த",
+      "tamil_meaning": "வார்த்தை",
+      "english_meaning": "Word",
+      "malayalam": "വാക്ക്"
+    },
+    {
+      "hindi": "अर्थ",
+      "english_transliteration": "Artha",
+      "tamil_transliteration": "அர்த",
+      "tamil_meaning": "பொருள்",
+      "english_meaning": "Meaning",
+      "malayalam": "അർത്ഥം"
+    },
+    {
+      "hindi": "पढ़ना",
+      "english_transliteration": "Pa.dhana",
+      "tamil_transliteration": "பஃட³நா",
+      "tamil_meaning": "வாசிப்பு",
+      "english_meaning": "Reading",
+      "malayalam": "വായന"
+    },
+    {
+      "hindi": "लिखना",
+      "english_transliteration": "Likhana",
+      "tamil_transliteration": "லிகநா",
+      "tamil_meaning": "எழுதுதல்",
+      "english_meaning": "Writing",
+      "malayalam": "എഴുത്ത്"
+    },
+    {
+      "hindi": "सुनना",
+      "english_transliteration": "Sunana",
+      "tamil_transliteration": "ஸுநநா",
+      "tamil_meaning": "கேட்டல்",
+      "english_meaning": "Listening",
+      "malayalam": "കേൾവി"
+    },
+    {
+      "hindi": "बोला जा रहा है",
+      "english_transliteration": "Bola ja raha hai",
+      "tamil_transliteration": "போலா ஜா ரஹா ஹை",
+      "tamil_meaning": "பேசுதல்",
+      "english_meaning": "Speaking",
+      "malayalam": "സംസാരിക്കുക"
+    },
+    {
+      "hindi": "सोचा",
+      "english_transliteration": "Socha",
+      "tamil_transliteration": "ஸோசா",
+      "tamil_meaning": "சிந்தனை",
+      "english_meaning": "Thought",
+      "malayalam": "ചിന്ത"
+    },
+    {
+      "hindi": "विचार",
+      "english_transliteration": "Vichara",
+      "tamil_transliteration": "விசார",
+      "tamil_meaning": "கருத்து",
+      "english_meaning": "Idea",
+      "malayalam": "ആശയം"
+    },
+    {
+      "hindi": "कान",
+      "english_transliteration": "Kana",
+      "tamil_transliteration": "காந",
+      "tamil_meaning": "காது",
+      "english_meaning": "Ear",
+      "malayalam": "ചെവി"
+    },
+    {
+      "hindi": "नाक",
+      "english_transliteration": "Naka",
+      "tamil_transliteration": "நாக",
+      "tamil_meaning": "மூக்கு",
+      "english_meaning": "Nose",
+      "malayalam": "മൂക്ക്"
+    },
+    {
+      "hindi": "जीभ",
+      "english_transliteration": "Jibha",
+      "tamil_transliteration": "ஜீப",
+      "tamil_meaning": "நாக்கு",
+      "english_meaning": "Tongue",
+      "malayalam": "നാവ്"
+    },
+    {
+      "hindi": "दाँत",
+      "english_transliteration": "Da.nta",
+      "tamil_transliteration": "தாँத",
+      "tamil_meaning": "பல்",
+      "english_meaning": "Tooth",
+      "malayalam": "പല്ല്"
+    },
+    {
+      "hindi": "सिर",
+      "english_transliteration": "Sira",
+      "tamil_transliteration": "ஸிர",
+      "tamil_meaning": "தலை",
+      "english_meaning": "Head",
+      "malayalam": "തല"
+    },
+    {
+      "hindi": "बाल",
+      "english_transliteration": "Bala",
+      "tamil_transliteration": "பால",
+      "tamil_meaning": "முடி",
+      "english_meaning": "Hair",
+      "malayalam": "മുടി"
+    },
+    {
+      "hindi": "उँगलिया",
+      "english_transliteration": "U.ngaliya",
+      "tamil_transliteration": "உँகலியா",
+      "tamil_meaning": "விரல்",
+      "english_meaning": "Finger",
+      "malayalam": "കൈവിരൽ"
+    },
+    {
+      "hindi": "पेट",
+      "english_transliteration": "Peta",
+      "tamil_transliteration": "பேட",
+      "tamil_meaning": "வயிறு",
+      "english_meaning": "Stomach",
+      "malayalam": "വയറു"
+    },
+    {
+      "hindi": "हड्डी",
+      "english_transliteration": "Haddi",
+      "tamil_transliteration": "ஹட்டீ",
+      "tamil_meaning": "எலும்பு",
+      "english_meaning": "Bone",
+      "malayalam": "എല്ല്"
+    },
+    {
+      "hindi": "वज़न",
+      "english_transliteration": "Vazana",
+      "tamil_transliteration": "வஃஜந",
+      "tamil_meaning": "எடை",
+      "english_meaning": "Weight",
+      "malayalam": "തൂക്കം"
+    },
+    {
+      "hindi": "आकार",
+      "english_transliteration": "Akara",
+      "tamil_transliteration": "ஆகார",
+      "tamil_meaning": "அளவு",
+      "english_meaning": "Size",
+      "malayalam": "വലുപ്പം"
+    },
+    {
+      "hindi": "दूरी",
+      "english_transliteration": "Duri",
+      "tamil_transliteration": "தூரீ",
+      "tamil_meaning": "தூரம்",
+      "english_meaning": "Distance",
+      "malayalam": "ദൂരം"
+    },
+    {
+      "hindi": "गहराई",
+      "english_transliteration": "Gaharai",
+      "tamil_transliteration": "கஹராஈ",
+      "tamil_meaning": "ஆழம்",
+      "english_meaning": "Depth",
+      "malayalam": "ആഴം"
+    },
+    {
+      "hindi": "ऊंचाई",
+      "english_transliteration": "Umchai",
+      "tamil_transliteration": "ஊம்சாஈ",
+      "tamil_meaning": "உயரம்",
+      "english_meaning": "Height",
+      "malayalam": "ഉയരം"
+    },
+    {
+      "hindi": "ज़मीन",
+      "english_transliteration": "Zamina",
+      "tamil_transliteration": "ஃஜமீந",
+      "tamil_meaning": "த தரை",
+      "english_meaning": "Floor",
+      "malayalam": "തറ"
+    },
+    {
+      "hindi": "बिस्तर",
+      "english_transliteration": "Bistara",
+      "tamil_transliteration": "பிஸ்தர",
+      "tamil_meaning": "படுக்கை",
+      "english_meaning": "Bed",
+      "malayalam": "കിടക്ക"
+    },
+    {
+      "hindi": "आईना",
+      "english_transliteration": "Aina",
+      "tamil_transliteration": "ஆஈநா",
+      "tamil_meaning": "கண்ணாடி",
+      "english_meaning": "Mirror",
+      "malayalam": "കണ്ണാടി"
+    },
+    {
+      "hindi": "चाकू",
+      "english_transliteration": "Chaku",
+      "tamil_transliteration": "சாகூ",
+      "tamil_meaning": "கத்தி",
+      "english_meaning": "Knife",
+      "malayalam": "കത്തി"
+    },
+    {
+      "hindi": "चम्मच/करछुल",
+      "english_transliteration": "Chammacha/karachula",
+      "tamil_transliteration": "சம்மச/கரசுல",
+      "tamil_meaning": "கரண்டி",
+      "english_meaning": "Spoon / Ladle",
+      "malayalam": "തവി"
+    },
+    {
+      "hindi": "पात्र/बर्तन",
+      "english_transliteration": "Patra/bartana",
+      "tamil_transliteration": "பாத்ர/பர்தந",
+      "tamil_meaning": "பாத்திரம்",
+      "english_meaning": "Vessel / Utensil",
+      "malayalam": "പാത്രം"
+    },
+    {
+      "hindi": "माचिस",
+      "english_transliteration": "Machisa",
+      "tamil_transliteration": "மாசிஸ",
+      "tamil_meaning": "தீப்பெட்டி",
+      "english_meaning": "Matchbox",
+      "malayalam": "തീപ്പെട്ടി"
+    },
+    {
+      "hindi": "मोमबत्ती",
+      "english_transliteration": "Momabatti",
+      "tamil_transliteration": "மோமபத்தீ",
+      "tamil_meaning": "மெழுகுவர்த்தி",
+      "english_meaning": "Candle",
+      "malayalam": "മെഴുകുതിരി"
+    },
+    {
+      "hindi": "कपड़ा",
+      "english_transliteration": "Kapa.da",
+      "tamil_transliteration": "கபஃட²ா",
+      "tamil_meaning": "துணி",
+      "english_meaning": "Cloth",
+      "malayalam": "തുണി"
+    },
+    {
+      "hindi": "सुई",
+      "english_transliteration": "Sui",
+      "tamil_transliteration": "ஸுஈ",
+      "tamil_meaning": "ஊசி",
+      "english_meaning": "Needle",
+      "malayalam": "സൂചി"
+    },
+    {
+      "hindi": "धागा",
+      "english_transliteration": "Dhaga",
+      "tamil_transliteration": "தாகா",
+      "tamil_meaning": "நூல்",
+      "english_meaning": "Thread",
+      "malayalam": "നൂൽ"
+    },
+    {
+      "hindi": "कैंची",
+      "english_transliteration": "Kaimchi",
+      "tamil_transliteration": "கைம்சீ",
+      "tamil_meaning": "கத்தரிக்கோல்",
+      "english_meaning": "Scissors",
+      "malayalam": "കത്രിക"
+    },
+    {
+      "hindi": "चाबी",
+      "english_transliteration": "Chabi",
+      "tamil_transliteration": "சாபீ",
+      "tamil_meaning": "சாவி",
+      "english_meaning": "Key",
+      "malayalam": "താക്കോൽ"
+    },
+    {
+      "hindi": "ताला",
+      "english_transliteration": "Tala",
+      "tamil_transliteration": "தாலா",
+      "tamil_meaning": "பூட்டு",
+      "english_meaning": "Lock",
+      "malayalam": "പൂട്ട്"
+    },
+    {
+      "hindi": "डिब्बा",
+      "english_transliteration": "Dibba",
+      "tamil_transliteration": "டிப்பா",
+      "tamil_meaning": "பெட்டி",
+      "english_meaning": "Box",
+      "malayalam": "പെട്ടി"
+    },
+    {
+      "hindi": "किनारा",
+      "english_transliteration": "Kinara",
+      "tamil_transliteration": "கிநாரா",
+      "tamil_meaning": "வங்கி",
+      "english_meaning": "Bank",
+      "malayalam": "ബാങ്ക്"
+    },
+    {
+      "hindi": "व्यापार",
+      "english_transliteration": "Vyapara",
+      "tamil_transliteration": "வ்யாபார",
+      "tamil_meaning": "வியாபாரம்",
+      "english_meaning": "Business",
+      "malayalam": "വ്യാപാരം"
+    },
+    {
+      "hindi": "ठेके का काम",
+      "english_transliteration": "Theke ka kama",
+      "tamil_transliteration": "டேகே கா காம",
+      "tamil_meaning": "வேலை",
+      "english_meaning": "Job / Work",
+      "malayalam": "തൊഴിൽ"
+    },
+    {
+      "hindi": "बचत",
+      "english_transliteration": "Bachata",
+      "tamil_transliteration": "பசத",
+      "tamil_meaning": "சேமிப்பு",
+      "english_meaning": "Savings",
+      "malayalam": "സമ്പാദ്യം"
+    },
+    {
+      "hindi": "व्यय",
+      "english_transliteration": "Vyaya",
+      "tamil_transliteration": "வ்யய",
+      "tamil_meaning": "செலவு",
+      "english_meaning": "Expense",
+      "malayalam": "ചെലവ്"
+    },
+    {
+      "hindi": "लाभ",
+      "english_transliteration": "Labha",
+      "tamil_transliteration": "லாப",
+      "tamil_meaning": "லாபம்",
+      "english_meaning": "Profit",
+      "malayalam": "ലാഭം"
+    },
+    {
+      "hindi": "नुकसान",
+      "english_transliteration": "Nukasana",
+      "tamil_transliteration": "நுகஸாந",
+      "tamil_meaning": "நஷ்டம்",
+      "english_meaning": "Loss",
+      "malayalam": "നഷ്ടം"
+    },
+    {
+      "hindi": "अपराध/दोष",
+      "english_transliteration": "Aparadha/dosha",
+      "tamil_transliteration": "அபராத/தோஷ",
+      "tamil_meaning": "குற்றம்",
+      "english_meaning": "Crime / Fault",
+      "malayalam": "കുറ്റം"
+    },
+    {
+      "hindi": "हथियार",
+      "english_transliteration": "Hathiyara",
+      "tamil_transliteration": "ஹதியார",
+      "tamil_meaning": "ஆயுதம்",
+      "english_meaning": "Weapon",
+      "malayalam": "ആയുധം"
+    },
+    {
+      "hindi": "स्वतंत्रता",
+      "english_transliteration": "Svatamtrata",
+      "tamil_transliteration": "ஸ்வதம்த்ரதா",
+      "tamil_meaning": "சுதந்திரம்",
+      "english_meaning": "Freedom",
+      "malayalam": "സ്വാതന്ത്ര്യം"
+    },
+    {
+      "hindi": "त्योहार",
+      "english_transliteration": "Tyohara",
+      "tamil_transliteration": "த்யோஹார",
+      "tamil_meaning": "திருவிழா",
+      "english_meaning": "Festival",
+      "malayalam": "ഉത്സവം"
+    },
+    {
+      "hindi": "उत्सव",
+      "english_transliteration": "Utsava",
+      "tamil_transliteration": "உத்ஸவ",
+      "tamil_meaning": "கொண்டாட்டம்",
+      "english_meaning": "Celebration",
+      "malayalam": "ആഘോഷം"
+    },
+    {
+      "hindi": "शादी",
+      "english_transliteration": "Shadi",
+      "tamil_transliteration": "ஶாதீ",
+      "tamil_meaning": "திருமணம்",
+      "english_meaning": "Marriage",
+      "malayalam": "വിവാഹം"
+    },
+    {
+      "hindi": "आंसू",
+      "english_transliteration": "Amsu",
+      "tamil_transliteration": "ஆம்ஸூ",
+      "tamil_meaning": "கண்ணீர்",
+      "english_meaning": "Tear",
+      "malayalam": "കണ്ണുനീർ"
+    },
+    {
+      "hindi": "मुस्कुराओ/हँसी",
+      "english_transliteration": "Muskurao/ha.nsi",
+      "tamil_transliteration": "முஸ்குராஓ/ஹँஸீ",
+      "tamil_meaning": "புன்னகை / சிரிப்பு",
+      "english_meaning": "Smile / Laughter",
+      "malayalam": "ചിരി"
+    },
+    {
+      "hindi": "गुप्त",
+      "english_transliteration": "Gupta",
+      "tamil_transliteration": "குப்த",
+      "tamil_meaning": "ரகசியம்",
+      "english_meaning": "Secret",
+      "malayalam": "രഹസ്യം"
+    },
+    {
+      "hindi": "आश्चर्य/चमत्कार",
+      "english_transliteration": "Ashcharya/chamatkara",
+      "tamil_transliteration": "ஆஶ்சர்ய/சமத்கார",
+      "tamil_meaning": "அற்புதம்",
+      "english_meaning": "Wonder / Miracle",
+      "malayalam": "അത്ഭുതം"
+    },
+    {
+      "hindi": "आश्चर्य",
+      "english_transliteration": "Ashcharya",
+      "tamil_transliteration": "ஆஶ்சர்ய",
+      "tamil_meaning": "வியப்பு",
+      "english_meaning": "Surprise",
+      "malayalam": "ആശ്ചര്യം"
+    },
+    {
+      "hindi": "दुःख",
+      "english_transliteration": "Duhkha",
+      "tamil_transliteration": "துஃக",
+      "tamil_meaning": "துக்கம்",
+      "english_meaning": "Sadness",
+      "malayalam": "സങ്കടം"
+    },
+    {
+      "hindi": "मज़बूती शक्ति",
+      "english_transliteration": "Mazabuti shakti",
+      "tamil_transliteration": "மஃஜபூதீ ஶக்தி",
+      "tamil_meaning": "சக்தி / பலம்",
+      "english_meaning": "Strength / Power",
+      "malayalam": "ശക്തി"
+    },
+    {
+      "hindi": "थकान/कमजोरी",
+      "english_transliteration": "Thakana/kamajori",
+      "tamil_transliteration": "தகாந/கமஜோரீ",
+      "tamil_meaning": "சோர்வு",
+      "english_meaning": "Tiredness / Weakness",
+      "malayalam": "ക്ഷീണം"
+    },
+    {
+      "hindi": "रोग/बीमारी",
+      "english_transliteration": "Roga/bimari",
+      "tamil_transliteration": "ரோக/பீமாரீ",
+      "tamil_meaning": "நோய்",
+      "english_meaning": "Disease / Illness",
+      "malayalam": "രോഗം"
+    },
+    {
+      "hindi": "ज़हर",
+      "english_transliteration": "Zahara",
+      "tamil_transliteration": "ஃஜஹர",
+      "tamil_meaning": "நஞ்சு",
+      "english_meaning": "Poison",
+      "malayalam": "വിഷം"
+    },
+    {
+      "hindi": "अमृत",
+      "english_transliteration": "Amrrita",
+      "tamil_transliteration": "அம்ரு'த",
+      "tamil_meaning": "அமிர்தம்",
+      "english_meaning": "Nectar",
+      "malayalam": "അമൃത്"
+    },
+    {
+      "hindi": "बीज",
+      "english_transliteration": "Bija",
+      "tamil_transliteration": "பீஜ",
+      "tamil_meaning": "விதை",
+      "english_meaning": "Seed",
+      "malayalam": "വിത്ത്"
+    },
+    {
+      "hindi": "जड़",
+      "english_transliteration": "Ja.da",
+      "tamil_transliteration": "ஜஃட²",
+      "tamil_meaning": "வேர்",
+      "english_meaning": "Root",
+      "malayalam": "വേര്"
+    },
+    {
+      "hindi": "पत्ता",
+      "english_transliteration": "Patta",
+      "tamil_transliteration": "பத்தா",
+      "tamil_meaning": "இலை",
+      "english_meaning": "Leaf",
+      "malayalam": "ഇല"
+    },
+    {
+      "hindi": "कली",
+      "english_transliteration": "Kali",
+      "tamil_transliteration": "கலீ",
+      "tamil_meaning": "மொட்டு",
+      "english_meaning": "Bud",
+      "malayalam": "മൊട്ട്"
+    },
+    {
+      "hindi": "कच्चा फल/फली",
+      "english_transliteration": "Kachcha phala/phali",
+      "tamil_transliteration": "கச்சா பல/பலீ",
+      "tamil_meaning": "காய்",
+      "english_meaning": "Raw Fruit / Pod",
+      "malayalam": "കായ്"
+    },
+    {
+      "hindi": "मिट्टी/पृथ्वी",
+      "english_transliteration": "Mitti/prrithvi",
+      "tamil_transliteration": "மிட்டீ/ப்ரு'த்வீ",
+      "tamil_meaning": "மண்",
+      "english_meaning": "Soil / Earth",
+      "malayalam": "മണ്ണ്"
+    },
+    {
+      "hindi": "चट्टान/पत्थर",
+      "english_transliteration": "Chattana/patthara",
+      "tamil_transliteration": "சட்டாந/பத்தர",
+      "tamil_meaning": "பாறை",
+      "english_meaning": "Rock / Stone",
+      "malayalam": "പാറ"
+    },
+    {
+      "hindi": "रेत",
+      "english_transliteration": "Reta",
+      "tamil_transliteration": "ரேத",
+      "tamil_meaning": "மணல்",
+      "english_meaning": "Sand",
+      "malayalam": "മണൽ"
+    },
+    {
+      "hindi": "पेट्रोल",
+      "english_transliteration": "Petrola",
+      "tamil_transliteration": "பேட்ரோல",
+      "tamil_meaning": "பெட்ரோல்",
+      "english_meaning": "Petrol",
+      "malayalam": "പെട്രോൾ"
+    },
+    {
+      "hindi": "कोयला",
+      "english_transliteration": "Koyala",
+      "tamil_transliteration": "கோயலா",
+      "tamil_meaning": "கரி",
+      "english_meaning": "Coal",
+      "malayalam": "കൽക്കരി"
+    },
+    {
+      "hindi": "हवा/वायु",
+      "english_transliteration": "Hava/vayu",
+      "tamil_transliteration": "ஹவா/வாயு",
+      "tamil_meaning": "காற்று",
+      "english_meaning": "Wind / Air",
+      "malayalam": "കാറ്റ്"
+    },
+    {
+      "hindi": "बिजली / गड़गड़ाहट",
+      "english_transliteration": "Bijali / ga.daga.dahata",
+      "tamil_transliteration": "பிஜலீ / கஃட²கஃட²ாஹட",
+      "tamil_meaning": "இடிமின்னல்",
+      "english_meaning": "Lightning / Thunder",
+      "malayalam": "ഇടിമിന്നൽ"
+    },
+    {
+      "hindi": "दृष्टि / दृश्य",
+      "english_transliteration": "Drrishti / drrishya",
+      "tamil_transliteration": "த்ரு'ஷ்டி / த்ரு'ஶ்ய",
+      "tamil_meaning": "காட்சி",
+      "english_meaning": "Sight / View",
+      "malayalam": "കാഴ്ച"
+    },
+    {
+      "hindi": "आवाज़",
+      "english_transliteration": "Avaza",
+      "tamil_transliteration": "ஆவாஃஜ",
+      "tamil_meaning": "சத்தம்",
+      "english_meaning": "Sound",
+      "malayalam": "ശബ്ദം"
+    },
+    {
+      "hindi": "गंध/खुशबू",
+      "english_transliteration": "Gamdha/khushabu",
+      "tamil_transliteration": "கம்த/குஶபூ",
+      "tamil_meaning": "வாசம் / மணம்",
+      "english_meaning": "Smell / Fragrance",
+      "malayalam": "മണം"
+    },
+    {
+      "hindi": "स्वाद",
+      "english_transliteration": "Svada",
+      "tamil_transliteration": "ஸ்வாத",
+      "tamil_meaning": "சுவை",
+      "english_meaning": "Taste",
+      "malayalam": "രുചി"
+    },
+    {
+      "hindi": "छूना",
+      "english_transliteration": "Chuna",
+      "tamil_transliteration": "சூநா",
+      "tamil_meaning": "தொடுதல்",
+      "english_meaning": "Touch",
+      "malayalam": "സ്പർശം"
+    },
+    {
+      "hindi": "समय/काल",
+      "english_transliteration": "Samaya/kala",
+      "tamil_transliteration": "ஸமய/கால",
+      "tamil_meaning": "காலம்",
+      "english_meaning": "Time / Era",
+      "malayalam": "കാലം"
+    },
+    {
+      "hindi": "युग/उम्र",
+      "english_transliteration": "Yuga/umra",
+      "tamil_transliteration": "யுக/உம்ர",
+      "tamil_meaning": "யுகம்",
+      "english_meaning": "Era / Age",
+      "malayalam": "യുഗം"
+    },
+    {
+      "hindi": "मिनट/पल",
+      "english_transliteration": "Minata/pala",
+      "tamil_transliteration": "மிநட/பல",
+      "tamil_meaning": "நொடி / நிமிடம்",
+      "english_meaning": "Minute / Moment",
+      "malayalam": "നിമിഷം"
+    },
+    {
+      "hindi": "घंटा",
+      "english_transliteration": "Ghamta",
+      "tamil_transliteration": "கம்டா",
+      "tamil_meaning": "மணி நேரம்",
+      "english_meaning": "Hour",
+      "malayalam": "മണിക്കൂർ"
+    },
+    {
+      "hindi": "को PERCENTAGE",
+      "english_transliteration": "Ko percentage",
+      "tamil_transliteration": "கோ PERCENTAGE",
+      "tamil_meaning": "சவீதம்",
+      "english_meaning": "Percentage",
+      "malayalam": "ശതമാനം"
+    },
+    {
+      "hindi": "संख्या/गिनती",
+      "english_transliteration": "Samkhya/ginati",
+      "tamil_transliteration": "ஸம்க்யா/கிநதீ",
+      "tamil_meaning": "எண்ணிக்கை",
+      "english_meaning": "Number / Count",
+      "malayalam": "എണ്ണം"
+    },
+    {
+      "hindi": "साझा/भाग",
+      "english_transliteration": "Sajha/bhaga",
+      "tamil_transliteration": "ஸாசா/பாக",
+      "tamil_meaning": "பங்கு",
+      "english_meaning": "Share / Part",
+      "malayalam": "പങ്ക്"
+    },
+    {
+      "hindi": "संपूर्ण/संपूर्ण",
+      "english_transliteration": "Sampurna/sampurna",
+      "tamil_transliteration": "ஸம்பூர்ண/ஸம்பூர்ண",
+      "tamil_meaning": "முழுவதும்",
+      "english_meaning": "Whole / Complete",
+      "malayalam": "മുഴുവൻ"
+    },
+    {
+      "hindi": "आधा",
+      "english_transliteration": "Adha",
+      "tamil_transliteration": "ஆதா",
+      "tamil_meaning": "பாதி",
+      "english_meaning": "Half",
+      "malayalam": "പാതി"
+    },
+    {
+      "hindi": "ध्यान/देखभाल",
+      "english_transliteration": "Dhyana/dekhabhala",
+      "tamil_transliteration": "த்யாந/தேகபால",
+      "tamil_meaning": "கவனம்",
+      "english_meaning": "Attention / Care",
+      "malayalam": "ശ്രദ്ധ"
+    },
+    {
+      "hindi": "सफलता",
+      "english_transliteration": "Saphalata",
+      "tamil_transliteration": "ஸபலதா",
+      "tamil_meaning": "வெற்றி",
+      "english_meaning": "Success",
+      "malayalam": "വിജയം"
+    },
+    {
+      "hindi": "लक्ष्य/लक्ष्य",
+      "english_transliteration": "Lakshya/lakshya",
+      "tamil_transliteration": "லக்ஷ்ய/லக்ஷ்ய",
+      "tamil_meaning": "இலக்கு",
+      "english_meaning": "Goal / Target",
+      "malayalam": "ലക്ഷ്യം"
+    },
+    {
+      "hindi": "प्रयास/कड़ी मेहनत",
+      "english_transliteration": "Prayasa/ka.di mehanata",
+      "tamil_transliteration": "ப்ரயாஸ/கஃட²ீ மேஹநத",
+      "tamil_meaning": "முயற்சி",
+      "english_meaning": "Attempt / Hard work",
+      "malayalam": "ശ്രമം"
+    },
+    {
+      "hindi": "संदेह",
+      "english_transliteration": "Samdeha",
+      "tamil_transliteration": "ஸம்தேஹ",
+      "tamil_meaning": "சந்தேகம்",
+      "english_meaning": "Doubt",
+      "malayalam": "സംശയം"
+    },
+    {
+      "hindi": "फ़ैसला",
+      "english_transliteration": "Faisala",
+      "tamil_transliteration": "ஃபைஸலா",
+      "tamil_meaning": "முடிவு",
+      "english_meaning": "Decision",
+      "malayalam": "തീരുമാനം"
+    },
+    {
+      "hindi": "राय",
+      "english_transliteration": "Raya",
+      "tamil_transliteration": "ராய",
+      "tamil_meaning": "கருத்து",
+      "english_meaning": "Opinion",
+      "malayalam": "അഭിപ്രായം"
+    },
+    {
+      "hindi": "प्रशिक्षण/अभ्यास",
+      "english_transliteration": "Prashikshana/abhyasa",
+      "tamil_transliteration": "ப்ரஶிக்ஷண/அப்யாஸ",
+      "tamil_meaning": "பயிற்சி",
+      "english_meaning": "Training / Practice",
+      "malayalam": "പരിശീലനം"
+    },
+    {
+      "hindi": "अनुभव",
+      "english_transliteration": "Anubhava",
+      "tamil_transliteration": "அநுபவ",
+      "tamil_meaning": "அனுபவம்",
+      "english_meaning": "Experience",
+      "malayalam": "അനുഭവം"
+    },
+    {
+      "hindi": "संबंध/बंधन",
+      "english_transliteration": "Sambamdha/bamdhana",
+      "tamil_transliteration": "ஸம்பம்த/பம்தந",
+      "tamil_meaning": "உறவு",
+      "english_meaning": "Relation / Bond",
+      "malayalam": "ബന്ധം"
+    },
+    {
+      "hindi": "पड़ोसी",
+      "english_transliteration": "Pa.dosi",
+      "tamil_transliteration": "பஃட²ோஸீ",
+      "tamil_meaning": "அண்டை வீட்டுக்காரர்",
+      "english_meaning": "Neighbor",
+      "malayalam": "അയൽവാസി"
+    },
+    {
+      "hindi": "अतिथि",
+      "english_transliteration": "Atithi",
+      "tamil_transliteration": "அதிதி",
+      "tamil_meaning": "விருந்தினர்",
+      "english_meaning": "Guest",
+      "malayalam": "അതിഥി"
+    },
+    {
+      "hindi": "व्यक्ति",
+      "english_transliteration": "Vyakti",
+      "tamil_transliteration": "வ்யக்தி",
+      "tamil_meaning": "நபர்",
+      "english_meaning": "Person",
+      "malayalam": "ആൾ"
+    },
+    {
+      "hindi": "जनता/लोग",
+      "english_transliteration": "Janata/loga",
+      "tamil_transliteration": "ஜநதா/லோக",
+      "tamil_meaning": "மக்கள் கூட்டம்",
+      "english_meaning": "Public / People",
+      "malayalam": "ജനത"
+    },
+    {
+      "hindi": "सामाजिक",
+      "english_transliteration": "Samajika",
+      "tamil_transliteration": "ஸாமாஜிக",
+      "tamil_meaning": "சமூகம் சார்ந்தது",
+      "english_meaning": "Social",
+      "malayalam": "സമൂഹിക"
+    },
+    {
+      "hindi": "संगठन",
+      "english_transliteration": "Samgathana",
+      "tamil_transliteration": "ஸம்கடந",
+      "tamil_meaning": "அமைப்பு",
+      "english_meaning": "Organization",
+      "malayalam": "സംഘടന"
+    },
+    {
+      "hindi": "नेता",
+      "english_transliteration": "Neta",
+      "tamil_transliteration": "நேதா",
+      "tamil_meaning": "தலைவர்",
+      "english_meaning": "Leader",
+      "malayalam": "നേതാവ്"
+    },
+    {
+      "hindi": "पालन ​​करने वाला",
+      "english_transliteration": "Palana ​​karane vala",
+      "tamil_transliteration": "பாலந ​​கரநே வாலா",
+      "tamil_meaning": "தொண்டர் / பின்பற்றுபவர்",
+      "english_meaning": "Follower",
+      "malayalam": "അനുയായി"
+    },
+    {
+      "hindi": "ज़िम्मेदारी",
+      "english_transliteration": "Zimmedari",
+      "tamil_transliteration": "ஃஜிம்மேதாரீ",
+      "tamil_meaning": "பொறுப்பு",
+      "english_meaning": "Responsibility",
+      "malayalam": "ചുമതല"
+    },
+    {
+      "hindi": "सही/दावा",
+      "english_transliteration": "Sahi/dava",
+      "tamil_transliteration": "ஸஹீ/தாவா",
+      "tamil_meaning": "உரிமை",
+      "english_meaning": "Right / Claim",
+      "malayalam": "അവകാശം"
+    },
+    {
+      "hindi": "कर्तव्य",
+      "english_transliteration": "Kartavya",
+      "tamil_transliteration": "கர்தவ்ய",
+      "tamil_meaning": "கடமை",
+      "english_meaning": "Duty",
+      "malayalam": "കടമ"
+    },
+    {
+      "hindi": "सेवा",
+      "english_transliteration": "Seva",
+      "tamil_transliteration": "ஸேவா",
+      "tamil_meaning": "சேவை",
+      "english_meaning": "Service",
+      "malayalam": "സേവനം"
+    },
+    {
+      "hindi": "सहायता/सहायता",
+      "english_transliteration": "Sahayata/sahayata",
+      "tamil_transliteration": "ஸஹாயதா/ஸஹாயதா",
+      "tamil_meaning": "உதவி",
+      "english_meaning": "Help / Aid",
+      "malayalam": "സഹായം"
+    },
+    {
+      "hindi": "दान/दान",
+      "english_transliteration": "Dana/dana",
+      "tamil_transliteration": "தாந/தாந",
+      "tamil_meaning": "தானம்",
+      "english_meaning": "Donation / Charity",
+      "malayalam": "ദാനം"
+    },
+    {
+      "hindi": "उपहार/पुरस्कार",
+      "english_transliteration": "Upahara/puraskara",
+      "tamil_transliteration": "உபஹார/புரஸ்கார",
+      "tamil_meaning": "பரிசு",
+      "english_meaning": "Gift / Prize",
+      "malayalam": "സമ്മാനം"
+    },
+    {
+      "hindi": "खुश रखना",
+      "english_transliteration": "Khusha rakhana",
+      "tamil_transliteration": "குஶ ரகநா",
+      "tamil_meaning": "மகிழ்ச்சிப்படுத்துதல்",
+      "english_meaning": "To Make Happy",
+      "malayalam": "സന്തോഷിപ്പിക്കുക"
+    },
+    {
+      "hindi": "रुलाने के लिए",
+      "english_transliteration": "Rulane ke lie",
+      "tamil_transliteration": "ருலாநே கே லிஏ",
+      "tamil_meaning": "அழவைத்தல்",
+      "english_meaning": "To Make Cry",
+      "malayalam": "കരയിപ്പിക്കുക"
+    },
+    {
+      "hindi": "भरोसेमंद",
+      "english_transliteration": "Bharosemamda",
+      "tamil_transliteration": "பரோஸேமம்த",
+      "tamil_meaning": "நம்பகமான",
+      "english_meaning": "Reliable",
+      "malayalam": "വിശ്വാസയോഗ്യമായ"
+    },
+    {
+      "hindi": "प्रसिद्ध",
+      "english_transliteration": "Prasiddha",
+      "tamil_transliteration": "ப்ரஸித்த",
+      "tamil_meaning": "புகழ்பெற்ற",
+      "english_meaning": "Famous",
+      "malayalam": "പ്രശസ്തമായ"
+    },
+    {
+      "hindi": "दुर्लभ",
+      "english_transliteration": "Durlabha",
+      "tamil_transliteration": "துர்லப",
+      "tamil_meaning": "அரிய",
+      "english_meaning": "Rare",
+      "malayalam": "അപൂർവ്വമായ"
+    },
+    {
+      "hindi": "सामान्य/सामान्य",
+      "english_transliteration": "Samanya/samanya",
+      "tamil_transliteration": "ஸாமாந்ய/ஸாமாந்ய",
+      "tamil_meaning": "சாதாரணமான",
+      "english_meaning": "Common / Normal",
+      "malayalam": "സാധാരണ"
+    },
+    {
+      "hindi": "विशेष",
+      "english_transliteration": "Vishesha",
+      "tamil_transliteration": "விஶேஷ",
+      "tamil_meaning": "சிறப்பு",
+      "english_meaning": "Special",
+      "malayalam": "പ്രത്യേക"
+    },
+    {
+      "hindi": "मुख्य/प्रमुख",
+      "english_transliteration": "Mukhya/pramukha",
+      "tamil_transliteration": "முக்ய/ப்ரமுக",
+      "tamil_meaning": "முக்கியமான",
+      "english_meaning": "Main / Principal",
+      "malayalam": "മുഖ്യ"
+    },
+    {
+      "hindi": "छोटा/छोटा",
+      "english_transliteration": "Chota/chota",
+      "tamil_transliteration": "சோடா/சோடா",
+      "tamil_meaning": "சிறிய",
+      "english_meaning": "Minor / Small",
+      "malayalam": "ചെറിയ"
+    },
+    {
+      "hindi": "प्रमुख/बड़ा",
+      "english_transliteration": "Pramukha/ba.da",
+      "tamil_transliteration": "ப்ரமுக/பஃட²ா",
+      "tamil_meaning": "பெரிய",
+      "english_meaning": "Major / Big",
+      "malayalam": "വലിയ"
+    },
+    {
+      "hindi": "आधुनिक",
+      "english_transliteration": "Adhunika",
+      "tamil_transliteration": "ஆதுநிக",
+      "tamil_meaning": "நவீன",
+      "english_meaning": "Modern",
+      "malayalam": "ആധുനിക"
+    },
+    {
+      "hindi": "प्राचीन/पुराना",
+      "english_transliteration": "Prachina/purana",
+      "tamil_transliteration": "ப்ராசீந/புராநா",
+      "tamil_meaning": "பண்டைய / பழைய",
+      "english_meaning": "Ancient / Old",
+      "malayalam": "പഴയ"
+    },
+    {
+      "hindi": "एक नया",
+      "english_transliteration": "Eka naya",
+      "tamil_transliteration": "ஏக நயா",
+      "tamil_meaning": "புதியது",
+      "english_meaning": "New One",
+      "malayalam": "പുതിയത്"
+    },
+    {
+      "hindi": "पुराना",
+      "english_transliteration": "Purana",
+      "tamil_transliteration": "புராநா",
+      "tamil_meaning": "பழையது",
+      "english_meaning": "Old One",
+      "malayalam": "പഴയത്"
+    },
+    {
+      "hindi": "सही ढंग से",
+      "english_transliteration": "Sahi dhamga se",
+      "tamil_transliteration": "ஸஹீ டம்க ஸே",
+      "tamil_meaning": " சரியாக",
+      "english_meaning": "Correctly",
+      "malayalam": "ശരിയായി"
+    },
+    {
+      "hindi": "गलत तरीके से",
+      "english_transliteration": "Galata tarike se",
+      "tamil_transliteration": "கலத தரீகே ஸே",
+      "tamil_meaning": "தவறாக",
+      "english_meaning": "Wrongly",
+      "malayalam": "തെറ്റായി"
+    },
+    {
+      "hindi": "सटीक/तुरंत",
+      "english_transliteration": "Satika/turamta",
+      "tamil_transliteration": "ஸடீக/துரம்த",
+      "tamil_meaning": "துல்லியமாக",
+      "english_meaning": "Accurately / Promptly",
+      "malayalam": "കൃത്യമായി"
+    },
+    {
+      "hindi": "अचानक / शीघ्रता से",
+      "english_transliteration": "Achanaka / shighrata se",
+      "tamil_transliteration": "அசாநக / ஶீக்ரதா ஸே",
+      "tamil_meaning": "திடீரென்று / உடனடியாக",
+      "english_meaning": "Suddenly / Quickly",
+      "malayalam": "പെട്ടെന്ന്"
+    },
+    {
+      "hindi": "धीरे-धीरे/धीरे-धीरे",
+      "english_transliteration": "Dhire-dhire/dhire-dhire",
+      "tamil_transliteration": "தீரே-தீரே/தீரே-தீரே",
+      "tamil_meaning": "மெதுவாக",
+      "english_meaning": "Slowly / Softly",
+      "malayalam": "പതുക്കെ"
+    },
+    {
+      "hindi": "जोर से",
+      "english_transliteration": "Jora se",
+      "tamil_transliteration": "ஜோர ஸே",
+      "tamil_meaning": "உரக்க",
+      "english_meaning": "Loudly",
+      "malayalam": "ഉച്ചത്തിൽ"
+    },
+    {
+      "hindi": "दिल ही दिल में",
+      "english_transliteration": "Dila hi dila mem",
+      "tamil_transliteration": "தில ஹீ தில மேம்",
+      "tamil_meaning": "அமைதியாக",
+      "english_meaning": "Silently",
+      "malayalam": "നിശബ്ദമായി"
+    },
+    {
+      "hindi": "स्पष्ट रूप से",
+      "english_transliteration": "Spashta rupa se",
+      "tamil_transliteration": "ஸ்பஷ்ட ரூப ஸே",
+      "tamil_meaning": "தெளிவாக",
+      "english_meaning": "Clearly",
+      "malayalam": "വ്യക്തമായി"
+    },
+    {
+      "hindi": "छिपा हुआ",
+      "english_transliteration": "Chipa hua",
+      "tamil_transliteration": "சிபா ஹுஆ",
+      "tamil_meaning": "மறைந்திருக்கும்",
+      "english_meaning": "Hidden",
+      "malayalam": "മറഞ്ഞിരിക്കുന്ന"
+    },
+    {
+      "hindi": "मोटा",
+      "english_transliteration": "Mota",
+      "tamil_transliteration": "மோடா",
+      "tamil_meaning": "தடிமனான",
+      "english_meaning": "Thick",
+      "malayalam": "കട്ടിയുള്ള"
+    },
+    {
+      "hindi": "पतला",
+      "english_transliteration": "Patala",
+      "tamil_transliteration": "பதலா",
+      "tamil_meaning": "மெல்லிய",
+      "english_meaning": "Thin",
+      "malayalam": "കനംകുറഞ്ഞ"
+    },
+    {
+      "hindi": "हल्का (वजन)",
+      "english_transliteration": "Halka (vajana)",
+      "tamil_transliteration": "ஹல்கா (வஜந)",
+      "tamil_meaning": "லேசான",
+      "english_meaning": "Light (Weight)",
+      "malayalam": "ഭാരമില്ലാത്ത"
+    },
+    {
+      "hindi": "उंचा लंबा",
+      "english_transliteration": "Umcha lamba",
+      "tamil_transliteration": "உம்சா லம்பா",
+      "tamil_meaning": "உயர்ந்த",
+      "english_meaning": "High / Tall",
+      "malayalam": "ഉയർന്ന"
+    },
+    {
+      "hindi": "कम",
+      "english_transliteration": "Kama",
+      "tamil_transliteration": "கம",
+      "tamil_meaning": "தாழ்ந்த",
+      "english_meaning": "Low",
+      "malayalam": "താഴ്ന്ന"
+    },
+    {
+      "hindi": "तीखा",
+      "english_transliteration": "Tikha",
+      "tamil_transliteration": "தீகா",
+      "tamil_meaning": "கூர்மையான",
+      "english_meaning": "Sharp",
+      "malayalam": "കൂർത്ത"
+    },
+    {
+      "hindi": "कुंद",
+      "english_transliteration": "Kumda",
+      "tamil_transliteration": "கும்த",
+      "tamil_meaning": "மழுங்கிய",
+      "english_meaning": "Blunt",
+      "malayalam": "മൊ偿 / മഴുங்கிய"
+    },
+    {
+      "hindi": "कोमल",
+      "english_transliteration": "Komala",
+      "tamil_transliteration": "கோமல",
+      "tamil_meaning": "மென்மையான",
+      "english_meaning": "Soft",
+      "malayalam": "മൃദുവായ"
+    },
+    {
+      "hindi": "कठिन/कठिन",
+      "english_transliteration": "Kathina/kathina",
+      "tamil_transliteration": "கடிந/கடிந",
+      "tamil_meaning": "கடினமான",
+      "english_meaning": "Hard / Tough",
+      "malayalam": "കഠിനമായ"
+    },
+    {
+      "hindi": "गीला/नम",
+      "english_transliteration": "Gila/nama",
+      "tamil_transliteration": "கீலா/நம",
+      "tamil_meaning": "ஈரமான",
+      "english_meaning": "Wet / Damp",
+      "malayalam": "ഈർപ്പമുള്ള"
+    },
+    {
+      "hindi": "सूखा",
+      "english_transliteration": "Sukha",
+      "tamil_transliteration": "ஸூகா",
+      "tamil_meaning": "உலர்ந்த",
+      "english_meaning": "Dry",
+      "malayalam": "ഉണങ്ങിയ"
+    },
+    {
+      "hindi": "रात का समय",
+      "english_transliteration": "Rata ka samaya",
+      "tamil_transliteration": "ராத கா ஸமய",
+      "tamil_meaning": "இரவு நேரம்",
+      "english_meaning": "Nighttime",
+      "malayalam": "രാത്രിസമയം"
+    },
+    {
+      "hindi": "भोर / प्रातःकाल",
+      "english_transliteration": "Bhora / pratahkala",
+      "tamil_transliteration": "போர / ப்ராதஃகால",
+      "tamil_meaning": "விடியற்காலை",
+      "english_meaning": "Dawn / Early Morning",
+      "malayalam": "പുലർച്ചെ"
+    },
+    {
+      "hindi": "शाम",
+      "english_transliteration": "Shama",
+      "tamil_transliteration": "ஶாம",
+      "tamil_meaning": "மாலை நேரம்",
+      "english_meaning": "Evening",
+      "malayalam": "വൈകുന്നേരം"
+    },
+    {
+      "hindi": "गली",
+      "english_transliteration": "Gali",
+      "tamil_transliteration": "கலீ",
+      "tamil_meaning": "தெரு",
+      "english_meaning": "Street",
+      "malayalam": "തെരുവ്"
+    },
+    {
+      "hindi": "लेन/मार्ग",
+      "english_transliteration": "Lena/marga",
+      "tamil_transliteration": "லேந/மார்க",
+      "tamil_meaning": "வீதி",
+      "english_meaning": "Lane / Pathway",
+      "malayalam": "വീഥി"
+    },
+    {
+      "hindi": "इमारत",
+      "english_transliteration": "Imarata",
+      "tamil_transliteration": "இமாரத",
+      "tamil_meaning": "கட்டிடம்",
+      "english_meaning": "Building",
+      "malayalam": "കെട്ടിടം"
+    },
+    {
+      "hindi": "टावर",
+      "english_transliteration": "Tavara",
+      "tamil_transliteration": "டாவர",
+      "tamil_meaning": "கோபுரம்",
+      "english_meaning": "Tower",
+      "malayalam": "ഗോപുരം"
+    },
+    {
+      "hindi": "मस्जिद/चर्च",
+      "english_transliteration": "Masjida/charcha",
+      "tamil_transliteration": "மஸ்ஜித/சர்ச",
+      "tamil_meaning": "பள்ளிவாசல் / தேவாலயம்",
+      "english_meaning": "Mosque / Church",
+      "malayalam": "പള്ളി"
+    },
+    {
+      "hindi": "संग्रहालय",
+      "english_transliteration": "Samgrahalaya",
+      "tamil_transliteration": "ஸம்க்ரஹாலய",
+      "tamil_meaning": "அருங்காட்சியகம்",
+      "english_meaning": "Museum",
+      "malayalam": "മ്യൂസിയം"
+    },
+    {
+      "hindi": "पुस्तकालय",
+      "english_transliteration": "Pustakalaya",
+      "tamil_transliteration": "புஸ்தகாலய",
+      "tamil_meaning": "நூலகம்",
+      "english_meaning": "Library",
+      "malayalam": "ഗ്രന്ഥശാല"
+    },
+    {
+      "hindi": "पार्क",
+      "english_transliteration": "Parka",
+      "tamil_transliteration": "பார்க",
+      "tamil_meaning": "பூங்கா",
+      "english_meaning": "Park",
+      "malayalam": "പാർക്ക്"
+    },
+    {
+      "hindi": "चिड़ियाघर",
+      "english_transliteration": "Chi.diyaghara",
+      "tamil_transliteration": "சிஃட²ியாகர",
+      "tamil_meaning": "விலங்குக்காட்சிச்சாலை",
+      "english_meaning": "Zoo",
+      "malayalam": "മൃഗശാല"
+    },
+    {
+      "hindi": "एयरपोर्ट",
+      "english_transliteration": "Eyaraporta",
+      "tamil_transliteration": "ஏயரபோர்ட",
+      "tamil_meaning": "விமான நிலையம்",
+      "english_meaning": "Airport",
+      "malayalam": "വിമാനത്താവളം"
+    },
+    {
+      "hindi": "रेलवे स्टेशन",
+      "english_transliteration": "Relave steshana",
+      "tamil_transliteration": "ரேலவே ஸ்டேஶந",
+      "tamil_meaning": "ரெயில் நிலையம்",
+      "english_meaning": "Railway Station",
+      "malayalam": "റെയിൽവേ സ്റ്റേഷൻ"
+    },
+    {
+      "hindi": "बस स्टैंड",
+      "english_transliteration": "Basa staimda",
+      "tamil_transliteration": "பஸ ஸ்டைம்ட",
+      "tamil_meaning": "பேருந்து நிலையம்",
+      "english_meaning": "Bus Stand",
+      "malayalam": "ബസ് സ്റ്റാൻഡ്"
+    },
+    {
+      "hindi": "बंदरगाह/बंदरगाह",
+      "english_transliteration": "Bamdaragaha/bamdaragaha",
+      "tamil_transliteration": "பம்தரகாஹ/பம்தரகாஹ",
+      "tamil_meaning": "துறைமுகம்",
+      "english_meaning": "Harbor / Port",
+      "malayalam": "തുറമുഖം"
+    },
+    {
+      "hindi": "तटीय क्षेत्र",
+      "english_transliteration": "Tatiya kshetra",
+      "tamil_transliteration": "தடீய க்ஷேத்ர",
+      "tamil_meaning": "கடற்கரை பகுதி",
+      "english_meaning": "Coastal Area",
+      "malayalam": "തീരപ്രദേശം"
+    },
+    {
+      "hindi": "द्वीप",
+      "english_transliteration": "Dvipa",
+      "tamil_transliteration": "த்வீப",
+      "tamil_meaning": "தீவு",
+      "english_meaning": "Island",
+      "malayalam": "ദ്വീപ്"
+    },
+    {
+      "hindi": "प्रायद्वीप",
+      "english_transliteration": "Prayadvipa",
+      "tamil_transliteration": "ப்ராயத்வீப",
+      "tamil_meaning": "தீபகற்பம்",
+      "english_meaning": "Peninsula",
+      "malayalam": "പെനിൻസുല"
+    },
+    {
+      "hindi": "उप द्वीप",
+      "english_transliteration": "Upa dvipa",
+      "tamil_transliteration": "உப த்வீப",
+      "tamil_meaning": "சிறிய தீவு",
+      "english_meaning": "Sub-island",
+      "malayalam": "ഉപദ്വീപ്"
+    },
+    {
+      "hindi": "दलदल",
+      "english_transliteration": "Daladala",
+      "tamil_transliteration": "தலதல",
+      "tamil_meaning": "சதுப்பு நிலம்",
+      "english_meaning": "Swamp",
+      "malayalam": "ചതുപ്പ്"
+    },
+    {
+      "hindi": "रेगिस्तान",
+      "english_transliteration": "Registana",
+      "tamil_transliteration": "ரேகிஸ்தாந",
+      "tamil_meaning": "பாலைவனம்",
+      "english_meaning": "Desert",
+      "malayalam": "മരുഭൂമി"
+    },
+    {
+      "hindi": "पहाड़ी की चोटी",
+      "english_transliteration": "Paha.di ki choti",
+      "tamil_transliteration": "பஹாஃட²ீ கீ சோடீ",
+      "tamil_meaning": "குன்றின் மீது",
+      "english_meaning": "Hilltop",
+      "malayalam": "കുന്നിൻപുറം"
+    },
+    {
+      "hindi": "घाटी",
+      "english_transliteration": "Ghati",
+      "tamil_transliteration": "காடீ",
+      "tamil_meaning": "பள்ளத்தாக்கு",
+      "english_meaning": "Valley",
+      "malayalam": "താഴ്വര"
+    },
+    {
+      "hindi": "धारा/झरना",
+      "english_transliteration": "Dhara/jharana",
+      "tamil_transliteration": "தாரா/சரநா",
+      "tamil_meaning": "அருவி",
+      "english_meaning": "Stream / Waterfall",
+      "malayalam": "അരുവി"
+    },
+    {
+      "hindi": "तालाब",
+      "english_transliteration": "Talaba",
+      "tamil_transliteration": "தாலாப",
+      "tamil_meaning": "குளம்",
+      "english_meaning": "Pond",
+      "malayalam": "കുളം"
+    },
+    {
+      "hindi": "कुंआ",
+      "english_transliteration": "Kuma",
+      "tamil_transliteration": "கும்ஆ",
+      "tamil_meaning": "கிணறு",
+      "english_meaning": "Well",
+      "malayalam": "കിണർ"
+    },
+    {
+      "hindi": "बैकवाटर्स / लैगून",
+      "english_transliteration": "Baikavatarsa / laiguna",
+      "tamil_transliteration": "பைகவாடர்ஸ / லைகூந",
+      "tamil_meaning": "காயல்",
+      "english_meaning": "Backwaters / Lagoon",
+      "malayalam": "കായൽ"
+    },
+    {
+      "hindi": "महासागर",
+      "english_transliteration": "Mahasagara",
+      "tamil_transliteration": "மஹாஸாகர",
+      "tamil_meaning": "பெருங்கடல்",
+      "english_meaning": "Ocean",
+      "malayalam": "പെരുങ്കടൽ"
+    },
+    {
+      "hindi": "लहर",
+      "english_transliteration": "Lahara",
+      "tamil_transliteration": "லஹர",
+      "tamil_meaning": "அலை",
+      "english_meaning": "Wave",
+      "malayalam": "തിരമാല"
+    },
+    {
+      "hindi": "बोल्डर",
+      "english_transliteration": "Boldara",
+      "tamil_transliteration": "போல்டர",
+      "tamil_meaning": "பாறாங்கல்",
+      "english_meaning": "Boulder",
+      "malayalam": "പാറക്കല്ല്"
+    },
+    {
+      "hindi": "ग्लेशियर/बर्फ की चादर",
+      "english_transliteration": "Gleshiyara/barpha ki chadara",
+      "tamil_transliteration": "க்லேஶியர/பர்ப கீ சாதர",
+      "tamil_meaning": "பனிப்பாறை",
+      "english_meaning": "Glacier / Ice Sheet",
+      "malayalam": "മഞ്ഞുപാളി"
+    },
+    {
+      "hindi": "हिमालय",
+      "english_transliteration": "Himalaya",
+      "tamil_transliteration": "ஹிமாலய",
+      "tamil_meaning": "இமாலயம்",
+      "english_meaning": "Himalayas",
+      "malayalam": "ഹിമാലയം"
+    },
+    {
+      "hindi": "उल्का",
+      "english_transliteration": "Ulka",
+      "tamil_transliteration": "உல்கா",
+      "tamil_meaning": "எல்கை / விண்கல்",
+      "english_meaning": "Meteor",
+      "malayalam": "ഉൽക്ക"
+    },
+    {
+      "hindi": "ग्रह",
+      "english_transliteration": "Graha",
+      "tamil_transliteration": "க்ரஹ",
+      "tamil_meaning": "கோள்",
+      "english_meaning": "Planet",
+      "malayalam": "ഗ്രഹം"
+    },
+    {
+      "hindi": "उपग्रह",
+      "english_transliteration": "Upagraha",
+      "tamil_transliteration": "உபக்ரஹ",
+      "tamil_meaning": "துணைக்கோள்",
+      "english_meaning": "Satellite",
+      "malayalam": "ഉപഗ്രഹം"
+    },
+    {
+      "hindi": "आकाशगंगा/ब्रह्मांड अंतरिक्ष",
+      "english_transliteration": "Akashagamga/brahmamda amtariksha",
+      "tamil_transliteration": "ஆகாஶகம்கா/ப்ரஹ்மாம்ட அம்தரிக்ஷ",
+      "tamil_meaning": "விண்வெளி",
+      "english_meaning": "Galaxy / Universe Space",
+      "malayalam": "വിൺപടം"
+    },
+    {
+      "hindi": "वाह़य ​​अंतरिक्ष",
+      "english_transliteration": "Vaha़ya ​​amtariksha",
+      "tamil_transliteration": "வாஹ़ய ​​அம்தரிக்ஷ",
+      "tamil_meaning": "வெளி மண்டலம்",
+      "english_meaning": "Outer Space",
+      "malayalam": "ബഹിരാകാശം"
+    },
+    {
+      "hindi": "वैज्ञानिक",
+      "english_transliteration": "Vaij~nanika",
+      "tamil_transliteration": "வைஜ்ஞாநிக",
+      "tamil_meaning": "அறிவியலாளர்",
+      "english_meaning": "Scientist",
+      "malayalam": "ശാസ്ത്രജ്ഞൻ"
+    },
+    {
+      "hindi": "अनुसंधान",
+      "english_transliteration": "Anusamdhana",
+      "tamil_transliteration": "அநுஸம்தாந",
+      "tamil_meaning": "ஆராய்ச்சி",
+      "english_meaning": "Research",
+      "malayalam": "ഗവേഷണം"
+    },
+    {
+      "hindi": "आविष्कार/खोज",
+      "english_transliteration": "Avishkara/khoja",
+      "tamil_transliteration": "ஆவிஷ்கார/கோஜ",
+      "tamil_meaning": "கண்டுபிடிப்பு",
+      "english_meaning": "Invention / Discovery",
+      "malayalam": "കണ്ടുപിടുത്തം"
+    },
+    {
+      "hindi": "मशीन",
+      "english_transliteration": "Mashina",
+      "tamil_transliteration": "மஶீந",
+      "tamil_meaning": "இயந்திரம்",
+      "english_meaning": "Machine",
+      "malayalam": "യന്ത്രം"
+    },
+    {
+      "hindi": "कंप्यूटर",
+      "english_transliteration": "Kampyutara",
+      "tamil_transliteration": "கம்ப்யூடர",
+      "tamil_meaning": "கணினி",
+      "english_meaning": "Computer",
+      "malayalam": "കമ്പ്യൂട്ടർ"
+    },
+    {
+      "hindi": "फ़ोन",
+      "english_transliteration": "Fona",
+      "tamil_transliteration": "ஃபோந",
+      "tamil_meaning": "பேசி / தொலைபேசி",
+      "english_meaning": "Phone",
+      "malayalam": "ഫോൺ"
+    },
+    {
+      "hindi": "कैमरा",
+      "english_transliteration": "Kaimara",
+      "tamil_transliteration": "கைமரா",
+      "tamil_meaning": "புகைப்படக்கருவி",
+      "english_meaning": "Camera",
+      "malayalam": "ക്യാമറ"
+    },
+    {
+      "hindi": "रेडियो",
+      "english_transliteration": "Rediyo",
+      "tamil_transliteration": "ரேடியோ",
+      "tamil_meaning": "வானொலி",
+      "english_meaning": "Radio",
+      "malayalam": "റേഡിയോ"
+    },
+    {
+      "hindi": "टेलीविजन",
+      "english_transliteration": "Telivijana",
+      "tamil_transliteration": "டேலீவிஜந",
+      "tamil_meaning": "தொலைக்காட்சி",
+      "english_meaning": "Television",
+      "malayalam": "ടെലിവിഷൻ"
+    },
+    {
+      "hindi": "बिजली",
+      "english_transliteration": "Bijali",
+      "tamil_transliteration": "பிஜலீ",
+      "tamil_meaning": "மின்சாரம்",
+      "english_meaning": "Electricity",
+      "malayalam": "വൈദ്യുതി"
+    },
+    {
+      "hindi": "बल्ब",
+      "english_transliteration": "Balba",
+      "tamil_transliteration": "பல்ப",
+      "tamil_meaning": "மின்விளக்கு",
+      "english_meaning": "Bulb",
+      "malayalam": "ബൾബ്"
+    },
+    {
+      "hindi": "स्पष्टीकरण",
+      "english_transliteration": "Spashtikarana",
+      "tamil_transliteration": "ஸ்பஷ்டீகரண",
+      "tamil_meaning": "விளக்கம்",
+      "english_meaning": "Explanation",
+      "malayalam": "വിശ채ീകരണം"
+    },
+    {
+      "hindi": "समाधान",
+      "english_transliteration": "Samadhana",
+      "tamil_transliteration": "ஸமாதாந",
+      "tamil_meaning": "தீர்வு",
+      "english_meaning": "Solution",
+      "malayalam": "പരിഹാരം"
+    },
+    {
+      "hindi": "उपयोग",
+      "english_transliteration": "Upayoga",
+      "tamil_transliteration": "உபயோக",
+      "tamil_meaning": "பயன்பாடு",
+      "english_meaning": "Use",
+      "malayalam": "ഉപയോഗം"
+    },
+    {
+      "hindi": "उत्पाद",
+      "english_transliteration": "Utpada",
+      "tamil_transliteration": "உத்பாத",
+      "tamil_meaning": "தயாரிப்பு",
+      "english_meaning": "Product",
+      "malayalam": "ഉൽപന്നം"
+    },
+    {
+      "hindi": "बिक्री",
+      "english_transliteration": "Bikri",
+      "tamil_transliteration": "பிக்ரீ",
+      "tamil_meaning": "விற்பனை",
+      "english_meaning": "Sale",
+      "malayalam": "വില്പന"
+    },
+    {
+      "hindi": "ख़रीदना/ख़रीदना",
+      "english_transliteration": "Karidana/karidana",
+      "tamil_transliteration": "ஃக²ரீதநா/ஃக²ரீதநா",
+      "tamil_meaning": "வாங்குதல்",
+      "english_meaning": "Buying / Purchase",
+      "malayalam": "വാങ്ങൽ"
+    },
+    {
+      "hindi": "उपभोक्ता",
+      "english_transliteration": "Upabhokta",
+      "tamil_transliteration": "உபபோக்தா",
+      "tamil_meaning": "நுகர்வோர்",
+      "english_meaning": "Consumer",
+      "malayalam": "ഉപയോക്താവ്"
+    },
+    {
+      "hindi": "निवेश",
+      "english_transliteration": "Nivesha",
+      "tamil_transliteration": "நிவேஶ",
+      "tamil_meaning": "முதலீடு",
+      "english_meaning": "Investment",
+      "malayalam": "നിക്ഷേപം"
+    },
+    {
+      "hindi": "बॉस/मालिक",
+      "english_transliteration": "Baॉsa/malika",
+      "tamil_transliteration": "பॉஸ/மாலிக",
+      "tamil_meaning": "முதலாளி",
+      "english_meaning": "Boss / Owner",
+      "malayalam": "മുതലാളി"
+    },
+    {
+      "hindi": "कामगार/श्रमिक",
+      "english_transliteration": "Kamagara/shramika",
+      "tamil_transliteration": "காமகார/ஶ்ரமிக",
+      "tamil_meaning": "தொழிலாளி",
+      "english_meaning": "Worker / Laborer",
+      "malayalam": "തൊഴിലാളി"
+    },
+    {
+      "hindi": "वेतन/मजदूरी",
+      "english_transliteration": "Vetana/majaduri",
+      "tamil_transliteration": "வேதந/மஜதூரீ",
+      "tamil_meaning": "சம்பளம்",
+      "english_meaning": "Salary / Wage",
+      "malayalam": "ശമ്പളം"
+    },
+    {
+      "hindi": "छुट्टी/अवकाश",
+      "english_transliteration": "Chutti/avakasha",
+      "tamil_transliteration": "சுட்டீ/அவகாஶ",
+      "tamil_meaning": "விடுமுறை",
+      "english_meaning": "Leave / Holiday",
+      "malayalam": "അവധി"
+    },
+    {
+      "hindi": "खेल का मैदान",
+      "english_transliteration": "Khela ka maidana",
+      "tamil_transliteration": "கேல கா மைதாந",
+      "tamil_meaning": "விளையாட்டு மைதானம்",
+      "english_meaning": "Playground",
+      "malayalam": "കളിസ്ഥലം"
+    },
+    {
+      "hindi": "मनोरंजन/आनंद",
+      "english_transliteration": "Manoramjana/anamda",
+      "tamil_transliteration": "மநோரம்ஜந/ஆநம்த",
+      "tamil_meaning": "பொழுதுபோக்கு",
+      "english_meaning": "Entertainment / Fun",
+      "malayalam": "വിനോദം"
+    },
+    {
+      "hindi": "यात्री/पर्यटक",
+      "english_transliteration": "Yatri/paryataka",
+      "tamil_transliteration": "யாத்ரீ/பர்யடக",
+      "tamil_meaning": "பய பயணி / சுற்றுலா பயணி",
+      "english_meaning": "Traveler / Tourist",
+      "malayalam": "സഞ്ചാരി"
+    },
+    {
+      "hindi": "अन्वेषण",
+      "english_transliteration": "Anveshana",
+      "tamil_transliteration": "அந்வேஷண",
+      "tamil_meaning": "ஆய்வுப் பயணம்",
+      "english_meaning": "Exploration",
+      "malayalam": "പര്യവേക്ഷണം"
+    },
+    {
+      "hindi": "प्रवास/पर्यटन",
+      "english_transliteration": "Pravasa/paryatana",
+      "tamil_transliteration": "ப்ரவாஸ/பர்யடந",
+      "tamil_meaning": "நாடோடி பயணம்",
+      "english_meaning": "Migration / Tourism",
+      "malayalam": "ദേശാടനം"
+    },
+    {
+      "hindi": "सीमा/सीमा",
+      "english_transliteration": "Sima/sima",
+      "tamil_transliteration": "ஸீமா/ஸீமா",
+      "tamil_meaning": "எல்லை",
+      "english_meaning": "Border / Boundary",
+      "malayalam": "അതിർത്തി"
+    },
+    {
+      "hindi": "सन्धि/संधि",
+      "english_transliteration": "Sandhi/samdhi",
+      "tamil_transliteration": "ஸந்தி/ஸம்தி",
+      "tamil_meaning": "உடன்படிக்கை / சந்திப்பு",
+      "english_meaning": "Treaty / Junction",
+      "malayalam": "സന്ധി"
+    },
+    {
+      "hindi": "हस्ताक्षर",
+      "english_transliteration": "Hastakshara",
+      "tamil_transliteration": "ஹஸ்தாக்ஷர",
+      "tamil_meaning": "கையொப்பமிடுதல்",
+      "english_meaning": "Signing",
+      "malayalam": "ഒപ്പുവെക്കൽ"
+    },
+    {
+      "hindi": "दस्तावेज़/पंक्ति",
+      "english_transliteration": "Dastaveza/pamkti",
+      "tamil_transliteration": "தஸ்தாவேஃஜ/பம்க்தி",
+      "tamil_meaning": "ஆவணம் / கோடு",
+      "english_meaning": "Document / Line",
+      "malayalam": "രേഖ"
+    },
+    {
+      "hindi": "हस्ताक्षर",
+      "english_transliteration": "Hastakshara",
+      "tamil_transliteration": "ஹஸ்தாக்ஷர",
+      "tamil_meaning": "கையொப்பம்",
+      "english_meaning": "Signature",
+      "malayalam": "ഒപ്പ്"
+    },
+    {
+      "hindi": "मोहर/मुहर",
+      "english_transliteration": "Mohara/muhara",
+      "tamil_transliteration": "மோஹர/முஹர",
+      "tamil_meaning": "முத்திரை",
+      "english_meaning": "Stamp / Seal",
+      "malayalam": "മുദ്ര"
+    },
+    {
+      "hindi": "अनुमोदन/मान्यता",
+      "english_transliteration": "Anumodana/manyata",
+      "tamil_transliteration": "அநுமோதந/மாந்யதா",
+      "tamil_meaning": "அங்கீகாரம்",
+      "english_meaning": "Approval / Recognition",
+      "malayalam": "അംഗീകാരം"
+    },
+    {
+      "hindi": "इन्कार/निषेध",
+      "english_transliteration": "Inkara/nishedha",
+      "tamil_transliteration": "இந்கார/நிஷேத",
+      "tamil_meaning": "மறுப்பு / தடை",
+      "english_meaning": "Denial / Prohibition",
+      "malayalam": "നിഷേധം"
+    },
+    {
+      "hindi": "अनुमति",
+      "english_transliteration": "Anumati",
+      "tamil_transliteration": "அநுமதி",
+      "tamil_meaning": "அனுமதி",
+      "english_meaning": "Permission",
+      "malayalam": "അനുമതി"
+    },
+    {
+      "hindi": "बाधा",
+      "english_transliteration": "Badha",
+      "tamil_transliteration": "பாதா",
+      "tamil_meaning": "தடை",
+      "english_meaning": "Obstacle",
+      "malayalam": "തടസ്സം"
+    },
+    {
+      "hindi": "सहयोग",
+      "english_transliteration": "Sahayoga",
+      "tamil_transliteration": "ஸஹயோக",
+      "tamil_meaning": "ஒத்துழைப்பு",
+      "english_meaning": "Cooperation",
+      "malayalam": "സഹകരണം"
+    },
+    {
+      "hindi": "प्रतियोगिता",
+      "english_transliteration": "Pratiyogita",
+      "tamil_transliteration": "ப்ரதியோகிதா",
+      "tamil_meaning": "போட்டி",
+      "english_meaning": "Competition",
+      "malayalam": "മത്സരം"
+    },
+    {
+      "hindi": "भाग लेना",
+      "english_transliteration": "Bhaga lena",
+      "tamil_transliteration": "பாக லேநா",
+      "tamil_meaning": "பங்கேற்பு",
+      "english_meaning": "Participation",
+      "malayalam": "പങ്കാളിത്തം"
+    },
+    {
+      "hindi": "विजेता",
+      "english_transliteration": "Vijeta",
+      "tamil_transliteration": "விஜேதா",
+      "tamil_meaning": "வெற்றியாளர்",
+      "english_meaning": "Winner",
+      "malayalam": "വിജയി"
+    },
+    {
+      "hindi": "परास्त",
+      "english_transliteration": "Parasta",
+      "tamil_transliteration": "பராஸ்த",
+      "tamil_meaning": "தோல்வியுற்றவர்",
+      "english_meaning": "Loser",
+      "malayalam": "പരാജിതൻ"
+    },
+    {
+      "hindi": "सम्मान/पुरस्कार",
+      "english_transliteration": "Sammana/puraskara",
+      "tamil_transliteration": "ஸம்மாந/புரஸ்கார",
+      "tamil_meaning": "கௌரவம் / விருது",
+      "english_meaning": "Honor / Award",
+      "malayalam": "ബഹുമതി"
+    },
+    {
+      "hindi": "ईनाम का पैसा",
+      "english_transliteration": "Inama ka paisa",
+      "tamil_transliteration": "ஈநாம கா பைஸா",
+      "tamil_meaning": "பரிசுத்தொகை",
+      "english_meaning": "Prize Money",
+      "malayalam": "സമ്മാനത്തുക"
+    },
+    {
+      "hindi": "ट्रॉफी",
+      "english_transliteration": "Traॉphi",
+      "tamil_transliteration": "ட்ரॉபீ",
+      "tamil_meaning": "கோப்பை",
+      "english_meaning": "Trophy",
+      "malayalam": "ട്രോഫി"
+    },
+    {
+      "hindi": "झंडा",
+      "english_transliteration": "Jhamda",
+      "tamil_transliteration": "சம்டா",
+      "tamil_meaning": "கொடி",
+      "english_meaning": "Flag",
+      "malayalam": "പതാക"
+    },
+    {
+      "hindi": "राष्ट्रगान",
+      "english_transliteration": "Rashtragana",
+      "tamil_transliteration": "ராஷ்ட்ரகாந",
+      "tamil_meaning": "தேசிய கீதம்",
+      "english_meaning": "National Anthem",
+      "malayalam": "ദേശീയഗാനം"
+    },
+    {
+      "hindi": "ऐतिहासिक आंकड़ा",
+      "english_transliteration": "Aitihasika amka.da",
+      "tamil_transliteration": "ஐதிஹாஸிக ஆம்கஃட²ா",
+      "tamil_meaning": "வரலாற்று நாயகன்",
+      "english_meaning": "Historical Figure",
+      "malayalam": "ചരിത്രപുരുഷൻ"
+    },
+    {
+      "hindi": "लड़ाकू/क्रांतिकारी",
+      "english_transliteration": "La.daku/kramtikari",
+      "tamil_transliteration": "லஃட²ாகூ/க்ராம்திகாரீ",
+      "tamil_meaning": "போராளி",
+      "english_meaning": "Fighter / Revolutionary",
+      "malayalam": "പോരാളി"
+    },
+    {
+      "hindi": "क्रांति",
+      "english_transliteration": "Kramti",
+      "tamil_transliteration": "க்ராம்தி",
+      "tamil_meaning": "புரட்சி",
+      "english_meaning": "Revolution",
+      "malayalam": "വിപ്ലവം"
+    },
+    {
+      "hindi": "प्रगति",
+      "english_transliteration": "Pragati",
+      "tamil_transliteration": "ப்ரகதி",
+      "tamil_meaning": "முன்னேற்றம்",
+      "english_meaning": "Progress",
+      "malayalam": "മുന്നേറ്റം"
+    },
+    {
+      "hindi": "पिछड़ेपन",
+      "english_transliteration": "Picha.depana",
+      "tamil_transliteration": "பிசஃட²ேபந",
+      "tamil_meaning": "பின்தங்குதல்",
+      "english_meaning": "Backwardness",
+      "malayalam": "പിന്നോക്കം"
+    }
+  ]
+}

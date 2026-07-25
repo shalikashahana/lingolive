@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { teluguQuizData } from "../../data/teluguQuizData";
+import malayalamQuizData from "../../data/malayalamQuizData.json";
 import {
   Zap,
   CheckCircle2,
@@ -14,7 +14,9 @@ import {
   Lock
 } from "lucide-react";
 
-export default function TeluguQuiz({ onExit }) {
+const allMalayalamQuestions = malayalamQuizData.modules.reduce((acc, mod) => [...acc, ...mod.quiz], []);
+
+export default function MalayalamQuiz({ onExit }) {
   const navigate = useNavigate();
   
   const handleExit = () => {
@@ -33,7 +35,7 @@ export default function TeluguQuiz({ onExit }) {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    const savedLevel = localStorage.getItem("telugu_quiz_unlocked_level");
+    const savedLevel = localStorage.getItem("malayalam_quiz_unlocked_level");
     if (savedLevel) {
       setUnlockedLevel(parseInt(savedLevel, 10));
     }
@@ -43,7 +45,37 @@ export default function TeluguQuiz({ onExit }) {
     setActiveLevel(levelNum);
     // Grab the 10 questions for this level
     const startIndex = (levelNum - 1) * 10;
-    const levelQuestions = teluguQuizData.slice(startIndex, startIndex + 10);
+    const rawQuestions = allMalayalamQuestions.slice(startIndex, startIndex + 10);
+    
+    // Map to standard format
+    const levelQuestions = rawQuestions.map((q, i) => {
+       let opts = [];
+       if (Array.isArray(q.options)) {
+         opts = q.options.map((opt, idx) => ({
+           te: opt.text,
+           tr: opt.transliteration || String.fromCharCode(65 + idx),
+           ans: q.correct_answer === opt.text
+         }));
+       } else {
+         opts = ['A', 'B', 'C', 'D'].map(key => ({
+           te: q.options ? q.options[key] : '',
+           tr: key,
+           ans: q.correct_option === key
+         }));
+       }
+       
+       const isMcq = !!q.question_en;
+       
+       return {
+         id: q.q_no || `${levelNum}_${i}`,
+         type: isMcq ? 'mcq' : 'standard',
+         en: q.question_en || q.malayalam,
+         ta: q.question_ta || q.english_transliteration,
+         english_meaning: q.english_meaning,
+         options: opts
+       };
+    });
+
     // Shuffle them so they aren't in the same order every time
     const shuffled = [...levelQuestions].sort(() => 0.5 - Math.random());
     setQuestions(shuffled);
@@ -78,22 +110,22 @@ export default function TeluguQuiz({ onExit }) {
       const scorePercentage = Math.round((scoreCount / questions.length) * 100);
       const passed = true; // Always unlock next level upon finishing
       
-      const totalLevels = Math.ceil(teluguQuizData.length / 10);
+      const totalLevels = Math.ceil(allMalayalamQuestions.length / 10);
       try {
         // Unlock next level if passed and it's the current max
         if (passed && activeLevel === unlockedLevel && activeLevel < totalLevels) {
           const newUnlocked = activeLevel + 1;
           setUnlockedLevel(newUnlocked);
-          localStorage.setItem("telugu_quiz_unlocked_level", newUnlocked.toString());
+          localStorage.setItem("malayalam_quiz_unlocked_level", newUnlocked.toString());
         }
 
-        const savedStats = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
+        const savedStats = JSON.parse(localStorage.getItem("malayalam_stats") || '{"streak":0,"xp":0}');
         const xpGain = passed ? 50 : 10;
         const newStats = {
           streak: savedStats.streak === 0 ? 1 : savedStats.streak,
           xp: savedStats.xp + xpGain
         };
-        localStorage.setItem("telugu_stats", JSON.stringify(newStats));
+        localStorage.setItem("malayalam_stats", JSON.stringify(newStats));
       } catch(e) {
         console.error(e);
       }
@@ -105,9 +137,21 @@ export default function TeluguQuiz({ onExit }) {
 
   const [activeModule, setActiveModule] = useState(null);
 
-  const totalLevels = Math.ceil(teluguQuizData.length / 10);
-  const levelsPerModule = 40;
-  const totalModules = Math.ceil(totalLevels / levelsPerModule);
+  const totalLevels = Math.ceil(allMalayalamQuestions.length / 10);
+
+  const actualModules = [];
+  let currentLevelOffset = 1;
+  malayalamQuizData.modules.forEach((mod, i) => {
+      const numQuestions = mod.quiz ? mod.quiz.length : 0;
+      const levelsInMod = Math.ceil(numQuestions / 10) || 1;
+      actualModules.push({
+          ...mod,
+          moduleNum: mod.module || (i + 1),
+          startLevelNum: currentLevelOffset,
+          endLevelNum: currentLevelOffset + levelsInMod - 1
+      });
+      currentLevelOffset += levelsInMod;
+  });
 
   // MODULE SELECTION SCREEN
   if (activeModule === null && activeLevel === null) {
@@ -126,10 +170,11 @@ export default function TeluguQuiz({ onExit }) {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {Array.from({ length: totalModules }).map((_, i) => {
-            const moduleNum = i + 1;
-            const startLevelNum = (moduleNum - 1) * levelsPerModule + 1;
-            const endLevelNum = Math.min(moduleNum * levelsPerModule, totalLevels);
+          {actualModules.map((mod) => {
+            const moduleNum = mod.moduleNum;
+            const startLevelNum = mod.startLevelNum;
+            const endLevelNum = mod.endLevelNum;
+            const title = mod.title || `Module ${moduleNum}`;
             
             // Module is locked if the unlocked level is less than the first level of this module
             const isLocked = unlockedLevel < startLevelNum;
@@ -152,7 +197,7 @@ export default function TeluguQuiz({ onExit }) {
                 <div className={`w-12 h-12 mb-3 flex items-center justify-center rounded-2xl ${isLocked ? "bg-gray-200" : isInProgress ? "bg-[#C9A227]" : "bg-emerald-500"} text-white shadow-sm`}>
                   <Map className="w-6 h-6" />
                 </div>
-                <span className={`font-display text-xl font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>Module {moduleNum}</span>
+                <span className={`font-display text-xl font-bold text-center ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{title}</span>
                 <span className={`font-sans text-xs font-semibold mt-1 ${isLocked ? 'text-gray-400' : 'text-[#14213D]/70'}`}>
                   Levels {startLevelNum} - {endLevelNum}
                 </span>
@@ -171,8 +216,9 @@ export default function TeluguQuiz({ onExit }) {
 
   // LEVEL SELECTION SCREEN
   if (activeModule !== null && activeLevel === null) {
-    const startLevelNum = (activeModule - 1) * levelsPerModule + 1;
-    const endLevelNum = Math.min(activeModule * levelsPerModule, totalLevels);
+    const mod = actualModules.find(m => m.moduleNum === activeModule) || actualModules[0];
+    const startLevelNum = mod.startLevelNum;
+    const endLevelNum = mod.endLevelNum;
     const moduleLevels = Array.from({ length: endLevelNum - startLevelNum + 1 }).map((_, i) => startLevelNum + i);
 
     return (
@@ -187,7 +233,7 @@ export default function TeluguQuiz({ onExit }) {
               Back
             </button>
             <h2 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-               <Map className="w-6 h-6 text-[#C9A227]" /> Module {activeModule} Levels
+               <Map className="w-6 h-6 text-[#C9A227]" /> {mod.title || `Module ${activeModule}`} Levels
             </h2>
           </div>
           <button 
@@ -303,8 +349,8 @@ export default function TeluguQuiz({ onExit }) {
                 </h2>
               </div>
             ) : (
-              <h2 className="font-display text-2xl font-bold text-[#14213D]">
-                What is the Telugu word for <span className="text-[#C9A227]">"{currentQ.en}"</span> ({currentQ.ta})?
+              <h2 className="font-display text-2xl font-bold text-[#14213D] leading-relaxed">
+                What does the Malayalam word <span className="text-[#C9A227]">"{currentQ.en}"</span> ({currentQ.ta}) mean?
               </h2>
             )}
           </div>
@@ -330,8 +376,10 @@ export default function TeluguQuiz({ onExit }) {
                   className={`flex w-full items-center justify-between rounded-2xl border p-4 font-sans text-lg text-left transition ${btnStyle}`}
                 >
                   <div className="flex flex-col">
-                    <span className="font-bold font-telugu text-[22px]">{opt.te}</span>
-                    <span className="text-xs opacity-70 font-mono mt-1">{opt.tr}</span>
+                    <span className="font-bold text-[22px] font-tamil leading-relaxed">{opt.te}</span>
+                    <span className="text-xs opacity-70 font-mono mt-1">
+                      {opt.tr && opt.tr.length > 1 ? opt.tr : `Option ${opt.tr}`}
+                    </span>
                   </div>
                   {isAnswered && isCorrect && <CheckCircle2 className="h-6 w-6 text-emerald-600 fill-emerald-100" />}
                   {isAnswered && isSelected && !isCorrect && <XCircle className="h-6 w-6 text-red-600 fill-red-100" />}

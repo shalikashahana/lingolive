@@ -1,0 +1,349 @@
+{
+  "language": "Hindi",
+  "code": "hi",
+  "total_letters": 52,
+  "alphabet": {
+    "swarangal": [
+      {
+        "letter": "अ",
+        "transliteration": "a",
+        "tamil_transliteration": "அ",
+        "type": "short vowel"
+      },
+      {
+        "letter": "आ",
+        "transliteration": "aa",
+        "tamil_transliteration": "ஆ",
+        "type": "long vowel"
+      },
+      {
+        "letter": "इ",
+        "transliteration": "i",
+        "tamil_transliteration": "இ",
+        "type": "short vowel"
+      },
+      {
+        "letter": "ई",
+        "transliteration": "ii",
+        "tamil_transliteration": "ஈ",
+        "type": "long vowel"
+      },
+      {
+        "letter": "उ",
+        "transliteration": "u",
+        "tamil_transliteration": "உ",
+        "type": "short vowel"
+      },
+      {
+        "letter": "ऊ",
+        "transliteration": "uu",
+        "tamil_transliteration": "ஊ",
+        "type": "long vowel"
+      },
+      {
+        "letter": "ऋ",
+        "transliteration": "ri",
+        "tamil_transliteration": "ரு",
+        "type": "vocalic r"
+      },
+      {
+        "letter": "ए",
+        "transliteration": "e",
+        "tamil_transliteration": "ஏ",
+        "type": "long vowel"
+      },
+      {
+        "letter": "ऐ",
+        "transliteration": "ai",
+        "tamil_transliteration": "ஐ",
+        "type": "diphthong"
+      },
+      {
+        "letter": "ओ",
+        "transliteration": "o",
+        "tamil_transliteration": "ஓ",
+        "type": "long vowel"
+      },
+      {
+        "letter": "औ",
+        "transliteration": "au",
+        "tamil_transliteration": "ஔ",
+        "type": "diphthong"
+      },
+      {
+        "letter": "अं",
+        "transliteration": "am",
+        "tamil_transliteration": "அம்",
+        "type": "anusvara"
+      },
+      {
+        "letter": "अः",
+        "transliteration": "ah",
+        "tamil_transliteration": "அஹ",
+        "type": "visarga"
+      }
+    ],
+    "vyanjanangal": [
+      {
+        "letter": "क",
+        "transliteration": "ka",
+        "tamil_transliteration": "க",
+        "type": "velar"
+      },
+      {
+        "letter": "ख",
+        "transliteration": "kha",
+        "tamil_transliteration": "கஹ",
+        "type": "velar"
+      },
+      {
+        "letter": "ग",
+        "transliteration": "ga",
+        "tamil_transliteration": "க",
+        "type": "velar"
+      },
+      {
+        "letter": "घ",
+        "transliteration": "gha",
+        "tamil_transliteration": "கஹ",
+        "type": "velar"
+      },
+      {
+        "letter": "ङ",
+        "transliteration": "nga",
+        "tamil_transliteration": "ங",
+        "type": "velar"
+      },
+      {
+        "letter": "च",
+        "transliteration": "cha",
+        "tamil_transliteration": "ச",
+        "type": "palatal"
+      },
+      {
+        "letter": "छ",
+        "transliteration": "chha",
+        "tamil_transliteration": "சஹ",
+        "type": "palatal"
+      },
+      {
+        "letter": "ज",
+        "transliteration": "ja",
+        "tamil_transliteration": "ஜ",
+        "type": "palatal"
+      },
+      {
+        "letter": "झ",
+        "transliteration": "jha",
+        "tamil_transliteration": "ஜஹ",
+        "type": "palatal"
+      },
+      {
+        "letter": "ञ",
+        "transliteration": "nya",
+        "tamil_transliteration": "ஞ",
+        "type": "palatal"
+      },
+      {
+        "letter": "ट",
+        "transliteration": "ṭa",
+        "tamil_transliteration": "ட",
+        "type": "retroflex"
+      },
+      {
+        "letter": "ठ",
+        "transliteration": "ṭha",
+        "tamil_transliteration": "டஹ",
+        "type": "retroflex"
+      },
+      {
+        "letter": "ड",
+        "transliteration": "ḍa",
+        "tamil_transliteration": "ட",
+        "type": "retroflex"
+      },
+      {
+        "letter": "ढ",
+        "transliteration": "ḍha",
+        "tamil_transliteration": "டஹ",
+        "type": "retroflex"
+      },
+      {
+        "letter": "ण",
+        "transliteration": "ṇa",
+        "tamil_transliteration": "ண",
+        "type": "retroflex"
+      },
+      {
+        "letter": "त",
+        "transliteration": "ta",
+        "tamil_transliteration": "த",
+        "type": "dental"
+      },
+      {
+        "letter": "थ",
+        "transliteration": "tha",
+        "tamil_transliteration": "தஹ",
+        "type": "dental"
+      },
+      {
+        "letter": "द",
+        "transliteration": "da",
+        "tamil_transliteration": "த",
+        "type": "dental"
+      },
+      {
+        "letter": "ध",
+        "transliteration": "dha",
+        "tamil_transliteration": "தஹ",
+        "type": "dental"
+      },
+      {
+        "letter": "न",
+        "transliteration": "na",
+        "tamil_transliteration": "ந",
+        "type": "dental"
+      },
+      {
+        "letter": "प",
+        "transliteration": "pa",
+        "tamil_transliteration": "ப",
+        "type": "labial"
+      },
+      {
+        "letter": "फ",
+        "transliteration": "pha",
+        "tamil_transliteration": "பஹ",
+        "type": "labial"
+      },
+      {
+        "letter": "ब",
+        "transliteration": "ba",
+        "tamil_transliteration": "ப",
+        "type": "labial"
+      },
+      {
+        "letter": "भ",
+        "transliteration": "bha",
+        "tamil_transliteration": "பஹ",
+        "type": "labial"
+      },
+      {
+        "letter": "म",
+        "transliteration": "ma",
+        "tamil_transliteration": "ம",
+        "type": "labial"
+      },
+      {
+        "letter": "य",
+        "transliteration": "ya",
+        "tamil_transliteration": "ய",
+        "type": "semi-vowel"
+      },
+      {
+        "letter": "र",
+        "transliteration": "ra",
+        "tamil_transliteration": "ர",
+        "type": "semi-vowel"
+      },
+      {
+        "letter": "ल",
+        "transliteration": "la",
+        "tamil_transliteration": "ல",
+        "type": "semi-vowel"
+      },
+      {
+        "letter": "व",
+        "transliteration": "va",
+        "tamil_transliteration": "வ",
+        "type": "semi-vowel"
+      },
+      {
+        "letter": "श",
+        "transliteration": "sha",
+        "tamil_transliteration": "ஷ",
+        "type": "sibilant"
+      },
+      {
+        "letter": "ष",
+        "transliteration": "ṣa",
+        "tamil_transliteration": "ஷ",
+        "type": "sibilant"
+      },
+      {
+        "letter": "स",
+        "transliteration": "sa",
+        "tamil_transliteration": "ஸ",
+        "type": "sibilant"
+      },
+      {
+        "letter": "ह",
+        "transliteration": "ha",
+        "tamil_transliteration": "ஹ",
+        "type": "glottal"
+      },
+      {
+        "letter": "ळ",
+        "transliteration": "ḷa",
+        "tamil_transliteration": "ள",
+        "type": "retroflex liquid"
+      },
+      {
+        "letter": "क्ष",
+        "transliteration": "ksha",
+        "tamil_transliteration": "க்ஷ",
+        "type": "compound"
+      },
+      {
+        "letter": "त्र",
+        "transliteration": "tra",
+        "tamil_transliteration": "த்ர",
+        "type": "compound"
+      },
+      {
+        "letter": "ज्ञ",
+        "transliteration": "gya",
+        "tamil_transliteration": "ஜ்ஞ",
+        "type": "compound"
+      }
+    ],
+    "chillaksharangal": [
+      {
+        "letter": "क्",
+        "transliteration": "k",
+        "tamil_transliteration": "க்",
+        "type": "halant"
+      },
+      {
+        "letter": "ख्",
+        "transliteration": "kh",
+        "tamil_transliteration": "கஹ்",
+        "type": "halant"
+      },
+      {
+        "letter": "ग्",
+        "transliteration": "g",
+        "tamil_transliteration": "க்",
+        "type": "halant"
+      },
+      {
+        "letter": "त्",
+        "transliteration": "t",
+        "tamil_transliteration": "த்",
+        "type": "halant"
+      },
+      {
+        "letter": "न्",
+        "transliteration": "n",
+        "tamil_transliteration": "ந்",
+        "type": "halant"
+      },
+      {
+        "letter": "र्",
+        "transliteration": "r",
+        "tamil_transliteration": "ர்",
+        "type": "halant"
+      }
+    ]
+  }
+}

@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
+﻿import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import alphabetData from "../../data/malayalamAlphabetData.json";
-import malayalamWordsData from "../../data/malayalamWordsData.json";
-import malayalamNumbersData from "../../data/malayalamNumbersData.json";
-import malayalamSentencesData from "../../data/malayalamSentencesData.json";
-import malayalamQuizData from "../../data/malayalamQuizData.json";
+import alphabetData from "../../data/thaiAlphabetData.json";
+import thaiWordsData from "../../data/thaiWordsData.json";
+import thaiNumbersData from "../../data/thaiNumbersData.json";
+import thaiSentencesData from "../../data/thaiSentencesData.json";
+import thaiQuizData from "../../data/thaiQuizData.json";
 import { useAuth } from "../../context/AuthContext";
-import MalayalamQuiz from "./MalayalamQuiz";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
   Play, Volume2, Eye, EyeOff, User, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard 
@@ -49,7 +48,7 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
               {word.digit}.
             </span>
           )}
-          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{word.malayalam}</span>
+          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{word.thai}</span>
         </span>
         
         <div className={`flex flex-wrap gap-2 mb-5 ${isLocked ? "opacity-50" : ""}`}>
@@ -107,7 +106,7 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
   const handleSelect = (optKey) => {
     if (isLocked || selectedOpt) return;
     setSelectedOpt(optKey);
-    playAudio(question.malayalam);
+    playAudio(question.thai);
     if (optKey === question.correct_option) {
        // Wait a bit so user can see it turn green, then unlock next
        setTimeout(() => {
@@ -130,7 +129,7 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
           {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
         </div>
         <button 
-          onClick={(e) => { e.stopPropagation(); playAudio(question.malayalam); }}
+          onClick={(e) => { e.stopPropagation(); playAudio(question.thai); }}
           disabled={isLocked}
           className={`p-1.5 rounded-xl shadow-sm border transition-all z-10 hover:scale-110 active:scale-95 ${
             isLocked ? "bg-gray-100 border-gray-200 cursor-not-allowed opacity-50" : "bg-[#14213D]/5 border-[#14213D]/5 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]/20"
@@ -145,7 +144,7 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
           <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-[#8b5cf6]/20 to-[#8b5cf6]/10 border border-[#8b5cf6]/20 text-[#6d28d9] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
             {question.q_no}.
           </span>
-          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{question.malayalam}</span>
+          <span className={isLocked ? "blur-[2px] opacity-70" : ""}>{question.thai}</span>
         </span>
         
         <div className={`flex flex-wrap gap-2 mb-2 ${isLocked ? "opacity-50" : ""}`}>
@@ -188,22 +187,22 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
   );
 }
 
-export default function MalayalamDashboard() {
+export default function ThaiDashboard() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
-  const savedTab = localStorage.getItem("malayalam_active_tab");
+  const savedTab = localStorage.getItem("thai_active_tab");
   const [activeTab, setActiveTabState] = useState(savedTab || "Home");
 
   const setActiveTab = (tab) => {
     setActiveTabState(tab);
-    localStorage.setItem("malayalam_active_tab", tab);
+    localStorage.setItem("thai_active_tab", tab);
   };
 
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const availableLanguages = [
     { code: "en", name: "English", flag: "🇺🇸" },
     { code: "te", name: "Telugu", flag: "🇮🇳" },
-    { code: "ml", name: "Malayalam", flag: "🇮🇳" },
+    { code: "ml", name: "Thai", flag: "🇮🇳" },
     { code: "hi", name: "Hindi", flag: "🇮🇳" },
     { code: "ar", name: "Arabic", flag: "🇸🇦" },
     { code: "ko", name: "Korean", flag: "🇰🇷" },
@@ -242,12 +241,12 @@ export default function MalayalamDashboard() {
   const [stats, setStats] = useState({ streak: 0, xp: 0 });
 
   useEffect(() => {
-    const savedProgressStr = localStorage.getItem("malayalam_progress");
+    const savedProgressStr = localStorage.getItem("thai_progress");
     const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
     const savedProgress = savedProgressStr ? JSON.parse(savedProgressStr) : defaultProgress;
     setProgress({ ...defaultProgress, ...savedProgress });
 
-    const savedStats = JSON.parse(localStorage.getItem("malayalam_stats") || '{"streak":0,"xp":0}');
+    const savedStats = JSON.parse(localStorage.getItem("thai_stats") || '{"streak":0,"xp":0}');
     setStats(savedStats);
   }, []);
 
@@ -255,7 +254,7 @@ export default function MalayalamDashboard() {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "ml-IN";
+    utterance.lang = "th-IN";
     utterance.rate = 0.8;
     window.speechSynthesis.speak(utterance);
   };
@@ -272,8 +271,8 @@ export default function MalayalamDashboard() {
       setProgress(newProgress);
       setStats(newStats);
       
-      localStorage.setItem("malayalam_progress", JSON.stringify(newProgress));
-      localStorage.setItem("malayalam_stats", JSON.stringify(newStats));
+      localStorage.setItem("thai_progress", JSON.stringify(newProgress));
+      localStorage.setItem("thai_stats", JSON.stringify(newStats));
     }
   };
 
@@ -298,10 +297,10 @@ export default function MalayalamDashboard() {
     { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
     { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
     { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
-    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: thaiWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: thaiNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: thaiSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: thaiQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -403,7 +402,7 @@ export default function MalayalamDashboard() {
             </div>
           </div>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-[#14213D]/5 px-3 py-1.5 font-mono text-xs font-semibold text-[#14213D]/70 w-fit">
-            Malayalam Learning
+            Thai Learning
           </span>
           <button 
             onClick={() => navigate("/")}
@@ -498,7 +497,7 @@ export default function MalayalamDashboard() {
                 <div className="flex flex-wrap items-center gap-3">
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C9A227] px-3 py-1 font-mono text-xs font-bold text-[#14213D]">
                     <Sparkles className="h-3.5 w-3.5" />
-                    Malayalam Fundamentals
+                    Thai Fundamentals
                   </span>
                   <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
                     Beginner
@@ -506,10 +505,10 @@ export default function MalayalamDashboard() {
                 </div>
 
                 <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  Learn the Malayalam Alphabet
+                  Learn the Thai Alphabet
                 </h1>
                 <p className="max-w-2xl font-sans text-sm text-white/70 leading-relaxed">
-                  Master the core {alphabetData.total_letters} letters of Malayalam. 
+                  Master the core {alphabetData.total_letters} letters of Thai. 
                   Start with the vowels (സ്വരങ്ങൾ) and progress to the consonants (വ്യഞ്ജനങ്ങൾ) to build your foundation.
                 </p>
 
@@ -563,7 +562,7 @@ export default function MalayalamDashboard() {
                     Welcome back! 👋
                   </h2>
                   <p className="font-sans text-sm text-[#14213D]/60 max-w-xl">
-                    Pick up where you left off or start a new lesson. Your Malayalam journey is waiting for you!
+                    Pick up where you left off or start a new lesson. Your Thai journey is waiting for you!
                   </p>
                 </div>
                 
@@ -629,10 +628,10 @@ export default function MalayalamDashboard() {
                 {activeWordPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {malayalamWordsData.words.length} Essential Words
+                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {thaiWordsData.words.length} Essential Words
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(malayalamWordsData.words.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(thaiWordsData.words.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -681,7 +680,7 @@ export default function MalayalamDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {malayalamWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
+                      {thaiWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
                          const globalIdx = (activeWordPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.words;
                          const isInProgress = globalIdx === progress.words;
@@ -694,7 +693,7 @@ export default function MalayalamDashboard() {
                              isCompleted={isCompleted}
                              isInProgress={isInProgress}
                              isLocked={isLocked}
-                             onInteract={() => handleInteraction('words', globalIdx, word.malayalam)} 
+                             onInteract={() => handleInteraction('words', globalIdx, word.thai)} 
                            />
                          );
                       })}
@@ -709,10 +708,10 @@ export default function MalayalamDashboard() {
                 {activeNumberPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {malayalamNumbersData.numbers.length} Numbers
+                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {thaiNumbersData.numbers.length} Numbers
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(malayalamNumbersData.numbers.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(thaiNumbersData.numbers.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -761,7 +760,7 @@ export default function MalayalamDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {malayalamNumbersData.numbers.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
+                      {thaiNumbersData.numbers.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
                          const globalIdx = (activeNumberPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.numbers;
                          const isInProgress = globalIdx === progress.numbers;
@@ -774,7 +773,7 @@ export default function MalayalamDashboard() {
                              isCompleted={isCompleted}
                              isInProgress={isInProgress}
                              isLocked={isLocked}
-                             onInteract={() => handleInteraction('numbers', globalIdx, number.malayalam)} 
+                             onInteract={() => handleInteraction('numbers', globalIdx, number.thai)} 
                            />
                          );
                       })}
@@ -789,10 +788,10 @@ export default function MalayalamDashboard() {
                 {activeSentenceModuleView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {malayalamSentencesData.total_sentences} Sentences
+                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {thaiSentencesData.total_sentences} Sentences
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {malayalamSentencesData.modules.map((moduleData, i) => (
+                      {thaiSentencesData.modules.map((moduleData, i) => (
                         <button
                           key={moduleData.module}
                           onClick={() => setActiveSentenceModuleView(i)}
@@ -819,19 +818,19 @@ export default function MalayalamDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {malayalamSentencesData.modules[activeSentenceModuleView].module} ({malayalamSentencesData.modules[activeSentenceModuleView].total_sentences} Sentences)
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {thaiSentencesData.modules[activeSentenceModuleView].module} ({thaiSentencesData.modules[activeSentenceModuleView].total_sentences} Sentences)
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(malayalamSentencesData.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(thaiSentencesData.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
-                        const endIdx = Math.min((i + 1) * 10, malayalamSentencesData.modules[activeSentenceModuleView].sentences.length);
+                        const endIdx = Math.min((i + 1) * 10, thaiSentencesData.modules[activeSentenceModuleView].sentences.length);
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
                         
                         let moduleGlobalStartIdx = 0;
                         for (let m = 0; m < activeSentenceModuleView; m++) {
-                           moduleGlobalStartIdx += malayalamSentencesData.modules[m].total_sentences;
+                           moduleGlobalStartIdx += thaiSentencesData.modules[m].total_sentences;
                         }
                         const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
                         const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
@@ -876,15 +875,15 @@ export default function MalayalamDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {malayalamSentencesData.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {thaiSentencesData.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {malayalamSentencesData.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
+                      {thaiSentencesData.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
                          let globalIdx = 0;
                          for (let m = 0; m < activeSentenceModuleView; m++) {
-                            globalIdx += malayalamSentencesData.modules[m].total_sentences;
+                            globalIdx += thaiSentencesData.modules[m].total_sentences;
                          }
                          globalIdx += (activeSentencePartView * 10) + relIdx;
 
@@ -899,7 +898,7 @@ export default function MalayalamDashboard() {
                              isCompleted={isCompleted}
                              isInProgress={isInProgress}
                              isLocked={isLocked}
-                             onInteract={() => handleInteraction('sentences', globalIdx, sentence.malayalam)} 
+                             onInteract={() => handleInteraction('sentences', globalIdx, sentence.thai)} 
                            />
                          );
                       })}
@@ -910,8 +909,132 @@ export default function MalayalamDashboard() {
             )}
 
             {activeTab === "Quiz" && (
-              <div className="-mx-4 sm:-mx-10 -my-6 sm:-my-10">
-                <MalayalamQuiz onExit={() => setActiveTab(TABS[0])} />
+              <div className="space-y-6">
+                {activeQuizModuleView === null ? (
+                  <div className="space-y-4 pt-4">
+                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-[#8b5cf6]" /> {thaiQuizData.total_questions} Quiz Questions
+                    </h3>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {thaiQuizData.modules.map((moduleData, i) => (
+                        <button
+                          key={moduleData.module}
+                          onClick={() => {
+                            setActiveQuizModuleView(i);
+                            setActiveQuizPartView(null);
+                          }}
+                          className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
+                        >
+                          <BookOpen className="w-8 h-8 mb-3 text-[#8b5cf6]" />
+                          <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
+                          {moduleData.description && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.description}</span>}
+                          <div className="mt-4">
+                            <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">{moduleData.total_questions} Questions</span>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : activeQuizPartView === null ? (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveQuizModuleView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {thaiQuizData.modules[activeQuizModuleView].module} ({thaiQuizData.modules[activeQuizModuleView].total_questions} Questions)
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(thaiQuizData.modules[activeQuizModuleView].quiz.length / 10) }).map((_, i) => {
+                        const startIdx = i * 10;
+                        const endIdx = Math.min((i + 1) * 10, thaiQuizData.modules[activeQuizModuleView].quiz.length);
+                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
+                        
+                        let moduleGlobalStartIdx = 0;
+                        for (let m = 0; m < activeQuizModuleView; m++) {
+                           moduleGlobalStartIdx += thaiQuizData.modules[m].total_questions;
+                        }
+                        const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
+                        const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
+                        
+                        const isLocked = progress.quiz < partGlobalStartIdx;
+                        const isCompleted = progress.quiz > partGlobalEndIdx;
+                        const isInProgress = !isLocked && !isCompleted;
+                        
+                        return (
+                          <button
+                            key={partName}
+                            disabled={isLocked}
+                            onClick={() => setActiveQuizPartView(i)}
+                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
+                              isLocked 
+                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                : isInProgress
+                                ? "border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                            }`}
+                          >
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#8b5cf6]" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <div className="mt-3">
+                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
+                               <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">In Progress</span>}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveQuizPartView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {thaiQuizData.modules[activeQuizModuleView].module} - Part {activeQuizPartView + 1}
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                      {thaiQuizData.modules[activeQuizModuleView].quiz.slice(activeQuizPartView * 10, (activeQuizPartView + 1) * 10).map((q, relIdx) => {
+                         let globalIdx = 0;
+                         for (let m = 0; m < activeQuizModuleView; m++) {
+                            globalIdx += thaiQuizData.modules[m].total_questions;
+                         }
+                         globalIdx += (activeQuizPartView * 10) + relIdx;
+
+                         const isCompleted = globalIdx < progress.quiz;
+                         const isInProgress = globalIdx === progress.quiz;
+                         const isLocked = globalIdx > progress.quiz;
+                         
+                         return (
+                           <InteractiveQuizCard 
+                             key={globalIdx} 
+                             question={q} 
+                             index={globalIdx}
+                             isCompleted={isCompleted}
+                             isInProgress={isInProgress}
+                             isLocked={isLocked}
+                             playAudio={playAudio}
+                             onInteract={() => handleInteraction('quiz', globalIdx, q.thai)} 
+                           />
+                         );
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
           </div>

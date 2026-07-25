@@ -18,6 +18,14 @@ import Grammar from "./pages/english/Grammar";
 import SelectLanguage from "./pages/shared/SelectLanguage";
 import EnglishPath from "./pages/english/EnglishPath";
 import MalayalamAlphabet from "./pages/malayalam/MalayalamAlphabet";
+import HindiDashboard from "./pages/hindi/HindiDashboard";
+import MalayalamDashboard from "./pages/malayalam/MalayalamDashboard";
+import KoreanDashboard from "./pages/korean/KoreanDashboard";
+import JapaneseDashboard from "./pages/japanese/JapaneseDashboard";
+import ThaiDashboard from "./pages/thai/ThaiDashboard";
+import ChineseDashboard from "./pages/chinese/ChineseDashboard";
+import ArabicDashboard from "./pages/arabic/ArabicDashboard";
+
 
 function PrivateRoute({ children, checkLanguage = true }) {
   const { user, loading } = useAuth();
@@ -78,6 +86,14 @@ export default function App() {
                     <Route path="/sentences" element={<Sentences />} />
                     <Route path="/idioms" element={<Idioms />} />
                     <Route path="/grammar" element={<Grammar />} />
+                    <Route path="/hindi-learning" element={<HindiDashboard />} />
+                    <Route path="/malayalam-learning" element={<MalayalamDashboard />} />
+                    <Route path="/korean-learning" element={<KoreanDashboard />} />
+                    <Route path="/japanese-learning" element={<JapaneseDashboard />} />
+                    <Route path="/thai-learning" element={<ThaiDashboard />} />
+                    <Route path="/chinese-learning" element={<ChineseDashboard />} />
+                    <Route path="/arabic-learning" element={<ArabicDashboard />} />
+
                     <Route path="*" element={<Navigate to="/" replace />} />
                   </Routes>
                 </AppLayout>

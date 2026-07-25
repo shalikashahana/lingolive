@@ -75,11 +75,14 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     }
   };
 
-  // Only bypass the 'Coming Soon' screen if English, or if it's Telugu/Malayalam AND we are on allowed paths
+  // Only bypass the 'Coming Soon' screen if English, or if it's a target language AND we are on allowed paths
   const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/telugu-quiz" || location.pathname === "/telugu-sentences");
-  const isMalayalamDashboard = currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/malayalam-alphabet");
+  const isMalayalamDashboard = currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/malayalam-alphabet" || location.pathname === "/malayalam-learning");
   
-  const isStandaloneDashboard = isTeluguDashboard || isMalayalamDashboard;
+  const targetLanguages = ["hi", "ko", "ja", "th", "zh", "ar"];
+  const isNewTargetLanguage = targetLanguages.includes(currentLanguageCode) && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname.endsWith("-learning"));
+
+  const isStandaloneDashboard = isTeluguDashboard || isMalayalamDashboard || isNewTargetLanguage;
 
   if (currentLanguageCode !== "en" && !isStandaloneDashboard) {
     return (
