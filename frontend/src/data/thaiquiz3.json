@@ -1,0 +1,3402 @@
+[
+  {
+    "id": 1,
+    "sentence_thai": "ผม อยาก ___ ข้าว (I want to eat rice)",
+    "english_transliteration": "Phom yak ___ khao",
+    "options": [
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "ไป",
+        "transliteration": "pai"
+      },
+      {
+        "thai": "ฟัง",
+        "transliteration": "fang"
+      }
+    ],
+    "correct_answer": "กิน",
+    "english_meaning": "I want to eat rice.",
+    "tamil_meaning": "நான் சாதம் சாப்பிட வேண்டும்."
+  },
+  {
+    "id": 2,
+    "sentence_thai": "เขา กำลัง ___ น้ำเปล่า (He is drinking water)",
+    "english_transliteration": "Khao kam-lang ___ nam-plao",
+    "options": [
+      {
+        "thai": "อ่าน",
+        "transliteration": "an"
+      },
+      {
+        "thai": "ดื่ม",
+        "transliteration": "duem"
+      },
+      {
+        "thai": "เขียน",
+        "transliteration": "khian"
+      },
+      {
+        "thai": "เดิน",
+        "transliteration": "doen"
+      }
+    ],
+    "correct_answer": "ดื่ม",
+    "english_meaning": "He is drinking water.",
+    "tamil_meaning": "அவன் தண்ணீர் குடித்துக்கொண்டிருக்கிறான்."
+  },
+  {
+    "id": 3,
+    "sentence_thai": "ฉัน ชอบ ___ หนังสือ ตอนคืน (I like reading books at night)",
+    "english_transliteration": "Chan chop ___ nang-sue ton khuen",
+    "options": [
+      {
+        "thai": "วิ่ง",
+        "transliteration": "wing"
+      },
+      {
+        "thai": "ซื้อ",
+        "transliteration": "sue"
+      },
+      {
+        "thai": "อ่าน",
+        "transliteration": "an"
+      },
+      {
+        "thai": "ขาย",
+        "transliteration": "khai"
+      }
+    ],
+    "correct_answer": "อ่าน",
+    "english_meaning": "I like reading books at night.",
+    "tamil_meaning": "எனக்கு இரவில் புத்தகம் படிக்க பிடிக்கும்."
+  },
+  {
+    "id": 4,
+    "sentence_thai": "วันนี้ คุณ จะ ___ ไหน (Where will you go today?)",
+    "english_transliteration": "Wan-nee khun cha ___ nai",
+    "options": [
+      {
+        "thai": "ไป",
+        "transliteration": "pai"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "ยิ้ม",
+        "transliteration": "yim"
+      }
+    ],
+    "correct_answer": "ไป",
+    "english_meaning": "Where will you go today?",
+    "tamil_meaning": "இன்று நீங்கள் எங்கே போகிறீர்கள்?"
+  },
+  {
+    "id": 5,
+    "sentence_thai": "คุณ ___ ภาษาไทย ได้ไหม (Can you speak Thai?)",
+    "english_transliteration": "Khun ___ pha-sa-thai dai-mai",
+    "options": [
+      {
+        "thai": "พูด",
+        "transliteration": "phoot"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "เตะ",
+        "transliteration": "te"
+      },
+      {
+        "thai": "อาบ",
+        "transliteration": "ap"
+      }
+    ],
+    "correct_answer": "พูด",
+    "english_meaning": "Can you speak Thai?",
+    "tamil_meaning": "உங்களால் தாய்மொழி பேச முடியுமா?"
+  },
+  {
+    "id": 6,
+    "sentence_thai": "อาหาร ร้านนี้ ___ มาก (Food at this shop is very delicious)",
+    "english_transliteration": "A-han ran-nee ___ mak",
+    "options": [
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      },
+      {
+        "thai": "อร่อย",
+        "transliteration": "a-roi"
+      },
+      {
+        "thai": "หนาว",
+        "transliteration": "nao"
+      },
+      {
+        "thai": "สูง",
+        "transliteration": "soong"
+      }
+    ],
+    "correct_answer": "อร่อย",
+    "english_meaning": "Food at this shop is very delicious.",
+    "tamil_meaning": "இந்த கடை உணவு ரொம்ப சுவையாக இருக்கிறது."
+  },
+  {
+    "id": 7,
+    "sentence_thai": "กระเป๋า ใบนี้ ___ เท่าไหร่ (How much is this bag?)",
+    "english_transliteration": "Kra-pao bai-nee ___ thao-rai",
+    "options": [
+      {
+        "thai": "ราคา",
+        "transliteration": "ra-kha"
+      },
+      {
+        "thai": "เวลา",
+        "transliteration": "we-la"
+      },
+      {
+        "thai": "สี",
+        "transliteration": "see"
+      },
+      {
+        "thai": "ชื่อ",
+        "transliteration": "chue"
+      }
+    ],
+    "correct_answer": "ราคา",
+    "english_meaning": "How much is this bag?",
+    "tamil_meaning": "இந்த பையின் விலை எவ்வளவு?"
+  },
+  {
+    "id": 8,
+    "sentence_thai": "ตอนนี้ กี่ ___ แล้ว (What time is it now?)",
+    "english_transliteration": "Ton-nee kee ___ laeo",
+    "options": [
+      {
+        "thai": "โมง",
+        "transliteration": "mong"
+      },
+      {
+        "thai": "บาท",
+        "transliteration": "baht"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "คน",
+        "transliteration": "khon"
+      }
+    ],
+    "correct_answer": "โมง",
+    "english_meaning": "What time is it now?",
+    "tamil_meaning": "இப்போது மணி என்ன?"
+  },
+  {
+    "id": 9,
+    "sentence_thai": "ขอ กาแฟ ร้อน หนึ่ง ___ (One cup of hot coffee please)",
+    "english_transliteration": "Kho ka-fae ron neung ___",
+    "options": [
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "ห้อง",
+        "transliteration": "hong"
+      },
+      {
+        "thai": "วัน",
+        "transliteration": "wan"
+      }
+    ],
+    "correct_answer": "แก้ว",
+    "english_meaning": "One cup of hot coffee please.",
+    "tamil_meaning": "ஒரு கப் சூடான காபி தாருங்கள்."
+  },
+  {
+    "id": 10,
+    "sentence_thai": "พรุ่งนี้ วัน ___ ครับ (Tomorrow is Monday)",
+    "english_transliteration": "Phrung-nee wan ___ khrap",
+    "options": [
+      {
+        "thai": "จันทร์",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "ปี",
+        "transliteration": "pee"
+      },
+      {
+        "thai": "เดือน",
+        "transliteration": "duean"
+      },
+      {
+        "thai": "น้ำ",
+        "transliteration": "nam"
+      }
+    ],
+    "correct_answer": "จันทร์",
+    "english_meaning": "Tomorrow is Monday.",
+    "tamil_meaning": "நாளை திங்கள்கிழமை."
+  },
+  {
+    "id": 11,
+    "sentence_thai": "เธอ ชอบ ใส่ เสื้อ สี ___ (She likes wearing red shirts)",
+    "english_transliteration": "Thoe chop sai suea see ___",
+    "options": [
+      {
+        "thai": "แดง",
+        "transliteration": "daeng"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "หวาน",
+        "transliteration": "wan"
+      }
+    ],
+    "correct_answer": "แดง",
+    "english_meaning": "She likes wearing red shirts.",
+    "tamil_meaning": "அவளுக்கு சிவப்பு சட்டை போட பிடிக்கும்."
+  },
+  {
+    "id": 12,
+    "sentence_thai": "ฝน ตก หนัก ต้อง กาง ___ (It's raining heavily, must use umbrella)",
+    "english_transliteration": "Fon tok nak tong kang ___",
+    "options": [
+      {
+        "thai": "ร่ม",
+        "transliteration": "rom"
+      },
+      {
+        "thai": "โต๊ะ",
+        "transliteration": "to"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "แว่นตา",
+        "transliteration": "waen-ta"
+      }
+    ],
+    "correct_answer": "ร่ม",
+    "english_meaning": "It's raining heavily, must use an umbrella.",
+    "tamil_meaning": "மழை பயங்கரமாக பெய்கிறது, குடை பிடிக்க வேண்டும்."
+  },
+  {
+    "id": 13,
+    "sentence_thai": "เขา นอนหลับ บน ___ (He sleeps on the bed)",
+    "english_transliteration": "Khao non-lap bon ___",
+    "options": [
+      {
+        "thai": "เตียง",
+        "transliteration": "tiang"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "ปากกา",
+        "transliteration": "pak-ka"
+      }
+    ],
+    "correct_answer": "เตียง",
+    "english_meaning": "He sleeps on the bed.",
+    "tamil_meaning": "அவன் கட்டிலில் தூங்குகிறான்."
+  },
+  {
+    "id": 14,
+    "sentence_thai": "กรุณา ปิด ___ ก่อน ออกไป (Please close the door before leaving)",
+    "english_transliteration": "Ka-ru-na pit ___ kon ok-pai",
+    "options": [
+      {
+        "thai": "ประตู",
+        "transliteration": "pra-too"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      },
+      {
+        "thai": "ถนน",
+        "transliteration": "tha-non"
+      },
+      {
+        "thai": "สะพาน",
+        "transliteration": "sa-phan"
+      }
+    ],
+    "correct_answer": "ประตู",
+    "english_meaning": "Please close the door before leaving.",
+    "tamil_meaning": "வெளியே போவதற்கு முன் கதவை மூடுங்கள்."
+  },
+  {
+    "id": 15,
+    "sentence_thai": "พวกเรา นั่ง รถไฟ ไป ___ (We took the train to the beach)",
+    "english_transliteration": "Phuak-rao nang rot-fai pai ___",
+    "options": [
+      {
+        "thai": "ทะเล",
+        "transliteration": "tha-le"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "นาฬิกา",
+        "transliteration": "na-li-ka"
+      },
+      {
+        "thai": "จมูก",
+        "transliteration": "ja-mook"
+      }
+    ],
+    "correct_answer": "ทะเล",
+    "english_meaning": "We took the train to the beach.",
+    "tamil_meaning": "நாங்கள் ரயிலில் கடற்கரைக்குச் சென்றோம்."
+  },
+  {
+    "id": 16,
+    "sentence_thai": "น้องสาว ของฉัน เรียน อยู่ ___ (My sister studies at school)",
+    "english_transliteration": "Nong-sao khong-chan rian yoo ___",
+    "options": [
+      {
+        "thai": "โรงเรียน",
+        "transliteration": "rong-rian"
+      },
+      {
+        "thai": "หม้อ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "ตู้เย็น",
+        "transliteration": "too-yen"
+      },
+      {
+        "thai": "กุญแจ",
+        "transliteration": "kun-jae"
+      }
+    ],
+    "correct_answer": "โรงเรียน",
+    "english_meaning": "My sister studies at school.",
+    "tamil_meaning": "என் தங்கை பள்ளியில் படிக்கிறாள்."
+  },
+  {
+    "id": 17,
+    "sentence_thai": "โปรด เลี้ยว ___ ที่ สี่แยก หน้า (Please turn left at next intersection)",
+    "english_transliteration": "Protd liao ___ thee see-yaek na",
+    "options": [
+      {
+        "thai": "ซ้าย",
+        "transliteration": "sai"
+      },
+      {
+        "thai": "บน",
+        "transliteration": "bon"
+      },
+      {
+        "thai": "ใน",
+        "transliteration": "nai"
+      },
+      {
+        "thai": "หิว",
+        "transliteration": "hiu"
+      }
+    ],
+    "correct_answer": "ซ้าย",
+    "english_meaning": "Please turn left at the next intersection.",
+    "tamil_meaning": "அடுத்த சந்திப்பில் இடப்பக்கம் திரும்புங்கள்."
+  },
+  {
+    "id": 18,
+    "sentence_thai": "แม่ ซื้อ ผัก ที่ ___ (Mother buys vegetables at market)",
+    "english_transliteration": "Mae sue phak thee ___",
+    "options": [
+      {
+        "thai": "ตลาด",
+        "transliteration": "ta-lat"
+      },
+      {
+        "thai": "หู",
+        "transliteration": "hoo"
+      },
+      {
+        "thai": "ตา",
+        "transliteration": "ta"
+      },
+      {
+        "thai": "เข่า",
+        "transliteration": "khao"
+      }
+    ],
+    "correct_answer": "ตลาด",
+    "english_meaning": "Mother buys vegetables at the market.",
+    "tamil_meaning": "அம்மா சந்தையில் காய் வாங்குகிறார்."
+  },
+  {
+    "id": 19,
+    "sentence_thai": "ผม ชอบ ฟัง ___ ตอน ทำงาน (I like listening to music while working)",
+    "english_transliteration": "Phom chop fang ___ ton tham-ngan",
+    "options": [
+      {
+        "thai": "เพลง",
+        "transliteration": "phleng"
+      },
+      {
+        "thai": "ขวด",
+        "transliteration": "khuat"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "หมวก",
+        "transliteration": "muak"
+      }
+    ],
+    "correct_answer": "เพลง",
+    "english_meaning": "I like listening to music while working.",
+    "tamil_meaning": "வேலை செய்யும்போது பாட்டு கேட்க எனக்குப் பிடிக்கும்."
+  },
+  {
+    "id": 20,
+    "sentence_thai": "วันนี้ อากาศ ___ มาก ไม่ร้อน เลย (Today the weather is cold, not hot)",
+    "english_transliteration": "Wan-nee a-kat ___ mak mai-ron loei",
+    "options": [
+      {
+        "thai": "หนาว",
+        "transliteration": "nao"
+      },
+      {
+        "thai": "แพง",
+        "transliteration": "phaeng"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "ยุ่ง",
+        "transliteration": "yung"
+      }
+    ],
+    "correct_answer": "หนาว",
+    "english_meaning": "Today the weather is very cold, not hot at all.",
+    "tamil_meaning": "இன்று வானிலை ரொம்பக் குளிராக இருக்கிறது."
+  },
+  {
+    "id": 21,
+    "sentence_thai": "เขา ขับ รถ ___ มาก ระวัง ด้วย (He drives car very fast, be careful)",
+    "english_transliteration": "Khao khap rot ___ mak ra-wang duai",
+    "options": [
+      {
+        "thai": "เร็ว",
+        "transliteration": "reo"
+      },
+      {
+        "thai": "ช้า",
+        "transliteration": "cha"
+      },
+      {
+        "thai": "เก่า",
+        "transliteration": "kao"
+      },
+      {
+        "thai": "สั้น",
+        "transliteration": "san"
+      }
+    ],
+    "correct_answer": "เร็ว",
+    "english_meaning": "He drives the car very fast, be careful.",
+    "tamil_meaning": "அவன் வண்டியை ரொம்ப வேகமாக ஓட்டுகிறான், பார்த்துச் செல்."
+  },
+  {
+    "id": 22,
+    "sentence_thai": "ขอ โทษ ครับ ผม มา ___ สิบ นาที (Sorry, I arrived 10 minutes late)",
+    "english_transliteration": "Kho-thot khrap phom ma ___ sip na-thee",
+    "options": [
+      {
+        "thai": "สาย",
+        "transliteration": "sai"
+      },
+      {
+        "thai": "สวย",
+        "transliteration": "suai"
+      },
+      {
+        "thai": "สด",
+        "transliteration": "sot"
+      },
+      {
+        "thai": "สูง",
+        "transliteration": "soong"
+      }
+    ],
+    "correct_answer": "สาย",
+    "english_meaning": "Sorry, I arrived 10 minutes late.",
+    "tamil_meaning": "மன்னித்துக் கொள்ளுங்கள், 10 நிமிடம் தாமதமாக வந்துவிட்டேன்."
+  },
+  {
+    "id": 23,
+    "sentence_thai": "คุณ ลืม ___ ไว้ บน โต๊ะ (You forgot your key on the table)",
+    "english_transliteration": "Khun luem ___ wai bon to",
+    "options": [
+      {
+        "thai": "กุญแจ",
+        "transliteration": "kun-jae"
+      },
+      {
+        "thai": "ทะเล",
+        "transliteration": "tha-le"
+      },
+      {
+        "thai": "ฟ้า",
+        "transliteration": "fa"
+      },
+      {
+        "thai": "ฝน",
+        "transliteration": "fon"
+      }
+    ],
+    "correct_answer": "กุญแจ",
+    "english_meaning": "You forgot your key on the table.",
+    "tamil_meaning": "மேஜை மேல் சாவியை மறந்து வைத்துவிட்டீர்கள்."
+  },
+  {
+    "id": 24,
+    "sentence_thai": "เรา จะ ไป ดู ___ ที่ โรงหนัง (We are going to watch a movie at cinema)",
+    "english_transliteration": "Rao cha pai doo ___ thee rong-nang",
+    "options": [
+      {
+        "thai": "หนัง",
+        "transliteration": "nang"
+      },
+      {
+        "thai": "หมู",
+        "transliteration": "moo"
+      },
+      {
+        "thai": "ปลา",
+        "transliteration": "pla"
+      },
+      {
+        "thai": "ไก่",
+        "transliteration": "gai"
+      }
+    ],
+    "correct_answer": "หนัง",
+    "english_meaning": "We are going to watch a movie at the cinema.",
+    "tamil_meaning": "நாங்கள் திரையரங்கில் படம் பார்க்க போகிறோம்."
+  },
+  {
+    "id": 25,
+    "sentence_thai": "ล้าง ___ ก่อน กิน ข้าว นะ (Wash hands before eating rice)",
+    "english_transliteration": "Lang ___ kon gin khao na",
+    "options": [
+      {
+        "thai": "มือ",
+        "transliteration": "mue"
+      },
+      {
+        "thai": "ตึก",
+        "transliteration": "tuek"
+      },
+      {
+        "thai": "รถ",
+        "transliteration": "rot"
+      },
+      {
+        "thai": "บ้าน",
+        "transliteration": "ban"
+      }
+    ],
+    "correct_answer": "มือ",
+    "english_meaning": "Wash hands before eating rice.",
+    "tamil_meaning": "சாப்பிடுவதற்கு முன் கைகளைக் கழுவுங்கள்."
+  },
+  {
+    "id": 26,
+    "sentence_thai": "ส้มตำ ร้านนี้ ___ มาก ต้อง ดื่ม น้ำ (Papaya salad is so spicy, must drink water)",
+    "english_transliteration": "Som-tam ran-nee ___ mak tong duem nam",
+    "options": [
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "หวาน",
+        "transliteration": "wan"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "จืด",
+        "transliteration": "juet"
+      }
+    ],
+    "correct_answer": "เผ็ด",
+    "english_meaning": "Papaya salad at this shop is very spicy, must drink water.",
+    "tamil_meaning": "இந்த கடையில் பப்பாளி சாலட் ரொம்ப காரம், தண்ணீர் குடிக்க வேண்டும்."
+  },
+  {
+    "id": 27,
+    "sentence_thai": "เขา เป็น ___ ใน โรงพยาบาล (He is a doctor in the hospital)",
+    "english_transliteration": "Khao pen ___ nai rong-pha-ya-ban",
+    "options": [
+      {
+        "thai": "หมอ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "กุ้ง",
+        "transliteration": "kung"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "เสื้อ",
+        "transliteration": "suea"
+      }
+    ],
+    "correct_answer": "หมอ",
+    "english_meaning": "He is a doctor in the hospital.",
+    "tamil_meaning": "அவர் மருத்துவமனையில் ஒரு மருத்துவர்."
+  },
+  {
+    "id": 28,
+    "sentence_thai": "อย่า ลืม ชาร์จ ___ มือถือ นะ (Don't forget to charge mobile battery)",
+    "english_transliteration": "Ya luem chat ___ mue-thue na",
+    "options": [
+      {
+        "thai": "แบต",
+        "transliteration": "baet"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "กระเป๋า",
+        "transliteration": "kra-pao"
+      },
+      {
+        "thai": "หมอน",
+        "transliteration": "mon"
+      }
+    ],
+    "correct_answer": "แบต",
+    "english_meaning": "Don't forget to charge the mobile battery.",
+    "tamil_meaning": "போனை சார்ஜ் செய்ய மறக்காதீர்கள்."
+  },
+  {
+    "id": 29,
+    "sentence_thai": "กลางคืน มองเห็น ___ เต็ม ท้องฟ้า (At night can see stars all over sky)",
+    "english_transliteration": "Klang-khuen mong-hen ___ tem thong-fa",
+    "options": [
+      {
+        "thai": "ดาว",
+        "transliteration": "dao"
+      },
+      {
+        "thai": "รถ",
+        "transliteration": "rot"
+      },
+      {
+        "thai": "หิน",
+        "transliteration": "hin"
+      },
+      {
+        "thai": "ดิน",
+        "transliteration": "din"
+      }
+    ],
+    "correct_answer": "ดาว",
+    "english_meaning": "At night you can see stars all over the sky.",
+    "tamil_meaning": "இரவில் வானம் முழுவதும் நட்சத்திரங்களைப் பார்க்கலாம்."
+  },
+  {
+    "id": 30,
+    "sentence_thai": "คุณ ___ ที่ไหน ใน กรุงเทพ (Where do you stay in Bangkok?)",
+    "english_transliteration": "Khun ___ thee-nai nai Krung-thep",
+    "options": [
+      {
+        "thai": "อยู่",
+        "transliteration": "yoo"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "วิ่ง",
+        "transliteration": "wing"
+      },
+      {
+        "thai": "ขี่",
+        "transliteration": "khee"
+      }
+    ],
+    "correct_answer": "อยู่",
+    "english_meaning": "Where do you stay in Bangkok?",
+    "tamil_meaning": "பாங்காக்கில் நீங்கள் எங்கே தங்கியிருக்கிறீர்கள்?"
+  },
+  {
+    "id": 31,
+    "sentence_thai": "ช่วย หยิบ ___ ให้ หน่อย จะ เขียน งาน (Please pick pen for me, will write work)",
+    "english_transliteration": "Chuai yip ___ hai noi cha khian ngan",
+    "options": [
+      {
+        "thai": "ปากกา",
+        "transliteration": "pak-ka"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "เสื้อ",
+        "transliteration": "suea"
+      }
+    ],
+    "correct_answer": "ปากกา",
+    "english_meaning": "Please pass the pen to write my work.",
+    "tamil_meaning": "எழுத பேனாவை கொஞ்சம் எடுத்து தாருங்கள்."
+  },
+  {
+    "id": 32,
+    "sentence_thai": "แมว ตัวนี้ ___ มาก น่ารัก จัง (This cat is very small, so cute)",
+    "english_transliteration": "Maeo tua-nee ___ mak na-rak jang",
+    "options": [
+      {
+        "thai": "เล็ก",
+        "transliteration": "lek"
+      },
+      {
+        "thai": "แพง",
+        "transliteration": "phaeng"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "ร้อน",
+        "transliteration": "ron"
+      }
+    ],
+    "correct_answer": "เล็ก",
+    "english_meaning": "This cat is very small, so cute.",
+    "tamil_meaning": "இந்த பூனை ரொம்ப சிறியதாக, அழகாக இருக்கிறது."
+  },
+  {
+    "id": 33,
+    "sentence_thai": "กรุณา สแกน ___ เพื่อ จ่ายเงิน (Please scan QR code to pay)",
+    "english_transliteration": "Ka-ru-na scan ___ phuea jai-ngoen",
+    "options": [
+      {
+        "thai": "คิวอาร์โค้ด",
+        "transliteration": "QR code"
+      },
+      {
+        "thai": "กระเป๋า",
+        "transliteration": "kra-pao"
+      },
+      {
+        "thai": "ประตู",
+        "transliteration": "pra-too"
+      },
+      {
+        "thai": "หน้าต่าง",
+        "transliteration": "na-tang"
+      }
+    ],
+    "correct_answer": "คิวอาร์โค้ด",
+    "english_meaning": "Please scan the QR code to pay.",
+    "tamil_meaning": "பணம் செலுத்த QR கோடை ஸ்கேன் செய்யுங்கள்."
+  },
+  {
+    "id": 34,
+    "sentence_thai": "เมื่อคืน ฉัน นอน ___ แปด ชั่วโมง (Last night I slept eight hours)",
+    "english_transliteration": "Muea-khuen chan non ___ paet chua-mong",
+    "options": [
+      {
+        "thai": "หลับ",
+        "transliteration": "lap"
+      },
+      {
+        "thai": "วิ่ง",
+        "transliteration": "wing"
+      },
+      {
+        "thai": "เตะ",
+        "transliteration": "te"
+      },
+      {
+        "thai": "ขาย",
+        "transliteration": "khai"
+      }
+    ],
+    "correct_answer": "หลับ",
+    "english_meaning": "Last night I slept eight hours.",
+    "tamil_meaning": "நேற்று இரவு நான் எட்டு மணிநேரம் தூங்கினேன்."
+  },
+  {
+    "id": 35,
+    "sentence_thai": "คุณ ชอบ ชา หวาน หรือ หวาน ___ (Do you like tea sweet or less sweet?)",
+    "english_transliteration": "Khun chop cha wan rue wan ___",
+    "options": [
+      {
+        "thai": "น้อย",
+        "transliteration": "noi"
+      },
+      {
+        "thai": "มาก",
+        "transliteration": "mak"
+      },
+      {
+        "thai": "ใหญ่",
+        "transliteration": "yai"
+      },
+      {
+        "thai": "สูง",
+        "transliteration": "soong"
+      }
+    ],
+    "correct_answer": "น้อย",
+    "english_meaning": "Do you like tea sweet or less sweet?",
+    "tamil_meaning": "உனக்கு டீ அதிக இனிப்பா அல்லது குறைந்த இனிப்பா?"
+  },
+  {
+    "id": 36,
+    "sentence_thai": "เรา จะ เดินทาง โดย ___ ไป เชียงใหม่ (We will travel by plane to Chiang Mai)",
+    "english_transliteration": "Rao cha doen-thang doi ___ pai Chiang-mai",
+    "options": [
+      {
+        "thai": "เครื่องบิน",
+        "transliteration": "khruang-bin"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "ตู้เย็น",
+        "transliteration": "too-yen"
+      },
+      {
+        "thai": "หมอน",
+        "transliteration": "mon"
+      }
+    ],
+    "correct_answer": "เครื่องบิน",
+    "english_meaning": "We will travel by plane to Chiang Mai.",
+    "tamil_meaning": "நாங்கள் விமானத்தில் சியாங் மாயிக்குச் செல்வோம்."
+  },
+  {
+    "id": 37,
+    "sentence_thai": "กรุณา รอ สัก ___ นะ ครับ (Please wait a moment)",
+    "english_transliteration": "Ka-ru-na ro sak ___ na khrap",
+    "options": [
+      {
+        "thai": "ครู",
+        "transliteration": "khroo"
+      },
+      {
+        "thai": "ครู่",
+        "transliteration": "khroo"
+      },
+      {
+        "thai": "หมอ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "คน",
+        "transliteration": "khon"
+      }
+    ],
+    "correct_answer": "ครู่",
+    "english_meaning": "Please wait a moment.",
+    "tamil_meaning": "சற்று காத்திருங்கள்."
+  },
+  {
+    "id": 38,
+    "sentence_thai": "วันนี้ ผม ยุ่ง มาก ไม่มี ___ พัก (Today I'm very busy, no time to rest)",
+    "english_transliteration": "Wan-nee phom yung mak mai-mee ___ phak",
+    "options": [
+      {
+        "thai": "เวลา",
+        "transliteration": "we-la"
+      },
+      {
+        "thai": "เงิน",
+        "transliteration": "ngoen"
+      },
+      {
+        "thai": "น้ำ",
+        "transliteration": "nam"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      }
+    ],
+    "correct_answer": "เวลา",
+    "english_meaning": "Today I am very busy, no time to rest.",
+    "tamil_meaning": "இன்று எனக்கு ரொம்ப வேலை, ஓய்வெடுக்க நேரமில்லை."
+  },
+  {
+    "id": 39,
+    "sentence_thai": "พี่ชาย ของผม ทำงาน เป็น ___ (My older brother works as an engineer)",
+    "english_transliteration": "Phee-chai khong-phom tham-ngan pen ___",
+    "options": [
+      {
+        "thai": "วิศวกร",
+        "transliteration": "wit-sa-wa-kon"
+      },
+      {
+        "thai": "กระเป๋า",
+        "transliteration": "kra-pao"
+      },
+      {
+        "thai": "เก้าอี้",
+        "transliteration": "kao-ee"
+      },
+      {
+        "thai": "ปลา",
+        "transliteration": "pla"
+      }
+    ],
+    "correct_answer": "วิศวกร",
+    "english_meaning": "My older brother works as an engineer.",
+    "tamil_meaning": "என் அண்ணன் பொறியாளராக வேலை செய்கிறார்."
+  },
+  {
+    "id": 40,
+    "sentence_thai": "อย่า ลืม ถอด ___ ก่อน เข้า บ้าน (Don't forget to take off shoes before entering house)",
+    "english_transliteration": "Ya luem thot ___ kon khao ban",
+    "options": [
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "นาฬิกา",
+        "transliteration": "na-li-ka"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      }
+    ],
+    "correct_answer": "รองเท้า",
+    "english_meaning": "Don't forget to take off shoes before entering the house.",
+    "tamil_meaning": "வீட்டுக்குள் நுழையும் முன் செருப்பைக் கழற்ற மறக்காதே."
+  },
+  {
+    "id": 41,
+    "sentence_thai": "สุนัข ตัวนี้ ___ น่ารัก มาก (This dog is very cute)",
+    "english_transliteration": "Su-nak tua-nee ___ na-rak mak",
+    "options": [
+      {
+        "thai": "ตัว",
+        "transliteration": "tua"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "อัน",
+        "transliteration": "an"
+      },
+      {
+        "thai": "เล่ม",
+        "transliteration": "lem"
+      }
+    ],
+    "correct_answer": "ตัว",
+    "english_meaning": "This dog is very cute.",
+    "tamil_meaning": "இந்த நாய் ரொம்ப அழகாக இருக்கிறது."
+  },
+  {
+    "id": 42,
+    "sentence_thai": "ขอ สั่ง ผัดไทย ไก่ ไม่ใส่ ___ (I'd like Pad Thai chicken without MSG)",
+    "english_transliteration": "Kho sang Pad-thai gai mai-sai ___",
+    "options": [
+      {
+        "thai": "ผงชูรส",
+        "transliteration": "phong-choo-rot"
+      },
+      {
+        "thai": "น้ำเปล่า",
+        "transliteration": "nam-plao"
+      },
+      {
+        "thai": "หนังสือ",
+        "transliteration": "nang-sue"
+      },
+      {
+        "thai": "โทรศัพท์",
+        "transliteration": "tho-ra-sap"
+      }
+    ],
+    "correct_answer": "ผงชูรส",
+    "english_meaning": "I'd like Pad Thai chicken without MSG.",
+    "tamil_meaning": "அஜினோமோட்டோ இல்லாமல் சிக்கன் பத் தாய் தாருங்கள்."
+  },
+  {
+    "id": 43,
+    "sentence_thai": "เรา จะ เจอกัน ตอน ___ หก โมง (We will meet at 6 o'clock evening)",
+    "english_transliteration": "Rao cha joe-kan ton ___ hok mong",
+    "options": [
+      {
+        "thai": "เย็น",
+        "transliteration": "yen"
+      },
+      {
+        "thai": "ยาว",
+        "transliteration": "yao"
+      },
+      {
+        "thai": "สั้น",
+        "transliteration": "san"
+      },
+      {
+        "thai": "หนัก",
+        "transliteration": "nak"
+      }
+    ],
+    "correct_answer": "เย็น",
+    "english_meaning": "We will meet at 6 PM in the evening.",
+    "tamil_meaning": "நாம் மாலை 6 மணிக்கு சந்திப்போம்."
+  },
+  {
+    "id": 44,
+    "sentence_thai": "เขา เดินทาง ไป ทำงาน โดย รถ ___ (He travels to work by bus)",
+    "english_transliteration": "Khao doen-thang pai tham-ngan doi rot ___",
+    "options": [
+      {
+        "thai": "ประจำทาง",
+        "transliteration": "pra-jam-thang"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "ชาม",
+        "transliteration": "cham"
+      },
+      {
+        "thai": "ผ้า",
+        "transliteration": "pha"
+      }
+    ],
+    "correct_answer": "ประจำทาง",
+    "english_meaning": "He travels to work by bus.",
+    "tamil_meaning": "அவன் பேருந்தில் வேலைக்குச் செல்கிறான்."
+  },
+  {
+    "id": 45,
+    "sentence_thai": "โปรด แปรง ___ ทุก เช้า และ เย็น (Please brush teeth every morning and evening)",
+    "english_transliteration": "Prot praeng ___ thuk chao lae yen",
+    "options": [
+      {
+        "thai": "ฟัน",
+        "transliteration": "fan"
+      },
+      {
+        "thai": "คอ",
+        "transliteration": "kho"
+      },
+      {
+        "thai": "แขน",
+        "transliteration": "khaen"
+      },
+      {
+        "thai": "ขา",
+        "transliteration": "kha"
+      }
+    ],
+    "correct_answer": "ฟัน",
+    "english_meaning": "Please brush your teeth every morning and evening.",
+    "tamil_meaning": "தினமும் காலை, மாலை பல் துலக்குங்கள்."
+  },
+  {
+    "id": 46,
+    "sentence_thai": "บ้าน ของเขา อยู่ ___ กับ ตลาด (His house is near the market)",
+    "english_transliteration": "Ban khong-khao yoo ___ kap ta-lat",
+    "options": [
+      {
+        "thai": "ใกล้",
+        "transliteration": "klai"
+      },
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "หนัก",
+        "transliteration": "nak"
+      }
+    ],
+    "correct_answer": "ใกล้",
+    "english_meaning": "His house is near the market.",
+    "tamil_meaning": "அவன் வீடு சந்தைக்கு பக்கத்தில் இருக்கிறது."
+  },
+  {
+    "id": 47,
+    "sentence_thai": "วันนี้ ลม ___ สบาย มาก (Wind blows comfortably today)",
+    "english_transliteration": "Wan-nee lom ___ sa-bai mak",
+    "options": [
+      {
+        "thai": "พัด",
+        "transliteration": "phat"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "ซื้อ",
+        "transliteration": "sue"
+      },
+      {
+        "thai": "เปิด",
+        "transliteration": "poet"
+      }
+    ],
+    "correct_answer": "พัด",
+    "english_meaning": "The wind blows very comfortably today.",
+    "tamil_meaning": "இன்று காற்று சுகமாக வீசுகிறது."
+  },
+  {
+    "id": 48,
+    "sentence_thai": "ขอ ชาเย็น หวาน ___ หน่อย ครับ (I'd like Thai tea a little less sweet)",
+    "english_transliteration": "Kho cha-yen wan ___ noi khrap",
+    "options": [
+      {
+        "thai": "น้อย",
+        "transliteration": "noi"
+      },
+      {
+        "thai": "มาก",
+        "transliteration": "mak"
+      },
+      {
+        "thai": "ยาว",
+        "transliteration": "yao"
+      },
+      {
+        "thai": "สูง",
+        "transliteration": "soong"
+      }
+    ],
+    "correct_answer": "น้อย",
+    "english_meaning": "I'd like Thai tea a little less sweet please.",
+    "tamil_meaning": "ஐஸ் டீயில் இனிப்பு கொஞ்சம் குறைவாகச் சேருங்கள்."
+  },
+  {
+    "id": 49,
+    "sentence_thai": "ครู สอน วิชา ___ ที่ โรงเรียน (Teacher teaches math at school)",
+    "english_transliteration": "Khroo son wi-cha ___ thee rong-rian",
+    "options": [
+      {
+        "thai": "คณิตศาสตร์",
+        "transliteration": "kha-nit-sa-sat"
+      },
+      {
+        "thai": "กุญแจ",
+        "transliteration": "kun-jae"
+      },
+      {
+        "thai": "หมอน",
+        "transliteration": "mon"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      }
+    ],
+    "correct_answer": "คณิตศาสตร์",
+    "english_meaning": "The teacher teaches math at school.",
+    "tamil_meaning": "ஆசிரியர் பள்ளியில் கணிதம் கற்பிக்கிறார்."
+  },
+  {
+    "id": 50,
+    "sentence_thai": "ฉัน หิว ข้าว อยาก กิน ___ (I am hungry, want to eat fried rice)",
+    "english_transliteration": "Chan hiu khao yak gin ___",
+    "options": [
+      {
+        "thai": "ข้าวผัด",
+        "transliteration": "khao-phat"
+      },
+      {
+        "thai": "กระดาษ",
+        "transliteration": "kra-dat"
+      },
+      {
+        "thai": "ดินสอ",
+        "transliteration": "din-so"
+      },
+      {
+        "thai": "เก้าอี้",
+        "transliteration": "kao-ee"
+      }
+    ],
+    "correct_answer": "ข้าวผัด",
+    "english_meaning": "I am hungry, I want to eat fried rice.",
+    "tamil_meaning": "எனக்கு பசிக்கிறது, ஃப்ரைட் ரைஸ் சாப்பிட வேண்டும்."
+  },
+  {
+    "id": 51,
+    "sentence_thai": "อย่า ___ โทรศัพท์ ขณะ ข้าม ถนน (Don't look at phone while crossing street)",
+    "english_transliteration": "Ya ___ tho-ra-sap kha-na kham tha-non",
+    "options": [
+      {
+        "thai": "ดู",
+        "transliteration": "doo"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "อาบ",
+        "transliteration": "ap"
+      },
+      {
+        "thai": "บิน",
+        "transliteration": "bin"
+      }
+    ],
+    "correct_answer": "ดู",
+    "english_meaning": "Don't look at your phone while crossing the street.",
+    "tamil_meaning": "சாலையைக் கடக்கும்போது போனைப் பார்க்காதே."
+  },
+  {
+    "id": 52,
+    "sentence_thai": "เสื้อ ผ้า ชุดนี้ ___ มาก เหมาะ กับ คุณ (This outfit is very beautiful, suits you)",
+    "english_transliteration": "Suea-pha chut-nee ___ mak mo kap khun",
+    "options": [
+      {
+        "thai": "สวย",
+        "transliteration": "suai"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      },
+      {
+        "thai": "ช้า",
+        "transliteration": "cha"
+      }
+    ],
+    "correct_answer": "สวย",
+    "english_meaning": "This outfit is very beautiful, suits you well.",
+    "tamil_meaning": "இந்த உடை ரொம்ப அழகு, உனக்கு கச்சிதமாக உள்ளது."
+  },
+  {
+    "id": 53,
+    "sentence_thai": "สแกน จ่าย เงิน ผ่าน ___ ได้ไหม (Can I scan to pay via app?)",
+    "english_transliteration": "Scan jai ngoen phan ___ dai-mai",
+    "options": [
+      {
+        "thai": "แอป",
+        "transliteration": "app"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "เก้าอี้",
+        "transliteration": "kao-ee"
+      }
+    ],
+    "correct_answer": "แอป",
+    "english_meaning": "Can I scan to pay via app?",
+    "tamil_meaning": "ஆப் மூலம் ஸ்கேன் செய்து பணம் செலுத்தலாமா?"
+  },
+  {
+    "id": 54,
+    "sentence_thai": "พ่อ ขับ รถ ไป ___ ทุก เช้า (Father drives car to office every morning)",
+    "english_transliteration": "Pho khap rot pai ___ thuk chao",
+    "options": [
+      {
+        "thai": "ออฟฟิศ",
+        "transliteration": "office"
+      },
+      {
+        "thai": "ถ้วย",
+        "transliteration": "thuai"
+      },
+      {
+        "thai": "หม้อ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      }
+    ],
+    "correct_answer": "ออฟฟิศ",
+    "english_meaning": "Father drives the car to the office every morning.",
+    "tamil_meaning": "அப்பா தினமும் காலை காரில் அலுவலகத்திற்குச் செல்கிறார்."
+  },
+  {
+    "id": 55,
+    "sentence_thai": "โปรด นั่ง รอ ที่ ___ รับแขก (Please sit and wait in the living room)",
+    "english_transliteration": "Prot nang ro thee ___ rap-khaek",
+    "options": [
+      {
+        "thai": "ห้อง",
+        "transliteration": "hong"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      }
+    ],
+    "correct_answer": "ห้อง",
+    "english_meaning": "Please sit and wait in the living room.",
+    "tamil_meaning": "வரவேற்பறையில் உட்கார்ந்து காத்திருங்கள்."
+  },
+  {
+    "id": 56,
+    "sentence_thai": "คืนนี้ อย่า นอน ___ นะ พรุ่งนี้ มี สอบ (Don't sleep late tonight, exam tomorrow)",
+    "english_transliteration": "Khuen-nee ya non ___ na phrung-nee mee sop",
+    "options": [
+      {
+        "thai": "ดึก",
+        "transliteration": "duek"
+      },
+      {
+        "thai": "สูง",
+        "transliteration": "soong"
+      },
+      {
+        "thai": "กว้าง",
+        "transliteration": "kwang"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      }
+    ],
+    "correct_answer": "ดึก",
+    "english_meaning": "Don't sleep late tonight, there is an exam tomorrow.",
+    "tamil_meaning": "இன்று இரவு தாமதமாக தூங்காதே, நாளை தேர்வு இருக்கிறது."
+  },
+  {
+    "id": 57,
+    "sentence_thai": "กรุณา สวม ___ กันน็อก ทุกครั้ง ที่ ขี่ มอเตอร์ไซค์ (Wear helmet every time riding motorcycle)",
+    "english_transliteration": "Ka-ru-na suam ___ kan-nok thuk-khrang thee khee motorcycle",
+    "options": [
+      {
+        "thai": "หมวก",
+        "transliteration": "muak"
+      },
+      {
+        "thai": "ถุงเท้า",
+        "transliteration": "thung-thao"
+      },
+      {
+        "thai": "แหวน",
+        "transliteration": "waen"
+      },
+      {
+        "thai": "กระเป๋า",
+        "transliteration": "kra-pao"
+      }
+    ],
+    "correct_answer": "หมวก",
+    "english_meaning": "Please wear a helmet every time you ride a motorcycle.",
+    "tamil_meaning": "பைக் ஓட்டும்போதெல்லாம் ஹெல்மெட் அணியுங்கள்."
+  },
+  {
+    "id": 58,
+    "sentence_thai": "เปิด ___ เย็นๆ สบาย ตัว มาก (Turning on AC cold feels very comfortable)",
+    "english_transliteration": "Poet ___ yen-yen sa-bai tua mak",
+    "options": [
+      {
+        "thai": "แอร์",
+        "transliteration": "ae"
+      },
+      {
+        "thai": "โต๊ะ",
+        "transliteration": "to"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "สมุด",
+        "transliteration": "sa-mut"
+      }
+    ],
+    "correct_answer": "แอร์",
+    "english_meaning": "Turning on the AC feels very comfortable.",
+    "tamil_meaning": "ஏசி போட்டால் உடலுக்கு ஜில்லென்று நன்றாக இருக்கிறது."
+  },
+  {
+    "id": 59,
+    "sentence_thai": "เรา ควร กิน อาหาร ให้ ___ สาม มื้อ (We should eat all three meals)",
+    "english_transliteration": "Rao khuan gin a-han hai ___ sam mue",
+    "options": [
+      {
+        "thai": "ครบ",
+        "transliteration": "khrop"
+      },
+      {
+        "thai": "แพง",
+        "transliteration": "phaeng"
+      },
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      },
+      {
+        "thai": "หนาว",
+        "transliteration": "nao"
+      }
+    ],
+    "correct_answer": "ครบ",
+    "english_meaning": "We should eat all three meals completely.",
+    "tamil_meaning": "நாம் மூன்று நேரமும் சரியாக சாப்பிட வேண்டும்."
+  },
+  {
+    "id": 60,
+    "sentence_thai": "เขา ซื้อ ของขวัญ ให้ เพื่อน ใน วัน ___ (He bought gift for friend on birthday)",
+    "english_transliteration": "Khao sue khong-khwan hai phuean nai wan ___",
+    "options": [
+      {
+        "thai": "เกิด",
+        "transliteration": "koet"
+      },
+      {
+        "thai": "ฝน",
+        "transliteration": "fon"
+      },
+      {
+        "thai": "ตก",
+        "transliteration": "tok"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      }
+    ],
+    "correct_answer": "เกิด",
+    "english_meaning": "He bought a gift for his friend on their birthday.",
+    "tamil_meaning": "அவன் நண்பனின் பிறந்தநாளுக்குப் பரிசு வாங்கினான்."
+  },
+  {
+    "id": 61,
+    "sentence_thai": "น้ำ ใน แก้ว นี้ ___ มาก ดื่ม ได้ (Water in this glass is very clean, drinkable)",
+    "english_transliteration": "Nam nai kaeo nee ___ mak duem dai",
+    "options": [
+      {
+        "thai": "สะอาด",
+        "transliteration": "sa-at"
+      },
+      {
+        "thai": "สกปรก",
+        "transliteration": "sok-ka-prok"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      }
+    ],
+    "correct_answer": "สะอาด",
+    "english_meaning": "The water in this glass is very clean, you can drink it.",
+    "tamil_meaning": "இந்த டம்ளரில் உள்ள தண்ணீர் சுத்தமாக உள்ளது, குடிக்கலாம்."
+  },
+  {
+    "id": 62,
+    "sentence_thai": "กรุณา ล้าง ___ ให้ สะอาด ก่อน ปอก ผลไม้ (Wash knife cleanly before peeling fruit)",
+    "english_transliteration": "Ka-ru-na lang ___ hai sa-at kon pok phon-la-mai",
+    "options": [
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "เสื้อ",
+        "transliteration": "suea"
+      },
+      {
+        "thai": "หมวก",
+        "transliteration": "muak"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      }
+    ],
+    "correct_answer": "มีด",
+    "english_meaning": "Please wash the knife clean before peeling fruit.",
+    "tamil_meaning": "பழம் உரிப்பதற்கு முன் கத்தியைச் சுத்தமாகக் கழுவுங்கள்."
+  },
+  {
+    "id": 63,
+    "sentence_thai": "ตั๋ว รถไฟ ราคา กี่ ___ ครับ (How many Baht is the train ticket?)",
+    "english_transliteration": "Tua rot-fai ra-kha kee ___ khrap",
+    "options": [
+      {
+        "thai": "บาท",
+        "transliteration": "baht"
+      },
+      {
+        "thai": "นาที",
+        "transliteration": "na-thee"
+      },
+      {
+        "thai": "เมตร",
+        "transliteration": "met"
+      },
+      {
+        "thai": "คน",
+        "transliteration": "khon"
+      }
+    ],
+    "correct_answer": "บาท",
+    "english_meaning": "How many Baht is the train ticket?",
+    "tamil_meaning": "ரயில் டிக்கெட் எத்தனை பாட்?"
+  },
+  {
+    "id": 64,
+    "sentence_thai": "คุณ ชอบ เดินเล่น ใน ___ สาธารณะ ไหม (Do you like walking in public park?)",
+    "english_transliteration": "Khun chop doen-len nai ___ sa-tha-ra-na mai",
+    "options": [
+      {
+        "thai": "สวน",
+        "transliteration": "suan"
+      },
+      {
+        "thai": "ถ้วย",
+        "transliteration": "thuai"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "ปากกา",
+        "transliteration": "pak-ka"
+      }
+    ],
+    "correct_answer": "สวน",
+    "english_meaning": "Do you like walking in the public park?",
+    "tamil_meaning": "உங்களுக்கு பூங்காவில் உலாவுவது பிடிக்குமா?"
+  },
+  {
+    "id": 65,
+    "sentence_thai": "เมื่อไหร่ รถประจำทาง จะ ___ ถึง (When will the bus arrive?)",
+    "english_transliteration": "Muea-rai rot-pra-jam-thang cha ___ thueng",
+    "options": [
+      {
+        "thai": "มา",
+        "transliteration": "ma"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "เขียน",
+        "transliteration": "khian"
+      }
+    ],
+    "correct_answer": "มา",
+    "english_meaning": "When will the bus arrive?",
+    "tamil_meaning": "பேருந்து எப்போது வந்து சேரும்?"
+  },
+  {
+    "id": 66,
+    "sentence_thai": "กุ้ง เผา ตัวนี้ ___ สด มาก (This grilled prawn is very fresh)",
+    "english_transliteration": "Kung phao tua-nee ___ sot mak",
+    "options": [
+      {
+        "thai": "เนื้อ",
+        "transliteration": "nuea"
+      },
+      {
+        "thai": "ผ้า",
+        "transliteration": "pha"
+      },
+      {
+        "thai": "กระดาษ",
+        "transliteration": "kra-dat"
+      },
+      {
+        "thai": "ดิน",
+        "transliteration": "din"
+      }
+    ],
+    "correct_answer": "เนื้อ",
+    "english_meaning": "The meat of this grilled prawn is very fresh.",
+    "tamil_meaning": "இந்த கிரில்ட் இறாலின் இறைச்சி ரொம்ப ஃபிரஷ்ஷாக உள்ளது."
+  },
+  {
+    "id": 67,
+    "sentence_thai": "เรา ควร ประหยัด ___ และ ไม่ ฟุ่มเฟือย (We should save money and not waste)",
+    "english_transliteration": "Rao khuan pra-yat ___ lae mai fum-fueai",
+    "options": [
+      {
+        "thai": "เงิน",
+        "transliteration": "ngoen"
+      },
+      {
+        "thai": "ฝน",
+        "transliteration": "fon"
+      },
+      {
+        "thai": "ลม",
+        "transliteration": "lom"
+      },
+      {
+        "thai": "เงียบ",
+        "transliteration": "ngiap"
+      }
+    ],
+    "correct_answer": "เงิน",
+    "english_meaning": "We should save money and not be wasteful.",
+    "tamil_meaning": "நாம் பணத்தைச் சேமிக்க வேண்டும், வீணடிக்கக் கூடாது."
+  },
+  {
+    "id": 68,
+    "sentence_thai": "เขา สวม ___ สายตา เวลา อ่าน หนังสือ (He wears glasses when reading books)",
+    "english_transliteration": "Khao suam ___ sai-ta we-la an nang-sue",
+    "options": [
+      {
+        "thai": "แว่นตา",
+        "transliteration": "waen-ta"
+      },
+      {
+        "thai": "หมวก",
+        "transliteration": "muak"
+      },
+      {
+        "thai": "ถุงมือ",
+        "transliteration": "thung-mue"
+      },
+      {
+        "thai": "เข็มขัด",
+        "transliteration": "khem-khat"
+      }
+    ],
+    "correct_answer": "แว่นตา",
+    "english_meaning": "He wears glasses when reading books.",
+    "tamil_meaning": "புத்தகம் படிக்கும்போது அவன் கண்ணாடி அணிகிறான்."
+  },
+  {
+    "id": 69,
+    "sentence_thai": "กาแฟ ดำ แก้วนี้ ไม่ใส่ ___ เลย (This black coffee has no sugar added at all)",
+    "english_transliteration": "Ka-fae dam kaeo-nee mai-sai ___ loei",
+    "options": [
+      {
+        "thai": "น้ำตาล",
+        "transliteration": "nam-tan"
+      },
+      {
+        "thai": "หนังสือ",
+        "transliteration": "nang-sue"
+      },
+      {
+        "thai": "โต๊ะ",
+        "transliteration": "to"
+      },
+      {
+        "thai": "เสื้อ",
+        "transliteration": "suea"
+      }
+    ],
+    "correct_answer": "น้ำตาล",
+    "english_meaning": "This black coffee has no sugar added at all.",
+    "tamil_meaning": "இந்த பிளாக் காபியில் சர்க்கரையே சேர்க்கப்படவில்லை."
+  },
+  {
+    "id": 70,
+    "sentence_thai": "บ้าน หลังนี้ มี ___ ทั้งหมด สาม ห้อง (This house has three bedrooms in total)",
+    "english_transliteration": "Ban lang-nee mee ___ thang-mot sam hong",
+    "options": [
+      {
+        "thai": "ห้องนอน",
+        "transliteration": "hong-non"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      }
+    ],
+    "correct_answer": "ห้องนอน",
+    "english_meaning": "This house has three bedrooms in total.",
+    "tamil_meaning": "இந்த வீட்டில் மொத்தம் மூன்று படுக்கையறைகள் உள்ளன."
+  },
+  {
+    "id": 71,
+    "sentence_thai": "โปรด สวม ___ เท้า ก่อน ใส่ รองเท้า (Wear socks before putting on shoes)",
+    "english_transliteration": "Prot suam ___ thao kon sai rong-thao",
+    "options": [
+      {
+        "thai": "ถุง",
+        "transliteration": "thung"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "หม้อ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      }
+    ],
+    "correct_answer": "ถุง",
+    "english_meaning": "Please wear socks before putting on shoes.",
+    "tamil_meaning": "காலணி அணியும் முன் காலுறை மாட்டுங்கள்."
+  },
+  {
+    "id": 72,
+    "sentence_thai": "เขา ชอบ วิ่ง ออกกำลังกาย ทุก ___ (He likes running for exercise every morning)",
+    "english_transliteration": "Khao chop wing ok-kam-lang-kai thuk ___",
+    "options": [
+      {
+        "thai": "เช้า",
+        "transliteration": "chao"
+      },
+      {
+        "thai": "ชาม",
+        "transliteration": "cham"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "ขวด",
+        "transliteration": "khuat"
+      }
+    ],
+    "correct_answer": "เช้า",
+    "english_meaning": "He likes running for exercise every morning.",
+    "tamil_meaning": "அவன் தினமும் காலை ஓடி உடற்பயிற்சி செய்கிறான்."
+  },
+  {
+    "id": 73,
+    "sentence_thai": "ขอ โทษ นะ ครับ ร้านค้า เปิด ___ กี่ โมง (Excuse me, what time does store open?)",
+    "english_transliteration": "Kho-thot na khrap ran-kha poet ___ kee mong",
+    "options": [
+      {
+        "thai": "ร้าน",
+        "transliteration": "ran"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "เสื้อ",
+        "transliteration": "suea"
+      }
+    ],
+    "correct_answer": "ร้าน",
+    "english_meaning": "Excuse me, what time does the store open?",
+    "tamil_meaning": "மன்னித்துக் கொள்ளுங்கள், கடை எத்தனை மணிக்குத் திறக்கும்?"
+  },
+  {
+    "id": 74,
+    "sentence_thai": "วันนี้ มี นัด กับ ___ ตอน บ่าย (I have an appointment with doctor this afternoon)",
+    "english_transliteration": "Wan-nee mee nat kap ___ ton bai",
+    "options": [
+      {
+        "thai": "หมอ",
+        "transliteration": "mo"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "กระทะ",
+        "transliteration": "kra-tha"
+      },
+      {
+        "thai": "สมุด",
+        "transliteration": "sa-mut"
+      }
+    ],
+    "correct_answer": "หมอ",
+    "english_meaning": "I have an appointment with doctor this afternoon.",
+    "tamil_meaning": "இன்று மதியம் டாக்டரிடம் அப்பாயிண்ட்மென்ட் உள்ளது."
+  },
+  {
+    "id": 75,
+    "sentence_thai": "กรุณา ถอด หมวก ก่อน เข้า ___ (Please remove hat before entering temple)",
+    "english_transliteration": "Ka-ru-na thot muak kon khao ___",
+    "options": [
+      {
+        "thai": "วัด",
+        "transliteration": "wat"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "ขวด",
+        "transliteration": "khuat"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      }
+    ],
+    "correct_answer": "วัด",
+    "english_meaning": "Please remove your hat before entering the temple.",
+    "tamil_meaning": "கோவிலுக்குள் நுழையும் முன் தொப்பியைக் கழற்றுங்கள்."
+  },
+  {
+    "id": 76,
+    "sentence_thai": "เครื่องบิน จะ ลง จอด ที่ ___ (The plane will land at the airport)",
+    "english_transliteration": "Khruang-bin cha long jot thee ___",
+    "options": [
+      {
+        "thai": "สนามบิน",
+        "transliteration": "sa-nam-bin"
+      },
+      {
+        "thai": "ห้องครัว",
+        "transliteration": "hong-khrua"
+      },
+      {
+        "thai": "กระเป๋า",
+        "transliteration": "kra-pao"
+      },
+      {
+        "thai": "หมอน",
+        "transliteration": "mon"
+      }
+    ],
+    "correct_answer": "สนามบิน",
+    "english_meaning": "The plane will land at the airport.",
+    "tamil_meaning": "விமானம் விமான நிலையத்தில் தரையிறங்கும்."
+  },
+  {
+    "id": 77,
+    "sentence_thai": "เด็กๆ ชอบ เล่น ฟุตบอล ที่ ___ (Children like playing football at field)",
+    "english_transliteration": "Dek-dek chop len football thee ___",
+    "options": [
+      {
+        "thai": "สนาม",
+        "transliteration": "sa-nam"
+      },
+      {
+        "thai": "ถ้วย",
+        "transliteration": "thuai"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "ขวด",
+        "transliteration": "khuat"
+      }
+    ],
+    "correct_answer": "สนาม",
+    "english_meaning": "Children like playing football at the field.",
+    "tamil_meaning": "குழந்தைகளுக்கு மைதானத்தில் கால்பந்து விளையாட பிடிக்கும்."
+  },
+  {
+    "id": 78,
+    "sentence_thai": "อย่า ลืม ดื่ม ___ ให้ วันละ แปด แก้ว (Don't forget to drink 8 glasses of water a day)",
+    "english_transliteration": "Ya luem duem ___ hai wan-la paet kaeo",
+    "options": [
+      {
+        "thai": "น้ำ",
+        "transliteration": "nam"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      },
+      {
+        "thai": "ไฟ",
+        "transliteration": "fai"
+      },
+      {
+        "thai": "ดิน",
+        "transliteration": "din"
+      }
+    ],
+    "correct_answer": "น้ำ",
+    "english_meaning": "Don't forget to drink 8 glasses of water a day.",
+    "tamil_meaning": "ஒரு நாளைக்கு 8 கிளாஸ் தண்ணீர் குடிக்க மறக்காதே."
+  },
+  {
+    "id": 79,
+    "sentence_thai": "เขา ซื้อ โทรศัพท์ ___ เครื่อง ใหม่ (He bought a brand new mobile phone)",
+    "english_transliteration": "Khao sue tho-ra-sap ___ mueang mai",
+    "options": [
+      {
+        "thai": "มือถือ",
+        "transliteration": "mue-thue"
+      },
+      {
+        "thai": "เสื้อผ้า",
+        "transliteration": "suea-pha"
+      },
+      {
+        "thai": "หม้อข้าว",
+        "transliteration": "mo-khao"
+      },
+      {
+        "thai": "ประตู",
+        "transliteration": "pra-too"
+      }
+    ],
+    "correct_answer": "มือถือ",
+    "english_meaning": "He bought a brand new mobile phone.",
+    "tamil_meaning": "அவன் ஒரு புதிய மொபைல் போன் வாங்கினான்."
+  },
+  {
+    "id": 80,
+    "sentence_thai": "โปรด รักษาระยะ ห่าง เพื่อ ความ ___ (Please keep distance for safety)",
+    "english_transliteration": "Prot rak-sa ra-ya hang phuea khwam ___",
+    "options": [
+      {
+        "thai": "ปลอดภัย",
+        "transliteration": "plon-thai"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      }
+    ],
+    "correct_answer": "ปลอดภัย",
+    "english_meaning": "Please keep distance for safety.",
+    "tamil_meaning": "பாதுகாப்பிற்காக இடைவெளி விட்டு நில்லுங்கள்."
+  },
+  {
+    "id": 81,
+    "sentence_thai": "เรา จะ เดิน ข้าม ถนน ตรง ทาง ___ (We will cross the street at crosswalk)",
+    "english_transliteration": "Rao cha doen kham tha-non trong thang ___",
+    "options": [
+      {
+        "thai": "ม้าลาย",
+        "transliteration": "ma-lai"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "ถุง",
+        "transliteration": "thung"
+      }
+    ],
+    "correct_answer": "ม้าลาย",
+    "english_meaning": "We will cross the street at the zebra crossing.",
+    "tamil_meaning": "நாம் நடைபாதை கடவையில் சாலையைக் கடப்போம்."
+  },
+  {
+    "id": 82,
+    "sentence_thai": "กระดาษ ทิชชู่ อยู่ บน ___ (Tissue paper is on the table)",
+    "english_transliteration": "Kra-dat tissue yoo bon ___",
+    "options": [
+      {
+        "thai": "โต๊ะ",
+        "transliteration": "to"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "หมวก",
+        "transliteration": "muak"
+      },
+      {
+        "thai": "กุญแจ",
+        "transliteration": "kun-jae"
+      }
+    ],
+    "correct_answer": "โต๊ะ",
+    "english_meaning": "Tissue paper is on the table.",
+    "tamil_meaning": "டிஷ்யூ பேப்பர் மேஜை மேல் இருக்கிறது."
+  },
+  {
+    "id": 83,
+    "sentence_thai": "เขา ทำ งาน ที่ ธนาคาร เป็น ___ (He works at the bank as accountant)",
+    "english_transliteration": "Khao tham ngan thee tha-na-khan pen ___",
+    "options": [
+      {
+        "thai": "บัญชี",
+        "transliteration": "ban-chee"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "หม้อ",
+        "transliteration": "mo"
+      }
+    ],
+    "correct_answer": "บัญชี",
+    "english_meaning": "He works at the bank as an accountant.",
+    "tamil_meaning": "அவர் வங்கியில் கணக்காளராக வேலை செய்கிறார்."
+  },
+  {
+    "id": 84,
+    "sentence_thai": "เรา ควร ล้าง ผัก ให้ ___ ก่อน ทำอาหาร (We should wash veggies clean before cooking)",
+    "english_transliteration": "Rao khuan lang phak hai ___ kon tham-a-han",
+    "options": [
+      {
+        "thai": "สะอาด",
+        "transliteration": "sa-at"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "แพง",
+        "transliteration": "phaeng"
+      },
+      {
+        "thai": "ยาก",
+        "transliteration": "yak"
+      }
+    ],
+    "correct_answer": "สะอาด",
+    "english_meaning": "We should wash vegetables clean before cooking.",
+    "tamil_meaning": "சமைப்பதற்கு முன் காய்கறிகளைச் சுத்தமாகக் கழுவ வேண்டும்."
+  },
+  {
+    "id": 85,
+    "sentence_thai": "พี่สาว ชอบ ซื้อ ___ ใหม่ๆ เสมอ (My sister always likes buying new clothes)",
+    "english_transliteration": "Phee-sao chop sue ___ mai-mai sa-moe",
+    "options": [
+      {
+        "thai": "เสื้อผ้า",
+        "transliteration": "suea-pha"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "ตู้เย็น",
+        "transliteration": "too-yen"
+      }
+    ],
+    "correct_answer": "เสื้อผ้า",
+    "english_meaning": "My sister always likes buying new clothes.",
+    "tamil_meaning": "என் அக்காவிற்கு எப்போதும் புதிய ஆடைகள் வாங்க பிடிக்கும்."
+  },
+  {
+    "id": 86,
+    "sentence_thai": "เมื่อไหร่ คุณ จะ ออก เดินทาง ไป ___ (When will you set off to travel?)",
+    "english_transliteration": "Muea-rai khun cha ok doen-thang pai ___",
+    "options": [
+      {
+        "thai": "เที่ยว",
+        "transliteration": "thiao"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "อาบ",
+        "transliteration": "ap"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      }
+    ],
+    "correct_answer": "เที่ยว",
+    "english_meaning": "When will you set off for your trip?",
+    "tamil_meaning": "எப்போது சுற்றுலா புறப்படப் போகிறீர்கள்?"
+  },
+  {
+    "id": 87,
+    "sentence_thai": "กาแฟ แก้วนี้ หอม กลิ่น ___ มาก (This cup of coffee smells very nice)",
+    "english_transliteration": "Ka-fae kaeo-nee hom klin ___ mak",
+    "options": [
+      {
+        "thai": "กาแฟ",
+        "transliteration": "ka-fae"
+      },
+      {
+        "thai": "กระดาษ",
+        "transliteration": "kra-dat"
+      },
+      {
+        "thai": "รองเท้า",
+        "transliteration": "rong-thao"
+      },
+      {
+        "thai": "ประตู",
+        "transliteration": "pra-too"
+      }
+    ],
+    "correct_answer": "กาแฟ",
+    "english_meaning": "This cup of coffee has a wonderful coffee aroma.",
+    "tamil_meaning": "இந்த காபியில் காபி வாசனை ரொம்ப நன்றாக வருகிறது."
+  },
+  {
+    "id": 88,
+    "sentence_thai": "อย่า ลืม ล๊อก ___ ก่อน ออกจาก ห้อง (Don't forget to lock door before leaving room)",
+    "english_transliteration": "Ya luem lock ___ kon ok-chak hong",
+    "options": [
+      {
+        "thai": "ประตู",
+        "transliteration": "pra-too"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      },
+      {
+        "thai": "น้ำ",
+        "transliteration": "nam"
+      },
+      {
+        "thai": "ผัก",
+        "transliteration": "phak"
+      }
+    ],
+    "correct_answer": "ประตู",
+    "english_meaning": "Don't forget to lock the door before leaving room.",
+    "tamil_meaning": "அறையை விட்டு வெளியேறும் முன் கதவைப் பூட்ட மறக்காதே."
+  },
+  {
+    "id": 89,
+    "sentence_thai": "ผลไม้ ชนิดนี้ มี รสชาติ ___ (This fruit has a sweet taste)",
+    "english_transliteration": "Phon-la-mai cha-nit-nee mee rot-chat ___",
+    "options": [
+      {
+        "thai": "หวาน",
+        "transliteration": "wan"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "ขม",
+        "transliteration": "khom"
+      }
+    ],
+    "correct_answer": "หวาน",
+    "english_meaning": "This type of fruit has a sweet taste.",
+    "tamil_meaning": "இந்த வகை பழம் இனிப்புச் சுவையாக உள்ளது."
+  },
+  {
+    "id": 90,
+    "sentence_thai": "เขา ตั้งใจ อ่าน หนังสือ เพื่อ เตรียม ___ (He studies hard to prepare for exam)",
+    "english_transliteration": "Khao tang-jai an nang-sue phuea triam ___",
+    "options": [
+      {
+        "thai": "สอบ",
+        "transliteration": "sop"
+      },
+      {
+        "thai": "กิน",
+        "transliteration": "gin"
+      },
+      {
+        "thai": "นอน",
+        "transliteration": "non"
+      },
+      {
+        "thai": "วิ่ง",
+        "transliteration": "wing"
+      }
+    ],
+    "correct_answer": "สอบ",
+    "english_meaning": "He studies hard to prepare for the exam.",
+    "tamil_meaning": "தேர்வுக்குத் தயாராக அவன் கவனமாகப் படிக்கிறான்."
+  },
+  {
+    "id": 91,
+    "sentence_thai": "โปรด ปิด ___ เมื่อ ไม่ได้ ใช้งาน (Please turn off light when not in use)",
+    "english_transliteration": "Prot pit ___ muea mai-dai chai-ngan",
+    "options": [
+      {
+        "thai": "ไฟ",
+        "transliteration": "fai"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      },
+      {
+        "thai": "น้ำ",
+        "transliteration": "nam"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      }
+    ],
+    "correct_answer": "ไฟ",
+    "english_meaning": "Please turn off the light when not using it.",
+    "tamil_meaning": "பயன்படுத்தாத போது லைட்டை அணைத்து விடுங்கள்."
+  },
+  {
+    "id": 92,
+    "sentence_thai": "กระเป๋าสตางค์ ของคุณ ตก อยู่ บน ___ (Your wallet dropped on the floor)",
+    "english_transliteration": "Kra-pao-sa-tang khong-khun tok yoo bon ___",
+    "options": [
+      {
+        "thai": "พื้น",
+        "transliteration": "phuen"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      },
+      {
+        "thai": "ถ้วย",
+        "transliteration": "thuai"
+      },
+      {
+        "thai": "หม้อ",
+        "transliteration": "mo"
+      }
+    ],
+    "correct_answer": "พื้น",
+    "english_meaning": "Your wallet dropped on the floor.",
+    "tamil_meaning": "உங்கள் பணப்பை தரையில் கீழே விழுந்துவிட்டது."
+  },
+  {
+    "id": 93,
+    "sentence_thai": "เรา จะ ไป ซื้อ ของ ที่ ___ สรรพสินค้า (We will go shopping at department store)",
+    "english_transliteration": "Rao cha pai sue khong thee ___ san-pha-sin-kha",
+    "options": [
+      {
+        "thai": "ห้าง",
+        "transliteration": "hang"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      }
+    ],
+    "correct_answer": "ห้าง",
+    "english_meaning": "We will go shopping at the department store.",
+    "tamil_meaning": "நாங்கள் வணிக வளாகத்திற்கு பொருட்கள் வாங்கச் செல்வோம்."
+  },
+  {
+    "id": 94,
+    "sentence_thai": "คุณ หมอ แนะนำ ให้ พักผ่อน ___ (Doctor recommends resting plenty)",
+    "english_transliteration": "Khun mo nae-nam hai phak-phon ___",
+    "options": [
+      {
+        "thai": "เยอะๆ",
+        "transliteration": "yoe-yoe"
+      },
+      {
+        "thai": "เผ็ดๆ",
+        "transliteration": "phet-phet"
+      },
+      {
+        "thai": "แพงๆ",
+        "transliteration": "phaeng-phaeng"
+      },
+      {
+        "thai": "ยากๆ",
+        "transliteration": "yak-yak"
+      }
+    ],
+    "correct_answer": "เยอะๆ",
+    "english_meaning": "The doctor recommends resting plenty.",
+    "tamil_meaning": "டாக்டர் நன்றாக நிறைய ஓய்வெடுக்கச் சொன்னார்."
+  },
+  {
+    "id": 95,
+    "sentence_thai": "อาหารทะเล ร้านนี้ ___ สด และ อร่อย (Seafood at this shop is fresh and tasty)",
+    "english_transliteration": "A-han-tha-le ran-nee ___ sot lae a-roi",
+    "options": [
+      {
+        "thai": "ทั้ง",
+        "transliteration": "thang"
+      },
+      {
+        "thai": "ไม่",
+        "transliteration": "mai"
+      },
+      {
+        "thai": "ห้าม",
+        "transliteration": "ham"
+      },
+      {
+        "thai": "อย่า",
+        "transliteration": "ya"
+      }
+    ],
+    "correct_answer": "ทั้ง",
+    "english_meaning": "Seafood at this shop is both fresh and delicious.",
+    "tamil_meaning": "இந்த கடையின் கடல் உணவு ஃபிரஷ்ஷாகவும் சுவையாகவும் உள்ளது."
+  },
+  {
+    "id": 96,
+    "sentence_thai": "เข้านอน ตรงเวลา จะ ทำให้ ร่างกาย ___ (Going to bed on time makes body strong)",
+    "english_transliteration": "Khao-non trong-we-la cha tham-hai rang-kai ___",
+    "options": [
+      {
+        "thai": "แข็งแรง",
+        "transliteration": "khaeng-raeng"
+      },
+      {
+        "thai": "เหนื่อย",
+        "transliteration": "nuai"
+      },
+      {
+        "thai": "เจ็บ",
+        "transliteration": "jep"
+      },
+      {
+        "thai": "ปวด",
+        "transliteration": "puat"
+      }
+    ],
+    "correct_answer": "แข็งแรง",
+    "english_meaning": "Going to bed on time will make the body strong.",
+    "tamil_meaning": "நேரத்திற்குத் தூங்கினால் உடல் ஆரோக்கியமாக இருக்கும்."
+  },
+  {
+    "id": 97,
+    "sentence_thai": "ขอ สั่ง ชาร้อน ไม่ใส่ ___ ครับ (I'd like hot tea without milk please)",
+    "english_transliteration": "Kho sang cha-ron mai-sai ___ khrap",
+    "options": [
+      {
+        "thai": "นม",
+        "transliteration": "nom"
+      },
+      {
+        "thai": "ข้าว",
+        "transliteration": "khao"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      }
+    ],
+    "correct_answer": "นม",
+    "english_meaning": "I'd like hot tea without milk please.",
+    "tamil_meaning": "பால் சேர்க்காத சூடான டீ தாருங்கள்."
+  },
+  {
+    "id": 98,
+    "sentence_thai": "โปรด ระวัง เดิน ข้าม ถนน ตรง ___ (Be careful walking across street at junction)",
+    "english_transliteration": "Prot ra-wang doen kham tha-non trong ___",
+    "options": [
+      {
+        "thai": "สี่แยก",
+        "transliteration": "see-yaek"
+      },
+      {
+        "thai": "ถ้วย",
+        "transliteration": "thuai"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "แก้ว",
+        "transliteration": "kaeo"
+      }
+    ],
+    "correct_answer": "สี่แยก",
+    "english_meaning": "Please be careful crossing the road at the junction.",
+    "tamil_meaning": "நாற்சந்தியில் சாலையைக் கடக்கும் போது கவனமாக இருங்கள்."
+  },
+  {
+    "id": 99,
+    "sentence_thai": "ส้ม ผลนี้ หวาน อร่อย ___ มาก (This orange is sweet and very delicious)",
+    "english_transliteration": "Som phon-nee wan a-roi ___ mak",
+    "options": [
+      {
+        "thai": "ฉ่ำ",
+        "transliteration": "cham"
+      },
+      {
+        "thai": "เผ็ด",
+        "transliteration": "phet"
+      },
+      {
+        "thai": "เค็ม",
+        "transliteration": "khem"
+      },
+      {
+        "thai": "ขม",
+        "transliteration": "khom"
+      }
+    ],
+    "correct_answer": "ฉ่ำ",
+    "english_meaning": "This orange is juicy, sweet and very delicious.",
+    "tamil_meaning": "இந்த ஆரஞ்சு பழம் நல்ல ஜூஸியாக, இனிப்பாக உள்ளது."
+  },
+  {
+    "id": 100,
+    "sentence_thai": "เดินทาง โดย สวัสดิภาพ นะ ครับ ___ (Travel safely my friend)",
+    "english_transliteration": "Doen-thang doi sa-wat-di-phap na khrap ___",
+    "options": [
+      {
+        "thai": "เพื่อน",
+        "transliteration": "phuean"
+      },
+      {
+        "thai": "มีด",
+        "transliteration": "meet"
+      },
+      {
+        "thai": "ช้อน",
+        "transliteration": "chon"
+      },
+      {
+        "thai": "จาน",
+        "transliteration": "chan"
+      }
+    ],
+    "correct_answer": "เพื่อน",
+    "english_meaning": "Have a safe trip my friend.",
+    "tamil_meaning": "பயணம் பாதுகாப்பாக அமையட்டும் நண்பா."
+  },
+  {
+    "id": 101,
+    "thai": "ถ้า คุณ มี เวลาว่าง ใน ช่วง วันหยุด สุดสัปดาห์ นี้ เรา ควร จะ ไป เดินเล่น ที่ สวนสาธารณะ เพื่อ ผ่อนคลาย ความเครียด",
+    "english_transliteration": "Tha khun mee we-la-wang nai chuang wan-yut sut-sap-da nee rao khuan cha pai doen-len thee suan-sa-tha-ra-na phuea phon-khlai khwam-khriat",
+    "tamil_transliteration": "தா குன் மீ வேலா-வாங் நாய் சுவாங் வன்-யுத் சுத்சப்தா நீ ராவ் குவான் சா பை டேன்-லென் தீ சுவான்-சதாரனா புயோ போன்-க்லை க்வாம்-க்ரியாத்",
+    "english_meaning": "If you have free time this weekend, we should go for a walk in the park to relieve stress.",
+    "tamil_meaning": "இந்த வார இறுதியில் உங்களுக்கு நேரம் இருந்தால், மன அழுத்தத்தைக் குறைக்க நாம் பூங்காவில் உலா வரச் செல்ல வேண்டும்."
+  },
+  {
+    "id": 102,
+    "thai": "การ เรียนรู้ ภาษา ต่างประเทศ ต้อง อาศัย การ ฝึกฝน ทุกวัน เพื่อ ให้ เกิด ความเคยชิน และ พูด ได้ อย่าง เป็นธรรมชาติ",
+    "english_transliteration": "Kan rian-roo pha-sa tang-pra-thet tong a-sai kan fluek-fon thuk-wan phuea hai koet khwam-khoei-chin lae phoot dai yang pen-tham-ma-chat",
+    "tamil_transliteration": "கான் ரியான்-ரூ பாசா தாங்-பிரா-தேத் தோங் ஆசை கான் ஃபலுக்-போன் துக்-வன் புயோ ஹாய் கோத் க்வாம்-கோய்ச்சின் லே பூத் டை யாங் பென்-தம்மச்சாத்",
+    "english_meaning": "Learning a foreign language requires daily practice to build familiarity and speak naturally.",
+    "tamil_meaning": "அந்நிய மொழியைக் கற்க தினமும் பயிற்சி செய்ய வேண்டும், அப்போதுதான் இயல்பாகப் பேச முடியும்."
+  },
+  {
+    "id": 103,
+    "thai": "ก่อน ออกเดินทาง ไป ท่องเที่ยว ควร ตรวจสอบ สภาพอากาศ และ เตรียม เสื้อผ้า ให้ เหมาะสม กับ ฤดูกาล",
+    "english_transliteration": "Kon ok-doen-thang pai thong-thiao khuan truat-sop sa-phap-a-kat lae triam suea-pha hai mo-som kap rue-doo-kan",
+    "tamil_transliteration": "கோன் ஆக்-டேன்-தாங் பை தோங்-தீயாவ் குவான் த்ருவாத்-சோப் சபாப்-ஆகாத் லே த்ரியாம் சுயா-பா ஹாய் மோசோம் காப் ருதூிகான்",
+    "english_meaning": "Before setting off on a trip, you should check the weather forecast and pack clothes appropriate for the season.",
+    "tamil_meaning": "சுற்றுலா புறப்படுவதற்கு முன் வானிலையைச் சரிபார்த்து, காலநிலைக்கு ஏற்ற ஆடைகளை எடுத்து வைக்க வேண்டும்."
+  },
+  {
+    "id": 104,
+    "thai": "การ ดื่ม น้ำเปล่า อย่างน้อย วันละ แปด แก้ว ช่วย ให้ ระบบ ต่างๆ ใน ร่างกาย ทำงาน ได้ อย่าง มี ประสิทธิภาพ",
+    "english_transliteration": "Kan duem nam-plao yang-noi wan-la paet kaeo chuai hai ra-bop tang-tang nai rang-kai tham-ngan dai yang mee pra-sit-thi-phap",
+    "tamil_transliteration": "கான் டுயம் நாம்-ப்லாவ் யாங்-நாய் வன்-லா பேத் கேவ் சுவாய் ஹாய் ரபோப் தாங்-தாங் நாய் ராங்க்-கை தம்-ஙான் டை யாங் மீ பிராசித்திபாப்",
+    "english_meaning": "Drinking at least eight glasses of plain water daily helps various systems in the body function efficiently.",
+    "tamil_meaning": "தினமும் குறைந்தது 8 கிளாஸ் தண்ணீர் குடிப்பது உடலின் பல்வேறு மண்டலங்கள் சிறப்பாக இயங்க உதவும்."
+  },
+  {
+    "id": 105,
+    "thai": "ร้านอาหาร แห่งนี้ มี ชื่อเสียง ใน เรื่อง การ ทำ อาหารไทย รสชาติ ดั้งเดิม ที่ อร่อย และ ราคา ไม่ แพง",
+    "english_transliteration": "Ran-a-han haeng-nee mee chue-siang nai rueang kan tham a-han-thai rot-chat dang-doem thee a-roi lae ra-kha mai phaeng",
+    "tamil_transliteration": "ரான்-அஹான் ஹேங்-நீ மீ சூ-சியாங் நாய் ருயாங் கான் தம் அஹான்-தாய் ரோத்-சாத் தாங்தோம் தீ அராய் லே ராகா மை பேங்",
+    "english_meaning": "This restaurant is famous for preparing traditional Thai food that is delicious and inexpensive.",
+    "tamil_meaning": "இந்த உணவகம் பாரம்பரிய தாய் உணவுகளைச் சுவையாகவும் மலிவான விலையிலும் வழங்குவதற்குப் பெயர் பெற்றது."
+  },
+  {
+    "id": 106,
+    "thai": "ถ้า คุณ รู้สึก เหนื่อยล้า จาก การทำงาน ควร หา เวลา พักผ่อน และ ทำ กิจกรรม ที่ คุณ ชอบ",
+    "english_transliteration": "Tha khun roo-suek nuai-la chak kan-tham-ngan khuan ha we-la phak-phon lae tham kit-ja-kam thee khun chop",
+    "tamil_transliteration": "தா குன் ரூ-சுக் நுவாய்-லா சாக் கான்-தம்-ஙான் குவான் ஹா வேலா பாக்-போன் லே தம் கிட்ஜாகாம் தீ குன் சாப்",
+    "english_meaning": "If you feel exhausted from work, you should find time to rest and do activities you enjoy.",
+    "tamil_meaning": "வேலையால் சோர்வாக உணர்ந்தால், ஓய்வெடுக்கவும் உங்களுக்குப் பிடித்த நடவடிக்கைகளைச் செய்யவும் நேரம் ஒதுக்குங்கள்."
+  },
+  {
+    "id": 107,
+    "thai": "การ ออกกำลังกาย อย่าง สม่ำเสมอ ไม่ เพียงแต่ ช่วย ให้ ร่างกาย แข็งแรง แต่ยัง ช่วย ให้ จิตใจ สดชื่น อีกด้วย",
+    "english_transliteration": "Kan ok-kam-lang-kai yang sa-mam-sa-moe mai phiang-tae chuai hai rang-kai khaeng-raeng tae-yang chuai hai chit-jai sot-chuen eek-duai",
+    "tamil_transliteration": "கான் ஆக்-காம்லாங்-கை யாங் சமம்சமோ மை பியாங்தே சுவாய் ஹாய் ராங்க்-கை கேங்-ரேங் டே-யாங் சுவாய் ஹாய் சிட்ஜெய் சோத்-சுயேன் ஈக்-துவாய்",
+    "english_meaning": "Regular exercise not only keeps the body strong, but also helps keep the mind refreshed.",
+    "tamil_meaning": "வழக்கமாக உடற்பயிற்சி செய்வது உடலை பலப்படுத்துவது மட்டுமின்றி மனதையும் புத்துணர்ச்சியாக வைக்கும்."
+  },
+  {
+    "id": 108,
+    "thai": "เมื่อ เข้าไป ใน สถานที่ ราชการ ควร แต่งกาย ให้ สุภาพ เรียบร้อย เพื่อ เป็นการ ให้ เกียรติ สถานที่",
+    "english_transliteration": "Muea khao-pai nai sa-than-thee rat-cha-kan khuan taeng-kai hai su-phap riap-roi phuea pen-kan hai kiat sa-than-thee",
+    "tamil_transliteration": "முயா காவ்-பை நாய் சதான்தீ ராட்சாகான் குவான் டேங்க்-கை ஹாய் சுபாப் ரியாப்-ராய் புயோ பென்-கான் ஹாய் கியாத் சதான்தீ",
+    "english_meaning": "When entering government offices, you should dress politely and neatly to show respect to the place.",
+    "tamil_meaning": "அரசு அலுவலகங்களுக்குள் செல்லும் போது, அவ்விடத்திற்கு மரியாதை அளிக்கும் வகையில் கண்ணியமாக உடை அணிய வேண்டும்."
+  },
+  {
+    "id": 109,
+    "thai": "การ นอนหลับ ให้ เพียงพอ ใน ตอนกลางคืน จะ ช่วย ให้ สมอง สามารถ ทำงาน ได้ อย่าง เต็มที่ ใน วันรุ่งขึ้น",
+    "english_transliteration": "Kan non-lap hai phiang-pho nai ton-klang-khuen cha chuai hai sa-mong sa-mat tham-ngan dai yang tem-thee nai wan-rung-khuen",
+    "tamil_transliteration": "கான் நான்-லாப் ஹாய் பியாங்-போ நாய் தோன்-க்லாங்-குயீன் சா சுவாய் ஹாய் சமோங் சமாத தம்-ஙான் டை யாங் தெம்-தீ நாய் வன்-ருங்-குயீன்",
+    "english_meaning": "Getting adequate sleep at night will help the brain function at its full potential the next day.",
+    "tamil_meaning": "இரவில் போதுமான அளவு தூங்குவது அடுத்த நாள் மூளை முழுத் திறனுடன் இயங்க உதவும்."
+  },
+  {
+    "id": 110,
+    "thai": "ถ้า คุณ มี ข้อสงสัย เกี่ยวกับ รายละเอียด ของ งาน สามารถ สอบถาม หัวหน้างาน ได้ ทันที",
+    "english_transliteration": "Tha khun mee kho-song-sai kiao-kap rai-la-iat khong ngan sa-mat sop-tham hua-na-ngan dai than-thee",
+    "tamil_transliteration": "தா குன் மீ கோ-சோங்சை கியாவ்-காப் ராய்-லையத் கோங் ஙான் சமாத சோப்-தாம் ஹுவானா-ஙான் டை தான்டீ",
+    "english_meaning": "If you have doubts regarding work details, you can ask your supervisor right away.",
+    "tamil_meaning": "வேலை விவரங்கள் குறித்து ஏதேனும் சந்தேகம் இருந்தால், உடனே மேலதிகாரியிடம் கேட்கலாம்."
+  },
+  {
+    "id": 111,
+    "thai": "การ เลือก ซื้อ สินค้า ที่ มี คุณภาพ ดี จะ ช่วย ให้ เรา สามารถ ใช้งาน ได้ ยาวนาน และ คุ้มค่า",
+    "english_transliteration": "Kan lueak sue sin-kha thee mee khun-na-phap dee cha chuai hai rao sa-mat chai-ngan dai yao-nan lae khum-kha",
+    "tamil_transliteration": "கான் லியாக் சுயே சின்கா தீ மீ குன்னபாப் டீ சா சுவாய் ஹாய் ராவ் சமாத சை-ஙான் டை யாவ்-னான் லே கும்-கா",
+    "english_meaning": "Choosing quality products helps us use them for a long time and get good value for money.",
+    "tamil_meaning": "நல்ல தரமான பொருட்களைத் தேர்ந்தெடுத்து வாங்குவது நீண்ட காலம் பயன்படுத்தவும் பணத்திற்கு ஏற்ற மதிப்பைத் தரவும் உதவும்."
+  },
+  {
+    "id": 112,
+    "thai": "การ ปลูก ต้นไม้ บริเวณ รอบ บ้าน ช่วย เพิ่ม ร่มเงา และ ลด ความร้อน จาก แสงแดด ได้ เป็น อย่างดี",
+    "english_transliteration": "Kan plook ton-mai bo-ri-wen rop ban chuai phoem rom-ngao lae lot khwam-ron chak saeng-daet dai pen yang-dee",
+    "tamil_transliteration": "கான் ப்லூக் தோன்மை பொரிவேன் ரோப் பான் சுவாய் பேம் ரோம்காவ் லே லோத் க்வாம்-ரோன் சாக் சேங்டேத் டை பென் யாங்-டீ",
+    "english_meaning": "Planting trees around the house adds shade and reduces heat from sunlight effectively.",
+    "tamil_meaning": "வீட்டைச் சுற்றி மரங்களை நட்டு வைப்பது நிழலைத் தருவதுடன் வெயிலின் வெப்பத்தையும் நன்றாகக் குறைக்கும்."
+  },
+  {
+    "id": 113,
+    "thai": "ใน ช่วง ฤดูฝน เรา ควร พก ร่ม ติดตัว ไว้ เพื่อ ป้องกัน ไม่ให้ เปียก ฝน เวลา อยู่ ข้างนอก",
+    "english_transliteration": "Nai chuang rue-doo-fon rao khuan phok rom tit-tua wai phuea pong-kan mai-hai piak fon we-la yoo khang-nok",
+    "tamil_transliteration": "நாய் சுவாங் ருதூஃபோன் ராவ் குவான் போக் ரோம் தித்துவ வை புயோ போங்கான் மை-ஹாய் பியாாக் ஃபோன் வேலா யூ காங்நாக்",
+    "english_meaning": "During rainy season, we should carry an umbrella to avoid getting wet when outside.",
+    "tamil_meaning": "மழைக்காலத்தில் வெளியே இருக்கும் போது மழையில் நனையாமல் இருக்க எப்போதும் குடை கையில் வைத்திருக்க வேண்டும்."
+  },
+  {
+    "id": 114,
+    "thai": "การ รับประทาน อาหาร ตรงเวลา ทุก มื้อ จะ ช่วย ป้องกัน โรค กระเพาะ และ ทำให้ ระบบ ย่อย ดีขึ้น",
+    "english_transliteration": "Kan rap-pra-than a-han trong-we-la thuk mue cha chuai pong-kan rok kra-phro lae tham-hai ra-bop yoi dee-khuen",
+    "tamil_transliteration": "கான் ராப்பிராதான் அஹான் த்ரோங்-வேலா துக் முயே சா சுவாய் போங்கான் ரோக் கிராப்ரோ லே தம்ஹாய் ரபோப் யோய் டீகுயீன்",
+    "english_meaning": "Eating meals on time helps prevent stomach ulcers and improves the digestive system.",
+    "tamil_meaning": "நேரத்திற்கு உண்பது வயிற்றுப் புண் வராமல் தடுத்து செரிமானத்தைச் சீராக்கும்."
+  },
+  {
+    "id": 115,
+    "thai": "ถ้า คุณ สั่ง สินค้า ออนไลน์ วันนี้ สินค้า จะ ถูก จัดส่ง ถึง บ้าน คุณ ภายใน สอง วัน",
+    "english_transliteration": "Tha khun sang sin-kha online wan-nee sin-kha cha thook jat-song thueng ban khun phai-nai song wan",
+    "tamil_transliteration": "தா குன் சாங் சின்கா ஆன்லைன் வன்னீ சின்கா சா தூக் ஜத்சோங் துயேங் பான் குன் பைனை சோங் வன்",
+    "english_meaning": "If you order products online today, they will be delivered to your home within two days.",
+    "tamil_meaning": "இன்று ஆன்லைனில் ஆர்டர் செய்தால், பொருட்கள் இரண்டு நாட்களுக்குள் உங்கள் வீட்டிற்கு வந்து சேரும்."
+  },
+  {
+    "id": 116,
+    "thai": "การ สวม หมวก นิรภัย ขณะ ขี่ มอเตอร์ไซค์ เป็น สิ่ง สำคัญ ที่ ช่วย ลด ความรุนแรง จาก อุบัติเหตุ",
+    "english_transliteration": "Kan suam muak ni-ra-phai kha-na khee motorcycle pen sing sam-khan thee chuai lot khwam-roon-raeng chak u-bat-ti-het",
+    "tamil_transliteration": "கான் சுவாம் மூக் நிராபை கனா கீ மோட்டார்ஸை பென் சிங் சம்கான் தீ சுவாய் லோத் க்வாம்ருன்ரேங் சாக் உபத்திஹேட்",
+    "english_meaning": "Wearing a helmet while riding a motorcycle is crucial for reducing injury severity in accidents.",
+    "tamil_meaning": "பைக் ஓட்டும் போது ஹெல்மெட் அணிவது விபத்துகளின் தீவிரத்தைக் குறைக்க உதவும் ஒரு முக்கியமான விஷயமாகும்."
+  },
+  {
+    "id": 117,
+    "thai": "การ ประหยัด เงิน ตั้งแต่ ยัง เด็ก จะ ทำให้ มี เงิน สำรอง ใช้ ใน ยาม ฉุกเฉิน เมื่อ โตขึ้น",
+    "english_transliteration": "Kan pra-yat ngoen tang-tae yang dek cha tham-hai mee ngoen sam-rong chai nai yam chuk-choen muea to-khuen",
+    "tamil_transliteration": "கான் பிராயத் ஙோயேன் தாங்தே யாங் டெக் சா தம்ஹாய் மீ ஙோயேன் சாம்ரோங் சாய் நாய் யாம் சுக்சோன் முயா தோகுயீன்",
+    "english_meaning": "Saving money from childhood ensures reserve funds for emergencies when growing up.",
+    "tamil_meaning": "சிறு வயதிலிருந்தே பணத்தைச் சேமிப்பது வளர்ந்த பிறகு அவசர காலத்தில் பயன்படுத்த உதவும்."
+  },
+  {
+    "id": 118,
+    "thai": "ก่อน จะ ข้าม ถนน ควร มอง ทั้ง ซ้าย และ ขวา เพื่อ ให้ แน่ใจ ว่า ไม่มี รถ วิ่ง มา",
+    "english_transliteration": "Kon cha kham tha-non khuan mong thang sai lae khwa phuea hai nae-jai wa mai-mee rot wing ma",
+    "tamil_transliteration": "கோன் சா காம் தனோன் குவான் மோங் தாங் சை லே குவா புயோ ஹாய் னேஜெய் வா மைமீ రోத் விங் மா",
+    "english_meaning": "Before crossing the road, look both left and right to make sure no cars are approaching.",
+    "tamil_meaning": "சாலையைக் கடப்பதற்கு முன், வாகனங்கள் வரவில்லை என்பதை உறுதிப்படுத்த இடப்பக்கமும் வலப்பக்கமும் பார்க்க வேண்டும்."
+  },
+  {
+    "id": 119,
+    "thai": "การ ทำ ความสะอาด บ้าน เป็นประจำ ช่วย ลด ฝุ่นละออง และ ป้องกัน อาการ ภูมิแพ้ ได้ ดี",
+    "english_transliteration": "Kan tham khwam-sa-at ban pen-pra-jam chuai lot fun-la-ong lae pong-kan a-kan phoom-phae dai dee",
+    "tamil_transliteration": "கான் தம் க்வாம்ப்சாஆத் பான் பென்பிராஜாம் சுவாய் லோத் ஃபுன்லாஓங் லே போங்கான் ஆகான் பூம்பே டை டீ",
+    "english_meaning": "Cleaning the house regularly reduces dust and effectively prevents allergy symptoms.",
+    "tamil_meaning": "வீட்டைத் தவறாமல் சுத்தம் செய்வது தூசியைக் குறைத்து அலர்ஜி வராமல் நன்றாகத் தடுக்கும்."
+  },
+  {
+    "id": 120,
+    "thai": "หาก คุณ ต้องการ เปลี่ยน วัน เดินทาง กรุณา แจ้ง เจ้าหน้าที่ ล่วงหน้า อย่างน้อย สาม วัน",
+    "english_transliteration": "Hak khun tong-kan plian wan doen-thang ka-ru-na jaeng chao-na-thee luang-na yang-noi sam wan",
+    "tamil_transliteration": "ஹாக் குன் தோங்காான் ப்லியான் வன் டேன்டாங் கருனா ஜேங் சாோனாதீ லுவாங்னா யாங்நாய் சாம் வன்",
+    "english_meaning": "If you need to change your travel date, please inform staff at least 3 days in advance.",
+    "tamil_meaning": "பயண தேதியை மாற்ற வேண்டுமானால், குறைந்தது 3 நாட்களுக்கு முன்பே அதிகாரிகளுக்குத் தெரிவிக்கவும்."
+  },
+  {
+    "id": 121,
+    "thai": "การ อ่าน หนังสือ วันละ นิด จะ ช่วย เพิ่มพูน ความรู้ และ ทำให้ เป็น คน มี ความคิด กว้างไกล",
+    "english_transliteration": "Kan an nang-sue wan-la nit cha chuai phoem-phoon khwam-roo lae tham-hai pen khon mee khwam-khit kwang-klai",
+    "tamil_transliteration": "கான் ஆன் னாங்சுயே வன்லா நித் சா சுவாய் பேம்பூன் க்வாம்ரூ லே தம்ஹாய் பென் கோன் மீ க்வாம்கித் க்வாங்கிளை",
+    "english_meaning": "Reading books daily expands knowledge and makes one a broad-minded thinker.",
+    "tamil_meaning": "தினமும் சிறிது நேரம் வாசிப்பது அறிவை வளர்த்து பரந்த மனப்பான்மை கொண்டவராக மாற்றும்."
+  },
+  {
+    "id": 122,
+    "thai": "เมื่อ รู้สึก ปวด สายตา จาก การ จ้อง หน้าจอ คอมพิวเตอร์ ควร พัก สายตา ทุกๆ หนึ่ง ชั่วโมง",
+    "english_transliteration": "Muea roo-suek puat sai-ta chak kan jong na-jo computer khuan phak sai-ta thuk-thuk neung chua-mong",
+    "tamil_transliteration": "முயா ரூசுக் புவாத் சைதா சாக் கான் ஜோங் னாஜோ கம்ப்யூட்டர் குவான் பாக் சைதா துக்துக் னுயங் சுவாமோங்",
+    "english_meaning": "When experiencing eye strain from staring at screen, rest your eyes every hour.",
+    "tamil_meaning": "கணினி திரையைப் பார்ப்பதால் கண் வலித்தால், ஒரு மணி நேரத்திற்கு ஒருமுறை கண்களுக்கு ஓய்வு கொடுங்கள்."
+  },
+  {
+    "id": 123,
+    "thai": "การ ยิ้มแย้ม และ มี อัธยาศัย ดี ช่วย ให้ เข้ากับ เพื่อนร่วมงาน ได้ ง่าย ขึ้น",
+    "english_transliteration": "Kan yim-yaem lae mee at-tha-ya-sai dee chuai hai khao-kap phuean-ruam-ngan dai ngai khuen",
+    "tamil_transliteration": "கான் யிம்யேம் லே மீ அத்தயாசை டீ சுவாய் ஹாய் காவ்காப் புயான்ரூவாம்ஙான் டை ஙாய் குயீன்",
+    "english_meaning": "Being smiling and friendly helps get along with colleagues much easier.",
+    "tamil_meaning": "புன்னகையுடனும் நட்போடும் இருப்பது சக ஊழியர்களுடன் எளிதில் பழக உதவும்."
+  },
+  {
+    "id": 124,
+    "thai": "การ ดื่ม ชาร้อน ใน ยามเช้า ช่วย ให้ รู้สึก สดชื่น และ พร้อม สำหรับ การ เริ่มต้น วันใหม่",
+    "english_transliteration": "Kan duem cha-ron nai yam-chao chuai hai roo-suek sot-chuen lae phrom sam-rap kan roem-ton wan-mai",
+    "tamil_transliteration": "கான் டுயம் சாரோன் நாய் யாம்சாவ் சுவாய் ஹாய் ரூசுக் சோத்சுயேன் லே ப்ரோம் சம்ராப் கான் ரேம்தோன் வன்மை",
+    "english_meaning": "Drinking hot tea in the morning refreshes you and prepares you for a new day.",
+    "tamil_meaning": "காலை நேரத்தில் சூடான டீ குடிப்பது புத்துணர்ச்சி அளித்து புதிய நாளைத் தொடங்கத் தயார் செய்யும்."
+  },
+  {
+    "id": 125,
+    "thai": "ถ้า คุณ มี อาการ ไอ และ ไข้สูง ควร สวม หน้ากาก และ ไปพบ แพทย์ ทันที",
+    "english_transliteration": "Tha khun mee a-kan ai lae khai-soong khuan suam na-kak lae pai-phop phaet than-thee",
+    "tamil_transliteration": "தா குன் மீ ஆகான் ஐ லே கைசூங் குவான் சுவாம் னாகாக் லே பைபோப் பேத் தான்டீ",
+    "english_meaning": "If you have a cough and high fever, wear a mask and consult a doctor right away.",
+    "tamil_meaning": "இருமல் மற்றும் அதிக காய்ச்சல் இருந்தால், முகக்கவசம் அணிந்து உடனே மருத்துவரைப் பார்க்க வேண்டும்."
+  },
+  {
+    "id": 126,
+    "thai": "การ เดินทาง ด้วย รถไฟฟ้า ใน กรุงเทพฯ ช่วย ประหยัด เวลา และ หลีกเลี่ยง ปัญหารถติด",
+    "english_transliteration": "Kan doen-thang duai rot-fai-fa nai Krung-thep chuai pra-yat we-la lae leek-liang pan-ha rot-tit",
+    "tamil_transliteration": "கான் டேன்டாங் துவாய் ரோத்ஃபைஃபா நாய் க்ருங்தேப் சுவாய் பிராயத் வேலா லே லீக்லியாங் பன்ஹா ரோத்தித்",
+    "english_meaning": "Traveling by skytrain in Bangkok saves time and avoids traffic jam problems.",
+    "tamil_meaning": "பாங்காக்கில் மெட்ரோ ரயிலில் பயணிப்பது நேரத்தைச் சேமித்து டிராஃபிக் பிரச்சனையிலிருந்து தப்பிக்க உதவும்."
+  },
+  {
+    "id": 127,
+    "thai": "การ ปิด สวิตช์ และ ถอด ปลั๊ก ไฟ ทุกครั้ง หลัง ใช้งาน ช่วย ป้องกัน ไฟฟ้า ลัดวงจร",
+    "english_transliteration": "Kan pit switch lae thot plak fai thuk-khrang lang chai-ngan chuai pong-kan fai-fa lat-wong-chon",
+    "tamil_transliteration": "கான் பித் ஸ்விட்ச் லே தோத் ப்ளக் ஃபை துக்ஹ்ராங் லாங் சைஙான் சுவாய் போங்கான் ஃபைஃபா லாத்வோங்சோன்",
+    "english_meaning": "Turning off switches and unplugging after use prevents short circuits.",
+    "tamil_meaning": "பயன்பாட்டிற்குப் பிறகு சுவிட்சை ஆஃப் செய்து பிளக்கைக் கழற்றுவது மின்சார ஷார்ட் சர்க்யூட்டைத் தடுக்கும்."
+  },
+  {
+    "id": 128,
+    "thai": "การ ทาน ผลไม้ สด เป็นประจำ ให้ วิตามิน ที่ จำเป็น ต่อ ร่างกาย หลาย ชนิด",
+    "english_transliteration": "Kan than phon-la-mai sot pen-pra-jam hai vitamin thee jam-pen to rang-kai lai cha-nit",
+    "tamil_transliteration": "கான் தான் போன்லமை சோத் பென்பிராஜாம் ஹாய் வைட்டமின் தீ ஜம்பேன் தோ ராங்க்ஹை லை சானித்",
+    "english_meaning": "Eating fresh fruits regularly provides many vitamins essential for the body.",
+    "tamil_meaning": "ஃபிரஷ் பழங்களைத் தவறாமல் உண்பது உடலுக்குத் தேவையான பல வைட்டமின்களைத் தரும்."
+  },
+  {
+    "id": 129,
+    "thai": "หาก คุณ สนใจ ร่วมงาน กับ เรา กรุณา ส่ง ประวัติส่วนตัว มา ทาง อีเมล",
+    "english_transliteration": "Hak khun son-jai ruam-ngan kap rao ka-ru-na song pra-wat-suan-tua ma thang email",
+    "tamil_transliteration": "ஹாக் குன் சன்ஜெய் ரூவாம்ஙான் காப் ராவ் கருனா சோங் பிராவாட்சுவாம்துவா மா தாங் ஈமெயில்",
+    "english_meaning": "If interested in working with us, please submit your resume via email.",
+    "tamil_meaning": "எங்களுடன் இணைந்து பணியாற்ற விருப்பமிருந்தால், பயோடேட்டாவை மின்னஞ்சலில் அனுப்புங்கள்."
+  },
+  {
+    "id": 130,
+    "thai": "การ รักษาวินัย ใน การ ออกกำลังกาย ช่วย ให้ บรรลุ เป้าหมาย สุขภาพ ที่ ตั้งไว้ ได้",
+    "english_transliteration": "Kan rak-sa wi-nai nai kan ok-kam-lang-kai chuai hai ban-lu pao-mai suk-kha-phap thee tang-wai dai",
+    "tamil_transliteration": "கான் ராக்சா விநை நாய் கான் ஆக்காம்லாங்கை சுவாய் ஹாய் பன்லு பாவோமை சுக்கபாப் தீ தாங்வை டை",
+    "english_meaning": "Maintaining discipline in exercise helps achieve set fitness goals.",
+    "tamil_meaning": "உடற்பயிற்சியில் ஒழுக்கத்தைப் பேணுவது நிர்ணயித்த ஆரோக்கிய இலக்குகளை அடைய உதவும்."
+  },
+  {
+    "id": 131,
+    "thai": "การ ฟัง เพลง สบายๆ ตอน ทำงาน ช่วย เพิ่ม สมาธิ และ ทำให้ ทำงาน ได้ เร็วขึ้น",
+    "english_transliteration": "Kan fang phleng sa-bai-sa-bai ton tham-ngan chuai phoem sa-ma-thi lae tham-hai tham-ngan dai reo-khuen",
+    "tamil_transliteration": "கான் ஃபாங் ப்லேங் சபாய்சபாய் தோன் தம்ஙான் சுவாய் பேம் சமாதி லே தம்ஹாய் தம்ஙான் டை ரேவ்குயீன்",
+    "english_meaning": "Listening to relaxing music while working increases focus and productivity speed.",
+    "tamil_meaning": "வேலை செய்யும் போது மெல்லிய இசை கேட்பது கவனத்தை அதிகரித்து வேலையை வேகமாக முடிக்க உதவும்."
+  },
+  {
+    "id": 132,
+    "thai": "การ คืน กุญแจ ห้องพัก ที่ เคาน์เตอร์ ต้อง ทำ ก่อน เวลา เที่ยงวัน ของ วัน เช็คเอาท์",
+    "english_transliteration": "Kan khuen kun-jae hong-phak thee counter tong tham kon we-la thiang-wan khong wan checkout",
+    "tamil_transliteration": "கான் குயீன் குன்ஜே ஹாங்பாக் தீ கவுண்டர் தோங் தம் கோன் வேலா தீயாங்வன் கோங் வன் செக்அவுட்",
+    "english_meaning": "Returning room keys at counter must be done before 12 noon on checkout day.",
+    "tamil_meaning": "செக்அவுட் நாளில் அறை சாவியைக் கவுண்டரில் மதியம் 12 மணிக்கு முன் ஒப்படைக்க வேண்டும்."
+  },
+  {
+    "id": 133,
+    "thai": "ถ้า คุณ ชอบ อาหาร รส เผ็ด ควร ลอง ชิม ต้มยำกุ้ง น้ำข้น ของ ร้านนี้",
+    "english_transliteration": "Tha khun chop a-han rot phet khuan long chim tom-yum-kung nam-khon khong ran-nee",
+    "tamil_transliteration": "தா குன் சாப் அஹான் ரோத் பெத் குவான் லோங் சிம் தோம்யாம்குங் நாம்ஹோன் கோங் ரான்நீ",
+    "english_meaning": "If you like spicy food, you should try thick Tom Yum Kung at this shop.",
+    "tamil_meaning": "காரமான உணவு பிடிக்கும் என்றால், இந்த கடையின் தோம் யாம் சூப்பை ருசித்து பாருங்கள்."
+  },
+  {
+    "id": 134,
+    "thai": "การ เตรียม ความพร้อม ก่อน การ ประชุม จะ ช่วย ให้ การ สนทนา เป็นไปอย่าง ราบรื่น",
+    "english_transliteration": "Kan triam khwam-phrom kon kan pra-chum cha chuai hai kan son-tha-na pen-pai-yang rap-ruen",
+    "tamil_transliteration": "கான் த்ரியாம் க்வாம்ப்ரோம் கோன் கான் பிராசும் சா சுவாய் ஹாய் கான் சொந்தனா பென்பாய்யாங் ராப்ருயேன்",
+    "english_meaning": "Preparing well before meetings ensures the conversation goes smoothly.",
+    "tamil_meaning": "கூட்டத்திற்கு முன் தயாரிப்புகளுடன் இருப்பது உரையாடல் சீராக நடக்க உதவும்."
+  },
+  {
+    "id": 135,
+    "thai": "การ ปลูก ฝัง การ ออม ให้ ลูก ตั้งแต่ เยาว์วัย จะ ช่วย ให้ เขา รู้จัก ใช้ เงิน",
+    "english_transliteration": "Kan plook-fang kan om hai look tang-tae yao-wai cha chuai hai khao roo-jak chai ngoen",
+    "tamil_transliteration": "கான் ப்லூக்ஃபாங் கான் ஓம் ஹாய் லூக் தாங்தே யாவ்வை சா சுவாய் ஹாய் காவ் ரூஜாக் சாய் ஙோயேன்",
+    "english_meaning": "Teaching children saving habits young helps them manage money wisely.",
+    "tamil_meaning": "சிறு வயதிலிருந்தே குழந்தைகளுக்குச் சேமிப்பைக் கற்றுத் தருவது பணத்தைச் சரியாகப் பயன்படுத்த உதவும்."
+  },
+  {
+    "id": 136,
+    "thai": "ก่อน จะ ซื้อ รถยนต์ คัน ใหม่ ควร ศึกษา ข้อมูล และ ทดลอง ขับ ก่อน ตัดสินใจ",
+    "english_transliteration": "Kon cha sue rot-yon khan mai khuan suek-sa kho-moon lae thot-long khap kon tat-sin-jai",
+    "tamil_transliteration": "கோன் சா சுயே ரோத்யோன் கான் மை குவான் சுக்ஸா கோமூன் லே தோத்லோங் காப் கோன் தாத்சின்ஜெய்",
+    "english_meaning": "Before buying a new car, study specifications and test drive before deciding.",
+    "tamil_meaning": "புதிய கார் வாங்குவதற்கு முன், விவரங்களைப் படித்து டெஸ்ட் டிரைவ் செய்து முடிவெடுக்க வேண்டும்."
+  },
+  {
+    "id": 137,
+    "thai": "การ ดื่ม นม อุ่นๆ ก่อน นอน ช่วย ให้ ร่างกาย รู้สึก ผ่อนคลาย และ หลับสนิท",
+    "english_transliteration": "Kan duem nom oon-oon kon non chuai hai rang-kai roo-suek phon-khlai lae lap-sa-nit",
+    "tamil_transliteration": "கான் டுயம் நோம் ஊனூன் கோன் நான் சுவாய் ஹாய் ராங்க்ஹை ரூசுக் போன்க்லை லே லாப்சனித்",
+    "english_meaning": "Drinking warm milk before sleeping relaxes the body and promotes sound sleep.",
+    "tamil_meaning": "தூங்குவதற்கு முன் மிதமான சூட்டில் பால் குடிப்பது உடலை அமைதிப்படுத்தி ஆழ்ந்த தூக்கத்தைத் தரும்."
+  },
+  {
+    "id": 138,
+    "thai": "หาก มี ปัญหา เรื่อง การ จราจร ควร เผื่อ เวลา เดินทาง อย่างน้อย ครึ่ง ชั่วโมง",
+    "english_transliteration": "Hak mee pan-ha rueang kan ja-ra-chon khuan phuea we-la doen-thang yang-noi khrueng chua-mong",
+    "tamil_transliteration": "ஹாக் மீ பன்ஹா ருயாங் கான் ஜராசோன் குவான் புயோ வேலா டேன்டாங் யாங்நாய் க்ருயேங் சுவாமோங்",
+    "english_meaning": "In case of traffic issues, allow at least an extra half hour for travel.",
+    "tamil_meaning": "டிராஃபிக் பிரச்சனை இருந்தால், பயணத்திற்கு குறைந்தது அரை மணி நேரம் கூடுதலாக ஒதுக்க வேண்டும்."
+  },
+  {
+    "id": 139,
+    "thai": "การ ดูแล สุขภาพจิต เป็น สิ่ง สำคัญ ไม่ แพ้ การ ดูแล สุขภาพร่างกาย",
+    "english_transliteration": "Kan doo-lae suk-kha-phap-chit pen sing sam-khan mai phaeng kan doo-lae suk-kha-phap-rang-kai",
+    "tamil_transliteration": "கான் டூலே சுக்கபாப்சித் பென் சிங் சம்கான் மை பேங் கான் டூலே சுக்கபாப்ராங்க்ஹை",
+    "english_meaning": "Caring for mental health is as equally important as body health care.",
+    "tamil_meaning": "மன ஆரோக்கியத்தைப் பேணுவது உடல் ஆரோக்கியத்தைப் பேணுவதற்கு இணையான முக்கியத்துவமுடையது."
+  },
+  {
+    "id": 140,
+    "thai": "การ เช็ค วัน หมดอายุ ของ อาหาร ป้องกัน การ ทาน อาหาร เสีย เข้าไป",
+    "english_transliteration": "Kan check wan mot-a-yu khong a-han pong-kan kan than a-han sia khao-pai",
+    "tamil_transliteration": "கான் செக் வன் மோதாயு கோங் அஹான் போங்கான் கான் தான் அஹான் சியா காவ்பை",
+    "english_meaning": "Checking food expiration dates prevents consumption of spoiled foods.",
+    "tamil_meaning": "உணவின் காலாவதி தேதியைச் சரிபார்ப்பது கெட்டுப்போன உணவை உண்பதைத் தடுக்கும்."
+  },
+  {
+    "id": 141,
+    "thai": "ถ้า คุณ มี เวลาว่าง ควร ลอง ฝึก ทำ อาหาร เมนู ใหม่ๆ กิน เอง ที่ บ้าน",
+    "english_transliteration": "Tha khun mee we-la-wang khuan long fluek tham a-han menu mai-mai gin eng thee ban",
+    "tamil_transliteration": "தா குன் மீ வேலா-வாங் குவான் லோங் ஃபலுக் தம் அஹான் மேனூ மைமை கின் ஏங் தீ பான்",
+    "english_meaning": "If free, try practicing cooking new food recipes yourself at home.",
+    "tamil_meaning": "நேரம் இருக்கும் போது, வீட்டிலேயே புதிய உணவு வகைகளைச் சமைத்துப் பழகலாம்."
+  },
+  {
+    "id": 142,
+    "thai": "การ พก กระเป๋า ผ้า ไป ช้อปปิ้ง ช่วย ลด การ ใช้ ถุง พลาสติก ได้ มาก",
+    "english_transliteration": "Kan phok kra-pao pha pai shopping chuai lot kan chai thung plastic dai mak",
+    "tamil_transliteration": "கான் போக் கிராபாவ் பா பை ஷாப்பிங் சுவாய் லோத் கான் சாய் துங் பிளாஸ்டிக் டை மாக்",
+    "english_meaning": "Carrying cloth bags shopping significantly reduces plastic bag usage.",
+    "tamil_meaning": "ஷாப்பிங் செல்லும்போது துணிப்பையை எடுத்துச் செல்வது பிளாஸ்டிக் பைகளின் பயன்பாட்டைக் குறைக்கும்."
+  },
+  {
+    "id": 143,
+    "thai": "การ ระมัดระวัง ใน การ ขับขี่ ช่วย ลด อุบัติเหตุ บน ท้องถนน ได้ มาก",
+    "english_transliteration": "Kan ra-mat-ra-wang nai kan khap-khee chuai lot u-bat-ti-het bon thong-tha-non dai mak",
+    "tamil_transliteration": "கான் ராமாத்ராவாங் நாய் கான் காப்கீ சுவாய் லோத் உபத்திஹேட் போன் தோங்தனோன் டை மாக்",
+    "english_meaning": "Driving carefully helps greatly lower accidents on the road.",
+    "tamil_meaning": "கவனமாக வாகனம் ஓட்டுவது சாலை விபத்துகளைப் பெருமளவு குறைக்கும்."
+  },
+  {
+    "id": 144,
+    "thai": "เมื่อ ไป เที่ยว ทะเล ควรสวม แว่นตากันแดด เพื่อ ปกป้อง สายตา จาก แสงแดด",
+    "english_transliteration": "Muea pai thiao tha-le khuan suem waen-ta-kan-daet phuea pok-pong sai-ta chak saeng-daet",
+    "tamil_transliteration": "முயா பை தீயாவ் தலே குவான் சுவாம் வேன்தாகான்டேத் புயோ போக்யோங் சைதா சாக் சேங்டேத்",
+    "english_meaning": "When visiting beach, wear sunglasses to protect eyes from sunlight.",
+    "tamil_meaning": "கடற்கரைக்குச் செல்லும்போது சூரிய வெளிச்சத்திலிருந்து கண்களைப் பாதுகாக்கக் கூலிங் கிளாஸ் அணியுங்கள்."
+  },
+  {
+    "id": 145,
+    "thai": "การ ทำทาน และ ช่วยเหลือ ผู้อื่น ทำให้ รู้สึก อิ่มเอมใจ และ มี ความสุข",
+    "english_transliteration": "Kan tham-than lae chuai-luea phoo-uen tham-hai roo-suek im-em-jai lae mee khwam-suk",
+    "tamil_transliteration": "கான் சம்தான் லே சுவாய்லியுவா பூயுயேன் தம்ஹாய் ரூசுக் இம்எம்ஜெய் லே மீ க்வாம்சுக்",
+    "english_meaning": "Giving charity and helping others brings inner fulfillment and happiness.",
+    "tamil_meaning": "தானம் செய்வதும் பிறருக்கு உதவுவதும் மன நிறைவையும் மகிழ்ச்சியையும் தரும்."
+  },
+  {
+    "id": 146,
+    "thai": "การ จัด โต๊ะทำงาน ให้ เป็นระเบียบ ช่วย ให้ ค้นหา เอกสาร ได้ รวดเร็ว ขึ้น",
+    "english_transliteration": "Kan jat to-tham-ngan hai pen-ra-biap chuai hai khon-ha ek-ka-san dai ruat-reo khuen",
+    "tamil_transliteration": "கான் ஜத் தோதம்ஙான் ஹாய் பெனரபியாப் சுவாய் ஹாய் கோன்ஹா எக்கசான் டை ருவாத்ரேவ் குயீன்",
+    "english_meaning": "Keeping desk organized helps search for documents much faster.",
+    "tamil_meaning": "மேஜையை ஒழுங்காக வைப்பது ஆவணங்களை வேகமாகத் தேடி எடுக்க உதவும்."
+  },
+  {
+    "id": 147,
+    "thai": "ถ้า คุณ มี อาการ ปวดหัว ควร พักผ่อน ใน ห้อง ที่ เงียบ และ มืด",
+    "english_transliteration": "Tha khun mee a-kan puat-hua khuan phak-phon nai hong thee ngiap lae muet",
+    "tamil_transliteration": "தா குன் மீ ஆகான் புவாத்தஹுவா குவான் பாக்போன் நாய் ஹாங் தீ ஙியாப் லே முயேத்",
+    "english_meaning": "If having a headache, rest in a quiet and dark room.",
+    "tamil_meaning": "தலைவலி இருந்தால், அமைதியான இருட்டான அறையில் ஓய்வெடுக்க வேண்டும்."
+  },
+  {
+    "id": 148,
+    "thai": "การ เดิน ออกกำลังกาย วันละ สามสิบ นาที ช่วย เสริมสร้าง ความแข็งแรง ให้ หัวใจ",
+    "english_transliteration": "Kan doen ok-kam-lang-kai wan-la sam-sip na-thee chuai soem-sang khwam-khaeng-raeng hai hua-jai",
+    "tamil_transliteration": "கான் டேன் ஆக்காம்லாங்கை வன்லா சாம்சிப் னாதீ சுவாய் சோம்சாங் க்வாம்கேங்ரேங் ஹாய் ஹுவாஜெய்",
+    "english_meaning": "Walking for 30 minutes daily helps build heart strength.",
+    "tamil_meaning": "தினமும் 30 நிமிடம் நடைபயிற்சி செய்வது இதயத்தை பலப்படுத்த உதவும்."
+  },
+  {
+    "id": 149,
+    "thai": "การ ให้ อภัย กัน ใน ครอบครัว ช่วย ให้ ความสัมพันธ์ ยั่งยืน และ มี ความสุข",
+    "english_transliteration": "Kan hai a-phai kan nai krop-khrua chuai hai khwam-sam-phan yang-yuen lae mee khwam-suk",
+    "tamil_transliteration": "கான் ஹாய் அபை கான் நாய் க்ரோப்க்ருவா சுவாய் ஹாய் க்வாம்சம்பான் யாங்யுயேன் லே மீ க்வாம்சுக்",
+    "english_meaning": "Forgiving each other in family keeps relationships lasting and happy.",
+    "tamil_meaning": "குடும்பத்தில் ஒருவரையொருவர் மன்னிப்பது உறவை வலுப்படுத்தி மகிழ்ச்சியைத் தரும்."
+  },
+  {
+    "id": 150,
+    "thai": "การ เช็ค ข้อมูล ก่อน เชื่อ ช่วย ป้องกัน การ ตกเป็น เหยื่อ ของ มิจฉาชีพ",
+    "english_transliteration": "Kan check kho-moon kon chuea chuai pong-kan kan tok-pen yuea khong mit-cha-cheep",
+    "tamil_transliteration": "கான் செக் கோமூன் கோன் சுயா சுவாய் போங்கான் கான் தோக்பென் யுயா கோங் மிட்சாசீப்",
+    "english_meaning": "Verifying details before believing prevents falling victim to scammers.",
+    "tamil_meaning": "நம்புவதற்கு முன் தகவல்களைச் சரிபார்ப்பது ஏமாற்றுக்காரர்களிடம் சிக்காமல் தடுக்கும்."
+  },
+  {
+    "id": 151,
+    "thai": "การ เรียนรู้ ภาษา ใหม่ ช่วย เปิด โอกาส ใน การ ทำงาน และ ท่องเที่ยว",
+    "english_transliteration": "Kan rian-roo pha-sa mai chuai poet o-kat nai kan tham-ngan lae thong-thiao",
+    "tamil_transliteration": "கான் ரியான்ரூ பாசா மை சுவாய் பேத் ஓகாத் நாய் கான் தம்ஙான் லே தோங்தீயாவ்",
+    "english_meaning": "Learning a new language opens up job and travel opportunities.",
+    "tamil_meaning": "புதிய மொழியைக் கற்பது வேலை வாய்ப்புகளையும் சுற்றுலா வாய்ப்புகளையும் உருவாக்கும்."
+  },
+  {
+    "id": 152,
+    "thai": "การ ชาร์จ แบตเตอรี่ มือถือ ไม่ ควร เสียบ ทิ้งไว้ ทั้งคืน เพื่อ ความปลอดภัย",
+    "english_transliteration": "Kan chat battery mue-thue mai khuan siap thing-wai thang-khuen phuea khwam-plon-thai",
+    "tamil_transliteration": "கான் சாஜ் பேட்டரி முயேதுவை மை குவான் சியாப் திங்வை தாங்குயீன் புயோ க்வாம்ப்லோன்தாய்",
+    "english_meaning": "Phone battery charging should not be left plugged all night for safety.",
+    "tamil_meaning": "பாதுகாப்பிற்காக மொபைல் போனை இரவு முழுதும் சார்ஜரில் போட்டு வைக்கக் கூடாது."
+  },
+  {
+    "id": 153,
+    "thai": "การ สวม เสื้อผ้า โทน สีสว่าง ช่วย ลด ความร้อน เวลา อยู่ กลางแจ้ง",
+    "english_transliteration": "Kan suam suea-pha tone see-sa-wang chuai lot khwam-ron we-la yoo klang-chaeng",
+    "tamil_transliteration": "கான் சுவாம் சுயாபா தோன் சீசவாங் சுவாய் லோத் க்வாம்ரோன் வேலா யூ க்லாங்சேங்",
+    "english_meaning": "Wearing light colored clothing helps lessen heat when outdoors.",
+    "tamil_meaning": "வெளியில் இருக்கும் போது லேசான நிற ஆடைகளை அணிவது வெப்பத்தைக் குறைக்க உதவும்."
+  },
+  {
+    "id": 154,
+    "thai": "การ ดื่ม น้ำ ผลไม้ สด ช่วย ให้ ร่างกาย ได้รับ วิตามิน ซี สูง",
+    "english_transliteration": "Kan duem nam phon-la-mai sot chuai hai rang-kai dai-rap vitamin C soong",
+    "tamil_transliteration": "கான் டுயம் நாம் போன்லமை சோத் சுவாய் ஹாய் ராங்க்ஹை டைராப் வைட்டமின் சி சூங்",
+    "english_meaning": "Drinking fresh fruit juice provides body with high vitamin C.",
+    "tamil_meaning": "ஃபிரஷ் பழச்சாறு குடிப்பது உடலுக்கு அதிக வைட்டமின் சி-யைத் தரும்."
+  },
+  {
+    "id": 155,
+    "thai": "การ มี มิตรภาพ ที่ดี ช่วย ให้ มี คน คอย ให้ คำปรึกษา ยาม มี ปัญหา",
+    "english_transliteration": "Kan mee mit-tra-phap thee dee chuai hai mee khon khoi hai kham-pruek-sa yam mee pan-ha",
+    "tamil_transliteration": "கான் மீ மித்ராபாப் தீ டீ சுவாய் ஹாய் மீ கோன் காய் ஹாய் காம்ப்ருக்ஸா யாம் மீ பன்ஹா",
+    "english_meaning": "Having good friendships provides people to offer advice during problems.",
+    "tamil_meaning": "நல்ல நண்பர்கள் இருப்பது பிரச்சனை வரும்போது ஆலோசனை பெற உதவும்."
+  },
+  {
+    "id": 156,
+    "thai": "การ ตรวจ สภาพ รถ ก่อน ออกเดินทาง ไกล ช่วย ป้องกัน รถ เสีย ระหว่าง ทาง",
+    "english_transliteration": "Kan truat sa-phap rot kon ok-doen-thang klai chuai pong-kan rot sia ra-wang thang",
+    "tamil_transliteration": "கான் த்ருவாத் சபாப் ரோத் கோன் ஆங்டேன்தாங் கிளை சுவாய் போங்கான் ரோத் சியா ராவாங் தாங்",
+    "english_meaning": "Checking vehicle condition before long road trips prevents breakdowns mid-way.",
+    "tamil_meaning": "நீண்ட பயணத்திற்கு முன் வண்டியைச் சரிபார்ப்பது வழியில் வண்டி பழுதாகாமல் தடுக்கும்."
+  },
+  {
+    "id": 157,
+    "thai": "การ นอนหลับ ฝันดี เกิดจาก การ ที่ จิตใจ ผ่อนคลาย ไม่ กังวล เรื่อง งาน",
+    "english_transliteration": "Kan non-lap fan-dee koet-chak kan thee chit-jai phon-khlai mai kang-won rueang ngan",
+    "tamil_transliteration": "கான் நான்லாப் ஃபான்டீ கோத்சாக் கான் தீ சிட்ஜெய் போன்க்லை மை கங்வோன் ருயாங் ஙான்",
+    "english_meaning": "Good dreams result from mind relaxation free from work worries.",
+    "tamil_meaning": "வேலை கவலைகள் இல்லாமல் மனம் அமைதியாக இருக்கும் போது இனிய கனவுகள் வரும்."
+  },
+  {
+    "id": 158,
+    "thai": "การ ตั้ง นาฬิกาปลุก ตรงเวลา ช่วย ให้ ตื่น นอน ทัน เวลา ทำงาน",
+    "english_transliteration": "Kan tang na-li-ka-pluk trong-we-la chuai hai tuen non than we-la tham-ngan",
+    "tamil_transliteration": "கான் தாங் நாளிகாப்லுக் த்ரோங்வேலா சுவாய் ஹாய் துயேன் நான் தான் வேலா தம்ஙான்",
+    "english_meaning": "Setting alarms accurately helps wake up on time for work.",
+    "tamil_meaning": "சரியான நேரத்திற்கு அலாரம் வைப்பது வேலைக்கு நேரத்திற்கு எழ உதவும்."
+  },
+  {
+    "id": 159,
+    "thai": "การ ออกกำลังกาย ใน ตอนเช้า รับ แสงแดด อ่อนๆ ได้ วิตามิน ดี",
+    "english_transliteration": "Kan ok-kam-lang-kai nai ton-chao rap saeng-daet on-on dai vitamin D",
+    "tamil_transliteration": "கான் ஆக்காம்லாங்கை நாய் தோன்சாவ் ராப் சேங்டேத் ஆன்ஆன் டை வைட்டமின் டி",
+    "english_meaning": "Morning exercise under mild sunlight offers good vitamin D.",
+    "tamil_meaning": "காலை இளம் வெயிலில் உடற்பயிற்சி செய்வது வைட்டமின் டி-யைத் தரும்."
+  },
+  {
+    "id": 160,
+    "thai": "การ ล้างมือ ด้วย สบู่ บ่อยๆ ช่วย กำจัด เชื้อโรค ที่ ติด อยู่ บน มือ",
+    "english_transliteration": "Kan lang-mue duai sa-boo boi-boi chuai kam-jat chuea-rok thee tit yoo bon mue",
+    "tamil_transliteration": "கான் லாங்மயே துவாய் சபூ பாய்பாய் சுவாய் கம்ஜத் சூயாரோக் தீ தித் யூ போன் முயே",
+    "english_meaning": "Washing hands frequently with soap eliminates germs stuck on hands.",
+    "tamil_meaning": "அடிக்கடி சோப்பு போட்டுக் கைகளைக் கழுவுவது கைகளில் உள்ள கிருமிகளை அழிக்கும்."
+  },
+  {
+    "id": 161,
+    "thai": "การ เลือก กิน อาหาร ที่ สด และ สะอาด ช่วย ป้องกัน โรค ท้องเสีย ได้",
+    "english_transliteration": "Kan lueak gin a-han thee sot lae sa-at chuai pong-kan rok thong-sia dai",
+    "tamil_transliteration": "கான் லியாக் கின் அஹான் தீ சோத் லே சாஆத் சுவாய் போங்கான் ரோக் தோங்சியா டை",
+    "english_meaning": "Choosing fresh and clean food helps effectively avoid diarrhea diseases.",
+    "tamil_meaning": "சுத்தமான, ஃபிரஷ்ஷான உணவைத் தேர்ந்தெடுத்து உண்பது வயிற்றுப்போக்கைத் தடுக்கும்."
+  },
+  {
+    "id": 162,
+    "thai": "การ วางแผน รายรับ รายจ่าย ช่วย ให้ การ บริหาร เงิน มี ประสิทธิภาพ",
+    "english_transliteration": "Kan wang-phaen rai-rap rai-jai chuai hai kan bo-ri-han ngoen mee pra-sit-thi-phap",
+    "tamil_transliteration": "கான் வாங்பேன் ராய்பாப் ராய்ஜாய் சுவாய் ஹாய் கான் பொரிஹான் ஙோயேன் மீ பிராசித்திபாப்",
+    "english_meaning": "Budgeting income and expenses ensures effective money management.",
+    "tamil_meaning": "வரவு செலவுகளைத் திட்டமிடுவது பணத்தை நிர்வகிக்க சிறப்பாக உதவும்."
+  },
+  {
+    "id": 163,
+    "thai": "การ ปรับ แอร์ ให้ เหมาะสม ไม่ เย็น เกินไป ช่วย ประหยัด ค่า ไฟ",
+    "english_transliteration": "Kan prap ae hai mo-som mai yen koen-pai chuai pra-yat kha fai",
+    "tamil_transliteration": "கான் ப்ராப் ஏ ஹாய் மோசோம் மை யென் கோன்பை சுவாய் பிராயத் கா ஃபை",
+    "english_meaning": "Adjusting AC suitably not overly cold saves on electricity bills.",
+    "tamil_meaning": "ஏசியை அதிகக் குளிரில் வைக்காமல் மிதமாக வைப்பது கரண்ட் பில்லைக் குறைக்கும்."
+  },
+  {
+    "id": 164,
+    "thai": "การ ดื่ม น้ำ ชา ร้อน ช่วย ให้ ชุ่มคอ และ ผ่อนคลาย ใน วัน ที่ อากาศ เย็น",
+    "english_transliteration": "Kan duem nam cha ron chuai hai chum-kho lae phon-khlai nai wan thee a-kat yen",
+    "tamil_transliteration": "கான் டுயம் நாம் சா ரோன் சுவாய் ஹாய் சும்ஹோ லே போன்க்லை நாய் வன் தீ ஆகாத் யென்",
+    "english_meaning": "Hot tea drinking soothes throat and relaxes on cool weather days.",
+    "tamil_meaning": "குளிரான நாளில் சூடான டீ குடிப்பது தொண்டைக்கு இதமாகவும் ரிலாக்ஸாகவும் இருக்கும்."
+  },
+  {
+    "id": 165,
+    "thai": "การ พักผ่อน อยู่ กับ ครอบครัว ใน วันหยุด ช่วย เพิ่ม ความอบอุ่น ใน บ้าน",
+    "english_transliteration": "Kan phak-phon yoo kap krop-khrua nai wan-yut chuai phoem khwam-op-oon nai ban",
+    "tamil_transliteration": "கான் பாக்போன் யூ காப் க்ரோப்க்ருவா நாய் வன்யுத் சுவாய் பேம் க்வாம்ஆபவூன் நாய் பான்",
+    "english_meaning": "Spending holidays with family increases warmth and happiness at home.",
+    "tamil_meaning": "விடுமுறை நாட்களில் குடும்பத்துடன் நேரத்தைச் செலவிடுவது வீட்டில் அன்பை அதிகரிக்கும்."
+  },
+  {
+    "id": 166,
+    "thai": "การ เช็ค สภาพอากาศ ก่อน เดินทาง ไป ต่างจังหวัด ช่วย ให้ เตรียม เสื้อผ้า ได้ ถูกต้อง",
+    "english_transliteration": "Kan check sa-phap-a-kat kon doen-thang pai tang-chang-wat chuai hai triam suea-pha dai thook-tong",
+    "tamil_transliteration": "கான் செக் சபாப்ஆகாத் கோன் டேன்டாங் பை தாங்சாங்வாத் சுவாய் ஹாய் த்ரியாம் சுயாபா டை தூக்தோங்",
+    "english_meaning": "Checking weather forecasts prior to provincial trips ensures correct packing.",
+    "tamil_meaning": "வெளியூர் செல்லும் முன் வானிலையைச் சரிபார்ப்பது சரியான ஆடைகளை எடுத்துச் செல்ல உதவும்."
+  },
+  {
+    "id": 167,
+    "thai": "การ สวม หมวก กันแดด ช่วย ปกป้อง ใบหน้า จาก แสงแดด ที่ ร้อนจัด",
+    "english_transliteration": "Kan suam muak kan-daet chuai pok-pong bai-na chak saeng-daet thee ron-chat",
+    "tamil_transliteration": "கான் சுவாம் மூக் கான்டேத் சுவாய் போக்யோங் பைனா சாக் சேங்டேத் தீ ரோன்ஜத்",
+    "english_meaning": "Wearing a sun hat shields the face against scorching sunlight.",
+    "tamil_meaning": "தொப்பி அணிவது கடும் வெயிலிலிருந்து முகத்தைப் பாதுகாக்க உதவும்."
+  },
+  {
+    "id": 168,
+    "thai": "การ ฝึก พูด ภาษาไทย กับ เจ้าของ ภาษา ช่วย ให้ ออกเสียง ได้ ถูกต้อง",
+    "english_transliteration": "Kan fluek phoot pha-sa-thai kap chao-khong pha-sa chuai hai ok-siang dai thook-tong",
+    "tamil_transliteration": "கான் ஃபலுக் பூத் பாசாதாய் காப் சாோகோங் பாசா சுவாய் ஹாய் ஆக்சியாங் டை தூக்தோங்",
+    "english_meaning": "Practicing speaking Thai with native speakers ensures correct pronunciation.",
+    "tamil_meaning": "தாய் தாய்மொழியாளர்களிடம் பேசிப் பழகினால் உச்சரிப்பு சரியாக வரும்."
+  },
+  {
+    "id": 169,
+    "thai": "การ ไม่ นอน ดึก ช่วย ให้ ร่างกาย ได้ หลับ พักผ่อน ได้ เต็มที่",
+    "english_transliteration": "Kan mai non duek chuai hai rang-kai dai lap phak-phon dai tem-thee",
+    "tamil_transliteration": "கான் மை நான் டுயேக் சுவாய் ஹாய் ராங்க்ஹை டை லாப் பாக்போன் டை தெம்தீ",
+    "english_meaning": "Not staying up late enables the body to rest fully.",
+    "tamil_meaning": "தாமதமாகத் தூங்காமல் இருப்பது உடல் முழுமையாக ஓய்வெடுக்க உதவும்."
+  },
+  {
+    "id": 170,
+    "thai": "การ ทาน อาหารที่มีประโยชน์ ช่วย ให้ ร่างกาย มี ภูมิคุ้มกัน ต่อ โรคต่างๆ",
+    "english_transliteration": "Kan than a-han thee mee pra-yot chuai hai rang-kai mee phoom-khum-kan to rok tang-tang",
+    "tamil_transliteration": "கான் தான் அஹான் தீ மீ பிராயோத் சுவாய் ஹாய் ராங்க்ஹை மீ பூம்பூம்கான் தோ ரோக் தாங்தாங்",
+    "english_meaning": "Eating beneficial foods gives the body immunity against various diseases.",
+    "tamil_meaning": "சத்தான உணவுகளை உண்பது நோய்களுக்கு எதிராக உடலில் நோய் எதிர்ப்புச் சக்தியை வளர்க்கும்."
+  },
+  {
+    "id": 171,
+    "thai": "การ พก ข้าวกล่อง ไป ทาน ที่ ทำงาน ช่วย ประหยัด ค่า อาหาร ได้ มาก",
+    "english_transliteration": "Kan phok khao-klong pai than thee tham-ngan chuai pra-yat kha a-han dai mak",
+    "tamil_transliteration": "கான் போக் காவ்க்லோங் பை தான் தீ தம்ஙான் சுவாய் பிராயத் கா அஹான் டை மாக்",
+    "english_meaning": "Bringing packed lunch to work saves significant food expense.",
+    "tamil_meaning": "வேலைக்கு லஞ்ச் பாக்ஸ் எடுத்துச் செல்வது உணவுச் செலவை பெருமளவு மிச்சப்படுத்தும்."
+  },
+  {
+    "id": 172,
+    "thai": "การ อ่าน ข้อตกลง ให้ ดี ก่อน เซ็น เอกสาร ช่วย ป้องกัน ปัญหา ใน อนาคต",
+    "english_transliteration": "Kan an kho-tok-long hai dee kon sen ek-ka-san chuai pong-kan pan-ha nai a-na-khot",
+    "tamil_transliteration": "கான் ஆன் கோதோக்லோங் ஹாய் டீ கோன் சென் எக்கசான் சுவாய் போங்கான் பன்ஹா நாய் அனாகோத்",
+    "english_meaning": "Reading terms carefully before signing documents avoids future problems.",
+    "tamil_meaning": "கையெழுத்திடுவதற்கு முன் நிபந்தனைகளை நன்றாகப் படிப்பது எதிர்காலப் பிரச்சனைகளைத் தடுக்கும்."
+  },
+  {
+    "id": 173,
+    "thai": "การ ล็อก ประตู และ หน้าต่าง ทุกครั้ง ช่วย ให้ บ้าน ปลอดภัย จาก ขโมย",
+    "english_transliteration": "Kan lock pra-too lae na-tang thuk-khrang chuai hai ban plon-thai chak kha-moi",
+    "tamil_transliteration": "கான் லாக் பிராதூ லே னாதாங் துக்ஹ்ராங் சுவாய் ஹாய் பான் ப்லோன்தாய் சாக் கமோய்",
+    "english_meaning": "Locking doors and windows always secures home from thieves.",
+    "tamil_meaning": "கதவுகளையும் ஜன்னல்களையும் எப்போதும் பூட்டி வைப்பது வீட்டிற்குத் திருடர்களிடமிருந்து பாதுகாப்புத் தரும்."
+  },
+  {
+    "id": 174,
+    "thai": "การ ปลูก ผัก สวนครัว ไว้ กิน เอง ช่วย ให้ ได้ ผัก ปลอด สารพิษ",
+    "english_transliteration": "Kan plook phak suan-khrua wai gin eng chuai hai dai phak plon san-phit",
+    "tamil_transliteration": "கான் ப்லூக் பாக் சுவான்க்ருவா வை கின் ஏங் சுவாய் ஹாய் டை பாக் ப்லோன் சான்பித்",
+    "english_meaning": "Growing homegrown garden vegetables yields organic chemical-free produce.",
+    "tamil_meaning": "வீட்டுத் தோட்டத்தில் காய்கறிகளை வளர்ப்பது ரசாயனமில்லாத காய்கறிகளைப் பெற உதவும்."
+  },
+  {
+    "id": 175,
+    "thai": "การ ออกกำลังกาย ด้วย การ วิ่ง ช่วย เสริมสร้าง กล้ามเนื้อ ขา ให้ แข็งแรง",
+    "english_transliteration": "Kan ok-kam-lang-kai duai kan wing chuai soem-sang klam-nuea kha hai khaeng-raeng",
+    "tamil_transliteration": "கான் ஆக்காம்லாங்கை துவாய் கான் விங் சுவாய் சோம்சாங் க்லாம்நுயா கா ஹாய் கேங்ரேங்",
+    "english_meaning": "Exercising through running strengthens leg muscles.",
+    "tamil_meaning": "ஓடி உடற்பயிற்சி செய்வது கால் தசைகளைப் பலப்படுத்தும்."
+  },
+  {
+    "id": 176,
+    "thai": "การ สวม แว่นตา สายตา ช่วย ให้ อ่าน หนังสือ ได้ ชัดเจน มากยิ่งขึ้น",
+    "english_transliteration": "Kan suam waen-ta sai-ta chuai hai an nang-sue dai chat-chen mak-ying-khuen",
+    "tamil_transliteration": "கான் சுவாம் வேன்தா சைதா சுவாய் ஹாய் ஆன் னாங்சுயே டை சட்சேன் மாக்கியிங்குயீன்",
+    "english_meaning": "Wearing prescription glasses enables reading books much clearer.",
+    "tamil_meaning": "கண்ணாடி அணிவது புத்தகங்களை இன்னும் தெளிவாகப் படிக்க உதவும்."
+  },
+  {
+    "id": 177,
+    "thai": "การ ดื่ม น้ำ เกลือแร่ หลัง ออกกำลังกาย ช่วย ชดเชย น้ำ ที่ เสีย ไป",
+    "english_transliteration": "Kan duem nam kluea-rae lang ok-kam-lang-kai chuai chod-choei nam thee sia pai",
+    "tamil_transliteration": "கான் டுயம் நாம் க்ளுயாரே லாங் ஆக்காம்லாங்கை சுவாய் சோத்சோய் நாம் தீ சியா பை",
+    "english_meaning": "Drinking electrolyte drinks post-workout replaces lost fluids.",
+    "tamil_meaning": "உடற்பயிற்சிக்குப் பிறகு எனர்ஜி டிரின்க் குடிப்பது இழந்த தண்ணீரை ஈடுசெய்ய உதவும்."
+  },
+  {
+    "id": 178,
+    "thai": "การ ใช้ โทรศัพท์ มือถือ ขณะ ขับ รถ อาจ ก่อให้เกิด อุบัติเหตุ ได้",
+    "english_transliteration": "Kan chai tho-ra-sap mue-thue kha-na khap rot at ko-hai-koet u-bat-ti-het dai",
+    "tamil_transliteration": "கான் சாய் தோரசப் முயேதுவை கனா காப் ரோத் ஆத் கோஹாய்கோத் உபத்திஹேட் டை",
+    "english_meaning": "Using mobile phones during driving might cause severe road accidents.",
+    "tamil_meaning": "வண்டி ஓட்டும்போது மொபைல் போன் பேசுவது விபத்துகளை ஏற்படுத்தலாம்."
+  },
+  {
+    "id": 179,
+    "thai": "การ รับประทาน อาหารเย็น กับ ครอบครัว เป็น เวลา ที่ อบอุ่น มาก",
+    "english_transliteration": "Kan rap-pra-than a-han-yen kap krop-khrua pen we-la thee op-oon mak",
+    "tamil_transliteration": "கான் ராப்பிராதான் அஹான்யென் காப் க்ரோப்க்ருவா பென் வேலா தீ ஆபவூன் மாக்",
+    "english_meaning": "Eating dinner with family is a very heartwarming time.",
+    "tamil_meaning": "குடும்பத்துடன் இணைந்து இரவு உணவு உண்பது மிகவும் இனிமையான நேரமாகும்."
+  },
+  {
+    "id": 180,
+    "thai": "การ เช็ค สภาพ ยาง รถยนต์ ช่วย ป้องกัน ยาง ระเบิด ขณะ ขับขี่",
+    "english_transliteration": "Kan check sa-phap yang rot-yon chuai pong-kan yang ra-boet kha-na khap-khee",
+    "tamil_transliteration": "கான் செக் சபாப் யாங் ரோத்யோன் சுவாய் போங்கான் யாங் ராபோத் கனா காப்கீ",
+    "english_meaning": "Checking car tire conditions prevents tire burst accidents while driving.",
+    "tamil_meaning": "காரின் டயர் நிலையைச் சரிபார்ப்பது வண்டி ஓட்டும்போது டயர் வெடிப்பதைத் தடுக்கும்."
+  },
+  {
+    "id": 181,
+    "thai": "การ เข้า สังคม และ พบปะ ผู้คน ช่วย ให้ มี มิตรภาพ ใหม่ๆ เพิ่มขึ้น",
+    "english_transliteration": "Kan khao sang-khom lae phop-pa phoo-khon chuai hai mee mit-tra-phap mai-mai phoem-khuen",
+    "tamil_transliteration": "கான் காவ் சாங்கோம லே போப்பா பூகோன் சுவாய் ஹாய் மீ மித்ராபாப் மைமை பேம்குயீன்",
+    "english_meaning": "Socializing and meeting people builds brand new friendships.",
+    "tamil_meaning": "சமூகத்தில் பழகி மக்களைச் சந்திப்பது புதிய நட்புகளை உருவாக்க உதவும்."
+  },
+  {
+    "id": 182,
+    "thai": "การ อ่าน ข่าวสาร ทุกเช้า ช่วย ให้ ทัน ต่อ เหตุการณ์ ใน ปัจจุบัน",
+    "english_transliteration": "Kan an khao-san thuk-chao chuai hai than to het-kan nai pat-chu-ban",
+    "tamil_transliteration": "கான் ஆன் காவ்சான் துக்சாவ் சுவாய் ஹாய் தான் தோ ஹேட்கான் நாய் பட்சுபன்",
+    "english_meaning": "Reading news every morning keeps you updated on current events.",
+    "tamil_meaning": "தினமும் காலையில் செய்திகளைப் படிப்பது நடப்பு நிகழ்வுகளைத் தெரிந்து கொள்ள உதவும்."
+  },
+  {
+    "id": 183,
+    "thai": "การ ปิด ไฟ เมื่อ ไม่ได้ ใช้งาน ช่วย ลด ค่า ไฟฟ้า ของ บ้าน",
+    "english_transliteration": "Kan pit fai muea mai-dai chai-ngan chuai lot kha fai-fa khong ban",
+    "tamil_transliteration": "கான் பித் ஃபை முயா மைடை சைஙான் சுவாய் லோத் கா ஃபைஃபா கோங் பான்",
+    "english_meaning": "Turning off lights when unused lowers household electricity bills.",
+    "tamil_meaning": "பயன்படுத்தாத போது லைட்டை அணைப்பது வீட்டின் மின்சாரக் கட்டணத்தைக் குறைக்கும்."
+  },
+  {
+    "id": 184,
+    "thai": "การ นอน พักผ่อน ใน ห้อง ที่ อากาศ ถ่ายเท ดี ช่วย ให้ สดชื่น",
+    "english_transliteration": "Kan non phak-phon nai hong thee a-kat thai-thaey dee chuai hai sot-chuen",
+    "tamil_transliteration": "கான் நான் பாக்போன் நாய் ஹாங் தீ ஆகாத் தைதே டீ சுவாய் ஹாய் சோத்சுயேன்",
+    "english_meaning": "Resting in a well-ventilated room boosts freshness.",
+    "tamil_meaning": "நல்ல காற்றோட்டமுள்ள அறையில் ஓய்வெடுப்பது புத்துணர்ச்சி அளிக்கும்."
+  },
+  {
+    "id": 185,
+    "thai": "การ ดื่ม น้ำเปล่า หลัง ตื่น นอน ช่วย กระตุ้น ระบบ ขับถ่าย",
+    "english_transliteration": "Kan duem nam-plao lang tuen non chuai kra-toon ra-bop khap-thai",
+    "tamil_transliteration": "கான் டுயம் நாம்ப்லாவ் லாங் துயேன் நான் சுவாய் கிராதூன் ரபோப் காப்தாய்",
+    "english_meaning": "Drinking water upon waking stimulates the digestive system.",
+    "tamil_meaning": "காலையில் எழுந்ததும் தண்ணீர் குடிப்பது செரிமான மண்டலத்தைத் தூண்டும்."
+  },
+  {
+    "id": 186,
+    "thai": "การ สวม ร้องเท้า ส้น แบน ช่วย ลด อาการ ปวด ขา เวลา เดิน นานๆ",
+    "english_transliteration": "Kan suam rong-thao son baen chuai lot a-kan puat kha we-la doen nan-nan",
+    "tamil_transliteration": "கான் சுவாம் ரோங்தாவ் சோன் பேன் சுவாய் லோத் ஆகான் புவாத்கா வேலா டேன் னான்னான்",
+    "english_meaning": "Wearing flat shoes reduces leg pain during long walks.",
+    "tamil_meaning": "ஃப்ளாட் செருப்புகளை அணிவது நீண்ட நேரம் நடக்கும் போது கால் வலியைக் குறைக்கும்."
+  },
+  {
+    "id": 187,
+    "thai": "การ ทาน อาหาร สุก ใหม่ ช่วย ลด ความเสี่ยง โรค ท้องร่วง",
+    "english_transliteration": "Kan than a-han suk mai chuai lot khwam-siang rok thong-ruang",
+    "tamil_transliteration": "கான் தான் அஹான் சுக் மை சுவாய் லோத் க்வாம்சியாங் ரோக் தோங்ருவாங்",
+    "english_meaning": "Eating freshly cooked warm meals lowers diarrhea risks.",
+    "tamil_meaning": "சூடான ஃபிரஷ் உணவை உண்பது வயிற்றுப்போக்கு ஆபத்தைக் குறைக்கும்."
+  },
+  {
+    "id": 188,
+    "thai": "การ ซื้อ ของ ออนไลน์ ช่วย ประหยัด เวลา การ เดินทาง ไป ห้าง",
+    "english_transliteration": "Kan sue khong online chuai pra-yat we-la kan doen-thang pai hang",
+    "tamil_transliteration": "கான் சுயே கோங் ஆன்லைன் சுவாய் பிராயத் வேலா கான் டேன்டாங் பை ஹாங்",
+    "english_meaning": "Shopping online saves travel time going to shopping malls.",
+    "tamil_meaning": "ஆன்லைனில் பொருட்கள் வாங்குவது மாலுக்குச் செல்லும் நேரத்தைச் சேமிக்கும்."
+  },
+  {
+    "id": 189,
+    "thai": "การ พก ยาดม ติดตัว ช่วย บรรเทา อาการ วิงเวียน ศีรษะ ได้",
+    "english_transliteration": "Kan phok ya-dom tit-tua chuai ban-thao a-kan wing-wian see-sa dai",
+    "tamil_transliteration": "கான் போக் யாடோம் தித்துவ சுவாய் பந்தாவ் ஆகான் விங்வியான் சீசா டை",
+    "english_meaning": "Carrying inhalers relieves dizziness symptoms effectively.",
+    "tamil_meaning": "இன்ஹேலர் கையில் வைத்திருப்பது தலைச்சுற்றல் சரியாக உதவும்."
+  },
+  {
+    "id": 190,
+    "thai": "การ แปรงฟัน หลัง อาหาร ทุก มื้อ ช่วย ป้องกัน ฟันผุ ได้ ดี",
+    "english_transliteration": "Kan praeng-fan lang a-han thuk mue chuai pong-kan fan-phu dai dee",
+    "tamil_transliteration": "கான் பிரேங்ஃபான் லாங் அஹான் துக் முயே சுவாய் போங்கான் ஃபான்பு டை டீ",
+    "english_meaning": "Brushing teeth after every meal prevents tooth decay well.",
+    "tamil_meaning": "ஒவ்வொரு உணவிற்கும் பிறகு பல் துலக்குவது பல் சொத்தையாவதைத் தடுக்கும்."
+  },
+  {
+    "id": 191,
+    "thai": "การ ปลูก ต้นไม้ กระถาง ใน บ้าน ช่วย เพิ่ม ความสดชื่น และ สวยงาม",
+    "english_transliteration": "Kan plook ton-mai kra-thang nai ban chuai phoem khwam-sot-chuen lae suai-ngam",
+    "tamil_transliteration": "கான் ப்லூக் தோன்மை கிராதாங் நாய் பான் சுவாய் பேம் க்வாம்சோத்சுயேன் லே சுவாய்ஙாம்",
+    "english_meaning": "Planting potted plants at home increases freshness and beauty.",
+    "tamil_meaning": "வீட்டிற்குள் தொட்டிச் செடிகளை வளர்ப்பது புத்துணர்ச்சியையும் அழகையும் கூட்டும்."
+  },
+  {
+    "id": 192,
+    "thai": "การ วางแผน การ เดินทาง ล่วงหน้า ช่วย ให้ ทริป เป็นไปอย่าง สนุกสนาน",
+    "english_transliteration": "Kan wang-phaen kan doen-thang luang-na chuai hai trip pen-pai-yang sa-nuk-sa-nan",
+    "tamil_transliteration": "கான் வாங்பேன் கான் டேன்டாங் லுவாங்னா சுவாய் ஹாய் ட்ரிப் பென்பாய்யாங் சனுக்சானான்",
+    "english_meaning": "Planning trips in advance guarantees enjoyable travel experiences.",
+    "tamil_meaning": "பயணத்தை முன்கூட்டியே திட்டமிடுவது சுற்றுலா ஜாலியாக அமைய உதவும்."
+  },
+  {
+    "id": 193,
+    "thai": "การ ดื่ม กาแฟ ดำ ไม่ใส่ น้ำตาล ดี ต่อ สุขภาพ มากกว่า กาแฟ ใส่ นม",
+    "english_transliteration": "Kan duem ka-fae dam mai-sai nam-tan dee to suk-kha-phap mak-kwa ka-fae sai nom",
+    "tamil_transliteration": "கான் டுயம் காஃபே டாம் மைசை நாம்தான் டீ தோ சுக்கபாப் மாக்க்வா காஃபே சை நோம்",
+    "english_meaning": "Drinking black coffee without sugar is healthier than milk coffee.",
+    "tamil_meaning": "சர்க்கரை இல்லாத பிளாக் காபி குடிப்பது பால் காபியை விட ஆரோக்கியமானது."
+  },
+  {
+    "id": 194,
+    "thai": "การ เช็ค ความเรียบร้อย ของ บ้าน ก่อน ออกไป ทำงาน ช่วย ให้ อุ่นใจ",
+    "english_transliteration": "Kan check khwam-riap-roi khong ban kon ok-pai tham-ngan chuai hai oon-jai",
+    "tamil_transliteration": "கான் செக் க்வாம்ரியாப்ராய் கோங் பான் கோன் ஆங்பை தம்ஙான் சுவாய் ஹாய் ஆபஜெய்",
+    "english_meaning": "Checking house safety before leaving for work brings peace of mind.",
+    "tamil_meaning": "வேலைக்குச் செல்லும் முன் வீட்டின் பாதுகாப்பைச் சரிபார்ப்பது நிம்மதியைத் தரும்."
+  },
+  {
+    "id": 195,
+    "thai": "การ ขี่ จักรยาน ออกกำลังกาย ช่วย บริหาร กล้ามเนื้อ ขา ได้ ดี",
+    "english_transliteration": "Kan khee jak-kra-yan ok-kam-lang-kai chuai bo-ri-han klam-nuea kha dai dee",
+    "tamil_transliteration": "கான் கீ ஜாக்கிராயான் ஆக்காம்லாங்கை சுவாய் பொரிஹான் க்லாம்நுயா கா டை டீ",
+    "english_meaning": "Riding bicycles for exercise trains leg muscles effectively.",
+    "tamil_meaning": "சைக்கிள் ஓட்டி உடற்பயிற்சி செய்வது கால் தசைகளுக்கு நல்ல பயிற்சியாகும்."
+  },
+  {
+    "id": 196,
+    "thai": "การ ฟัง คำแนะนำ จาก ผู้มีประสบการณ์ ช่วย ให้ ทำงาน ได้ ประสบความสำเร็จ",
+    "english_transliteration": "Kan fang kham-nae-nam chak phoo-mee-pra-sop-kan chuai hai tham-ngan dai pra-sop-khwam-sam-ret",
+    "tamil_transliteration": "கான் ஃபாங் காம்னேனாம் சாக் பூமீபிராசோப்கான் சுவாய் ஹாய் தம்ஙான் டை பிராசோப்க்வாம்சம்பிரெத்",
+    "english_meaning": "Listening to experienced advice helps accomplish work successfully.",
+    "tamil_meaning": "அனுபவமிக்கவர்களின் ஆலோசனைகளைக் கேட்பது வேலையில் வெற்றி பெற உதவும்."
+  },
+  {
+    "id": 197,
+    "thai": "การ ทาน อาหารเช้า ทุกวัน ช่วย ให้ มี พลังงาน สำหรับ การ ทำงาน ทั้งวัน",
+    "english_transliteration": "Kan than a-han-chao thuk-wan chuai hai mee phalang-ngan sam-rap kan tham-ngan thang-wan",
+    "tamil_transliteration": "கான் தான் அஹான்சாவ் துக்வன் சுவாய் ஹாய் மீ பலங்ஙான் சம்ராப் கான் தம்ஙான் தாங்வன்",
+    "english_meaning": "Eating breakfast every day gives energy for working all day long.",
+    "tamil_meaning": "தினமும் காலை உணவு உண்பது நாள் முழுவதும் வேலை செய்ய ஆற்றலைத் தரும்."
+  },
+  {
+    "id": 198,
+    "thai": "การ ใช้ เวลาว่าง ทำ ฮอบบี้ ที่ ชอบ ช่วย ให้ ผ่อนคลาย ความเครียด",
+    "english_transliteration": "Kan chai we-la-wang tham hobby thee chop chuai hai phon-khlai khwam-khriat",
+    "tamil_transliteration": "கான் சாய் வேலா-வாங் தம் ஹாப்பி தீ சாப் சுவாய் ஹாய் போன்க்லை க்வாம்கிரியாத்",
+    "english_meaning": "Spending spare time doing favorite hobbies reduces stress.",
+    "tamil_meaning": "ஓய்வு நேரத்தில் பிடித்த பொழுதுபோக்குகளைச் செய்வது மன அழுத்தத்தைக் குறைக்கும்."
+  },
+  {
+    "id": 199,
+    "thai": "การ รักษาสุขภาพ ร่างกาย และ จิตใจ ช่วย ให้ มี อายุ ยืนยาว และ มี ความสุข",
+    "english_transliteration": "Kan rak-sa suk-kha-phap rang-kai lae chit-jai chuai hai mee a-yu yuen-yao lae mee khwam-suk",
+    "tamil_transliteration": "கான் ராக்சா சுக்கபாப் ராங்க்ஹை லே சிட்ஜெய் சுவாய் ஹாய் மீ ஆயு யுயேன்யாவ் லே மீ க்வாம்சுக்",
+    "english_meaning": "Maintaining physical and mental health leads to a long, happy life.",
+    "tamil_meaning": "உடல் மற்றும் மன ஆரோக்கியத்தைப் பேணுவது நீண்ட ஆயுளுடனும் மகிழ்ச்சியுடனும் வாழ உதவும்."
+  },
+  {
+    "id": 200,
+    "thai": "ขอให้ ทุกคน มี สุขภาพ ร่างกาย ที่ แข็งแรง และ ประสบ ความสำเร็จ ใน ทุก เรื่อง",
+    "english_transliteration": "Kho-hai thuk-khon mee suk-kha-phap rang-kai thee khaeng-raeng lae pra-sop khwam-sam-ret nai thuk rueang",
+    "tamil_transliteration": "கோஹாய் துக்ஹோன் மீ சுக்கபாப் ராங்க்ஹை தீ கேங்ரேங் லே பிராசோப் க்வாம்சம்பிரெத் நாய் துக் ருயாங்",
+    "english_meaning": "Wish everyone strong health and great success in all endeavors.",
+    "tamil_meaning": "எல்லோரும் நல்ல உடல் ஆரோக்கியத்துடன் அனைத்துக் காரியங்களிலும் வெற்றி பெற வாழ்த்துகிறேன்."
+  }
+]

@@ -1,1 +1,1486 @@
-{"numbers": []}
+[
+    {
+        "number": 1,
+        "thai_numeral": "๑",
+        "thai_word": "หนึ่ง (Neung)",
+        "tamil_pronunciation": "நியுங்",
+        "tamil_meaning": "ஒன்று"
+    },
+    {
+        "number": 2,
+        "thai_numeral": "๒",
+        "thai_word": "สอง (Song)",
+        "tamil_pronunciation": "சோங்",
+        "tamil_meaning": "இரண்டு"
+    },
+    {
+        "number": 3,
+        "thai_numeral": "๓",
+        "thai_word": "สาม (Sam)",
+        "tamil_pronunciation": "சாம்",
+        "tamil_meaning": "மூன்று"
+    },
+    {
+        "number": 4,
+        "thai_numeral": "๔",
+        "thai_word": "สี่ (Si)",
+        "tamil_pronunciation": "சீ",
+        "tamil_meaning": "நான்கு"
+    },
+    {
+        "number": 5,
+        "thai_numeral": "๕",
+        "thai_word": "ห้า (Ha)",
+        "tamil_pronunciation": "ஹா",
+        "tamil_meaning": "ஐந்து"
+    },
+    {
+        "number": 6,
+        "thai_numeral": "๖",
+        "thai_word": "หก (Hok)",
+        "tamil_pronunciation": "ஹோக்",
+        "tamil_meaning": "ஆறு"
+    },
+    {
+        "number": 7,
+        "thai_numeral": "๗",
+        "thai_word": "เจ็ด (Chet)",
+        "tamil_pronunciation": "சேத்",
+        "tamil_meaning": "ஏழு"
+    },
+    {
+        "number": 8,
+        "thai_numeral": "๘",
+        "thai_word": "แปด (Paet)",
+        "tamil_pronunciation": "பேத்",
+        "tamil_meaning": "எட்டு"
+    },
+    {
+        "number": 9,
+        "thai_numeral": "๙",
+        "thai_word": "เก้า (Kao)",
+        "tamil_pronunciation": "காவோ",
+        "tamil_meaning": "ஒன்பது"
+    },
+    {
+        "number": 10,
+        "thai_numeral": "๑๐",
+        "thai_word": "สิบ (Sip)",
+        "tamil_pronunciation": "சிப்",
+        "tamil_meaning": "பத்து"
+    },
+    {
+        "number": 11,
+        "thai_numeral": "๑๑",
+        "thai_word": "สิบเอ็ด (Sip Et)",
+        "tamil_pronunciation": "சிப் எத்",
+        "tamil_meaning": "பதினொன்று"
+    },
+    {
+        "number": 12,
+        "thai_numeral": "๑๒",
+        "thai_word": "สิบสอง (Sip Song)",
+        "tamil_pronunciation": "சிப் சோங்",
+        "tamil_meaning": "பன்னிரண்டு"
+    },
+    {
+        "number": 13,
+        "thai_numeral": "๑๓",
+        "thai_word": "สิบสาม (Sip Sam)",
+        "tamil_pronunciation": "சிப் சாம்",
+        "tamil_meaning": "பதின்மூன்று"
+    },
+    {
+        "number": 14,
+        "thai_numeral": "๑๔",
+        "thai_word": "สิบสี่ (Sip Si)",
+        "tamil_pronunciation": "சிப் சீ",
+        "tamil_meaning": "பதினான்கு"
+    },
+    {
+        "number": 15,
+        "thai_numeral": "๑๕",
+        "thai_word": "สิบห้า (Sip Ha)",
+        "tamil_pronunciation": "சிப் ஹா",
+        "tamil_meaning": "பதினைந்து"
+    },
+    {
+        "number": 16,
+        "thai_numeral": "๑๖",
+        "thai_word": "สิบหก (Sip Hok)",
+        "tamil_pronunciation": "சிப் ஹோக்",
+        "tamil_meaning": "பதினாறு"
+    },
+    {
+        "number": 17,
+        "thai_numeral": "๑๗",
+        "thai_word": "สิบเจ็ด (Sip Chet)",
+        "tamil_pronunciation": "சிப் சேத்",
+        "tamil_meaning": "பதினேழு"
+    },
+    {
+        "number": 18,
+        "thai_numeral": "๑๘",
+        "thai_word": "สิบแปด (Sip Paet)",
+        "tamil_pronunciation": "சிப் பேத்",
+        "tamil_meaning": "பதினெட்டு"
+    },
+    {
+        "number": 19,
+        "thai_numeral": "๑๙",
+        "thai_word": "สิบเก้า (Sip Kao)",
+        "tamil_pronunciation": "சிப் காவோ",
+        "tamil_meaning": "பத்தொன்பது"
+    },
+    {
+        "number": 20,
+        "thai_numeral": "๒๐",
+        "thai_word": "ยี่สิบ (Yi Sip)",
+        "tamil_pronunciation": "யீ சிப்",
+        "tamil_meaning": "இருபது"
+    },
+    {
+        "number": 21,
+        "thai_numeral": "๒๑",
+        "thai_word": "ยี่สิบเอ็ด (Yi Sip Et)",
+        "tamil_pronunciation": "யீ சிப் எத்",
+        "tamil_meaning": "இருபத்தொன்று"
+    },
+    {
+        "number": 22,
+        "thai_numeral": "๒๒",
+        "thai_word": "ยี่สิบสอง (Yi Sip Song)",
+        "tamil_pronunciation": "யீ சிப் சோங்",
+        "tamil_meaning": "இருபத்திரண்டு"
+    },
+    {
+        "number": 23,
+        "thai_numeral": "๒๓",
+        "thai_word": "ยี่สิบสาม (Yi Sip Sam)",
+        "tamil_pronunciation": "யீ சிப் சாம்",
+        "tamil_meaning": "இருபத்திமூன்று"
+    },
+    {
+        "number": 24,
+        "thai_numeral": "๒๔",
+        "thai_word": "ยี่สิบสี่ (Yi Sip Si)",
+        "tamil_pronunciation": "யீ சிப் சீ",
+        "tamil_meaning": "இருபத்திநான்கு"
+    },
+    {
+        "number": 25,
+        "thai_numeral": "๒๕",
+        "thai_word": "ยี่สิบห้า (Yi Sip Ha)",
+        "tamil_pronunciation": "யீ சிப் ஹா",
+        "tamil_meaning": "இருபத்தைந்து"
+    },
+    {
+        "number": 26,
+        "thai_numeral": "๒๖",
+        "thai_word": "ยี่สิบหก (Yi Sip Hok)",
+        "tamil_pronunciation": "யீ சிப் ஹோக்",
+        "tamil_meaning": "இருபத்தாறு"
+    },
+    {
+        "number": 27,
+        "thai_numeral": "๒๗",
+        "thai_word": "ยี่สิบเจ็ด (Yi Sip Chet)",
+        "tamil_pronunciation": "யீ சிப் சேத்",
+        "tamil_meaning": "இருபத்தேழு"
+    },
+    {
+        "number": 28,
+        "thai_numeral": "๒๘",
+        "thai_word": "ยี่สิบแปด (Yi Sip Paet)",
+        "tamil_pronunciation": "யீ சிப் பேத்",
+        "tamil_meaning": "இருபத்தெட்டு"
+    },
+    {
+        "number": 29,
+        "thai_numeral": "๒๙",
+        "thai_word": "ยี่สิบเก้า (Yi Sip Kao)",
+        "tamil_pronunciation": "யீ சிப் காவோ",
+        "tamil_meaning": "இருபத்தொன்பது"
+    },
+    {
+        "number": 30,
+        "thai_numeral": "๓๐",
+        "thai_word": "สามสิบ (Sam Sip)",
+        "tamil_pronunciation": "சாம் சிப்",
+        "tamil_meaning": "முப்பது"
+    },
+    {
+        "number": 31,
+        "thai_numeral": "๓๑",
+        "thai_word": "สามสิบเอ็ด (Sam Sip Et)",
+        "tamil_pronunciation": "சாம் சிப் எத்",
+        "tamil_meaning": "முப்பத்தொன்று"
+    },
+    {
+        "number": 32,
+        "thai_numeral": "๓๒",
+        "thai_word": "สามสิบสอง (Sam Sip Song)",
+        "tamil_pronunciation": "சாம் சிப் சோங்",
+        "tamil_meaning": "முப்பத்திரண்டு"
+    },
+    {
+        "number": 33,
+        "thai_numeral": "๓๓",
+        "thai_word": "สามสิบสาม (Sam Sip Sam)",
+        "tamil_pronunciation": "சாம் சிப் சாம்",
+        "tamil_meaning": "முப்பத்திமூன்று"
+    },
+    {
+        "number": 34,
+        "thai_numeral": "๓๔",
+        "thai_word": "สามสิบสี่ (Sam Sip Si)",
+        "tamil_pronunciation": "சாம் சிப் சீ",
+        "tamil_meaning": "முப்பத்திநான்கு"
+    },
+    {
+        "number": 35,
+        "thai_numeral": "๓๕",
+        "thai_word": "สามสิบห้า (Sam Sip Ha)",
+        "tamil_pronunciation": "சாம் சிப் ஹா",
+        "tamil_meaning": "முப்பத்தைந்து"
+    },
+    {
+        "number": 36,
+        "thai_numeral": "๓๖",
+        "thai_word": "สามสิบหก (Sam Sip Hok)",
+        "tamil_pronunciation": "சாம் சிப் ஹோக்",
+        "tamil_meaning": "முப்பத்தாறு"
+    },
+    {
+        "number": 37,
+        "thai_numeral": "๓๗",
+        "thai_word": "สามสิบเจ็ด (Sam Sip Chet)",
+        "tamil_pronunciation": "சாம் சிப் சேத்",
+        "tamil_meaning": "முப்பத்தேழு"
+    },
+    {
+        "number": 38,
+        "thai_numeral": "๓๘",
+        "thai_word": "สามสิบแปด (Sam Sip Paet)",
+        "tamil_pronunciation": "சாம் சிப் பேத்",
+        "tamil_meaning": "முப்பத்தெட்டு"
+    },
+    {
+        "number": 39,
+        "thai_numeral": "๓๙",
+        "thai_word": "สามสิบเก้า (Sam Sip Kao)",
+        "tamil_pronunciation": "சாம் சிப் காவோ",
+        "tamil_meaning": "முப்பத்தொன்பது"
+    },
+    {
+        "number": 40,
+        "thai_numeral": "๔๐",
+        "thai_word": "สี่สิบ (Si Sip)",
+        "tamil_pronunciation": "சீ சிப்",
+        "tamil_meaning": "நாற்பது"
+    },
+    {
+        "number": 41,
+        "thai_numeral": "๔๑",
+        "thai_word": "สี่สิบเอ็ด (Si Sip Et)",
+        "tamil_pronunciation": "சீ சிப் எத்",
+        "tamil_meaning": "நாற்பத்தொன்று"
+    },
+    {
+        "number": 42,
+        "thai_numeral": "๔๒",
+        "thai_word": "สี่สิบสอง (Si Sip Song)",
+        "tamil_pronunciation": "சீ சிப் சோங்",
+        "tamil_meaning": "நாற்பத்திரண்டு"
+    },
+    {
+        "number": 43,
+        "thai_numeral": "๔๓",
+        "thai_word": "สี่สิบสาม (Si Sip Sam)",
+        "tamil_pronunciation": "சீ சிப் சாம்",
+        "tamil_meaning": "நாற்பத்திமூன்று"
+    },
+    {
+        "number": 44,
+        "thai_numeral": "๔๔",
+        "thai_word": "สี่สิบสี่ (Si Sip Si)",
+        "tamil_pronunciation": "சீ சிப் சீ",
+        "tamil_meaning": "நாற்பத்திநான்கு"
+    },
+    {
+        "number": 45,
+        "thai_numeral": "๔๕",
+        "thai_word": "สี่สิบห้า (Si Sip Ha)",
+        "tamil_pronunciation": "சீ சிப் ஹா",
+        "tamil_meaning": "நாற்பத்தைந்து"
+    },
+    {
+        "number": 46,
+        "thai_numeral": "๔๖",
+        "thai_word": "สี่สิบหก (Si Sip Hok)",
+        "tamil_pronunciation": "சீ சிப் ஹோக்",
+        "tamil_meaning": "நாற்பத்தாறு"
+    },
+    {
+        "number": 47,
+        "thai_numeral": "๔๗",
+        "thai_word": "สี่สิบเจ็ด (Si Sip Chet)",
+        "tamil_pronunciation": "சீ சிப் சேத்",
+        "tamil_meaning": "நாற்பத்தேழு"
+    },
+    {
+        "number": 48,
+        "thai_numeral": "๔๘",
+        "thai_word": "สี่สิบแปด (Si Sip Paet)",
+        "tamil_pronunciation": "சீ சிப் பேத்",
+        "tamil_meaning": "நாற்பத்தெட்டு"
+    },
+    {
+        "number": 49,
+        "thai_numeral": "๔๙",
+        "thai_word": "สี่สิบเก้า (Si Sip Kao)",
+        "tamil_pronunciation": "சீ சிப் காவோ",
+        "tamil_meaning": "நாற்பத்தொன்பது"
+    },
+    {
+        "number": 50,
+        "thai_numeral": "๕๐",
+        "thai_word": "ห้าสิบ (Ha Sip)",
+        "tamil_pronunciation": "ஹா சிப்",
+        "tamil_meaning": "ஐம்பது"
+    },
+    {
+        "number": 51,
+        "thai_numeral": "๕๑",
+        "thai_word": "ห้าสิบเอ็ด (Ha Sip Et)",
+        "tamil_pronunciation": "ஹா சிப் எத்",
+        "tamil_meaning": "ஐம்பத்தொன்று"
+    },
+    {
+        "number": 52,
+        "thai_numeral": "๕๒",
+        "thai_word": "ห้าสิบสอง (Ha Sip Song)",
+        "tamil_pronunciation": "ஹா சிப் சோங்",
+        "tamil_meaning": "ஐம்பத்திரண்டு"
+    },
+    {
+        "number": 53,
+        "thai_numeral": "๕๓",
+        "thai_word": "ห้าสิบสาม (Ha Sip Sam)",
+        "tamil_pronunciation": "ஹா சிப் சாம்",
+        "tamil_meaning": "ஐம்பத்திமூன்று"
+    },
+    {
+        "number": 54,
+        "thai_numeral": "๕๔",
+        "thai_word": "ห้าสิบสี่ (Ha Sip Si)",
+        "tamil_pronunciation": "ஹா சிப் சீ",
+        "tamil_meaning": "ஐம்பத்திநான்கு"
+    },
+    {
+        "number": 55,
+        "thai_numeral": "๕๕",
+        "thai_word": "ห้าสิบห้า (Ha Sip Ha)",
+        "tamil_pronunciation": "ஹா சிப் ஹா",
+        "tamil_meaning": "ஐம்பத்தைந்து"
+    },
+    {
+        "number": 56,
+        "thai_numeral": "๕๖",
+        "thai_word": "ห้าสิบหก (Ha Sip Hok)",
+        "tamil_pronunciation": "ஹா சிப் ஹோக்",
+        "tamil_meaning": "ஐம்பத்தாறு"
+    },
+    {
+        "number": 57,
+        "thai_numeral": "๕๗",
+        "thai_word": "ห้าสิบเจ็ด (Ha Sip Chet)",
+        "tamil_pronunciation": "ஹா சிப் சேத்",
+        "tamil_meaning": "ஐம்பத்தேழு"
+    },
+    {
+        "number": 58,
+        "thai_numeral": "๕๘",
+        "thai_word": "ห้าสิบแปด (Ha Sip Paet)",
+        "tamil_pronunciation": "ஹா சிப் பேத்",
+        "tamil_meaning": "ஐம்பத்தெட்டு"
+    },
+    {
+        "number": 59,
+        "thai_numeral": "๕๙",
+        "thai_word": "ห้าสิบเก้า (Ha Sip Kao)",
+        "tamil_pronunciation": "ஹா சிப் காவோ",
+        "tamil_meaning": "ஐம்பத்தொன்பது"
+    },
+    {
+        "number": 60,
+        "thai_numeral": "๖๐",
+        "thai_word": "หกสิบ (Hok Sip)",
+        "tamil_pronunciation": "ஹோக் சிப்",
+        "tamil_meaning": "அறுபது"
+    },
+    {
+        "number": 61,
+        "thai_numeral": "๖๑",
+        "thai_word": "หกสิบเอ็ด (Hok Sip Et)",
+        "tamil_pronunciation": "ஹோக் சிப் எத்",
+        "tamil_meaning": "அறுபத்தொன்று"
+    },
+    {
+        "number": 62,
+        "thai_numeral": "๖๒",
+        "thai_word": "หกสิบสอง (Hok Sip Song)",
+        "tamil_pronunciation": "ஹோக் சிப் சோங்",
+        "tamil_meaning": "அறுபத்திரண்டு"
+    },
+    {
+        "number": 63,
+        "thai_numeral": "๖๓",
+        "thai_word": "หกสิบสาม (Hok Sip Sam)",
+        "tamil_pronunciation": "ஹோக் சிப் சாம்",
+        "tamil_meaning": "அறுபத்திமூன்று"
+    },
+    {
+        "number": 64,
+        "thai_numeral": "๖๔",
+        "thai_word": "หกสิบสี่ (Hok Sip Si)",
+        "tamil_pronunciation": "ஹோக் சிப் சீ",
+        "tamil_meaning": "அறுபத்திநான்கு"
+    },
+    {
+        "number": 65,
+        "thai_numeral": "๖๕",
+        "thai_word": "หกสิบห้า (Hok Sip Ha)",
+        "tamil_pronunciation": "ஹோக் சிப் ஹா",
+        "tamil_meaning": "அறுபத்தைந்து"
+    },
+    {
+        "number": 66,
+        "thai_numeral": "๖๖",
+        "thai_word": "หกสิบหก (Hok Sip Hok)",
+        "tamil_pronunciation": "ஹோக் சிப் ஹோக்",
+        "tamil_meaning": "அறுபத்தாறு"
+    },
+    {
+        "number": 67,
+        "thai_numeral": "๖๗",
+        "thai_word": "หกสิบเจ็ด (Hok Sip Chet)",
+        "tamil_pronunciation": "ஹோக் சிப் சேத்",
+        "tamil_meaning": "அறுபத்தேழு"
+    },
+    {
+        "number": 68,
+        "thai_numeral": "๖๘",
+        "thai_word": "หกสิบแปด (Hok Sip Paet)",
+        "tamil_pronunciation": "ஹோக் சிப் பேத்",
+        "tamil_meaning": "அறுபத்தெட்டு"
+    },
+    {
+        "number": 69,
+        "thai_numeral": "๖๙",
+        "thai_word": "หกสิบเก้า (Hok Sip Kao)",
+        "tamil_pronunciation": "ஹோக் சிப் காவோ",
+        "tamil_meaning": "அறுபத்தொன்பது"
+    },
+    {
+        "number": 70,
+        "thai_numeral": "๗๐",
+        "thai_word": "เจ็ดสิบ (Chet Sip)",
+        "tamil_pronunciation": "சேத் சிப்",
+        "tamil_meaning": "எழுபது"
+    },
+    {
+        "number": 71,
+        "thai_numeral": "๗๑",
+        "thai_word": "เจ็ดสิบเอ็ด (Chet Sip Et)",
+        "tamil_pronunciation": "சேத் சிப் எத்",
+        "tamil_meaning": "எழுபத்தொன்று"
+    },
+    {
+        "number": 72,
+        "thai_numeral": "๗๒",
+        "thai_word": "เจ็ดสิบสอง (Chet Sip Song)",
+        "tamil_pronunciation": "சேத் சிப் சோங்",
+        "tamil_meaning": "எழுபத்திரண்டு"
+    },
+    {
+        "number": 73,
+        "thai_numeral": "๗๓",
+        "thai_word": "เจ็ดสิบสาม (Chet Sip Sam)",
+        "tamil_pronunciation": "சேத் சிப் சாம்",
+        "tamil_meaning": "எழுபத்திமூன்று"
+    },
+    {
+        "number": 74,
+        "thai_numeral": "๗๔",
+        "thai_word": "เจ็ดสิบสี่ (Chet Sip Si)",
+        "tamil_pronunciation": "சேத் சிப் சீ",
+        "tamil_meaning": "எழுபத்திநான்கு"
+    },
+    {
+        "number": 75,
+        "thai_numeral": "๗๕",
+        "thai_word": "เจ็ดสิบห้า (Chet Sip Ha)",
+        "tamil_pronunciation": "சேத் சிப் ஹா",
+        "tamil_meaning": "எழுபத்தைந்து"
+    },
+    {
+        "number": 76,
+        "thai_numeral": "๗๖",
+        "thai_word": "เจ็ดสิบหก (Chet Sip Hok)",
+        "tamil_pronunciation": "சேத் சிப் ஹோக்",
+        "tamil_meaning": "எழுபத்தாறு"
+    },
+    {
+        "number": 77,
+        "thai_numeral": "๗๗",
+        "thai_word": "เจ็ดสิบเจ็ด (Chet Sip Chet)",
+        "tamil_pronunciation": "சேத் சிப் சேத்",
+        "tamil_meaning": "எழுபத்தேழு"
+    },
+    {
+        "number": 78,
+        "thai_numeral": "๗๘",
+        "thai_word": "เจ็ดสิบแปด (Chet Sip Paet)",
+        "tamil_pronunciation": "சேத் சிப் பேத்",
+        "tamil_meaning": "எழுபத்தெட்டு"
+    },
+    {
+        "number": 79,
+        "thai_numeral": "๗๙",
+        "thai_word": "เจ็ดสิบเก้า (Chet Sip Kao)",
+        "tamil_pronunciation": "சேத் சிப் காவோ",
+        "tamil_meaning": "எழுபத்தொன்பது"
+    },
+    {
+        "number": 80,
+        "thai_numeral": "๘๐",
+        "thai_word": "แปดสิบ (Paet Sip)",
+        "tamil_pronunciation": "பேத் சிப்",
+        "tamil_meaning": "எண்பது"
+    },
+    {
+        "number": 81,
+        "thai_numeral": "๘๑",
+        "thai_word": "แปดสิบเอ็ด (Paet Sip Et)",
+        "tamil_pronunciation": "பேத் சிப் எத்",
+        "tamil_meaning": "எண்பத்தொன்று"
+    },
+    {
+        "number": 82,
+        "thai_numeral": "๘๒",
+        "thai_word": "แปดสิบสอง (Paet Sip Song)",
+        "tamil_pronunciation": "பேத் சிப் சோங்",
+        "tamil_meaning": "எண்பத்திரண்டு"
+    },
+    {
+        "number": 83,
+        "thai_numeral": "๘๓",
+        "thai_word": "แปดสิบสาม (Paet Sip Sam)",
+        "tamil_pronunciation": "பேத் சிப் சாம்",
+        "tamil_meaning": "எண்பத்திமூன்று"
+    },
+    {
+        "number": 84,
+        "thai_numeral": "๘๔",
+        "thai_word": "แปดสิบสี่ (Paet Sip Si)",
+        "tamil_pronunciation": "பேத் சிப் சீ",
+        "tamil_meaning": "எண்பத்திநான்கு"
+    },
+    {
+        "number": 85,
+        "thai_numeral": "๘๕",
+        "thai_word": "แปดสิบห้า (Paet Sip Ha)",
+        "tamil_pronunciation": "பேத் சிப் ஹா",
+        "tamil_meaning": "எண்பத்தைந்து"
+    },
+    {
+        "number": 86,
+        "thai_numeral": "๘๖",
+        "thai_word": "แปดสิบหก (Paet Sip Hok)",
+        "tamil_pronunciation": "பேத் சிப் ஹோக்",
+        "tamil_meaning": "எண்பத்தாறு"
+    },
+    {
+        "number": 87,
+        "thai_numeral": "๘๗",
+        "thai_word": "แปดสิบเจ็ด (Paet Sip Chet)",
+        "tamil_pronunciation": "பேத் சிப் சேத்",
+        "tamil_meaning": "எண்பத்தேழு"
+    },
+    {
+        "number": 88,
+        "thai_numeral": "๘๘",
+        "thai_word": "แปดสิบแปด (Paet Sip Paet)",
+        "tamil_pronunciation": "பேத் சிப் பேத்",
+        "tamil_meaning": "எண்பத்தெட்டு"
+    },
+    {
+        "number": 89,
+        "thai_numeral": "๘๙",
+        "thai_word": "แปดสิบเก้า (Paet Sip Kao)",
+        "tamil_pronunciation": "பேத் சிப் காவோ",
+        "tamil_meaning": "எண்பத்தொன்பது"
+    },
+    {
+        "number": 90,
+        "thai_numeral": "๙๐",
+        "thai_word": "เก้าสิบ (Kao Sip)",
+        "tamil_pronunciation": "காவோ சிப்",
+        "tamil_meaning": "தொண்ணூறு"
+    },
+    {
+        "number": 91,
+        "thai_numeral": "๙๑",
+        "thai_word": "เก้าสิบเอ็ด (Kao Sip Et)",
+        "tamil_pronunciation": "காவோ சிப் எத்",
+        "tamil_meaning": "தொண்ணூற்றொன்று"
+    },
+    {
+        "number": 92,
+        "thai_numeral": "๙๒",
+        "thai_word": "เก้าสิบสอง (Kao Sip Song)",
+        "tamil_pronunciation": "காவோ சிப் சோங்",
+        "tamil_meaning": "தொண்ணூற்றிரண்டு"
+    },
+    {
+        "number": 93,
+        "thai_numeral": "๙๓",
+        "thai_word": "เก้าสิบสาม (Kao Sip Sam)",
+        "tamil_pronunciation": "காவோ சிப் சாம்",
+        "tamil_meaning": "தொண்ணூற்றுமூன்று"
+    },
+    {
+        "number": 94,
+        "thai_numeral": "๙๔",
+        "thai_word": "เก้าสิบสี่ (Kao Sip Si)",
+        "tamil_pronunciation": "காவோ சிப் சீ",
+        "tamil_meaning": "தொண்ணூற்றுநான்கு"
+    },
+    {
+        "number": 95,
+        "thai_numeral": "๙๕",
+        "thai_word": "เก้าสิบห้า (Kao Sip Ha)",
+        "tamil_pronunciation": "காவோ சிப் ஹா",
+        "tamil_meaning": "தொண்ணூற்றைந்து"
+    },
+    {
+        "number": 96,
+        "thai_numeral": "๙๖",
+        "thai_word": "เก้าสิบหก (Kao Sip Hok)",
+        "tamil_pronunciation": "காவோ சிப் ஹோக்",
+        "tamil_meaning": "தொண்ணூற்றாறு"
+    },
+    {
+        "number": 97,
+        "thai_numeral": "๙๗",
+        "thai_word": "เก้าสิบเจ็ด (Kao Sip Chet)",
+        "tamil_pronunciation": "காவோ சிப் சேத்",
+        "tamil_meaning": "தொண்ணூற்றேழு"
+    },
+    {
+        "number": 98,
+        "thai_numeral": "๙๘",
+        "thai_word": "เก้าสิบแปด (Kao Sip Paet)",
+        "tamil_pronunciation": "காவோ சிப் பேத்",
+        "tamil_meaning": "தொண்ணூற்றெட்டு"
+    },
+    {
+        "number": 99,
+        "thai_numeral": "๙๙",
+        "thai_word": "เก้าสิบเก้า (Kao Sip Kao)",
+        "tamil_pronunciation": "காவோ சிப் காவோ",
+        "tamil_meaning": "தொண்ணூற்றொன்பது"
+    },
+    {
+        "number": 100,
+        "thai_numeral": "๑๐๐",
+        "thai_word": "หนึ่งร้อย (Neung Roi)",
+        "tamil_pronunciation": "நியுங் ராய்",
+        "tamil_meaning": "நூறு"
+    },
+    {
+        "number": 101,
+        "thai_numeral": "๑๐๑",
+        "thai_word": "หนึ่งร้อยเอ็ด (Neung Roi Et)",
+        "tamil_pronunciation": "நியுங் ராய் எத்",
+        "tamil_meaning": "நூற்று ஒன்று"
+    },
+    {
+        "number": 102,
+        "thai_numeral": "๑๐๒",
+        "thai_word": "หนึ่งร้อยสอง (Neung Roi Song)",
+        "tamil_pronunciation": "நியுங் ராய் சோங்",
+        "tamil_meaning": "நூற்று இரண்டு"
+    },
+    {
+        "number": 103,
+        "thai_numeral": "๑๐๓",
+        "thai_word": "หนึ่งร้อยสาม (Neung Roi Sam)",
+        "tamil_pronunciation": "நியுங் ராய் சாம்",
+        "tamil_meaning": "நூற்று மூன்று"
+    },
+    {
+        "number": 104,
+        "thai_numeral": "๑๐๔",
+        "thai_word": "หนึ่งร้อยสี่ (Neung Roi Si)",
+        "tamil_pronunciation": "நியுங் ராய் சீ",
+        "tamil_meaning": "நூற்று நான்கு"
+    },
+    {
+        "number": 105,
+        "thai_numeral": "๑๐๕",
+        "thai_word": "หนึ่งร้อยห้า (Neung Roi Ha)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா",
+        "tamil_meaning": "நூற்று ஐந்து"
+    },
+    {
+        "number": 106,
+        "thai_numeral": "๑๐๖",
+        "thai_word": "หนึ่งร้อยหก (Neung Roi Hok)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக்",
+        "tamil_meaning": "நூற்று ஆறு"
+    },
+    {
+        "number": 107,
+        "thai_numeral": "๑๐๗",
+        "thai_word": "หนึ่งร้อยเจ็ด (Neung Roi Chet)",
+        "tamil_pronunciation": "நியுங் ராய் சேத்",
+        "tamil_meaning": "நூற்று ஏழு"
+    },
+    {
+        "number": 108,
+        "thai_numeral": "๑๐๘",
+        "thai_word": "หนึ่งร้อยแปด (Neung Roi Paet)",
+        "tamil_pronunciation": "நியுங் ராய் பேத்",
+        "tamil_meaning": "நூற்று எட்டு"
+    },
+    {
+        "number": 109,
+        "thai_numeral": "๑๐๙",
+        "thai_word": "หนึ่งร้อยเก้า (Neung Roi Kao)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ",
+        "tamil_meaning": "நூற்று ஒன்பது"
+    },
+    {
+        "number": 110,
+        "thai_numeral": "๑๑๐",
+        "thai_word": "หนึ่งร้อยสิบ (Neung Roi Sip)",
+        "tamil_pronunciation": "நியுங் ராய் சிப்",
+        "tamil_meaning": "நூற்று பத்து"
+    },
+    {
+        "number": 111,
+        "thai_numeral": "๑๑๑",
+        "thai_word": "หนึ่งร้อยสิบเอ็ด (Neung Roi Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் எத்",
+        "tamil_meaning": "நூற்றுப் பதினொன்று"
+    },
+    {
+        "number": 112,
+        "thai_numeral": "๑๑๒",
+        "thai_word": "หนึ่งร้อยสิบสอง (Neung Roi Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் சோங்",
+        "tamil_meaning": "நூற்றுப் பன்னிரண்டு"
+    },
+    {
+        "number": 113,
+        "thai_numeral": "๑๑๓",
+        "thai_word": "หนึ่งร้อยสิบสาม (Neung Roi Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் சாம்",
+        "tamil_meaning": "நூற்றுப் பதிமூன்று"
+    },
+    {
+        "number": 114,
+        "thai_numeral": "๑๑๔",
+        "thai_word": "หนึ่งร้อยสิบสี่ (Neung Roi Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் சீ",
+        "tamil_meaning": "நூற்றுப் பதினான்கு"
+    },
+    {
+        "number": 115,
+        "thai_numeral": "๑๑๕",
+        "thai_word": "หนึ่งร้อยสิบห้า (Neung Roi Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் ஹா",
+        "tamil_meaning": "நூற்றுப் பதினைந்து"
+    },
+    {
+        "number": 116,
+        "thai_numeral": "๑๑๖",
+        "thai_word": "หนึ่งร้อยสิบหก (Neung Roi Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் ஹோக்",
+        "tamil_meaning": "நூற்றுப் பதினாறு"
+    },
+    {
+        "number": 117,
+        "thai_numeral": "๑๑๗",
+        "thai_word": "หนึ่งร้อยสิบเจ็ด (Neung Roi Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் சேத்",
+        "tamil_meaning": "நூற்றுப் பதினேழு"
+    },
+    {
+        "number": 118,
+        "thai_numeral": "๑๑๘",
+        "thai_word": "หนึ่งร้อยสิบแปด (Neung Roi Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் பேத்",
+        "tamil_meaning": "நூற்றுப் பன்னெட்டு"
+    },
+    {
+        "number": 119,
+        "thai_numeral": "๑๑๙",
+        "thai_word": "หนึ่งร้อยสิบเก้า (Neung Roi Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் சிப் காவோ",
+        "tamil_meaning": "நூற்றுப் பத்தொன்பது"
+    },
+    {
+        "number": 120,
+        "thai_numeral": "๑๒๐",
+        "thai_word": "หนึ่งร้อยยี่สิบ (Neung Roi Yee Sip)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப்",
+        "tamil_meaning": "நூற்று இருபது"
+    },
+    {
+        "number": 121,
+        "thai_numeral": "๑๒๑",
+        "thai_word": "หนึ่งร้อยยี่สิบเอ็ด (Neung Roi Yee Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் எத்",
+        "tamil_meaning": "நூற்று இருபத்தொன்று"
+    },
+    {
+        "number": 122,
+        "thai_numeral": "๑๒๒",
+        "thai_word": "หนึ่งร้อยยี่สิบสอง (Neung Roi Yee Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் சோங்",
+        "tamil_meaning": "நூற்று இருபத்திரண்டு"
+    },
+    {
+        "number": 123,
+        "thai_numeral": "๑๒๓",
+        "thai_word": "หนึ่งร้อยยี่สิบสาม (Neung Roi Yee Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் சாம்",
+        "tamil_meaning": "நூற்று இருபத்திமூன்று"
+    },
+    {
+        "number": 124,
+        "thai_numeral": "๑๒๔",
+        "thai_word": "หนึ่งร้อยยี่สิบสี่ (Neung Roi Yee Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் சீ",
+        "tamil_meaning": "நூற்று இருபத்திநான்கு"
+    },
+    {
+        "number": 125,
+        "thai_numeral": "๑๒๕",
+        "thai_word": "หนึ่งร้อยยี่สิบห้า (Neung Roi Yee Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் ஹா",
+        "tamil_meaning": "நூற்று இருபத்தைந்து"
+    },
+    {
+        "number": 126,
+        "thai_numeral": "๑๒๖",
+        "thai_word": "หนึ่งร้อยยี่สิบหก (Neung Roi Yee Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் ஹோக்",
+        "tamil_meaning": "நூற்று இருபத்தாறு"
+    },
+    {
+        "number": 127,
+        "thai_numeral": "๑๒๗",
+        "thai_word": "หนึ่งร้อยยี่สิบเจ็ด (Neung Roi Yee Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் சேத்",
+        "tamil_meaning": "நூற்று இருபத்தேழு"
+    },
+    {
+        "number": 128,
+        "thai_numeral": "๑๒๘",
+        "thai_word": "หนึ่งร้อยยี่สิบแปด (Neung Roi Yee Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் பேத்",
+        "tamil_meaning": "நூற்று இருபத்தெட்டு"
+    },
+    {
+        "number": 129,
+        "thai_numeral": "๑๒๙",
+        "thai_word": "หนึ่งร้อยยี่สิบเก้า (Neung Roi Yee Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் யீ சிப் காவோ",
+        "tamil_meaning": "நூற்று இருபத்தொன்பது"
+    },
+    {
+        "number": 130,
+        "thai_numeral": "๑๓๐",
+        "thai_word": "หนึ่งร้อยสามสิบ (Neung Roi Sam Sip)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப்",
+        "tamil_meaning": "நூற்று முப்பது"
+    },
+    {
+        "number": 131,
+        "thai_numeral": "๑๓๑",
+        "thai_word": "หนึ่งร้อยสามสิบเอ็ด (Neung Roi Sam Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் எத்",
+        "tamil_meaning": "நூற்று முப்பத்தொன்று"
+    },
+    {
+        "number": 132,
+        "thai_numeral": "๑๓๒",
+        "thai_word": "หนึ่งร้อยสามสิบสอง (Neung Roi Sam Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் சோங்",
+        "tamil_meaning": "நூற்று முப்பத்திரண்டு"
+    },
+    {
+        "number": 133,
+        "thai_numeral": "๑๓๓",
+        "thai_word": "หนึ่งร้อยสามสิบสาม (Neung Roi Sam Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் சாம்",
+        "tamil_meaning": "நூற்று முப்பத்திமூன்று"
+    },
+    {
+        "number": 134,
+        "thai_numeral": "๑๓๔",
+        "thai_word": "หนึ่งร้อยสามสิบสี่ (Neung Roi Sam Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் சீ",
+        "tamil_meaning": "நூற்று முப்பத்திநான்கு"
+    },
+    {
+        "number": 135,
+        "thai_numeral": "๑๓๕",
+        "thai_word": "หนึ่งร้อยสามสิบห้า (Neung Roi Sam Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் ஹா",
+        "tamil_meaning": "நூற்று முப்பத்தைந்து"
+    },
+    {
+        "number": 136,
+        "thai_numeral": "๑๓๖",
+        "thai_word": "หนึ่งร้อยสามสิบหก (Neung Roi Sam Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் ஹோக்",
+        "tamil_meaning": "நூற்று முப்பத்தாறு"
+    },
+    {
+        "number": 137,
+        "thai_numeral": "๑๓๗",
+        "thai_word": "หนึ่งร้อยสามสิบเจ็ด (Neung Roi Sam Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் சேத்",
+        "tamil_meaning": "நூற்று முப்பத்தேழு"
+    },
+    {
+        "number": 138,
+        "thai_numeral": "๑๓๘",
+        "thai_word": "หนึ่งร้อยสามสิบแปด (Neung Roi Sam Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் பேத்",
+        "tamil_meaning": "நூற்று முப்பத்தெட்டு"
+    },
+    {
+        "number": 139,
+        "thai_numeral": "๑๓๙",
+        "thai_word": "หนึ่งร้อยสามสิบเก้า (Neung Roi Sam Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் சாம் சிப் காவோ",
+        "tamil_meaning": "நூற்று முப்பத்தொன்பது"
+    },
+    {
+        "number": 140,
+        "thai_numeral": "๑๔๐",
+        "thai_word": "หนึ่งร้อยสี่สิบ (Neung Roi Si Sip)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப்",
+        "tamil_meaning": "நூற்று நாற்பது"
+    },
+    {
+        "number": 141,
+        "thai_numeral": "๑๔๑",
+        "thai_word": "หนึ่งร้อยสี่สิบเอ็ด (Neung Roi Si Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் எத்",
+        "tamil_meaning": "நூற்று நாற்பத்தொன்று"
+    },
+    {
+        "number": 142,
+        "thai_numeral": "๑๔๒",
+        "thai_word": "หนึ่งร้อยสี่สิบสอง (Neung Roi Si Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் சோங்",
+        "tamil_meaning": "நூற்று நாற்பத்திரண்டு"
+    },
+    {
+        "number": 143,
+        "thai_numeral": "๑๔๓",
+        "thai_word": "หนึ่งร้อยสี่สิบสาม (Neung Roi Si Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் சாம்",
+        "tamil_meaning": "நூற்று நாற்பத்திமூன்று"
+    },
+    {
+        "number": 144,
+        "thai_numeral": "๑๔๔",
+        "thai_word": "หนึ่งร้อยสี่สิบสี่ (Neung Roi Si Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் சீ",
+        "tamil_meaning": "நூற்று நாற்பத்திநான்கு"
+    },
+    {
+        "number": 145,
+        "thai_numeral": "๑๔๕",
+        "thai_word": "หนึ่งร้อยสี่สิบห้า (Neung Roi Si Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் ஹா",
+        "tamil_meaning": "நூற்று நாற்பத்தைந்து"
+    },
+    {
+        "number": 146,
+        "thai_numeral": "๑๔๖",
+        "thai_word": "หนึ่งร้อยสี่สิบหก (Neung Roi Si Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் ஹோக்",
+        "tamil_meaning": "நூற்று நாற்பத்தாறு"
+    },
+    {
+        "number": 147,
+        "thai_numeral": "๑๔๗",
+        "thai_word": "หนึ่งร้อยสี่สิบเจ็ด (Neung Roi Si Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் சேத்",
+        "tamil_meaning": "நூற்று நாற்பத்தேழு"
+    },
+    {
+        "number": 148,
+        "thai_numeral": "๑๔๘",
+        "thai_word": "หนึ่งร้อยสี่สิบแปด (Neung Roi Si Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் பேத்",
+        "tamil_meaning": "நூற்று நாற்பத்தெட்டு"
+    },
+    {
+        "number": 149,
+        "thai_numeral": "๑๔๙",
+        "thai_word": "หนึ่งร้อยสี่สิบเก้า (Neung Roi Si Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் சீ சிப் காவோ",
+        "tamil_meaning": "நூற்று நாற்பத்தொன்பது"
+    },
+    {
+        "number": 150,
+        "thai_numeral": "๑๕๐",
+        "thai_word": "หนึ่งร้อยห้าสิบ (Neung Roi Ha Sip)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப்",
+        "tamil_meaning": "நூற்று ஐம்பது"
+    },
+    {
+        "number": 151,
+        "thai_numeral": "๑๕๑",
+        "thai_word": "หนึ่งร้อยห้าสิบเอ็ด (Neung Roi Ha Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் எத்",
+        "tamil_meaning": "நூற்று ஐம்பத்தொன்று"
+    },
+    {
+        "number": 152,
+        "thai_numeral": "๑๕๒",
+        "thai_word": "หนึ่งร้อยห้าสิบสอง (Neung Roi Ha Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் சோங்",
+        "tamil_meaning": "நூற்று ஐம்பத்திரண்டு"
+    },
+    {
+        "number": 153,
+        "thai_numeral": "๑๕๓",
+        "thai_word": "หนึ่งร้อยห้าสิบสาม (Neung Roi Ha Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் சாம்",
+        "tamil_meaning": "நூற்று ஐம்பத்திமூன்று"
+    },
+    {
+        "number": 154,
+        "thai_numeral": "๑๕๔",
+        "thai_word": "หนึ่งร้อยห้าสิบสี่ (Neung Roi Ha Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் சீ",
+        "tamil_meaning": "நூற்று ஐம்பத்திநான்கு"
+    },
+    {
+        "number": 155,
+        "thai_numeral": "๑๕๕",
+        "thai_word": "หนึ่งร้อยห้าสิบห้า (Neung Roi Ha Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் ஹா",
+        "tamil_meaning": "நூற்று ஐம்பத்தைந்து"
+    },
+    {
+        "number": 156,
+        "thai_numeral": "๑๕๖",
+        "thai_word": "หนึ่งร้อยห้าสิบหก (Neung Roi Ha Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் ஹோக்",
+        "tamil_meaning": "நூற்று ஐம்பத்தாறு"
+    },
+    {
+        "number": 157,
+        "thai_numeral": "๑๕๗",
+        "thai_word": "หนึ่งร้อยห้าสิบเจ็ด (Neung Roi Ha Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் சேத்",
+        "tamil_meaning": "நூற்று ஐம்பத்தேழு"
+    },
+    {
+        "number": 158,
+        "thai_numeral": "๑๕๘",
+        "thai_word": "หนึ่งร้อยห้าสิบแปด (Neung Roi Ha Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் பேத்",
+        "tamil_meaning": "நூற்று ஐம்பத்தெட்டு"
+    },
+    {
+        "number": 159,
+        "thai_numeral": "๑๕๙",
+        "thai_word": "หนึ่งร้อยห้าสิบเก้า (Neung Roi Ha Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் ஹா சிப் காவோ",
+        "tamil_meaning": "நூற்று ஐம்பத்தொன்பது"
+    },
+    {
+        "number": 160,
+        "thai_numeral": "๑๖๐",
+        "thai_word": "หนึ่งร้อยหกสิบ (Neung Roi Hok Sip)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப்",
+        "tamil_meaning": "நூற்று அறுபது"
+    },
+    {
+        "number": 161,
+        "thai_numeral": "๑๖๑",
+        "thai_word": "หนึ่งร้อยหกสิบเอ็ด (Neung Roi Hok Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் எத்",
+        "tamil_meaning": "நூற்று அறுபத்தொன்று"
+    },
+    {
+        "number": 162,
+        "thai_numeral": "๑๖๒",
+        "thai_word": "หนึ่งร้อยหกสิบสอง (Neung Roi Hok Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் சோங்",
+        "tamil_meaning": "நூற்று அறுபத்திரண்டு"
+    },
+    {
+        "number": 163,
+        "thai_numeral": "๑๖๓",
+        "thai_word": "หนึ่งร้อยหกสิบสาม (Neung Roi Hok Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் சாம்",
+        "tamil_meaning": "நூற்று அறுபத்திமூன்று"
+    },
+    {
+        "number": 164,
+        "thai_numeral": "๑๖๔",
+        "thai_word": "หนึ่งร้อยหกสิบสี่ (Neung Roi Hok Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் சீ",
+        "tamil_meaning": "நூற்று அறுபத்திநான்கு"
+    },
+    {
+        "number": 165,
+        "thai_numeral": "๑๖๕",
+        "thai_word": "หนึ่งร้อยหกสิบห้า (Neung Roi Hok Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் ஹா",
+        "tamil_meaning": "நூற்று அறுபத்தைந்து"
+    },
+    {
+        "number": 166,
+        "thai_numeral": "๑๖๖",
+        "thai_word": "หนึ่งร้อยหกสิบหก (Neung Roi Hok Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் ஹோக்",
+        "tamil_meaning": "நூற்று அறுபத்தாறு"
+    },
+    {
+        "number": 167,
+        "thai_numeral": "๑๖๗",
+        "thai_word": "หนึ่งร้อยหกสิบเจ็ด (Neung Roi Hok Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் சேத்",
+        "tamil_meaning": "நூற்று அறுபத்தேழு"
+    },
+    {
+        "number": 168,
+        "thai_numeral": "๑๖๘",
+        "thai_word": "หนึ่งร้อยหกสิบแปด (Neung Roi Hok Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் பேத்",
+        "tamil_meaning": "நூற்று அறுபத்தெட்டு"
+    },
+    {
+        "number": 169,
+        "thai_numeral": "๑๖๙",
+        "thai_word": "หนึ่งร้อยหกสิบเก้า (Neung Roi Hok Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் ஹோக் சிப் காவோ",
+        "tamil_meaning": "நூற்று அறுபத்தொன்பது"
+    },
+    {
+        "number": 170,
+        "thai_numeral": "๑๗๐",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบ (Neung Roi Chet Sip)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப்",
+        "tamil_meaning": "நூற்று எழுபது"
+    },
+    {
+        "number": 171,
+        "thai_numeral": "๑๗๑",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบเอ็ด (Neung Roi Chet Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் எத்",
+        "tamil_meaning": "நூற்று எழுபத்தொன்று"
+    },
+    {
+        "number": 172,
+        "thai_numeral": "๑๗๒",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบสอง (Neung Roi Chet Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் சோங்",
+        "tamil_meaning": "நூற்று எழுபத்திரண்டு"
+    },
+    {
+        "number": 173,
+        "thai_numeral": "๑๗๓",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบสาม (Neung Roi Chet Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் சாம்",
+        "tamil_meaning": "நூற்று எழுபத்திமூன்று"
+    },
+    {
+        "number": 174,
+        "thai_numeral": "๑๗๔",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบสี่ (Neung Roi Chet Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் சீ",
+        "tamil_meaning": "நூற்று எழுபத்திநான்கு"
+    },
+    {
+        "number": 175,
+        "thai_numeral": "๑๗๕",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบห้า (Neung Roi Chet Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் ஹா",
+        "tamil_meaning": "நூற்று எழுபத்தைந்து"
+    },
+    {
+        "number": 176,
+        "thai_numeral": "๑๗๖",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบหก (Neung Roi Chet Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் ஹோக்",
+        "tamil_meaning": "நூற்று எழுபத்தாறு"
+    },
+    {
+        "number": 177,
+        "thai_numeral": "๑๗๗",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบเจ็ด (Neung Roi Chet Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் சேத்",
+        "tamil_meaning": "நூற்று எழுபத்தேழு"
+    },
+    {
+        "number": 178,
+        "thai_numeral": "๑๗๘",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบแปด (Neung Roi Chet Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் பேத்",
+        "tamil_meaning": "நூற்று எழுபத்தெட்டு"
+    },
+    {
+        "number": 179,
+        "thai_numeral": "๑๗๙",
+        "thai_word": "หนึ่งร้อยเจ็ดสิบเก้า (Neung Roi Chet Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் சேத் சிப் காவோ",
+        "tamil_meaning": "நூற்று எழுபத்தொன்பது"
+    },
+    {
+        "number": 180,
+        "thai_numeral": "๑๘๐",
+        "thai_word": "หนึ่งร้อยแปดสิบ (Neung Roi Paet Sip)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப்",
+        "tamil_meaning": "நூற்று எண்பது"
+    },
+    {
+        "number": 181,
+        "thai_numeral": "๑๘๑",
+        "thai_word": "หนึ่งร้อยแปดสิบเอ็ด (Neung Roi Paet Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் எத்",
+        "tamil_meaning": "நூற்று எண்பத்தொன்று"
+    },
+    {
+        "number": 182,
+        "thai_numeral": "๑๘๒",
+        "thai_word": "หนึ่งร้อยแปดสิบสอง (Neung Roi Paet Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் சோங்",
+        "tamil_meaning": "நூற்று எண்பத்திரண்டு"
+    },
+    {
+        "number": 183,
+        "thai_numeral": "๑๘๓",
+        "thai_word": "หนึ่งร้อยแปดสิบสาม (Neung Roi Paet Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் சாம்",
+        "tamil_meaning": "நூற்று எண்பத்திமூன்று"
+    },
+    {
+        "number": 184,
+        "thai_numeral": "๑๘๔",
+        "thai_word": "หนึ่งร้อยแปดสิบสี่ (Neung Roi Paet Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் சீ",
+        "tamil_meaning": "நூற்று எண்பத்திநான்கு"
+    },
+    {
+        "number": 185,
+        "thai_numeral": "๑๘๕",
+        "thai_word": "หนึ่งร้อยแปดสิบห้า (Neung Roi Paet Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் ஹா",
+        "tamil_meaning": "நூற்று எண்பத்தைந்து"
+    },
+    {
+        "number": 186,
+        "thai_numeral": "๑๘๖",
+        "thai_word": "หนึ่งร้อยแปดสิบหก (Neung Roi Paet Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் ஹோக்",
+        "tamil_meaning": "நூற்று எண்பத்தாறு"
+    },
+    {
+        "number": 187,
+        "thai_numeral": "๑๘๗",
+        "thai_word": "หนึ่งร้อยแปดสิบเจ็ด (Neung Roi Paet Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் சேத்",
+        "tamil_meaning": "நூற்று எண்பத்தேழு"
+    },
+    {
+        "number": 188,
+        "thai_numeral": "๑๘๘",
+        "thai_word": "หนึ่งร้อยแปดสิบแปด (Neung Roi Paet Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் பேத்",
+        "tamil_meaning": "நூற்று எண்பத்தெட்டு"
+    },
+    {
+        "number": 189,
+        "thai_numeral": "๑๘๙",
+        "thai_word": "หนึ่งร้อยแปดสิบเก้า (Neung Roi Paet Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் பேத் சிப் காவோ",
+        "tamil_meaning": "நூற்று எண்பத்தொன்பது"
+    },
+    {
+        "number": 190,
+        "thai_numeral": "๑๙๐",
+        "thai_word": "หนึ่งร้อยเก้าสิบ (Neung Roi Kao Sip)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப்",
+        "tamil_meaning": "நூற்று தொண்ணூறு"
+    },
+    {
+        "number": 191,
+        "thai_numeral": "๑๙๑",
+        "thai_word": "หนึ่งร้อยเก้าสิบเอ็ด (Neung Roi Kao Sip Et)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் எத்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றொன்று"
+    },
+    {
+        "number": 192,
+        "thai_numeral": "๑๙๒",
+        "thai_word": "หนึ่งร้อยเก้าสิบสอง (Neung Roi Kao Sip Song)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் சோங்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றிரண்டு"
+    },
+    {
+        "number": 193,
+        "thai_numeral": "๑๙๓",
+        "thai_word": "หนึ่งร้อยเก้าสิบสาม (Neung Roi Kao Sip Sam)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் சாம்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றுமூன்று"
+    },
+    {
+        "number": 194,
+        "thai_numeral": "๑๙๔",
+        "thai_word": "หนึ่งร้อยเก้าสิบสี่ (Neung Roi Kao Sip Si)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் சீ",
+        "tamil_meaning": "நூற்று தொண்ணூற்றுநான்கு"
+    },
+    {
+        "number": 195,
+        "thai_numeral": "๑๙๕",
+        "thai_word": "หนึ่งร้อยเก้าสิบห้า (Neung Roi Kao Sip Ha)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் ஹா",
+        "tamil_meaning": "நூற்று தொண்ணூற்றைந்து"
+    },
+    {
+        "number": 196,
+        "thai_numeral": "๑๙๖",
+        "thai_word": "หนึ่งร้อยเก้าสิบหก (Neung Roi Kao Sip Hok)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் ஹோக்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றாறு"
+    },
+    {
+        "number": 197,
+        "thai_numeral": "๑๙๗",
+        "thai_word": "หนึ่งร้อยเก้าสิบเจ็ด (Neung Roi Kao Sip Chet)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் சேத்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றேழு"
+    },
+    {
+        "number": 198,
+        "thai_numeral": "๑๙๘",
+        "thai_word": "หนึ่งร้อยเก้าสิบแปด (Neung Roi Kao Sip Paet)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் பேத்",
+        "tamil_meaning": "நூற்று தொண்ணூற்றெட்டு"
+    },
+    {
+        "number": 199,
+        "thai_numeral": "๑๙๙",
+        "thai_word": "หนึ่งร้อยเก้าสิบเก้า (Neung Roi Kao Sip Kao)",
+        "tamil_pronunciation": "நியுங் ராய் காவோ சிப் காவோ",
+        "tamil_meaning": "நூற்று தொண்ணூற்றொன்பது"
+    },
+    {
+        "number": 200,
+        "thai_numeral": "๒๐๐",
+        "thai_word": "สองร้อย (Song Roi)",
+        "tamil_pronunciation": "சோங் ராய்",
+        "tamil_meaning": "இருநூறு"
+    },
+    {
+        "number": 200,
+        "thai_numeral": "๒๐๐",
+        "thai_word": "สองร้อย (Song Roi)",
+        "tamil_pronunciation": "சோங் ராய்",
+        "tamil_meaning": "இருநூறு"
+    },
+    {
+        "number": 300,
+        "thai_numeral": "๓๐๐",
+        "thai_word": "สามร้อย (Sam Roi)",
+        "tamil_pronunciation": "சாம் ராய்",
+        "tamil_meaning": "முந்நூறு"
+    },
+    {
+        "number": 400,
+        "thai_numeral": "๔๐๐",
+        "thai_word": "สี่ร้อย (Si Roi)",
+        "tamil_pronunciation": "சீ ராய்",
+        "tamil_meaning": "நாநூறு"
+    },
+    {
+        "number": 500,
+        "thai_numeral": "๕๐๐",
+        "thai_word": "ห้าร้อย (Ha Roi)",
+        "tamil_pronunciation": "ஹா ராய்",
+        "tamil_meaning": "ஐந்நூறு"
+    },
+    {
+        "number": 600,
+        "thai_numeral": "๖๐๐",
+        "thai_word": "หกร้อย (Hok Roi)",
+        "tamil_pronunciation": "ஹோக் ராய்",
+        "tamil_meaning": "அறுநூறு"
+    },
+    {
+        "number": 700,
+        "thai_numeral": "๗๐๐",
+        "thai_word": "เจ็ดร้อย (Chet Roi)",
+        "tamil_pronunciation": "சேத் ராய்",
+        "tamil_meaning": "எழுநூறு"
+    },
+    {
+        "number": 800,
+        "thai_numeral": "๘๐๐",
+        "thai_word": "แปดร้อย (Paet Roi)",
+        "tamil_pronunciation": "பேத் ராய்",
+        "tamil_meaning": "எண்நூறு"
+    },
+    {
+        "number": 900,
+        "thai_numeral": "๙๐๐",
+        "thai_word": "เก้าร้อย (Kao Roi)",
+        "tamil_pronunciation": "காவோ ராய்",
+        "tamil_meaning": "தொள்ளாயிரம்"
+    },
+    {
+        "number": 1000,
+        "thai_numeral": "๑๐๐๐",
+        "thai_word": "หนึ่งพัน (Neung Phan)",
+        "tamil_pronunciation": "நியுங் பான்",
+        "tamil_meaning": "ஆயிரம்"
+    },
+    {
+        "number": 10000,
+        "thai_numeral": "๑๐๐๐๐",
+        "thai_word": "หนึ่งหมื่น (Neung Muen)",
+        "tamil_pronunciation": "நியுங் முயின்",
+        "tamil_meaning": "பத்தாயிரம்"
+    },
+    {
+        "number": 100000,
+        "thai_numeral": "๑๐๐๐๐๐",
+        "thai_word": "หนึ่งแสน (Neung Saen)",
+        "tamil_pronunciation": "நியுங் சேன்",
+        "tamil_meaning": "ஒரு லட்சம்"
+    },
+    {
+        "number": 1000000,
+        "thai_numeral": "๑๐๐๐๐๐๐",
+        "thai_word": "หนึ่งล้าน (Neung Lan)",
+        "tamil_pronunciation": "நியுங் லான்",
+        "tamil_meaning": "பத்து லட்சம் (1 மில்லியன்)"
+    }
+]

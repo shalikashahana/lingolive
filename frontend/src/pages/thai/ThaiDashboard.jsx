@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import alphabetData from "../../data/thaiAlphabetData.json";
 import thaiWordsData from "../../data/thaiWordsData.json";
@@ -221,7 +221,7 @@ export default function ThaiDashboard() {
 
   const TABS = [
     "Home",
-    "Alphabets (അക്ഷരമാല)",
+    "Alphabets (ตัวอักษร)",
     "Essential Words",
     "Numbers",
     "Sentences",
@@ -230,9 +230,8 @@ export default function ThaiDashboard() {
 
   // Progress Tracking State
   const [progress, setProgress] = useState({
-    swarangal: 0,
-    vyanjanangal: 0,
-    chillaksharangal: 0,
+    consonants: 0,
+    vowels: 0,
     words: 0,
     numbers: 0,
     sentences: 0,
@@ -242,7 +241,7 @@ export default function ThaiDashboard() {
 
   useEffect(() => {
     const savedProgressStr = localStorage.getItem("thai_progress");
-    const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
+    const defaultProgress = { consonants: 0, vowels: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
     const savedProgress = savedProgressStr ? JSON.parse(savedProgressStr) : defaultProgress;
     setProgress({ ...defaultProgress, ...savedProgress });
 
@@ -292,28 +291,50 @@ export default function ThaiDashboard() {
   const [activeQuizModuleView, setActiveQuizModuleView] = useState(null);
   const [activeQuizPartView, setActiveQuizPartView] = useState(null);
 
+  // Normalized data lists
+  const wordsList = Array.isArray(thaiWordsData) ? thaiWordsData : (thaiWordsData.words || []);
+  
+  const numbersList = (Array.isArray(thaiNumbersData) ? thaiNumbersData : (thaiNumbersData.numbers || [])).map((n) => ({
+    digit: n.number || n.thai_numeral,
+    thai: n.thai_word || n.thai,
+    english_transliteration: n.number ? `Number ${n.number}` : '',
+    tamil_transliteration: n.tamil_pronunciation,
+    english_meaning: n.number ? `Number ${n.number}` : '',
+    tamil_meaning: n.tamil_meaning
+  }));
+
+  const sentencesList = Array.isArray(thaiSentencesData) ? thaiSentencesData : (thaiSentencesData.sentences || []);
+  const SENTENCE_MODULE_SIZE = 100;
+  const sentenceModules = Array.from({ length: Math.ceil(sentencesList.length / SENTENCE_MODULE_SIZE) }).map((_, i) => ({
+    module: i + 1,
+    description: `Module ${i + 1}: Conversational Sentences (${i * SENTENCE_MODULE_SIZE + 1}-${Math.min((i + 1) * SENTENCE_MODULE_SIZE, sentencesList.length)})`,
+    total_sentences: Math.min(SENTENCE_MODULE_SIZE, sentencesList.length - i * SENTENCE_MODULE_SIZE),
+    sentences: sentencesList.slice(i * SENTENCE_MODULE_SIZE, (i + 1) * SENTENCE_MODULE_SIZE)
+  }));
+
   // Dashboard overview cards
   const dashboardCards = [
-    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
-    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
-    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
-    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: thaiWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: thaiNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: thaiSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: thaiQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "consonants", label: "Consonants (พยัญชนะ)", tab: TABS[1], icon: "ก", total: alphabetData.consonants?.length || 0, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
+    { key: "vowels", label: "Vowels (สระ)", tab: TABS[1], icon: "ะ", total: alphabetData.vowels?.length || 0, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: wordsList.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: numbersList.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: sentencesList.length, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: thaiQuizData.total_questions || 0, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
-  const renderLetterGrid = (type, lettersArray) => (
+  const renderLetterGrid = (type, lettersArray = []) => (
     <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-5">
       {lettersArray.map((letter, idx) => {
         const isCompleted = idx < progress[type];
         const isInProgress = idx === progress[type];
         const isLocked = idx > progress[type];
+        const char = letter.thai_script || letter.letter;
+        const translit = letter.thai_name || letter.transliteration || letter.tamil_pronunciation;
 
         return (
           <div 
             key={idx} 
-            onClick={() => !isLocked && handleInteraction(type, idx, letter.letter)}
+            onClick={() => !isLocked && handleInteraction(type, idx, char)}
             className={`group relative flex flex-col items-center justify-between aspect-square p-3 rounded-2xl border transition-all duration-300 overflow-hidden ${
               isInProgress
                 ? "border-[#3F6656] bg-[#3F6656]/10 ring-2 ring-[#3F6656]/50 shadow-lg cursor-pointer"
@@ -334,13 +355,13 @@ export default function ThaiDashboard() {
             
             <div className="my-1 flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-base font-bold transition shadow-sm bg-gradient-to-br text-[#14213D] shadow-[#14213D]/10 bg-white">
               <span className={`text-[32px] font-bold font-sans leading-none ${isLocked ? 'text-gray-400' : 'text-[#14213D] group-hover:text-[#3F6656]'} transition-colors drop-shadow-sm`}>
-                {letter.letter}
+                {char}
               </span>
             </div>
             
             <div className="flex flex-col items-center gap-1 z-10 w-full px-1">
               <span className="font-mono text-[10px] font-semibold bg-[#14213D]/5 text-[#14213D]/70 px-1.5 py-0.5 rounded w-full text-center truncate">
-                {letter.transliteration}
+                {translit}
               </span>
               <div className="flex justify-center gap-1 mt-1">
                 {isCompleted ? (
@@ -598,27 +619,20 @@ export default function ThaiDashboard() {
               </div>
             )}
             
-            {activeTab === "Alphabets (അക്ഷരമാല)" && (
+            {activeTab.startsWith("Alphabets") && (
               <div className="space-y-12">
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (സ്വരങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (พยัญชนะ)
                   </h3>
-                  {renderLetterGrid("swarangal", alphabetData.alphabet.swarangal)}
+                  {renderLetterGrid("consonants", alphabetData.consonants)}
                 </div>
 
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (വ്യഞ്ജനങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (สระ)
                   </h3>
-                  {renderLetterGrid("vyanjanangal", alphabetData.alphabet.vyanjanangal)}
-                </div>
-
-                <div className="space-y-6">
-                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#6366f1]" /> Chillu Letters (ചില്ലക്ഷരങ്ങൾ)
-                  </h3>
-                  {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
+                  {renderLetterGrid("vowels", alphabetData.vowels)}
                 </div>
               </div>
             )}
@@ -628,10 +642,10 @@ export default function ThaiDashboard() {
                 {activeWordPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {thaiWordsData.words.length} Essential Words
+                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {wordsList.length} Essential Words
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(thaiWordsData.words.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(wordsList.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -680,7 +694,7 @@ export default function ThaiDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {thaiWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
+                      {wordsList.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
                          const globalIdx = (activeWordPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.words;
                          const isInProgress = globalIdx === progress.words;
@@ -708,10 +722,10 @@ export default function ThaiDashboard() {
                 {activeNumberPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {thaiNumbersData.numbers.length} Numbers
+                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {numbersList.length} Numbers
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(thaiNumbersData.numbers.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(numbersList.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -760,7 +774,7 @@ export default function ThaiDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {thaiNumbersData.numbers.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
+                      {numbersList.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
                          const globalIdx = (activeNumberPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.numbers;
                          const isInProgress = globalIdx === progress.numbers;
@@ -788,10 +802,10 @@ export default function ThaiDashboard() {
                 {activeSentenceModuleView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {thaiSentencesData.total_sentences} Sentences
+                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {sentencesList.length} Sentences
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {thaiSentencesData.modules.map((moduleData, i) => (
+                      {sentenceModules.map((moduleData, i) => (
                         <button
                           key={moduleData.module}
                           onClick={() => setActiveSentenceModuleView(i)}
@@ -818,19 +832,19 @@ export default function ThaiDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {thaiSentencesData.modules[activeSentenceModuleView].module} ({thaiSentencesData.modules[activeSentenceModuleView].total_sentences} Sentences)
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {sentenceModules[activeSentenceModuleView].module} ({sentenceModules[activeSentenceModuleView].total_sentences} Sentences)
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(thaiSentencesData.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(sentenceModules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
-                        const endIdx = Math.min((i + 1) * 10, thaiSentencesData.modules[activeSentenceModuleView].sentences.length);
+                        const endIdx = Math.min((i + 1) * 10, sentenceModules[activeSentenceModuleView].sentences.length);
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
                         
                         let moduleGlobalStartIdx = 0;
                         for (let m = 0; m < activeSentenceModuleView; m++) {
-                           moduleGlobalStartIdx += thaiSentencesData.modules[m].total_sentences;
+                           moduleGlobalStartIdx += sentenceModules[m].total_sentences;
                         }
                         const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
                         const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
@@ -875,15 +889,15 @@ export default function ThaiDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {thaiSentencesData.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {sentenceModules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {thaiSentencesData.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
+                      {sentenceModules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
                          let globalIdx = 0;
                          for (let m = 0; m < activeSentenceModuleView; m++) {
-                            globalIdx += thaiSentencesData.modules[m].total_sentences;
+                            globalIdx += sentenceModules[m].total_sentences;
                          }
                          globalIdx += (activeSentencePartView * 10) + relIdx;
 

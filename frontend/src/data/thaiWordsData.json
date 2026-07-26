@@ -1,1 +1,6803 @@
-{"words": []}
+[
+  {
+    "id": 1,
+    "thai": "สวัสดี",
+    "english_transliteration": "Sawatdee",
+    "tamil_transliteration": "சவாஸ்தி",
+    "english_meaning": "Hello / Greetings",
+    "tamil_meaning": "வணக்கம்"
+  },
+  {
+    "id": 2,
+    "thai": "ขอบคุณ",
+    "english_transliteration": "Khop khun",
+    "tamil_transliteration": "காப் குன்",
+    "english_meaning": "Thank you",
+    "tamil_meaning": "நன்றி"
+  },
+  {
+    "id": 3,
+    "thai": "ขอโทษ",
+    "english_transliteration": "Kho thot",
+    "tamil_transliteration": "கா தோத்",
+    "english_meaning": "Sorry / Excuse me",
+    "tamil_meaning": "மன்னித்துக்கொள்ளுங்கள்"
+  },
+  {
+    "id": 4,
+    "thai": "ใช่",
+    "english_transliteration": "Chai",
+    "tamil_transliteration": "சாய்",
+    "english_meaning": "Yes",
+    "tamil_meaning": "ஆம்"
+  },
+  {
+    "id": 5,
+    "thai": "ไม่ใช่",
+    "english_transliteration": "Mai chai",
+    "tamil_transliteration": "மை சாய்",
+    "english_meaning": "No / Not yes",
+    "tamil_meaning": "இல்லை"
+  },
+  {
+    "id": 6,
+    "thai": "สบายดีไหม",
+    "english_transliteration": "Sabai dee mai",
+    "tamil_transliteration": "சபாய் டீ மை",
+    "english_meaning": "How are you?",
+    "tamil_meaning": "எப்படி இருக்கிறீர்கள்?"
+  },
+  {
+    "id": 7,
+    "thai": "สบายดี",
+    "english_transliteration": "Sabai dee",
+    "tamil_transliteration": "சபாய் டீ",
+    "english_meaning": "I am fine",
+    "tamil_meaning": "நன்றாக இருக்கிறேன்"
+  },
+  {
+    "id": 8,
+    "thai": "ยินดีที่ได้รู้จัก",
+    "english_transliteration": "Yindee theedai roojak",
+    "tamil_transliteration": "யின்டீ தீடை ரூஜாக்",
+    "english_meaning": "Nice to meet you",
+    "tamil_meaning": "உங்களை சந்தித்ததில் மகிழ்ச்சி"
+  },
+  {
+    "id": 9,
+    "thai": "ลาก่อน",
+    "english_transliteration": "La gon",
+    "tamil_transliteration": "லா கோன்",
+    "english_meaning": "Goodbye",
+    "tamil_meaning": "சென்று வருகிறேன்"
+  },
+  {
+    "id": 10,
+    "thai": "ยินดี",
+    "english_transliteration": "Yin dee",
+    "tamil_transliteration": "யின் டீ",
+    "english_meaning": "Welcome / You're welcome",
+    "tamil_meaning": "நல்வரவு / பரவாயில்லை"
+  },
+  {
+    "id": 11,
+    "thai": "ได้",
+    "english_transliteration": "Dai",
+    "tamil_transliteration": "டை",
+    "english_meaning": "Can / Able to",
+    "tamil_meaning": "முடியும்"
+  },
+  {
+    "id": 12,
+    "thai": "ไม่ได้",
+    "english_transliteration": "Mai dai",
+    "tamil_transliteration": "மை டை",
+    "english_meaning": "Cannot",
+    "tamil_meaning": "முடியாது"
+  },
+  {
+    "id": 13,
+    "thai": "กิน",
+    "english_transliteration": "Gin",
+    "tamil_transliteration": "கின்",
+    "english_meaning": "Eat",
+    "tamil_meaning": "சாப்பிடு"
+  },
+  {
+    "id": 14,
+    "thai": "ดื่ม",
+    "english_transliteration": "Duem",
+    "tamil_transliteration": "டுயம்",
+    "english_meaning": "Drink",
+    "tamil_meaning": "குடி"
+  },
+  {
+    "id": 15,
+    "thai": "นอน",
+    "english_transliteration": "Non",
+    "tamil_transliteration": "நான்",
+    "english_meaning": "Sleep",
+    "tamil_meaning": "தூங்கு"
+  },
+  {
+    "id": 16,
+    "thai": "ตื่น",
+    "english_transliteration": "Tuen",
+    "tamil_transliteration": "துயேன்",
+    "english_meaning": "Wake up",
+    "tamil_meaning": "எழுந்திரு"
+  },
+  {
+    "id": 17,
+    "thai": "ไป",
+    "english_transliteration": "Pai",
+    "tamil_transliteration": "பை",
+    "english_meaning": "Go",
+    "tamil_meaning": "போ"
+  },
+  {
+    "id": 18,
+    "thai": "มา",
+    "english_transliteration": "Ma",
+    "tamil_transliteration": "மா",
+    "english_meaning": "Come",
+    "tamil_meaning": "வா"
+  },
+  {
+    "id": 19,
+    "thai": "ดู",
+    "english_transliteration": "Doo",
+    "tamil_transliteration": "டூ",
+    "english_meaning": "Look / Watch",
+    "tamil_meaning": "பார்"
+  },
+  {
+    "id": 20,
+    "thai": "ฟัง",
+    "english_transliteration": "Fang",
+    "tamil_transliteration": "ஃபாங்",
+    "english_meaning": "Listen",
+    "tamil_meaning": "கேள்"
+  },
+  {
+    "id": 21,
+    "thai": "พูด",
+    "english_transliteration": "Phoot",
+    "tamil_transliteration": "பூத்",
+    "english_meaning": "Speak",
+    "tamil_meaning": "பேசு"
+  },
+  {
+    "id": 22,
+    "thai": "อ่าน",
+    "english_transliteration": "An",
+    "tamil_transliteration": "ஆன்",
+    "english_meaning": "Read",
+    "tamil_meaning": "படி"
+  },
+  {
+    "id": 23,
+    "thai": "เขียน",
+    "english_transliteration": "Khian",
+    "tamil_transliteration": "கியான்",
+    "english_meaning": "Write",
+    "tamil_meaning": "எழுது"
+  },
+  {
+    "id": 24,
+    "thai": "ทำ",
+    "english_transliteration": "Tham",
+    "tamil_transliteration": "தம்",
+    "english_meaning": "Do / Make",
+    "tamil_meaning": "செய்"
+  },
+  {
+    "id": 25,
+    "thai": "ชอบ",
+    "english_transliteration": "Chop",
+    "tamil_transliteration": "சாப்",
+    "english_meaning": "Like",
+    "tamil_meaning": "பிடிக்கும்"
+  },
+  {
+    "id": 26,
+    "thai": "รัก",
+    "english_transliteration": "Rak",
+    "tamil_transliteration": "ராக்",
+    "english_meaning": "Love",
+    "tamil_meaning": "நேசி / அன்பு"
+  },
+  {
+    "id": 27,
+    "thai": "เกลียด",
+    "english_transliteration": "Kliat",
+    "tamil_transliteration": "கிளியாத்",
+    "english_meaning": "Hate",
+    "tamil_meaning": "வெறு"
+  },
+  {
+    "id": 28,
+    "thai": "ต้องการ",
+    "english_transliteration": "Tong kan",
+    "tamil_transliteration": "தோங் கான்",
+    "english_meaning": "Need / Want",
+    "tamil_meaning": "தேவை"
+  },
+  {
+    "id": 29,
+    "thai": "อยาก",
+    "english_transliteration": "Yak",
+    "tamil_transliteration": "யாக்",
+    "english_meaning": "Want to",
+    "tamil_meaning": "வேண்டும்"
+  },
+  {
+    "id": 30,
+    "thai": "รู้",
+    "english_transliteration": "Roo",
+    "tamil_transliteration": "ரூ",
+    "english_meaning": "Know (facts)",
+    "tamil_meaning": "தெரியும்"
+  },
+  {
+    "id": 31,
+    "thai": "เข้าใจ",
+    "english_transliteration": "Khao jai",
+    "tamil_transliteration": "காவ் ஜெய்",
+    "english_meaning": "Understand",
+    "tamil_meaning": "புரிந்தது"
+  },
+  {
+    "id": 32,
+    "thai": "ไม่เข้าใจ",
+    "english_transliteration": "Mai khao jai",
+    "tamil_transliteration": "மை காவ் ஜெய்",
+    "english_meaning": "Don't understand",
+    "tamil_meaning": "புரியவில்லை"
+  },
+  {
+    "id": 33,
+    "thai": "คิด",
+    "english_transliteration": "Khit",
+    "tamil_transliteration": "கித்",
+    "english_meaning": "Think",
+    "tamil_meaning": "யோசி"
+  },
+  {
+    "id": 34,
+    "thai": "จำ",
+    "english_transliteration": "Jam",
+    "tamil_transliteration": "ஜாம்",
+    "english_meaning": "Remember",
+    "tamil_meaning": "நினைவில் வை"
+  },
+  {
+    "id": 35,
+    "thai": "ลืม",
+    "english_transliteration": "Luem",
+    "tamil_transliteration": "லுயம்",
+    "english_meaning": "Forget",
+    "tamil_meaning": "மறந்துவிடு"
+  },
+  {
+    "id": 36,
+    "thai": "ซื้อ",
+    "english_transliteration": "Sue",
+    "tamil_transliteration": "சுயே",
+    "english_meaning": "Buy",
+    "tamil_meaning": "வாங்கு"
+  },
+  {
+    "id": 37,
+    "thai": "ขาย",
+    "english_transliteration": "Khai",
+    "tamil_transliteration": "காய்",
+    "english_meaning": "Sell",
+    "tamil_meaning": "விற்"
+  },
+  {
+    "id": 38,
+    "thai": "จ่าย",
+    "english_transliteration": "Jai",
+    "tamil_transliteration": "ஜாய்",
+    "english_meaning": "Pay",
+    "tamil_meaning": "பணம் செலுத்து"
+  },
+  {
+    "id": 39,
+    "thai": "ช่วย",
+    "english_transliteration": "Chuai",
+    "tamil_transliteration": "சுவாய்",
+    "english_meaning": "Help",
+    "tamil_meaning": "உதவி செய்"
+  },
+  {
+    "id": 40,
+    "thai": "รอ",
+    "english_transliteration": "Ro",
+    "tamil_transliteration": "ரோ",
+    "english_meaning": "Wait",
+    "tamil_meaning": "காத்திரு"
+  },
+  {
+    "id": 41,
+    "thai": "อะไร",
+    "english_transliteration": "A-rai",
+    "tamil_transliteration": "அரை",
+    "english_meaning": "What",
+    "tamil_meaning": "என்ன"
+  },
+  {
+    "id": 42,
+    "thai": "ที่ไหน",
+    "english_transliteration": "Thee nai",
+    "tamil_transliteration": "தீ நாய்",
+    "english_meaning": "Where",
+    "tamil_meaning": "எங்கே"
+  },
+  {
+    "id": 43,
+    "thai": "เมื่อไหร่",
+    "english_transliteration": "Muea rai",
+    "tamil_transliteration": "முயா ராய்",
+    "english_meaning": "When",
+    "tamil_meaning": "எப்போது"
+  },
+  {
+    "id": 44,
+    "thai": "ทำไม",
+    "english_transliteration": "Tham mai",
+    "tamil_transliteration": "தம் மை",
+    "english_meaning": "Why",
+    "tamil_meaning": "ஏன்"
+  },
+  {
+    "id": 45,
+    "thai": "อย่างไร",
+    "english_transliteration": "Yang rai",
+    "tamil_transliteration": "யாங் ராய்",
+    "english_meaning": "How",
+    "tamil_meaning": "எப்படி"
+  },
+  {
+    "id": 46,
+    "thai": "ใคร",
+    "english_transliteration": "Khai",
+    "tamil_transliteration": "கிராய்",
+    "english_meaning": "Who",
+    "tamil_meaning": "யார்"
+  },
+  {
+    "id": 47,
+    "thai": "เท่าไหร่",
+    "english_transliteration": "Thao rai",
+    "tamil_transliteration": "தாவ் ராய்",
+    "english_meaning": "How much?",
+    "tamil_meaning": "எவ்வளவு?"
+  },
+  {
+    "id": 48,
+    "thai": "กี่",
+    "english_transliteration": "Kee",
+    "tamil_transliteration": "கீ",
+    "english_meaning": "How many?",
+    "tamil_meaning": "எத்தனை?"
+  },
+  {
+    "id": 49,
+    "thai": "อันไหน",
+    "english_transliteration": "An nai",
+    "tamil_transliteration": "அன் நாய்",
+    "english_meaning": "Which one?",
+    "tamil_meaning": "எது?"
+  },
+  {
+    "id": 50,
+    "thai": "ใช่ไหม",
+    "english_transliteration": "Chai mai",
+    "tamil_transliteration": "சாய் மை",
+    "english_meaning": "Right? / Is that so?",
+    "tamil_meaning": "அப்படியா?"
+  },
+  {
+    "id": 51,
+    "thai": "วันนี้",
+    "english_transliteration": "Wan nee",
+    "tamil_transliteration": "வன் நீ",
+    "english_meaning": "Today",
+    "tamil_meaning": "இன்று"
+  },
+  {
+    "id": 52,
+    "thai": "พรุ่งนี้",
+    "english_transliteration": "Phrung nee",
+    "tamil_transliteration": "புருங் நீ",
+    "english_meaning": "Tomorrow",
+    "tamil_meaning": "நாளை"
+  },
+  {
+    "id": 53,
+    "thai": "เมื่อวาน",
+    "english_transliteration": "Muea wan",
+    "tamil_transliteration": "முயா வான்",
+    "english_meaning": "Yesterday",
+    "tamil_meaning": "நேற்று"
+  },
+  {
+    "id": 54,
+    "thai": "ตอนนี้",
+    "english_transliteration": "Ton nee",
+    "tamil_transliteration": "தோன் நீ",
+    "english_meaning": "Now",
+    "tamil_meaning": "இப்போது"
+  },
+  {
+    "id": 55,
+    "thai": "ภายหลัง",
+    "english_transliteration": "Phai lang",
+    "tamil_transliteration": "பை லாங்",
+    "english_meaning": "Later",
+    "tamil_meaning": "பிறகு"
+  },
+  {
+    "id": 56,
+    "thai": "เช้า",
+    "english_transliteration": "Chao",
+    "tamil_transliteration": "சாவ்",
+    "english_meaning": "Morning",
+    "tamil_meaning": "காலை"
+  },
+  {
+    "id": 57,
+    "thai": "เที่ยง",
+    "english_transliteration": "Thiang",
+    "tamil_transliteration": "தீயாங்",
+    "english_meaning": "Noon / Midday",
+    "tamil_meaning": "நண்பகல்"
+  },
+  {
+    "id": 58,
+    "thai": "เย็น",
+    "english_transliteration": "Yen",
+    "tamil_transliteration": "யென்",
+    "english_meaning": "Evening",
+    "tamil_meaning": "மாலை"
+  },
+  {
+    "id": 59,
+    "thai": "คืน",
+    "english_transliteration": "Khuen",
+    "tamil_transliteration": "குயீன்",
+    "english_meaning": "Night",
+    "tamil_meaning": "இரவு"
+  },
+  {
+    "id": 60,
+    "thai": "เวลา",
+    "english_transliteration": "We-la",
+    "tamil_transliteration": "வேலா",
+    "english_meaning": "Time",
+    "tamil_meaning": "நேரம்"
+  },
+  {
+    "id": 61,
+    "thai": "บ้าน",
+    "english_transliteration": "Ban",
+    "tamil_transliteration": "பான்",
+    "english_meaning": "House / Home",
+    "tamil_meaning": "வீடு"
+  },
+  {
+    "id": 62,
+    "thai": "โรงเรียน",
+    "english_transliteration": "Rong rian",
+    "tamil_transliteration": "ரோங் ரியான்",
+    "english_meaning": "School",
+    "tamil_meaning": "பள்ளி"
+  },
+  {
+    "id": 63,
+    "thai": "ทำงาน",
+    "english_transliteration": "Tham ngan",
+    "tamil_transliteration": "தம் ஙான்",
+    "english_meaning": "Work",
+    "tamil_meaning": "வேலை"
+  },
+  {
+    "id": 64,
+    "thai": "ตลาด",
+    "english_transliteration": "Talat",
+    "tamil_transliteration": "தலாத்",
+    "english_meaning": "Market",
+    "tamil_meaning": "சந்தை"
+  },
+  {
+    "id": 65,
+    "thai": "ร้านอาหาร",
+    "english_transliteration": "Ran a-han",
+    "tamil_transliteration": "ரான் அஹான்",
+    "english_meaning": "Restaurant",
+    "tamil_meaning": "உணவகம்"
+  },
+  {
+    "id": 66,
+    "thai": "โรงพยาบาล",
+    "english_transliteration": "Rong pha-ya-ban",
+    "tamil_transliteration": "ரோங் பயாபான்",
+    "english_meaning": "Hospital",
+    "tamil_meaning": "மருத்துவமனை"
+  },
+  {
+    "id": 67,
+    "thai": "ห้องน้ำ",
+    "english_transliteration": "Hong nam",
+    "tamil_transliteration": "ஹாங் நாம்",
+    "english_meaning": "Bathroom / Restroom",
+    "tamil_meaning": "கழிப்பறை"
+  },
+  {
+    "id": 68,
+    "thai": "สนามบิน",
+    "english_transliteration": "Sa-nam bin",
+    "tamil_transliteration": "சநாம் பின்",
+    "english_meaning": "Airport",
+    "tamil_meaning": "விமான நிலையம்"
+  },
+  {
+    "id": 69,
+    "thai": "สถานี",
+    "english_transliteration": "Sa-tha-nee",
+    "tamil_transliteration": "சதானி",
+    "english_meaning": "Station",
+    "tamil_meaning": "நிலையம்"
+  },
+  {
+    "id": 70,
+    "thai": "โรงแรม",
+    "english_transliteration": "Rong raem",
+    "tamil_transliteration": "ரோங் ரேம்",
+    "english_meaning": "Hotel",
+    "tamil_meaning": "விடுதி"
+  },
+  {
+    "id": 71,
+    "thai": "น้ำ",
+    "english_transliteration": "Nam",
+    "tamil_transliteration": "நாம்",
+    "english_meaning": "Water",
+    "tamil_meaning": "தண்ணீர்"
+  },
+  {
+    "id": 72,
+    "thai": "ข้าว",
+    "english_transliteration": "Khao",
+    "tamil_transliteration": "காவ்",
+    "english_meaning": "Rice / Food",
+    "tamil_meaning": "சாதம் / உணவு"
+  },
+  {
+    "id": 73,
+    "thai": "ชา",
+    "english_transliteration": "Cha",
+    "tamil_transliteration": "சா",
+    "english_meaning": "Tea",
+    "tamil_meaning": "தேநீர்"
+  },
+  {
+    "id": 74,
+    "thai": "กาแฟ",
+    "english_transliteration": "Ka-fae",
+    "tamil_transliteration": "காஃபே",
+    "english_meaning": "Coffee",
+    "tamil_meaning": "காபி"
+  },
+  {
+    "id": 75,
+    "thai": "นม",
+    "english_transliteration": "Nom",
+    "tamil_transliteration": "நோம்",
+    "english_meaning": "Milk",
+    "tamil_meaning": "பால்"
+  },
+  {
+    "id": 76,
+    "thai": "ผลไม้",
+    "english_transliteration": "Phon-la-mai",
+    "tamil_transliteration": "போன்லமை",
+    "english_meaning": "Fruit",
+    "tamil_meaning": "பழம்"
+  },
+  {
+    "id": 77,
+    "thai": "ผัก",
+    "english_transliteration": "Phak",
+    "tamil_transliteration": "பாக்",
+    "english_meaning": "Vegetable",
+    "tamil_meaning": "காய்கறி"
+  },
+  {
+    "id": 78,
+    "thai": "เนื้อ",
+    "english_transliteration": "Nuea",
+    "tamil_transliteration": "நுயா",
+    "english_meaning": "Meat / Beef",
+    "tamil_meaning": "இறைச்சி"
+  },
+  {
+    "id": 79,
+    "thai": "ไก่",
+    "english_transliteration": "Gai",
+    "tamil_transliteration": "கை",
+    "english_meaning": "Chicken",
+    "tamil_meaning": "கோழி"
+  },
+  {
+    "id": 80,
+    "thai": "ปลา",
+    "english_transliteration": "Pla",
+    "tamil_transliteration": "பிளா",
+    "english_meaning": "Fish",
+    "tamil_meaning": "மீன்"
+  },
+  {
+    "id": 81,
+    "thai": "ดี",
+    "english_transliteration": "Dee",
+    "tamil_transliteration": "டீ",
+    "english_meaning": "Good",
+    "tamil_meaning": "நல்லது"
+  },
+  {
+    "id": 82,
+    "thai": "ไม่ดี",
+    "english_transliteration": "Mai dee",
+    "tamil_transliteration": "மை டீ",
+    "english_meaning": "Bad",
+    "tamil_meaning": "கேட்டது"
+  },
+  {
+    "id": 83,
+    "thai": "ใหญ่",
+    "english_transliteration": "Yai",
+    "tamil_transliteration": "யாய்",
+    "english_meaning": "Big",
+    "tamil_meaning": "பெரிய"
+  },
+  {
+    "id": 84,
+    "thai": "เล็ก",
+    "english_transliteration": "Lek",
+    "tamil_transliteration": "லெக்",
+    "english_meaning": "Small",
+    "tamil_meaning": "சிறிய"
+  },
+  {
+    "id": 85,
+    "thai": "มาก",
+    "english_transliteration": "Mak",
+    "tamil_transliteration": "மாக்",
+    "english_meaning": "Very / Much",
+    "tamil_meaning": "மிகவும்"
+  },
+  {
+    "id": 86,
+    "thai": "น้อย",
+    "english_transliteration": "Noi",
+    "tamil_transliteration": "நாய்",
+    "english_meaning": "Little / Few",
+    "tamil_meaning": "கொஞ்சம்"
+  },
+  {
+    "id": 87,
+    "thai": "ร้อน",
+    "english_transliteration": "Ron",
+    "tamil_transliteration": "ரோன்",
+    "english_meaning": "Hot",
+    "tamil_meaning": "சூடான"
+  },
+  {
+    "id": 88,
+    "thai": "หนาว",
+    "english_transliteration": "Nao",
+    "tamil_transliteration": "நாவ்",
+    "english_meaning": "Cold",
+    "tamil_meaning": "குளிர்ந்த"
+  },
+  {
+    "id": 89,
+    "thai": "อร่อย",
+    "english_transliteration": "A-roi",
+    "tamil_transliteration": "அராய்",
+    "english_meaning": "Delicious",
+    "tamil_meaning": "சுவையான"
+  },
+  {
+    "id": 90,
+    "thai": "แพง",
+    "english_transliteration": "Phaeng",
+    "tamil_transliteration": "பேங்",
+    "english_meaning": "Expensive",
+    "tamil_meaning": "விலை உயர்ந்த"
+  },
+  {
+    "id": 91,
+    "thai": "ถูก",
+    "english_transliteration": "Thook",
+    "tamil_transliteration": "தூக்",
+    "english_meaning": "Cheap",
+    "tamil_meaning": "மலிவான"
+  },
+  {
+    "id": 92,
+    "thai": "สวย",
+    "english_transliteration": "Suai",
+    "tamil_transliteration": "சுவாய்",
+    "english_meaning": "Beautiful",
+    "tamil_meaning": "அழகான"
+  },
+  {
+    "id": 93,
+    "thai": "หล่อ",
+    "english_transliteration": "Lo",
+    "tamil_transliteration": "லோ",
+    "english_meaning": "Handsome",
+    "tamil_meaning": "அழகானவன்"
+  },
+  {
+    "id": 94,
+    "thai": "สุข",
+    "english_transliteration": "Suk",
+    "tamil_transliteration": "சுக்",
+    "english_meaning": "Happy",
+    "tamil_meaning": "மகிழ்ச்சி"
+  },
+  {
+    "id": 95,
+    "thai": "เศร้า",
+    "english_transliteration": "Sao",
+    "tamil_transliteration": "சாவ்",
+    "english_meaning": "Sad",
+    "tamil_meaning": "வருத்தம்"
+  },
+  {
+    "id": 96,
+    "thai": "เหนื่อย",
+    "english_transliteration": "Nuai",
+    "tamil_transliteration": "நுவாய்",
+    "english_meaning": "Tired",
+    "tamil_meaning": "சோர்வு"
+  },
+  {
+    "id": 97,
+    "thai": "หิว",
+    "english_transliteration": "Hiu",
+    "tamil_transliteration": "ஹியூ",
+    "english_meaning": "Hungry",
+    "tamil_meaning": "பசி"
+  },
+  {
+    "id": 98,
+    "thai": "อิ่ม",
+    "english_transliteration": "Im",
+    "tamil_transliteration": "இம்",
+    "english_meaning": "Full (stomach)",
+    "tamil_meaning": "வயிறு நிறைந்தது"
+  },
+  {
+    "id": 99,
+    "thai": "เจ็บ",
+    "english_transliteration": "Jep",
+    "tamil_transliteration": "ஜெப்",
+    "english_meaning": "Pain / Hurt",
+    "tamil_meaning": "வலி"
+  },
+  {
+    "id": 100,
+    "thai": "สบาย",
+    "english_transliteration": "Sa-bai",
+    "tamil_transliteration": "சபாய்",
+    "english_meaning": "Comfortable",
+    "tamil_meaning": "சௌகரியமான"
+  },
+  {
+    "id": 101,
+    "thai": "สีแดง",
+    "english_transliteration": "See daeng",
+    "tamil_transliteration": "சீ டேங்",
+    "english_meaning": "Red (colour)",
+    "tamil_meaning": "சிவப்பு"
+  },
+  {
+    "id": 102,
+    "thai": "สีน้ำเงิน",
+    "english_transliteration": "See nam ngoen",
+    "tamil_transliteration": "சீ நாம் ங்யோன்",
+    "english_meaning": "Blue (colour)",
+    "tamil_meaning": "நீலம்"
+  },
+  {
+    "id": 103,
+    "thai": "สีเขียว",
+    "english_transliteration": "See khiao",
+    "tamil_transliteration": "சீ கியாவ்",
+    "english_meaning": "Green (colour)",
+    "tamil_meaning": "பச்சை"
+  },
+  {
+    "id": 104,
+    "thai": "สีเหลือง",
+    "english_transliteration": "See lueang",
+    "tamil_transliteration": "சீ லுவாங்",
+    "english_meaning": "Yellow (colour)",
+    "tamil_meaning": "மஞ்சள்"
+  },
+  {
+    "id": 105,
+    "thai": "สีขาว",
+    "english_transliteration": "See khao",
+    "tamil_transliteration": "சீ காவ்",
+    "english_meaning": "White (colour)",
+    "tamil_meaning": "வெள்ளை"
+  },
+  {
+    "id": 106,
+    "thai": "สีดำ",
+    "english_transliteration": "See dam",
+    "tamil_transliteration": "சீ டாம்",
+    "english_meaning": "Black (colour)",
+    "tamil_meaning": "கருப்பு"
+  },
+  {
+    "id": 107,
+    "thai": "สีส้ม",
+    "english_transliteration": "See som",
+    "tamil_transliteration": "சீ சோம்",
+    "english_meaning": "Orange (colour)",
+    "tamil_meaning": "ஆரஞ்சு நிறம்"
+  },
+  {
+    "id": 108,
+    "thai": "สีม่วง",
+    "english_transliteration": "See muang",
+    "tamil_transliteration": "சீ முவாங்",
+    "english_meaning": "Purple (colour)",
+    "tamil_meaning": "ஊதா"
+  },
+  {
+    "id": 109,
+    "thai": "สีชมพู",
+    "english_transliteration": "See chom-phoo",
+    "tamil_transliteration": "சீ சோம்பூ",
+    "english_meaning": "Pink (colour)",
+    "tamil_meaning": "இளஞ்சிவப்பு"
+  },
+  {
+    "id": 110,
+    "thai": "สีน้ำตาล",
+    "english_transliteration": "See nam tan",
+    "tamil_transliteration": "சீ நாம் தான்",
+    "english_meaning": "Brown (colour)",
+    "tamil_meaning": "பழுப்பு"
+  },
+  {
+    "id": 111,
+    "thai": "หัว",
+    "english_transliteration": "Hua",
+    "tamil_transliteration": "ஹுவா",
+    "english_meaning": "Head",
+    "tamil_meaning": "தலை"
+  },
+  {
+    "id": 112,
+    "thai": "ตา",
+    "english_transliteration": "Ta",
+    "tamil_transliteration": "தா",
+    "english_meaning": "Eye",
+    "tamil_meaning": "கண்"
+  },
+  {
+    "id": 113,
+    "thai": "หู",
+    "english_transliteration": "Hoo",
+    "tamil_transliteration": "ஹூ",
+    "english_meaning": "Ear",
+    "tamil_meaning": "காது"
+  },
+  {
+    "id": 114,
+    "thai": "จมูก",
+    "english_transliteration": "Ja-mook",
+    "tamil_transliteration": "ஜமூக்",
+    "english_meaning": "Nose",
+    "tamil_meaning": "மூக்கு"
+  },
+  {
+    "id": 115,
+    "thai": "ปาก",
+    "english_transliteration": "Pak",
+    "tamil_transliteration": "பாக்",
+    "english_meaning": "Mouth",
+    "tamil_meaning": "வாய்"
+  },
+  {
+    "id": 116,
+    "thai": "มือ",
+    "english_transliteration": "Mue",
+    "tamil_transliteration": "முயே",
+    "english_meaning": "Hand",
+    "tamil_meaning": "கை"
+  },
+  {
+    "id": 117,
+    "thai": "เท้า",
+    "english_transliteration": "Thao",
+    "tamil_transliteration": "தாவ்",
+    "english_meaning": "Foot",
+    "tamil_meaning": "கால்"
+  },
+  {
+    "id": 118,
+    "thai": "หัวใจ",
+    "english_transliteration": "Hua jai",
+    "tamil_transliteration": "ஹுவா ஜெய்",
+    "english_meaning": "Heart",
+    "tamil_meaning": "இதயம்"
+  },
+  {
+    "id": 119,
+    "thai": "ท้อง",
+    "english_transliteration": "Thong",
+    "tamil_transliteration": "தோங்",
+    "english_meaning": "Stomach / Belly",
+    "tamil_meaning": "வயிறு"
+  },
+  {
+    "id": 120,
+    "thai": "หลัง",
+    "english_transliteration": "Lang",
+    "tamil_transliteration": "லாங்",
+    "english_meaning": "Back",
+    "tamil_meaning": "முதுகு"
+  },
+  {
+    "id": 121,
+    "thai": "พ่อ",
+    "english_transliteration": "Pho",
+    "tamil_transliteration": "போ",
+    "english_meaning": "Father",
+    "tamil_meaning": "அப்பா"
+  },
+  {
+    "id": 122,
+    "thai": "แม่",
+    "english_transliteration": "Mae",
+    "tamil_transliteration": "மேய்",
+    "english_meaning": "Mother",
+    "tamil_meaning": "அம்மா"
+  },
+  {
+    "id": 123,
+    "thai": "พี่ชาย",
+    "english_transliteration": "Phee chai",
+    "tamil_transliteration": "பீ சாய்",
+    "english_meaning": "Older brother",
+    "tamil_meaning": "அண்ணன்"
+  },
+  {
+    "id": 124,
+    "thai": "น้องชาย",
+    "english_transliteration": "Nong chai",
+    "tamil_transliteration": "நோங் சாய்",
+    "english_meaning": "Younger brother",
+    "tamil_meaning": "தம்பி"
+  },
+  {
+    "id": 125,
+    "thai": "พี่สาว",
+    "english_transliteration": "Phee sao",
+    "tamil_transliteration": "பீ சாவ்",
+    "english_meaning": "Older sister",
+    "tamil_meaning": "அக்கா"
+  },
+  {
+    "id": 126,
+    "thai": "น้องสาว",
+    "english_transliteration": "Nong sao",
+    "tamil_transliteration": "நோங் சாவ்",
+    "english_meaning": "Younger sister",
+    "tamil_meaning": "தங்கை"
+  },
+  {
+    "id": 127,
+    "thai": "ปู่",
+    "english_transliteration": "Poo",
+    "tamil_transliteration": "பூ",
+    "english_meaning": "Paternal grandfather",
+    "tamil_meaning": "தாத்தா (தந்தை வழி)"
+  },
+  {
+    "id": 128,
+    "thai": "ย่า",
+    "english_transliteration": "Ya",
+    "tamil_transliteration": "யா",
+    "english_meaning": "Paternal grandmother",
+    "tamil_meaning": "பாட்டி (தந்தை வழி)"
+  },
+  {
+    "id": 129,
+    "thai": "ตา",
+    "english_transliteration": "Ta",
+    "tamil_transliteration": "தா",
+    "english_meaning": "Maternal grandfather",
+    "tamil_meaning": "தாத்தா (தாய் வழி)"
+  },
+  {
+    "id": 130,
+    "thai": "ยาย",
+    "english_transliteration": "Yai",
+    "tamil_transliteration": "யாய்",
+    "english_meaning": "Maternal grandmother",
+    "tamil_meaning": "பாட்டி (தாய் வழி)"
+  },
+  {
+    "id": 131,
+    "thai": "รถ",
+    "english_transliteration": "Rot",
+    "tamil_transliteration": "ரோத்",
+    "english_meaning": "Car / Vehicle",
+    "tamil_meaning": "கார் / வாகனம்"
+  },
+  {
+    "id": 132,
+    "thai": "รถบัส",
+    "english_transliteration": "Rot bat",
+    "tamil_transliteration": "ரோத் பாத்",
+    "english_meaning": "Bus",
+    "tamil_meaning": "பேருந்து"
+  },
+  {
+    "id": 133,
+    "thai": "รถไฟ",
+    "english_transliteration": "Rot fai",
+    "tamil_transliteration": "ரோத் ஃபாய்",
+    "english_meaning": "Train",
+    "tamil_meaning": "ரயில்"
+  },
+  {
+    "id": 134,
+    "thai": "เรือ",
+    "english_transliteration": "Ruea",
+    "tamil_transliteration": "ருவா",
+    "english_meaning": "Boat / Ship",
+    "tamil_meaning": "படகு"
+  },
+  {
+    "id": 135,
+    "thai": "เครื่องบิน",
+    "english_transliteration": "Khrueang bin",
+    "tamil_transliteration": "க்ருவாங் பின்",
+    "english_meaning": "Aeroplane",
+    "tamil_meaning": "விமானம்"
+  },
+  {
+    "id": 136,
+    "thai": "มอเตอร์ไซค์",
+    "english_transliteration": "Mo-toe-sai",
+    "tamil_transliteration": "மோட்டோ சாய்",
+    "english_meaning": "Motorcycle",
+    "tamil_meaning": "மோட்டார் சைக்கிள்"
+  },
+  {
+    "id": 137,
+    "thai": "จักรยาน",
+    "english_transliteration": "Jak-ga-yan",
+    "tamil_transliteration": "ஜாக்கயான்",
+    "english_meaning": "Bicycle",
+    "tamil_meaning": "மிதிவண்டி"
+  },
+  {
+    "id": 138,
+    "thai": "แท็กซี่",
+    "english_transliteration": "Thaek-see",
+    "tamil_transliteration": "டேக்சீ",
+    "english_meaning": "Taxi",
+    "tamil_meaning": "டாக்சி"
+  },
+  {
+    "id": 139,
+    "thai": "ถนน",
+    "english_transliteration": "Tha-non",
+    "tamil_transliteration": "தனோன்",
+    "english_meaning": "Road / Street",
+    "tamil_meaning": "சாலை"
+  },
+  {
+    "id": 140,
+    "thai": "สะพาน",
+    "english_transliteration": "Sa-phan",
+    "tamil_transliteration": "சபான்",
+    "english_meaning": "Bridge",
+    "tamil_meaning": "பாலம்"
+  },
+  {
+    "id": 141,
+    "thai": "หนังสือ",
+    "english_transliteration": "Nang-sue",
+    "tamil_transliteration": "நாங்சுயே",
+    "english_meaning": "Book",
+    "tamil_meaning": "புத்தகம்"
+  },
+  {
+    "id": 142,
+    "thai": "ปากกา",
+    "english_transliteration": "Pak-ga",
+    "tamil_transliteration": "பாக்கா",
+    "english_meaning": "Pen",
+    "tamil_meaning": "பேனா"
+  },
+  {
+    "id": 143,
+    "thai": "โทรศัพท์",
+    "english_transliteration": "Tho-ra-sap",
+    "tamil_transliteration": "தோரசாப்",
+    "english_meaning": "Telephone / Phone",
+    "tamil_meaning": "தொலைபேசி"
+  },
+  {
+    "id": 144,
+    "thai": "คอมพิวเตอร์",
+    "english_transliteration": "Khom-phiu-toe",
+    "tamil_transliteration": "கோம்பியூதோ",
+    "english_meaning": "Computer",
+    "tamil_meaning": "கணினி"
+  },
+  {
+    "id": 145,
+    "thai": "อินเทอร์เน็ต",
+    "english_transliteration": "In-toe-net",
+    "tamil_transliteration": "இன்டோ நெத்",
+    "english_meaning": "Internet",
+    "tamil_meaning": "இணையம்"
+  },
+  {
+    "id": 146,
+    "thai": "เงิน",
+    "english_transliteration": "Ngoen",
+    "tamil_transliteration": "ங்யோன்",
+    "english_meaning": "Money / Silver",
+    "tamil_meaning": "பணம்"
+  },
+  {
+    "id": 147,
+    "thai": "บาท",
+    "english_transliteration": "Baht",
+    "tamil_transliteration": "பாத்",
+    "english_meaning": "Baht (Thai currency)",
+    "tamil_meaning": "பாட் (தாய் நாணயம்)"
+  },
+  {
+    "id": 148,
+    "thai": "ธนาคาร",
+    "english_transliteration": "Tha-na-khan",
+    "tamil_transliteration": "தனாகான்",
+    "english_meaning": "Bank",
+    "tamil_meaning": "வங்கி"
+  },
+  {
+    "id": 149,
+    "thai": "ไปรษณีย์",
+    "english_transliteration": "Prai-sa-nee",
+    "tamil_transliteration": "ப்ரைசனி",
+    "english_meaning": "Post office",
+    "tamil_meaning": "தபால் அலுவலகம்"
+  },
+  {
+    "id": 150,
+    "thai": "ตำรวจ",
+    "english_transliteration": "Tam-ruat",
+    "tamil_transliteration": "தம்ருவாத்",
+    "english_meaning": "Police",
+    "tamil_meaning": "காவல்துறை"
+  },
+  {
+    "id": 101,
+    "thai": "พ่อ",
+    "english_transliteration": "Pho",
+    "tamil_transliteration": "போ",
+    "english_meaning": "Father",
+    "tamil_meaning": "அப்பா"
+  },
+  {
+    "id": 102,
+    "thai": "แม่",
+    "english_transliteration": "Mae",
+    "tamil_transliteration": "மே",
+    "english_meaning": "Mother",
+    "tamil_meaning": "அம்மா"
+  },
+  {
+    "id": 103,
+    "thai": "ลูก",
+    "english_transliteration": "Look",
+    "tamil_transliteration": "லூக்",
+    "english_meaning": "Child / Offspring",
+    "tamil_meaning": "குழந்தை"
+  },
+  {
+    "id": 104,
+    "thai": "ลูกชาย",
+    "english_transliteration": "Look chai",
+    "tamil_transliteration": "லூக் சாய்",
+    "english_meaning": "Son",
+    "tamil_meaning": "மகன்"
+  },
+  {
+    "id": 105,
+    "thai": "ลูกสาว",
+    "english_transliteration": "Look sao",
+    "tamil_transliteration": "லூக் சாவ்",
+    "english_meaning": "Daughter",
+    "tamil_meaning": "மகள்"
+  },
+  {
+    "id": 106,
+    "thai": "พี่ชาย",
+    "english_transliteration": "Phee chai",
+    "tamil_transliteration": "பீ சாய்",
+    "english_meaning": "Older brother",
+    "tamil_meaning": "அண்ணன்"
+  },
+  {
+    "id": 107,
+    "thai": "พี่สาว",
+    "english_transliteration": "Phee sao",
+    "tamil_transliteration": "பீ சாவ்",
+    "english_meaning": "Older sister",
+    "tamil_meaning": "அக்கா"
+  },
+  {
+    "id": 108,
+    "thai": "น้องชาย",
+    "english_transliteration": "Nong chai",
+    "tamil_transliteration": "நாங் சாய்",
+    "english_meaning": "Younger brother",
+    "tamil_meaning": "தம்பி"
+  },
+  {
+    "id": 109,
+    "thai": "น้องสาว",
+    "english_transliteration": "Nong sao",
+    "tamil_transliteration": "நாங் சாவ்",
+    "english_meaning": "Younger sister",
+    "tamil_meaning": "தங்கை"
+  },
+  {
+    "id": 110,
+    "thai": "ปู่",
+    "english_transliteration": "Poo",
+    "tamil_transliteration": "பூ",
+    "english_meaning": "Paternal grandfather",
+    "tamil_meaning": "தாத்தா (அப்பா வழி)"
+  },
+  {
+    "id": 111,
+    "thai": "ย่า",
+    "english_transliteration": "Ya",
+    "tamil_transliteration": "யா",
+    "english_meaning": "Paternal grandmother",
+    "tamil_meaning": "பாட்டி (அப்பா வழி)"
+  },
+  {
+    "id": 112,
+    "thai": "ตา",
+    "english_transliteration": "Ta",
+    "tamil_transliteration": "தா",
+    "english_meaning": "Maternal grandfather",
+    "tamil_meaning": "தாத்தா (அம்மா வழி)"
+  },
+  {
+    "id": 113,
+    "thai": "ยาย",
+    "english_transliteration": "Yai",
+    "tamil_transliteration": "யாய்",
+    "english_meaning": "Maternal grandmother",
+    "tamil_meaning": "பாட்டி (அம்மா வழி)"
+  },
+  {
+    "id": 114,
+    "thai": "เพื่อน",
+    "english_transliteration": "Phuean",
+    "tamil_transliteration": "புயான்",
+    "english_meaning": "Friend",
+    "tamil_meaning": "நண்பன் / தோழி"
+  },
+  {
+    "id": 115,
+    "thai": "แฟน",
+    "english_transliteration": "Faen",
+    "tamil_transliteration": "பேன்",
+    "english_meaning": "Partner / Boyfriend / Girlfriend",
+    "tamil_meaning": "காடலன் / காதலி"
+  },
+  {
+    "id": 116,
+    "thai": "สามี",
+    "english_transliteration": "Sa-mee",
+    "tamil_transliteration": "சமீ",
+    "english_meaning": "Husband",
+    "tamil_meaning": "கணவன்"
+  },
+  {
+    "id": 117,
+    "thai": "ภรรยา",
+    "english_transliteration": "Phan-ra-ya",
+    "tamil_transliteration": "பன்ரயா",
+    "english_meaning": "Wife",
+    "tamil_meaning": "மனைவி"
+  },
+  {
+    "id": 118,
+    "thai": "คน",
+    "english_transliteration": "Khon",
+    "tamil_transliteration": "கோன்",
+    "english_meaning": "Person / Human",
+    "tamil_meaning": "நபர் / மனிதன்"
+  },
+  {
+    "id": 119,
+    "thai": "ผู้ชาย",
+    "english_transliteration": "Phoo chai",
+    "tamil_transliteration": "பூ சாய்",
+    "english_meaning": "Man",
+    "tamil_meaning": "ஆண்"
+  },
+  {
+    "id": 120,
+    "thai": "ผู้หญิง",
+    "english_transliteration": "Phoo ying",
+    "tamil_transliteration": "பூ யிங்",
+    "english_meaning": "Woman",
+    "tamil_meaning": "பெண்"
+  },
+  {
+    "id": 121,
+    "thai": "หัว",
+    "english_transliteration": "Hua",
+    "tamil_transliteration": "ஹுவா",
+    "english_meaning": "Head",
+    "tamil_meaning": "தலை"
+  },
+  {
+    "id": 122,
+    "thai": "ผม",
+    "english_transliteration": "Phom",
+    "tamil_transliteration": "போம்",
+    "english_meaning": "Hair",
+    "tamil_meaning": "முடி"
+  },
+  {
+    "id": 123,
+    "thai": "หน้า",
+    "english_transliteration": "Na",
+    "tamil_transliteration": "னா",
+    "english_meaning": "Face",
+    "tamil_meaning": "முகம்"
+  },
+  {
+    "id": 124,
+    "thai": "ตา",
+    "english_transliteration": "Ta",
+    "tamil_transliteration": "தா",
+    "english_meaning": "Eye",
+    "tamil_meaning": "கண்"
+  },
+  {
+    "id": 125,
+    "thai": "หู",
+    "english_transliteration": "Hoo",
+    "tamil_transliteration": "ஹூ",
+    "english_meaning": "Ear",
+    "tamil_meaning": "காது"
+  },
+  {
+    "id": 126,
+    "thai": "จมูก",
+    "english_transliteration": "Ja-mook",
+    "tamil_transliteration": "ஜமூக்",
+    "english_meaning": "Nose",
+    "tamil_meaning": "மூக்கு"
+  },
+  {
+    "id": 127,
+    "thai": "ปาก",
+    "english_transliteration": "Pak",
+    "tamil_transliteration": "பாக்",
+    "english_meaning": "Mouth",
+    "tamil_meaning": "வாய்"
+  },
+  {
+    "id": 128,
+    "thai": "ฟัน",
+    "english_transliteration": "Fan",
+    "tamil_transliteration": "ஃபான்",
+    "english_meaning": "Tooth",
+    "tamil_meaning": "பல்"
+  },
+  {
+    "id": 129,
+    "thai": "คอ",
+    "english_transliteration": "Kho",
+    "tamil_transliteration": "கோ",
+    "english_meaning": "Neck",
+    "tamil_meaning": "கழுத்து"
+  },
+  {
+    "id": 130,
+    "thai": "มือ",
+    "english_transliteration": "Mue",
+    "tamil_transliteration": "முயே",
+    "english_meaning": "Hand",
+    "tamil_meaning": "கை"
+  },
+  {
+    "id": 131,
+    "thai": "แขน",
+    "english_transliteration": "Khaen",
+    "tamil_transliteration": "கேன்",
+    "english_meaning": "Arm",
+    "tamil_meaning": "கை புஜம்"
+  },
+  {
+    "id": 132,
+    "thai": "ขา",
+    "english_transliteration": "Kha",
+    "tamil_transliteration": "கா",
+    "english_meaning": "Leg",
+    "tamil_meaning": "கால்"
+  },
+  {
+    "id": 133,
+    "thai": "เท้า",
+    "english_transliteration": "Thao",
+    "tamil_transliteration": "தாவ்",
+    "english_meaning": "Foot",
+    "tamil_meaning": "பாதம்"
+  },
+  {
+    "id": 134,
+    "thai": "ท้อง",
+    "english_transliteration": "Thong",
+    "tamil_transliteration": "தோங்",
+    "english_meaning": "Stomach",
+    "tamil_meaning": "வயிறு"
+  },
+  {
+    "id": 135,
+    "thai": "หลัง",
+    "english_transliteration": "Lang",
+    "tamil_transliteration": "லாங்",
+    "english_meaning": "Back",
+    "tamil_meaning": "முதுகு"
+  },
+  {
+    "id": 136,
+    "thai": "สี",
+    "english_transliteration": "See",
+    "tamil_transliteration": "சீ",
+    "english_meaning": "Color",
+    "tamil_meaning": "நிறம்"
+  },
+  {
+    "id": 137,
+    "thai": "สีแดง",
+    "english_transliteration": "See daeng",
+    "tamil_transliteration": "சீ டேங்",
+    "english_meaning": "Red",
+    "tamil_meaning": "சிவப்பு"
+  },
+  {
+    "id": 138,
+    "thai": "สีเขียว",
+    "english_transliteration": "See khiao",
+    "tamil_transliteration": "சீ கியாவ்",
+    "english_meaning": "Green",
+    "tamil_meaning": "பச்சை"
+  },
+  {
+    "id": 139,
+    "thai": "สีฟ้า",
+    "english_transliteration": "See fa",
+    "tamil_transliteration": "சீ ஃபா",
+    "english_meaning": "Blue (Light)",
+    "tamil_meaning": "நீலம் (இளநீலம்)"
+  },
+  {
+    "id": 140,
+    "thai": "สีเหลือง",
+    "english_transliteration": "See lueang",
+    "tamil_transliteration": "சீ லியாங்",
+    "english_meaning": "Yellow",
+    "tamil_meaning": "மஞ்சள்"
+  },
+  {
+    "id": 141,
+    "thai": "สีดำ",
+    "english_transliteration": "See dam",
+    "tamil_transliteration": "சீ டாம்",
+    "english_meaning": "Black",
+    "tamil_meaning": "கருப்பு"
+  },
+  {
+    "id": 142,
+    "thai": "สีขาว",
+    "english_transliteration": "See khao",
+    "tamil_transliteration": "சீ காவ்",
+    "english_meaning": "White",
+    "tamil_meaning": "வெள்ளை"
+  },
+  {
+    "id": 143,
+    "thai": "สีส้ม",
+    "english_transliteration": "See som",
+    "tamil_transliteration": "சீ சோம்",
+    "english_meaning": "Orange",
+    "tamil_meaning": "ஆரஞ்சு"
+  },
+  {
+    "id": 144,
+    "thai": "สีชมพู",
+    "english_transliteration": "See chom-phoo",
+    "tamil_transliteration": "சீ சோம்ஃபூ",
+    "english_meaning": "Pink",
+    "tamil_meaning": "இளஞ்சிவப்பு"
+  },
+  {
+    "id": 145,
+    "thai": "สีม่วง",
+    "english_transliteration": "See muang",
+    "tamil_transliteration": "சீ முவாங்",
+    "english_meaning": "Purple",
+    "tamil_meaning": "ஊதா"
+  },
+  {
+    "id": 146,
+    "thai": "สีน้ำตาล",
+    "english_transliteration": "See nam-tan",
+    "tamil_transliteration": "சீ நாம்தான்",
+    "english_meaning": "Brown",
+    "tamil_meaning": "பழுப்பு"
+  },
+  {
+    "id": 147,
+    "thai": "เร็ว",
+    "english_transliteration": "Reo",
+    "tamil_transliteration": "ரேவ்",
+    "english_meaning": "Fast / Quick",
+    "tamil_meaning": "வேகமான"
+  },
+  {
+    "id": 148,
+    "thai": "ช้า",
+    "english_transliteration": "Cha",
+    "tamil_transliteration": "சா",
+    "english_meaning": "Slow",
+    "tamil_meaning": "மெதுவான"
+  },
+  {
+    "id": 149,
+    "thai": "สูง",
+    "english_transliteration": "Soong",
+    "tamil_transliteration": "சூங்",
+    "english_meaning": "Tall / High",
+    "tamil_meaning": "உயரமான"
+  },
+  {
+    "id": 150,
+    "thai": "เตี้ย",
+    "english_transliteration": "Tia",
+    "tamil_transliteration": "தீயா",
+    "english_meaning": "Short (height)",
+    "tamil_meaning": "குள்ளமான"
+  },
+  {
+    "id": 151,
+    "thai": "ยาว",
+    "english_transliteration": "Yao",
+    "tamil_transliteration": "யாவ்",
+    "english_meaning": "Long",
+    "tamil_meaning": "நீளமான"
+  },
+  {
+    "id": 152,
+    "thai": "สั้น",
+    "english_transliteration": "San",
+    "tamil_transliteration": "சான்",
+    "english_meaning": "Short (length)",
+    "tamil_meaning": "குறுகிய"
+  },
+  {
+    "id": 153,
+    "thai": "หนัก",
+    "english_transliteration": "Nak",
+    "tamil_transliteration": "நாக்",
+    "english_meaning": "Heavy",
+    "tamil_meaning": "கனமான"
+  },
+  {
+    "id": 154,
+    "thai": "เบา",
+    "english_transliteration": "Bao",
+    "tamil_transliteration": "பாவ்",
+    "english_meaning": "Light (weight)",
+    "tamil_meaning": "லேசான"
+  },
+  {
+    "id": 155,
+    "thai": "ง่าย",
+    "english_transliteration": "Ngai",
+    "tamil_transliteration": "ஙாய்",
+    "english_meaning": "Easy",
+    "tamil_meaning": "எளிதான"
+  },
+  {
+    "id": 156,
+    "thai": "ยาก",
+    "english_transliteration": "Yak",
+    "tamil_transliteration": "யாக்",
+    "english_meaning": "Hard / Difficult",
+    "tamil_meaning": "கடினமான"
+  },
+  {
+    "id": 157,
+    "thai": "ใหม่",
+    "english_transliteration": "Mai",
+    "tamil_transliteration": "மை",
+    "english_meaning": "New",
+    "tamil_meaning": "புதிய"
+  },
+  {
+    "id": 158,
+    "thai": "เก่า",
+    "english_transliteration": "Kao",
+    "tamil_transliteration": "காவ்",
+    "english_meaning": "Old (things)",
+    "tamil_meaning": "பழைய"
+  },
+  {
+    "id": 159,
+    "thai": "แก่",
+    "english_transliteration": "Kae",
+    "tamil_transliteration": "கே",
+    "english_meaning": "Old (people)",
+    "tamil_meaning": "வயதான"
+  },
+  {
+    "id": 160,
+    "thai": "หนุ่ม",
+    "english_transliteration": "Num",
+    "tamil_transliteration": "நும்",
+    "english_meaning": "Young (man)",
+    "tamil_meaning": "இளைஞன்"
+  },
+  {
+    "id": 161,
+    "thai": "เดิน",
+    "english_transliteration": "Doen",
+    "tamil_transliteration": "டேன்",
+    "english_meaning": "Walk",
+    "tamil_meaning": "நட"
+  },
+  {
+    "id": 162,
+    "thai": "วิ่ง",
+    "english_transliteration": "Wing",
+    "tamil_transliteration": "விங்",
+    "english_meaning": "Run",
+    "tamil_meaning": "ஓடு"
+  },
+  {
+    "id": 163,
+    "thai": "นั่ง",
+    "english_transliteration": "Nang",
+    "tamil_transliteration": "னாங்",
+    "english_meaning": "Sit",
+    "tamil_meaning": "உட்கார்"
+  },
+  {
+    "id": 164,
+    "thai": "ยืน",
+    "english_transliteration": "Yuen",
+    "tamil_transliteration": "யுயேன்",
+    "english_meaning": "Stand",
+    "tamil_meaning": "நில்"
+  },
+  {
+    "id": 165,
+    "thai": "กระโดด",
+    "english_transliteration": "Kra-doot",
+    "tamil_transliteration": "கிராடூத்",
+    "english_meaning": "Jump",
+    "tamil_meaning": "குதி"
+  },
+  {
+    "id": 166,
+    "thai": "หัวเราะ",
+    "english_transliteration": "Hua-ro",
+    "tamil_transliteration": "ஹுவாரோ",
+    "english_meaning": "Laugh",
+    "tamil_meaning": "சிரி"
+  },
+  {
+    "id": 167,
+    "thai": "ร้องไห้",
+    "english_transliteration": "Rong-hai",
+    "tamil_transliteration": "ரோங்-ஹாய்",
+    "english_meaning": "Cry",
+    "tamil_meaning": "அழு"
+  },
+  {
+    "id": 168,
+    "thai": "เปิด",
+    "english_transliteration": "Poet",
+    "tamil_transliteration": "பேத்",
+    "english_meaning": "Open / Turn on",
+    "tamil_meaning": "திற / இயக்கு"
+  },
+  {
+    "id": 169,
+    "thai": "ปิด",
+    "english_transliteration": "Pit",
+    "tamil_transliteration": "பித்",
+    "english_meaning": "Close / Turn off",
+    "tamil_meaning": "மூடு / அணை"
+  },
+  {
+    "id": 170,
+    "thai": "ผลัก",
+    "english_transliteration": "Phlak",
+    "tamil_transliteration": "பிளாக்",
+    "english_meaning": "Push",
+    "tamil_meaning": "தள்ளு"
+  },
+  {
+    "id": 171,
+    "thai": "ดึง",
+    "english_transliteration": "Deung",
+    "tamil_transliteration": "டூயங்",
+    "english_meaning": "Pull",
+    "tamil_meaning": "இழு"
+  },
+  {
+    "id": 172,
+    "thai": "ให้",
+    "english_transliteration": "Hai",
+    "tamil_transliteration": "ஹாய்",
+    "english_meaning": "Give",
+    "tamil_meaning": "கொடு"
+  },
+  {
+    "id": 173,
+    "thai": "รับ",
+    "english_transliteration": "Rap",
+    "tamil_transliteration": "ராப்",
+    "english_meaning": "Receive / Get",
+    "tamil_meaning": "பெறு"
+  },
+  {
+    "id": 174,
+    "thai": "หา",
+    "english_transliteration": "Ha",
+    "tamil_transliteration": "ஹா",
+    "english_meaning": "Search / Find",
+    "tamil_meaning": "தேடு"
+  },
+  {
+    "id": 175,
+    "thai": "เจอ",
+    "english_transliteration": "Joe",
+    "tamil_transliteration": "ஜோ",
+    "english_meaning": "Meet / Find",
+    "tamil_meaning": "சந்தி / கண்டுபிடி"
+  },
+  {
+    "id": 176,
+    "thai": "ส่ง",
+    "english_transliteration": "Song",
+    "tamil_transliteration": "சோங்",
+    "english_meaning": "Send",
+    "tamil_meaning": "அனுப்பு"
+  },
+  {
+    "id": 177,
+    "thai": "เอา",
+    "english_transliteration": "Ao",
+    "tamil_transliteration": "ஆவ்",
+    "english_meaning": "Take / Want (object)",
+    "tamil_meaning": "எடு / வேண்டும்"
+  },
+  {
+    "id": 178,
+    "thai": "วาง",
+    "english_transliteration": "Wang",
+    "tamil_transliteration": "வாங்",
+    "english_meaning": "Put down / Place",
+    "tamil_meaning": "வை"
+  },
+  {
+    "id": 179,
+    "thai": "ถือ",
+    "english_transliteration": "Thue",
+    "tamil_transliteration": "துயே",
+    "english_meaning": "Hold / Carry",
+    "tamil_meaning": "பிடி / ஏந்து"
+  },
+  {
+    "id": 180,
+    "thai": "เล่น",
+    "english_transliteration": "Len",
+    "tamil_transliteration": "லென்",
+    "english_meaning": "Play",
+    "tamil_meaning": "விளையாடு"
+  },
+  {
+    "id": 181,
+    "thai": "เรียน",
+    "english_transliteration": "Rian",
+    "tamil_transliteration": "ரியான்",
+    "english_meaning": "Study / Learn",
+    "tamil_meaning": "படி"
+  },
+  {
+    "id": 182,
+    "thai": "สอน",
+    "english_transliteration": "Son",
+    "tamil_transliteration": "சோன்",
+    "english_meaning": "Teach",
+    "tamil_meaning": "கற்றுக்கொடு"
+  },
+  {
+    "id": 183,
+    "thai": "ถาม",
+    "english_transliteration": "Tham",
+    "tamil_transliteration": "தாம்",
+    "english_meaning": "Ask",
+    "tamil_meaning": "கேள் (கேள்வி)"
+  },
+  {
+    "id": 184,
+    "thai": "ตอบ",
+    "english_transliteration": "Top",
+    "tamil_transliteration": "தோப்",
+    "english_meaning": "Answer",
+    "tamil_meaning": "பதில் சொல்"
+  },
+  {
+    "id": 185,
+    "thai": "โทร",
+    "english_transliteration": "Tho",
+    "tamil_transliteration": "தோ",
+    "english_meaning": "Call (phone)",
+    "tamil_meaning": "அழை (தொலைபேசி)"
+  },
+  {
+    "id": 186,
+    "thai": "ขับ",
+    "english_transliteration": "Khap",
+    "tamil_transliteration": "காப்",
+    "english_meaning": "Drive",
+    "tamil_meaning": "ஓட்டு"
+  },
+  {
+    "id": 187,
+    "thai": "ขี่",
+    "english_transliteration": "Khee",
+    "tamil_transliteration": "கீ",
+    "english_meaning": "Ride",
+    "tamil_meaning": "சவாரி செய்"
+  },
+  {
+    "id": 188,
+    "thai": "บิน",
+    "english_transliteration": "Bin",
+    "tamil_transliteration": "பின்",
+    "english_meaning": "Fly",
+    "tamil_meaning": "பற"
+  },
+  {
+    "id": 189,
+    "thai": "ว่ายน้ำ",
+    "english_transliteration": "Wai nam",
+    "tamil_transliteration": "வாய் நாம்",
+    "english_meaning": "Swim",
+    "tamil_meaning": "நீந்து"
+  },
+  {
+    "id": 190,
+    "thai": "อาบน้ำ",
+    "english_transliteration": "Ap nam",
+    "tamil_transliteration": "ஆப் நாம்",
+    "english_meaning": "Bathe / Shower",
+    "tamil_meaning": "குளி"
+  },
+  {
+    "id": 191,
+    "thai": "เสื้อผ้า",
+    "english_transliteration": "Suea-pha",
+    "tamil_transliteration": "சுயா-பா",
+    "english_meaning": "Clothes",
+    "tamil_meaning": "ஆடைகள்"
+  },
+  {
+    "id": 192,
+    "thai": "เสื้อ",
+    "english_transliteration": "Suea",
+    "tamil_transliteration": "சுயா",
+    "english_meaning": "Shirt",
+    "tamil_meaning": "சட்டை"
+  },
+  {
+    "id": 193,
+    "thai": "กางเกง",
+    "english_transliteration": "Kang-keng",
+    "tamil_transliteration": "காங்-கேங்",
+    "english_meaning": "Pants / Trousers",
+    "tamil_meaning": "காற்சட்டை"
+  },
+  {
+    "id": 194,
+    "thai": "กระโปรง",
+    "english_transliteration": "Kra-prong",
+    "tamil_transliteration": "கிரா-ப்ரோங்",
+    "english_meaning": "Skirt",
+    "tamil_meaning": "பாவாடை"
+  },
+  {
+    "id": 195,
+    "thai": "รองเท้า",
+    "english_transliteration": "Rong-thao",
+    "tamil_transliteration": "ரோங்-தாவ்",
+    "english_meaning": "Shoes",
+    "tamil_meaning": "காலணி"
+  },
+  {
+    "id": 196,
+    "thai": "ถุงเท้า",
+    "english_transliteration": "Thung-thao",
+    "tamil_transliteration": "துங்-தாவ்",
+    "english_meaning": "Socks",
+    "tamil_meaning": "காலுறை"
+  },
+  {
+    "id": 197,
+    "thai": "หมวก",
+    "english_transliteration": "Muak",
+    "tamil_transliteration": "முவாக்",
+    "english_meaning": "Hat / Cap",
+    "tamil_meaning": "தொப்பி"
+  },
+  {
+    "id": 198,
+    "thai": "กระเป๋า",
+    "english_transliteration": "Kra-pao",
+    "tamil_transliteration": "கிரா-பாவ்",
+    "english_meaning": "Bag / Wallet",
+    "tamil_meaning": "பை"
+  },
+  {
+    "id": 199,
+    "thai": "นาฬิกา",
+    "english_transliteration": "Na-li-ka",
+    "tamil_transliteration": "நாளிகா",
+    "english_meaning": "Watch / Clock",
+    "tamil_meaning": "கடிகாரம்"
+  },
+  {
+    "id": 200,
+    "thai": "แว่นตา",
+    "english_transliteration": "Waen-ta",
+    "tamil_transliteration": "வேன்-தா",
+    "english_meaning": "Glasses",
+    "tamil_meaning": "கண்ணாடி"
+  },
+  {
+    "id": 201,
+    "thai": "หมา",
+    "english_transliteration": "Ma",
+    "tamil_transliteration": "மா",
+    "english_meaning": "Dog",
+    "tamil_meaning": "நாய்"
+  },
+  {
+    "id": 202,
+    "thai": "แมว",
+    "english_transliteration": "Maeo",
+    "tamil_transliteration": "மேவ்",
+    "english_meaning": "Cat",
+    "tamil_meaning": "பூனை"
+  },
+  {
+    "id": 203,
+    "thai": "นก",
+    "english_transliteration": "Nok",
+    "tamil_transliteration": "நாக்",
+    "english_meaning": "Bird",
+    "tamil_meaning": "பறவை"
+  },
+  {
+    "id": 204,
+    "thai": "ช้าง",
+    "english_transliteration": "Chang",
+    "tamil_transliteration": "சாங்",
+    "english_meaning": "Elephant",
+    "tamil_meaning": "யானை"
+  },
+  {
+    "id": 205,
+    "thai": "ม้า",
+    "english_transliteration": "Ma",
+    "tamil_transliteration": "மா",
+    "english_meaning": "Horse",
+    "tamil_meaning": "குதிரை"
+  },
+  {
+    "id": 206,
+    "thai": "วัว",
+    "english_transliteration": "Wua",
+    "tamil_transliteration": "வுவா",
+    "english_meaning": "Cow",
+    "tamil_meaning": "படு / பசு"
+  },
+  {
+    "id": 207,
+    "thai": "หมู",
+    "english_transliteration": "Moo",
+    "tamil_transliteration": "மூ",
+    "english_meaning": "Pig",
+    "tamil_meaning": "பன்றி"
+  },
+  {
+    "id": 208,
+    "thai": "เป็ด",
+    "english_transliteration": "Pet",
+    "tamil_transliteration": "பெத்",
+    "english_meaning": "Duck",
+    "tamil_meaning": "வாத்து"
+  },
+  {
+    "id": 209,
+    "thai": "ลิง",
+    "english_transliteration": "Ling",
+    "tamil_transliteration": "லிங்",
+    "english_meaning": "Monkey",
+    "tamil_meaning": "குரங்கு"
+  },
+  {
+    "id": 210,
+    "thai": "เสือ",
+    "english_transliteration": "Suea",
+    "tamil_transliteration": "சுயா",
+    "english_meaning": "Tiger",
+    "tamil_meaning": "புலி"
+  },
+  {
+    "id": 211,
+    "thai": "สิงโต",
+    "english_transliteration": "Sing-to",
+    "tamil_transliteration": "சிங்-தோ",
+    "english_meaning": "Lion",
+    "tamil_meaning": "சிங்கம்"
+  },
+  {
+    "id": 212,
+    "thai": "งู",
+    "english_transliteration": "Ngu",
+    "tamil_transliteration": "ஙு",
+    "english_meaning": "Snake",
+    "tamil_meaning": "பாம்பு"
+  },
+  {
+    "id": 213,
+    "thai": "ยุง",
+    "english_transliteration": "Yung",
+    "tamil_transliteration": "யுங்",
+    "english_meaning": "Mosquito",
+    "tamil_meaning": "கொசு"
+  },
+  {
+    "id": 214,
+    "thai": "หนู",
+    "english_transliteration": "Noo",
+    "tamil_transliteration": "னூ",
+    "english_meaning": "Rat / Mouse",
+    "tamil_meaning": "எலி"
+  },
+  {
+    "id": 215,
+    "thai": "กุ้ง",
+    "english_transliteration": "Kung",
+    "tamil_transliteration": "குங்",
+    "english_meaning": "Shrimp / Prawn",
+    "tamil_meaning": "இறால்"
+  },
+  {
+    "id": 216,
+    "thai": "ปู",
+    "english_transliteration": "Poo",
+    "tamil_transliteration": "பூ",
+    "english_meaning": "Crab",
+    "tamil_meaning": "நண்டு"
+  },
+  {
+    "id": 217,
+    "thai": "ฟ้า",
+    "english_transliteration": "Fa",
+    "tamil_transliteration": "ஃபா",
+    "english_meaning": "Sky",
+    "tamil_meaning": "வானம்"
+  },
+  {
+    "id": 218,
+    "thai": "พระอาทิตย์",
+    "english_transliteration": "Phra a-thit",
+    "tamil_transliteration": "பிரா அதித்",
+    "english_meaning": "Sun",
+    "tamil_meaning": "சூரியன்"
+  },
+  {
+    "id": 219,
+    "thai": "พระจันทร์",
+    "english_transliteration": "Phra chan",
+    "tamil_transliteration": "பிரா சான்",
+    "english_meaning": "Moon",
+    "tamil_meaning": "சந்திரன் / நிலவு"
+  },
+  {
+    "id": 220,
+    "thai": "ดาว",
+    "english_transliteration": "Dao",
+    "tamil_transliteration": "டாவ்",
+    "english_meaning": "Star",
+    "tamil_meaning": "நட்சத்திரம்"
+  },
+  {
+    "id": 221,
+    "thai": "ฝน",
+    "english_transliteration": "Fon",
+    "tamil_transliteration": "ஃபோன்",
+    "english_meaning": "Rain",
+    "tamil_meaning": "மழை"
+  },
+  {
+    "id": 222,
+    "thai": "ลม",
+    "english_transliteration": "Lom",
+    "tamil_transliteration": "லோம்",
+    "english_meaning": "Wind",
+    "tamil_meaning": "காற்று"
+  },
+  {
+    "id": 223,
+    "thai": "เมฆ",
+    "english_transliteration": "Mek",
+    "tamil_transliteration": "மேக்",
+    "english_meaning": "Cloud",
+    "tamil_meaning": "மேகம்"
+  },
+  {
+    "id": 224,
+    "thai": "ไฟ",
+    "english_transliteration": "Fai",
+    "tamil_transliteration": "ஃபை",
+    "english_meaning": "Fire / Light",
+    "tamil_meaning": "தீ / வெளிச்சம்"
+  },
+  {
+    "id": 225,
+    "thai": "ดิน",
+    "english_transliteration": "Din",
+    "tamil_transliteration": "டின்",
+    "english_meaning": "Soil / Dirt",
+    "tamil_meaning": "மண்"
+  },
+  {
+    "id": 226,
+    "thai": "หิน",
+    "english_transliteration": "Hin",
+    "tamil_transliteration": "ஹின்",
+    "english_meaning": "Stone / Rock",
+    "tamil_meaning": "கல்"
+  },
+  {
+    "id": 227,
+    "thai": "ภูเขา",
+    "english_transliteration": "Phoo-khao",
+    "tamil_transliteration": "பூ-காவ்",
+    "english_meaning": "Mountain",
+    "tamil_meaning": "மலை"
+  },
+  {
+    "id": 228,
+    "thai": "ทะเล",
+    "english_transliteration": "Tha-le",
+    "tamil_transliteration": "தலே",
+    "english_meaning": "Sea / Ocean",
+    "tamil_meaning": "கடல்"
+  },
+  {
+    "id": 229,
+    "thai": "แม่น้ำ",
+    "english_transliteration": "Mae-nam",
+    "tamil_transliteration": "மே-நாம்",
+    "english_meaning": "River",
+    "tamil_meaning": "நதி"
+  },
+  {
+    "id": 230,
+    "thai": "ต้นไม้",
+    "english_transliteration": "Ton-mai",
+    "tamil_transliteration": "தோன்-மை",
+    "english_meaning": "Tree",
+    "tamil_meaning": "மரம்"
+  },
+  {
+    "id": 231,
+    "thai": "ดอกไม้",
+    "english_transliteration": "Dok-mai",
+    "tamil_transliteration": "டோக்-மை",
+    "english_meaning": "Flower",
+    "tamil_meaning": "மலர் / பூ"
+  },
+  {
+    "id": 232,
+    "thai": "หญ้า",
+    "english_transliteration": "Ya",
+    "tamil_transliteration": "யா",
+    "english_meaning": "Grass",
+    "tamil_meaning": "புல்"
+  },
+  {
+    "id": 233,
+    "thai": "ป่า",
+    "english_transliteration": "Pa",
+    "tamil_transliteration": "பா",
+    "english_meaning": "Forest / Jungle",
+    "tamil_meaning": "காடு"
+  },
+  {
+    "id": 234,
+    "thai": "เกาะ",
+    "english_transliteration": "Ko",
+    "tamil_transliteration": "கோ",
+    "english_meaning": "Island",
+    "tamil_meaning": "தீவு"
+  },
+  {
+    "id": 235,
+    "thai": "โต๊ะ",
+    "english_transliteration": "To",
+    "tamil_transliteration": "தோ",
+    "english_meaning": "Table",
+    "tamil_meaning": "மேஜை"
+  },
+  {
+    "id": 236,
+    "thai": "เก้าอี้",
+    "english_transliteration": "Kao-ee",
+    "tamil_transliteration": "காவ்-ஈ",
+    "english_meaning": "Chair",
+    "tamil_meaning": "நாற்காலி"
+  },
+  {
+    "id": 237,
+    "thai": "เตียง",
+    "english_transliteration": "Tiang",
+    "tamil_transliteration": "தீயாங்",
+    "english_meaning": "Bed",
+    "tamil_meaning": "கட்டில்"
+  },
+  {
+    "id": 238,
+    "thai": "ประตู",
+    "english_transliteration": "Pra-too",
+    "tamil_transliteration": "பிரா-தூ",
+    "english_meaning": "Door / Gate",
+    "tamil_meaning": "கதவு"
+  },
+  {
+    "id": 239,
+    "thai": "หน้าต่าง",
+    "english_transliteration": "Na-tang",
+    "tamil_transliteration": "னா-தாங்",
+    "english_meaning": "Window",
+    "tamil_meaning": "ஜன்னல்"
+  },
+  {
+    "id": 240,
+    "thai": "บ้าน",
+    "english_transliteration": "Ban",
+    "tamil_transliteration": "பான்",
+    "english_meaning": "House",
+    "tamil_meaning": "வீடு"
+  },
+  {
+    "id": 241,
+    "thai": "ห้อง",
+    "english_transliteration": "Hong",
+    "tamil_transliteration": "ஹாங்",
+    "english_meaning": "Room",
+    "tamil_meaning": "அறை"
+  },
+  {
+    "id": 242,
+    "thai": "ห้องนอน",
+    "english_transliteration": "Hong non",
+    "tamil_transliteration": "ஹாங் நான்",
+    "english_meaning": "Bedroom",
+    "tamil_meaning": "படுக்கையறை"
+  },
+  {
+    "id": 243,
+    "thai": "ห้องครัว",
+    "english_transliteration": "Hong khrua",
+    "tamil_transliteration": "ஹாங் குருவா",
+    "english_meaning": "Kitchen",
+    "tamil_meaning": "சமையலறை"
+  },
+  {
+    "id": 244,
+    "thai": "จาน",
+    "english_transliteration": "Chan",
+    "tamil_transliteration": "சான்",
+    "english_meaning": "Plate",
+    "tamil_meaning": "தட்டு"
+  },
+  {
+    "id": 245,
+    "thai": "ชาม",
+    "english_transliteration": "Cham",
+    "tamil_transliteration": "சாம்",
+    "english_meaning": "Bowl",
+    "tamil_meaning": "கிண்ணம்"
+  },
+  {
+    "id": 246,
+    "thai": "ช้อน",
+    "english_transliteration": "Chon",
+    "tamil_transliteration": "சோன்",
+    "english_meaning": "Spoon",
+    "tamil_meaning": "கரண்டி"
+  },
+  {
+    "id": 247,
+    "thai": "ส้อม",
+    "english_transliteration": "Som",
+    "tamil_transliteration": "சோம்",
+    "english_meaning": "Fork",
+    "tamil_meaning": "முள் கரண்டி"
+  },
+  {
+    "id": 248,
+    "thai": "มีด",
+    "english_transliteration": "Meet",
+    "tamil_transliteration": "மீத்",
+    "english_meaning": "Knife",
+    "tamil_meaning": "கத்தி"
+  },
+  {
+    "id": 249,
+    "thai": "แก้ว",
+    "english_transliteration": "Kaeo",
+    "tamil_transliteration": "கேவ்",
+    "english_meaning": "Glass / Cup",
+    "tamil_meaning": "டம்ளர்"
+  },
+  {
+    "id": 250,
+    "thai": "ขวด",
+    "english_transliteration": "Khuat",
+    "tamil_transliteration": "குவாத்",
+    "english_meaning": "Bottle",
+    "tamil_meaning": "பாட்டில்"
+  },
+  {
+    "id": 251,
+    "thai": "หม้อ",
+    "english_transliteration": "Mo",
+    "tamil_transliteration": "மோ",
+    "english_meaning": "Pot",
+    "tamil_meaning": "பானை"
+  },
+  {
+    "id": 252,
+    "thai": "กระทะ",
+    "english_transliteration": "Kra-tha",
+    "tamil_transliteration": "கிரா-தா",
+    "english_meaning": "Pan / Frying pan",
+    "tamil_meaning": "வாணலி"
+  },
+  {
+    "id": 253,
+    "thai": "ตู้เย็น",
+    "english_transliteration": "Too-yen",
+    "tamil_transliteration": "தூ-யென்",
+    "english_meaning": "Refrigerator",
+    "tamil_meaning": "குளிர்சாதனப் பெட்டி"
+  },
+  {
+    "id": 254,
+    "thai": "พัดลม",
+    "english_transliteration": "Phat-lom",
+    "tamil_transliteration": "பாத்-லோம்",
+    "english_meaning": "Fan",
+    "tamil_meaning": "மின்விசிறி"
+  },
+  {
+    "id": 255,
+    "thai": "ทีวี",
+    "english_transliteration": "Thee-wee",
+    "tamil_transliteration": "தீ-வீ",
+    "english_meaning": "TV",
+    "tamil_meaning": "தொலைக்காட்சி"
+  },
+  {
+    "id": 256,
+    "thai": "โทรศัพท์",
+    "english_transliteration": "Tho-ra-sap",
+    "tamil_transliteration": "தோரசப்",
+    "english_meaning": "Telephone / Phone",
+    "tamil_meaning": "தொலைபேசி"
+  },
+  {
+    "id": 257,
+    "thai": "คอมพิวเตอร์",
+    "english_transliteration": "Khom-phiu-toe",
+    "tamil_transliteration": "காம்ஃபியூட்டேர்",
+    "english_meaning": "Computer",
+    "tamil_meaning": "கணினி"
+  },
+  {
+    "id": 258,
+    "thai": "หนังสือ",
+    "english_transliteration": "Nang-sue",
+    "tamil_transliteration": "னாங்-சுயே",
+    "english_meaning": "Book",
+    "tamil_meaning": "புத்தகம்"
+  },
+  {
+    "id": 259,
+    "thai": "ปากกา",
+    "english_transliteration": "Pak-ka",
+    "tamil_transliteration": "பாக்-கா",
+    "english_meaning": "Pen",
+    "tamil_meaning": "பேனா"
+  },
+  {
+    "id": 260,
+    "thai": "ดินสอ",
+    "english_transliteration": "Din-so",
+    "tamil_transliteration": "டின்-சோ",
+    "english_meaning": "Pencil",
+    "tamil_meaning": "பென்சில்"
+  },
+  {
+    "id": 261,
+    "thai": "กระดาษ",
+    "english_transliteration": "Kra-dat",
+    "tamil_transliteration": "கிரா-தாத்",
+    "english_meaning": "Paper",
+    "tamil_meaning": "காகிதம்"
+  },
+  {
+    "id": 262,
+    "thai": "เงิน",
+    "english_transliteration": "Ngoen",
+    "tamil_transliteration": "ஙோயேன்",
+    "english_meaning": "Money",
+    "tamil_meaning": "பணம்"
+  },
+  {
+    "id": 263,
+    "thai": "กระเป๋าเงิน",
+    "english_transliteration": "Kra-pao ngoen",
+    "tamil_transliteration": "கிரா-பாவ் ஙோயேன்",
+    "english_meaning": "Wallet / Purse",
+    "tamil_meaning": "பணப்பை"
+  },
+  {
+    "id": 264,
+    "thai": "กุญแจ",
+    "english_transliteration": "Kun-jae",
+    "tamil_transliteration": "குன்-ஜே",
+    "english_meaning": "Key",
+    "tamil_meaning": "சாவி"
+  },
+  {
+    "id": 265,
+    "thai": "ร่ม",
+    "english_transliteration": "Rom",
+    "tamil_transliteration": "ரோம்",
+    "english_meaning": "Umbrella",
+    "tamil_meaning": "குடை"
+  },
+  {
+    "id": 266,
+    "thai": "รถ",
+    "english_transliteration": "Rot",
+    "tamil_transliteration": "ரோத்",
+    "english_meaning": "Car / Vehicle",
+    "tamil_meaning": "வாகனம் / கார்"
+  },
+  {
+    "id": 267,
+    "thai": "รถประจำทาง",
+    "english_transliteration": "Rot pra-jam-thang",
+    "tamil_transliteration": "ரோத் பிராஜாம்தாங்",
+    "english_meaning": "Bus",
+    "tamil_meaning": "பேருந்து"
+  },
+  {
+    "id": 268,
+    "thai": "รถไฟ",
+    "english_transliteration": "Rot-fai",
+    "tamil_transliteration": "ரோத்-ஃபை",
+    "english_meaning": "Train",
+    "tamil_meaning": "ரயில்"
+  },
+  {
+    "id": 269,
+    "thai": "เครื่องบิน",
+    "english_transliteration": "Khruang-bin",
+    "tamil_transliteration": "குருவாங்-பின்",
+    "english_meaning": "Airplane",
+    "tamil_meaning": "விமானம்"
+  },
+  {
+    "id": 270,
+    "thai": "เรือ",
+    "english_transliteration": "Ruea",
+    "tamil_transliteration": "ருயா",
+    "english_meaning": "Ship / Boat",
+    "tamil_meaning": "கப்பல் / படகு"
+  },
+  {
+    "id": 271,
+    "thai": "จักรยาน",
+    "english_transliteration": "Jak-kra-yan",
+    "tamil_transliteration": "ஜாக்-கிரா-யான்",
+    "english_meaning": "Bicycle",
+    "tamil_meaning": "மிதிவண்டி"
+  },
+  {
+    "id": 272,
+    "thai": "ถนน",
+    "english_transliteration": "Tha-non",
+    "tamil_transliteration": "தனோன்",
+    "english_meaning": "Road / Street",
+    "tamil_meaning": "சாலை"
+  },
+  {
+    "id": 273,
+    "thai": "ทาง",
+    "english_transliteration": "Thang",
+    "tamil_transliteration": "தாங்",
+    "english_meaning": "Way / Path",
+    "tamil_meaning": "வழி"
+  },
+  {
+    "id": 274,
+    "thai": "ซอย",
+    "english_transliteration": "Soi",
+    "tamil_transliteration": "சாய்",
+    "english_meaning": "Alley / Side street",
+    "tamil_meaning": "சந்து"
+  },
+  {
+    "id": 275,
+    "thai": "สะพาน",
+    "english_transliteration": "Sa-phan",
+    "tamil_transliteration": "சபான்",
+    "english_meaning": "Bridge",
+    "tamil_meaning": "பாலம்"
+  },
+  {
+    "id": 276,
+    "thai": "เมือง",
+    "english_transliteration": "Mueang",
+    "tamil_transliteration": "முயாங்",
+    "english_meaning": "City / Town",
+    "tamil_meaning": "நகரம்"
+  },
+  {
+    "id": 277,
+    "thai": "ประเทศ",
+    "english_transliteration": "Pra-thet",
+    "tamil_transliteration": "பிரா-தேத்",
+    "english_meaning": "Country",
+    "tamil_meaning": "நாடு"
+  },
+  {
+    "id": 278,
+    "thai": "โลก",
+    "english_transliteration": "Lok",
+    "tamil_transliteration": "லோக்",
+    "english_meaning": "World / Earth",
+    "tamil_meaning": "உலகம்"
+  },
+  {
+    "id": 279,
+    "thai": "วัด",
+    "english_transliteration": "Wat",
+    "tamil_transliteration": "வாத்",
+    "english_meaning": "Temple",
+    "tamil_meaning": "கோவில்"
+  },
+  {
+    "id": 280,
+    "thai": "ร้านค้า",
+    "english_transliteration": "Ran-kha",
+    "tamil_transliteration": "ரான்-கா",
+    "english_meaning": "Shop / Store",
+    "tamil_meaning": "கடை"
+  },
+  {
+    "id": 281,
+    "thai": "ธนาคาร",
+    "english_transliteration": "Tha-na-khan",
+    "tamil_transliteration": "தனாகான்",
+    "english_meaning": "Bank",
+    "tamil_meaning": "வங்கி"
+  },
+  {
+    "id": 282,
+    "thai": "ไปรษณีย์",
+    "english_transliteration": "Prai-sa-nee",
+    "tamil_transliteration": "ப்ரைசனி",
+    "english_meaning": "Post office",
+    "tamil_meaning": "அஞ்சல் நிலையம்"
+  },
+  {
+    "id": 283,
+    "thai": "ซ้าย",
+    "english_transliteration": "Sai",
+    "tamil_transliteration": "சாய்",
+    "english_meaning": "Left",
+    "tamil_meaning": "இடது"
+  },
+  {
+    "id": 284,
+    "thai": "ขวา",
+    "english_transliteration": "Khwa",
+    "tamil_transliteration": "குவா",
+    "english_meaning": "Right",
+    "tamil_meaning": "வலது"
+  },
+  {
+    "id": 285,
+    "thai": "ตรงไป",
+    "english_transliteration": "Trong pai",
+    "tamil_transliteration": "த்ரோங் பை",
+    "english_meaning": "Straight ahead",
+    "tamil_meaning": "நேராகச் செல்"
+  },
+  {
+    "id": 286,
+    "thai": "ข้างหน้า",
+    "english_transliteration": "Khang na",
+    "tamil_transliteration": "காங் னா",
+    "english_meaning": "In front of",
+    "tamil_meaning": "முன்னால்"
+  },
+  {
+    "id": 287,
+    "thai": "ข้างหลัง",
+    "english_transliteration": "Khang lang",
+    "tamil_transliteration": "காங் லாங்",
+    "english_meaning": "Behind",
+    "tamil_meaning": "பின்னால்"
+  },
+  {
+    "id": 288,
+    "thai": "ข้างๆ",
+    "english_transliteration": "Khang khang",
+    "tamil_transliteration": "காங் காங்",
+    "english_meaning": "Beside / Next to",
+    "tamil_meaning": "அருகில்"
+  },
+  {
+    "id": 289,
+    "thai": "ข้างใน",
+    "english_transliteration": "Khang nai",
+    "tamil_transliteration": "காங் நாய்",
+    "english_meaning": "Inside",
+    "tamil_meaning": "உள்ளே"
+  },
+  {
+    "id": 290,
+    "thai": "ข้างนอก",
+    "english_transliteration": "Khang nok",
+    "tamil_transliteration": "காங் நாக்",
+    "english_meaning": "Outside",
+    "tamil_meaning": "வெளியே"
+  },
+  {
+    "id": 291,
+    "thai": "บน",
+    "english_transliteration": "Bon",
+    "tamil_transliteration": "போன்",
+    "english_meaning": "On / Above",
+    "tamil_meaning": "மேலே"
+  },
+  {
+    "id": 292,
+    "thai": "ล่าง",
+    "english_transliteration": "Lang",
+    "tamil_transliteration": "லாங்",
+    "english_meaning": "Under / Below",
+    "tamil_meaning": "கீழே"
+  },
+  {
+    "id": 293,
+    "thai": "ใกล้",
+    "english_transliteration": "Klai",
+    "tamil_transliteration": "கிளை",
+    "english_meaning": "Near",
+    "tamil_meaning": "பக்கத்தில்"
+  },
+  {
+    "id": 294,
+    "thai": "ไกล",
+    "english_transliteration": "Klai",
+    "tamil_transliteration": "கிளை",
+    "english_meaning": "Far",
+    "tamil_meaning": "தூரத்தில்"
+  },
+  {
+    "id": 295,
+    "thai": "ระหว่าง",
+    "english_transliteration": "Ra-wang",
+    "tamil_transliteration": "ராவாங்",
+    "english_meaning": "Between",
+    "tamil_meaning": "இடையில்"
+  },
+  {
+    "id": 296,
+    "thai": "ที่นี่",
+    "english_transliteration": "Thee nee",
+    "tamil_transliteration": "தீ நீ",
+    "english_meaning": "Here",
+    "tamil_meaning": "இங்கே"
+  },
+  {
+    "id": 297,
+    "thai": "ที่นั่น",
+    "english_transliteration": "Thee nan",
+    "tamil_transliteration": "தீ நான்",
+    "english_meaning": "There",
+    "tamil_meaning": "அங்கே"
+  },
+  {
+    "id": 298,
+    "thai": "ทิศเหนือ",
+    "english_transliteration": "Thit nuea",
+    "tamil_transliteration": "தித் நுயா",
+    "english_meaning": "North",
+    "tamil_meaning": "வடக்கு"
+  },
+  {
+    "id": 299,
+    "thai": "ทิศใต้",
+    "english_transliteration": "Thit tai",
+    "tamil_transliteration": "தித் தாய்",
+    "english_meaning": "South",
+    "tamil_meaning": "தெற்கு"
+  },
+  {
+    "id": 300,
+    "thai": "ทิศตะวันออก",
+    "english_transliteration": "Thit ta-wan ok",
+    "tamil_transliteration": "தித் தவான் ஆக்",
+    "english_meaning": "East",
+    "tamil_meaning": "கிழக்கு"
+  },
+  {
+    "id": 301,
+    "thai": "ทิศตะวันตก",
+    "english_transliteration": "Thit ta-wan tok",
+    "tamil_transliteration": "தித் தவான் தோக்",
+    "english_meaning": "West",
+    "tamil_meaning": "மேற்கு"
+  },
+  {
+    "id": 302,
+    "thai": "วันจันทร์",
+    "english_transliteration": "Wan chan",
+    "tamil_transliteration": "வன் சான்",
+    "english_meaning": "Monday",
+    "tamil_meaning": "திங்கள்கிழமை"
+  },
+  {
+    "id": 303,
+    "thai": "วันอังคาร",
+    "english_transliteration": "Wan ang-khan",
+    "tamil_transliteration": "வன் ஆங்காண்",
+    "english_meaning": "Tuesday",
+    "tamil_meaning": "செவ்வாய்க்கிழமை"
+  },
+  {
+    "id": 304,
+    "thai": "วันพุธ",
+    "english_transliteration": "Wan phut",
+    "tamil_transliteration": "வன் புத்",
+    "english_meaning": "Wednesday",
+    "tamil_meaning": "புதன்கிழமை"
+  },
+  {
+    "id": 305,
+    "thai": "วันพฤหัสบดี",
+    "english_transliteration": "Wan pha-rue-hat",
+    "tamil_transliteration": "வன் பருஹத்",
+    "english_meaning": "Thursday",
+    "tamil_meaning": "வியாழக்கிழமை"
+  },
+  {
+    "id": 306,
+    "thai": "วันศุกร์",
+    "english_transliteration": "Wan suk",
+    "tamil_transliteration": "வன் சுக்",
+    "english_meaning": "Friday",
+    "tamil_meaning": "வெள்ளிக்கிழமை"
+  },
+  {
+    "id": 307,
+    "thai": "วันเสาร์",
+    "english_transliteration": "Wan sao",
+    "tamil_transliteration": "வன் சாவ்",
+    "english_meaning": "Saturday",
+    "tamil_meaning": "சனிக்கிழமை"
+  },
+  {
+    "id": 308,
+    "thai": "วันอาทิตย์",
+    "english_transliteration": "Wan a-thit",
+    "tamil_transliteration": "வன் அதித்",
+    "english_meaning": "Sunday",
+    "tamil_meaning": "ஞாயிற்றுக்கிழமை"
+  },
+  {
+    "id": 309,
+    "thai": "มกราคม",
+    "english_transliteration": "Mo-ka-ra-khom",
+    "tamil_transliteration": "மொகராகோம்",
+    "english_meaning": "January",
+    "tamil_meaning": "ஜனவரி"
+  },
+  {
+    "id": 310,
+    "thai": "กุมภาพันธ์",
+    "english_transliteration": "Kum-pha-phan",
+    "tamil_transliteration": "கும்பாபன்",
+    "english_meaning": "February",
+    "tamil_meaning": "பிப்ரவரி"
+  },
+  {
+    "id": 311,
+    "thai": "มีนาคม",
+    "english_transliteration": "Mee-na-khom",
+    "tamil_transliteration": "மீனாகோம்",
+    "english_meaning": "March",
+    "tamil_meaning": "மார்ச்"
+  },
+  {
+    "id": 312,
+    "thai": "เมษายน",
+    "english_transliteration": "Me-sa-yon",
+    "tamil_transliteration": "மேசாயோன்",
+    "english_meaning": "April",
+    "tamil_meaning": "ஏப்ரல்"
+  },
+  {
+    "id": 313,
+    "thai": "พฤษภาคม",
+    "english_transliteration": "Phruet-sa-pha-khom",
+    "tamil_transliteration": "ப்ருத்சபாகோம்",
+    "english_meaning": "May",
+    "tamil_meaning": "மே"
+  },
+  {
+    "id": 314,
+    "thai": "มิถุนายน",
+    "english_transliteration": "Mi-thu-na-yon",
+    "tamil_transliteration": "மிதுனாயோன்",
+    "english_meaning": "June",
+    "tamil_meaning": "ஜூன்"
+  },
+  {
+    "id": 315,
+    "thai": "กรกฎาคม",
+    "english_transliteration": "Ka-ra-ka-da-khom",
+    "tamil_transliteration": "கரகடாகோம்",
+    "english_meaning": "July",
+    "tamil_meaning": "ஜூலை"
+  },
+  {
+    "id": 316,
+    "thai": "สิงหาคม",
+    "english_transliteration": "Sing-ha-khom",
+    "tamil_transliteration": "சிங்காகோம்",
+    "english_meaning": "August",
+    "tamil_meaning": "ஆகஸ்ட்"
+  },
+  {
+    "id": 317,
+    "thai": "กันยายน",
+    "english_transliteration": "Kan-ya-yon",
+    "tamil_transliteration": "கன்யாயோன்",
+    "english_meaning": "September",
+    "tamil_meaning": "செப்டம்பர்"
+  },
+  {
+    "id": 318,
+    "thai": "ตุลาคม",
+    "english_transliteration": "Tu-la-khom",
+    "tamil_transliteration": "துலாகோம்",
+    "english_meaning": "October",
+    "tamil_meaning": "அக்டோபர்"
+  },
+  {
+    "id": 319,
+    "thai": "พฤศจิกายน",
+    "english_transliteration": "Phruet-sa-chi-ka-yon",
+    "tamil_transliteration": "ப்ருத்சசிகாயோன்",
+    "english_meaning": "November",
+    "tamil_meaning": "நவம்பர்"
+  },
+  {
+    "id": 320,
+    "thai": "ธันวาคม",
+    "english_transliteration": "Than-wa-khom",
+    "tamil_transliteration": "தன்வாகோம்",
+    "english_meaning": "December",
+    "tamil_meaning": "டிசம்பர்"
+  },
+  {
+    "id": 321,
+    "thai": "สัปดาห์",
+    "english_transliteration": "Sap-da",
+    "tamil_transliteration": "சப்தா",
+    "english_meaning": "Week",
+    "tamil_meaning": "வாரம்"
+  },
+  {
+    "id": 322,
+    "thai": "เดือน",
+    "english_transliteration": "Duean",
+    "tamil_transliteration": "டுயான்",
+    "english_meaning": "Month",
+    "tamil_meaning": "மாதம்"
+  },
+  {
+    "id": 323,
+    "thai": "ปี",
+    "english_transliteration": "Pee",
+    "tamil_transliteration": "பீ",
+    "english_meaning": "Year",
+    "tamil_meaning": "வருடம்"
+  },
+  {
+    "id": 324,
+    "thai": "นาที",
+    "english_transliteration": "Na-thee",
+    "tamil_transliteration": "னாதீ",
+    "english_meaning": "Minute",
+    "tamil_meaning": "நிமிடம்"
+  },
+  {
+    "id": 325,
+    "thai": "วินาที",
+    "english_transliteration": "Wi-na-thee",
+    "tamil_transliteration": "வினாதீ",
+    "english_meaning": "Second",
+    "tamil_meaning": "விநாடி"
+  },
+  {
+    "id": 326,
+    "thai": "ชั่วโมง",
+    "english_transliteration": "Chua-mong",
+    "tamil_transliteration": "சுவா-மோங்",
+    "english_meaning": "Hour",
+    "tamil_meaning": "மணிநேரம்"
+  },
+  {
+    "id": 327,
+    "thai": "วันหยุด",
+    "english_transliteration": "Wan yut",
+    "tamil_transliteration": "வன் யுத்",
+    "english_meaning": "Holiday / Weekend",
+    "tamil_meaning": "விடுமுறை"
+  },
+  {
+    "id": 328,
+    "thai": "อาหารเช้า",
+    "english_transliteration": "A-han chao",
+    "tamil_transliteration": "அஹான் சாவ்",
+    "english_meaning": "Breakfast",
+    "tamil_meaning": "காலை உணவு"
+  },
+  {
+    "id": 329,
+    "thai": "อาหารเที่ยง",
+    "english_transliteration": "A-han thiang",
+    "tamil_transliteration": "அஹான் தீயாங்",
+    "english_meaning": "Lunch",
+    "tamil_meaning": "மதிய உணவு"
+  },
+  {
+    "id": 330,
+    "thai": "อาหารเย็น",
+    "english_transliteration": "A-han yen",
+    "tamil_transliteration": "அஹான் யென்",
+    "english_meaning": "Dinner",
+    "tamil_meaning": "இரவு உணவு"
+  },
+  {
+    "id": 331,
+    "thai": "ขนมปัง",
+    "english_transliteration": "Kha-nom pang",
+    "tamil_transliteration": "கனோம் பாங்",
+    "english_meaning": "Bread",
+    "tamil_meaning": "ரொட்டி (Bread)"
+  },
+  {
+    "id": 332,
+    "thai": "เนย",
+    "english_transliteration": "Noei",
+    "tamil_transliteration": "நாய்",
+    "english_meaning": "Butter",
+    "tamil_meaning": "வெண்ணெய்"
+  },
+  {
+    "id": 333,
+    "thai": "ไข่",
+    "english_transliteration": "Khai",
+    "tamil_transliteration": "காய்",
+    "english_meaning": "Egg",
+    "tamil_meaning": "முட்டை"
+  },
+  {
+    "id": 334,
+    "thai": "ไข่ดาว",
+    "english_transliteration": "Khai dao",
+    "tamil_transliteration": "காய் டாவ்",
+    "english_meaning": "Fried egg",
+    "tamil_meaning": "பொரித்த முட்டை"
+  },
+  {
+    "id": 335,
+    "thai": "ไข่เจียว",
+    "english_transliteration": "Khai chiao",
+    "tamil_transliteration": "காய் சியாவ்",
+    "english_meaning": "Omelet",
+    "tamil_meaning": "ஆப்ளெட்"
+  },
+  {
+    "id": 336,
+    "thai": "ซุป",
+    "english_transliteration": "Sup",
+    "tamil_transliteration": "சூப்",
+    "english_meaning": "Soup",
+    "tamil_meaning": "சூப்"
+  },
+  {
+    "id": 337,
+    "thai": "ก๋วยเตี๋ยว",
+    "english_transliteration": "Kuaitiao",
+    "tamil_transliteration": "குவைத்தியாவ்",
+    "english_meaning": "Noodles",
+    "tamil_meaning": " நூடுல்ஸ்"
+  },
+  {
+    "id": 338,
+    "thai": "ผัดไทย",
+    "english_transliteration": "Pad Thai",
+    "tamil_transliteration": "பத் தாய்",
+    "english_meaning": "Pad Thai",
+    "tamil_meaning": "பத் தாய் (உணவு)"
+  },
+  {
+    "id": 339,
+    "thai": "ต้มยำ",
+    "english_transliteration": "Tom yum",
+    "tamil_transliteration": "தோம் யாம்",
+    "english_meaning": "Tom Yum (Spicy soup)",
+    "tamil_meaning": "தோம் யாம் சூப்"
+  },
+  {
+    "id": 340,
+    "thai": "แกง",
+    "english_transliteration": "Kaeng",
+    "tamil_transliteration": "கேங்",
+    "english_meaning": "Curry",
+    "tamil_meaning": "கறி / குழம்பு"
+  },
+  {
+    "id": 341,
+    "thai": "เกลือ",
+    "english_transliteration": "Kluea",
+    "tamil_transliteration": "கிளுயா",
+    "english_meaning": "Salt",
+    "tamil_meaning": "உப்பு"
+  },
+  {
+    "id": 342,
+    "thai": "น้ำตาล",
+    "english_transliteration": "Nam-tan",
+    "tamil_transliteration": "நாம்-தான்",
+    "english_meaning": "Sugar",
+    "tamil_meaning": "சர்க்கரை"
+  },
+  {
+    "id": 343,
+    "thai": "พริก",
+    "english_transliteration": "Phrik",
+    "tamil_transliteration": "ப்ரிக்",
+    "english_meaning": "Chili",
+    "tamil_meaning": "மிளகாய்"
+  },
+  {
+    "id": 344,
+    "thai": "พริกไทย",
+    "english_transliteration": "Phrik thai",
+    "tamil_transliteration": "ப்ரிக் தாய்",
+    "english_meaning": "Pepper",
+    "tamil_meaning": "மிளகு"
+  },
+  {
+    "id": 345,
+    "thai": "น้ำปลา",
+    "english_transliteration": "Nam pla",
+    "tamil_transliteration": "நாம் பிளா",
+    "english_meaning": "Fish sauce",
+    "tamil_meaning": "மீன் சாஸ்"
+  },
+  {
+    "id": 346,
+    "thai": "น้ำแข็ง",
+    "english_transliteration": "Nam khaeng",
+    "tamil_transliteration": "நாம் கேங்",
+    "english_meaning": "Ice",
+    "tamil_meaning": "பனிக்கட்டி"
+  },
+  {
+    "id": 347,
+    "thai": "น้ำผลไม้",
+    "english_transliteration": "Nam phon-la-mai",
+    "tamil_transliteration": "நாம் போன்லமை",
+    "english_meaning": "Fruit juice",
+    "tamil_meaning": "பழச்சாறு"
+  },
+  {
+    "id": 348,
+    "thai": "เบียร์",
+    "english_transliteration": "Bia",
+    "tamil_transliteration": "பியா",
+    "english_meaning": "Beer",
+    "tamil_meaning": "பீர்"
+  },
+  {
+    "id": 349,
+    "thai": "ไวน์",
+    "english_transliteration": "Wai",
+    "tamil_transliteration": "வைன்",
+    "english_meaning": "Wine",
+    "tamil_meaning": "வைன்"
+  },
+  {
+    "id": 350,
+    "thai": "กล้วย",
+    "english_transliteration": "Kluai",
+    "tamil_transliteration": "குளுவாய்",
+    "english_meaning": "Banana",
+    "tamil_meaning": "வாழைப்பழம்"
+  },
+  {
+    "id": 351,
+    "thai": "ส้ม",
+    "english_transliteration": "Som",
+    "tamil_transliteration": "சோம்",
+    "english_meaning": "Orange (fruit)",
+    "tamil_meaning": "ஆரஞ்சு பழம்"
+  },
+  {
+    "id": 352,
+    "thai": "มะม่วง",
+    "english_transliteration": "Ma-muang",
+    "tamil_transliteration": "மமுவாங்",
+    "english_meaning": "Mango",
+    "tamil_meaning": "மாம்பழம்"
+  },
+  {
+    "id": 353,
+    "thai": "สับปะรด",
+    "english_transliteration": "Sap-pa-rot",
+    "tamil_transliteration": "சப்பரோத்",
+    "english_meaning": "Pineapple",
+    "tamil_meaning": "அன்னாசி"
+  },
+  {
+    "id": 354,
+    "thai": "มะพร้าว",
+    "english_transliteration": "Ma-phrao",
+    "tamil_transliteration": "மபிராவ்",
+    "english_meaning": "Coconut",
+    "tamil_meaning": "தேங்காய்"
+  },
+  {
+    "id": 355,
+    "thai": "แตงโม",
+    "english_transliteration": "Taeng-mo",
+    "tamil_transliteration": "டேங்-மோ",
+    "english_meaning": "Watermelon",
+    "tamil_meaning": "தர்பூசணி"
+  },
+  {
+    "id": 356,
+    "thai": "แอปเปิ้ล",
+    "english_transliteration": "Aep-poen",
+    "tamil_transliteration": "ஆப்பிள்",
+    "english_meaning": "Apple",
+    "tamil_meaning": "ஆப்பிள்"
+  },
+  {
+    "id": 357,
+    "thai": "มะนาว",
+    "english_transliteration": "Ma-nao",
+    "tamil_transliteration": "மனாவ்",
+    "english_meaning": "Lime / Lemon",
+    "tamil_meaning": "எலுமிச்சை"
+  },
+  {
+    "id": 358,
+    "thai": "กระเทียม",
+    "english_transliteration": "Kra-thiam",
+    "tamil_transliteration": "கிராதியாம்",
+    "english_meaning": "Garlic",
+    "tamil_meaning": "பூண்டு"
+  },
+  {
+    "id": 359,
+    "thai": "หอมใหญ่",
+    "english_transliteration": "Hom yai",
+    "tamil_transliteration": "ஹோம் யாய்",
+    "english_meaning": "Onion",
+    "tamil_meaning": "வெங்காயம்"
+  },
+  {
+    "id": 360,
+    "thai": "ขิง",
+    "english_transliteration": "Khing",
+    "tamil_transliteration": "கிங்",
+    "english_meaning": "Ginger",
+    "tamil_meaning": "இஞ்சி"
+  },
+  {
+    "id": 361,
+    "thai": "ต้ม",
+    "english_transliteration": "Tom",
+    "tamil_transliteration": "தோம்",
+    "english_meaning": "Boil",
+    "tamil_meaning": "வேகவை"
+  },
+  {
+    "id": 362,
+    "thai": "ผัด",
+    "english_transliteration": "Pad",
+    "tamil_transliteration": "பத்",
+    "english_meaning": "Stir-fry",
+    "tamil_meaning": "வதக்கு"
+  },
+  {
+    "id": 363,
+    "thai": "ทอด",
+    "english_transliteration": "Thot",
+    "tamil_transliteration": "தோத்",
+    "english_meaning": "Deep-fry",
+    "tamil_meaning": "பொரி"
+  },
+  {
+    "id": 364,
+    "thai": "ย่าง",
+    "english_transliteration": "Yang",
+    "tamil_transliteration": "யாங்",
+    "english_meaning": "Grill / Roast",
+    "tamil_meaning": "சுடு / கிரில் செய்"
+  },
+  {
+    "id": 365,
+    "thai": "นึ่ง",
+    "english_transliteration": "Nueng",
+    "tamil_transliteration": "னுயெங்",
+    "english_meaning": "Steam",
+    "tamil_meaning": "ஆவியில் வேகவை"
+  },
+  {
+    "id": 366,
+    "thai": "เผ็ด",
+    "english_transliteration": "Phet",
+    "tamil_transliteration": "பெத்",
+    "english_meaning": "Spicy",
+    "tamil_meaning": "காரமான"
+  },
+  {
+    "id": 367,
+    "thai": "หวาน",
+    "english_transliteration": "Wan",
+    "tamil_transliteration": "வான்",
+    "english_meaning": "Sweet",
+    "tamil_meaning": "இனிப்பான"
+  },
+  {
+    "id": 368,
+    "thai": "เค็ม",
+    "english_transliteration": "Khem",
+    "tamil_transliteration": "கெம்",
+    "english_meaning": "Salty",
+    "tamil_meaning": "உவர்ப்பான"
+  },
+  {
+    "id": 369,
+    "thai": "เปรี้ยว",
+    "english_transliteration": "Priao",
+    "tamil_transliteration": "ப்பிரியாவ்",
+    "english_meaning": "Sour",
+    "tamil_meaning": "புளிப்பான"
+  },
+  {
+    "id": 370,
+    "thai": "ขม",
+    "english_transliteration": "Khom",
+    "tamil_transliteration": "கோம்",
+    "english_meaning": "Bitter",
+    "tamil_meaning": "கசப்பான"
+  },
+  {
+    "id": 371,
+    "thai": "จืด",
+    "english_transliteration": "Juet",
+    "tamil_transliteration": "ஜூத்",
+    "english_meaning": "Bland / Tasteless",
+    "tamil_meaning": "சப்பையான"
+  },
+  {
+    "id": 372,
+    "thai": "มัน",
+    "english_transliteration": "Man",
+    "tamil_transliteration": "மேன்",
+    "english_meaning": "Oily / Oily food",
+    "tamil_meaning": "எண்ணெய் பசை"
+  },
+  {
+    "id": 373,
+    "thai": "หิวข้าว",
+    "english_transliteration": "Hiu khao",
+    "tamil_transliteration": "ஹியூ காவ்",
+    "english_meaning": "Hungry for food",
+    "tamil_meaning": "பசிக்கிறது"
+  },
+  {
+    "id": 374,
+    "thai": "หิวน้ำ",
+    "english_transliteration": "Hiu nam",
+    "tamil_transliteration": "ஹியூ நாம்",
+    "english_meaning": "Thirsty",
+    "tamil_meaning": "தாகமாக இருக்கிறது"
+  },
+  {
+    "id": 375,
+    "thai": "สั่งอาหาร",
+    "english_transliteration": "Sang a-han",
+    "tamil_transliteration": "சாங் அஹான்",
+    "english_meaning": "Order food",
+    "tamil_meaning": "உணவு ஆர்டர் செய்"
+  },
+  {
+    "id": 376,
+    "thai": "เช็คบิล",
+    "english_transliteration": "Chek bin",
+    "tamil_transliteration": "செக் பின்",
+    "english_meaning": "Check the bill",
+    "tamil_meaning": "பில் கொடுங்கள்"
+  },
+  {
+    "id": 377,
+    "thai": "เก็บเงินด้วย",
+    "english_transliteration": "Kep ngoen duai",
+    "tamil_transliteration": "கெப் ஙோயேன் துவாய்",
+    "english_meaning": "Bill, please",
+    "tamil_meaning": "பணம் பெற்றுக் கொள்ளுங்கள்"
+  },
+  {
+    "id": 378,
+    "thai": "ใส่ถุง",
+    "english_transliteration": "Sai thung",
+    "tamil_transliteration": "சை துங்",
+    "english_meaning": "Takeaway / In a bag",
+    "tamil_meaning": "பார்சல் செய்"
+  },
+  {
+    "id": 379,
+    "thai": "ทานที่นี่",
+    "english_transliteration": "Than thee nee",
+    "tamil_transliteration": "தான் தீ நீ",
+    "english_meaning": "Dine in",
+    "tamil_meaning": "இங்கே சாப்பிடுகிறேன்"
+  },
+  {
+    "id": 380,
+    "thai": "ไม่เผ็ด",
+    "english_transliteration": "Mai phet",
+    "tamil_transliteration": "மை பெத்",
+    "english_meaning": "Not spicy",
+    "tamil_meaning": "காரமில்லை"
+  },
+  {
+    "id": 381,
+    "thai": "เผ็ดน้อย",
+    "english_transliteration": "Phet noi",
+    "tamil_transliteration": "பெத் நாய்",
+    "english_meaning": "Little spicy",
+    "tamil_meaning": "கொஞ்சம் காரம்"
+  },
+  {
+    "id": 382,
+    "thai": "ใส่ผงชูรส",
+    "english_transliteration": "Sai phong choo rot",
+    "tamil_transliteration": "சை போங் சூ ரோத்",
+    "english_meaning": "Add MSG",
+    "tamil_meaning": "அஜினோமோட்டோ சேர்"
+  },
+  {
+    "id": 383,
+    "thai": "ไม่ใส่ผงชูรส",
+    "english_transliteration": "Mai sai phong choo rot",
+    "tamil_transliteration": "மை சை போங் சூ ரோத்",
+    "english_meaning": "No MSG",
+    "tamil_meaning": "அஜினோமோட்டோ வேண்டாம்"
+  },
+  {
+    "id": 384,
+    "thai": "เมนู",
+    "english_transliteration": "Me-noo",
+    "tamil_transliteration": "மேனூ",
+    "english_meaning": "Menu",
+    "tamil_meaning": "மெனு"
+  },
+  {
+    "id": 385,
+    "thai": "แก้วน้ำ",
+    "english_transliteration": "Kaeo nam",
+    "tamil_transliteration": "கேவ் நாம்",
+    "english_meaning": "Water glass",
+    "tamil_meaning": "தண்ணீர் டம்ளர்"
+  },
+  {
+    "id": 386,
+    "thai": "กระดาษทิชชู่",
+    "english_transliteration": "Kra-dat thit-choo",
+    "tamil_transliteration": "கிரா-தாத் திச்சு",
+    "english_meaning": "Tissue paper",
+    "tamil_meaning": "டிஷ்யூ பேப்பர்"
+  },
+  {
+    "id": 387,
+    "thai": "หลอด",
+    "english_transliteration": "Lot",
+    "tamil_transliteration": "லாத்",
+    "english_meaning": "Straw (drinking)",
+    "tamil_meaning": "ஸ்ட்ரா"
+  },
+  {
+    "id": 388,
+    "thai": "จานชาม",
+    "english_transliteration": "Chan cham",
+    "tamil_transliteration": "சான் சாம்",
+    "english_meaning": "Dishes / Tableware",
+    "tamil_meaning": "பாத்திரங்கள்"
+  },
+  {
+    "id": 389,
+    "thai": "มังสวิรัติ",
+    "english_transliteration": "Mang-sa-wi-rat",
+    "tamil_transliteration": "மங்சாவிரத்",
+    "english_meaning": "Vegetarian",
+    "tamil_meaning": "சைவம்"
+  },
+  {
+    "id": 390,
+    "thai": "เจ",
+    "english_transliteration": "Jay",
+    "tamil_transliteration": "ஜே",
+    "english_meaning": "Vegan (Thai style)",
+    "tamil_meaning": "சுத்த சைவம்"
+  },
+  {
+    "id": 391,
+    "thai": "ฮาลาล",
+    "english_transliteration": "Ha-lan",
+    "tamil_transliteration": "ஹாலான்",
+    "english_meaning": "Halal",
+    "tamil_meaning": "ஹலால்"
+  },
+  {
+    "id": 392,
+    "thai": "แพ้",
+    "english_transliteration": "Phae",
+    "tamil_transliteration": "பே",
+    "english_meaning": "Allergic to",
+    "tamil_meaning": "ஒவ்வாமை (Allergy)"
+  },
+  {
+    "id": 393,
+    "thai": "แพ้ถั่ว",
+    "english_transliteration": "Phae thua",
+    "tamil_transliteration": "பே துவா",
+    "english_meaning": "Allergic to peanuts",
+    "tamil_meaning": "கடலை ஒவ்வாமை"
+  },
+  {
+    "id": 394,
+    "thai": "แพ้อาหารทะเล",
+    "english_transliteration": "Phae a-han tha-le",
+    "tamil_transliteration": "பே அஹான் தலே",
+    "english_meaning": "Allergic to seafood",
+    "tamil_meaning": "கடல் உணவு ஒவ்வாமை"
+  },
+  {
+    "id": 395,
+    "twin": "สด",
+    "thai": "สด",
+    "english_transliteration": "Sot",
+    "tamil_transliteration": "சோத்",
+    "english_meaning": "Fresh",
+    "tamil_meaning": "புதிய"
+  },
+  {
+    "id": 396,
+    "thai": "แห้ง",
+    "english_transliteration": "Haeng",
+    "tamil_transliteration": "ஹேங்",
+    "english_meaning": "Dry",
+    "tamil_meaning": "உலர்ந்த"
+  },
+  {
+    "id": 397,
+    "thai": "ช็อกโกแลต",
+    "english_transliteration": "Chok-ko-laet",
+    "tamil_transliteration": "சாக்கலேட்",
+    "english_meaning": "Chocolate",
+    "tamil_meaning": "சாாக்லேட்"
+  },
+  {
+    "id": 398,
+    "thai": "ไอศกรีม",
+    "english_transliteration": "Ai-sa-khreem",
+    "tamil_transliteration": "ஐஸ்கிரீம்",
+    "english_meaning": "Ice cream",
+    "tamil_meaning": "ஐஸ்கிரீம்"
+  },
+  {
+    "id": 399,
+    "thai": "เค้ก",
+    "english_transliteration": "Kek",
+    "tamil_transliteration": "கேக்",
+    "english_meaning": "Cake",
+    "tamil_meaning": "கேக்"
+  },
+  {
+    "id": 400,
+    "thai": "ผลไม้รวม",
+    "english_transliteration": "Phon-la-mai ruam",
+    "tamil_transliteration": "போன்லமை ரூவாம்",
+    "english_meaning": "Mixed fruits",
+    "tamil_meaning": "கலப்பு பழங்கள்"
+  },
+  {
+    "id": 401,
+    "thai": "สถานที่",
+    "english_transliteration": "Sa-than-thee",
+    "tamil_transliteration": "சதான்தீ",
+    "english_meaning": "Place / Location",
+    "tamil_meaning": "இடம்"
+  },
+  {
+    "id": 402,
+    "thai": "ศูนย์การค้า",
+    "english_transliteration": "Suan kan kha",
+    "tamil_transliteration": "சூன் கான் கா",
+    "english_meaning": "Shopping Mall",
+    "tamil_meaning": "வணிக வளாகம் (Mall)"
+  },
+  {
+    "id": 403,
+    "thai": "ร้านสะดวกซื้อ",
+    "english_transliteration": "Ran sa-duak sue",
+    "tamil_transliteration": "ரான் சதுவாக் சுயே",
+    "english_meaning": "Convenience store",
+    "tamil_meaning": "பொருட்கள் கடை (Convenience store)"
+  },
+  {
+    "id": 404,
+    "thai": "ร้านยา",
+    "english_transliteration": "Ran ya",
+    "tamil_transliteration": "ரான் யா",
+    "english_meaning": "Pharmacy / Drugstore",
+    "tamil_meaning": "மருந்தகம்"
+  },
+  {
+    "id": 405,
+    "thai": "ร้านกาแฟ",
+    "english_transliteration": "Ran ka-fae",
+    "tamil_transliteration": "ரான் காஃபே",
+    "english_meaning": "Coffee shop / Café",
+    "tamil_meaning": "காபி கடை"
+  },
+  {
+    "id": 406,
+    "thai": "ปั๊มน้ำมัน",
+    "english_transliteration": "Pam nam-man",
+    "tamil_transliteration": "பாம் நாம்மான்",
+    "english_meaning": "Gas station / Petrol bunk",
+    "tamil_meaning": "பெட்ரோல் பங்க்"
+  },
+  {
+    "id": 407,
+    "thai": "สถานีตำรวจ",
+    "english_transliteration": "Sa-tha-nee tam-ruat",
+    "tamil_transliteration": "சதானி தம்ருவாத்",
+    "english_meaning": "Police station",
+    "tamil_meaning": "காவல் நிலையம்"
+  },
+  {
+    "id": 408,
+    "thai": "สถานทูต",
+    "english_transliteration": "Sa-than-thoot",
+    "tamil_transliteration": "சதான்தூத்",
+    "english_meaning": "Embassy",
+    "tamil_meaning": "தூதரகம்"
+  },
+  {
+    "id": 409,
+    "thai": "ห้องการเรียน",
+    "english_transliteration": "Hong kan rian",
+    "tamil_transliteration": "ஹாங் கான் ரியான்",
+    "english_meaning": "Classroom",
+    "tamil_meaning": "வகுப்பறை"
+  },
+  {
+    "id": 410,
+    "thai": "ห้องทำงาน",
+    "english_transliteration": "Hong tham ngan",
+    "tamil_transliteration": "ஹாங் தம் ஙான்",
+    "english_meaning": "Office room",
+    "tamil_meaning": "அலுவலக அறை"
+  },
+  {
+    "id": 411,
+    "thai": "ตั๋ว",
+    "english_transliteration": "Tua",
+    "tamil_transliteration": "துவா",
+    "english_meaning": "Ticket",
+    "tamil_meaning": "டிக்கெட்"
+  },
+  {
+    "id": 412,
+    "thai": "พาสปอร์ต",
+    "english_transliteration": "Phat-sa-pot",
+    "tamil_transliteration": "பாஸ்போர்ட்",
+    "english_meaning": "Passport",
+    "tamil_meaning": "கடவுச்சீட்டு (Passport)"
+  },
+  {
+    "id": 413,
+    "thai": "สัมภาระ",
+    "english_transliteration": "Sam-pha-ra",
+    "tamil_transliteration": "சம்பாரா",
+    "english_meaning": "Luggage / Baggage",
+    "tamil_meaning": "பயணப் பெட்டி / லக்கேஜ்"
+  },
+  {
+    "id": 414,
+    "thai": "การเดินทาง",
+    "english_transliteration": "Kan doen thang",
+    "tamil_transliteration": "கான் டேன் தாங்",
+    "english_meaning": "Travel / Journey",
+    "tamil_meaning": "பயணம்"
+  },
+  {
+    "id": 415,
+    "thai": "เที่ยวบิน",
+    "english_transliteration": "Thiao bin",
+    "tamil_transliteration": "தீயாவ் பின்",
+    "english_meaning": "Flight",
+    "tamil_meaning": "விமானப் பயணம்"
+  },
+  {
+    "id": 416,
+    "thai": "ขาออก",
+    "english_transliteration": "Kha ok",
+    "tamil_transliteration": "கா ஆக்",
+    "english_meaning": "Departure",
+    "tamil_meaning": "புறப்பாடு"
+  },
+  {
+    "id": 417,
+    "thai": "ขาเข้า",
+    "english_transliteration": "Kha khao",
+    "tamil_transliteration": "கா காவ்",
+    "english_meaning": "Arrival",
+    "tamil_meaning": "வருகை"
+  },
+  {
+    "id": 418,
+    "thai": "จอง",
+    "english_transliteration": "Jong",
+    "tamil_transliteration": "ஜோங்",
+    "english_meaning": "Book / Reserve",
+    "tamil_meaning": "முன்பதிவு செய்"
+  },
+  {
+    "id": 419,
+    "thai": "ยกเลิก",
+    "english_transliteration": "Yok-loek",
+    "tamil_transliteration": "யோக்-லேக்",
+    "english_meaning": "Cancel",
+    "tamil_meaning": "ரத்து செய்"
+  },
+  {
+    "id": 420,
+    "thai": "เปลี่ยนแปลง",
+    "english_transliteration": "Plian-plaeng",
+    "tamil_transliteration": "ப்லியான்-ப்லேங்",
+    "english_meaning": "Change / Alter",
+    "tamil_meaning": "மாற்று"
+  },
+  {
+    "id": 421,
+    "thai": "โกรธ",
+    "english_transliteration": "Krot",
+    "tamil_transliteration": "க்ரோத்",
+    "english_meaning": "Angry",
+    "tamil_meaning": "கோபம்"
+  },
+  {
+    "id": 422,
+    "thai": "กลัว",
+    "english_transliteration": "Klua",
+    "tamil_transliteration": "க்ளுவா",
+    "english_meaning": "Scared / Afraid",
+    "tamil_meaning": "பயம்"
+  },
+  {
+    "id": 423,
+    "thai": "ตกใจ",
+    "english_transliteration": "Tok-jai",
+    "tamil_transliteration": "தோக்-ஜெய்",
+    "english_meaning": "Shocked / Surprised",
+    "tamil_meaning": "அதிர்ச்சி"
+  },
+  {
+    "id": 424,
+    "thai": "ตื่นเต้น",
+    "english_transliteration": "Tuen-ten",
+    "tamil_transliteration": "துயேன்-தேன்",
+    "english_meaning": "Excited",
+    "tamil_meaning": "ஆர்வமுடன்"
+  },
+  {
+    "id": 425,
+    "thai": "อาย",
+    "english_transliteration": "Ai",
+    "tamil_transliteration": "ஆய்",
+    "english_meaning": "Shy / Embarrassed",
+    "tamil_meaning": "வெட்கம்"
+  },
+  {
+    "id": 426,
+    "thai": "เบื่อ",
+    "english_transliteration": "Buea",
+    "tamil_transliteration": "புயா",
+    "english_meaning": "Bored",
+    "tamil_meaning": "சலிப்பு"
+  },
+  {
+    "id": 427,
+    "thai": "ง่วง",
+    "english_transliteration": "Nguang",
+    "tamil_transliteration": "ஙுவாங்",
+    "english_meaning": "Sleepy",
+    "tamil_meaning": "தூக்கக் கலக்கம்"
+  },
+  {
+    "id": 428,
+    "thai": "กังวล",
+    "english_transliteration": "Kang-won",
+    "tamil_transliteration": "காங்-வோன்",
+    "english_meaning": "Worried / Anxious",
+    "tamil_meaning": "கவலை"
+  },
+  {
+    "id": 429,
+    "thai": "เหงา",
+    "english_transliteration": "Ngao",
+    "tamil_transliteration": "ஙாவ்",
+    "english_meaning": "Lonely",
+    "tamil_meaning": "தனிமை"
+  },
+  {
+    "id": 430,
+    "thai": "อิจฉา",
+    "english_transliteration": "It-cha",
+    "tamil_transliteration": "இட்சா",
+    "english_meaning": "Jealous",
+    "tamil_meaning": "பொறாமை"
+  },
+  {
+    "id": 431,
+    "thai": "สะอาด",
+    "english_transliteration": "Sa-at",
+    "tamil_transliteration": "சாஆத்",
+    "english_meaning": "Clean",
+    "tamil_meaning": "சுத்தமான"
+  },
+  {
+    "id": 432,
+    "thai": "สกปรก",
+    "english_transliteration": "Sok-ka-prok",
+    "tamil_transliteration": "சொக்கப்ரோக்",
+    "english_meaning": "Dirty",
+    "tamil_meaning": "அழுக்கான்"
+  },
+  {
+    "id": 433,
+    "thai": "เสียงดัง",
+    "english_transliteration": "Siang dang",
+    "tamil_transliteration": "சியாங் டாங்",
+    "english_meaning": "Loud / Noisy",
+    "tamil_meaning": "சத்தமான"
+  },
+  {
+    "id": 434,
+    "thai": "เงียบ",
+    "english_transliteration": "Ngiap",
+    "tamil_transliteration": "ஙியாப்",
+    "english_meaning": "Quiet / Silent",
+    "tamil_meaning": "அமைதியான"
+  },
+  {
+    "id": 435,
+    "thai": "สว่าง",
+    "english_transliteration": "Sa-wang",
+    "tamil_transliteration": "சவாங்",
+    "english_meaning": "Bright",
+    "tamil_meaning": "வெளிச்சமான"
+  },
+  {
+    "id": 436,
+    "thai": "มืด",
+    "english_transliteration": "Muet",
+    "tamil_transliteration": "முயேத்",
+    "english_meaning": "Dark",
+    "tamil_meaning": "இருண்ட"
+  },
+  {
+    "id": 437,
+    "thai": "เปียก",
+    "english_transliteration": "Piak",
+    "tamil_transliteration": "பியாாக்",
+    "english_meaning": "Wet",
+    "tamil_meaning": "ஈரமான"
+  },
+  {
+    "id": 438,
+    "thai": "แห้ง",
+    "english_transliteration": "Haeng",
+    "tamil_transliteration": "ஹேங்",
+    "english_meaning": "Dry",
+    "tamil_meaning": "உலர்ந்த"
+  },
+  {
+    "id": 439,
+    "thai": "แข็ง",
+    "english_transliteration": "Khaeng",
+    "tamil_transliteration": "கேங்",
+    "english_meaning": "Hard / Solid",
+    "tamil_meaning": "கடினமான / கெட்டியான"
+  },
+  {
+    "id": 440,
+    "thai": "นุ่ม",
+    "english_transliteration": "Num",
+    "tamil_transliteration": "நும்",
+    "english_meaning": "Soft",
+    "tamil_meaning": "மென்மையான"
+  },
+  {
+    "id": 441,
+    "thai": "ปลอดภัย",
+    "english_transliteration": "Phlon-thai",
+    "tamil_transliteration": "ப்லோன்-தாய்",
+    "english_meaning": "Safe",
+    "tamil_meaning": "பாதுகாப்பான"
+  },
+  {
+    "id": 442,
+    "thai": "อันตราย",
+    "english_transliteration": "An-ta-rai",
+    "tamil_transliteration": "அந்தாராய்",
+    "english_meaning": "Dangerous",
+    "tamil_meaning": "ஆபத்தான"
+  },
+  {
+    "id": 443,
+    "thai": "สำคัญ",
+    "english_transliteration": "Sam-khan",
+    "tamil_transliteration": "சம்கான்",
+    "english_meaning": "Important",
+    "tamil_meaning": "முக்கியமான"
+  },
+  {
+    "id": 444,
+    "thai": "พิเศษ",
+    "english_transliteration": "Phi-set",
+    "tamil_transliteration": "பிசேத்",
+    "english_meaning": "Special",
+    "tamil_meaning": "சிறப்பான"
+  },
+  {
+    "id": 445,
+    "thai": "ธรรมดา",
+    "english_transliteration": "Tham-ma-da",
+    "tamil_transliteration": "தம்மதா",
+    "english_meaning": "Normal / Ordinary",
+    "tamil_meaning": "சாதாரண"
+  },
+  {
+    "id": 446,
+    "thai": "เหมือนกัน",
+    "english_transliteration": "Muean kan",
+    "tamil_transliteration": "முயான் கான்",
+    "english_meaning": "Same / Similar",
+    "tamil_meaning": "ஒரே மாதிரியான"
+  },
+  {
+    "id": 447,
+    "thai": "ต่างกัน",
+    "english_transliteration": "Tang kan",
+    "tamil_transliteration": "தாங் கான்",
+    "english_meaning": "Different",
+    "tamil_meaning": "வெவ்வேறான"
+  },
+  {
+    "id": 448,
+    "thai": "พร้อม",
+    "english_transliteration": "Phrom",
+    "tamil_transliteration": "ப்ரோம்",
+    "english_meaning": "Ready",
+    "tamil_meaning": "தயார்"
+  },
+  {
+    "id": 449,
+    "thai": "ยุ่ง",
+    "english_transliteration": "Yung",
+    "tamil_transliteration": "யுங்",
+    "english_meaning": "Busy",
+    "tamil_meaning": "வேலையாக"
+  },
+  {
+    "id": 450,
+    "thai": "ว่าง",
+    "english_transliteration": "Wang",
+    "tamil_transliteration": "வாங்",
+    "english_meaning": "Free / Available",
+    "tamil_meaning": "நேரமிருக்கிறது / ஓய்வாக"
+  },
+  {
+    "id": 451,
+    "thai": "เริ่มต้น",
+    "english_transliteration": "Roem-ton",
+    "tamil_transliteration": "ரேம்-தோன்",
+    "english_meaning": "Start / Begin",
+    "tamil_meaning": "தொடங்கு"
+  },
+  {
+    "id": 452,
+    "thai": "หยุด",
+    "english_transliteration": "Yut",
+    "tamil_transliteration": "யுத்",
+    "english_meaning": "Stop",
+    "tamil_meaning": "நிறுத்து"
+  },
+  {
+    "id": 453,
+    "thai": "จบ",
+    "english_transliteration": "Jop",
+    "tamil_transliteration": "ஜோப்",
+    "english_meaning": "Finish / End",
+    "tamil_meaning": "முடி"
+  },
+  {
+    "id": 454,
+    "thai": "ชนะ",
+    "english_transliteration": "Cha-na",
+    "tamil_transliteration": "சனா",
+    "english_meaning": "Win",
+    "tamil_meaning": "வெல்"
+  },
+  {
+    "id": 455,
+    "thai": "แพ้",
+    "english_transliteration": "Phae",
+    "tamil_transliteration": "பே",
+    "english_meaning": "Lose (defeat)",
+    "tamil_meaning": "தோல்வியடை"
+  },
+  {
+    "id": 456,
+    "thai": "ลอง",
+    "english_transliteration": "Long",
+    "tamil_transliteration": "லோங்",
+    "english_meaning": "Try / Attempt",
+    "tamil_meaning": "முயற்சி செய் / முயற்சித்துப் பார்"
+  },
+  {
+    "id": 457,
+    "thai": "เปลี่ยน",
+    "english_transliteration": "Plian",
+    "tamil_transliteration": "ப்லியான்",
+    "english_meaning": "Change",
+    "tamil_meaning": "மாற்று"
+  },
+  {
+    "id": 458,
+    "thai": "ซ่อม",
+    "english_transliteration": "Som",
+    "tamil_transliteration": "சோம்",
+    "english_meaning": "Repair / Fix",
+    "tamil_meaning": "பழுதுபார்"
+  },
+  {
+    "id": 459,
+    "thai": "สร้าง",
+    "english_transliteration": "Sang",
+    "tamil_transliteration": "சாங்",
+    "english_meaning": "Build / Create",
+    "tamil_meaning": "உருவாக்கு / கட்டு"
+  },
+  {
+    "id": 460,
+    "thai": "ทำลาย",
+    "english_transliteration": "Tham-lai",
+    "tamil_transliteration": "தம்-லை",
+    "english_meaning": "Destroy",
+    "tamil_meaning": "அழி"
+  },
+  {
+    "id": 461,
+    "thai": "เลือก",
+    "english_transliteration": "Lueak",
+    "tamil_transliteration": "லியாக்",
+    "english_meaning": "Choose / Select",
+    "tamil_meaning": "தேர்ந்தெடு"
+  },
+  {
+    "id": 462,
+    "thai": "ตัดสินใจ",
+    "english_transliteration": "Tat-sin-jai",
+    "tamil_transliteration": "தாத்-சின்-ஜெய்",
+    "english_meaning": "Decide",
+    "tamil_meaning": "முடிவு செய்"
+  },
+  {
+    "id": 463,
+    "thai": "สัญญาสัญญา",
+    "english_transliteration": "San-ya",
+    "tamil_transliteration": "சன்யா",
+    "english_meaning": "Promise",
+    "tamil_meaning": "வாக்குறுதி"
+  },
+  {
+    "id": 464,
+    "thai": "อธิบาย",
+    "english_transliteration": "A-thi-bai",
+    "tamil_transliteration": "அதிபாயி",
+    "english_meaning": "Explain",
+    "tamil_meaning": "விளக்கு"
+  },
+  {
+    "id": 465,
+    "thai": "แนะนำ",
+    "english_transliteration": "Nae-nam",
+    "tamil_transliteration": "நே-நாம்",
+    "english_meaning": "Recommend / Introduce",
+    "tamil_meaning": "பரிந்துரை / அறிமுகப்படுத்து"
+  },
+  {
+    "id": 466,
+    "thai": "ตกลง",
+    "english_transliteration": "Tok-long",
+    "tamil_transliteration": "தோக்-லோங்",
+    "english_meaning": "Agree / Okay",
+    "tamil_meaning": "சம்மதி / சரி"
+  },
+  {
+    "id": 467,
+    "thai": "ปฏิเสธ",
+    "english_transliteration": "Pa-ti-set",
+    "tamil_transliteration": "படிசேத்",
+    "english_meaning": "Refuse / Reject",
+    "tamil_meaning": "நிராகரி"
+  },
+  {
+    "id": 468,
+    "thai": "ล้มเหลว",
+    "english_transliteration": "Lom-laeo",
+    "tamil_transliteration": "லோம்-லேவ்",
+    "english_meaning": "Fail",
+    "tamil_meaning": "தோல்வி"
+  },
+  {
+    "id": 469,
+    "thai": "สำเร็จ",
+    "english_transliteration": "Sam-ret",
+    "tamil_transliteration": "சம்ரெத்",
+    "english_meaning": "Succeed / Complete",
+    "tamil_meaning": "வெற்றி / நிறைவு"
+  },
+  {
+    "id": 470,
+    "thai": "เชื่อ",
+    "english_transliteration": "Chuea",
+    "tamil_transliteration": "சுயா",
+    "english_meaning": "Believe",
+    "tamil_meaning": "நம்பு"
+  },
+  {
+    "id": 471,
+    "thai": "หวัง",
+    "english_transliteration": "Wang",
+    "tamil_transliteration": "வாங்",
+    "english_meaning": "Hope",
+    "tamil_meaning": "நம்பி இரு"
+  },
+  {
+    "id": 472,
+    "thai": "สงสัย",
+    "english_transliteration": "Song-sai",
+    "tamil_transliteration": "சோங்-சை",
+    "english_meaning": "Doubt / Wonder",
+    "tamil_meaning": "சந்தேகி"
+  },
+  {
+    "id": 473,
+    "thai": "สังเกต",
+    "english_transliteration": "Sang-ket",
+    "tamil_transliteration": "சாங்-கேத்",
+    "english_meaning": "Notice / Observe",
+    "tamil_meaning": "கவனி"
+  },
+  {
+    "id": 474,
+    "thai": "ระวัง",
+    "english_transliteration": "Ra-wang",
+    "tamil_transliteration": "ராவாங்",
+    "english_meaning": "Be careful / Watch out",
+    "tamil_meaning": "எச்சரிக்கையாக இரு"
+  },
+  {
+    "id": 475,
+    "thai": "แอบ",
+    "english_transliteration": "Aep",
+    "tamil_transliteration": "ஆப்",
+    "english_meaning": "Secretly / Sneakily",
+    "tamil_meaning": "ரகசியமாக"
+  },
+  {
+    "id": 476,
+    "thai": "แชร์",
+    "english_transliteration": "Chae",
+    "tamil_transliteration": "ஷேர்",
+    "english_meaning": "Share",
+    "tamil_meaning": "பகிர்"
+  },
+  {
+    "id": 477,
+    "thai": "ยืม",
+    "english_transliteration": "Yuem",
+    "tamil_transliteration": "யுயம்",
+    "english_meaning": "Borrow",
+    "tamil_meaning": "கடனாகப் பெறு"
+  },
+  {
+    "id": 478,
+    "thai": "คืน",
+    "english_transliteration": "Khuen",
+    "tamil_transliteration": "குயீன்",
+    "english_meaning": "Return (an item)",
+    "tamil_meaning": "திரும்பக் கொடு"
+  },
+  {
+    "id": 479,
+    "thai": "ออม",
+    "english_transliteration": "Om",
+    "tamil_transliteration": "ஓம்",
+    "english_meaning": "Save (money)",
+    "tamil_meaning": "சேமி"
+  },
+  {
+    "id": 480,
+    "thai": "ใช้",
+    "english_transliteration": "Chai",
+    "tamil_transliteration": "சாய்",
+    "english_meaning": "Use / Spend",
+    "tamil_meaning": "பயன்படுத்து"
+  },
+  {
+    "id": 481,
+    "thai": "ชีวิต",
+    "english_transliteration": "Chee-wit",
+    "tamil_transliteration": "சீவித்",
+    "english_meaning": "Life",
+    "tamil_meaning": "வாழ்க்கை"
+  },
+  {
+    "id": 482,
+    "thai": "ความสุข",
+    "english_transliteration": "Khwam-suk",
+    "tamil_transliteration": "க்வாம்-சுக்",
+    "english_meaning": "Happiness",
+    "tamil_meaning": "மகிழ்ச்சி"
+  },
+  {
+    "id": 483,
+    "thai": "ความรัก",
+    "english_transliteration": "Khwam-rak",
+    "tamil_transliteration": "க்வாம்-ராக்",
+    "english_meaning": "Love (noun)",
+    "tamil_meaning": "அன்பு"
+  },
+  {
+    "id": 484,
+    "thai": "ความฝัน",
+    "english_transliteration": "Khwam-fan",
+    "tamil_transliteration": "க்வாம்-ஃபான்",
+    "english_meaning": "Dream",
+    "tamil_meaning": "கனவு"
+  },
+  {
+    "id": 485,
+    "thai": "ความจริง",
+    "english_transliteration": "Khwam-ching",
+    "tamil_transliteration": "க்வாம்-சிங்",
+    "english_meaning": "Truth / Reality",
+    "tamil_meaning": "உண்மை"
+  },
+  {
+    "id": 486,
+    "thai": "โกหก",
+    "english_transliteration": "Ko-hok",
+    "tamil_transliteration": "கோ-ஹோக்",
+    "english_meaning": "Lie / Tell a lie",
+    "tamil_meaning": "பொய்"
+  },
+  {
+    "id": 487,
+    "thai": "ความลับ",
+    "english_transliteration": "Khwam-lap",
+    "tamil_transliteration": "க்வாம்-லாப்",
+    "english_meaning": "Secret",
+    "tamil_meaning": "ரகசியம்"
+  },
+  {
+    "id": 488,
+    "thai": "ปัญหา",
+    "english_transliteration": "Pan-ha",
+    "tamil_transliteration": "பன்-ஹா",
+    "english_meaning": "Problem",
+    "tamil_meaning": "பிரச்சனை"
+  },
+  {
+    "id": 489,
+    "thai": "คำตอบ",
+    "english_transliteration": "Kham-top",
+    "tamil_transliteration": "காம்-தோப்",
+    "english_meaning": "Solution / Answer",
+    "tamil_meaning": "பதில் / தீர்வு"
+  },
+  {
+    "id": 490,
+    "thai": "คำถาม",
+    "english_transliteration": "Kham-tham",
+    "tamil_transliteration": "காம்-தாம்",
+    "english_meaning": "Question",
+    "tamil_meaning": "கேள்வி"
+  },
+  {
+    "id": 491,
+    "thai": "โอกาส",
+    "english_transliteration": "O-kat",
+    "tamil_transliteration": "ஓகாத்",
+    "english_meaning": "Opportunity / Chance",
+    "tamil_meaning": "வாய்ப்பு"
+  },
+  {
+    "id": 492,
+    "thai": "ประสบการณ์",
+    "english_transliteration": "Pra-sop-kan",
+    "tamil_transliteration": "பிராசோப்கான்",
+    "english_meaning": "Experience",
+    "tamil_meaning": "அனுபவம்"
+  },
+  {
+    "id": 493,
+    "thai": "อนาคต",
+    "english_transliteration": "A-na-khot",
+    "tamil_transliteration": "அனாகோத்",
+    "english_meaning": "Future",
+    "tamil_meaning": "எதிர்காலம்"
+  },
+  {
+    "id": 494,
+    "thai": "อดีต",
+    "english_transliteration": "A-deet",
+    "tamil_transliteration": "அதீத்",
+    "english_meaning": "Past",
+    "tamil_meaning": "கடந்த காலம்"
+  },
+  {
+    "id": 495,
+    "thai": "ปัจจุบัน",
+    "english_transliteration": "Pat-chu-ban",
+    "tamil_transliteration": "பட்ஜுபன்",
+    "english_meaning": "Present / Now",
+    "tamil_meaning": "நிகழ்காலம்"
+  },
+  {
+    "id": 496,
+    "thai": "สุขภาพ",
+    "english_transliteration": "Suk-kha-phap",
+    "tamil_transliteration": "சுக்கபாப்",
+    "english_meaning": "Health",
+    "tamil_meaning": "சுகாதாரம் / ஆரோக்கியம்"
+  },
+  {
+    "id": 497,
+    "thai": "โรค",
+    "english_transliteration": "Rok",
+    "tamil_transliteration": "ரோக்",
+    "english_meaning": "Disease / Illness",
+    "tamil_meaning": "நோய்"
+  },
+  {
+    "id": 498,
+    "thai": "ยา",
+    "english_transliteration": "Ya",
+    "tamil_transliteration": "யா",
+    "english_meaning": "Medicine / Drug",
+    "tamil_meaning": "மருந்து"
+  },
+  {
+    "id": 499,
+    "thai": "หมอ",
+    "english_transliteration": "Mo",
+    "tamil_transliteration": "மோ",
+    "english_meaning": "Doctor",
+    "tamil_meaning": "மருத்துவர்"
+  },
+  {
+    "id": 500,
+    "thai": "พยาบาล",
+    "english_transliteration": "Pha-ya-ban",
+    "tamil_transliteration": "பயாபான்",
+    "english_meaning": "Nurse",
+    "tamil_meaning": "செவிலியர்"
+  },
+  {
+    "id": 501,
+    "thai": "อินเทอร์เน็ต",
+    "english_transliteration": "In-thoe-net",
+    "tamil_transliteration": "இன்டர்நெட்",
+    "english_meaning": "Internet",
+    "tamil_meaning": "இணையம்"
+  },
+  {
+    "id": 502,
+    "thai": "เว็บไซต์",
+    "english_transliteration": "Wep-sai",
+    "tamil_transliteration": "வெப்சைட்",
+    "english_meaning": "Website",
+    "tamil_meaning": "இணையதளம்"
+  },
+  {
+    "id": 503,
+    "thai": "รหัสผ่าน",
+    "english_transliteration": "Ra-hat phan",
+    "tamil_transliteration": "ரஹத் பான்",
+    "english_meaning": "Password",
+    "tamil_meaning": "கடவுச்சொல்"
+  },
+  {
+    "id": 504,
+    "thai": "อีเมล",
+    "english_transliteration": "Ee-men",
+    "tamil_transliteration": "ஈமெயில்",
+    "english_meaning": "Email",
+    "tamil_meaning": "மின்னஞ்சல்"
+  },
+  {
+    "id": 505,
+    "thai": "ข้อความ",
+    "english_transliteration": "Kho-khwam",
+    "tamil_transliteration": "கோ-க்வாம்",
+    "english_meaning": "Message / Text",
+    "tamil_meaning": "செய்தி"
+  },
+  {
+    "id": 506,
+    "thai": "รูปภาพ",
+    "english_transliteration": "Roop-phap",
+    "tamil_transliteration": "ரூப்-பாப்",
+    "english_meaning": "Picture / Photo",
+    "tamil_meaning": "புகைப்படம்"
+  },
+  {
+    "id": 507,
+    "thai": "วิดีโอ",
+    "english_transliteration": "Wi-dee-o",
+    "tamil_transliteration": "வீடியோ",
+    "english_meaning": "Video",
+    "tamil_meaning": "காணொளி"
+  },
+  {
+    "id": 508,
+    "thai": "เพลง",
+    "english_transliteration": "Phleng",
+    "tamil_transliteration": "ப்லேங்",
+    "english_meaning": "Song / Music",
+    "tamil_meaning": "பாடல்"
+  },
+  {
+    "id": 509,
+    "thai": "หนัง",
+    "english_transliteration": "Nang",
+    "tamil_transliteration": "னாங்",
+    "english_meaning": "Movie / Film",
+    "tamil_meaning": "திரைப்படம்"
+  },
+  {
+    "id": 510,
+    "thai": "ข่าว",
+    "english_transliteration": "Khao",
+    "tamil_transliteration": "காவ்",
+    "english_meaning": "News",
+    "tamil_meaning": "செய்திகள்"
+  },
+  {
+    "id": 511,
+    "thai": "งาน",
+    "english_transliteration": "Ngan",
+    "tamil_transliteration": "ஙான்",
+    "english_meaning": "Job / Work",
+    "tamil_meaning": "வேலை"
+  },
+  {
+    "id": 512,
+    "thai": "บริษัท",
+    "english_transliteration": "Bo-ri-sat",
+    "tamil_transliteration": "பொரிசத்",
+    "english_meaning": "Company / Firm",
+    "tamil_meaning": "நிறுவனம்"
+  },
+  {
+    "id": 513,
+    "thai": "เจ้านาย",
+    "english_transliteration": "Chao-nai",
+    "tamil_transliteration": "சாவ்-னாய்",
+    "english_meaning": "Boss / Employer",
+    "tamil_meaning": "முதலாளி"
+  },
+  {
+    "id": 514,
+    "thai": "ลูกน้อง",
+    "english_transliteration": "Look-nong",
+    "tamil_transliteration": "லூக்-நாங்",
+    "english_meaning": "Subordinate / Employee",
+    "tamil_meaning": "பணியாளர்"
+  },
+  {
+    "id": 515,
+    "thai": "เพื่อนร่วมงาน",
+    "english_transliteration": "Phuean ruam ngan",
+    "tamil_transliteration": "புயான் ரூவாம் ஙான்",
+    "english_meaning": "Colleague / Co-worker",
+    "tamil_meaning": "सह-ஊழியர் / சக பணியாளர்"
+  },
+  {
+    "id": 516,
+    "thai": "ประชุม",
+    "english_transliteration": "Pra-chum",
+    "tamil_transliteration": "பிரா-சும்",
+    "english_meaning": "Meeting / Conference",
+    "tamil_meaning": "கூட்டம் / கூட்டம் நடத்து"
+  },
+  {
+    "id": 517,
+    "thai": "สัญญา",
+    "english_transliteration": "San-ya",
+    "tamil_transliteration": "சன்-யா",
+    "english_meaning": "Contract / Agreement",
+    "tamil_meaning": "ஒப்பந்தம்"
+  },
+  {
+    "id": 518,
+    "thai": "เงินเดือน",
+    "english_transliteration": "Ngoen-duean",
+    "tamil_transliteration": "ஙோயேன்-டுயான்",
+    "english_meaning": "Salary",
+    "tamil_meaning": "சம்பளம்"
+  },
+  {
+    "id": 519,
+    "thai": "ภาษี",
+    "english_transliteration": "Pha-see",
+    "tamil_transliteration": "பாசீ",
+    "english_meaning": "Tax",
+    "tamil_meaning": "வரி"
+  },
+  {
+    "id": 520,
+    "thai": "ใบเสร็จ",
+    "english_transliteration": "Bai-set",
+    "tamil_transliteration": "பை-செத்",
+    "english_meaning": "Receipt",
+    "tamil_meaning": "ரசீது"
+  },
+  {
+    "id": 521,
+    "thai": "นักเรียน",
+    "english_transliteration": "Nak-rian",
+    "tamil_transliteration": "னாக்-ரியான்",
+    "english_meaning": "Student (School)",
+    "tamil_meaning": "மாணவன்"
+  },
+  {
+    "id": 522,
+    "thai": "นักศึกษา",
+    "english_transliteration": "Nak-suek-sa",
+    "tamil_transliteration": "னாக்-சுக்சா",
+    "english_meaning": "Student (University)",
+    "tamil_meaning": "கல்லூரி மாணவன்"
+  },
+  {
+    "id": 523,
+    "thai": "ครู",
+    "english_transliteration": "Khroo",
+    "tamil_transliteration": "க்ரூ",
+    "english_meaning": "Teacher",
+    "tamil_meaning": "ஆசிரியர்"
+  },
+  {
+    "id": 524,
+    "thai": "อาจารย์",
+    "english_transliteration": "A-chan",
+    "tamil_transliteration": "ஆசான்",
+    "english_meaning": "Professor / Lecturer",
+    "tamil_meaning": "பேராசிரியர்"
+  },
+  {
+    "id": 525,
+    "thai": "มหาวิทยาลัย",
+    "english_transliteration": "Ma-ha-wit-tha-ya-lai",
+    "tamil_transliteration": "மஹாவிக்யாலாய்",
+    "english_meaning": "University",
+    "tamil_meaning": "பல்கலைக்கழகம்"
+  },
+  {
+    "id": 526,
+    "thai": "วิชา",
+    "english_transliteration": "Wi-cha",
+    "tamil_transliteration": "விசா",
+    "english_meaning": "Subject / Course",
+    "tamil_meaning": "பாடம்"
+  },
+  {
+    "id": 527,
+    "thai": "สอบ",
+    "english_transliteration": "Sop",
+    "tamil_transliteration": "சோப்",
+    "english_meaning": "Exam / Test",
+    "tamil_meaning": "தேர்வு"
+  },
+  {
+    "id": 528,
+    "thai": "คะแนน",
+    "english_transliteration": "Kha-naen",
+    "tamil_transliteration": "கனேன்",
+    "english_meaning": "Score / Marks",
+    "tamil_meaning": "மதிப்பெண்"
+  },
+  {
+    "id": 529,
+    "thai": "การบ้าน",
+    "english_transliteration": "Kan-ban",
+    "tamil_transliteration": "கான்-பான்",
+    "english_meaning": "Homework",
+    "tamil_meaning": "வீட்டுப்பாடம்"
+  },
+  {
+    "id": 530,
+    "thai": "ห้องดนตรี",
+    "english_transliteration": "Hong don-tree",
+    "tamil_transliteration": "ஹாங் தோன்-த்ரீ",
+    "english_meaning": "Music room",
+    "tamil_meaning": "இசை அறை"
+  },
+  {
+    "id": 531,
+    "thai": "เข็มขัด",
+    "english_transliteration": "Khem-khat",
+    "tamil_transliteration": "கெம்-காத்",
+    "english_meaning": "Belt",
+    "tamil_meaning": "இடுப்புப் பட்டை (Belt)"
+  },
+  {
+    "id": 532,
+    "thai": "ถุงมือ",
+    "english_transliteration": "Thung-mue",
+    "tamil_transliteration": "துங்-முயே",
+    "english_meaning": "Gloves",
+    "tamil_meaning": "கையுறை"
+  },
+  {
+    "id": 533,
+    "thai": "แหวน",
+    "english_transliteration": "Waen",
+    "tamil_transliteration": "வேன்",
+    "english_meaning": "Ring (Jewelry)",
+    "tamil_meaning": "மோதிரம்"
+  },
+  {
+    "id": 534,
+    "thai": "สร้อยคอ",
+    "english_transliteration": "Soi-kho",
+    "tamil_transliteration": "சாய்-கோ",
+    "english_meaning": "Necklace",
+    "tamil_meaning": "கழுத்துச் சங்கிலி"
+  },
+  {
+    "id": 535,
+    "thai": "ต่างหู",
+    "english_transliteration": "Tang-hoo",
+    "tamil_transliteration": "தாங்-ஹூ",
+    "english_meaning": "Earrings",
+    "tamil_meaning": "காதணி"
+  },
+  {
+    "id": 536,
+    "thai": "กำไล",
+    "english_transliteration": "Kam-lai",
+    "tamil_transliteration": "காம்-லை",
+    "english_meaning": "Bracelet",
+    "tamil_meaning": "கைவளையல்"
+  },
+  {
+    "id": 537,
+    "thai": "กระเป๋าเดินทาง",
+    "english_transliteration": "Kra-pao doen thang",
+    "tamil_transliteration": "கிரா-பாவ் டேன் தாங்",
+    "english_meaning": "Suitcase",
+    "tamil_meaning": "பயணப் பெட்டி"
+  },
+  {
+    "id": 538,
+    "thai": "รองเท้าแตะ",
+    "english_transliteration": "Rong-thao tae",
+    "tamil_transliteration": "ரோங்-தாவ் டே",
+    "english_meaning": "Slippers / Sandals",
+    "tamil_meaning": "செருப்பு"
+  },
+  {
+    "id": 539,
+    "thai": "ชุดนอน",
+    "english_transliteration": "Chut-non",
+    "tamil_transliteration": "சுத்-நான்",
+    "english_meaning": "Pajamas",
+    "tamil_meaning": "இரவு ஆடை"
+  },
+  {
+    "id": 540,
+    "thai": "ชุดว่ายน้ำ",
+    "english_transliteration": "Chut wai-nam",
+    "tamil_transliteration": "சுத் வாய்-நாம்",
+    "english_meaning": "Swimsuit",
+    "tamil_meaning": "நீச்சல் உடை"
+  },
+  {
+    "id": 541,
+    "thai": "ทะเลสาบ",
+    "english_transliteration": "Tha-le-sap",
+    "tamil_transliteration": "தலேசாப்",
+    "english_meaning": "Lake",
+    "tamil_meaning": "ஏரி"
+  },
+  {
+    "id": 542,
+    "thai": "น้ำตก",
+    "english_transliteration": "Nam-tok",
+    "tamil_transliteration": "நாம்-தோக்",
+    "english_meaning": "Waterfall",
+    "tamil_meaning": "அருவி"
+  },
+  {
+    "id": 543,
+    "thai": "ถ้ำ",
+    "english_transliteration": "Tham",
+    "tamil_transliteration": "தம்",
+    "english_meaning": "Cave",
+    "tamil_meaning": "குகை"
+  },
+  {
+    "id": 544,
+    "thai": "หาด",
+    "english_transliteration": "Hat",
+    "tamil_transliteration": "ஹாத்",
+    "english_meaning": "Beach / Shore",
+    "tamil_meaning": "கடற்கரை"
+  },
+  {
+    "id": 545,
+    "thai": "คลื่น",
+    "english_transliteration": "Khluen",
+    "tamil_transliteration": "க்ளூயீன்",
+    "english_meaning": "Wave (Ocean)",
+    "tamil_meaning": "அலை"
+  },
+  {
+    "id": 546,
+    "thai": "ทราย",
+    "english_transliteration": "Sai",
+    "tamil_transliteration": "சாய்",
+    "english_meaning": "Sand",
+    "tamil_meaning": "மணல்"
+  },
+  {
+    "id": 547,
+    "thai": "ดวงอาทิตย์",
+    "english_transliteration": "Duang a-thit",
+    "tamil_transliteration": "துவாங் அதித்",
+    "english_meaning": "Sun (literary)",
+    "tamil_meaning": "சூரியன்"
+  },
+  {
+    "id": 548,
+    "thai": "ดวงจันทร์",
+    "english_transliteration": "Duang chan",
+    "tamil_transliteration": "துவாங் சான்",
+    "english_meaning": "Moon (literary)",
+    "tamil_meaning": "சந்திரன்"
+  },
+  {
+    "id": 549,
+    "thai": "สภาพอากาศ",
+    "english_transliteration": "Sa-phap a-kat",
+    "tamil_transliteration": "சபாப் ஆகாத்",
+    "english_meaning": "Weather",
+    "tamil_meaning": "வானிலை"
+  },
+  {
+    "id": 550,
+    "thai": "อุณหภูมิ",
+    "english_transliteration": "Un-ha-phoom",
+    "tamil_transliteration": "உன்ஹபூம்",
+    "english_meaning": "Temperature",
+    "tamil_meaning": "வெப்பநிலை"
+  },
+  {
+    "id": 551,
+    "thai": "ล้าง",
+    "english_transliteration": "Lang",
+    "tamil_transliteration": "லாங்",
+    "english_meaning": "Wash (dishes/hands)",
+    "tamil_meaning": "கழுவு"
+  },
+  {
+    "id": 552,
+    "thai": "ซัก",
+    "english_transliteration": "Sak",
+    "tamil_transliteration": "சாக்",
+    "english_meaning": "Wash (clothes)",
+    "tamil_meaning": "துவை"
+  },
+  {
+    "id": 553,
+    "thai": "เช็ด",
+    "english_transliteration": "Chet",
+    "tamil_transliteration": "சேத்",
+    "english_meaning": "Wipe / Clean",
+    "tamil_meaning": "துடை"
+  },
+  {
+    "id": 554,
+    "thai": "กวาด",
+    "english_transliteration": "Kwat",
+    "tamil_transliteration": "குவாத்",
+    "english_meaning": "Sweep",
+    "tamil_meaning": "பெருக்கு"
+  },
+  {
+    "id": 555,
+    "thai": "ถู",
+    "english_transliteration": "Thoo",
+    "tamil_transliteration": "தூ",
+    "english_meaning": "Mop / Scrub",
+    "tamil_meaning": "துடைப்பத்தால் தரை துடை"
+  },
+  {
+    "id": 556,
+    "thai": "ตัด",
+    "english_transliteration": "Tat",
+    "tamil_transliteration": "தாத்",
+    "english_meaning": "Cut",
+    "tamil_meaning": "வெட்டு"
+  },
+  {
+    "id": 557,
+    "thai": "ผูก",
+    "english_transliteration": "Phook",
+    "tamil_transliteration": "பூக்",
+    "english_meaning": "Tie / Bind",
+    "tamil_meaning": "கட்டு"
+  },
+  {
+    "id": 558,
+    "thai": "แกะ",
+    "english_transliteration": "Kae",
+    "tamil_transliteration": "கே",
+    "english_meaning": "Unwrap / Peel off",
+    "tamil_meaning": "பிரி / உரி"
+  },
+  {
+    "id": 559,
+    "thai": "ซ่อน",
+    "english_transliteration": "Son",
+    "tamil_transliteration": "சோன்",
+    "english_meaning": "Hide",
+    "tamil_meaning": "ஒளித்து வை"
+  },
+  {
+    "id": 560,
+    "thai": "ค้นหา",
+    "english_transliteration": "Khon-ha",
+    "tamil_transliteration": "கோன்-ஹா",
+    "english_meaning": "Search / Look for",
+    "tamil_meaning": "தேடு"
+  },
+  {
+    "id": 561,
+    "thai": "หัวใจ",
+    "english_transliteration": "Hua-jai",
+    "tamil_transliteration": "ஹுவா-ஜெய்",
+    "english_meaning": "Heart",
+    "tamil_meaning": "இதயம்"
+  },
+  {
+    "id": 562,
+    "thai": "ปอด",
+    "english_transliteration": "Pot",
+    "tamil_transliteration": "போத்",
+    "english_meaning": "Lungs",
+    "tamil_meaning": "நுரையீரல்"
+  },
+  {
+    "id": 563,
+    "thai": "ตับ",
+    "english_transliteration": "Tap",
+    "tamil_transliteration": "தாப்",
+    "english_meaning": "Liver",
+    "tamil_meaning": "ஈரல்"
+  },
+  {
+    "id": 564,
+    "thai": "กระดูก",
+    "english_transliteration": "Kra-dook",
+    "tamil_transliteration": "கிரா-டூக்",
+    "english_meaning": "Bone",
+    "tamil_meaning": "எலும்பு"
+  },
+  {
+    "id": 565,
+    "thai": "เลือด",
+    "english_transliteration": "Lueat",
+    "tamil_transliteration": "லியாத்",
+    "english_meaning": "Blood",
+    "tamil_meaning": "ரத்தம்"
+  },
+  {
+    "id": 566,
+    "thai": "สมอง",
+    "english_transliteration": "Sa-mong",
+    "tamil_transliteration": "சமோங்",
+    "english_meaning": "Brain",
+    "tamil_meaning": "மூளை"
+  },
+  {
+    "id": 567,
+    "thai": "ผิว",
+    "english_transliteration": "Phiu",
+    "tamil_transliteration": "பியூ",
+    "english_meaning": "Skin",
+    "tamil_meaning": "தோல்"
+  },
+  {
+    "id": 568,
+    "thai": "เข่า",
+    "english_transliteration": "Khao",
+    "tamil_transliteration": "காவ்",
+    "english_meaning": "Knee",
+    "tamil_meaning": "முழங்கால்"
+  },
+  {
+    "id": 569,
+    "thai": "นิ้ว",
+    "english_transliteration": "Niu",
+    "tamil_transliteration": "னியூ",
+    "english_meaning": "Finger / Toe",
+    "tamil_meaning": "விரல்"
+  },
+  {
+    "id": 570,
+    "thai": "เล็บ",
+    "english_transliteration": "Lep",
+    "tamil_transliteration": "லெப்",
+    "english_meaning": "Nail (Finger/Toe)",
+    "tamil_meaning": "நகம்"
+  },
+  {
+    "id": 571,
+    "thai": "กระเป๋าสตางค์",
+    "english_transliteration": "Kra-pao sa-tang",
+    "tamil_transliteration": "கிரா-பாவ் சதங்",
+    "english_meaning": "Wallet / Coin purse",
+    "tamil_meaning": "பணப்பை"
+  },
+  {
+    "id": 572,
+    "thai": "บัตรเครดิต",
+    "english_transliteration": "Bat khre-dit",
+    "tamil_transliteration": "பட் கிரெடிட்",
+    "english_meaning": "Credit card",
+    "tamil_meaning": "கிரெடிட் கார்டு"
+  },
+  {
+    "id": 573,
+    "thai": "ราคา",
+    "english_transliteration": "Ra-kha",
+    "tamil_transliteration": "ராகா",
+    "english_meaning": "Price / Cost",
+    "tamil_meaning": "விலை"
+  },
+  {
+    "id": 574,
+    "thai": "ส่วนลด",
+    "english_transliteration": "Suan-lot",
+    "tamil_transliteration": "சுவான்-லோத்",
+    "english_meaning": "Discount",
+    "tamil_meaning": "தள்ளுபடி"
+  },
+  {
+    "id": 575,
+    "thai": "ฟรี",
+    "english_transliteration": "Free",
+    "tamil_transliteration": "ஃப்ரீ",
+    "english_meaning": "Free of charge",
+    "tamil_meaning": "இலவசம்"
+  },
+  {
+    "id": 576,
+    "thai": "เงินสด",
+    "english_transliteration": "Ngoen-sot",
+    "tamil_transliteration": "ஙோயேன்-சோத்",
+    "english_meaning": "Cash",
+    "tamil_meaning": "ரொக்கப் பணம்"
+  },
+  {
+    "id": 577,
+    "thai": "เงินทอน",
+    "english_transliteration": "Ngoen-thon",
+    "tamil_transliteration": "ஙோயேன்-தோன்",
+    "english_meaning": "Change (money back)",
+    "tamil_meaning": "சில்லறை / மீதிப் பணம்"
+  },
+  {
+    "id": 578,
+    "thai": "โอนเงิน",
+    "english_transliteration": "On-ngoen",
+    "tamil_transliteration": "ஓன்-ஙோயேன்",
+    "english_meaning": "Transfer money",
+    "tamil_meaning": "பணம் அனுப்பு (Transfer)"
+  },
+  {
+    "id": 579,
+    "thai": "ถอนเงิน",
+    "english_transliteration": "Thon-ngoen",
+    "tamil_transliteration": "தோன்-ஙோயேன்",
+    "english_meaning": "Withdraw money",
+    "tamil_meaning": "பணம் எடு"
+  },
+  {
+    "id": 580,
+    "thai": "ฝากเงิน",
+    "english_transliteration": "Fak-ngoen",
+    "tamil_transliteration": "ஃபாக்-ஙோயேன்",
+    "english_meaning": "Deposit money",
+    "tamil_meaning": "பணம் வைப்புச் செய்"
+  },
+  {
+    "id": 581,
+    "thai": "ตื่นตระหนก",
+    "english_transliteration": "Tuen-tra-nok",
+    "tamil_transliteration": "துயேன்-திரானோக்",
+    "english_meaning": "Panic",
+    "tamil_meaning": "பதற்றம்"
+  },
+  {
+    "id": 582,
+    "thai": "สงบ",
+    "english_transliteration": "Sa-ngop",
+    "tamil_transliteration": "சஙோப்",
+    "english_meaning": "Calm / Peaceful",
+    "tamil_meaning": "அமைதி"
+  },
+  {
+    "id": 583,
+    "thai": "ภูมิใจ",
+    "english_transliteration": "Phoom-jai",
+    "tamil_transliteration": "பூம்-ஜெய்",
+    "english_meaning": "Proud",
+    "tamil_meaning": "பெருமை"
+  },
+  {
+    "id": 584,
+    "thai": "ผิดหวัง",
+    "english_transliteration": "Phit-wang",
+    "tamil_transliteration": "பித்-வாங்",
+    "english_meaning": "Disappointed",
+    "tamil_meaning": "ஏமாற்றம்"
+  },
+  {
+    "id": 585,
+    "thai": "ประหลาดใจ",
+    "english_transliteration": "Pra-lat-jai",
+    "tamil_transliteration": "பிராலாத்-ஜெய்",
+    "english_meaning": "Surprised",
+    "tamil_meaning": "ஆச்சரியம்"
+  },
+  {
+    "id": 586,
+    "thai": "ประหม่า",
+    "english_transliteration": "Pra-ma",
+    "tamil_transliteration": "பிராமா",
+    "english_meaning": "Nervous",
+    "tamil_meaning": "பயம் / பதற்றம்"
+  },
+  {
+    "id": 587,
+    "thai": "กล้าหาญ",
+    "english_transliteration": "Kla-han",
+    "tamil_transliteration": "க்ளா-ஹான்",
+    "english_meaning": "Brave / Courageous",
+    "tamil_meaning": "தைரியமான"
+  },
+  {
+    "id": 588,
+    "thai": "ขี้ขลาด",
+    "english_transliteration": "Khee-khlat",
+    "tamil_transliteration": "கீ-க்ளாத்",
+    "english_meaning": "Cowardly",
+    "tamil_meaning": "கோழைத்தனமான"
+  },
+  {
+    "id": 589,
+    "thai": "ขยัน",
+    "english_transliteration": "Kha-yan",
+    "tamil_transliteration": "கயான்",
+    "english_meaning": "Hardworking / Diligent",
+    "tamil_meaning": "சுறுசுறுப்பான"
+  },
+  {
+    "id": 590,
+    "thai": "ขี้เกียจ",
+    "english_transliteration": "Khee-kiat",
+    "tamil_transliteration": "கீ-கியாத்",
+    "english_meaning": "Lazy",
+    "tamil_meaning": "சோம்பேறியான"
+  },
+  {
+    "id": 591,
+    "thai": "สวน",
+    "english_transliteration": "Suan",
+    "tamil_transliteration": "சுவான்",
+    "english_meaning": "Garden / Park",
+    "tamil_meaning": "தோட்டம் / பூங்கா"
+  },
+  {
+    "id": 592,
+    "thai": "สวนสัตว์",
+    "english_transliteration": "Suan-sat",
+    "tamil_transliteration": "சுவான்-சத்",
+    "english_meaning": "Zoo",
+    "tamil_meaning": "மிருகக்காட்சிசாலை"
+  },
+  {
+    "id": 593,
+    "thai": "พิพิธภัณฑ์",
+    "english_transliteration": "Phi-phi-tha-phan",
+    "tamil_transliteration": "பிபிதபன்",
+    "english_meaning": "Museum",
+    "tamil_meaning": "அருங்காட்சியகம்"
+  },
+  {
+    "id": 594,
+    "thai": "โรงภาพยนตร์",
+    "english_transliteration": "Rong phap-pha-yon",
+    "tamil_transliteration": "ரோங் பாப்பாயோன்",
+    "english_meaning": "Cinema / Movie Theater",
+    "tamil_meaning": "திரையரங்கம்"
+  },
+  {
+    "id": 595,
+    "thai": "สนามสปอร์ต",
+    "english_transliteration": "Sa-nam sa-pot",
+    "tamil_transliteration": "சநாம் சகோத்",
+    "english_meaning": "Stadium / Sports field",
+    "tamil_meaning": "விளையாட்டு அரங்கம்"
+  },
+  {
+    "id": 596,
+    "thai": "สระว่ายน้ำ",
+    "english_transliteration": "Sa wai-nam",
+    "tamil_transliteration": "சா வாய்-நாம்",
+    "english_meaning": "Swimming pool",
+    "tamil_meaning": "நீச்சல் குளம்"
+  },
+  {
+    "id": 597,
+    "thai": "ตลาดนัด",
+    "english_transliteration": "Ta-lat nat",
+    "tamil_transliteration": "தலாத் நாத்",
+    "english_meaning": "Flea market / Night market",
+    "tamil_meaning": "வாரச் சந்தை / இரவுச் சந்தை"
+  },
+  {
+    "id": 598,
+    "thai": "เบเกอรี่",
+    "english_transliteration": "Be-koe-ree",
+    "tamil_transliteration": "பேக்கரி",
+    "english_meaning": "Bakery",
+    "tamil_meaning": "ரொட்டி கடை / பேக்கரி"
+  },
+  {
+    "id": 599,
+    "thai": "ร้านตัดเสื้อ",
+    "english_transliteration": "Ran tat-suea",
+    "tamil_transliteration": "ரான் தாத்-சுயா",
+    "english_meaning": "Tailor shop",
+    "tamil_meaning": "தையல் கடை"
+  },
+  {
+    "id": 600,
+    "thai": "ร้านเสริมสวย",
+    "english_transliteration": "Ran soem-suai",
+    "tamil_transliteration": "ரான் சேம்-சுவாய்",
+    "english_meaning": "Beauty salon",
+    "tamil_meaning": "அழகு நிலையம்"
+  },
+  {
+    "id": 601,
+    "thai": "รถแท็กซี่",
+    "english_transliteration": "Rot thaek-see",
+    "tamil_transliteration": "ரோத் டேக்ஸி",
+    "english_meaning": "Taxi",
+    "tamil_meaning": "டாக்ஸி"
+  },
+  {
+    "id": 602,
+    "thai": "รถตุ๊กตุ๊ก",
+    "english_transliteration": "Rot tuk-tuk",
+    "tamil_transliteration": "ரோத் டுக் டுக்",
+    "english_meaning": "Tuk-tuk / Auto rickshaw",
+    "tamil_meaning": "டுக் டுக் / ஆட்டோ"
+  },
+  {
+    "id": 603,
+    "thai": "รถมอเตอร์ไซค์",
+    "english_transliteration": "Rot mo-toe-sai",
+    "tamil_transliteration": "ரோத் மோட்டார்ஸை",
+    "english_meaning": "Motorcycle",
+    "tamil_meaning": "இருசக்கர வாகனம்"
+  },
+  {
+    "id": 604,
+    "thai": "สถานีรถไฟ",
+    "english_transliteration": "Sa-tha-nee rot-fai",
+    "tamil_transliteration": "சதானி ரோத்-ஃபை",
+    "english_meaning": "Train station",
+    "tamil_meaning": "ரயில் நிலையம்"
+  },
+  {
+    "id": 605,
+    "thai": "ป้ายรถเมล์",
+    "english_transliteration": "Pai rot-men",
+    "tamil_transliteration": "பாய் ரோத்-மேல்",
+    "english_meaning": "Bus stop",
+    "tamil_meaning": "பேருந்து நிறுத்தம்"
+  },
+  {
+    "id": 606,
+    "thai": "ท่าเรือ",
+    "english_transliteration": "Tha ruea",
+    "tamil_transliteration": "தா ருயா",
+    "english_meaning": "Pier / Port",
+    "tamil_meaning": "துறைமுகம் / படகுத் துறை"
+  },
+  {
+    "id": 607,
+    "thai": "ทางด่วน",
+    "english_transliteration": "Thang duan",
+    "tamil_transliteration": "தாங் துவான்",
+    "english_meaning": "Expressway / Highway",
+    "tamil_meaning": "நெடுஞ்சாலை"
+  },
+  {
+    "id": 608,
+    "thai": "ไฟจราจร",
+    "english_transliteration": "Fai cha-ra-chon",
+    "tamil_transliteration": "ஃபை சராசோன்",
+    "english_meaning": "Traffic light",
+    "tamil_meaning": "போக்குவரத்து விளக்கு"
+  },
+  {
+    "id": 609,
+    "thai": "รถติด",
+    "english_transliteration": "Rot tit",
+    "tamil_transliteration": "ரோத் தித்",
+    "english_meaning": "Traffic jam",
+    "tamil_meaning": "போக்குவரத்து நெரிசல்"
+  },
+  {
+    "id": 610,
+    "thai": "ทางข้าม",
+    "english_transliteration": "Thang kham",
+    "tamil_transliteration": "தாங் காம்",
+    "english_meaning": "Crosswalk / Zebra crossing",
+    "tamil_meaning": "நடைபாதை கடவை"
+  },
+  {
+    "id": 611,
+    "thai": "ฉุกเฉิน",
+    "english_transliteration": "Chuk-choen",
+    "tamil_transliteration": "சுக்சேன்",
+    "english_meaning": "Emergency",
+    "tamil_meaning": "அவசரம்"
+  },
+  {
+    "id": 612,
+    "thai": "ช่วยด้วย",
+    "english_transliteration": "Chuai duai",
+    "tamil_transliteration": "சுவாய் துவாய்",
+    "english_meaning": "Help me!",
+    "tamil_meaning": "காப்பாற்றுங்கள்!"
+  },
+  {
+    "id": 613,
+    "thai": "อุบัติเหตุ",
+    "english_transliteration": "U-bat-ti-het",
+    "tamil_transliteration": "உபத்திஹேத்",
+    "english_meaning": "Accident",
+    "tamil_meaning": "விபத்து"
+  },
+  {
+    "id": 614,
+    "thai": "รถพยาบาล",
+    "english_transliteration": "Rot pha-ya-ban",
+    "tamil_transliteration": "ரோத் பயாபான்",
+    "english_meaning": "Ambulance",
+    "tamil_meaning": "ஆம்புலன்ஸ்"
+  },
+  {
+    "id": 615,
+    "thai": "รถดับเพลิง",
+    "english_transliteration": "Rot dap-phloeng",
+    "tamil_transliteration": "ரோத் தாப்-ப்லேங்",
+    "english_meaning": "Fire truck",
+    "tamil_meaning": "தீயணைப்பு வாகனம்"
+  },
+  {
+    "id": 616,
+    "thai": "ไฟไหม้",
+    "english_transliteration": "Fai mai",
+    "tamil_transliteration": "ஃபை மை",
+    "english_meaning": "Fire / On fire",
+    "tamil_meaning": "தீ விபத்து"
+  },
+  {
+    "id": 617,
+    "thai": "ขโมย",
+    "english_transliteration": "Kha-moi",
+    "tamil_transliteration": "கமோய்",
+    "english_meaning": "Thief / Steal",
+    "tamil_meaning": "திருடன்"
+  },
+  {
+    "id": 618,
+    "thai": "หาย",
+    "english_transliteration": "Hai",
+    "tamil_transliteration": "ஹாய்",
+    "english_meaning": "Lost / Disappeared",
+    "tamil_meaning": "காணாமல் போனது"
+  },
+  {
+    "id": 619,
+    "thai": "บาดเจ็บ",
+    "english_transliteration": "Bat-jep",
+    "tamil_transliteration": "பாத்-ஜெப்",
+    "english_meaning": "Injured",
+    "tamil_meaning": "காயம்"
+  },
+  {
+    "id": 620,
+    "thai": "อันตรายมาก",
+    "english_transliteration": "An-ta-rai mak",
+    "tamil_transliteration": "அந்தாராய் மாக்",
+    "english_meaning": "Very dangerous",
+    "tamil_meaning": "மிகவும் ஆபத்தானது"
+  },
+  {
+    "id": 621,
+    "thai": "ทรายกว้าง",
+    "english_transliteration": "Sai kwang",
+    "tamil_transliteration": "சாய் குவாங்",
+    "english_meaning": "Desert",
+    "tamil_meaning": "பாலைவனம்"
+  },
+  {
+    "id": 622,
+    "thai": "เกาะเล็ก",
+    "english_transliteration": "Ko lek",
+    "tamil_transliteration": "கோ லெக்",
+    "english_meaning": "Islet",
+    "tamil_meaning": "சிறிய தீவு"
+  },
+  {
+    "id": 623,
+    "thai": "ภูเขาไฟ",
+    "english_transliteration": "Phoo-khao fai",
+    "tamil_transliteration": "பூ-காவ் ஃபை",
+    "english_meaning": "Volcano",
+    "tamil_meaning": "எரிமலை"
+  },
+  {
+    "id": 624,
+    "thai": "แผ่นดินไหว",
+    "english_transliteration": "Phaen-din wai",
+    "tamil_transliteration": "பேன்-டின் வை",
+    "english_meaning": "Earthquake",
+    "tamil_meaning": "நிலநடுக்கம்"
+  },
+  {
+    "id": 625,
+    "thai": "น้ำท่วม",
+    "english_transliteration": "Nam thuam",
+    "tamil_transliteration": "நாம் துவாம்",
+    "english_meaning": "Flood",
+    "tamil_meaning": "வெள்ளம்"
+  },
+  {
+    "id": 626,
+    "thai": "พายุ",
+    "english_transliteration": "Pha-yu",
+    "tamil_transliteration": "பாயு",
+    "english_meaning": "Storm",
+    "tamil_meaning": "புயல்"
+  },
+  {
+    "id": 627,
+    "thai": "หิมะ",
+    "english_transliteration": "Hi-ma",
+    "tamil_transliteration": "ஹிமா",
+    "english_meaning": "Snow",
+    "tamil_meaning": "பனி"
+  },
+  {
+    "id": 628,
+    "thai": "น้ำกลายเป็นอ่าง",
+    "english_transliteration": "Nam klae",
+    "tamil_transliteration": "நாம் க்ளே",
+    "english_meaning": "Ice sheet",
+    "tamil_meaning": "பனிப்பாறை"
+  },
+  {
+    "id": 629,
+    "thai": "หมอก",
+    "english_transliteration": "Mok",
+    "tamil_transliteration": "மோக்",
+    "english_meaning": "Fog / Mist",
+    "tamil_meaning": "பனிமூட்டம்"
+  },
+  {
+    "id": 630,
+    "thai": "รุ้งกินน้ำ",
+    "english_transliteration": "Rung kin nam",
+    "tamil_transliteration": "ருங் கின் நாம்",
+    "english_meaning": "Rainbow",
+    "tamil_meaning": "வானவில்"
+  },
+  {
+    "id": 631,
+    "thai": "โยน",
+    "english_transliteration": "Yon",
+    "tamil_transliteration": "யோன்",
+    "english_meaning": "Throw",
+    "tamil_meaning": "எறி"
+  },
+  {
+    "id": 632,
+    "thai": "จับ",
+    "english_transliteration": "Jap",
+    "tamil_transliteration": "ஜாப்",
+    "english_meaning": "Catch / Hold",
+    "tamil_meaning": "பிடி"
+  },
+  {
+    "id": 633,
+    "thai": "แตะ",
+    "english_transliteration": "Tae",
+    "tamil_transliteration": "டே",
+    "english_meaning": "Touch",
+    "tamil_meaning": "தொடு"
+  },
+  {
+    "id": 634,
+    "thai": "ตี",
+    "english_transliteration": "Tee",
+    "tamil_transliteration": "டீ",
+    "english_meaning": "Hit / Strike",
+    "tamil_meaning": "அடி"
+  },
+  {
+    "id": 635,
+    "thai": "เตะ",
+    "english_transliteration": "Te",
+    "tamil_transliteration": "டே",
+    "english_meaning": "Kick",
+    "tamil_meaning": "மிதி / உதை"
+  },
+  {
+    "id": 636,
+    "thai": "จูบ",
+    "english_transliteration": "Joop",
+    "tamil_transliteration": "ஜூப்",
+    "english_meaning": "Kiss",
+    "tamil_meaning": "முத்தமிடு"
+  },
+  {
+    "id": 637,
+    "thai": "กอด",
+    "english_transliteration": "Kot",
+    "tamil_transliteration": "கோத்",
+    "english_meaning": "Hug / Embrace",
+    "tamil_meaning": "கட்டிப்பிடி"
+  },
+  {
+    "id": 638,
+    "thai": "ยิ้ม",
+    "english_transliteration": "Yim",
+    "tamil_transliteration": "யிம்",
+    "english_meaning": "Smile",
+    "tamil_meaning": "புன்னகை செய்"
+  },
+  {
+    "id": 639,
+    "thai": "มอง",
+    "english_transliteration": "Mong",
+    "tamil_transliteration": "மோங்",
+    "english_meaning": "Look at / Stare",
+    "tamil_meaning": "உற்றுப் பார்"
+  },
+  {
+    "id": 640,
+    "thai": "แอบดู",
+    "english_transliteration": "Aep doo",
+    "tamil_transliteration": "ஆப் டூ",
+    "english_meaning": "Peek / Spy",
+    "tamil_meaning": "ஒளிந்து பார்"
+  },
+  {
+    "id": 641,
+    "thai": "หมูหยอง",
+    "english_transliteration": "Moo yong",
+    "tamil_transliteration": "மூ யோங்",
+    "english_meaning": "Shredded pork",
+    "tamil_meaning": "துருவிய பன்றி இறைச்சி"
+  },
+  {
+    "id": 642,
+    "thai": "ก๋วยเตี๋ยวเรือ",
+    "english_transliteration": "Kuaitiao ruea",
+    "tamil_transliteration": "குவைத்தியாவ் ருயா",
+    "english_meaning": "Boat noodles",
+    "tamil_meaning": "போட் நூடுல்ஸ்"
+  },
+  {
+    "id": 643,
+    "thai": "ข้าวผัด",
+    "english_transliteration": "Khao phat",
+    "tamil_transliteration": "காவ் பத்",
+    "english_meaning": "Fried rice",
+    "tamil_meaning": "ஃப்ரைட் ரைஸ்"
+  },
+  {
+    "id": 644,
+    "thai": "ข้าวมันไก่",
+    "english_transliteration": "Khao man gai",
+    "tamil_transliteration": "காவ் மேன் கை",
+    "english_meaning": "Chicken rice",
+    "tamil_meaning": "சிக்கன் ரைஸ்"
+  },
+  {
+    "id": 645,
+    "thai": "ส้มตำ",
+    "english_transliteration": "Som tam",
+    "tamil_transliteration": "சோம் தாம்",
+    "english_meaning": "Papaya salad",
+    "tamil_meaning": "பப்பாளி சாலட்"
+  },
+  {
+    "id": 646,
+    "thai": "หมูกระทะ",
+    "english_transliteration": "Moo kra-tha",
+    "tamil_transliteration": "மூ கிராதா",
+    "english_meaning": "Thai BBQ grill",
+    "tamil_meaning": "தாய் பார்பிக்யூ"
+  },
+  {
+    "id": 647,
+    "thai": "ชาไทย",
+    "english_transliteration": "Cha thai",
+    "tamil_transliteration": "சா தாய்",
+    "english_meaning": "Thai milk tea",
+    "tamil_meaning": "தாய் பால் தேநீர்"
+  },
+  {
+    "id": 648,
+    "thai": "กาแฟโบราณ",
+    "english_transliteration": "Ka-fae bo-ran",
+    "tamil_transliteration": "காஃபே போரான்",
+    "english_meaning": "Traditional Thai coffee",
+    "tamil_meaning": "பாரம்பரிய தாய் காபி"
+  },
+  {
+    "id": 649,
+    "thai": "น้ำมะพร้าว",
+    "english_transliteration": "Nam ma-phrao",
+    "tamil_transliteration": "நாம் மபிராவ்",
+    "english_meaning": "Coconut water",
+    "tamil_meaning": "தேங்காய் தண்ணீர்"
+  },
+  {
+    "id": 650,
+    "thai": "ข้าวเหนียวมะม่วง",
+    "english_transliteration": "Khao niao ma-muang",
+    "tamil_transliteration": "காவ் னியாவ் மமுவாங்",
+    "english_meaning": "Mango sticky rice",
+    "tamil_meaning": "மாம்பழ ஸ்டிக்கி ரைஸ்"
+  },
+  {
+    "id": 651,
+    "thai": "กว้าง",
+    "english_transliteration": "Kwang",
+    "tamil_transliteration": "குவாங்",
+    "english_meaning": "Wide / Broad",
+    "tamil_meaning": "அகலமான"
+  },
+  {
+    "id": 652,
+    "thai": "แคบ",
+    "english_transliteration": "Khaep",
+    "tamil_transliteration": "கேப்",
+    "english_meaning": "Narrow",
+    "tamil_meaning": "குறுகலான"
+  },
+  {
+    "id": 653,
+    "thai": "หนา",
+    "english_transliteration": "Na",
+    "tamil_transliteration": "னா",
+    "english_meaning": "Thick",
+    "tamil_meaning": "தடிமனான"
+  },
+  {
+    "id": 654,
+    "thai": "บาง",
+    "english_transliteration": "Bang",
+    "tamil_transliteration": "பாங்",
+    "english_meaning": "Thin",
+    "tamil_meaning": "மெல்லிய"
+  },
+  {
+    "id": 655,
+    "thai": "ลึก",
+    "english_transliteration": "Luek",
+    "tamil_transliteration": "லுயேக்",
+    "english_meaning": "Deep",
+    "tamil_meaning": "ஆழமான"
+  },
+  {
+    "id": 656,
+    "thai": "ตื้น",
+    "english_transliteration": "Tuen",
+    "tamil_transliteration": "துயேன்",
+    "english_meaning": "Shallow",
+    "tamil_meaning": "ஆழமற்ற"
+  },
+  {
+    "id": 657,
+    "thai": "กลม",
+    "english_transliteration": "Klom",
+    "tamil_transliteration": "க்ளோம்",
+    "english_meaning": "Round / Circular",
+    "tamil_meaning": "வட்டமான"
+  },
+  {
+    "id": 658,
+    "thai": "สี่เหลี่ยม",
+    "english_transliteration": "See-liam",
+    "tamil_transliteration": "சீ-லியாம்",
+    "english_meaning": "Square / Rectangle",
+    "tamil_meaning": "சதுர / செவ்வக"
+  },
+  {
+    "id": 659,
+    "thai": "ตรง",
+    "english_transliteration": "Trong",
+    "tamil_transliteration": "த்ரோங்",
+    "english_meaning": "Straight",
+    "tamil_meaning": "நேரான"
+  },
+  {
+    "id": 660,
+    "thai": "เบี้ยว",
+    "english_transliteration": "Biao",
+    "tamil_transliteration": "பியாவ்",
+    "english_meaning": "Crooked / Slanted",
+    "tamil_meaning": "கோணலான"
+  },
+  {
+    "id": 661,
+    "thai": "ครอบครัว",
+    "english_transliteration": "Khrop-khrua",
+    "tamil_transliteration": "க்ராப்-குருவா",
+    "english_meaning": "Family",
+    "tamil_meaning": "குடும்பம்"
+  },
+  {
+    "id": 662,
+    "thai": "ญาติ",
+    "english_transliteration": "Yat",
+    "tamil_transliteration": "யாத்",
+    "english_meaning": "Relative / Kin",
+    "tamil_meaning": "உறவினர்"
+  },
+  {
+    "id": 663,
+    "thai": "หลานชาย",
+    "english_transliteration": "Lan chai",
+    "tamil_transliteration": "லான் சாய்",
+    "english_meaning": "Nephew / Grandson",
+    "tamil_meaning": "பழைய / பேரன்"
+  },
+  {
+    "id": 664,
+    "thai": "หลานสาว",
+    "english_transliteration": "Lan sao",
+    "tamil_transliteration": "லான் சாவ์",
+    "english_meaning": "Niece / Granddaughter",
+    "tamil_meaning": "பழைய / பேத்தி"
+  },
+  {
+    "id": 665,
+    "thai": "ลุง",
+    "english_transliteration": "Lung",
+    "tamil_transliteration": "லுங்",
+    "english_meaning": "Uncle (Older brother of parent)",
+    "tamil_meaning": "பெரியப்பா / மாமா"
+  },
+  {
+    "id": 666,
+    "thai": "ป้า",
+    "english_transliteration": "Pa",
+    "tamil_transliteration": "பா",
+    "english_meaning": "Aunt (Older sister of parent)",
+    "tamil_meaning": "பெரியம்மா / அத்தை"
+  },
+  {
+    "id": 667,
+    "thai": "น้า",
+    "english_transliteration": "Na",
+    "tamil_transliteration": "னா",
+    "english_meaning": "Maternal uncle/aunt (Younger)",
+    "tamil_meaning": "சித்தி / தாய்மாமன்"
+  },
+  {
+    "id": 668,
+    "thai": "อา",
+    "english_transliteration": "A",
+    "tamil_transliteration": "ஆ",
+    "english_meaning": "Paternal uncle/aunt (Younger)",
+    "tamil_meaning": "சித்தப்பா / அத்தை"
+  },
+  {
+    "id": 669,
+    "thai": "ทารก",
+    "english_transliteration": "Tha-rok",
+    "tamil_transliteration": "தாரோக்",
+    "english_meaning": "Baby / Infant",
+    "tamil_meaning": "குழந்தை"
+  },
+  {
+    "id": 670,
+    "thai": "ผู้ใหญ่",
+    "english_transliteration": "Phoo-yai",
+    "tamil_transliteration": "பூ-யாய்",
+    "english_meaning": "Adult",
+    "tamil_meaning": "முதியவர் / பெரியவர்"
+  },
+  {
+    "id": 671,
+    "thai": "ตื่นนอน",
+    "english_transliteration": "Tuen non",
+    "tamil_transliteration": "துயேன் நான்",
+    "english_meaning": "Get out of bed",
+    "tamil_meaning": "படுக்கையிலிருந்து எழு"
+  },
+  {
+    "id": 672,
+    "thai": "แปรงฟัน",
+    "english_transliteration": "Praeng fan",
+    "tamil_transliteration": "ப்ரேங் ஃபான்",
+    "english_meaning": "Brush teeth",
+    "tamil_meaning": "பல் துலக்கு"
+  },
+  {
+    "id": 673,
+    "thai": "ล้างหน้า",
+    "english_transliteration": "Lang na",
+    "tamil_transliteration": "லாங் னா",
+    "english_meaning": "Wash face",
+    "tamil_meaning": "முகம் கழுவு"
+  },
+  {
+    "id": 674,
+    "thai": "แต่งตัว",
+    "english_transliteration": "Taeng tua",
+    "tamil_transliteration": "டேங் துவா",
+    "english_meaning": "Get dressed",
+    "tamil_meaning": "ஆடை அணி"
+  },
+  {
+    "id": 675,
+    "thai": "หวีผม",
+    "english_transliteration": "Wee phom",
+    "tamil_transliteration": "வீ போம்",
+    "english_meaning": "Comb hair",
+    "tamil_meaning": "தலை சீவு"
+  },
+  {
+    "id": 676,
+    "thai": "ทานข้าว",
+    "english_transliteration": "Than khao",
+    "tamil_transliteration": "தான் காவ்",
+    "english_meaning": "Have a meal (polite)",
+    "tamil_meaning": "சாப்பிடு (மரியாதையாக)"
+  },
+  {
+    "id": 677,
+    "thai": "ออกบ้าน",
+    "english_transliteration": "Ok ban",
+    "tamil_transliteration": "ஆக் பான்",
+    "english_meaning": "Leave home",
+    "tamil_meaning": "வீட்டிலிருந்து புறப்படு"
+  },
+  {
+    "id": 678,
+    "thai": "กลับบ้าน",
+    "english_transliteration": "Klap ban",
+    "tamil_transliteration": "க்லாப் பான்",
+    "english_meaning": "Return home",
+    "tamil_meaning": "வீடு திரும்பு"
+  },
+  {
+    "id": 679,
+    "thai": "พักผ่อน",
+    "english_transliteration": "Phak-phon",
+    "tamil_transliteration": "பாக்-போன்",
+    "english_meaning": "Relax / Rest",
+    "tamil_meaning": "ஓய்வெடு"
+  },
+  {
+    "id": 680,
+    "thai": "เข้านอน",
+    "english_transliteration": "Khao non",
+    "tamil_transliteration": "காவ் நான்",
+    "english_meaning": "Go to bed",
+    "tamil_meaning": "தூங்கச் செல்"
+  },
+  {
+    "id": 681,
+    "thai": "ดนตรี",
+    "english_transliteration": "Don-tree",
+    "tamil_transliteration": "தோன்-த்ரீ",
+    "english_meaning": "Music",
+    "tamil_meaning": "இசை"
+  },
+  {
+    "id": 682,
+    "thai": "กีตาร์",
+    "english_transliteration": "Kee-ta",
+    "tamil_transliteration": "கிட்டார்",
+    "english_meaning": "Guitar",
+    "tamil_meaning": "கிட்டார்"
+  },
+  {
+    "id": 683,
+    "thai": "เปียโน",
+    "english_transliteration": "Pia-no",
+    "tamil_transliteration": "பியானோ",
+    "english_meaning": "Piano",
+    "tamil_meaning": "பியானோ"
+  },
+  {
+    "id": 684,
+    "thai": "ร้องเพลง",
+    "english_transliteration": "Rong phleng",
+    "tamil_transliteration": "ரோங் ப்லேங்",
+    "english_meaning": "Singing / Sing a song",
+    "tamil_meaning": "பாட்டு பாடு"
+  },
+  {
+    "id": 685,
+    "thai": "เต้นรำ",
+    "english_transliteration": "Ten-ram",
+    "tamil_transliteration": "தேன்-ராம்",
+    "english_meaning": "Dance",
+    "tamil_meaning": "நடனம்"
+  },
+  {
+    "id": 686,
+    "thai": "วาดรูป",
+    "english_transliteration": "Wat roop",
+    "tamil_transliteration": "வாத் ரூப்",
+    "english_meaning": "Draw / Paint a picture",
+    "tamil_meaning": "படம் வரை"
+  },
+  {
+    "id": 687,
+    "thai": "ถ่ายรูป",
+    "english_transliteration": "Thai roop",
+    "tamil_transliteration": "தாய் ரூப்",
+    "english_meaning": "Take a photo",
+    "tamil_meaning": "புகைப்படம் எடு"
+  },
+  {
+    "id": 688,
+    "thai": "ว่ายน้ำเล่น",
+    "english_transliteration": "Wai nam len",
+    "tamil_transliteration": "வாய் நாம் லென்",
+    "english_meaning": "Go swimming (for fun)",
+    "tamil_meaning": "நீந்தி விளையாடு"
+  },
+  {
+    "id": 689,
+    "thai": "อ่านหนังสือ",
+    "english_transliteration": "An nang-sue",
+    "tamil_transliteration": "ஆன் னாங்-சுயே",
+    "english_meaning": "Read books",
+    "tamil_meaning": "புத்தகம் படி"
+  },
+  {
+    "id": 690,
+    "thai": "ช้อปปิ้ง",
+    "english_transliteration": "Chop-ping",
+    "tamil_transliteration": "ஷாப்பிங்",
+    "english_meaning": "Shopping",
+    "tamil_meaning": "பொருட்கள் வாங்குதல் (Shopping)"
+  },
+  {
+    "id": 691,
+    "thai": "นาฬิกาข้อมือ",
+    "english_transliteration": "Na-li-ka kho-mue",
+    "tamil_transliteration": "நாளிகா கோ-முயே",
+    "english_meaning": "Wristwatch",
+    "tamil_meaning": "கைக்கடிகாரம்"
+  },
+  {
+    "id": 692,
+    "thai": "กระจก",
+    "english_transliteration": "Kra-jok",
+    "tamil_transliteration": "கிரா-ஜோக்",
+    "english_meaning": "Mirror / Glass pane",
+    "tamil_meaning": "கண்ணாடி"
+  },
+  {
+    "id": 693,
+    "thai": "หวี",
+    "english_transliteration": "Wee",
+    "tamil_transliteration": "வீ",
+    "english_meaning": "Comb",
+    "tamil_meaning": "சீப்பு"
+  },
+  {
+    "id": 694,
+    "thai": "สบู่",
+    "english_transliteration": "Sa-boo",
+    "tamil_transliteration": "சபூ",
+    "english_meaning": "Soap",
+    "tamil_meaning": "சோப்பு"
+  },
+  {
+    "id": 695,
+    "thai": "แชมพู",
+    "english_transliteration": "Chaem-phoo",
+    "tamil_transliteration": "ஷாம்பூ",
+    "english_meaning": "Shampoo",
+    "tamil_meaning": "ஷாம்ப்பூ"
+  },
+  {
+    "id": 696,
+    "thai": "ยาสีฟัน",
+    "english_transliteration": "Ya see-fan",
+    "tamil_transliteration": "யா சீ-ஃபான்",
+    "english_meaning": "Toothpaste",
+    "tamil_meaning": "பல்பேஸ்ட்"
+  },
+  {
+    "id": 697,
+    "thai": "แปรงสีฟัน",
+    "english_transliteration": "Praeng see-fan",
+    "tamil_transliteration": "ப்ரேங் சீ-ஃபான்",
+    "english_meaning": "Toothbrush",
+    "tamil_meaning": "பல் துலக்கி (Toothbrush)"
+  },
+  {
+    "id": 698,
+    "thai": "ผ้าเช็ดตัว",
+    "english_transliteration": "Pha chet tua",
+    "tamil_transliteration": "பா சேத் துவா",
+    "english_meaning": "Towel",
+    "tamil_meaning": "துண்டு"
+  },
+  {
+    "id": 699,
+    "thai": "ผ้านวม",
+    "english_transliteration": "Pha nuam",
+    "tamil_transliteration": "பா நுவாம்",
+    "english_meaning": "Duvet / Blanket",
+    "tamil_meaning": "போர்வை"
+  },
+  {
+    "id": 700,
+    "thai": "หมอน",
+    "english_transliteration": "Mon",
+    "tamil_transliteration": "மோன்",
+    "english_meaning": "Pillow",
+    "tamil_meaning": "தலையணை"
+  },
+  {
+    "id": 701,
+    "thai": "สายชาร์จ",
+    "english_transliteration": "Sai chat",
+    "tamil_transliteration": "சாய் சாஜ்",
+    "english_meaning": "Charging cable",
+    "tamil_meaning": "சார்ஜிங் கேபிள்"
+  },
+  {
+    "id": 702,
+    "thai": "ปลั๊กไฟ",
+    "english_transliteration": "Plak fai",
+    "tamil_transliteration": "ப்ளக் ஃபை",
+    "english_meaning": "Power outlet / Plug",
+    "tamil_meaning": "பிளக் சாக்கெட்"
+  },
+  {
+    "id": 703,
+    "thai": "แบตเตอรี่",
+    "english_transliteration": "Baet-toe-ree",
+    "tamil_transliteration": "பேட்டரி",
+    "english_meaning": "Battery",
+    "tamil_meaning": "பேட்டரி"
+  },
+  {
+    "id": 704,
+    "thai": "หน้าจอ",
+    "english_transliteration": "Na jo",
+    "tamil_transliteration": "னா ஜோ",
+    "english_meaning": "Screen / Display",
+    "tamil_meaning": "திரை (Screen)"
+  },
+  {
+    "id": 705,
+    "thai": "หูฟัง",
+    "english_transliteration": "Hoo fang",
+    "tamil_transliteration": "ஹூ ஃபாங்",
+    "english_meaning": "Headphones / Earphones",
+    "tamil_meaning": "ஹெட்போன்"
+  },
+  {
+    "id": 706,
+    "thai": "ลำโพง",
+    "english_transliteration": "Lam-phong",
+    "tamil_transliteration": "லாம்-போங்",
+    "english_meaning": "Speaker",
+    "tamil_meaning": "ஸ்பீக்கர்"
+  },
+  {
+    "id": 707,
+    "thai": "พัดลมไอเย็น",
+    "english_transliteration": "Phat-lom ai yen",
+    "tamil_transliteration": "பாத்-லோம் ஐ யென்",
+    "english_meaning": "Air cooler",
+    "tamil_meaning": "ஏர் கூலர்"
+  },
+  {
+    "id": 708,
+    "thai": "เครื่องปรับอากาศ",
+    "english_transliteration": "Khruang prap a-kat",
+    "tamil_transliteration": "குருவாங் பிராப் ஆகாத்",
+    "english_meaning": "Air conditioner (AC)",
+    "tamil_meaning": "ஏர் கண்டிஷனர் (AC)"
+  },
+  {
+    "id": 709,
+    "thai": "หลอดไฟ",
+    "english_transliteration": "Lot fai",
+    "tamil_transliteration": "லாத் ஃபை",
+    "english_meaning": "Light bulb",
+    "tamil_meaning": "லைட் பல்பு"
+  },
+  {
+    "id": 710,
+    "thai": "สวิตช์",
+    "english_transliteration": "Sa-wit",
+    "tamil_transliteration": "ஸ்விட்ச்",
+    "english_meaning": "Switch",
+    "tamil_meaning": "ஸ்விட்ச்"
+  },
+  {
+    "id": 711,
+    "thai": "และ",
+    "english_transliteration": "Lae",
+    "tamil_transliteration": "லே",
+    "english_meaning": "And",
+    "tamil_meaning": "மற்றும்"
+  },
+  {
+    "id": 712,
+    "thai": "หรือ",
+    "english_transliteration": "Rue",
+    "tamil_transliteration": "ருயே",
+    "english_meaning": "Or",
+    "tamil_meaning": "அல்லது"
+  },
+  {
+    "id": 713,
+    "thai": "แต่",
+    "english_transliteration": "Tae",
+    "tamil_transliteration": "டே",
+    "english_meaning": "But",
+    "tamil_meaning": "ஆனால்"
+  },
+  {
+    "id": 714,
+    "thai": "เพราะว่า",
+    "english_transliteration": "Phro wa",
+    "tamil_transliteration": "ப்ரோ வா",
+    "english_meaning": "Because",
+    "tamil_meaning": "ஏனென்றால்"
+  },
+  {
+    "id": 715,
+    "thai": "ดังนั้น",
+    "english_transliteration": "Dang nan",
+    "tamil_transliteration": "டாங் நான்",
+    "english_meaning": "So / Therefore",
+    "tamil_meaning": "அதனால்"
+  },
+  {
+    "id": 716,
+    "thai": "ถ้า",
+    "english_transliteration": "Tha",
+    "tamil_transliteration": "தா",
+    "english_meaning": "If",
+    "tamil_meaning": "என்றால்"
+  },
+  {
+    "id": 717,
+    "thai": "แม้ว่า",
+    "english_transliteration": "Mae wa",
+    "tamil_transliteration": "மே வா",
+    "english_meaning": "Although / Even though",
+    "tamil_meaning": "இருந்தபோதிலும்"
+  },
+  {
+    "id": 718,
+    "thai": "เกี่ยวกับ",
+    "english_transliteration": "Kiao kap",
+    "tamil_transliteration": "கியாவ் காப்",
+    "english_meaning": "About / Regarding",
+    "tamil_meaning": "பற்றி"
+  },
+  {
+    "id": 719,
+    "thai": "สำหรับ",
+    "english_transliteration": "Sam-rap",
+    "tamil_transliteration": "சம்-ராப்",
+    "english_meaning": "For",
+    "tamil_meaning": "அதற்காக / க்காக"
+  },
+  {
+    "id": 720,
+    "thai": "โดย",
+    "english_transliteration": "Doi",
+    "tamil_transliteration": "டாய்",
+    "english_meaning": "By / Via",
+    "tamil_meaning": "மூலமாக"
+  },
+  {
+    "id": 721,
+    "thai": "แข็งแรง",
+    "english_transliteration": "Khaeng-raeng",
+    "tamil_transliteration": "கேங்-ரேங்",
+    "english_meaning": "Strong / Healthy",
+    "tamil_meaning": "பலமான / ஆரோக்கியமான"
+  },
+  {
+    "id": 722,
+    "thai": "อ่อนแอ",
+    "english_transliteration": "On-ae",
+    "tamil_transliteration": "ஆன்-ஏ",
+    "english_meaning": "Weak",
+    "tamil_meaning": "பலவீனமான"
+  },
+  {
+    "id": 723,
+    "thai": "อ้วน",
+    "english_transliteration": "Oan",
+    "tamil_transliteration": "ஆவான்",
+    "english_meaning": "Fat",
+    "tamil_meaning": "குண்டான"
+  },
+  {
+    "id": 724,
+    "thai": "ผอม",
+    "english_transliteration": "Phom",
+    "tamil_transliteration": "போம்",
+    "english_meaning": "Thin / Lean",
+    "tamil_meaning": "ஒல்லியான"
+  },
+  {
+    "id": 725,
+    "thai": "ฉลาด",
+    "english_transliteration": "Cha-lat",
+    "tamil_transliteration": "சலாத்",
+    "english_meaning": "Smart / Clever",
+    "tamil_meaning": "புத்திசாலித்தனமான"
+  },
+  {
+    "id": 726,
+    "thai": "โง่",
+    "english_transliteration": "Ngo",
+    "tamil_transliteration": "ஙோ",
+    "english_meaning": "Stupid / Foolish",
+    "tamil_meaning": "முட்டாள்தனமான"
+  },
+  {
+    "id": 727,
+    "thai": "ใจดี",
+    "english_transliteration": "Jai dee",
+    "tamil_transliteration": "ஜெய் டீ",
+    "english_meaning": "Kind-hearted",
+    "tamil_meaning": "இரக்கமுள்ள"
+  },
+  {
+    "id": 728,
+    "thai": "ใจร้าย",
+    "english_transliteration": "Jai rai",
+    "tamil_transliteration": "ஜெய் ராய்",
+    "english_meaning": "Cruel / Mean",
+    "tamil_meaning": "கொடூரமான"
+  },
+  {
+    "id": 729,
+    "thai": "สุภาพ",
+    "english_transliteration": "Su-phap",
+    "tamil_transliteration": "சுபாப்",
+    "english_meaning": "Polite",
+    "tamil_meaning": "மரியாதையான"
+  },
+  {
+    "id": 730,
+    "thai": "หยาบคาย",
+    "english_transliteration": "Yap-khai",
+    "tamil_transliteration": "யாப்-காய்",
+    "english_meaning": "Rude",
+    "tamil_meaning": "மரியாதையற்ற"
+  },
+  {
+    "id": 731,
+    "thai": "ลืมตา",
+    "english_transliteration": "Luem ta",
+    "tamil_transliteration": "லுயம் தா",
+    "english_meaning": "Open eyes",
+    "tamil_meaning": "கண் திற"
+  },
+  {
+    "id": 732,
+    "thai": "หลับตา",
+    "english_transliteration": "Lap ta",
+    "tamil_transliteration": "லாப் தா",
+    "english_meaning": "Close eyes",
+    "tamil_meaning": "கண் மூடு"
+  },
+  {
+    "id": 733,
+    "thai": "หายใจ",
+    "english_transliteration": "Hai-jai",
+    "tamil_transliteration": "ஹாய்-ஜெய்",
+    "english_meaning": "Breathe",
+    "tamil_meaning": "மூச்சு விடு"
+  },
+  {
+    "id": 734,
+    "thai": "จาม",
+    "english_transliteration": "Jam",
+    "tamil_transliteration": "ஜாம்",
+    "english_meaning": "Sneeze",
+    "tamil_meaning": "தும்மு"
+  },
+  {
+    "id": 735,
+    "thai": "ไอ",
+    "english_transliteration": "Ai",
+    "tamil_transliteration": "ஆய்",
+    "english_meaning": "Cough",
+    "tamil_meaning": "இருமு"
+  },
+  {
+    "id": 736,
+    "thai": "หาว",
+    "english_transliteration": "Hao",
+    "tamil_transliteration": "ஹாவ்",
+    "english_meaning": "Yawn",
+    "tamil_meaning": "கொட்டாவி விடு"
+  },
+  {
+    "id": 737,
+    "thai": "กลืน",
+    "english_transliteration": "Kluen",
+    "tamil_transliteration": "க்ளூயீன்",
+    "english_meaning": "Swallow",
+    "tamil_meaning": "விழுங்கு"
+  },
+  {
+    "id": 738,
+    "thai": "เคี้ยว",
+    "english_transliteration": "Khiao",
+    "tamil_transliteration": "கியாவ்",
+    "english_meaning": "Chew",
+    "tamil_meaning": "மெல்லு"
+  },
+  {
+    "id": 739,
+    "thai": "กะพริบตา",
+    "english_transliteration": "Ka-phrip ta",
+    "tamil_transliteration": "காப்ரிப் தா",
+    "english_meaning": "Blink eyes",
+    "tamil_meaning": "கண் சிமிட்டு"
+  },
+  {
+    "id": 740,
+    "thai": "เกา",
+    "english_transliteration": "Kao",
+    "tamil_transliteration": "காவ்",
+    "english_meaning": "Scratch",
+    "tamil_meaning": "சொறி"
+  },
+  {
+    "id": 741,
+    "thai": "มีประโยชน์",
+    "english_transliteration": "Mee pra-yot",
+    "tamil_transliteration": "மீ பிராயோத்",
+    "english_meaning": "Useful",
+    "tamil_meaning": "பயனுள்ள"
+  },
+  {
+    "id": 742,
+    "thai": "ไร้ประโยชน์",
+    "english_transliteration": "Rai pra-yot",
+    "tamil_transliteration": "ராய் பிராயோத்",
+    "english_meaning": "Useless",
+    "tamil_meaning": "பயனற்ற"
+  },
+  {
+    "id": 743,
+    "thai": "น่าสนใจ",
+    "english_transliteration": "Na san-jai",
+    "tamil_transliteration": "னா சன்-ஜெய்",
+    "english_meaning": "Interesting",
+    "tamil_meaning": "ஆர்வமூட்டும்"
+  },
+  {
+    "id": 744,
+    "thai": "น่าเบื่อ",
+    "english_transliteration": "Na buea",
+    "tamil_transliteration": "னா புயா",
+    "english_meaning": "Boring",
+    "tamil_meaning": "சலிப்பூட்டும்"
+  },
+  {
+    "id": 745,
+    "thai": "น่ากลัว",
+    "english_transliteration": "Na klua",
+    "tamil_transliteration": "னா க்ளுவா",
+    "english_meaning": "Scary",
+    "tamil_meaning": "பயமுறுத்தும்"
+  },
+  {
+    "id": 746,
+    "thai": "น่ารัก",
+    "english_transliteration": "Na rak",
+    "tamil_transliteration": "னா ராக்",
+    "english_meaning": "Cute / Lovely",
+    "tamil_meaning": "அன்பான / அழகான"
+  },
+  {
+    "id": 747,
+    "thai": "ตลก",
+    "english_transliteration": "Ta-lok",
+    "tamil_transliteration": "தலோக்",
+    "english_meaning": "Funny / Amusing",
+    "tamil_meaning": "வேடிக்கையான"
+  },
+  {
+    "id": 748,
+    "thai": "แปลก",
+    "english_transliteration": "Plaek",
+    "tamil_transliteration": "ப்லேக்",
+    "english_meaning": "Strange / Weird",
+    "tamil_meaning": "விசித்திரமான"
+  },
+  {
+    "id": 749,
+    "thai": "เป็นไปได้",
+    "english_transliteration": "Pen pai dai",
+    "tamil_transliteration": "பென் பை டை",
+    "english_meaning": "Possible",
+    "tamil_meaning": "சாத்தியமான"
+  },
+  {
+    "id": 750,
+    "thai": "เป็นไปไม่ได้",
+    "english_transliteration": "Pen pai mai dai",
+    "tamil_transliteration": "பென் பை மை டை",
+    "english_meaning": "Impossible",
+    "tamil_meaning": "சாத்தியமற்ற"
+  },
+  {
+    "id": 751,
+    "thai": "ทอง",
+    "english_transliteration": "Thong",
+    "tamil_transliteration": "தோங்",
+    "english_meaning": "Gold",
+    "tamil_meaning": "தங்கம்"
+  },
+  {
+    "id": 752,
+    "thai": "เงิน",
+    "english_transliteration": "Ngoen",
+    "tamil_transliteration": "ஙோயேன்",
+    "english_meaning": "Silver (metal)",
+    "tamil_meaning": "வெள்ளி"
+  },
+  {
+    "id": 753,
+    "thai": "เหล็ก",
+    "english_transliteration": "Lek",
+    "tamil_transliteration": "லெக்",
+    "english_meaning": "Iron / Steel",
+    "tamil_meaning": "இரும்பு"
+  },
+  {
+    "id": 754,
+    "thai": "ไม้",
+    "english_transliteration": "Mai",
+    "tamil_transliteration": "மை",
+    "english_meaning": "Wood / Timber",
+    "tamil_meaning": "மரம் (பொருள்)"
+  },
+  {
+    "id": 755,
+    "thai": "พลาสติก",
+    "english_transliteration": "Phlat-stik",
+    "tamil_transliteration": "ப்ளாஸ்டிக்",
+    "english_meaning": "Plastic",
+    "tamil_meaning": "பிளாஸ்டிக்"
+  },
+  {
+    "id": 756,
+    "thai": "แก้ว",
+    "english_transliteration": "Kaeo",
+    "tamil_transliteration": "கேவ்",
+    "english_meaning": "Glass (material)",
+    "tamil_meaning": "கண்ணாடி (பொருள்)"
+  },
+  {
+    "id": 757,
+    "thai": "ผ้า",
+    "english_transliteration": "Pha",
+    "tamil_transliteration": "பா",
+    "english_meaning": "Cloth / Fabric",
+    "tamil_meaning": "துணி"
+  },
+  {
+    "id": 758,
+    "thai": "หนัง",
+    "english_transliteration": "Nang",
+    "tamil_transliteration": "னாங்",
+    "english_meaning": "Leather / Hide",
+    "tamil_meaning": "தோல் (பொருள்)"
+  },
+  {
+    "id": 759,
+    "thai": "ยาง",
+    "english_transliteration": "Yang",
+    "tamil_transliteration": "யாங்",
+    "english_meaning": "Rubber",
+    "tamil_meaning": "ரப்பர்"
+  },
+  {
+    "id": 760,
+    "thai": "หินอ่อน",
+    "english_transliteration": "Hin on",
+    "tamil_transliteration": "ஹின் ஆன்",
+    "english_meaning": "Marble",
+    "tamil_meaning": "பளிங்குக்கல்"
+  },
+  {
+    "id": 761,
+    "thai": "ตำรวจ",
+    "english_transliteration": "Tam-ruat",
+    "tamil_transliteration": "தம்ருவாத்",
+    "english_meaning": "Police officer",
+    "tamil_meaning": "காவல்துறை அதிகாரி"
+  },
+  {
+    "id": 762,
+    "thai": "ทหาร",
+    "english_transliteration": "Tha-han",
+    "tamil_transliteration": "தஹான்",
+    "english_meaning": "Soldier",
+    "tamil_meaning": "ராணுவ வீரன்"
+  },
+  {
+    "id": 763,
+    "thai": "วิศวกร",
+    "english_transliteration": "Wit-sa-wa-kon",
+    "tamil_transliteration": "விட்சவாகோன்",
+    "english_meaning": "Engineer",
+    "tamil_meaning": "பொறியாளர்"
+  },
+  {
+    "id": 764,
+    "thai": "สถาปนิก",
+    "english_transliteration": "Sa-tha-pa-nik",
+    "tamil_transliteration": "சதாபனிக்",
+    "english_meaning": "Architect",
+    "tamil_meaning": "கட்டிடக் கலைஞர்"
+  },
+  {
+    "id": 765,
+    "thai": "ทนายความ",
+    "english_transliteration": "Tha-nai-khwam",
+    "tamil_transliteration": "தனைக்வாம்",
+    "english_meaning": "Lawyer",
+    "tamil_meaning": "வழக்கறிஞர்"
+  },
+  {
+    "id": 766,
+    "thai": "พนักงานขาย",
+    "english_transliteration": "Pha-nak-ngan khai",
+    "tamil_transliteration": "பனக்ஙான் காய்",
+    "english_meaning": "Salesperson",
+    "tamil_meaning": "விற்பனையாளர்"
+  },
+  {
+    "id": 767,
+    "thai": "พ่อครัว",
+    "english_transliteration": "Pho-khrua",
+    "tamil_transliteration": "போ-குருவா",
+    "english_meaning": "Chef / Male cook",
+    "tamil_meaning": "சமையல்காரர்"
+  },
+  {
+    "id": 768,
+    "thai": "แม่ครัว",
+    "english_transliteration": "Mae-khrua",
+    "tamil_transliteration": "மே-குருவா",
+    "english_meaning": "Female cook",
+    "tamil_meaning": "பெண் சமையல்காரர்"
+  },
+  {
+    "id": 769,
+    "thai": "นักบิน",
+    "english_transliteration": "Nak-bin",
+    "tamil_transliteration": "னாக்-பின்",
+    "english_meaning": "Pilot",
+    "tamil_meaning": "விமானி"
+  },
+  {
+    "id": 770,
+    "thai": "ชาวนา",
+    "english_transliteration": "Chao-na",
+    "tamil_transliteration": "சாவ்-னா",
+    "english_meaning": "Farmer",
+    "tamil_meaning": "விவசாயி"
+  },
+  {
+    "id": 771,
+    "thai": "ตื่นตื่น",
+    "english_transliteration": "Tuen",
+    "tamil_transliteration": "துயேன்",
+    "english_meaning": "Awake",
+    "tamil_meaning": "விழித்திரு"
+  },
+  {
+    "id": 772,
+    "thai": "หลับสนิท",
+    "english_transliteration": "Lap sa-nit",
+    "tamil_transliteration": "லாப் சனித்",
+    "english_meaning": "Fast asleep",
+    "tamil_meaning": "ஆழ்ந்த உறக்கம்"
+  },
+  {
+    "id": 773,
+    "thai": "ฝันดี",
+    "english_transliteration": "Fan dee",
+    "tamil_transliteration": "ஃபான் டீ",
+    "english_meaning": "Sweet dreams",
+    "tamil_meaning": "இனிய கனவுகள்"
+  },
+  {
+    "id": 774,
+    "thai": "ฝันร้าย",
+    "english_transliteration": "Fan rai",
+    "tamil_transliteration": "ஃபான் ராய்",
+    "english_meaning": "Nightmare",
+    "tamil_meaning": "கெட்ட கனவு"
+  },
+  {
+    "id": 775,
+    "thai": "ง่วงนอน",
+    "english_transliteration": "Nguang non",
+    "tamil_transliteration": "ஙுவாங் நான்",
+    "english_meaning": "Feel sleepy",
+    "tamil_meaning": "தூக்கம் வருதல்"
+  },
+  {
+    "id": 776,
+    "thai": "เพลีย",
+    "english_transliteration": "Phlia",
+    "tamil_transliteration": "ப்லியா",
+    "english_meaning": "Exhausted / Drained",
+    "tamil_meaning": "மிகவும் சோர்வு"
+  },
+  {
+    "id": 777,
+    "thai": "สดชื่น",
+    "english_transliteration": "Sot-chuen",
+    "tamil_transliteration": "சோத்-சுயேன்",
+    "english_meaning": "Refreshed",
+    "tamil_meaning": "புத்துணர்ச்சி"
+  },
+  {
+    "id": 778,
+    "thai": "ผ่อนคลาย",
+    "english_transliteration": "Phon-khlai",
+    "tamil_transliteration": "போன்-க்லை",
+    "english_meaning": "Relaxed",
+    "tamil_meaning": "மன அமைதி / ஓய்வு"
+  },
+  {
+    "id": 779,
+    "thai": "เหงื่อออก",
+    "english_transliteration": "Nguea ok",
+    "tamil_transliteration": "ஙுயா ஆக்",
+    "english_meaning": "Sweating",
+    "tamil_meaning": "வேர்க்கிறது"
+  },
+  {
+    "id": 780,
+    "thai": "หนาวสั่น",
+    "english_transliteration": "Nao san",
+    "tamil_transliteration": "நாவ் சான்",
+    "english_meaning": "Shivering (cold)",
+    "tamil_meaning": "குளிரில் நடுங்குதல்"
+  },
+  {
+    "id": 781,
+    "thai": "เคารพ",
+    "english_transliteration": "Khao-rop",
+    "tamil_transliteration": "காவ்-ரோப்",
+    "english_meaning": "Respect",
+    "tamil_meaning": "மரியாதை"
+  },
+  {
+    "id": 782,
+    "thai": "ซื่อสัตย์",
+    "english_transliteration": "Sue-sat",
+    "tamil_transliteration": "சுயே-சத்",
+    "english_meaning": "Honest / Loyal",
+    "tamil_meaning": "நேர்மையான"
+  },
+  {
+    "id": 783,
+    "thai": "กตัญญู",
+    "english_transliteration": "Ka-tan-yoo",
+    "tamil_transliteration": "கதான்யூ",
+    "english_meaning": "Grateful / Filial",
+    "tamil_meaning": "நன்றியுள்ள"
+  },
+  {
+    "id": 784,
+    "thai": "เห็นแก่ตัว",
+    "english_transliteration": "Hen kae tua",
+    "tamil_transliteration": "ஹென் கே துவா",
+    "english_meaning": "Selfish",
+    "tamil_meaning": "சுயநலமான"
+  },
+  {
+    "id": 785,
+    "thai": "ใจกว้าง",
+    "english_transliteration": "Jai kwang",
+    "tamil_transliteration": "ஜெய் குவாங்",
+    "english_meaning": "Generous / Open-minded",
+    "tamil_meaning": "தாராள மனப்பான்மை"
+  },
+  {
+    "id": 786,
+    "thai": "ใจแคบ",
+    "english_transliteration": "Jai khaep",
+    "tamil_transliteration": "ஜெய் கேப்",
+    "english_meaning": "Narrow-minded",
+    "tamil_meaning": "குறுகிய மனப்பான்மை"
+  },
+  {
+    "id": 787,
+    "thai": "อดทน",
+    "english_transliteration": "Ot-thon",
+    "tamil_transliteration": "ஓத்-தோன்",
+    "english_meaning": "Patient / Enduring",
+    "tamil_meaning": "பொறுமையான"
+  },
+  {
+    "id": 788,
+    "thai": "ใจร้อน",
+    "english_transliteration": "Jai ron",
+    "tamil_transliteration": "ஜெய் ரோன்",
+    "english_meaning": "Impatient / Hot-tempered",
+    "tamil_meaning": "அவசரப்படும் குணம்"
+  },
+  {
+    "id": 789,
+    "thai": "ถ่อมตัว",
+    "english_transliteration": "Thom tua",
+    "tamil_transliteration": "தோம் துவா",
+    "english_meaning": "Humble",
+    "tamil_meaning": "அடக்கமான"
+  },
+  {
+    "id": 790,
+    "thai": "หยิ่ง",
+    "english_transliteration": "Ying",
+    "tamil_transliteration": "யிங்",
+    "english_meaning": "Arrogant / Proud",
+    "tamil_meaning": "அகம்பாவமான"
+  },
+  {
+    "id": 791,
+    "thai": "ห้องรับแขก",
+    "english_transliteration": "Hong rap khaek",
+    "tamil_transliteration": "ஹாங் ராப் கேக்",
+    "english_meaning": "Living room",
+    "tamil_meaning": "வரவேற்பறை"
+  },
+  {
+    "id": 792,
+    "thai": "ห้องอาหาร",
+    "english_transliteration": "Hong a-han",
+    "tamil_transliteration": "ஹாங் அஹான்",
+    "english_meaning": "Dining room",
+    "tamil_meaning": "உண்ணும் அறை"
+  },
+  {
+    "id": 793,
+    "thai": "ระเบียง",
+    "english_transliteration": "Ra-biang",
+    "tamil_transliteration": "ரபியாங்",
+    "english_meaning": "Balcony / Veranda",
+    "tamil_meaning": "பால்கனி"
+  },
+  {
+    "id": 794,
+    "thai": "บันได",
+    "english_transliteration": "Ban-dai",
+    "tamil_transliteration": "பான்-டை",
+    "english_meaning": "Stairs / Ladder",
+    "tamil_meaning": "படி / படிக்கட்டு"
+  },
+  {
+    "id": 795,
+    "thai": "เพดาน",
+    "english_transliteration": "Phe-dan",
+    "tamil_transliteration": "பேடான்",
+    "english_meaning": "Ceiling",
+    "tamil_meaning": "மேற்கூரை (Ceiling)"
+  },
+  {
+    "id": 796,
+    "thai": "พื้น",
+    "english_transliteration": "Phuen",
+    "tamil_transliteration": "புயீன்",
+    "english_meaning": "Floor / Ground",
+    "tamil_meaning": "தரை"
+  },
+  {
+    "id": 797,
+    "thai": "กำแพง",
+    "english_transliteration": "Kam-phaeng",
+    "tamil_transliteration": "காம்-பேங்",
+    "english_meaning": "Wall (outer)",
+    "tamil_meaning": "சுவர்"
+  },
+  {
+    "id": 798,
+    "thai": "หลังคา",
+    "english_transliteration": "Lang-kha",
+    "tamil_transliteration": "லாங்-கா",
+    "english_meaning": "Roof",
+    "tamil_meaning": "கூரை"
+  },
+  {
+    "id": 799,
+    "thai": "รั้ว",
+    "english_transliteration": "Rua",
+    "tamil_transliteration": "ருவா",
+    "english_meaning": "Fence",
+    "tamil_meaning": "வேலி"
+  },
+  {
+    "id": 800,
+    "thai": "สนามหญ้า",
+    "english_transliteration": "Sa-nam ya",
+    "tamil_transliteration": "சநாம் யா",
+    "english_meaning": "Lawn / Yard",
+    "tamil_meaning": "புல்வெளி"
+  }
+]

@@ -1,1 +1,202 @@
-{"total_letters": 0, "alphabet": {"swarangal": [], "vyanjanangal": [], "chillaksharangal": []}}
+{
+    "consonants": [
+        {
+            "id": 1,
+            "thai_script": "ก",
+            "thai_name": "Ko Kai",
+            "tamil_pronunciation": "கொ கை",
+            "tamil_meaning": "கோழி (Chicken)",
+            "class": "Middle"
+        },
+        {
+            "id": 2,
+            "thai_script": "ข",
+            "thai_name": "Kho Khai",
+            "tamil_pronunciation": "கொ கை",
+            "tamil_meaning": "முட்டை (Egg)",
+            "class": "High"
+        },
+        {
+            "id": 3,
+            "thai_script": "ค",
+            "thai_name": "Kho Khwai",
+            "tamil_pronunciation": "கொ குவாய்",
+            "tamil_meaning": "எருமை (Buffalo)",
+            "class": "Low"
+        },
+        {
+            "id": 4,
+            "thai_script": "ง",
+            "thai_name": "Ngo Ngu",
+            "tamil_pronunciation": "ஙோ ஙு",
+            "tamil_meaning": "பாம்பு (Snake)",
+            "class": "Low"
+        },
+        {
+            "id": 5,
+            "thai_script": "จ",
+            "thai_name": "Cho Chan",
+            "tamil_pronunciation": "சோ சான்",
+            "tamil_meaning": "தட்டு (Plate)",
+            "class": "Middle"
+        },
+        {
+            "id": 6,
+            "thai_script": "ช",
+            "thai_name": "Cho Chang",
+            "tamil_pronunciation": "சோ சாங்",
+            "tamil_meaning": "யானை (Elephant)",
+            "class": "Low"
+        },
+        {
+            "id": 7,
+            "thai_script": "ซ",
+            "thai_name": "So So",
+            "tamil_pronunciation": "ஸோ ஸோ",
+            "tamil_meaning": "சங்கிலி (Chain)",
+            "class": "Low"
+        },
+        {
+            "id": 8,
+            "thai_script": "ด",
+            "thai_name": "Do Dek",
+            "tamil_pronunciation": "டோ டெக்",
+            "tamil_meaning": "குழந்தை (Child)",
+            "class": "Middle"
+        },
+        {
+            "id": 9,
+            "thai_script": "ต",
+            "thai_name": "To Tao",
+            "tamil_pronunciation": "தோ தோ",
+            "tamil_meaning": "ஆமை (Turtle)",
+            "class": "Middle"
+        },
+        {
+            "id": 10,
+            "thai_script": "ท",
+            "thai_name": "Tho Thahan",
+            "tamil_pronunciation": "தோ தஹான்",
+            "tamil_meaning": "ராணுவ வீரன் (Soldier)",
+            "class": "Low"
+        },
+        {
+            "id": 11,
+            "thai_script": "น",
+            "thai_name": "No Nu",
+            "tamil_pronunciation": "நோ நு",
+            "tamil_meaning": "எலி (Mouse)",
+            "class": "Low"
+        },
+        {
+            "id": 12,
+            "thai_script": "บ",
+            "thai_name": "Bo Baimai",
+            "tamil_pronunciation": "போ பைமை",
+            "tamil_meaning": "இலை (Leaf)",
+            "class": "Middle"
+        },
+        {
+            "id": 13,
+            "thai_script": "ป",
+            "thai_name": "Po Pla",
+            "tamil_pronunciation": "போ பிளா",
+            "tamil_meaning": "மீன் (Fish)",
+            "class": "Middle"
+        },
+        {
+            "id": 14,
+            "thai_script": "ม",
+            "thai_name": "Mo Ma",
+            "tamil_pronunciation": "மோ மா",
+            "tamil_meaning": "குதிரை (Horse)",
+            "class": "Low"
+        },
+        {
+            "id": 15,
+            "thai_script": "ย",
+            "thai_name": "Yo Yak",
+            "tamil_pronunciation": "யோ யாக்",
+            "tamil_meaning": "ராட்சசன் (Giant)",
+            "class": "Low"
+        },
+        {
+            "id": 16,
+            "thai_script": "ร",
+            "thai_name": "Ro Ruea",
+            "tamil_pronunciation": "ரோ ருவா",
+            "tamil_meaning": "படகுகள் (Boat)",
+            "class": "Low"
+        },
+        {
+            "id": 17,
+            "thai_script": "ล",
+            "thai_name": "Lo Ling",
+            "tamil_pronunciation": "லோ லிங்",
+            "tamil_meaning": "குரங்கு (Monkey)",
+            "class": "Low"
+        },
+        {
+            "id": 18,
+            "thai_script": "ว",
+            "thai_name": "Wo Waen",
+            "tamil_pronunciation": "வோ வேன்",
+            "tamil_meaning": "மோதிரம் (Ring)",
+            "class": "Low"
+        },
+        {
+            "id": 19,
+            "thai_script": "ส",
+            "thai_name": "So Suea",
+            "tamil_pronunciation": "ஸோ சுவா",
+            "tamil_meaning": "புலி (Tiger)",
+            "class": "High"
+        },
+        {
+            "id": 20,
+            "thai_script": "ห",
+            "thai_name": "Ho Hip",
+            "tamil_pronunciation": "ஹோ ஹிப்",
+            "tamil_meaning": "பெட்டி (Box)",
+            "class": "High"
+        }
+    ],
+    "vowels": [
+        {
+            "symbol": "-ะ",
+            "name": "Sara A",
+            "tamil_pronunciation": "அ (குறில்)",
+            "english_sound": "Short A"
+        },
+        {
+            "symbol": "-า",
+            "name": "Sara Aa",
+            "tamil_pronunciation": "ஆ (நெடில்)",
+            "english_sound": "Long AA"
+        },
+        {
+            "symbol": "-ิ",
+            "name": "Sara I",
+            "tamil_pronunciation": "இ (குறில்)",
+            "english_sound": "Short I"
+        },
+        {
+            "symbol": "-ี",
+            "name": "Sara Ii",
+            "tamil_pronunciation": "ஈ (நெடில்)",
+            "english_sound": "Long II"
+        },
+        {
+            "symbol": "-ุ",
+            "name": "Sara U",
+            "tamil_pronunciation": "உ (குறில்)",
+            "english_sound": "Short U"
+        },
+        {
+            "symbol": "-ู",
+            "name": "Sara Uu",
+            "tamil_pronunciation": "ஊ (நெடில்)",
+            "english_sound": "Long UU"
+        }
+    ]
+}
