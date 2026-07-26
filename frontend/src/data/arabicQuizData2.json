@@ -1,0 +1,1207 @@
+{
+  "module": "12",
+  "category": "Interactive Arabic Quiz (Part 2 - Words without Option Meanings)",
+  "total_questions": 200,
+  "questions": [
+    {
+      "id": 101,
+      "question_english": "What is 'Door' in Arabic?",
+      "question_tamil": "கதவு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَاب", "transliteration": "Bab" },
+        { "arabic": "نَافِذَة", "transliteration": "Nafidhah" },
+        { "arabic": "سَقْف", "transliteration": "Saqf" },
+        { "arabic": "جِدَار", "transliteration": "Jidar" }
+      ],
+      "correct_answer": "بَاب"
+    },
+    {
+      "id": 102,
+      "question_english": "What is 'Pen' in Arabic?",
+      "question_tamil": "பேனா -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كِتَاب", "transliteration": "Kitab" },
+        { "arabic": "قَلَم", "transliteration": "Qalam" },
+        { "arabic": "دَفْتَر", "transliteration": "Daftar" },
+        { "arabic": "وَرَقَة", "transliteration": "Waraqah" }
+      ],
+      "correct_answer": "قَلَم"
+    },
+    {
+      "id": 103,
+      "question_english": "What is 'Book' in Arabic?",
+      "question_tamil": "புத்தகம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَلَم", "transliteration": "Qalam" },
+        { "arabic": "كِتَاب", "transliteration": "Kitab" },
+        { "arabic": "مَكْتَب", "transliteration": "Maktab" },
+        { "arabic": "بَاب", "transliteration": "Bab" }
+      ],
+      "correct_answer": "كِتَاب"
+    },
+    {
+      "id": 104,
+      "question_english": "What is 'House' in Arabic?",
+      "question_tamil": "வீடு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَيْت", "transliteration": "Bayt" },
+        { "arabic": "مَسْجِد", "transliteration": "Masjid" },
+        { "arabic": "سُوق", "transliteration": "Suq" },
+        { "arabic": "فُنْدُق", "transliteration": "Fundaq" }
+      ],
+      "correct_answer": "بَيْت"
+    },
+    {
+      "id": 105,
+      "question_english": "What is 'Water' in Arabic?",
+      "question_tamil": "தண்ணீர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شَاي", "transliteration": "Shay" },
+        { "arabic": "حَلِيب", "transliteration": "Halib" },
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "عَصِير", "transliteration": "Asir" }
+      ],
+      "correct_answer": "مَاء"
+    },
+    {
+      "id": 106,
+      "question_english": "What is 'Milk' in Arabic?",
+      "question_tamil": "பால் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "حَلِيب", "transliteration": "Halib" },
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "قَهْوَة", "transliteration": "Qahwah" },
+        { "arabic": "زَيْت", "transliteration": "Zayt" }
+      ],
+      "correct_answer": "حَلِيب"
+    },
+    {
+      "id": 107,
+      "question_english": "What is 'Tea' in Arabic?",
+      "question_tamil": "தேநீர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَهْوَة", "transliteration": "Qahwah" },
+        { "arabic": "شَاي", "transliteration": "Shay" },
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "حَلِيب", "transliteration": "Halib" }
+      ],
+      "correct_answer": "شَاي"
+    },
+    {
+      "id": 108,
+      "question_english": "What is 'Coffee' in Arabic?",
+      "question_tamil": "காபி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شَاي", "transliteration": "Shay" },
+        { "arabic": "قَهْوَة", "transliteration": "Qahwah" },
+        { "arabic": "عَصِير", "transliteration": "Asir" },
+        { "arabic": "حَلِيب", "transliteration": "Halib" }
+      ],
+      "correct_answer": "قَهْوَة"
+    },
+    {
+      "id": 109,
+      "question_english": "What is 'Apple' in Arabic?",
+      "question_tamil": "ஆப்பிள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَوْز", "transliteration": "Mawz" },
+        { "arabic": "تُفَّاح", "transliteration": "Tuffah" },
+        { "arabic": "بُرْتُقَال", "transliteration": "Burtuqal" },
+        { "arabic": "عِنَب", "transliteration": "'Inab" }
+      ],
+      "correct_answer": "تُفَّاح"
+    },
+    {
+      "id": 110,
+      "question_english": "What is 'Banana' in Arabic?",
+      "question_tamil": "வாழைப்பழம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تُفَّاح", "transliteration": "Tuffah" },
+        { "arabic": "مَوْز", "transliteration": "Mawz" },
+        { "arabic": "لَيْمُون", "transliteration": "Laymun" },
+        { "arabic": "رُمَّان", "transliteration": "Rumman" }
+      ],
+      "correct_answer": "مَوْز"
+    },
+    {
+      "id": 111,
+      "question_english": "What is 'Cat' in Arabic?",
+      "question_tamil": "பூனை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَلْب", "transliteration": "Kalb" },
+        { "arabic": "قِطَّة", "transliteration": "Qittah" },
+        { "arabic": "أَسَد", "transliteration": "Asad" },
+        { "arabic": "دُبّ", "transliteration": "Dubb" }
+      ],
+      "correct_answer": "قِطَّة"
+    },
+    {
+      "id": 112,
+      "question_english": "What is 'Dog' in Arabic?",
+      "question_tamil": "நாய் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قِطَّة", "transliteration": "Qittah" },
+        { "arabic": "كَلْب", "transliteration": "Kalb" },
+        { "arabic": "ذِئْب", "transliteration": "Dhi'b" },
+        { "arabic": "ثَعْلَب", "transliteration": "Tha'lab" }
+      ],
+      "correct_answer": "كَلْب"
+    },
+    {
+      "id": 113,
+      "question_english": "What is 'Sun' in Arabic?",
+      "question_tamil": "சூரியன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَمَر", "transliteration": "Qamar" },
+        { "arabic": "شَمْس", "transliteration": "Shams" },
+        { "arabic": "نَجْم", "transliteration": "Najm" },
+        { "arabic": "سَمَاء", "transliteration": "Sama'" }
+      ],
+      "correct_answer": "شَمْس"
+    },
+    {
+      "id": 114,
+      "question_english": "What is 'Moon' in Arabic?",
+      "question_tamil": "சந்திரன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شَمْس", "transliteration": "Shams" },
+        { "arabic": "قَمَر", "transliteration": "Qamar" },
+        { "arabic": "نَجْم", "transliteration": "Najm" },
+        { "arabic": "أَرْض", "transliteration": "Ard" }
+      ],
+      "correct_answer": "قَمَر"
+    },
+    {
+      "id": 115,
+      "question_english": "What is 'Star' in Arabic?",
+      "question_tamil": "நட்சத்திரம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَمَر", "transliteration": "Qamar" },
+        { "arabic": "نَجْم", "transliteration": "Najm" },
+        { "arabic": "شَمْس", "transliteration": "Shams" },
+        { "arabic": "سَحَاب", "transliteration": "Sahab" }
+      ],
+      "correct_answer": "نَجْم"
+    },
+    {
+      "id": 116,
+      "question_english": "What is 'Sky' in Arabic?",
+      "question_tamil": "வானம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَرْض", "transliteration": "Ard" },
+        { "arabic": "سَمَاء", "transliteration": "Sama'" },
+        { "arabic": "بَحْر", "transliteration": "Bahr" },
+        { "arabic": "نَهْر", "transliteration": "Nahr" }
+      ],
+      "correct_answer": "سَمَاء"
+    },
+    {
+      "id": 117,
+      "question_english": "What is 'Earth' in Arabic?",
+      "question_tamil": "பூமி / நிலம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سَمَاء", "transliteration": "Sama'" },
+        { "arabic": "أَرْض", "transliteration": "Ard" },
+        { "arabic": "جَبَل", "transliteration": "Jabal" },
+        { "arabic": "صَحْرَاء", "transliteration": "Sahra'" }
+      ],
+      "correct_answer": "أَرْض"
+    },
+    {
+      "id": 118,
+      "question_english": "What is 'Mountain' in Arabic?",
+      "question_tamil": "மலை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "وَادِي", "transliteration": "Wadi" },
+        { "arabic": "جَبَل", "transliteration": "Jabal" },
+        { "arabic": "نَهْر", "transliteration": "Nahr" },
+        { "arabic": "بَحْر", "transliteration": "Bahr" }
+      ],
+      "correct_answer": "جَبَل"
+    },
+    {
+      "id": 119,
+      "question_english": "What is 'River' in Arabic?",
+      "question_tamil": "நதி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَحْر", "transliteration": "Bahr" },
+        { "arabic": "نَهْر", "transliteration": "Nahr" },
+        { "arabic": "مَحِيط", "transliteration": "Muhit" },
+        { "arabic": "بِئْر", "transliteration": "Bi'r" }
+      ],
+      "correct_answer": "نَهْر"
+    },
+    {
+      "id": 120,
+      "question_english": "What is 'Sea' in Arabic?",
+      "question_tamil": "கடல் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "نَهْر", "transliteration": "Nahr" },
+        { "arabic": "بَحْر", "transliteration": "Bahr" },
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "جَزِيرَة", "transliteration": "Jazirah" }
+      ],
+      "correct_answer": "بَحْر"
+    },
+    {
+      "id": 121,
+      "question_english": "What is 'Car' in Arabic?",
+      "question_tamil": "கார் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قِطَار", "transliteration": "Qitar" },
+        { "arabic": "سَيَّارَة", "transliteration": "Sayyarah" },
+        { "arabic": "طَائِرَة", "transliteration": "Ta'irah" },
+        { "arabic": "دَرَّاجَة", "transliteration": "Darrajah" }
+      ],
+      "correct_answer": "سَيَّارَة"
+    },
+    {
+      "id": 122,
+      "question_english": "What is 'Train' in Arabic?",
+      "question_tamil": "ரயில் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سَيَّارَة", "transliteration": "Sayyarah" },
+        { "arabic": "قِطَار", "transliteration": "Qitar" },
+        { "arabic": "حَافِلَة", "transliteration": "Hafilah" },
+        { "arabic": "سَفِينَة", "transliteration": "Safinah" }
+      ],
+      "correct_answer": "قِطَار"
+    },
+    {
+      "id": 123,
+      "question_english": "What is 'Airplane' in Arabic?",
+      "question_tamil": "விமானம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قِطَار", "transliteration": "Qitar" },
+        { "arabic": "طَائِرَة", "transliteration": "Ta'irah" },
+        { "arabic": "سَفِينَة", "transliteration": "Safinah" },
+        { "arabic": "قَارِب", "transliteration": "Qarib" }
+      ],
+      "correct_answer": "طَائِرَة"
+    },
+    {
+      "id": 124,
+      "question_english": "What is 'Ship' in Arabic?",
+      "question_tamil": "கப்பல் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَارِب", "transliteration": "Qarib" },
+        { "arabic": "سَفِينَة", "transliteration": "Safinah" },
+        { "arabic": "طَائِرَة", "transliteration": "Ta'irah" },
+        { "arabic": "قِطَار", "transliteration": "Qitar" }
+      ],
+      "correct_answer": "سَفِينَة"
+    },
+    {
+      "id": 125,
+      "question_english": "What is 'Road' in Arabic?",
+      "question_tamil": "சாலை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سُوق", "transliteration": "Suq" },
+        { "arabic": "طَرِيق", "transliteration": "Tariq" },
+        { "arabic": "جِسْر", "transliteration": "Jisr" },
+        { "arabic": "نَفَق", "transliteration": "Nafaq" }
+      ],
+      "correct_answer": "طَرِيق"
+    },
+    {
+      "id": 126,
+      "question_english": "What is 'School' in Arabic?",
+      "question_tamil": "பள்ளி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَكْتَبَة", "transliteration": "Maktabah" },
+        { "arabic": "مَدْرَسَة", "transliteration": "Madrasah" },
+        { "arabic": "جَامِعَة", "transliteration": "Jami'ah" },
+        { "arabic": "مَسْجِد", "transliteration": "Masjid" }
+      ],
+      "correct_answer": "مَدْرَسَة"
+    },
+    {
+      "id": 127,
+      "question_english": "What is 'University' in Arabic?",
+      "question_tamil": "பல்கலைக்கழகம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَدْرَسَة", "transliteration": "Madrasah" },
+        { "arabic": "جَامِعَة", "transliteration": "Jami'ah" },
+        { "arabic": "مَكْتَبَة", "transliteration": "Maktabah" },
+        { "arabic": "مُسْتَشْفَى", "transliteration": "Mustashfa" }
+      ],
+      "correct_answer": "جَامِعَة"
+    },
+    {
+      "id": 128,
+      "question_english": "What is 'Library' in Arabic?",
+      "question_tamil": "நூலகம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَدْرَسَة", "transliteration": "Madrasah" },
+        { "arabic": "مَكْتَبَة", "transliteration": "Maktabah" },
+        { "arabic": "بَنْك", "transliteration": "Bank" },
+        { "arabic": "سُوق", "transliteration": "Suq" }
+      ],
+      "correct_answer": "مَكْتَبَة"
+    },
+    {
+      "id": 129,
+      "question_english": "What is 'Hospital' in Arabic?",
+      "question_tamil": "மருத்துவமனை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "صَيْدَلِيَّة", "transliteration": "Saydaliyah" },
+        { "arabic": "مُسْتَشْفَى", "transliteration": "Mustashfa" },
+        { "arabic": "مَدْرَسَة", "transliteration": "Madrasah" },
+        { "arabic": "مَسْجِد", "transliteration": "Masjid" }
+      ],
+      "correct_answer": "مُسْتَشْفَى"
+    },
+    {
+      "id": 130,
+      "question_english": "What is 'Mosque' in Arabic?",
+      "question_tamil": "பள்ளிவாசல் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَسْجِد", "transliteration": "Masjid" },
+        { "arabic": "مَدْرَسَة", "transliteration": "Madrasah" },
+        { "arabic": "جَامِعَة", "transliteration": "Jami'ah" },
+        { "arabic": "مَكْتَبَة", "transliteration": "Maktabah" }
+      ],
+      "correct_answer": "مَسْجِد"
+    },
+    {
+      "id": 131,
+      "question_english": "What is 'Market' in Arabic?",
+      "question_tamil": "சந்தை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَنْك", "transliteration": "Bank" },
+        { "arabic": "سُوق", "transliteration": "Suq" },
+        { "arabic": "فُنْدُق", "transliteration": "Fundaq" },
+        { "arabic": "مَطْعَم", "transliteration": "Mat'am" }
+      ],
+      "correct_answer": "سُوق"
+    },
+    {
+      "id": 132,
+      "question_english": "What is 'Bank' in Arabic?",
+      "question_tamil": "வங்கி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سُوق", "transliteration": "Suq" },
+        { "arabic": "بَنْك", "transliteration": "Bank" },
+        { "arabic": "مَطَار", "transliteration": "Matar" },
+        { "arabic": "فُنْدُق", "transliteration": "Fundaq" }
+      ],
+      "correct_answer": "بَنْك"
+    },
+    {
+      "id": 133,
+      "question_english": "What is 'Hotel' in Arabic?",
+      "question_tamil": "விடுதி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَنْك", "transliteration": "Bank" },
+        { "arabic": "فُنْدُق", "transliteration": "Fundaq" },
+        { "arabic": "مَطْعَم", "transliteration": "Mat'am" },
+        { "arabic": "سُوق", "transliteration": "Suq" }
+      ],
+      "correct_answer": "فُنْدُق"
+    },
+    {
+      "id": 134,
+      "question_english": "What is 'Restaurant' in Arabic?",
+      "question_tamil": "உணவகம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَطْبَخ", "transliteration": "Matbakh" },
+        { "arabic": "مَطْعَم", "transliteration": "Mat'am" },
+        { "arabic": "فُنْدُق", "transliteration": "Fundaq" },
+        { "arabic": "مَسْجِد", "transliteration": "Masjid" }
+      ],
+      "correct_answer": "مَطْعَم"
+    },
+    {
+      "id": 135,
+      "question_english": "What is 'Doctor' in Arabic?",
+      "question_tamil": "மருத்துவர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مُعَلِّم", "transliteration": "Mu'allim" },
+        { "arabic": "طَبِيب", "transliteration": "Tabib" },
+        { "arabic": "مُهَنْدِس", "transliteration": "Muhandis" },
+        { "arabic": "شُرْطِيّ", "transliteration": "Shurtiyy" }
+      ],
+      "correct_answer": "طَبِيب"
+    },
+    {
+      "id": 136,
+      "question_english": "What is 'Teacher' in Arabic?",
+      "question_tamil": "ஆசிரியர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "طَبِيب", "transliteration": "Tabib" },
+        { "arabic": "مُعَلِّم", "transliteration": "Mu'allim" },
+        { "arabic": "طَالِب", "transliteration": "Talib" },
+        { "arabic": "كَاتِب", "transliteration": "Katib" }
+      ],
+      "correct_answer": "مُعَلِّم"
+    },
+    {
+      "id": 137,
+      "question_english": "What is 'Engineer' in Arabic?",
+      "question_tamil": "பொறியாளர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "طَبِيب", "transliteration": "Tabib" },
+        { "arabic": "مُهَنْدِس", "transliteration": "Muhandis" },
+        { "arabic": "مُحَامِي", "transliteration": "Muhami" },
+        { "arabic": "رَسَّام", "transliteration": "Rassam" }
+      ],
+      "correct_answer": "مُهَنْدِس"
+    },
+    {
+      "id": 138,
+      "question_english": "What is 'Friend' in Arabic?",
+      "question_tamil": "நண்பன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَدُوّ", "transliteration": "Aduw" },
+        { "arabic": "صَدِيق", "transliteration": "Sadiq" },
+        { "arabic": "جَار", "transliteration": "Jar" },
+        { "arabic": "ضَيْف", "transliteration": "Dayf" }
+      ],
+      "correct_answer": "صَدِيق"
+    },
+    {
+      "id": 139,
+      "question_english": "What is 'Father' in Arabic?",
+      "question_tamil": "தந்தை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أُمّ", "transliteration": "Umm" },
+        { "arabic": "أَب", "transliteration": "Ab" },
+        { "arabic": "أَخ", "transliteration": "Akh" },
+        { "arabic": "وَلَد", "transliteration": "Walad" }
+      ],
+      "correct_answer": "أَب"
+    },
+    {
+      "id": 140,
+      "question_english": "What is 'Mother' in Arabic?",
+      "question_tamil": "தாய் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَب", "transliteration": "Ab" },
+        { "arabic": "أُمّ", "transliteration": "Umm" },
+        { "arabic": "أُخْت", "transliteration": "Ukht" },
+        { "arabic": "بِنْت", "transliteration": "Bint" }
+      ],
+      "correct_answer": "أُمّ"
+    },
+    {
+      "id": 141,
+      "question_english": "What is 'Brother' in Arabic?",
+      "question_tamil": "சகோதரன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَخ", "transliteration": "Akh" },
+        { "arabic": "أُخْت", "transliteration": "Ukht" },
+        { "arabic": "عَمّ", "transliteration": "'Am" },
+        { "arabic": "خَال", "transliteration": "Khal" }
+      ],
+      "correct_answer": "أَخ"
+    },
+    {
+      "id": 142,
+      "question_english": "What is 'Sister' in Arabic?",
+      "question_tamil": "சகோதரி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَخ", "transliteration": "Akh" },
+        { "arabic": "أُخْت", "transliteration": "Ukht" },
+        { "arabic": "أُمّ", "transliteration": "Umm" },
+        { "arabic": "بِنْت", "transliteration": "Bint" }
+      ],
+      "correct_answer": "أُخْت"
+    },
+    {
+      "id": 143,
+      "question_english": "What is 'Hand' in Arabic?",
+      "question_tamil": "கை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رِجْل", "transliteration": "Rijl" },
+        { "arabic": "يَد", "transliteration": "Yad" },
+        { "arabic": "عَيْن", "transliteration": "Ayn" },
+        { "arabic": "أُذُن", "transliteration": "Udhun" }
+      ],
+      "correct_answer": "يَد"
+    },
+    {
+      "id": 144,
+      "question_english": "What is 'Eye' in Arabic?",
+      "question_tamil": "கண் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَنْف", "transliteration": "Anf" },
+        { "arabic": "فَم", "transliteration": "Fam" },
+        { "arabic": "عَيْن", "transliteration": "Ayn" },
+        { "arabic": "رَأْس", "transliteration": "Ra's" }
+      ],
+      "correct_answer": "عَيْن"
+    },
+    {
+      "id": 145,
+      "question_english": "What is 'Ear' in Arabic?",
+      "question_tamil": "காது -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَيْن", "transliteration": "Ayn" },
+        { "arabic": "أُذُن", "transliteration": "Udhun" },
+        { "arabic": "أَنْف", "transliteration": "Anf" },
+        { "arabic": "فَم", "transliteration": "Fam" }
+      ],
+      "correct_answer": "أُذُن"
+    },
+    {
+      "id": 146,
+      "question_english": "What is 'Nose' in Arabic?",
+      "question_tamil": "மூக்கு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أُذُن", "transliteration": "Udhun" },
+        { "arabic": "أَنْف", "transliteration": "Anf" },
+        { "arabic": "عَيْن", "transliteration": "Ayn" },
+        { "arabic": "يَد", "transliteration": "Yad" }
+      ],
+      "correct_answer": "أَنْف"
+    },
+    {
+      "id": 147,
+      "question_english": "What is 'Mouth' in Arabic?",
+      "question_tamil": "வாய் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "فَم", "transliteration": "Fam" },
+        { "arabic": "أَنْف", "transliteration": "Anf" },
+        { "arabic": "سِنّ", "transliteration": "Sinn" },
+        { "arabic": "يَد", "transliteration": "Yad" }
+      ],
+      "correct_answer": "فَم"
+    },
+    {
+      "id": 148,
+      "question_english": "What is 'Head' in Arabic?",
+      "question_tamil": "தலை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "وَجْه", "transliteration": "Wajh" },
+        { "arabic": "رَأْس", "transliteration": "Ra's" },
+        { "arabic": "قَلْب", "transliteration": "Qalb" },
+        { "arabic": "يَد", "transliteration": "Yad" }
+      ],
+      "correct_answer": "رَأْس"
+    },
+    {
+      "id": 149,
+      "question_english": "What is 'Heart' in Arabic?",
+      "question_tamil": "இதயம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَأْس", "transliteration": "Ra's" },
+        { "arabic": "قَلْب", "transliteration": "Qalb" },
+        { "arabic": "وَجْه", "transliteration": "Wajh" },
+        { "arabic": "فَم", "transliteration": "Fam" }
+      ],
+      "correct_answer": "قَلْب"
+    },
+    {
+      "id": 150,
+      "question_english": "What is 'Leg' in Arabic?",
+      "question_tamil": "கால் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَد", "transliteration": "Yad" },
+        { "arabic": "رِجْل", "transliteration": "Rijl" },
+        { "arabic": "قَلْب", "transliteration": "Qalb" },
+        { "arabic": "رَأْس", "transliteration": "Ra's" }
+      ],
+      "correct_answer": "رِجْل"
+    },
+    {
+      "id": 151,
+      "question_english": "What is 'Food' in Arabic?",
+      "question_tamil": "உணவு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "طَعَام", "transliteration": "Ta'am" },
+        { "arabic": "شَرَاب", "transliteration": "Sharab" },
+        { "arabic": "لَحْم", "transliteration": "Lahm" },
+        { "arabic": "مِلْح", "transliteration": "Milh" }
+      ],
+      "correct_answer": "طَعَام"
+    },
+    {
+      "id": 152,
+      "question_english": "What is 'Fish' in Arabic?",
+      "question_tamil": "மீன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "طَيْر", "transliteration": "Tayr" },
+        { "arabic": "سَمَك", "transliteration": "Samak" },
+        { "arabic": "أَسَد", "transliteration": "Asad" },
+        { "arabic": "قِرْد", "transliteration": "Qird" }
+      ],
+      "correct_answer": "سَمَك"
+    },
+    {
+      "id": 153,
+      "question_english": "What is 'Bread' in Arabic?",
+      "question_tamil": "ரொட்டி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لَحْم", "transliteration": "Lahm" },
+        { "arabic": "خُبْز", "transliteration": "Khubz" },
+        { "arabic": "سُكَّر", "transliteration": "Sukkar" },
+        { "arabic": "مِلْح", "transliteration": "Milh" }
+      ],
+      "correct_answer": "خُبْز"
+    },
+    {
+      "id": 154,
+      "question_english": "What is 'Sugar' in Arabic?",
+      "question_tamil": "சர்க்கரை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مِلْح", "transliteration": "Milh" },
+        { "arabic": "سُكَّر", "transliteration": "Sukkar" },
+        { "arabic": "حَلِيب", "transliteration": "Halib" },
+        { "arabic": "شَاي", "transliteration": "Shay" }
+      ],
+      "correct_answer": "سُكَّر"
+    },
+    {
+      "id": 155,
+      "question_english": "What is 'Salt' in Arabic?",
+      "question_tamil": "உப்பு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سُكَّر", "transliteration": "Sukkar" },
+        { "arabic": "مِلْح", "transliteration": "Milh" },
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "زَيْت", "transliteration": "Zayt" }
+      ],
+      "correct_answer": "مِلْح"
+    },
+    {
+      "id": 156,
+      "question_english": "What is 'Lion' in Arabic?",
+      "question_tamil": "சிங்கம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "نَمِر", "transliteration": "Namir" },
+        { "arabic": "أَسَد", "transliteration": "Asad" },
+        { "arabic": "فِيل", "transliteration": "Fil" },
+        { "arabic": "قِرْد", "transliteration": "Qird" }
+      ],
+      "correct_answer": "أَسَد"
+    },
+    {
+      "id": 157,
+      "question_english": "What is 'Elephant' in Arabic?",
+      "question_tamil": "யானை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَسَد", "transliteration": "Asad" },
+        { "arabic": "فِيل", "transliteration": "Fil" },
+        { "arabic": "حِصَان", "transliteration": "Hisan" },
+        { "arabic": "جَمَل", "transliteration": "Jamal" }
+      ],
+      "correct_answer": "فِيل"
+    },
+    {
+      "id": 158,
+      "question_english": "What is 'Horse' in Arabic?",
+      "question_tamil": "குதிரை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "حِمَار", "transliteration": "Himar" },
+        { "arabic": "حِصَان", "transliteration": "Hisan" },
+        { "arabic": "بَقَر", "transliteration": "Baqar" },
+        { "arabic": "غَنَم", "transliteration": "Ghanam" }
+      ],
+      "correct_answer": "حِصَان"
+    },
+    {
+      "id": 159,
+      "question_english": "What is 'Monkey' in Arabic?",
+      "question_tamil": "குரங்கு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "فِيل", "transliteration": "Fil" },
+        { "arabic": "قِرْد", "transliteration": "Qird" },
+        { "arabic": "أَسَد", "transliteration": "Asad" },
+        { "arabic": "نَمِر", "transliteration": "Namir" }
+      ],
+      "correct_answer": "قِرْد"
+    },
+    {
+      "id": 160,
+      "question_english": "What is 'Snake' in Arabic?",
+      "question_tamil": "பாம்பு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَقْرَب", "transliteration": "Aqrab" },
+        { "arabic": "ثُعْبَان", "transliteration": "Thu'ban" },
+        { "arabic": "ذِئْب", "transliteration": "Dhi'b" },
+        { "arabic": "ثَعْلَب", "transliteration": "Tha'lab" }
+      ],
+      "correct_answer": "ثُعْبَان"
+    },
+    {
+      "id": 161,
+      "question_english": "What is 'Flower' in Arabic?",
+      "question_tamil": "மலர் / பூ -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شَجَرَة", "transliteration": "Shajarah" },
+        { "arabic": "وَرْدَة", "transliteration": "Wardah" },
+        { "arabic": "وَرَقَة", "transliteration": "Waraqah" },
+        { "arabic": "جِذْر", "transliteration": "Jidhr" }
+      ],
+      "correct_answer": "وَرْدَة"
+    },
+    {
+      "id": 162,
+      "question_english": "What is 'Tree' in Arabic?",
+      "question_tamil": "மரம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شَجَرَة", "transliteration": "Shajarah" },
+        { "arabic": "وَرْدَة", "transliteration": "Wardah" },
+        { "arabic": "غُصْن", "transliteration": "Ghusn" },
+        { "arabic": "جَبَل", "transliteration": "Jabal" }
+      ],
+      "correct_answer": "شَجَرَة"
+    },
+    {
+      "id": 163,
+      "question_english": "What is 'Fire' in Arabic?",
+      "question_tamil": "நெருப்பு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاء", "transliteration": "Ma'" },
+        { "arabic": "نَار", "transliteration": "Nar" },
+        { "arabic": "رِيح", "transliteration": "Rih" },
+        { "arabic": "ثَلْج", "transliteration": "Thalj" }
+      ],
+      "correct_answer": "نَار"
+    },
+    {
+      "id": 164,
+      "question_english": "What is 'Name' in Arabic?",
+      "question_tamil": "பெயர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَقْم", "transliteration": "Raqm" },
+        { "arabic": "اِسْم", "transliteration": "Ism" },
+        { "arabic": "لَوْن", "transliteration": "Lawn" },
+        { "arabic": "صَوْت", "transliteration": "Sawt" }
+      ],
+      "correct_answer": "اِسْم"
+    },
+    {
+      "id": 165,
+      "question_english": "What is 'Money' in Arabic?",
+      "question_tamil": "பணம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سِعْر", "transliteration": "Si'r" },
+        { "arabic": "مَال", "transliteration": "Mal" },
+        { "arabic": "رَاتِب", "transliteration": "Ratib" },
+        { "arabic": "بَنْك", "transliteration": "Bank" }
+      ],
+      "correct_answer": "مَال"
+    },
+    {
+      "id": 166,
+      "question_english": "What is 'City' in Arabic?",
+      "question_tamil": "நகரம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَرْيَة", "transliteration": "Qaryah" },
+        { "arabic": "مَدِينَة", "transliteration": "Madinah" },
+        { "arabic": "سُوق", "transliteration": "Suq" },
+        { "arabic": "أَرْض", "transliteration": "Ard" }
+      ],
+      "correct_answer": "مَدِينَة"
+    },
+    {
+      "id": 167,
+      "question_english": "What is 'Night' in Arabic?",
+      "question_tamil": "இரவு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَوْم", "transliteration": "Yawm" },
+        { "arabic": "لَيْل", "transliteration": "Layl" },
+        { "arabic": "سَنَة", "transliteration": "Sanah" },
+        { "arabic": "وَقْت", "transliteration": "Waqt" }
+      ],
+      "correct_answer": "لَيْل"
+    },
+    {
+      "id": 168,
+      "question_english": "What is 'Year' in Arabic?",
+      "question_tamil": "வருடம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَوْم", "transliteration": "Yawm" },
+        { "arabic": "لَيْل", "transliteration": "Layl" },
+        { "arabic": "سَنَة", "transliteration": "Sanah" },
+        { "arabic": "وَقْت", "transliteration": "Waqt" }
+      ],
+      "correct_answer": "سَنَة"
+    },
+    {
+      "id": 169,
+      "question_english": "What is 'Day' in Arabic?",
+      "question_tamil": "நாள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَوْم", "transliteration": "Yawm" },
+        { "arabic": "لَيْل", "transliteration": "Layl" },
+        { "arabic": "سَنَة", "transliteration": "Sanah" },
+        { "arabic": "سَاعَة", "transliteration": "Sa'ah" }
+      ],
+      "correct_answer": "يَوْم"
+    },
+    {
+      "id": 170,
+      "question_english": "What is 'Boy' in Arabic?",
+      "question_tamil": "சிறுவன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بِنْت", "transliteration": "Bint" },
+        { "arabic": "وَلَد", "transliteration": "Walad" },
+        { "arabic": "رَجُل", "transliteration": "Rajul" },
+        { "arabic": "طِفْل", "transliteration": "Tifl" }
+      ],
+      "correct_answer": "وَلَد"
+    },
+    {
+      "id": 171,
+      "question_english": "What is 'Girl' in Arabic?",
+      "question_tamil": "பெண் / மகள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "وَلَد", "transliteration": "Walad" },
+        { "arabic": "بِنْت", "transliteration": "Bint" },
+        { "arabic": "أُمّ", "transliteration": "Umm" },
+        { "arabic": "أُخْت", "transliteration": "Ukht" }
+      ],
+      "correct_answer": "بِنْت"
+    },
+    {
+      "id": 172,
+      "question_english": "What is 'Man' in Arabic?",
+      "question_tamil": "மனிதன் / ஆண் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَجُل", "transliteration": "Rajul" },
+        { "arabic": "وَلَد", "transliteration": "Walad" },
+        { "arabic": "أَب", "transliteration": "Ab" },
+        { "arabic": "أَخ", "transliteration": "Akh" }
+      ],
+      "correct_answer": "رَجُل"
+    },
+    {
+      "id": 173,
+      "question_english": "What is 'King' in Arabic?",
+      "question_tamil": "அரசன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "وَزِير", "transliteration": "Wazir" },
+        { "arabic": "مَلِك", "transliteration": "Malik" },
+        { "arabic": "أَمِير", "transliteration": "Amir" },
+        { "arabic": "قَاضِي", "transliteration": "Qadi" }
+      ],
+      "correct_answer": "مَلِك"
+    },
+    {
+      "id": 174,
+      "question_english": "What is 'Student' in Arabic?",
+      "question_tamil": "மாணவர் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مُعَلِّم", "transliteration": "Mu'allim" },
+        { "arabic": "طَالِب", "transliteration": "Talib" },
+        { "arabic": "طَبِيب", "transliteration": "Tabib" },
+        { "arabic": "تَاجِر", "transliteration": "Tajir" }
+      ],
+      "correct_answer": "طَالِب"
+    },
+    {
+      "id": 175,
+      "question_english": "What is 'Color' in Arabic?",
+      "question_tamil": "நிறம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَقْم", "transliteration": "Raqm" },
+        { "arabic": "لَوْن", "transliteration": "Lawn" },
+        { "arabic": "اِسْم", "transliteration": "Ism" },
+        { "arabic": "شَكْل", "transliteration": "Shakl" }
+      ],
+      "correct_answer": "لَوْن"
+    },
+    {
+      "id": 176,
+      "question_english": "What is 'Time' in Arabic?",
+      "question_tamil": "நேரம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَوْم", "transliteration": "Yawm" },
+        { "arabic": "وَقْت", "transliteration": "Waqt" },
+        { "arabic": "سَاعَة", "transliteration": "Sa'ah" },
+        { "arabic": "سَنَة", "transliteration": "Sanah" }
+      ],
+      "correct_answer": "وَقْت"
+    },
+    {
+      "id": 177,
+      "question_english": "What is 'Key' in Arabic?",
+      "question_tamil": "சாவி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَفْل", "transliteration": "Qafl" },
+        { "arabic": "مِفْتَاح", "transliteration": "Miftah" },
+        { "arabic": "بَاب", "transliteration": "Bab" },
+        { "arabic": "مِصْبَاح", "transliteration": "Misbah" }
+      ],
+      "correct_answer": "مِفْتَاح"
+    },
+    {
+      "id": 178,
+      "question_english": "What is 'Window' in Arabic?",
+      "question_tamil": "சன்னல் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَاب", "transliteration": "Bab" },
+        { "arabic": "شَبَاك", "transliteration": "Shubbak" },
+        { "arabic": "جِدَار", "transliteration": "Jidar" },
+        { "arabic": "سَقْف", "transliteration": "Saqf" }
+      ],
+      "correct_answer": "شَبَاك"
+    },
+    {
+      "id": 179,
+      "question_english": "What is 'Room' in Arabic?",
+      "question_tamil": "அறை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بَيْت", "transliteration": "Bayt" },
+        { "arabic": "غُرْفَة", "transliteration": "Ghurfah" },
+        { "arabic": "مَكْتَب", "transliteration": "Maktab" },
+        { "arabic": "مَطْبَخ", "transliteration": "Matbakh" }
+      ],
+      "correct_answer": "غُرْفَة"
+    },
+    {
+      "id": 180,
+      "question_english": "What is 'Shirt' in Arabic?",
+      "question_tamil": "சட்டை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "حِذَاء", "transliteration": "Hitha'" },
+        { "arabic": "قَمِيص", "transliteration": "Qamis" },
+        { "arabic": "سِرْوَال", "transliteration": "Sirwal" },
+        { "arabic": "قُبَّعَة", "transliteration": "Qubba'ah" }
+      ],
+      "correct_answer": "قَمِيص"
+    },
+    {
+      "id": 181,
+      "question_english": "What is 'Shoes' in Arabic?",
+      "question_tamil": "காலணி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَمِيص", "transliteration": "Qamis" },
+        { "arabic": "حِذَاء", "transliteration": "Hitha'" },
+        { "arabic": "جَوْرَب", "transliteration": "Jawrab" },
+        { "arabic": "حَقِيبَة", "transliteration": "Haqibah" }
+      ],
+      "correct_answer": "حِذَاء"
+    },
+    {
+      "id": 182,
+      "question_english": "What is 'Exam' in Arabic?",
+      "question_tamil": "தேர்வு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "دَرْس", "transliteration": "Dars" },
+        { "arabic": "اخْتِبَار", "transliteration": "Ikhtibar" },
+        { "arabic": "كِتَاب", "transliteration": "Kitab" },
+        { "arabic": "قَلَم", "transliteration": "Qalam" }
+      ],
+      "correct_answer": "اخْتِبَار"
+    },
+    {
+      "id": 183,
+      "question_english": "What is 'Language' in Arabic?",
+      "question_tamil": "மொழி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَلِمَة", "transliteration": "Kalimah" },
+        { "arabic": "لُغَة", "transliteration": "Lughah" },
+        { "arabic": "جُمْلَة", "transliteration": "Jumlah" },
+        { "arabic": "قِصَّة", "transliteration": "Qissah" }
+      ],
+      "correct_answer": "لُغَة"
+    },
+    {
+      "id": 184,
+      "question_english": "What is 'Word' in Arabic?",
+      "question_tamil": "வார்த்தை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لُغَة", "transliteration": "Lughah" },
+        { "arabic": "كَلِمَة", "transliteration": "Kalimah" },
+        { "arabic": "سُؤَال", "transliteration": "Su'al" },
+        { "arabic": "جَوَاب", "transliteration": "Jawab" }
+      ],
+      "correct_answer": "كَلِمَة"
+    },
+    {
+      "id": 185,
+      "question_english": "What is 'Story' in Arabic?",
+      "question_tamil": "கதை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رِوَايَة", "transliteration": "Riwayah" },
+        { "arabic": "قِصَّة", "transliteration": "Qissah" },
+        { "arabic": "شِعْر", "transliteration": "Shi'r" },
+        { "arabic": "فَنّ", "transliteration": "Fann" }
+      ],
+      "correct_answer": "قِصَّة"
+    },
+    {
+      "id": 186,
+      "question_english": "What is 'Game' in Arabic?",
+      "question_tamil": "விளையாட்டு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سِبَاق", "transliteration": "Sibaq" },
+        { "arabic": "لُعْبَة", "transliteration": "Lu'bah" },
+        { "arabic": "فَرِيق", "transliteration": "Fariq" },
+        { "arabic": "كَأْس", "transliteration": "Ka's" }
+      ],
+      "correct_answer": "لُعْبَة"
+    },
+    {
+      "id": 187,
+      "question_english": "What is 'Company' in Arabic?",
+      "question_tamil": "நிறுவனம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَحَلّ", "transliteration": "Mahall" },
+        { "arabic": "شَرِكَة", "transliteration": "Sharikah" },
+        { "arabic": "بَنْك", "transliteration": "Bank" },
+        { "arabic": "سُوق", "transliteration": "Suq" }
+      ],
+      "correct_answer": "شَرِكَة"
+    },
+    {
+      "id": 188,
+      "question_english": "What is 'Job' in Arabic?",
+      "question_tamil": "வேலை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَاتِب", "transliteration": "Ratib" },
+        { "arabic": "عَمَل", "transliteration": "'Amal" },
+        { "arabic": "مِهْنَة", "transliteration": "Mihnah" },
+        { "arabic": "مَشْرُوع", "transliteration": "Mashru'" }
+      ],
+      "correct_answer": "عَمَل"
+    },
+    {
+      "id": 189,
+      "question_english": "What is 'White' in Arabic?",
+      "question_tamil": "வெள்ளை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَسْوَد", "transliteration": "Aswad" },
+        { "arabic": "أَبْيَض", "transliteration": "Abyad" },
+        { "arabic": "أَحْمَر", "transliteration": "Ahmar" },
+        { "arabic": "أَزْرَق", "transliteration": "Azraq" }
+      ],
+      "correct_answer": "أَبْيَض"
+    },
+    {
+      "id": 190,
+      "question_english": "What is 'Black' in Arabic?",
+      "question_tamil": "கருப்பு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَبْيَض", "transliteration": "Abyad" },
+        { "arabic": "أَسْوَد", "transliteration": "Aswad" },
+        { "arabic": "أَخْضَر", "transliteration": "Akhdar" },
+        { "arabic": "أَصْفَر", "transliteration": "Asfar" }
+      ],
+      "correct_answer": "أَسْوَد"
+    },
+    {
+      "id": 191,
+      "question_english": "What is 'Red' in Arabic?",
+      "question_tamil": "சிவப்பு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَزْرَق", "transliteration": "Azraq" },
+        { "arabic": "أَحْمَر", "transliteration": "Ahmar" },
+        { "arabic": "أَخْضَر", "transliteration": "Akhdar" },
+        { "arabic": "أَصْفَر", "transliteration": "Asfar" }
+      ],
+      "correct_answer": "أَحْمَر"
+    },
+    {
+      "id": 192,
+      "question_english": "What is 'Blue' in Arabic?",
+      "question_tamil": "நீலம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَحْمَر", "transliteration": "Ahmar" },
+        { "arabic": "أَزْرَق", "transliteration": "Azraq" },
+        { "arabic": "أَخْضَر", "transliteration": "Akhdar" },
+        { "arabic": "أَبْيَض", "transliteration": "Abyad" }
+      ],
+      "correct_answer": "أَزْرَق"
+    },
+    {
+      "id": 193,
+      "question_english": "What is 'Green' in Arabic?",
+      "question_tamil": "பச்சை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَصْفَر", "transliteration": "Asfar" },
+        { "arabic": "أَخْضَر", "transliteration": "Akhdar" },
+        { "arabic": "أَزْرَق", "transliteration": "Azraq" },
+        { "arabic": "أَسْوَد", "transliteration": "Aswad" }
+      ],
+      "correct_answer": "أَخْضَر"
+    },
+    {
+      "id": 194,
+      "question_english": "What is 'Yellow' in Arabic?",
+      "question_tamil": "மஞ்சள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَخْضَر", "transliteration": "Akhdar" },
+        { "arabic": "أَصْفَر", "transliteration": "Asfar" },
+        { "arabic": "أَحْمَر", "transliteration": "Ahmar" },
+        { "arabic": "أَبْيَض", "transliteration": "Abyad" }
+      ],
+      "correct_answer": "أَصْفَر"
+    },
+    {
+      "id": 195,
+      "question_english": "What is 'Happy' in Arabic?",
+      "question_tamil": "மகிழ்ச்சியான -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "حَزِين", "transliteration": "Hazin" },
+        { "arabic": "سَعِيد", "transliteration": "Sa'id" },
+        { "arabic": "تَعْبَان", "transliteration": "Ta'ban" },
+        { "arabic": "كَسْلَان", "transliteration": "Kaslan" }
+      ],
+      "correct_answer": "سَعِيد"
+    },
+    {
+      "id": 196,
+      "question_english": "What is 'Sad' in Arabic?",
+      "question_tamil": "துக்கமான -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "سَعِيد", "transliteration": "Sa'id" },
+        { "arabic": "حَزِين", "transliteration": "Hazin" },
+        { "arabic": "نَشِيط", "transliteration": "Nashit" },
+        { "arabic": "قَوِيّ", "transliteration": "Qawiyy" }
+      ],
+      "correct_answer": "حَزِين"
+    },
+    {
+      "id": 197,
+      "question_english": "What is 'Big' in Arabic?",
+      "question_tamil": "பெரிய -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "صَغِير", "transliteration": "Saghir" },
+        { "arabic": "كَبِير", "transliteration": "Kabir" },
+        { "arabic": "طَوِيل", "transliteration": "Tawil" },
+        { "arabic": "قَصِير", "transliteration": "Qasir" }
+      ],
+      "correct_answer": "كَبِير"
+    },
+    {
+      "id": 198,
+      "question_english": "What is 'Small' in Arabic?",
+      "question_tamil": "சிறிய -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَبِير", "transliteration": "Kabir" },
+        { "arabic": "صَغِير", "transliteration": "Saghir" },
+        { "arabic": "ثَقِيل", "transliteration": "Thaqil" },
+        { "arabic": "خَفِيف", "transliteration": "Khafif" }
+      ],
+      "correct_answer": "صَغِير"
+    },
+    {
+      "id": 199,
+      "question_english": "What is 'New' in Arabic?",
+      "question_tamil": "புதிய -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قَدِيم", "transliteration": "Qadim" },
+        { "arabic": "جَدِيد", "transliteration": "Jadid" },
+        { "arabic": "كَبِير", "transliteration": "Kabir" },
+        { "arabic": "سَرِيع", "transliteration": "Sari'" }
+      ],
+      "correct_answer": "جَدِيد"
+    },
+    {
+      "id": 200,
+      "question_english": "What is 'Old' in Arabic?",
+      "question_tamil": "பழைய -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "جَدِيد", "transliteration": "Jadid" },
+        { "arabic": "قَدِيم", "transliteration": "Qadim" },
+        { "arabic": "صَغِير", "transliteration": "Saghir" },
+        { "arabic": "بَطِيء", "transliteration": "Bati'" }
+      ],
+      "correct_answer": "قَدِيم"
+    }
+  ]
+}

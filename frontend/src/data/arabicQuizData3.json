@@ -1,0 +1,2119 @@
+{
+  "module": "13",
+  "category": "Small and Simple Arabic Questions (Quiz)",
+  "total_questions": 176,
+  "questions": [
+    {
+      "id": 1,
+      "question_english": "What is 'How are you?' in Arabic?",
+      "question_tamil": "எப்படி இருக்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" },
+        { "arabic": "كَيْفَ حَالُكَ؟", "transliteration": "Kayfa haluka?" },
+        { "arabic": "مِنْ أَيْنَ أَنْتَ؟", "transliteration": "Min ayna anta?" },
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" }
+      ],
+      "correct_answer": "كَيْفَ حَالُكَ؟"
+    },
+    {
+      "id": 2,
+      "question_english": "What is 'What is your name?' in Arabic?",
+      "question_tamil": "உங்கள் பெயர் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" },
+        { "arabic": "كَيْفَ حَالُكَ؟", "transliteration": "Kayfa haluka?" },
+        { "arabic": "مَنْ أَنْتَ؟", "transliteration": "Man anta?" },
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" }
+      ],
+      "correct_answer": "مَا اسْمُكَ؟"
+    },
+    {
+      "id": 3,
+      "question_english": "What is 'Where are you from?' in Arabic?",
+      "question_tamil": "நீங்கள் எங்கிருந்து வருகிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ بَيْتُكَ؟", "transliteration": "Ayna baytuka?" },
+        { "arabic": "مِنْ أَيْنَ أَنْتَ؟", "transliteration": "Min ayna anta?" },
+        { "arabic": "أَيْنَ تَذْهَبُ؟", "transliteration": "Ayna tadhhabu?" },
+        { "arabic": "مَتَى تَجِيءُ؟", "transliteration": "Mata tajii'u?" }
+      ],
+      "correct_answer": "مِنْ أَيْنَ أَنْتَ؟"
+    },
+    {
+      "id": 4,
+      "question_english": "What is 'Where do you live?' in Arabic?",
+      "question_tamil": "நீங்கள் எங்கே வசிக்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" },
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" },
+        { "arabic": "مَنْ هَذَا؟", "transliteration": "Man hadha?" },
+        { "arabic": "كَمْ السِّعْرُ؟", "transliteration": "Kam as-si'ru?" }
+      ],
+      "correct_answer": "أَيْنَ تَسْكُنُ؟"
+    },
+    {
+      "id": 5,
+      "question_english": "What is 'What is this?' in Arabic?",
+      "question_tamil": "இது என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ هَذَا؟", "transliteration": "Man hadha?" },
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" },
+        { "arabic": "أَيْنَ الكِتَابُ؟", "transliteration": "Ayna al-kitabu?" },
+        { "arabic": "كَيْفَ الحَالُ؟", "transliteration": "Kayfa al-halu?" }
+      ],
+      "correct_answer": "مَا هَذَا؟"
+    },
+    {
+      "id": 6,
+      "question_english": "What is 'Who is this?' in Arabic?",
+      "question_tamil": "இது யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" },
+        { "arabic": "مَنْ هَذَا؟", "transliteration": "Man hadha?" },
+        { "arabic": "أَيْنَ أَنْتَ؟", "transliteration": "Ayna anta?" },
+        { "arabic": "مَنْ أَنْتَ؟", "transliteration": "Man anta?" }
+      ],
+      "correct_answer": "مَنْ هَذَا؟"
+    },
+    {
+      "id": 7,
+      "question_english": "What is 'Where is the book?' in Arabic?",
+      "question_tamil": "புத்தகம் எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ القَلَمُ؟", "transliteration": "Ayna al-qalamu?" },
+        { "arabic": "أَيْنَ الكِتَابُ؟", "transliteration": "Ayna al-kitabu?" },
+        { "arabic": "أَيْنَ البَيْتُ؟", "transliteration": "Ayna al-baytu?" },
+        { "arabic": "أَيْنَ السُّوقُ؟", "transliteration": "Ayna al-suqu?" }
+      ],
+      "correct_answer": "أَيْنَ الكِتَابُ؟"
+    },
+    {
+      "id": 8,
+      "question_english": "What is 'How much is the price?' in Arabic?",
+      "question_tamil": "விலை எவ்வளவு? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَمْ السِّعْرُ؟", "transliteration": "Kam as-si'ru?" },
+        { "arabic": "كَمْ السَّاعَةُ؟", "transliteration": "Kam al-sa'atu?" },
+        { "arabic": "كَمْ عُمْرُكَ؟", "transliteration": "Kam 'umruka?" },
+        { "arabic": "كَمْ وَلَدًا عِنْدَكَ؟", "transliteration": "Kam waladan 'indaka?" }
+      ],
+      "correct_answer": "كَمْ السِّعْرُ؟"
+    },
+    {
+      "id": 9,
+      "question_english": "What is 'Do you understand?' in Arabic?",
+      "question_tamil": "உங்களுக்குப் புரிகிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ قَرَأْتَ؟", "transliteration": "Hal qara'ta?" },
+        { "arabic": "هَلْ فَهِمْتَ؟", "transliteration": "Hal fahimta?" },
+        { "arabic": "هَلْ عَلِمْتَ؟", "transliteration": "Hal 'alimta?" },
+        { "arabic": "هَلْ سَمِعْتَ؟", "transliteration": "Hal sami'ta?" }
+      ],
+      "correct_answer": "هَلْ فَهِمْتَ؟"
+    },
+    {
+      "id": 10,
+      "question_english": "What is 'Do you know?' in Arabic?",
+      "question_tamil": "உங்களுக்குத் தெரியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عَرَفْتَ؟", "transliteration": "Hal 'arafta?" },
+        { "arabic": "هَلْ تَحْبُّ؟", "transliteration": "Hal tuhibbu?" },
+        { "arabic": "هَلْ تُرِيدُ؟", "transliteration": "Hal turidu?" },
+        { "arabic": "هَلْ قَدَرْتَ؟", "transliteration": "Hal qadarta?" }
+      ],
+      "correct_answer": "هَلْ عَرَفْتَ؟"
+    },
+    {
+      "id": 11,
+      "question_english": "What is 'Do you want tea?' in Arabic?",
+      "question_tamil": "தேநீர் வேண்டுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُرِيدُ مَاءً؟", "transliteration": "Hal turidu ma'an?" },
+        { "arabic": "هَلْ تُرِيدُ شَايًا؟", "transliteration": "Hal turidu shayan?" },
+        { "arabic": "هَلْ تُرِيدُ قَهْوَةً؟", "transliteration": "Hal turidu qahwatan?" },
+        { "arabic": "هَلْ تُرِيدُ طَعَامًا؟", "transliteration": "Hal turidu ta'aman?" }
+      ],
+      "correct_answer": "هَلْ تُرِيدُ شَايًا؟"
+    },
+    {
+      "id": 12,
+      "question_english": "What is 'Are you hungry?' in Arabic?",
+      "question_tamil": "உங்களுக்குப் பசிக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ عَطْشَانُ؟", "transliteration": "Hal anta atshanu?" },
+        { "arabic": "هَلْ أَنْتَ جَائِعٌ؟", "transliteration": "Hal anta ja'i'un?" },
+        { "arabic": "هَلْ أَنْتَ تَعْبَانُ؟", "transliteration": "Hal anta ta'banu?" },
+        { "arabic": "هَلْ أَنْتَ مَرِيضٌ؟", "transliteration": "Hal anta maridun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ جَائِعٌ؟"
+    },
+    {
+      "id": 13,
+      "question_english": "What is 'Are you thirsty?' in Arabic?",
+      "question_tamil": "உங்களுக்குத் தாகமாக இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ جَائِعٌ؟", "transliteration": "Hal anta ja'i'un?" },
+        { "arabic": "هَلْ أَنْتَ عَطْشَانُ؟", "transliteration": "Hal anta atshanu?" },
+        { "arabic": "هَلْ أَنْتَ نَائِمٌ؟", "transliteration": "Hal anta na'imun?" },
+        { "arabic": "هَلْ أَنْتَ سَعِيدٌ؟", "transliteration": "Hal anta sa'idun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ عَطْشَانُ؟"
+    },
+    {
+      "id": 14,
+      "question_english": "What is 'When will you go?' in Arabic?",
+      "question_tamil": "எப்போது செல்வீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تَذْهَبُ؟", "transliteration": "Ayna tadhhabu?" },
+        { "arabic": "مَتَى تَذْهَبُ؟", "transliteration": "Mata tadhhabu?" },
+        { "arabic": "كَيْفَ تَذْهَبُ؟", "transliteration": "Kayfa tadhhabu?" },
+        { "arabic": "لِمَ تَذْهَبُ؟", "transliteration": "Lima tadhhabu?" }
+      ],
+      "correct_answer": "مَتَى تَذْهَبُ؟"
+    },
+    {
+      "id": 15,
+      "question_english": "What is 'How do you go?' in Arabic?",
+      "question_tamil": "எப்படிச் செல்வீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَتَى تَذْهَبُ؟", "transliteration": "Mata tadhhabu?" },
+        { "arabic": "كَيْفَ تَذْهَبُ؟", "transliteration": "Kayfa tadhhabu?" },
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" },
+        { "arabic": "مَاذَا تَفْعَلُ؟", "transliteration": "Madha taf'alu?" }
+      ],
+      "correct_answer": "كَيْفَ تَذْهَبُ؟"
+    },
+    {
+      "id": 16,
+      "question_english": "What is 'Why are you late?' in Arabic?",
+      "question_tamil": "ஏன் தாமதம்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لِمَ تَأَخَّرْتَ؟", "transliteration": "Lima ta'akhkharta?" },
+        { "arabic": "مَتَى جِئْتَ؟", "transliteration": "Mata ji'ta?" },
+        { "arabic": "أَيْنَ كُنْتَ؟", "transliteration": "Ayna kunta?" },
+        { "arabic": "مَا خَبَرُكَ؟", "transliteration": "Ma khabaruka?" }
+      ],
+      "correct_answer": "لِمَ تَأَخَّرْتَ؟"
+    },
+    {
+      "id": 17,
+      "question_english": "What is 'Where were you?' in Arabic?",
+      "question_tamil": "எங்கே இருந்தீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تَذْهَبُ؟", "transliteration": "Ayna tadhhabu?" },
+        { "arabic": "أَيْنَ كُنْتَ؟", "transliteration": "Ayna kunta?" },
+        { "arabic": "مِنْ أَيْنَ جِئْتَ؟", "transliteration": "Min ayna ji'ta?" },
+        { "arabic": "أَيْنَ بَيْتُكَ؟", "transliteration": "Ayna baytuka?" }
+      ],
+      "correct_answer": "أَيْنَ كُنْتَ؟"
+    },
+    {
+      "id": 18,
+      "question_english": "What is 'Can you help me?' in Arabic?",
+      "question_tamil": "எனக்கு உதவ முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُسَاعِدُنِي؟", "transliteration": "Hal tusa'iduni?" },
+        { "arabic": "هَلْ تَسْمَعُنِي؟", "transliteration": "Hal tasma'uni?" },
+        { "arabic": "هَلْ تَرَانِي؟", "transliteration": "Hal tarani?" },
+        { "arabic": "هَلْ تَعْرِفُنِي؟", "transliteration": "Hal ta'rifuni?" }
+      ],
+      "correct_answer": "هَلْ تُسَاعِدُنِي؟"
+    },
+    {
+      "id": 19,
+      "question_english": "What is 'What is the time?' in Arabic?",
+      "question_tamil": "மணி என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَمْ السِّعْرُ؟", "transliteration": "Kam as-si'ru?" },
+        { "arabic": "كَمْ السَّاعَةُ؟", "transliteration": "Kam al-sa'atu?" },
+        { "arabic": "كَمْ العَدَدُ؟", "transliteration": "Kam al-'adadu?" },
+        { "arabic": "كَمْ اليَوْمُ؟", "transliteration": "Kam al-yawmu?" }
+      ],
+      "correct_answer": "كَمْ السَّاعَةُ؟"
+    },
+    {
+      "id": 20,
+      "question_english": "What is 'Do you speak English?' in Arabic?",
+      "question_tamil": "ஆங்கிலம் பேசுவீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَتَكَلَّمُ العَرَبِيَّةَ؟", "transliteration": "Hal tatakallamu al-'arabiyyata?" },
+        { "arabic": "هَلْ تَتَكَلَّمُ الإِنْجِلِيزِيَّةَ؟", "transliteration": "Hal tatakallamu al-injiliyyata?" },
+        { "arabic": "هَلْ تَتَكَلَّمُ التَّامِيلِيَّةَ؟", "transliteration": "Hal tatakallamu al-tamiliyyata?" },
+        { "arabic": "هَلْ تَقْرَأُ الفَرَنْسِيَّةَ؟", "transliteration": "Hal taqra'u al-faransiyyata?" }
+      ],
+      "correct_answer": "هَلْ تَتَكَلَّمُ الإِنْجِلِيزِيَّةَ؟"
+    },
+    {
+      "id": 21,
+      "question_english": "What is 'What did you say?' in Arabic?",
+      "question_tamil": "என்ன சொன்னீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاذَا قُلْتَ؟", "transliteration": "Madha qulta?" },
+        { "arabic": "مَاذَا فَعَلْتَ؟", "transliteration": "Madha fa'alta?" },
+        { "arabic": "مَاذَا كَتَبْتَ؟", "transliteration": "Madha katabta?" },
+        { "arabic": "مَاذَا أَرَدْتَ؟", "transliteration": "Madha aradta?" }
+      ],
+      "correct_answer": "مَاذَا قُلْتَ؟"
+    },
+    {
+      "id": 22,
+      "question_english": "What is 'Are you ready?' in Arabic?",
+      "question_tamil": "நீங்கள் தயாரா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ تَعْبَانُ؟", "transliteration": "Hal anta ta'banu?" },
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ؟", "transliteration": "Hal anta jahizun?" },
+        { "arabic": "هَلْ أَنْتَ حَاضِرٌ؟", "transliteration": "Hal anta hadirun?" },
+        { "arabic": "هَلْ أَنْتَ مَرِيضٌ؟", "transliteration": "Hal anta maridun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ جَاهِزٌ؟"
+    },
+    {
+      "id": 23,
+      "question_english": "What is 'Where do you want to go?' in Arabic?",
+      "question_tamil": "எங்கே செல்ல விரும்புகிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تُرِيدُ أَنْ تَذْهَبَ؟", "transliteration": "Ayna turidu an tadhhaba?" },
+        { "arabic": "مَتَى تُرِيدُ أَنْ تَرْجِعَ؟", "transliteration": "Mata turidu an tarji'a?" },
+        { "arabic": "كَيْفَ تُرِيدُ أَنْ تَعْمَلَ؟", "transliteration": "Kayfa turidu an ta'amala?" },
+        { "arabic": "مَاذَا تُرِيدُ أَنْ تَأْكُلَ؟", "transliteration": "Madha turidu an ta'kula?" }
+      ],
+      "correct_answer": "أَيْنَ تُرِيدُ أَنْ تَذْهَبَ؟"
+    },
+    {
+      "id": 24,
+      "question_english": "What is 'Do you have a pen?' in Arabic?",
+      "question_tamil": "உங்களிடம் பேனா இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عِنْدَكَ كِتَابٌ؟", "transliteration": "Hal 'indaka kitabun?" },
+        { "arabic": "هَلْ عِنْدَكَ قَلَمٌ؟", "transliteration": "Hal 'indaka qalamun?" },
+        { "arabic": "هَلْ عِنْدَكَ مَالٌ؟", "transliteration": "Hal 'indaka malun?" },
+        { "arabic": "هَلْ عِنْدَكَ سَيَّارَةٌ؟", "transliteration": "Hal 'indaka sayyaratun?" }
+      ],
+      "correct_answer": "هَلْ عِنْدَكَ قَلَمٌ؟"
+    },
+    {
+      "id": 25,
+      "question_english": "What is 'Who is at the door?' in Arabic?",
+      "question_tamil": "கதவில் நிற்பவர் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ فِي البَيْتِ؟", "transliteration": "Man fi al-bayti?" },
+        { "arabic": "مَنْ عَلَى البَابِ؟", "transliteration": "Man 'ala al-babi?" },
+        { "arabic": "مَنْ هُنَاكَ؟", "transliteration": "Man hunaka?" },
+        { "arabic": "مَنْ جَاءَ؟", "transliteration": "Man ja'a?" }
+      ],
+      "correct_answer": "مَنْ عَلَى البَابِ؟"
+    },
+    {
+      "id": 26,
+      "question_english": "What is 'Is everything okay?' in Arabic?",
+      "question_tamil": "எல்லாம் நலம்தானே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كُلُّ شَيْءٍ بَخَيْرٍ؟", "transliteration": "Kullu shay'in bi-khayrin?" },
+        { "arabic": "كُلُّ شَيْءٍ جَاهِزٌ؟", "transliteration": "Kullu shay'in jahizun?" },
+        { "arabic": "كُلُّ شَيْءٍ تَمَامٌ؟", "transliteration": "Kullu shay'in tamamun?" },
+        { "arabic": "كُلُّ شَيْءٍ وَاضِحٌ؟", "transliteration": "Kullu shay'in wadihun?" }
+      ],
+      "correct_answer": "كُلُّ شَيْءٍ بَخَيْرٍ؟"
+    },
+    {
+      "id": 27,
+      "question_english": "What is 'What is the news?' in Arabic?",
+      "question_tamil": "செய்திகள் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا الأَخْبَارُ؟", "transliteration": "Ma al-akhbaru?" },
+        { "arabic": "مَا الحَالُ؟", "transliteration": "Ma al-halu?" },
+        { "arabic": "مَا الأَمْرُ؟", "transliteration": "Ma al-amru?" },
+        { "arabic": "مَا الخَبَرُ؟", "transliteration": "Ma al-khabaru?" }
+      ],
+      "correct_answer": "مَا الأَخْبَارُ؟"
+    },
+    {
+      "id": 28,
+      "question_english": "What is 'Do you understand Arabic?' in Arabic?",
+      "question_tamil": "அரபு மொழி உங்களுக்குப் புரியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَفْهَمُ العَرَبِيَّةَ؟", "transliteration": "Hal tafhamu al-'arabiyyata?" },
+        { "arabic": "هَلْ تَقْرَأُ العَرَبِيَّةَ؟", "transliteration": "Hal taqra'u al-'arabiyyata?" },
+        { "arabic": "هَلْ تَكْتُبُ العَرَبِيَّةَ؟", "transliteration": "Hal taktubu al-'arabiyyata?" },
+        { "arabic": "هَلْ تَسْمَعُ العَرَبِيَّةَ؟", "transliteration": "Hal tasma'u al-'arabiyyata?" }
+      ],
+      "correct_answer": "هَلْ تَفْهَمُ العَرَبِيَّةَ؟"
+    },
+    {
+      "id": 29,
+      "question_english": "What is 'Can I help you?' in Arabic?",
+      "question_tamil": "நான் உங்களுக்கு உதவலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أُسَاعِدُكَ؟", "transliteration": "Hal usaiduka?" },
+        { "arabic": "هَلْ أَسْأَلُكَ؟", "transliteration": "Hal as'aluka?" },
+        { "arabic": "هَلْ أُرِيكَ؟", "transliteration": "Hal uriuka?" },
+        { "arabic": "هَلْ أَعْطِيكَ؟", "transliteration": "Hal a'tika?" }
+      ],
+      "correct_answer": "هَلْ أُسَاعِدُكَ؟"
+    },
+    {
+      "id": 30,
+      "question_english": "What is 'What do you want?' in Arabic?",
+      "question_tamil": "உங்களுக்கு என்ன வேண்டும்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاذَا تُرِيدُ؟", "transliteration": "Madha turidu?" },
+        { "arabic": "مَاذَا تَأْخُذُ؟", "transliteration": "Madha ta'khudhu?" },
+        { "arabic": "مَاذَا تَشْتَرِي؟", "transliteration": "Madha tashtarii?" },
+        { "arabic": "مَاذَا تَبْغِي؟", "transliteration": "Madha tabghii?" }
+      ],
+      "correct_answer": "مَاذَا تُرِيدُ؟"
+    },
+    {
+      "id": 31,
+      "question_english": "What is 'How is the weather today?' in Arabic?",
+      "question_tamil": "இன்றைய வானிலை எப்படி இருக்கிறது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ الطَّقْسُ اليَوْمَ؟", "transliteration": "Kayfa al-taqsu al-yawma?" },
+        { "arabic": "كَيْفَ الحَالُ اليَوْمَ؟", "transliteration": "Kayfa al-halu al-yawma?" },
+        { "arabic": "كَيْفَ الجَوُّ اليَوْمَ؟", "transliteration": "Kayfa al-jawwu al-yawma?" },
+        { "arabic": "كَيْفَ اليَوْمُ؟", "transliteration": "Kayfa al-yawmu?" }
+      ],
+      "correct_answer": "كَيْفَ الجَوُّ اليَوْمَ؟"
+    },
+    {
+      "id": 32,
+      "question_english": "What is 'Where is the bathroom?' in Arabic?",
+      "question_tamil": "குளியலறை எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ الحَمَّامُ؟", "transliteration": "Ayna al-hammamu?" },
+        { "arabic": "أَيْنَ المَطْبَخُ؟", "transliteration": "Ayna al-matbakhu?" },
+        { "arabic": "أَيْنَ الغُرْفَةُ؟", "transliteration": "Ayna al-ghurfatu?" },
+        { "arabic": "أَيْنَ البَيْتُ؟", "transliteration": "Ayna al-baytu?" }
+      ],
+      "correct_answer": "أَيْنَ الحَمَّامُ؟"
+    },
+    {
+      "id": 33,
+      "question_english": "What is 'Do you have questions?' in Arabic?",
+      "question_tamil": "உங்களுக்குக் கேள்விகள் உள்ளனவா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عِنْدَكَ سُؤَالٌ؟", "transliteration": "Hal 'indaka su'alun?" },
+        { "arabic": "هَلْ عِنْدَكَ جَوَابٌ؟", "transliteration": "Hal 'indaka jawabun?" },
+        { "arabic": "هَلْ عِنْدَكَ كِتَابٌ؟", "transliteration": "Hal 'indaka kitabun?" },
+        { "arabic": "هَلْ عِنْدَكَ عَمَلٌ؟", "transliteration": "Hal 'indaka amalun?" }
+      ],
+      "correct_answer": "هَلْ عِنْدَكَ سُؤَالٌ؟"
+    },
+    {
+      "id": 34,
+      "question_english": "What is 'Are you sure?' in Arabic?",
+      "question_tamil": "நிச்சயமாகவா / உறுதியாகத் தெரியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ مُتَأَكِّدٌ؟", "transliteration": "Hal anta muta'akkidun?" },
+        { "arabic": "هَلْ أَنْتَ صَادِقٌ؟", "transliteration": "Hal anta sadiqun?" },
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ؟", "transliteration": "Hal anta jahizun?" },
+        { "arabic": "هَلْ أَنْتَ تَعْلَمُ؟", "transliteration": "Hal anta ta'lamu?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ مُتَأَكِّدٌ؟"
+    },
+    {
+      "id": 35,
+      "question_english": "What is 'What happened?' in Arabic?",
+      "question_tamil": "என்ன நடந்தது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاذَا حَدَثَ؟", "transliteration": "Madha hadatha?" },
+        { "arabic": "مَاذَا جَرَى؟", "transliteration": "Madha jara?" },
+        { "arabic": "مَاذَا صَنَعْتَ؟", "transliteration": "Madha sana'ta?" },
+        { "arabic": "مَاذَا كَانَ؟", "transliteration": "Madha kana?" }
+      ],
+      "correct_answer": "مَاذَا حَدَثَ؟"
+    },
+    {
+      "id": 36,
+      "question_english": "What is 'Can I speak with you?' in Arabic?",
+      "question_tamil": "நான் உங்களிடம் பேசலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَتَكَلَّمُ مَعَكَ؟", "transliteration": "Hal atakallamu ma'aka?" },
+        { "arabic": "هَلْ أَنْظُرُ إِلَيْكَ؟", "transliteration": "Hal anzuru ilayka?" },
+        { "arabic": "هَلْ أَمْشِي مَعَكَ؟", "transliteration": "Hal amshii ma'aka?" },
+        { "arabic": "هَلْ أَجْلِسُ مَعَكَ؟", "transliteration": "Hal ajlisu ma'aka?" }
+      ],
+      "correct_answer": "هَلْ أَتَكَلَّمُ مَعَكَ؟"
+    },
+    {
+      "id": 37,
+      "question_english": "What is 'Do you like this?' in Arabic?",
+      "question_tamil": "இது உங்களுக்குப் பிடித்திருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ يُعْجِبُكَ هَذَا؟", "transliteration": "Hal yu'jibuka hadha?" },
+        { "arabic": "هَلْ تَعْرِفُ هَذَا؟", "transliteration": "Hal ta'rifu hadha?" },
+        { "arabic": "هَلْ تَفْهَمُ هَذَا؟", "transliteration": "Hal tafhamu hadha?" },
+        { "arabic": "هَلْ تُرِيدُ هَذَا؟", "transliteration": "Hal turidu hadha?" }
+      ],
+      "correct_answer": "هَلْ يُعْجِبُكَ هَذَا؟"
+    },
+    {
+      "id": 38,
+      "question_english": "What is 'Who is he?' in Arabic?",
+      "question_tamil": "அவன் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ هُوَ؟", "transliteration": "Man huwa?" },
+        { "arabic": "مَنْ هِيَ؟", "transliteration": "Man hiya?" },
+        { "arabic": "مَنْ هُمْ؟", "transliteration": "Man hum?" },
+        { "arabic": "مَنْ أَنْتَ؟", "transliteration": "Man anta?" }
+      ],
+      "correct_answer": "مَنْ هُوَ؟"
+    },
+    {
+      "id": 39,
+      "question_english": "What is 'Where are they?' in Arabic?",
+      "question_tamil": "அவர்கள் எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ هُمْ؟", "transliteration": "Ayna hum?" },
+        { "arabic": "أَيْنَ هِيَ؟", "transliteration": "Ayna hiya?" },
+        { "arabic": "أَيْنَ نَحْنُ؟", "transliteration": "Ayna nahnu?" },
+        { "arabic": "أَيْنَ أَنْتُمْ؟", "transliteration": "Ayna antum?" }
+      ],
+      "correct_answer": "أَيْنَ هُمْ؟"
+    },
+    {
+      "id": 40,
+      "question_english": "What is 'Are you busy now?' in Arabic?",
+      "question_tamil": "நீங்கள் இப்போது பிஸியாக இருக்கிறீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ مَشْغُولٌ الآنَ؟", "transliteration": "Hal anta mashghulun al-ana?" },
+        { "arabic": "هَلْ أَنْتَ فَارِغٌ الآنَ؟", "transliteration": "Hal anta farighun al-ana?" },
+        { "arabic": "هَلْ أَنْتَ تَعْبَانُ الآنَ؟", "transliteration": "Hal anta ta'banu al-ana?" },
+        { "arabic": "هَلْ أَنْتَ هُنَا الآنَ؟", "transliteration": "Hal anta huna al-ana?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ مَشْغُولٌ الآنَ؟"
+    },
+    {
+      "id": 41,
+      "question_english": "What is 'How is your family?' in Arabic?",
+      "question_tamil": "உங்கள் குடும்பம் எப்படி இருக்கிறது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ أُسْرَتُكَ؟", "transliteration": "Kayfa usratuka?" },
+        { "arabic": "كَيْفَ عَمَلُكَ؟", "transliteration": "Kayfa amaluka?" },
+        { "arabic": "كَيْفَ بَيْتُكَ؟", "transliteration": "Kayfa baytuka?" },
+        { "arabic": "كَيْفَ حَالُكَ؟", "transliteration": "Kayfa haluka?" }
+      ],
+      "correct_answer": "كَيْفَ أُسْرَتُكَ؟"
+    },
+    {
+      "id": 42,
+      "question_english": "What is 'What did you study?' in Arabic?",
+      "question_tamil": "நீங்கள் என்ன படித்தீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاذَا دَرَسْتَ؟", "transliteration": "Madha darasta?" },
+        { "arabic": "مَاذَا قَرَأْتَ؟", "transliteration": "Madha qara'ta?" },
+        { "arabic": "مَاذَا كَتَبْتَ؟", "transliteration": "Madha katabta?" },
+        { "arabic": "مَاذَا عَمِلْتَ؟", "transliteration": "Madha amilta?" }
+      ],
+      "correct_answer": "مَاذَا دَرَسْتَ؟"
+    },
+    {
+      "id": 43,
+      "question_english": "What is 'Who is calling?' in Arabic?",
+      "question_tamil": "அழைப்பது யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ يَتَّصِلُ؟", "transliteration": "Man yattasilu?" },
+        { "arabic": "مَنْ يَتَكَلَّمُ؟", "transliteration": "Man yatakallamu?" },
+        { "arabic": "مَنْ يَنْدَهُ؟", "transliteration": "Man yandahu?" },
+        { "arabic": "مَنْ يُنَادِي؟", "transliteration": "Man yunadii?" }
+      ],
+      "correct_answer": "مَنْ يَتَّصِلُ؟"
+    },
+    {
+      "id": 44,
+      "question_english": "What is 'Where should I sit?' in Arabic?",
+      "question_tamil": "நான் எங்கே உட்கார வேண்டும்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَجْلِسُ؟", "transliteration": "Ayna ajlisu?" },
+        { "arabic": "أَيْنَ أَقِفُ؟", "transliteration": "Ayna aqifu?" },
+        { "arabic": "أَيْنَ أَذْهَبُ؟", "transliteration": "Ayna adhhabu?" },
+        { "arabic": "أَيْنَ أَنَامُ؟", "transliteration": "Ayna anamu?" }
+      ],
+      "correct_answer": "أَيْنَ أَجْلِسُ؟"
+    },
+    {
+      "id": 45,
+      "question_english": "What is 'May I come in?' in Arabic?",
+      "question_tamil": "நான் உள்ளே வரலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَدْخُلُ؟", "transliteration": "Hal adkhulu?" },
+        { "arabic": "هَلْ أَخْرُجُ؟", "transliteration": "Hal akhruju?" },
+        { "arabic": "هَلْ أَرْجِعُ؟", "transliteration": "Hal arji'u?" },
+        { "arabic": "هَلْ أَفْتَحُ؟", "transliteration": "Hal aftahu?" }
+      ],
+      "correct_answer": "هَلْ أَدْخُلُ؟"
+    },
+    {
+      "id": 46,
+      "question_english": "What is 'May I leave?' in Arabic?",
+      "question_tamil": "நான் வெளியேறலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَخْرُجُ؟", "transliteration": "Hal akhruju?" },
+        { "arabic": "هَلْ أَدْخُلُ؟", "transliteration": "Hal adkhulu?" },
+        { "arabic": "هَلْ أَذْهَبُ؟", "transliteration": "Hal adhhabu?" },
+        { "arabic": "هَلْ أَتْرُكُ؟", "transliteration": "Hal atruku?" }
+      ],
+      "correct_answer": "هَلْ أَخْرُجُ؟"
+    },
+    {
+      "id": 47,
+      "question_english": "What is 'Do you hear me?' in Arabic?",
+      "question_tamil": "நான் பேசுவது கேட்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَسْمَعُنِي؟", "transliteration": "Hal tasma'uni?" },
+        { "arabic": "هَلْ تَرَانِي؟", "transliteration": "Hal tarani?" },
+        { "arabic": "هَلْ تَعْرِفُنِي؟", "transliteration": "Hal ta'rifuni?" },
+        { "arabic": "هَلْ تَفْهَمُنِي؟", "transliteration": "Hal tafhamuni?" }
+      ],
+      "correct_answer": "هَلْ تَسْمَعُنِي؟"
+    },
+    {
+      "id": 48,
+      "question_english": "What is 'Do you see me?' in Arabic?",
+      "question_tamil": "நான் தெரிகிறேனா / பார்க்கிறீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَسْمَعُنِي؟", "transliteration": "Hal tasma'uni?" },
+        { "arabic": "هَلْ تَرَانِي؟", "transliteration": "Hal tarani?" },
+        { "arabic": "هَلْ تَرْقُبُنِي؟", "transliteration": "Hal tarqubuni?" },
+        { "arabic": "هَلْ تُلَاحِظُنِي؟", "transliteration": "Hal tulahizuni?" }
+      ],
+      "correct_answer": "هَلْ تَرَانِي؟"
+    },
+    {
+      "id": 49,
+      "question_english": "What is 'What do you think?' in Arabic?",
+      "question_tamil": "நீங்கள் என்ன நினைக்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا رَأْيُكَ؟", "transliteration": "Ma ra'yuka?" },
+        { "arabic": "مَاذَا تَعْتَقِدُ؟", "transliteration": "Madha ta'taqidu?" },
+        { "arabic": "مَاذَا تَظُنُّ؟", "transliteration": "Madha tazunnu?" },
+        { "arabic": "مَاذَا تُفَكِّرُ؟", "transliteration": "Madha tufakkiru?" }
+      ],
+      "correct_answer": "مَا رَأْيُكَ؟"
+    },
+    {
+      "id": 50,
+      "question_english": "What is 'Are you tired?' in Arabic?",
+      "question_tamil": "உங்களுக்குச் சோர்வாக இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ تَعْبَانُ؟", "transliteration": "Hal anta ta'banu?" },
+        { "arabic": "هَلْ أَنْتَ كَسْلَانُ؟", "transliteration": "Hal anta kaslanu?" },
+        { "arabic": "هَلْ أَنْتَ نَائِمٌ؟", "transliteration": "Hal anta na'imun?" },
+        { "arabic": "هَلْ أَنْتَ مَرِيضٌ؟", "transliteration": "Hal anta maridun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ تَعْبَانُ؟"
+    },
+    {
+      "id": 51,
+      "question_english": "What is 'How was your day?' in Arabic?",
+      "question_tamil": "இன்றைய நாள் எப்படிச் சென்றது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ كَانَ يَوْمُكَ؟", "transliteration": "Kayfa kana yawmuka?" },
+        { "arabic": "كَيْفَ كَانَ عَمَلُكَ؟", "transliteration": "Kayfa kana amaluka?" },
+        { "arabic": "كَيْفَ كَانَ سَفَرُكَ؟", "transliteration": "Kayfa kana safaruka?" },
+        { "arabic": "كَيْفَ كَانَ حَالُكَ؟", "transliteration": "Kayfa kana haluka?" }
+      ],
+      "correct_answer": "كَيْفَ كَانَ يَوْمُكَ؟"
+    },
+    {
+      "id": 52,
+      "question_english": "What is 'Where is the nearest bank?' in Arabic?",
+      "question_tamil": "அருகிலுள்ள வங்கி எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَقْرَبُ بَنْكٍ؟", "transliteration": "Ayna aqrabu bankin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ سُوقٍ؟", "transliteration": "Ayna aqrabu suqin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مَطْعَمٍ؟", "transliteration": "Ayna aqrabu mat'amin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مَسْجِدٍ؟", "transliteration": "Ayna aqrabu masjidin?" }
+      ],
+      "correct_answer": "أَيْنَ أَقْرَبُ بَنْكٍ؟"
+    },
+    {
+      "id": 53,
+      "question_english": "What is 'What is your opinion?' in Arabic?",
+      "question_tamil": "உங்கள் கருத்து என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا رَأْيُكَ؟", "transliteration": "Ma ra'yuka?" },
+        { "arabic": "مَا وِجْهَةُ نَظَرِكَ؟", "transliteration": "Ma wijhatu nazarika?" },
+        { "arabic": "مَا فِكْرَتُكَ؟", "transliteration": "Ma fikratuka?" },
+        { "arabic": "مَا اقْتِرَاحُكَ؟", "transliteration": "Ma iqtiraĥuka?" }
+      ],
+      "correct_answer": "مَا رَأْيُكَ؟"
+    },
+    {
+      "id": 54,
+      "question_english": "What is 'Do you need help?' in Arabic?",
+      "question_tamil": "உங்களுக்கு உதவி தேவையா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَحْتَاجُ إِلَى مُسَاعَدَةٍ؟", "transliteration": "Hal tahtaju ila musa'adatin?" },
+        { "arabic": "هَلْ تَحْتَاجُ إِلَى مَالٍ؟", "transliteration": "Hal tahtaju ila malin?" },
+        { "arabic": "هَلْ تَحْتَاجُ إِلَى وَقْتٍ؟", "transliteration": "Hal tahtaju ila waqtin?" },
+        { "arabic": "هَلْ تَحْتَاجُ إِلَى طَعَامٍ؟", "transliteration": "Hal tahtaju ila ta'amin?" }
+      ],
+      "correct_answer": "هَلْ تَحْتَاجُ إِلَى مُسَاعَدَةٍ؟"
+    },
+    {
+      "id": 55,
+      "question_english": "What is 'How much is this?' in Arabic?",
+      "question_tamil": "இதன் விலை என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "بِكَمْ هَذَا؟", "transliteration": "Bi-kam hadha?" },
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" },
+        { "arabic": "أَيْنَ هَذَا؟", "transliteration": "Ayna hadha?" },
+        { "arabic": "لِمَ هَذَا؟", "transliteration": "Lima hadha?" }
+      ],
+      "correct_answer": "بِكَمْ هَذَا؟"
+    },
+    {
+      "id": 56,
+      "question_english": "What is 'Where is the exit?' in Arabic?",
+      "question_tamil": "வெளியேறும் வழி எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ المَخْرَجُ؟", "transliteration": "Ayna al-makhraju?" },
+        { "arabic": "أَيْنَ المَدْخَلُ؟", "transliteration": "Ayna al-madkhalu?" },
+        { "arabic": "أَيْنَ الطَّرِيقُ؟", "transliteration": "Ayna al-tariqu?" },
+        { "arabic": "أَيْنَ البَابُ؟", "transliteration": "Ayna al-babu?" }
+      ],
+      "correct_answer": "أَيْنَ المَخْرَجُ؟"
+    },
+    {
+      "id": 57,
+      "question_english": "What is 'Where is the entrance?' in Arabic?",
+      "question_tamil": "உள்ளே நுழையும் வழி எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ المَخْرَجُ؟", "transliteration": "Ayna al-makhraju?" },
+        { "arabic": "أَيْنَ المَدْخَلُ؟", "transliteration": "Ayna al-madkhalu?" },
+        { "arabic": "أَيْنَ الشَّارِعُ؟", "transliteration": "Ayna al-shari'u?" },
+        { "arabic": "أَيْنَ المَكْتَبُ؟", "transliteration": "Ayna al-maktabu?" }
+      ],
+      "correct_answer": "أَيْنَ المَدْخَلُ؟"
+    },
+    {
+      "id": 58,
+      "question_english": "What is 'Can I pay by card?' in Arabic?",
+      "question_tamil": "கார்டு மூலம் பணம் செலுத்தலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَدْفَعُ بِالبِطَاقَةِ؟", "transliteration": "Hal adfa'u bil-bitaqati?" },
+        { "arabic": "هَلْ أَدْفَعُ نَقْدًا؟", "transliteration": "Hal adfa'u naqdan?" },
+        { "arabic": "هَلْ أَدْفَعُ شِيكًا؟", "transliteration": "Hal adfa'u shikan?" },
+        { "arabic": "هَلْ أَدْفَعُ لاحِقًا؟", "transliteration": "Hal adfa'u lahikan?" }
+      ],
+      "correct_answer": "هَلْ أَدْفَعُ بِالبِطَاقَةِ؟"
+    },
+    {
+      "id": 59,
+      "question_english": "What is 'Can I pay in cash?' in Arabic?",
+      "question_tamil": "பணமாக செலுத்தலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَدْفَعُ بِالبِطَاقَةِ؟", "transliteration": "Hal adfa'u bil-bitaqati?" },
+        { "arabic": "هَلْ أَدْفَعُ نَقْدًا؟", "transliteration": "Hal adfa'u naqdan?" },
+        { "arabic": "هَلْ أَدْفَعُ مَالًا؟", "transliteration": "Hal adfa'u malan?" },
+        { "arabic": "هَلْ الحِسَابُ خَالِصٌ؟", "transliteration": "Hal al-hisabu khalisun?" }
+      ],
+      "correct_answer": "هَلْ أَدْفَعُ نَقْدًا؟"
+    },
+    {
+      "id": 60,
+      "question_english": "What is 'What is your phone number?' in Arabic?",
+      "question_tamil": "உங்களது தொலைபேசி எண் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا رَقْمُ هَاتِفِكَ؟", "transliteration": "Ma raqmu hatifika?" },
+        { "arabic": "مَا عُنْوَانُكَ؟", "transliteration": "Ma 'unwanuka?" },
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" },
+        { "arabic": "مَا عَمَلُكَ؟", "transliteration": "Ma amaluka?" }
+      ],
+      "correct_answer": "مَا رَقْمُ هَاتِفِكَ؟"
+    },
+    {
+      "id": 61,
+      "question_english": "What is 'What is your address?' in Arabic?",
+      "question_tamil": "உங்களது முகவரி என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا رَقْمُ هَاتِفِكَ؟", "transliteration": "Ma raqmu hatifika?" },
+        { "arabic": "مَا عُنْوَانُكَ؟", "transliteration": "Ma 'unwanuka?" },
+        { "arabic": "أَيْنَ بَيْتُكَ؟", "transliteration": "Ayna baytuka?" },
+        { "arabic": "مِنْ أَيْنَ أَنْتَ؟", "transliteration": "Min ayna anta?" }
+      ],
+      "correct_answer": "مَا عُنْوَانُكَ؟"
+    },
+    {
+      "id": 62,
+      "question_english": "What is 'Can you speak slowly?' in Arabic?",
+      "question_tamil": "கொஞ்சம் மெதுவாகப் பேச முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تَكَلَّمْ بِبُطْءٍ مِنْ فَضْلِكَ", "transliteration": "Takallam bi-but'in min fadlika" },
+        { "arabic": "تَكَلَّمْ بِسُرْعَةٍ مِنْ فَضْلِكَ", "transliteration": "Takallam bi-sur'atin min fadlika" },
+        { "arabic": "اكْتُبْ هَذَا مِنْ فَضْلِكَ", "transliteration": "Uktub hadha min fadlika" },
+        { "arabic": "اسْمَعْ جَيِّدًا مِنْ فَضْلِكَ", "transliteration": "Isma' jayyidan min fadlika" }
+      ],
+      "correct_answer": "تَكَلَّمْ بِبُطْءٍ مِنْ فَضْلِكَ"
+    },
+    {
+      "id": 63,
+      "question_english": "What is 'Do you understand me?' in Arabic?",
+      "question_tamil": "நான் பேசுவது உங்களுக்குப் புரிகிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَفْهَمُنِي؟", "transliteration": "Hal tafhamuni?" },
+        { "arabic": "هَلْ تَسْمَعُنِي؟", "transliteration": "Hal tasma'uni?" },
+        { "arabic": "هَلْ تَرَانِي؟", "transliteration": "Hal tarani?" },
+        { "arabic": "هَلْ تَعْرِفُنِي؟", "transliteration": "Hal ta'rifuni?" }
+      ],
+      "correct_answer": "هَلْ تَفْهَمُنِي؟"
+    },
+    {
+      "id": 64,
+      "question_english": "What is 'I do not understand' in Arabic?",
+      "question_tamil": "எனக்குப் புரியவில்லை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لَا أَفْهَمُ", "transliteration": "La afhamu" },
+        { "arabic": "لَا أَعْرِفُ", "transliteration": "La a'rifu" },
+        { "arabic": "لَا أُرِيدُ", "transliteration": "La uridu" },
+        { "arabic": "لَا أَمْلِكُ", "transliteration": "La amliku" }
+      ],
+      "correct_answer": "لَا أَفْهَمُ"
+    },
+    {
+      "id": 65,
+      "question_english": "What is 'I do not know' in Arabic?",
+      "question_tamil": "எனக்குத் தெரியாது -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لَا أَفْهَمُ", "transliteration": "La afhamu" },
+        { "arabic": "لَا أَعْرِفُ", "transliteration": "La a'rifu" },
+        { "arabic": "لَا أَسْمَعُ", "transliteration": "La asma'u" },
+        { "arabic": "لَا أَرَى", "transliteration": "La ara" }
+      ],
+      "correct_answer": "لَا أَعْرِفُ"
+    },
+    {
+      "id": 66,
+      "question_english": "What is 'Please repeat' in Arabic?",
+      "question_tamil": "தயவுசெய்து மீண்டும் கூறுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "رَدِّدْ مِنْ فَضْلِكَ", "transliteration": "Raddid min fadlika" },
+        { "arabic": "اكْتُبْ مِنْ فَضْلِكَ", "transliteration": "Uktub min fadlika" },
+        { "arabic": "اقْرَأْ مِنْ فَضْلِكَ", "transliteration": "Iqra' min fadlika" },
+        { "arabic": "اسْمَعْ مِنْ فَضْلِكَ", "transliteration": "Isma' min fadlika" }
+      ],
+      "correct_answer": "رَدِّدْ مِنْ فَضْلِكَ"
+    },
+    {
+      "id": 67,
+      "question_english": "What is 'What does this mean?' in Arabic?",
+      "question_tamil": "இதன் பொருள் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا مَعْنَى هَذَا؟", "transliteration": "Ma ma'na hadha?" },
+        { "arabic": "مَا هَذَا؟", "transliteration": "Ma hadha?" },
+        { "arabic": "كَيْفَ هَذَا؟", "transliteration": "Kayfa hadha?" },
+        { "arabic": "لِمَ هَذَا؟", "transliteration": "Lima hadha?" }
+      ],
+      "correct_answer": "مَا مَعْنَى هَذَا؟"
+    },
+    {
+      "id": 68,
+      "question_english": "What is 'How do you say this in Arabic?' in Arabic?",
+      "question_tamil": "இதை அரபியில் எப்படிச் சொல்வது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ تَقُولُ هَذَا بِالعَرَبِيَّةِ؟", "transliteration": "Kayfa taqulu hadha bil-'arabiyyati?" },
+        { "arabic": "مَا مَعْنَى هَذَا بِالعَرَبِيَّةِ؟", "transliteration": "Ma ma'na hadha bil-'arabiyyati?" },
+        { "arabic": "هَلْ تَعْرِفُ هَذَا بِالعَرَبِيَّةِ؟", "transliteration": "Hal ta'rifu hadha bil-'arabiyyati?" },
+        { "arabic": "مَنْ قَالَ هَذَا بِالعَرَبِيَّةِ؟", "transliteration": "Man qala hadha bil-'arabiyyati?" }
+      ],
+      "correct_answer": "كَيْفَ تَقُولُ هَذَا بِالعَرَبِيَّةِ؟"
+    },
+    {
+      "id": 81,
+      "question_english": "What is 'Close the door' in Arabic?",
+      "question_tamil": "கதவை மூடுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "افْتَحْ البَابَ", "transliteration": "Iftah al-baba" },
+        { "arabic": "أَغْلِقْ البَابَ", "transliteration": "Aghliq al-baba" },
+        { "arabic": "اطْرُقْ البَابَ", "transliteration": "Atruq al-baba" },
+        { "arabic": "ادْهُنْ البَابَ", "transliteration": "Adhun al-baba" }
+      ],
+      "correct_answer": "أَغْلِقْ البَابَ"
+    },
+    {
+      "id": 82,
+      "question_english": "What is 'Turn on the light' in Arabic?",
+      "question_tamil": "விளக்கை ஆன் செய்யுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَشْعِلِ النُّورَ", "transliteration": "Ash'ili al-nura" },
+        { "arabic": "أَطْفِئِ النُّورَ", "transliteration": "Atfi'i al-nura" },
+        { "arabic": "اكْسِرِ المِصْبَاحَ", "transliteration": "Iksiri al-misbaha" },
+        { "arabic": "انْظُرْ إلى النُّورِ", "transliteration": "Unzur ila al-nura" }
+      ],
+      "correct_answer": "أَشْعِلِ النُّورَ"
+    },
+    {
+      "id": 83,
+      "question_english": "What is 'Turn off the light' in Arabic?",
+      "question_tamil": "விளக்கை அணையுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَشْعِلِ النُّورَ", "transliteration": "Ash'ili al-nura" },
+        { "arabic": "أَطْفِئِ النُّورَ", "transliteration": "Atfi'i al-nura" },
+        { "arabic": "فَتِّشْ النُّورَ", "transliteration": "Fattish al-nura" },
+        { "arabic": "غَطِّ النُّورَ", "transliteration": "Ghatti al-nura" }
+      ],
+      "correct_answer": "أَطْفِئِ النُّورَ"
+    },
+    {
+      "id": 84,
+      "question_english": "What is 'Sit down' in Arabic?",
+      "question_tamil": "உட்காருங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "قِفْ", "transliteration": "Qif" },
+        { "arabic": "اجْلِسْ", "transliteration": "Ajlis" },
+        { "arabic": "امْشِ", "transliteration": "Amshi" },
+        { "arabic": "ارْكُضْ", "transliteration": "Arkud" }
+      ],
+      "correct_answer": "اجْلِسْ"
+    },
+    {
+      "id": 85,
+      "question_english": "What is 'Stand up' in Arabic?",
+      "question_tamil": "எழுந்து நில்லுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "اجْلِسْ", "transliteration": "Ajlis" },
+        { "arabic": "قِفْ", "transliteration": "Qif" },
+        { "arabic": "انْمُ", "transliteration": "Inmu" },
+        { "arabic": "ارْكَبْ", "transliteration": "Arkab" }
+      ],
+      "correct_answer": "قِفْ"
+    },
+    {
+      "id": 86,
+      "question_english": "What is 'Come here' in Arabic?",
+      "question_tamil": "இங்கே வாருங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تَعَالَ هُنَا", "transliteration": "Ta'ala huna" },
+        { "arabic": "اِذْهَبْ هُنَاكَ", "transliteration": "Idhahab hunaka" },
+        { "arabic": "ابْتَعِدْ هُنَا", "transliteration": "Ibta'id huna" },
+        { "arabic": "ارْجِعْ البَيْتَ", "transliteration": "Arji' al-bayta" }
+      ],
+      "correct_answer": "تَعَالَ هُنَا"
+    },
+    {
+      "id": 87,
+      "question_english": "What is 'Go there' in Arabic?",
+      "question_tamil": "அங்கே செல்லுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تَعَالَ هُنَا", "transliteration": "Ta'ala huna" },
+        { "arabic": "اِذْهَبْ هُنَاكَ", "transliteration": "Idhahab hunaka" },
+        { "arabic": "ادْخُلْ هُنَا", "transliteration": "Adkhul huna" },
+        { "arabic": "اقْرَبْ هُنَاكَ", "transliteration": "Aqrab hunaka" }
+      ],
+      "correct_answer": "اِذْهَبْ هُنَاكَ"
+    },
+    {
+      "id": 88,
+      "question_english": "What is 'Speak slowly' in Arabic?",
+      "question_tamil": "மெதுவாகப் பேசுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تَكَلَّمْ بِبُطْءٍ", "transliteration": "Takallam bi-but'in" },
+        { "arabic": "تَكَلَّمْ بِسُرْعَةٍ", "transliteration": "Takallam bi-sur'atin" },
+        { "arabic": "اصْمُتْ دَائِمًا", "transliteration": "Asmut da'iman" },
+        { "arabic": "اصْرُخْ عَالِيًا", "transliteration": "Asrukh 'aliyan" }
+      ],
+      "correct_answer": "تَكَلَّمْ بِبُطْءٍ"
+    },
+    {
+      "id": 89,
+      "question_english": "What is 'Write this down' in Arabic?",
+      "question_tamil": "இதை எழுதி வையுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "اكْتُبْ هَذَا", "transliteration": "Uktub hadha" },
+        { "arabic": "اقْرَأْ هَذَا", "transliteration": "Iqra' hadha" },
+        { "arabic": "احْفَظْ هَذَا", "transliteration": "Ihfaf hadha" },
+        { "arabic": "امْسَحْ هَذَا", "transliteration": "Imsah hadha" }
+      ],
+      "correct_answer": "اكْتُبْ هَذَا"
+    },
+    {
+      "id": 90,
+      "question_english": "What is 'Read this' in Arabic?",
+      "question_tamil": "இதைப் படியுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "اكْتُبْ هَذَا", "transliteration": "Uktub hadha" },
+        { "arabic": "اقْرَأْ هَذَا", "transliteration": "Iqra' hadha" },
+        { "arabic": "اسْمَعْ هَذَا", "transliteration": "Isma' hadha" },
+        { "arabic": "انْظُرْ هَذَا", "transliteration": "Unzur hadha" }
+      ],
+      "correct_answer": "اقْرَأْ هَذَا"
+    },
+    {
+      "id": 91,
+      "question_english": "What is 'Open your book' in Arabic?",
+      "question_tamil": "உங்கள் புத்தகத்தைத் திறங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "افْتَحْ كِتَابَكَ", "transliteration": "Iftah kitabaka" },
+        { "arabic": "أَغْلِقْ كِتَابَكَ", "transliteration": "Aghliq kitabaka" },
+        { "arabic": "احْمِلْ كِتَابَكَ", "transliteration": "Ihmil kitabaka" },
+        { "arabic": "ابْتَعِدْ عَنْ كِتَابِكَ", "transliteration": "Ibta'id 'an kitabiaka" }
+      ],
+      "correct_answer": "افْتَحْ كِتَابَكَ"
+    },
+    {
+      "id": 92,
+      "question_english": "What is 'Close your book' in Arabic?",
+      "question_tamil": "உங்கள் புத்தகத்தை மூடுங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "افْتَحْ كِتَابَكَ", "transliteration": "Iftah kitabaka" },
+        { "arabic": "أَغْلِقْ كِتَابَكَ", "transliteration": "Aghliq kitabaka" },
+        { "arabic": "بِعْ كِتَابَكَ", "transliteration": "Bi' kitabaka" },
+        { "arabic": "اشْتَرِ كِتَابَكَ", "transliteration": "Ishtari kitabaka" }
+      ],
+      "correct_answer": "أَغْلِقْ كِتَابَكَ"
+    },
+    {
+      "id": 93,
+      "question_english": "What is 'Are you ready?' in Arabic?",
+      "question_tamil": "நீங்கள் தயாரா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ؟", "transliteration": "Hal anta jahizun?" },
+        { "arabic": "هَلْ أَنْتَ مَشْغُولٌ؟", "transliteration": "Hal anta mashghulun?" },
+        { "arabic": "هَلْ أَنْتَ نَائِمٌ؟", "transliteration": "Hal anta na'imun?" },
+        { "arabic": "هَلْ أَنْتَ بَعِيدٌ؟", "transliteration": "Hal anta ba'idun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ جَاهِزٌ؟"
+    },
+    {
+      "id": 94,
+      "question_english": "What is 'Let us go' in Arabic?",
+      "question_tamil": "நாம் செல்வோம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لِنَذْهَبْ", "transliteration": "Li-nadhhab" },
+        { "arabic": "لِنَنْتَظِرْ", "transliteration": "Li-nantazir" },
+        { "arabic": "لِنَرْجِعْ", "transliteration": "Li-narji'" },
+        { "arabic": "لِنَجْلِسْ", "transliteration": "Li-najlis" }
+      ],
+      "correct_answer": "لِنَذْهَبْ"
+    },
+    {
+      "id": 95,
+      "question_english": "What is 'Good morning' in Arabic?",
+      "question_tamil": "காலை வணக்கம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَسَاءُ الخَيْرِ", "transliteration": "Masau al-khayri" },
+        { "arabic": "صَبَاحُ الخَيْرِ", "transliteration": "Sabahu al-khayri" },
+        { "arabic": "مَعَ السَّلَامَةِ", "transliteration": "Ma'a al-salamati" },
+        { "arabic": "أَهْلًا وَسَهْلًا", "transliteration": "Ahlan wa sahlan" }
+      ],
+      "correct_answer": "صَبَاحُ الخَيْرِ"
+    },
+    {
+      "id": 96,
+      "question_english": "What is 'Good evening' in Arabic?",
+      "question_tamil": "மாலை வணக்கம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "صَبَاحُ الخَيْرِ", "transliteration": "Sabahu al-khayri" },
+        { "arabic": "مَسَاءُ الخَيْرِ", "transliteration": "Masau al-khayri" },
+        { "arabic": "تُصْبِحُ عَلَى خَيْرٍ", "transliteration": "Tusbihu 'ala khayrin" },
+        { "arabic": "أَهْلًا وَسَهْلًا", "transliteration": "Ahlan wa sahlan" }
+      ],
+      "correct_answer": "مَسَاءُ الخَيْرِ"
+    },
+    {
+      "id": 97,
+      "question_english": "What is 'Goodbye' in Arabic?",
+      "question_tamil": "போய் வாருங்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَهْلًا وَسَهْلًا", "transliteration": "Ahlan wa sahlan" },
+        { "arabic": "مَعَ السَّلَامَةِ", "transliteration": "Ma'a al-salamati" },
+        { "arabic": "صَبَاحُ الخَيْرِ", "transliteration": "Sabahu al-khayri" },
+        { "arabic": "مَسَاءُ الخَيْرِ", "transliteration": "Masau al-khayri" }
+      ],
+      "correct_answer": "مَعَ السَّلَامَةِ"
+    },
+    {
+      "id": 98,
+      "question_english": "What is 'Thank you' in Arabic?",
+      "question_tamil": "நன்றி -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَفْوًا", "transliteration": "Afwan" },
+        { "arabic": "شُكْرًا", "transliteration": "Shukran" },
+        { "arabic": "مَعْذِرَةً", "transliteration": "Ma'dhiratan" },
+        { "arabic": "آسِفٌ", "transliteration": "Asifun" }
+      ],
+      "correct_answer": "شُكْرًا"
+    },
+    {
+      "id": 99,
+      "question_english": "What is 'You are welcome' in Arabic?",
+      "question_tamil": "வரவேற்கிறேன் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "شُكْرًا", "transliteration": "Shukran" },
+        { "arabic": "عَفْوًا", "transliteration": "Afwan" },
+        { "arabic": "مَرْحَبًا", "transliteration": "Marhaban" },
+        { "arabic": "أَهْلًا", "transliteration": "Ahlan" }
+      ],
+      "correct_answer": "عَفْوًا"
+    },
+    {
+      "id": 100,
+      "question_english": "What is 'Sorry' in Arabic?",
+      "question_tamil": "மன்னிக்கவும் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَفْوًا", "transliteration": "Afwan" },
+        { "arabic": "آسِفٌ / مَعْذِرَةً", "transliteration": "Asifun / Ma'dhiratan" },
+        { "arabic": "شُكْرًا", "transliteration": "Shukran" },
+        { "arabic": "رَحِمَكَ اللَّهُ", "transliteration": "Rahimaka Allahu" }
+      ],
+      "correct_answer": "آسِفٌ / مَعْذِرَةً"
+    },
+    {
+      "id": 101,
+      "question_english": "What is 'Yes' in Arabic?",
+      "question_tamil": "ஆம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لَا", "transliteration": "La" },
+        { "arabic": "نَعَمْ", "transliteration": "Na'am" },
+        { "arabic": "رُبَّمَا", "transliteration": "Rubbama" },
+        { "arabic": "أَبَدًا", "transliteration": "Abadan" }
+      ],
+      "correct_answer": "نَعَمْ"
+    },
+    {
+      "id": 102,
+      "question_english": "What is 'No' in Arabic?",
+      "question_tamil": "இல்லை -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "نَعَمْ", "transliteration": "Na'am" },
+        { "arabic": "لَا", "transliteration": "La" },
+        { "arabic": "كَلَّا", "transliteration": "Kalla" },
+        { "arabic": "لَيْسَ", "transliteration": "Laysa" }
+      ],
+      "correct_answer": "لَا"
+    },
+    {
+      "id": 103,
+      "question_english": "What is 'Please' in Arabic?",
+      "question_tamil": "தயவுசெய்து -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مِنْ فَضْلِكَ", "transliteration": "Min fadlika" },
+        { "arabic": "عَفْوًا", "transliteration": "Afwan" },
+        { "arabic": "شُكْرًا", "transliteration": "Shukran" },
+        { "arabic": "لَوْ سَمَحْتَ", "transliteration": "Law samahta" }
+      ],
+      "correct_answer": "مِنْ فَضْلِكَ"
+    },
+    {
+      "id": 104,
+      "question_english": "What is 'Welcome' in Arabic?",
+      "question_tamil": "நல்வரவு -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَعَ السَّلَامَةِ", "transliteration": "Ma'a al-salamati" },
+        { "arabic": "أَهْلًا وَسَهْلًا", "transliteration": "Ahlan wa sahlan" },
+        { "arabic": "صَبَاحُ الخَيْرِ", "transliteration": "Sabahu al-khayri" },
+        { "arabic": "مَسَاءُ الخَيْرِ", "transliteration": "Masau al-khayri" }
+      ],
+      "correct_answer": "أَهْلًا وَسَهْلًا"
+    },
+    {
+      "id": 105,
+      "question_english": "What is 'Good night' in Arabic?",
+      "question_tamil": "இனிய இரவு வணக்கம் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "تُصْبِحُ عَلَى خَيْرٍ", "transliteration": "Tusbihu 'ala khayrin" },
+        { "arabic": "صَبَاحُ الخَيْرِ", "transliteration": "Sabahu al-khayri" },
+        { "arabic": "مَسَاءُ الخَيْرِ", "transliteration": "Masau al-khayri" },
+        { "arabic": "أَهْلًا وَسَهْلًا", "transliteration": "Ahlan wa sahlan" }
+      ],
+      "correct_answer": "تُصْبِحُ عَلَى خَيْرٍ"
+    },
+    {
+      "id": 106,
+      "question_english": "What is 'Where is the house?' in Arabic?",
+      "question_tamil": "வீடு எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ البَيْتُ؟", "transliteration": "Ayna al-baytu?" },
+        { "arabic": "أَيْنَ المَدْرَسَةُ؟", "transliteration": "Ayna al-madrasatu?" },
+        { "arabic": "أَيْنَ السُّوقُ؟", "transliteration": "Ayna al-suqu?" },
+        { "arabic": "أَيْنَ المَسْجِدُ؟", "transliteration": "Ayna al-masjidu?" }
+      ],
+      "correct_answer": "أَيْنَ البَيْتُ؟"
+    },
+    {
+      "id": 107,
+      "question_english": "What is 'Where is the school?' in Arabic?",
+      "question_tamil": "பள்ளி எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ البَيْتُ؟", "transliteration": "Ayna al-baytu?" },
+        { "arabic": "أَيْنَ المَدْرَسَةُ؟", "transliteration": "Ayna al-madrasatu?" },
+        { "arabic": "أَيْنَ المُسْتَشْفَى؟", "transliteration": "Ayna al-mustashfa?" },
+        { "arabic": "أَيْنَ المَكْتَبَةُ؟", "transliteration": "Ayna al-maktabatu?" }
+      ],
+      "correct_answer": "أَيْنَ المَدْرَسَةُ؟"
+    },
+    {
+      "id": 108,
+      "question_english": "What is 'Where is the market?' in Arabic?",
+      "question_tamil": "சந்தை எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ السُّوقُ؟", "transliteration": "Ayna al-suqu?" },
+        { "arabic": "أَيْنَ البَنْكُ؟", "transliteration": "Ayna al-banku?" },
+        { "arabic": "أَيْنَ الفُنْدُقُ؟", "transliteration": "Ayna al-funduqu?" },
+        { "arabic": "أَيْنَ المَطْعَمُ؟", "transliteration": "Ayna al-mat'amu?" }
+      ],
+      "correct_answer": "أَيْنَ السُّوقُ؟"
+    },
+    {
+      "id": 109,
+      "question_english": "What is 'Who are you?' in Arabic?",
+      "question_tamil": "நீ யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ أَنْتَ؟", "transliteration": "Man anta?" },
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" },
+        { "arabic": "مِنْ أَيْنَ أَنْتَ؟", "transliteration": "Min ayna anta?" },
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" }
+      ],
+      "correct_answer": "مَنْ أَنْتَ؟"
+    },
+    {
+      "id": 110,
+      "question_english": "What is 'How old are you?' in Arabic?",
+      "question_tamil": "உன் வயது என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَمْ عُمْرُكَ؟", "transliteration": "Kam 'umruka?" },
+        { "arabic": "كَمْ السِّعْرُ؟", "transliteration": "Kam as-si'ru?" },
+        { "arabic": "كَمْ السَّاعَةُ؟", "transliteration": "Kam al-sa'atu?" },
+        { "arabic": "كَمْ العَدَدُ؟", "transliteration": "Kam al-'adadu?" }
+      ],
+      "correct_answer": "كَمْ عُمْرُكَ؟"
+    },
+    {
+      "id": 111,
+      "question_english": "What is 'Do you have water?' in Arabic?",
+      "question_tamil": "உங்களிடம் தண்ணீர் இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عِنْدَكَ مَاءٌ؟", "transliteration": "Hal 'indaka ma'un?" },
+        { "arabic": "هَلْ عِنْدَكَ شَايٌ؟", "transliteration": "Hal 'indaka shayun?" },
+        { "arabic": "هَلْ عِنْدَكَ قَهْوَةٌ؟", "transliteration": "Hal 'indaka qahwatun?" },
+        { "arabic": "هَلْ عِنْدَكَ طَعَامٌ؟", "transliteration": "Hal 'indaka ta'amun?" }
+      ],
+      "correct_answer": "هَلْ عِنْدَكَ مَاءٌ؟"
+    },
+    {
+      "id": 112,
+      "question_english": "What is 'Do you have time?' in Arabic?",
+      "question_tamil": "உங்களிடம் நேரம் இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عِنْدَكَ وَقْتٌ؟", "transliteration": "Hal 'indaka waqtun?" },
+        { "arabic": "هَلْ عِنْدَكَ مَالٌ؟", "transliteration": "Hal 'indaka malun?" },
+        { "arabic": "هَلْ عِنْدَكَ سَيَّارَةٌ؟", "transliteration": "Hal 'indaka sayyaratun?" },
+        { "arabic": "هَلْ عِنْدَكَ كِتَابٌ؟", "transliteration": "Hal 'indaka kitabun?" }
+      ],
+      "correct_answer": "هَلْ عِنْدَكَ وَقْتٌ؟"
+    },
+    {
+      "id": 113,
+      "question_english": "What is 'Is this correct?' in Arabic?",
+      "question_tamil": "இது சரியா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هَذَا صَحِيحٌ؟", "transliteration": "Hal hadha sahihun?" },
+        { "arabic": "هَلْ هَذَا خَطَأٌ؟", "transliteration": "Hal hadha khata'un?" },
+        { "arabic": "هَلْ هَذَا صَعْبٌ؟", "transliteration": "Hal hadha sa'bun?" },
+        { "arabic": "هَلْ هَذَا جَدِيدٌ؟", "transliteration": "Hal hadha jadidun?" }
+      ],
+      "correct_answer": "هَلْ هَذَا صَحِيحٌ؟"
+    },
+    {
+      "id": 114,
+      "question_english": "What is 'Is this wrong?' in Arabic?",
+      "question_tamil": "இது தப்பா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هَذَا صَحِيحٌ؟", "transliteration": "Hal hadha sahihun?" },
+        { "arabic": "هَلْ هَذَا خَطَأٌ؟", "transliteration": "Hal hadha khata'un?" },
+        { "arabic": "هَلْ هَذَا جَيِّدٌ؟", "transliteration": "Hal hadha jayyidun?" },
+        { "arabic": "هَلْ هَذَا سَهْلٌ؟", "transliteration": "Hal hadha sahlun?" }
+      ],
+      "correct_answer": "هَلْ هَذَا خَطَأٌ؟"
+    },
+    {
+      "id": 115,
+      "question_english": "What is 'Can I go?' in Arabic?",
+      "question_tamil": "நான் செல்லலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَذْهَبُ؟", "transliteration": "Hal adhhabu?" },
+        { "arabic": "هَلْ أَقِفُ؟", "transliteration": "Hal aqifu?" },
+        { "arabic": "هَلْ أَجْلِسُ؟", "transliteration": "Hal ajlisu?" },
+        { "arabic": "هَلْ أَنَامُ؟", "transliteration": "Hal anamu?" }
+      ],
+      "correct_answer": "هَلْ أَذْهَبُ؟"
+    },
+    {
+      "id": 116,
+      "question_english": "What is 'Can I sit here?' in Arabic?",
+      "question_tamil": "நான் இங்கே உட்காரலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَجْلِسُ هُنَا؟", "transliteration": "Hal ajlisu huna?" },
+        { "arabic": "هَلْ أَقِفُ هُنَا؟", "transliteration": "Hal aqifu huna?" },
+        { "arabic": "هَلْ أَمْشِي هُنَا؟", "transliteration": "Hal amshii huna?" },
+        { "arabic": "هَلْ أَسْكُنُ هُنَا؟", "transliteration": "Hal askunu huna?" }
+      ],
+      "correct_answer": "هَلْ أَجْلِسُ هُنَا؟"
+    },
+    {
+      "id": 117,
+      "question_english": "What is 'What are you doing?' in Arabic?",
+      "question_tamil": "நீங்கள் என்ன செய்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَاذَا تَفْعَلُ؟", "transliteration": "Madha taf'alu?" },
+        { "arabic": "مَاذَا تَقْرَأُ؟", "transliteration": "Madha taqra'u?" },
+        { "arabic": "مَاذَا تَكْتُبُ؟", "transliteration": "Madha taktubu?" },
+        { "arabic": "مَاذَا تَأْكُلُ؟", "transliteration": "Madha ta'kulu?" }
+      ],
+      "correct_answer": "مَاذَا تَفْعَلُ؟"
+    },
+    {
+      "id": 118,
+      "question_english": "What is 'Where are you going?' in Arabic?",
+      "question_tamil": "எங்கே செல்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تَذْهَبُ؟", "transliteration": "Ayna tadhhabu?" },
+        { "arabic": "أَيْنَ تَرْجِعُ؟", "transliteration": "Ayna tarji'u?" },
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" },
+        { "arabic": "أَيْنَ تَعْمَلُ؟", "transliteration": "Ayna ta'amalu?" }
+      ],
+      "correct_answer": "أَيْنَ تَذْهَبُ؟"
+    },
+    {
+      "id": 119,
+      "question_english": "What is 'Who is this man?' in Arabic?",
+      "question_tamil": "இந்த மனிதன் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ هَذَا الرَّجُلُ؟", "transliteration": "Man hadha al-rajulu?" },
+        { "arabic": "مَنْ هَذَا الوَلَدُ؟", "transliteration": "Man hadha al-waladu?" },
+        { "arabic": "مَنْ هَذَا الضَّيْفُ؟", "transliteration": "Man hadha al-dayfu?" },
+        { "arabic": "مَنْ هَذَا الجَارُ؟", "transliteration": "Man hadha al-jaru?" }
+      ],
+      "correct_answer": "مَنْ هَذَا الرَّجُلُ؟"
+    },
+    {
+      "id": 120,
+      "question_english": "What is 'Who is this woman?' in Arabic?",
+      "question_tamil": "இந்தப் பெண்மணி யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ هَذِهِ المَرْأَةُ؟", "transliteration": "Man hadhihi al-mar'atu?" },
+        { "arabic": "مَنْ هَذِهِ البِنْتُ؟", "transliteration": "Man hadhihi al-bintu?" },
+        { "arabic": "مَنْ هَذِهِ الأُمُّ؟", "transliteration": "Man hadhihi al-ummu?" },
+        { "arabic": "مَنْ هَذِهِ المُعَلِّمَةُ؟", "transliteration": "Man hadhihi al-mu'allimatu?" }
+      ],
+      "correct_answer": "مَنْ هَذِهِ المَرْأَةُ؟"
+    },
+    {
+      "id": 121,
+      "question_english": "What is 'Is this your car?' in Arabic?",
+      "question_tamil": "இது உங்கள் காரா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هَذِهِ سَيَّارَتُكَ؟", "transliteration": "Hal hadhihi sayyaratuka?" },
+        { "arabic": "هَلْ هَذَا بَيْتُكَ؟", "transliteration": "Hal hadha baytuka?" },
+        { "arabic": "هَلْ هَذَا قَلَمُكَ؟", "transliteration": "Hal hadha qalamuka?" },
+        { "arabic": "هَلْ هَذَا كِتَابُكَ؟", "transliteration": "Hal hadha kitabuka?" }
+      ],
+      "correct_answer": "هَلْ هَذِهِ سَيَّارَتُكَ؟"
+    },
+    {
+      "id": 122,
+      "question_english": "What is 'Is this your house?' in Arabic?",
+      "question_tamil": "இது உங்கள் வீடா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هَذَا بَيْتُكَ؟", "transliteration": "Hal hadha baytuka?" },
+        { "arabic": "هَلْ هَذِهِ مَدْرَسَتُكَ؟", "transliteration": "Hal hadhihi madrasatuka?" },
+        { "arabic": "هَلْ هَذَا مَكْتَبُكَ؟", "transliteration": "Hal hadha maktabuka?" },
+        { "arabic": "هَلْ هَذَا مَسْجِدُكَ؟", "transliteration": "Hal hadha masjiduka?" }
+      ],
+      "correct_answer": "هَلْ هَذَا بَيْتُكَ؟"
+    },
+    {
+      "id": 123,
+      "question_english": "What is 'Do you like coffee?' in Arabic?",
+      "question_tamil": "உங்களுக்குக் காபி பிடிக்குமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُحِبُّ القَهْوَةَ؟", "transliteration": "Hal tuhibbu al-qahwata?" },
+        { "arabic": "هَلْ تُحِبُّ الشَّايَ؟", "transliteration": "Hal tuhibbu al-shaya?" },
+        { "arabic": "هَلْ تُحِبُّ المَاءَ؟", "transliteration": "Hal tuhibbu al-ma'a?" },
+        { "arabic": "هَلْ تُحِبُّ العَصِيرَ؟", "transliteration": "Hal tuhibbu al-'asira?" }
+      ],
+      "correct_answer": "هَلْ تُحِبُّ القَهْوَةَ؟"
+    },
+    {
+      "id": 124,
+      "question_english": "What is 'Do you like sports?' in Arabic?",
+      "question_tamil": "உங்களுக்கு விளையாட்டுப் பிடிக்குமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُحِبُّ الرِّيَاضَةَ؟", "transliteration": "Hal tuhibbu al-riyadata?" },
+        { "arabic": "هَلْ تُحِبُّ القِرَاءَةَ؟", "transliteration": "Hal tuhibbu al-qira'ata?" },
+        { "arabic": "هَلْ تُحِبُّ السَّفَرَ؟", "transliteration": "Hal tuhibbu al-safara?" },
+        { "arabic": "هَلْ تُحِبُّ العَمَلَ؟", "transliteration": "Hal tuhibbu al-'amala?" }
+      ],
+      "correct_answer": "هَلْ تُحِبُّ الرِّيَاضَةَ؟"
+    },
+    {
+      "id": 125,
+      "question_english": "What is 'What is your hobby?' in Arabic?",
+      "question_tamil": "உங்களது பொழுதுபோக்கு என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا هِوَايَتُكَ؟", "transliteration": "Ma hiwayatuka?" },
+        { "arabic": "مَا عَمَلُكَ؟", "transliteration": "Ma amaluka?" },
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" },
+        { "arabic": "مَا رَأْيُكَ؟", "transliteration": "Ma ra'yuka?" }
+      ],
+      "correct_answer": "مَا هِوَايَتُكَ؟"
+    },
+    {
+      "id": 126,
+      "question_english": "What is 'Can you repeat please?' in Arabic?",
+      "question_tamil": "தயவுசெய்து மீண்டும் சொல்ல முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُمْكِنُ الإِعَادَةُ؟", "transliteration": "Hal tumkinu al-i'adatu?" },
+        { "arabic": "هَلْ تُمْكِنُ الكِتَابَةُ؟", "transliteration": "Hal tumkinu al-kitabatu?" },
+        { "arabic": "هَلْ تُمْكِنُ القِرَاءَةُ؟", "transliteration": "Hal tumkinu al-qira'atu?" },
+        { "arabic": "هَلْ تُمْكِنُ السَّمَاعُ؟", "transliteration": "Hal tumkinu al-samau?" }
+      ],
+      "correct_answer": "هَلْ تُمْكِنُ الإِعَادَةُ؟"
+    },
+    {
+      "id": 127,
+      "question_english": "What is 'Is everything clear?' in Arabic?",
+      "question_tamil": "எல்லாம் தெளிவாக இருக்கிறதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ كُلُّ شَيْءٍ وَاضِحٌ؟", "transliteration": "Hal kullu shay'in wadihun?" },
+        { "arabic": "هَلْ كُلُّ شَيْءٍ جَاهِزٌ؟", "transliteration": "Hal kullu shay'in jahizun?" },
+        { "arabic": "هَلْ كُلُّ شَيْءٍ تَمَامٌ؟", "transliteration": "Hal kullu shay'in tamamun?" },
+        { "arabic": "هَلْ كُلُّ شَيْءٍ صَحِيحٌ؟", "transliteration": "Hal kullu shay'in sahihun?" }
+      ],
+      "correct_answer": "هَلْ كُلُّ شَيْءٍ وَاضِحٌ؟"
+    },
+    {
+      "id": 128,
+      "question_english": "What is 'Do you need anything?' in Arabic?",
+      "question_tamil": "உங்களுக்கு ஏதாவது தேவையா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُرِيدُ شَيْئًا؟", "transliteration": "Hal turidu shay'an?" },
+        { "arabic": "هَلْ تَجِدُ شَيْئًا؟", "transliteration": "Hal tajidu shay'an?" },
+        { "arabic": "هَلْ تَسْأَلُ شَيْئًا؟", "transliteration": "Hal tas'alu shay'an?" },
+        { "arabic": "هَلْ تَفْهَمُ شَيْئًا؟", "transliteration": "Hal tafhamu shay'an?" }
+      ],
+      "correct_answer": "هَلْ تُرِيدُ شَيْئًا؟"
+    },
+    {
+      "id": 129,
+      "question_english": "What is 'Where can I find...?' in Arabic?",
+      "question_tamil": "... ஐ எங்கே காணலாம்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَجِدُ...؟", "transliteration": "Ayna ajidu...?" },
+        { "arabic": "أَيْنَ أَرَى...؟", "transliteration": "Ayna ara...?" },
+        { "arabic": "أَيْنَ أَطْلُبُ...؟", "transliteration": "Ayna atlubu...?" },
+        { "arabic": "أَيْنَ أَشْتَرِي...؟", "transliteration": "Ayna ashtarii...?" }
+      ],
+      "correct_answer": "أَيْنَ أَجِدُ...؟"
+    },
+    {
+      "id": 130,
+      "question_english": "What is 'What is the date today?' in Arabic?",
+      "question_tamil": "இன்று என்ன தேதி? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا التَّارِيخُ اليَوْمَ؟", "transliteration": "Ma al-tarikhu al-yawma?" },
+        { "arabic": "مَا اليَوْمَ؟", "transliteration": "Ma al-yawma?" },
+        { "arabic": "مَا السَّاعَةُ؟", "transliteration": "Ma al-sa'atu?" },
+        { "arabic": "مَا السَّنَةُ؟", "transliteration": "Ma al-sanatu?" }
+      ],
+      "correct_answer": "مَا التَّارِيخُ اليَوْمَ؟"
+    },
+    {
+      "id": 131,
+      "question_english": "What is 'What day is today?' in Arabic?",
+      "question_tamil": "இன்று என்ன கிழமை? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا هُوَ يَوْمُ اليَوْمِ؟", "transliteration": "Ma huwa yawmu al-yawmi?" },
+        { "arabic": "أَيُّ يَوْمٍ اليَوْمَ؟", "transliteration": "Ayyu yawmin al-yawma?" },
+        { "arabic": "كَمْ اليَوْمَ؟", "transliteration": "Kam al-yawma?" },
+        { "arabic": "مَا اليَوْمَ؟", "transliteration": "Ma al-yawma?" }
+      ],
+      "correct_answer": "أَيُّ يَوْمٍ اليَوْمَ؟"
+    },
+    {
+      "id": 132,
+      "question_english": "What is 'Are you married?' in Arabic?",
+      "question_tamil": "உங்களுக்குத் திருமணம் ஆகிவிட்டதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ مُتَزَوِّجٌ؟", "transliteration": "Hal anta mutazawwijun?" },
+        { "arabic": "هَلْ أَنْتَ عَازِبٌ؟", "transliteration": "Hal anta 'azibun?" },
+        { "arabic": "هَلْ أَنْتَ بَالِغٌ؟", "transliteration": "Hal anta balighun?" },
+        { "arabic": "هَلْ أَنْتَ رَجُلٌ؟", "transliteration": "Hal anta rajulun?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ مُتَزَوِّجٌ؟"
+    },
+    {
+      "id": 133,
+      "question_english": "What is 'Do you have children?' in Arabic?",
+      "question_tamil": "உங்களுக்குக் குழந்தைகள் உள்ளனவா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ عِنْدَكَ أَوْلَادٌ؟", "transliteration": "Hal 'indaka awladun?" },
+        { "arabic": "هَلْ عِنْدَكَ إِخْوَةٌ؟", "transliteration": "Hal 'indaka ikhwatun?" },
+        { "arabic": "هَلْ عِنْدَكَ أَصْدِقَاءُ؟", "transliteration": "Hal 'indaka asdiqa'u?" },
+        { "arabic": "هَلْ عِنْدَكَ أَهْلٌ؟", "transliteration": "Hal 'indaka ahlun?" }
+      ],
+      "correct_answer": "هَلْ عِنْدَكَ أَوْلَادٌ؟"
+    },
+    {
+      "id": 134,
+      "question_english": "What is 'How is your health?' in Arabic?",
+      "question_tamil": "உங்கள் உடல்நலம் எப்படி உள்ளது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ صِحَّتُكَ؟", "transliteration": "Kayfa sihhatuka?" },
+        { "arabic": "كَيْفَ حَالُكَ؟", "transliteration": "Kayfa haluka?" },
+        { "arabic": "كَيْفَ جِسْمُكَ؟", "transliteration": "Kayfa jismuka?" },
+        { "arabic": "كَيْفَ وَقْتُكَ؟", "transliteration": "Kayfa waqtuka?" }
+      ],
+      "correct_answer": "كَيْفَ صِحَّتُكَ؟"
+    },
+    {
+      "id": 135,
+      "question_english": "What is 'Where were you born?' in Arabic?",
+      "question_tamil": "நீங்கள் எங்கே பிறந்தீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ وُلِدْتَ؟", "transliteration": "Ayna wulidta?" },
+        { "arabic": "أَيْنَ سَكَنْتَ؟", "transliteration": "Ayna sakanta?" },
+        { "arabic": "أَيْنَ عَمِلْتَ؟", "transliteration": "Ayna 'amilta?" },
+        { "arabic": "أَيْنَ دَرَسْتَ؟", "transliteration": "Ayna darasta?" }
+      ],
+      "correct_answer": "أَيْنَ وُلِدْتَ؟"
+    },
+    {
+      "id": 136,
+      "question_english": "What is 'When is your birthday?' in Arabic?",
+      "question_tamil": "உங்கள் பிறந்தநாள் எப்போது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَتَى مِيلَادُكَ؟", "transliteration": "Mata miladuka?" },
+        { "arabic": "مَتَى جِئْتَ؟", "transliteration": "Mata ji'ta?" },
+        { "arabic": "مَتَى ذَهَبْتَ؟", "transliteration": "Mata dhahabta?" },
+        { "arabic": "مَتَى وُلِدْتَ؟", "transliteration": "Mata wulidta?" }
+      ],
+      "correct_answer": "مَتَى مِيلَادُكَ؟"
+    },
+    {
+      "id": 137,
+      "question_english": "What is 'Can you speak Arabic?' in Arabic?",
+      "question_tamil": "உங்களால் அரபு மொழி பேச முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَسْتَطِيعُ التَّكَلَّمَ بِالعَرَبِيَّةِ؟", "transliteration": "Hal tastati'u al-takallama bil-'arabiyyati?" },
+        { "arabic": "هَلْ تَقْرَأُ العَرَبِيَّةَ؟", "transliteration": "Hal taqra'u al-'arabiyyata?" },
+        { "arabic": "هَلْ تَفْهَمُ العَرَبِيَّةَ؟", "transliteration": "Hal tafhamu al-'arabiyyata?" },
+        { "arabic": "هَلْ تَكْتُبُ العَرَبِيَّةَ؟", "transliteration": "Hal taktubu al-'arabiyyata?" }
+      ],
+      "correct_answer": "هَلْ تَسْتَطِيعُ التَّكَلَّمَ بِالعَرَبِيَّةِ؟"
+    },
+    {
+      "id": 138,
+      "question_english": "What is 'Where do you work?' in Arabic?",
+      "question_tamil": "நீங்கள் எங்கே வேலை செய்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ تَعْمَلُ؟", "transliteration": "Ayna ta'amalu?" },
+        { "arabic": "أَيْنَ تَسْكُنُ؟", "transliteration": "Ayna taskunu?" },
+        { "arabic": "أَيْنَ تَدْرُسُ؟", "transliteration": "Ayna tadrusu?" },
+        { "arabic": "أَيْنَ تَجْلِسُ؟", "transliteration": "Ayna tajlisu?" }
+      ],
+      "correct_answer": "أَيْنَ تَعْمَلُ؟"
+    },
+    {
+      "id": 151,
+      "question_english": "What is 'Who is your best friend?' in Arabic?",
+      "question_tamil": "உங்களது சிறந்த நண்பன் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ صَدِيقُكَ المُفَضَّلُ؟", "transliteration": "Man sadiquka al-mufaddalu?" },
+        { "arabic": "مَنْ أَخُوكَ؟", "transliteration": "Man akhuka?" },
+        { "arabic": "مَنْ مُعَلِّمُكَ؟", "transliteration": "Man mu'allimuka?" },
+        { "arabic": "مَنْ جَارُكَ؟", "transliteration": "Man jaruka?" }
+      ],
+      "correct_answer": "مَنْ صَدِيقُكَ المُفَضَّلُ؟"
+    },
+    {
+      "id": 152,
+      "question_english": "What is 'How many brothers do you have?' in Arabic?",
+      "question_tamil": "உங்களுக்கு எத்தனை சகோதரர்கள் உள்ளனர்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَمْ أَخًا عِنْدَكَ؟", "transliteration": "Kam akhan 'indaka?" },
+        { "arabic": "كَمْ أُخْتًا عِنْدَكَ؟", "transliteration": "Kam uktan 'indaka?" },
+        { "arabic": "كَمْ بَيْتًا عِنْدَكَ؟", "transliteration": "Kam baytan 'indaka?" },
+        { "arabic": "كَمْ كِتَابًا عِنْدَكَ؟", "transliteration": "Kam kitaban 'indaka?" }
+      ],
+      "correct_answer": "كَمْ أَخًا عِنْدَكَ؟"
+    },
+    {
+      "id": 153,
+      "question_english": "What is 'Is it far from here?' in Arabic?",
+      "question_tamil": "இங்கிருந்து அது தொலைவிலா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هُوَ بَعِيدٌ مِنْ هُنَا؟", "transliteration": "Hal huwa ba'idun min huna?" },
+        { "arabic": "هَلْ هُوَ قَرِيبٌ مِنْ هُنَا؟", "transliteration": "Hal huwa qaribun min huna?" },
+        { "arabic": "هَلْ هُوَ كَبِيرٌ مِنْ هُنَا؟", "transliteration": "Hal huwa kabirun min huna?" },
+        { "arabic": "هَلْ هُوَ جَدِيدٌ مِنْ هُنَا؟", "transliteration": "Hal huwa jadidun min huna?" }
+      ],
+      "correct_answer": "هَلْ هُوَ بَعِيدٌ مِنْ هُنَا؟"
+    },
+    {
+      "id": 154,
+      "question_english": "What is 'Is it close to here?' in Arabic?",
+      "question_tamil": "இங்கிருந்து அது அருகிலா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هُوَ قَرِيبٌ مِنْ هُنَا؟", "transliteration": "Hal huwa qaribun min huna?" },
+        { "arabic": "هَلْ هُوَ بَعِيدٌ مِنْ هُنَا؟", "transliteration": "Hal huwa ba'idun min huna?" },
+        { "arabic": "هَلْ هُوَ صَغِيرٌ مِنْ هُنَا؟", "transliteration": "Hal huwa saghirun min huna?" },
+        { "arabic": "هَلْ هُوَ حَاضِرٌ مِنْ هُنَا؟", "transliteration": "Hal huwa hadirun min huna?" }
+      ],
+      "correct_answer": "هَلْ هُوَ قَرِيبٌ مِنْ هُنَا؟"
+    },
+    {
+      "id": 155,
+      "question_english": "What is 'Why are you sad?' in Arabic?",
+      "question_tamil": "நீங்கள் ஏன் கவலையாக இருக்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لِمَ أَنْتَ حَزِينٌ؟", "transliteration": "Lima anta hazinun?" },
+        { "arabic": "لِمَ أَنْتَ سَعِيدٌ؟", "transliteration": "Lima anta sa'idun?" },
+        { "arabic": "لِمَ أَنْتَ غَضْبَانُ؟", "transliteration": "Lima anta ghadbanu?" },
+        { "arabic": "لِمَ أَنْتَ تَعْبَانُ؟", "transliteration": "Lima anta ta'banu?" }
+      ],
+      "correct_answer": "لِمَ أَنْتَ حَزِينٌ؟"
+    },
+    {
+      "id": 156,
+      "question_english": "What is 'Why are you happy?' in Arabic?",
+      "question_tamil": "நீங்கள் ஏன் மகிழ்ச்சியாக இருக்கிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "لِمَ أَنْتَ سَعِيدٌ؟", "transliteration": "Lima anta sa'idun?" },
+        { "arabic": "لِمَ أَنْتَ حَزِينٌ؟", "transliteration": "Lima anta hazinun?" },
+        { "arabic": "لِمَ أَنْتَ خَائِفٌ؟", "transliteration": "Lima anta khaifun?" },
+        { "arabic": "لِمَ أَنْتَ نَائِمٌ؟", "transliteration": "Lima anta na'imun?" }
+      ],
+      "correct_answer": "لِمَ أَنْتَ سَعِيدٌ؟"
+    },
+    {
+      "id": 157,
+      "question_english": "What is 'Can I open the window?' in Arabic?",
+      "question_tamil": "நான் சன்னலைத் திறக்கலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَفْتَحُ النَّافِذَةَ؟", "transliteration": "Hal aftahu al-nafidhata?" },
+        { "arabic": "هَلْ أُغْلِقُ النَّافِذَةَ؟", "transliteration": "Hal ughliku al-nafidhata?" },
+        { "arabic": "هَلْ أَنْظُرُ النَّافِذَةَ؟", "transliteration": "Hal anzuru al-nafidhata?" },
+        { "arabic": "هَلْ أَكْسِرُ النَّافِذَةَ؟", "transliteration": "Hal aksiru al-nafidhata?" }
+      ],
+      "correct_answer": "هَلْ أَفْتَحُ النَّافِذَةَ؟"
+    },
+    {
+      "id": 158,
+      "question_english": "What is 'Can I close the window?' in Arabic?",
+      "question_tamil": "நான் சன்னலை மூடலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَفْتَحُ النَّافِذَةَ؟", "transliteration": "Hal aftahu al-nafidhata?" },
+        { "arabic": "هَلْ أُغْلِقُ النَّافِذَةَ؟", "transliteration": "Hal ughliku al-nafidhata?" },
+        { "arabic": "هَلْ أُرَتِّبُ النَّافِذَةَ؟", "transliteration": "Hal urattibu al-nafidhata?" },
+        { "arabic": "هَلْ أَنْظِفُ النَّافِذَةَ؟", "transliteration": "Hal anzifu al-nafidhata?" }
+      ],
+      "correct_answer": "هَلْ أُغْلِقُ النَّافِذَةَ؟"
+    },
+    {
+      "id": 159,
+      "question_english": "What is 'What is your plan for today?' in Arabic?",
+      "question_tamil": "இன்றைய உங்கள் திட்டம் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا خِطَّتُكَ لِلْيَوْمِ؟", "transliteration": "Ma khittatuka lil-yawmi?" },
+        { "arabic": "مَا هِوَايَتُكَ لِلْيَوْمِ؟", "transliteration": "Ma hiwayatuka lil-yawmi?" },
+        { "arabic": "مَا عَمَلُكَ لِلْيَوْمِ؟", "transliteration": "Ma 'amaluka lil-yawmi?" },
+        { "arabic": "مَا فِكْرَتُكَ لِلْيَوْمِ؟", "transliteration": "Ma fikratuka lil-yawmi?" }
+      ],
+      "correct_answer": "مَا خِطَّتُكَ لِلْيَوْمِ؟"
+    },
+    {
+      "id": 160,
+      "question_english": "What is 'Are you ready to go?' in Arabic?",
+      "question_tamil": "நீங்கள் செல்லத் தயாரா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ لِلذَّهَابِ؟", "transliteration": "Hal anta jahizun lil-dhahabi?" },
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ لِلرُّجُوعِ؟", "transliteration": "Hal anta jahizun lil-ruju'i?" },
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ لِلْعَمَلِ؟", "transliteration": "Hal anta jahizun lil-'amali?" },
+        { "arabic": "هَلْ أَنْتَ جَاهِزٌ لِلنَّوْمِ؟", "transliteration": "Hal anta jahizun lil-nawmi?" }
+      ],
+      "correct_answer": "هَلْ أَنْتَ جَاهِزٌ لِلذَّهَابِ؟"
+    },
+    {
+      "id": 161,
+      "question_english": "What is 'Where did you buy this?' in Arabic?",
+      "question_tamil": "இதை எங்கே வாங்கினீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مِنْ أَيْنَ اشْتَرَيْتَ هَذَا؟", "transliteration": "Min ayna ashtarayta hadha?" },
+        { "arabic": "أَيْنَ بَعْتَ هَذَا؟", "transliteration": "Ayna ba'ta hadha?" },
+        { "arabic": "أَيْنَ وَجَدْتَ هَذَا؟", "transliteration": "Ayna wajadta hadha?" },
+        { "arabic": "مَنْ أَعْطَاكَ هَذَا؟", "transliteration": "Man a'taka hadha?" }
+      ],
+      "correct_answer": "مِنْ أَيْنَ اشْتَرَيْتَ هَذَا؟"
+    },
+    {
+      "id": 162,
+      "question_english": "What is 'Who is the manager here?' in Arabic?",
+      "question_tamil": "இங்கே மேலாளர் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ المُدِيرُ هُنَا؟", "transliteration": "Man al-mudiru huna?" },
+        { "arabic": "مَنْ المُعَلِّمُ هُنَا؟", "transliteration": "Man al-mu'allimu huna?" },
+        { "arabic": "مَنْ الرَّئِيسُ هُنَا؟", "transliteration": "Man al-ra'isu huna?" },
+        { "arabic": "مَنْ المَئُولُ هُنَا؟", "transliteration": "Man al-mas'ulu huna?" }
+      ],
+      "correct_answer": "مَنْ المُدِيرُ هُنَا؟"
+    },
+    {
+      "id": 163,
+      "question_english": "What is 'How was the exam?' in Arabic?",
+      "question_tamil": "தேர்வு எப்படி இருந்தது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ كَانَ الاخْتِبَارُ؟", "transliteration": "Kayfa kana al-ikhtibaru?" },
+        { "arabic": "كَيْفَ كَانَ الدَّرْسُ؟", "transliteration": "Kayfa kana al-darsu?" },
+        { "arabic": "كَيْفَ كَانَ السَّفَرُ؟", "transliteration": "Kayfa kana al-safaru?" },
+        { "arabic": "كَيْفَ كَانَ العَمَلُ؟", "transliteration": "Kayfa kana al-'amalu?" }
+      ],
+      "correct_answer": "كَيْفَ كَانَ الاخْتِبَارُ؟"
+    },
+    {
+      "id": 164,
+      "question_english": "What is 'Did you pass the exam?' in Arabic?",
+      "question_tamil": "தேர்வில் தேர்ச்சி பெற்றுவிட்டீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ نَجَحْتَ في الاخْتِبَارِ؟", "transliteration": "Hal najahta fi al-ikhtibari?" },
+        { "arabic": "هَلْ رَسَبْتَ في الاخْتِبَارِ؟", "transliteration": "Hal rasabta fi al-ikhtibari?" },
+        { "arabic": "هَلْ قَرَأْتَ الاخْتِبَارَ؟", "transliteration": "Hal qara'ta al-ikhtibara?" },
+        { "arabic": "هَلْ كَتَبْتَ الاخْتِبَارَ؟", "transliteration": "Hal katabta al-ikhtibara?" }
+      ],
+      "correct_answer": "هَلْ نَجَحْتَ في الاخْتِبَارِ؟"
+    },
+    {
+      "id": 165,
+      "question_english": "What is 'What is your specialty?' in Arabic?",
+      "question_tamil": "உங்களது துறை / சிறப்புப் படிப்பு என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا تَخَصُّصُكَ؟", "transliteration": "Ma takhassusuka?" },
+        { "arabic": "مَا مِهْنَتُكَ؟", "transliteration": "Ma mihnatuka?" },
+        { "arabic": "مَا عَمَلُكَ؟", "transliteration": "Ma 'amaluka?" },
+        { "arabic": "مَا اسْمُكَ؟", "transliteration": "Ma ismuka?" }
+      ],
+      "correct_answer": "مَا تَخَصُّصُكَ؟"
+    },
+    {
+      "id": 166,
+      "question_english": "What is 'Can I use your phone?' in Arabic?",
+      "question_tamil": "உங்கள் போனை நான் பயன்படுத்தலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَسْتَخْدِمُ هَاتِفَكَ؟", "transliteration": "Hal astakhdimu hatifaka?" },
+        { "arabic": "هَلْ أَشْتَرِي هَاتِفَكَ؟", "transliteration": "Hal ashtarii hatifaka?" },
+        { "arabic": "هَلْ أَبِيعُ هَاتِفَكَ؟", "transliteration": "Hal tabii'u hatifaka?" },
+        { "arabic": "هَلْ أُصْلِحُ هَاتِفَكَ؟", "transliteration": "Hal uslihu hatifaka?" }
+      ],
+      "correct_answer": "هَلْ أَسْتَخْدِمُ هَاتِفَكَ؟"
+    },
+    {
+      "id": 167,
+      "question_english": "What is 'Where is the nearest hospital?' in Arabic?",
+      "question_tamil": "அருகிலுள்ள மருத்துவமனை எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَقْرَبُ مُسْتَشْفَى؟", "transliteration": "Ayna aqrabu mustashfan?" },
+        { "arabic": "أَيْنَ أَقْرَبُ صَيْدَلِيَّةٍ؟", "transliteration": "Ayna aqrabu saydaliyyatin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مَدْرَسَةٍ؟", "transliteration": "Ayna aqrabu madrasatin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مَسْجِدٍ؟", "transliteration": "Ayna aqrabu masjidin?" }
+      ],
+      "correct_answer": "أَيْنَ أَقْرَبُ مُسْتَشْفَى؟"
+    },
+    {
+      "id": 168,
+      "question_english": "What is 'Is there a pharmacy nearby?' in Arabic?",
+      "question_tamil": "அருகில் மருந்தகம் உள்ளதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هُنَاكَ صَيْدَلِيَّةٌ قَرِيبَةٌ؟", "transliteration": "Hal hunaka saydaliyyatun qaribatun?" },
+        { "arabic": "هَلْ هُنَاكَ مُسْتَشْفَى قَرِيبٌ؟", "transliteration": "Hal hunaka mustashfan qaribun?" },
+        { "arabic": "هَلْ هُنَاكَ بَنْكٌ قَرِيبٌ؟", "transliteration": "Hal hunaka bankun qaribun?" },
+        { "arabic": "هَلْ هُنَاكَ سُوقٌ قَرِيبٌ؟", "transliteration": "Hal hunaka suqun qaribun?" }
+      ],
+      "correct_answer": "هَلْ هُنَاكَ صَيْدَلِيَّةٌ قَرِيبَةٌ؟"
+    },
+    {
+      "id": 169,
+      "question_english": "What is 'What are you looking for?' in Arabic?",
+      "question_tamil": "நீங்கள் எதைத் தேடுகிறீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "عَمَّ تَبْحَثُ؟", "transliteration": "Amma tabhathu?" },
+        { "arabic": "مَاذَا تَفْعَلُ؟", "transliteration": "Madha taf'alu?" },
+        { "arabic": "مَاذَا تُرِيدُ؟", "transliteration": "Madha turidu?" },
+        { "arabic": "عَمَّ تَسْأَلُ؟", "transliteration": "Amma tas'alu?" }
+      ],
+      "correct_answer": "عَمَّ تَبْحَثُ؟"
+    },
+    {
+      "id": 170,
+      "question_english": "What is 'Who invited you?' in Arabic?",
+      "question_tamil": "உங்களை அழைத்தது யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ دَعَاكَ؟", "transliteration": "Man da'aka?" },
+        { "arabic": "مَنْ زَارَكَ؟", "transliteration": "Man zaraka?" },
+        { "arabic": "مَنْ قَابَلَكَ؟", "transliteration": "Man qabalaka?" },
+        { "arabic": "مَنْ رَأَاكَ؟", "transliteration": "Man ra'aka?" }
+      ],
+      "correct_answer": "مَنْ دَعَاكَ؟"
+    },
+    {
+      "id": 171,
+      "question_english": "What is 'Where did you put my book?' in Arabic?",
+      "question_tamil": "என் புத்தகத்தை எங்கே வைத்தீர்கள்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ وَضَعْتَ كِتَابِي؟", "transliteration": "Ayna wada'ta kitabi?" },
+        { "arabic": "أَيْنَ أَخَذْتَ كِتَابِي؟", "transliteration": "Ayna akhadhta kitabi?" },
+        { "arabic": "أَيْنَ قَرَأْتَ كِتَابِي؟", "transliteration": "Ayna qara'ta kitabi?" },
+        { "arabic": "أَيْنَ بِعْتَ كِتَابِي؟", "transliteration": "Ayna ba'ta kitabi?" }
+      ],
+      "correct_answer": "أَيْنَ وَضَعْتَ كِتَابِي؟"
+    },
+    {
+      "id": 172,
+      "question_english": "What is 'Can you translate this for me?' in Arabic?",
+      "question_tamil": "இதை எனக்கு மொழிபெயர்த்துத் தர முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَرْجِمْ هَذَا لِي؟", "transliteration": "Hal tarjim hadha lii?" },
+        { "arabic": "هَلْ اكْتُبْ هَذَا لِي؟", "transliteration": "Hal uktub hadha lii?" },
+        { "arabic": "هَلْ اقْرَأْ هَذَا لِي؟", "transliteration": "Hal iqra' hadha lii?" },
+        { "arabic": "هَلْ اشْرَحْ هَذَا لِي؟", "transliteration": "Hal ishrah hadha lii?" }
+      ],
+      "correct_answer": "هَلْ تَرْجِمْ هَذَا لِي؟"
+    },
+    {
+      "id": 173,
+      "question_english": "What is 'What is your religion?' in Arabic?",
+      "question_tamil": "உங்கள் மதம் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا دِينُكَ؟", "transliteration": "Ma dinuka?" },
+        { "arabic": "مَا رَبُّكَ؟", "transliteration": "Ma rabbuka?" },
+        { "arabic": "مَا بَلَدُكَ؟", "transliteration": "Ma baladuka?" },
+        { "arabic": "مَا لَغَتُكَ؟", "transliteration": "Ma lughatuka?" }
+      ],
+      "correct_answer": "مَا دِينُكَ؟"
+    },
+    {
+      "id": 174,
+      "question_english": "What is 'Who is your Lord?' in Arabic?",
+      "question_tamil": "உன் இறைவன் யார்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَنْ رَبُّكَ؟", "transliteration": "Man rabbuka?" },
+        { "arabic": "مَنْ نَبِيُّكَ؟", "transliteration": "Man nabiyyuka?" },
+        { "arabic": "مَنْ أَبُوكَ؟", "transliteration": "Man abuka?" },
+        { "arabic": "مَنْ قَائِدُكَ؟", "transliteration": "Man qa'iduka?" }
+      ],
+      "correct_answer": "مَنْ رَبُّكَ؟"
+    },
+    {
+      "id": 175,
+      "question_english": "What is 'Do you fast in Ramadan?' in Arabic?",
+      "question_tamil": "நீங்கள் ரமலானில் நோன்பு நோற்கிறீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَصُومُ رَمَضَانَ؟", "transliteration": "Hal tasumu ramadana?" },
+        { "arabic": "هَلْ تُصَلِّي رَمَضَانَ؟", "transliteration": "Hal tusallii ramadana?" },
+        { "arabic": "هَلْ تَحُجُّ رَمَضَانَ؟", "transliteration": "Hal tahujju ramadana?" },
+        { "arabic": "هَلْ تُزَكِّي رَمَضَانَ؟", "transliteration": "Hal tuzakii ramadana?" }
+      ],
+      "correct_answer": "هَلْ تَصُومُ رَمَضَانَ؟"
+    },
+    {
+      "id": 176,
+      "question_english": "What is 'Have you performed Hajj?' in Arabic?",
+      "question_tamil": "நீங்கள் ஹஜ் பயணம் செய்துள்ளீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ حَجَجْتَ البَيْتَ؟", "transliteration": "Hal hajajta al-bayta?" },
+        { "arabic": "هَلْ زُرْتَ الكَعْبَةَ؟", "transliteration": "Hal zurta al-ka'bata?" },
+        { "arabic": "هَلْ دَخَلْتَ مَكَّةَ؟", "transliteration": "Hal dakhalta makkata?" },
+        { "arabic": "هَلْ صَلَّيْتَ في المَسْجِدِ؟", "transliteration": "Hal sallayta fi al-masjidi?" }
+      ],
+      "correct_answer": "هَلْ حَجَجْتَ البَيْتَ؟"
+    },
+    {
+      "id": 177,
+      "question_english": "What is 'What is the capital of Egypt?' in Arabic?",
+      "question_tamil": "எகிப்து நாட்டின் தலைநகரம் எது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا عَاصِمَةُ مِصْرَ؟", "transliteration": "Ma 'asimatu misra?" },
+        { "arabic": "مَا عَاصِمَةُ العِرَاقِ؟", "transliteration": "Ma 'asimatu al-'iraqi?" },
+        { "arabic": "مَا عَاصِمَةُ السُّعُودِيَّةِ؟", "transliteration": "Ma 'asimatu al-su'udiyyati?" },
+        { "arabic": "مَا عَاصِمَةُ الهِنْدِ؟", "transliteration": "Ma 'asimatu al-hindi?" }
+      ],
+      "correct_answer": "مَا عَاصِمَةُ مِصْرَ؟"
+    },
+    {
+      "id": 178,
+      "question_english": "What is 'How is the food?' in Arabic?",
+      "question_tamil": "உணவு எப்படி இருக்கிறது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "كَيْفَ الطَّعَامُ؟", "transliteration": "Kayfa al-ta'amu?" },
+        { "arabic": "كَيْفَ الشَّرَابُ؟", "transliteration": "Kayfa al-sharabu?" },
+        { "arabic": "كَيْفَ المَطْعَمُ؟", "transliteration": "Kayfa al-mat'amu?" },
+        { "arabic": "كَيْفَ الطَّبْخُ؟", "transliteration": "Kayfa al-tabhu?" }
+      ],
+      "correct_answer": "كَيْفَ الطَّعَامُ؟"
+    },
+    {
+      "id": 179,
+      "question_english": "What is 'Are you finished?' in Arabic?",
+      "question_tamil": "நீங்கள் முடித்துவிட்டீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ انْتَهَيْتَ؟", "transliteration": "Hal intahayta?" },
+        { "arabic": "هَلْ بَدَأْتَ؟", "transliteration": "Hal bada'ta?" },
+        { "arabic": "هَلْ عَمِلْتَ؟", "transliteration": "Hal 'amilta?" },
+        { "arabic": "هَلْ رَجَعْتَ؟", "transliteration": "Hal raja'ta?" }
+      ],
+      "correct_answer": "هَلْ انْتَهَيْتَ؟"
+    },
+    {
+      "id": 180,
+      "question_english": "What is 'May I open the door?' in Arabic?",
+      "question_tamil": "நான் கதவைத் திறக்கலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَفْتَحُ البَابَ؟", "transliteration": "Hal aftahu al-baba?" },
+        { "arabic": "هَلْ أُغْلِقُ البَابَ؟", "transliteration": "Hal ughliku al-baba?" },
+        { "arabic": "هَلْ أَكْسِرُ البَابَ؟", "transliteration": "Hal aksiru al-baba?" },
+        { "arabic": "هَلْ أَنْظُرُ البَابَ؟", "transliteration": "Hal anzuru al-baba?" }
+      ],
+      "correct_answer": "هَلْ أَفْتَحُ البَابَ؟"
+    },
+    {
+      "id": 181,
+      "question_english": "What is 'May I close the door?' in Arabic?",
+      "question_tamil": "நான் கதவை மூடலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَفْتَحُ البَابَ؟", "transliteration": "Hal aftahu al-baba?" },
+        { "arabic": "هَلْ أُغْلِقُ البَابَ؟", "transliteration": "Hal ughliku al-baba?" },
+        { "arabic": "هَلْ أَدْهُنُ البَابَ؟", "transliteration": "Hal adhunu al-baba?" },
+        { "arabic": "هَلْ أُنَظِّفُ البَابَ؟", "transliteration": "Hal unazifu al-baba?" }
+      ],
+      "correct_answer": "هَلْ أُغْلِقُ البَابَ؟"
+    },
+    {
+      "id": 182,
+      "question_english": "What is 'Where is the nearest police station?' in Arabic?",
+      "question_tamil": "அருகிலுள்ள காவல் நிலையம் எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَقْرَبُ مَرْكِزِ شُرْطَةٍ؟", "transliteration": "Ayna aqrabu markazi shurtatin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مُسْتَشْفَى؟", "transliteration": "Ayna aqrabu mustashfan?" },
+        { "arabic": "أَيْنَ أَقْرَبُ بَنْكٍ؟", "transliteration": "Ayna aqrabu bankin?" },
+        { "arabic": "أَيْنَ أَقْرَبُ مَحَطَّةٍ؟", "transliteration": "Ayna aqrabu mahattatin?" }
+      ],
+      "correct_answer": "أَيْنَ أَقْرَبُ مَرْكِزِ شُرْطَةٍ؟"
+    },
+    {
+      "id": 183,
+      "question_english": "What is 'Do you speak slowly?' in Arabic?",
+      "question_tamil": "நீங்கள் மெதுவாகப் பேசுவீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَتَكَلَّمُ بِبُطْءٍ؟", "transliteration": "Hal tatakallamu bi-but'in?" },
+        { "arabic": "هَلْ تَتَكَلَّمُ بِسُرْعَةٍ؟", "transliteration": "Hal tatakallamu bi-sur'atin?" },
+        { "arabic": "هَلْ تَصْمُتُ دَائِمًا؟", "transliteration": "Hal tasmutu da'iman?" },
+        { "arabic": "هَلْ تَصْرُخُ عَالِيًا؟", "transliteration": "Hal tasrukhu 'aliyan?" }
+      ],
+      "correct_answer": "هَلْ تَتَكَلَّمُ بِبُطْءٍ؟"
+    },
+    {
+      "id": 184,
+      "question_english": "What is 'Can I write this down?' in Arabic?",
+      "question_tamil": "இதை நான் எழுதி வைத்துக்கொள்ளலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَكْتُبُ هَذَا؟", "transliteration": "Hal aktubu hadha?" },
+        { "arabic": "هَلْ أَقْرَأُ هَذَا؟", "transliteration": "Hal aqra'u hadha?" },
+        { "arabic": "هَلْ أَحْفَظُ هَذَا؟", "transliteration": "Hal ahfazu hadha?" },
+        { "arabic": "هَلْ أَمْسَحُ هَذَا؟", "transliteration": "Hal amsahu hadha?" }
+      ],
+      "correct_answer": "هَلْ أَكْتُبُ هَذَا؟"
+    },
+    {
+      "id": 185,
+      "question_english": "What is 'Are you coming with me?' in Arabic?",
+      "question_tamil": "நீங்கள் என்னுடன் வருகிறீர்களா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَأْتِي مَعِي؟", "transliteration": "Hal tatii ma'ii?" },
+        { "arabic": "هَلْ تَذْهَبُ وَحْدَكَ؟", "transliteration": "Hal tadhhabu wahdaka?" },
+        { "arabic": "هَلْ تَبْقَى هُنَا؟", "transliteration": "Hal tabqa huna?" },
+        { "arabic": "هَلْ تَنْتَظِرُ هُنَاكَ؟", "transliteration": "Hal tantaziru hunaka?" }
+      ],
+      "correct_answer": "هَلْ تَأْتِي مَعِي؟"
+    },
+    {
+      "id": 186,
+      "question_english": "What is 'What is your favorite book?' in Arabic?",
+      "question_tamil": "உங்களுக்குப் பிடித்த புத்தகம் எது? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا كِتَابُكَ المُفَضَّلُ؟", "transliteration": "Ma kitabuka al-mufaddalu?" },
+        { "arabic": "مَا قَلَمُكَ المُفَضَّلُ؟", "transliteration": "Ma qalamuka al-mufaddalu?" },
+        { "arabic": "مَا بَيْتُكَ المُفَضَّلُ؟", "transliteration": "Ma baytuka al-mufaddalu?" },
+        { "arabic": "مَا لَوْنُكَ المُفَضَّلُ؟", "transliteration": "Ma lawnuka al-mufaddalu?" }
+      ],
+      "correct_answer": "مَا كِتَابُكَ المُفَضَّلُ؟"
+    },
+    {
+      "id": 187,
+      "question_english": "What is 'Can I borrow your pen?' in Arabic?",
+      "question_tamil": "உங்கள் பேனாவைத் கொஞ்ச நேரம் தர முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أُعِيرُ قَلَمَكَ؟", "transliteration": "Hal u'iru qalamaka?" },
+        { "arabic": "هَلْ تَسْتَعِيرُ قَلَمِي؟", "transliteration": "Hal tasta'iru qalamii?" },
+        { "arabic": "هَلْ تَبِيعُ قَلَمَكَ؟", "transliteration": "Hal tabii'u qalamaka?" },
+        { "arabic": "هَلْ تَكْسِرُ قَلَمَكَ؟", "transliteration": "Hal taksiru qalamaka?" }
+      ],
+      "correct_answer": "هَلْ أُعِيرُ قَلَمَكَ؟"
+    },
+    {
+      "id": 188,
+      "question_english": "What is 'Where is the bus stop?' in Arabic?",
+      "question_tamil": "பேருந்து நிறுத்தம் எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ مَوْقِفُ الحَافِلَاتِ؟", "transliteration": "Ayna mawqifu al-hafilati?" },
+        { "arabic": "أَيْنَ مَحَطَّةُ القِطَارِ؟", "transliteration": "Ayna mahattatu al-qitari?" },
+        { "arabic": "أَيْنَ المَطَارُ؟", "transliteration": "Ayna al-mataru?" },
+        { "arabic": "أَيْنَ المِيْنَاءُ؟", "transliteration": "Ayna al-minahu?" }
+      ],
+      "correct_answer": "أَيْنَ مَوْقِفُ الحَافِلَاتِ؟"
+    },
+    {
+      "id": 189,
+      "question_english": "What is 'Is there a hotel nearby?' in Arabic?",
+      "question_tamil": "அருகில் விடுதி (Hotel) உள்ளதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هُنَاكَ فُنْدُقٌ قَرِيبٌ؟", "transliteration": "Hal hunaka funduqun qaribun?" },
+        { "arabic": "هَلْ هُنَاكَ بَنْكٌ قَرِيبٌ؟", "transliteration": "Hal hunaka bankun qaribun?" },
+        { "arabic": "هَلْ هُنَاكَ مَطْعَمٌ قَرِيبٌ؟", "transliteration": "Hal hunaka mat'amun qaribun?" },
+        { "arabic": "هَلْ هُنَاكَ مَطَارٌ قَرِيبٌ؟", "transliteration": "Hal hunaka matarun qaribun?" }
+      ],
+      "correct_answer": "هَلْ هُنَاكَ فُنْدُقٌ قَرِيبٌ؟"
+    },
+    {
+      "id": 190,
+      "question_english": "What is 'Can you show me the way?' in Arabic?",
+      "question_tamil": "எனக்கு வழி காட்ட முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تَدُلُّنِي عَلَى الطَّرِيقِ؟", "transliteration": "Hal tadullunii 'ala al-tariqi?" },
+        { "arabic": "هَلْ تَمْشِي مَعِي؟", "transliteration": "Hal tamshii ma'ii?" },
+        { "arabic": "هَلْ تَرْسُمُ الخَرِيطَةَ؟", "transliteration": "Hal tarsumu al-kharitata?" },
+        { "arabic": "هَلْ تَبْحَثُ عَنِ الطَّرِيقِ؟", "transliteration": "Hal tabhathu 'ani al-tariqi?" }
+      ],
+      "correct_answer": "هَلْ تَدُلُّنِي عَلَى الطَّرِيقِ؟"
+    },
+    {
+      "id": 191,
+      "question_english": "What is 'What is your favorite sport?' in Arabic?",
+      "question_tamil": "உங்களுக்குப் பிடித்த விளையாட்டு என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا رِيَاضَتُكَ المُفَضَّلَةُ؟", "transliteration": "Ma riyadatuka al-mufaddalatu?" },
+        { "arabic": "مَا لَوْنُكَ المُفَضَّلُ؟", "transliteration": "Ma lawnuka al-mufaddalu?" },
+        { "arabic": "مَا طَعَامُكَ المُفَضَّلُ؟", "transliteration": "Ma ta'amuka al-mufaddalu?" },
+        { "arabic": "مَا هِوَايَتُكَ المُفَضَّلَةُ؟", "transliteration": "Ma hiwayatuka al-mufaddalatu?" }
+      ],
+      "correct_answer": "مَا رِيَاضَتُكَ المُفَضَّلَةُ؟"
+    },
+    {
+      "id": 192,
+      "question_english": "What is 'Do you like traveling?' in Arabic?",
+      "question_tamil": "உங்களுக்குப் பயணம் செய்வது பிடிக்குமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُحِبُّ السَّفَرَ؟", "transliteration": "Hal tuhibbu al-safara?" },
+        { "arabic": "هَلْ تُحِبُّ القِرَاءَةَ؟", "transliteration": "Hal tuhibbu al-qira'ata?" },
+        { "arabic": "هَلْ تُحِبُّ العَمَلَ؟", "transliteration": "Hal tuhibbu al-'amala?" },
+        { "arabic": "هَلْ تُحِبُّ الطَّبْخَ؟", "transliteration": "Hal tuhibbu al-tabha?" }
+      ],
+      "correct_answer": "هَلْ تُحِبُّ السَّفَرَ؟"
+    },
+    {
+      "id": 193,
+      "question_english": "What is 'Where is the post office?' in Arabic?",
+      "question_tamil": "தபால் நிலையம் எங்கே? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ مَكْتَبُ البَرِيدِ؟", "transliteration": "Ayna maktabu al-baridi?" },
+        { "arabic": "أَيْنَ البَنْكُ؟", "transliteration": "Ayna al-banku?" },
+        { "arabic": "أَيْنَ المَطَارُ؟", "transliteration": "Ayna al-mataru?" },
+        { "arabic": "أَيْنَ المَحَطَّةُ؟", "transliteration": "Ayna al-mahattatu?" }
+      ],
+      "correct_answer": "أَيْنَ مَكْتَبُ البَرِيدِ؟"
+    },
+    {
+      "id": 194,
+      "question_english": "What is 'Is there internet here?' in Arabic?",
+      "question_tamil": "இங்கே இணைய வசதி (Internet) உள்ளதா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ هُنَاكَ إِنْتَرْنِتْ هُنَا؟", "transliteration": "Hal hunaka internet huna?" },
+        { "arabic": "هَلْ هُنَاكَ مَاءٌ هُنَا؟", "transliteration": "Hal hunaka ma'un huna?" },
+        { "arabic": "هَلْ هُنَاكَ كَهْرَبَاءُ هُنَا؟", "transliteration": "Hal hunaka kahrabau huna?" },
+        { "arabic": "هَلْ هُنَاكَ طَعَامٌ هُنَا؟", "transliteration": "Hal hunaka ta'amun huna?" }
+      ],
+      "correct_answer": "هَلْ هُنَاكَ إِنْتَرْنِتْ هُنَا؟"
+    },
+    {
+      "id": 195,
+      "question_english": "What is 'What is the wifi password?' in Arabic?",
+      "question_tamil": "வைஃபை (Wifi) பாஸ்வேர்ட் என்ன? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "مَا كَلِمَةُ سِرِّ الوِبَايْ؟", "transliteration": "Ma kalimatu sirri al-webay?" },
+        { "arabic": "مَا رَقْمُ هَاتِفِكَ؟", "transliteration": "Ma raqmu hatifika?" },
+        { "arabic": "مَا عُنْوَانُكَ؟", "transliteration": "Ma 'unwanuka?" },
+        { "arabic": "مَا اسْمُ الشَّبَكَةِ؟", "transliteration": "Ma ismu al-shabakati?" }
+      ],
+      "correct_answer": "مَا كَلِمَةُ سِرِّ الوِبَايْ؟"
+    },
+    {
+      "id": 196,
+      "question_english": "What is 'Can I take a picture?' in Arabic?",
+      "question_tamil": "நான் புகைப்படம் எடுக்கலாமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ أَلْتَقِطُ صُورَةً؟", "transliteration": "Hal altaqitu suratan?" },
+        { "arabic": "هَلْ أَنْظُرُ الصُّورَةَ؟", "transliteration": "Hal anzuru al-surata?" },
+        { "arabic": "هَلْ أَكْتُبُ الصُّورَةَ؟", "transliteration": "Hal aktubu al-surata?" },
+        { "arabic": "هَلْ أَشْتَرِي الصُّورَةَ؟", "transliteration": "Hal ashtarii al-surata?" }
+      ],
+      "correct_answer": "هَلْ أَلْتَقِطُ صُورَةً؟"
+    },
+    {
+      "id": 197,
+      "question_english": "What is 'Where can I buy a ticket?' in Arabic?",
+      "question_tamil": "எங்கே விமானச் சீட்டு வாங்கலாம்? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "أَيْنَ أَشْتَرِي التَّذْكِرَةَ؟", "transliteration": "Ayna ashtarii al-tadhkirata?" },
+        { "arabic": "أَيْنَ أَبِيعُ التَّذْكِرَةَ؟", "transliteration": "Ayna abii'u al-tadhkirata?" },
+        { "arabic": "أَيْنَ أَجِدُ التَّذْكِرَةَ؟", "transliteration": "Ayna ajidu al-tadhkirata?" },
+        { "arabic": "أَيْنَ أَفْقِدُ التَّذْكِرَةَ؟", "transliteration": "Ayna afqidu al-tadhkirata?" }
+      ],
+      "correct_answer": "أَيْنَ أَشْتَرِي التَّذْكِرَةَ؟"
+    },
+    {
+      "id": 198,
+      "question_english": "What is 'Is smoking allowed here?' in Arabic?",
+      "question_tamil": "இங்கே புகைபிடிக்க அனுமதி உண்டா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ التَّدْخِينُ مَسْمُوحٌ هُنَا؟", "transliteration": "Hal al-tadkhinu masmuhun huna?" },
+        { "arabic": "هَلْ التَّدْخِينُ مَمْنُوعٌ هُنَا؟", "transliteration": "Hal al-tadkhinu mamnu'un huna?" },
+        { "arabic": "هَلْ الأَكْلُ مَسْمُوحٌ هُنَا؟", "transliteration": "Hal al-aklu masmuhun huna?" },
+        { "arabic": "هَلْ الشُّرْبُ مَسْمُوحٌ هُنَا؟", "transliteration": "Hal al-shurbu masmuhun huna?" }
+      ],
+      "correct_answer": "هَلْ التَّدْخِينُ مَسْمُوحٌ هُنَا؟"
+    },
+    {
+      "id": 199,
+      "question_english": "What is 'Can you wake me up at 6?' in Arabic?",
+      "question_tamil": "காலை 6 மணிக்கு என்னை எழுப்பி விட முடியுமா? -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "هَلْ تُوقِظُنِي السَّاعَةَ السَّادِسَةَ؟", "transliteration": "Hal tuqiznii al-sa'ata al-sadisata?" },
+        { "arabic": "هَلْ تَنَامُ السَّاعَةَ السَّادِسَةَ؟", "transliteration": "Hal tanamu al-sa'ata al-sadisata?" },
+        { "arabic": "هَلْ تَرْجِعُ السَّاعَةَ السَّادِسَةَ؟", "transliteration": "Hal tarji'u al-sa'ata al-sadisata?" },
+        { "arabic": "هَلْ تَذْهَبُ السَّاعَةَ السَّادِسَةَ؟", "transliteration": "Hal tadhhabu al-sa'ata al-sadisata?" }
+      ],
+      "correct_answer": "هَلْ تُوقِظُنِي السَّاعَةَ السَّادِسَةَ؟"
+    },
+    {
+      "id": 200,
+      "question_english": "What is 'Have a nice day' in Arabic?",
+      "question_tamil": "இனிய நாள் வாழ்த்துக்கள் -க்கு அரபியில் என்ன?",
+      "options": [
+        { "arabic": "يَوْمٌ سَعِيدٌ", "transliteration": "Yawmun sa'idun" },
+        { "arabic": "لَيْلَةٌ سَعِيدَةٌ", "transliteration": "Laylatun sa'idatun" },
+        { "arabic": "رِحْلَةٌ سَعِيدَةٌ", "transliteration": "Rihlatun sa'idatun" },
+        { "arabic": "عَمَلٌ سَعِيدٌ", "transliteration": "Amalun sa'idun" }
+      ],
+      "correct_answer": "يَوْمٌ سَعِيدٌ"
+    }
+  ]
+}

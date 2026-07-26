@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import alphabetData from "../../data/arabicAlphabetData.json";
-import arabicWordsData from "../../data/arabicWordsData.json";
+import arabicWordsDataRaw from "../../data/arabicWordsData.json";
 import arabicNumbersData from "../../data/arabicNumbersData.json";
 import arabicSentencesData from "../../data/arabicSentencesData.json";
 import arabicQuizData from "../../data/arabicQuizData.json";
 import ArabicQuiz from "./ArabicQuiz";
+
+const arabicWordsData = {
+  ...arabicWordsDataRaw,
+  words: arabicWordsDataRaw.modules ? arabicWordsDataRaw.modules.flatMap(m => m.words) : (arabicWordsDataRaw.words || [])
+};
 import { useAuth } from "../../context/AuthContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
@@ -103,6 +108,7 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
 
 // InteractiveQuizCard removed. Now using ArabicQuiz component instead.
 
+
 export default function ArabicDashboard() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
@@ -199,6 +205,7 @@ export default function ArabicDashboard() {
     }
   };
 
+  const [activeWordModuleView, setActiveWordModuleView] = useState(null);
   const [activeWordPartView, setActiveWordPartView] = useState(null);
   const [activeNumberPartView, setActiveNumberPartView] = useState(null);
   const [activeSentenceModuleView, setActiveSentenceModuleView] = useState(null);
@@ -212,7 +219,7 @@ export default function ArabicDashboard() {
     { key: "words", label: "Essential Words", tab: "Words", icon: "📚", total: arabicWordsData?.words?.length || 0, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
     { key: "numbers", label: "Numbers", tab: "Numbers", icon: "🔢", total: arabicNumbersData?.numbers?.length || 0, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
     { key: "sentences", label: "Sentences", tab: "Sentences", icon: "💬", total: arabicSentencesData?.total_sentences || 0, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: "Quiz", icon: "🧠", total: arabicQuizData?.total_questions || 0, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "quiz", label: "Quiz", tab: "Quiz", icon: "🧠", total: 100, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -535,18 +542,58 @@ export default function ArabicDashboard() {
 
             {activeTab === "Words" && (
               <div className="space-y-6">
-                {activeWordPartView === null ? (
+                {activeWordModuleView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
                       <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {arabicWordsData.words.length} Essential Words
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(arabicWordsData.words.length / 10) }).map((_, i) => {
+                      {arabicWordsDataRaw.modules.map((moduleData, i) => (
+                        <button
+                          key={moduleData.module}
+                          onClick={() => setActiveWordModuleView(i)}
+                          className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#0ea5e9] bg-[#0ea5e9]/10 shadow-lg"
+                        >
+                          <BookOpen className="w-8 h-8 mb-3 text-[#0ea5e9]" />
+                          <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
+                          {moduleData.category && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.category}</span>}
+                          <div className="mt-4">
+                            <span className="text-xs font-bold text-[#0ea5e9] bg-[#0ea5e9]/20 px-3 py-1 rounded-full">{moduleData.total_words} Words</span>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : activeWordPartView === null ? (
+                  <div className="space-y-6 pt-4">
+                    <button 
+                      onClick={() => setActiveWordModuleView(null)}
+                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                    >
+                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
+                    </button>
+                    
+                    <div className="flex items-center justify-between">
+                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-6 h-6 text-[#0ea5e9]" /> Module {arabicWordsDataRaw.modules[activeWordModuleView].module} ({arabicWordsDataRaw.modules[activeWordModuleView].total_words} Words)
+                      </h3>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                      {Array.from({ length: Math.ceil(arabicWordsDataRaw.modules[activeWordModuleView].words.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
-                        const endIdx = (i + 1) * 10;
+                        const endIdx = Math.min((i + 1) * 10, arabicWordsDataRaw.modules[activeWordModuleView].words.length);
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
-                        const isLocked = progress.words < startIdx;
-                        const isCompleted = progress.words >= endIdx;
+                        
+                        let moduleGlobalStartIdx = 0;
+                        for (let m = 0; m < activeWordModuleView; m++) {
+                           moduleGlobalStartIdx += arabicWordsDataRaw.modules[m].total_words;
+                        }
+                        const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
+                        const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
+                        
+                        const isLocked = progress.words < partGlobalStartIdx;
+                        const isCompleted = progress.words > partGlobalEndIdx;
                         const isInProgress = !isLocked && !isCompleted;
                         
                         return (
@@ -585,13 +632,17 @@ export default function ArabicDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#0ea5e9]" /> Part {activeWordPartView + 1} ({(activeWordPartView * 10) + 1}-{(activeWordPartView + 1) * 10})
+                        <BookOpen className="w-6 h-6 text-[#0ea5e9]" /> Module {arabicWordsDataRaw.modules[activeWordModuleView].module} - Part {activeWordPartView + 1}
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {arabicWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
-                         const globalIdx = (activeWordPartView * 10) + relIdx;
+                      {arabicWordsDataRaw.modules[activeWordModuleView].words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
+                         let moduleGlobalStartIdx = 0;
+                         for (let m = 0; m < activeWordModuleView; m++) {
+                            moduleGlobalStartIdx += arabicWordsDataRaw.modules[m].total_words;
+                         }
+                         const globalIdx = moduleGlobalStartIdx + (activeWordPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.words;
                          const isInProgress = globalIdx === progress.words;
                          const isLocked = globalIdx > progress.words;
@@ -819,8 +870,9 @@ export default function ArabicDashboard() {
             )}
 
             {activeTab === "Quiz" && (
-              <ArabicQuiz onExit={() => setActiveTab(TABS[0])} />
+              <ArabicQuiz onExit={() => setActiveTab("Home")} />
             )}
+
           </div>
         </div>
       </main>

@@ -1,0 +1,1208 @@
+{
+  "module": "14",
+  "category": "Fill in the Blanks Arabic Quiz",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "question_english": "Fill in the blank: أَنَا _____ (I am a student)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَنَا _____ (நான் ஒரு மாணவன்)",
+      "options": [
+        { "arabic": "طَالِبٌ", "transliteration": "Talibun" },
+        { "arabic": "بَيْتٌ", "transliteration": "Baytun" },
+        { "arabic": "قَلَمٌ", "transliteration": "Qalamun" },
+        { "arabic": "كِتَابٌ", "transliteration": "Kitabun" }
+      ],
+      "correct_answer": "طَالِبٌ"
+    },
+    {
+      "id": 2,
+      "question_english": "Fill in the blank: هَذَا _____ (This is a book)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هَذَا _____ (இது ஒரு புத்தகம்)",
+      "options": [
+        { "arabic": "كِتَابٌ", "transliteration": "Kitabun" },
+        { "arabic": "قِطَّةٌ", "transliteration": "Qittatun" },
+        { "arabic": "سَيَّارَةٌ", "transliteration": "Sayyaratun" },
+        { "arabic": "نَافِذَةٌ", "transliteration": "Nafidhatun" }
+      ],
+      "correct_answer": "كِتَابٌ"
+    },
+    {
+      "id": 3,
+      "question_english": "Fill in the blank: هَذِهِ _____ (This is a car)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هَذِهِ _____ (இது ஒரு கார்)",
+      "options": [
+        { "arabic": "قَلَمٌ", "transliteration": "Qalamun" },
+        { "arabic": "بَابٌ", "transliteration": "Babun" },
+        { "arabic": "سَيَّارَةٌ", "transliteration": "Sayyaratun" },
+        { "arabic": "بَيْتٌ", "transliteration": "Baytun" }
+      ],
+      "correct_answer": "سَيَّارَةٌ"
+    },
+    {
+      "id": 4,
+      "question_english": "Fill in the blank: أَيْنَ _____؟ (Where is the house?)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَيْنَ _____؟ (வீடு எங்கே?)",
+      "options": [
+        { "arabic": "البَيْتُ", "transliteration": "Al-baytu" },
+        { "arabic": "القَلَمُ", "transliteration": "Al-qalamu" },
+        { "arabic": "الكِتَابُ", "transliteration": "Al-kitabu" },
+        { "arabic": "الوَلَدُ", "transliteration": "Al-waladu" }
+      ],
+      "correct_answer": "البَيْتُ"
+    },
+    {
+      "id": 5,
+      "question_english": "Fill in the blank: مَا هَذَا؟ هَذَا _____ (What is this? This is a pen)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: مَا هَذَا؟ هَذَا _____ (இது என்ன? இது ஒரு பேனா)",
+      "options": [
+        { "arabic": "قَلَمٌ", "transliteration": "Qalamun" },
+        { "arabic": "مَاءٌ", "transliteration": "Ma'un" },
+        { "arabic": "لَحْمٌ", "transliteration": "Lahmun" },
+        { "arabic": "خُبْزٌ", "transliteration": "Khubzun" }
+      ],
+      "correct_answer": "قَلَمٌ"
+    },
+    {
+      "id": 6,
+      "question_english": "Fill in the blank: الْوَلَدُ يَكْتُبُ بِـ _____ (The boy writes with a pen)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْوَلَدُ يَكْتُبُ بِـ _____ (பையன் பேனாவால் எழுதுகிறான்)",
+      "options": [
+        { "arabic": "قَلَمٍ", "transliteration": "Qalamin" },
+        { "arabic": "بَيْتٍ", "transliteration": "Baytin" },
+        { "arabic": "مَاءٍ", "transliteration": "Ma'in" },
+        { "arabic": "بَابٍ", "transliteration": "Babin" }
+      ],
+      "correct_answer": "قَلَمٍ"
+    },
+    {
+      "id": 7,
+      "question_english": "Fill in the blank: أَشْرَبُ _____ (I drink water)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَشْرَبُ _____ (நான் தண்ணீர் குடிக்கிறேன்)",
+      "options": [
+        { "arabic": "مَاءً", "transliteration": "Ma'an" },
+        { "arabic": "خُبْزًا", "transliteration": "Khubzan" },
+        { "arabic": "كِتَابًا", "transliteration": "Kitaban" },
+        { "arabic": "قَلَمًا", "transliteration": "Qalaman" }
+      ],
+      "correct_answer": "مَاءً"
+    },
+    {
+      "id": 8,
+      "question_english": "Fill in the blank: آكُلُ _____ (I eat bread)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: آكُلُ _____ (நான் ரொட்டி சாப்பிடுகிறேன்)",
+      "options": [
+        { "arabic": "خُبْزًا", "transliteration": "Khubzan" },
+        { "arabic": "مَاءً", "transliteration": "Ma'an" },
+        { "arabic": "شَايًا", "transliteration": "Shayan" },
+        { "arabic": "حَلِيبًا", "transliteration": "Haliban" }
+      ],
+      "correct_answer": "خُبْزًا"
+    },
+    {
+      "id": 9,
+      "question_english": "Fill in the blank: هُوَ _____ (He is a doctor)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هُوَ _____ (அவன் ஒரு மருத்துவர்)",
+      "options": [
+        { "arabic": "طَبِيبٌ", "transliteration": "Tabibun" },
+        { "arabic": "بِنْتٌ", "transliteration": "Bintun" },
+        { "arabic": "قِطَّةٌ", "transliteration": "Qittatun" },
+        { "arabic": "سَيَّارَةٌ", "transliteration": "Sayyaratun" }
+      ],
+      "correct_answer": "طَبِيبٌ"
+    },
+    {
+      "id": 10,
+      "question_english": "Fill in the blank: هِيَ _____ (She is a teacher)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هِيَ _____ (அவள் ஒரு ஆசிரியை)",
+      "options": [
+        { "arabic": "مُعَلِّمَةٌ", "transliteration": "Mu'allimatun" },
+        { "arabic": "وَلَدٌ", "transliteration": "Waladun" },
+        { "arabic": "رَجُلٌ", "transliteration": "Rajulun" },
+        { "arabic": "طَبِيبٌ", "transliteration": "Tabibun" }
+      ],
+      "correct_answer": "مُعَلِّمَةٌ"
+    },
+    {
+      "id": 11,
+      "question_english": "Fill in the blank: أَنَا عِنْدِي _____ (I have a car)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَنَا عِنْدِي _____ (என்னிடம் கார் உள்ளது)",
+      "options": [
+        { "arabic": "سَيَّارَةٌ", "transliteration": "Sayyaratun" },
+        { "arabic": "كِتَابٌ", "transliteration": "Kitabun" },
+        { "arabic": "قَلَمٌ", "transliteration": "Qalamun" },
+        { "arabic": "بَيْتٌ", "transliteration": "Baytun" }
+      ],
+      "correct_answer": "سَيَّارَةٌ"
+    },
+    {
+      "id": 12,
+      "question_english": "Fill in the blank: الشَّمْسُ _____ (The sun is hot)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الشَّمْسُ _____ (சூரியன் சூடானது)",
+      "options": [
+        { "arabic": "حَارَّةٌ", "transliteration": "Harratun" },
+        { "arabic": "بَارِدَةٌ", "transliteration": "Baridatun" },
+        { "arabic": "جَمِيلَةٌ", "transliteration": "Jamilatun" },
+        { "arabic": "صَغِيرَةٌ", "transliteration": "Saghiratun" }
+      ],
+      "correct_answer": "حَارَّةٌ"
+    },
+    {
+      "id": 13,
+      "question_english": "Fill in the blank: الثَّلْجُ _____ (Ice is cold)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الثَّلْجُ _____ (பனி குளிரானது)",
+      "options": [
+        { "arabic": "بَارِدٌ", "transliteration": "Baridun" },
+        { "arabic": "حَارٌّ", "transliteration": "Harrun" },
+        { "arabic": "كَبِيرٌ", "transliteration": "Kabirun" },
+        { "arabic": "طَوِيلٌ", "transliteration": "Tawilun" }
+      ],
+      "correct_answer": "بَارِدٌ"
+    },
+    {
+      "id": 14,
+      "question_english": "Fill in the blank: البَابُ _____ (The door is open)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: البَابُ _____ (கதவு திறந்துள்ளது)",
+      "options": [
+        { "arabic": "مَفْتُوحٌ", "transliteration": "Maftuhun" },
+        { "arabic": "مُغْلَقٌ", "transliteration": "Mughlaqun" },
+        { "arabic": "كَسْرٌ", "transliteration": "Kasrun" },
+        { "arabic": "جَامِدٌ", "transliteration": "Jamidun" }
+      ],
+      "correct_answer": "مَفْتُوحٌ"
+    },
+    {
+      "id": 15,
+      "question_english": "Fill in the blank: النَّافِذَةُ _____ (The window is closed)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: النَّافِذَةُ _____ (சன்னல் மூடப்பட்டுள்ளது)",
+      "options": [
+        { "arabic": "مُغْلَقَةٌ", "transliteration": "Mughlaqatun" },
+        { "arabic": "مَفْتُوحَةٌ", "transliteration": "Maftuhatun" },
+        { "arabic": "كَبِيرَةٌ", "transliteration": "Kabiratun" },
+        { "arabic": "جَمِيلَةٌ", "transliteration": "Jamilatun" }
+      ],
+      "correct_answer": "مُغْلَقَةٌ"
+    },
+    {
+      "id": 16,
+      "question_english": "Fill in the blank: الكِتَابُ _____ (The book is useful)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الكِتَابُ _____ (புத்தகம் பயனுள்ளது)",
+      "options": [
+        { "arabic": "مُفِيدٌ", "transliteration": "Mufidun" },
+        { "arabic": "قَبِيحٌ", "transliteration": "Qabihun" },
+        { "arabic": "صَعْبٌ", "transliteration": "Sa'bun" },
+        { "arabic": "وَسِخٌ", "transliteration": "Wasikhun" }
+      ],
+      "correct_answer": "مُفِيدٌ"
+    },
+    {
+      "id": 17,
+      "question_english": "Fill in the blank: القَمَرُ _____ (The moon is luminous)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: القَمَرُ _____ (சந்திரன் ஒளிர்கிறது)",
+      "options": [
+        { "arabic": "مُنِيرٌ", "transliteration": "Munirun" },
+        { "arabic": "مُظْلِمٌ", "transliteration": "Muzlimun" },
+        { "arabic": "حَارٌّ", "transliteration": "Harrun" },
+        { "arabic": "صَغِيرٌ", "transliteration": "Saghirun" }
+      ],
+      "correct_answer": "مُنِيرٌ"
+    },
+    {
+      "id": 18,
+      "question_english": "Fill in the blank: اللَّيْلُ _____ (The night is dark)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: اللَّيْلُ _____ (இரவு இருண்டது)",
+      "options": [
+        { "arabic": "مُظْلِمٌ", "transliteration": "Muzlimun" },
+        { "arabic": "مُنِيرٌ", "transliteration": "Munirun" },
+        { "arabic": "حَارٌّ", "transliteration": "Harrun" },
+        { "arabic": "جَمِيلٌ", "transliteration": "Jamilun" }
+      ],
+      "correct_answer": "مُظْلِمٌ"
+    },
+    {
+      "id": 19,
+      "question_english": "Fill in the blank: السَّمَاءُ _____ (The sky is clear)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: السَّمَاءُ _____ (வானம் தெளிவாக உள்ளது)",
+      "options": [
+        { "arabic": "صَافِيَةٌ", "transliteration": "Safiyatun" },
+        { "arabic": "مُمْطِرَةٌ", "transliteration": "Mumtiratun" },
+        { "arabic": "وَسِخَةٌ", "transliteration": "Wasikhatun" },
+        { "arabic": "حَارَّةٌ", "transliteration": "Harratun" }
+      ],
+      "correct_answer": "صَافِيَةٌ"
+    },
+    {
+      "id": 20,
+      "question_english": "Fill in the blank: الأَرْضُ _____ (The earth is round/big)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الأَرْضُ _____ (பூமி பெரியது)",
+      "options": [
+        { "arabic": "وَاسِعَةٌ", "transliteration": "Wasi'atun" },
+        { "arabic": "قَصِيرَةٌ", "transliteration": "Qasiratun" },
+        { "arabic": "صَغِيرَةٌ", "transliteration": "Saghiratun" },
+        { "arabic": "حَارَّةٌ", "transliteration": "Harratun" }
+      ],
+      "correct_answer": "وَاسِعَةٌ"
+    },
+    {
+      "id": 21,
+      "question_english": "Fill in the blank: الصَّدِيقُ _____ (The friend is loyal)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الصَّدِيقُ _____ (நண்பன் விசுவாசமானவன்)",
+      "options": [
+        { "arabic": "وَفِيٌّ", "transliteration": "Wafiyyun" },
+        { "arabic": "عَدُوٌّ", "transliteration": "Aduwwun" },
+        { "arabic": "ظَالِمٌ", "transliteration": "Zalimun" },
+        { "arabic": "كَسْلَانُ", "transliteration": "Kaslanu" }
+      ],
+      "correct_answer": "وَفِيٌّ"
+    },
+    {
+      "id": 22,
+      "question_english": "Fill in the blank: الجَارُ _____ (The neighbor is kind)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الجَارُ _____ (அண்டை வீட்டுக்காரர் கனிவானவர்)",
+      "options": [
+        { "arabic": "لَطِيفٌ", "transliteration": "Latifun" },
+        { "arabic": "شَرِيرٌ", "transliteration": "Sharirun" },
+        { "arabic": "بَعِيدٌ", "transliteration": "Ba'idun" },
+        { "arabic": "صَعْبٌ", "transliteration": "Sa'bun" }
+      ],
+      "correct_answer": "لَطِيفٌ"
+    },
+    {
+      "id": 23,
+      "question_english": "Fill in the blank: الطَّعَامُ _____ (The food is delicious)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الطَّعَامُ _____ (உணவு சுவையானது)",
+      "options": [
+        { "arabic": "لَذِيذٌ", "transliteration": "Ladhidhun" },
+        { "arabic": "مُرٌّ", "transliteration": "Murrun" },
+        { "arabic": "مَالِحٌ", "transliteration": "Malihun" },
+        { "arabic": "فَاسِدٌ", "transliteration": "Fasidun" }
+      ],
+      "correct_answer": "لَذِيذٌ"
+    },
+    {
+      "id": 24,
+      "question_english": "Fill in the blank: المَاءُ _____ (The water is sweet)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: المَاءُ _____ (தண்ணீர் சுவையானது)",
+      "options": [
+        { "arabic": "عَذْبٌ", "transliteration": "Adhbun" },
+        { "arabic": "مَالِحٌ", "transliteration": "Malihun" },
+        { "arabic": "حَارٌّ", "transliteration": "Harrun" },
+        { "arabic": "ثَقِيلٌ", "transliteration": "Thaqilun" }
+      ],
+      "correct_answer": "عَذْبٌ"
+    },
+    {
+      "id": 25,
+      "question_english": "Fill in the blank: الشَّايُ _____ (The tea is hot)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الشَّايُ _____ (தேநீர் சூடானது)",
+      "options": [
+        { "arabic": "سَاخِنٌ", "transliteration": "Sakhinun" },
+        { "arabic": "بَارِدٌ", "transliteration": "Baridun" },
+        { "arabic": "حُلْوٌ", "transliteration": "Hulwun" },
+        { "arabic": "ثَقِيلٌ", "transliteration": "Thaqilun" }
+      ],
+      "correct_answer": "سَاخِنٌ"
+    },
+    {
+      "id": 26,
+      "question_english": "Fill in the blank: القَهْوَةُ _____ (The coffee is bitter)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: القَهْوَةُ _____ (காபி கசப்பானது)",
+      "options": [
+        { "arabic": "مُرَّةٌ", "transliteration": "Murratun" },
+        { "arabic": "حُلْوَةٌ", "transliteration": "Hulwatun" },
+        { "arabic": "بَارِدَةٌ", "transliteration": "Baridatun" },
+        { "arabic": "صَافِيَةٌ", "transliteration": "Safiyatun" }
+      ],
+      "correct_answer": "مُرَّةٌ"
+    },
+    {
+      "id": 27,
+      "question_english": "Fill in the blank: السَّفِينَةُ _____ (The ship is large)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: السَّفِينَةُ _____ (கப்பல் பெரியது)",
+      "options": [
+        { "arabic": "كَبِيرَةٌ", "transliteration": "Kabiratun" },
+        { "arabic": "صَغِيرَةٌ", "transliteration": "Saghiratun" },
+        { "arabic": "قَصِيرَةٌ", "transliteration": "Qasiratun" },
+        { "arabic": "بَطِيئَةٌ", "transliteration": "Bati'atun" }
+      ],
+      "correct_answer": "كَبِيرَةٌ"
+    },
+    {
+      "id": 28,
+      "question_english": "Fill in the blank: القَارِبُ _____ (The boat is small)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: القَارِبُ _____ (படகு சிறியது)",
+      "options": [
+        { "arabic": "صَغِيرٌ", "transliteration": "Saghirun" },
+        { "arabic": "كَبِيرٌ", "transliteration": "Kabirun" },
+        { "arabic": "طَوِيلٌ", "transliteration": "Tawilun" },
+        { "arabic": "ثَقِيلٌ", "transliteration": "Thaqilun" }
+      ],
+      "correct_answer": "صَغِيرٌ"
+    },
+    {
+      "id": 29,
+      "question_english": "Fill in the blank: القِطَارُ _____ (The train is fast)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: القِطَارُ _____ (ரயில் வேகமானது)",
+      "options": [
+        { "arabic": "سَرِيعٌ", "transliteration": "Sari'un" },
+        { "arabic": "بَطِيءٌ", "transliteration": "Bati'un" },
+        { "arabic": "قَصِيرٌ", "transliteration": "Qasirun" },
+        { "arabic": "ضَعِيفٌ", "transliteration": "Da'ifun" }
+      ],
+      "correct_answer": "سَرِيعٌ"
+    },
+    {
+      "id": 30,
+      "question_english": "Fill in the blank: الطَّائِرَةُ _____ (The airplane flies)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الطَّائِرَةُ _____ (விமானம் பறக்கிறது)",
+      "options": [
+        { "arabic": "تَطِيرُ", "transliteration": "Tatiru" },
+        { "arabic": "تَمْشِي", "transliteration": "Tamshii" },
+        { "arabic": "تَجْلِسُ", "transliteration": "Tajlisu" },
+        { "arabic": "تَنَامُ", "transliteration": "Tanamu" }
+      ],
+      "correct_answer": "تَطِيرُ"
+    },
+    {
+      "id": 31,
+      "question_english": "Fill in the blank: السَّيَّارَةُ _____ (The car moves)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: السَّيَّارَةُ _____ (கார் நகர்கிறது)",
+      "options": [
+        { "arabic": "تَسِيرُ", "transliteration": "Tasiru" },
+        { "arabic": "تَطِيرُ", "transliteration": "Tatiru" },
+        { "arabic": "تَسْبَحُ", "transliteration": "Tasbahu" },
+        { "arabic": "تَنْامُ", "transliteration": "Tanamu" }
+      ],
+      "correct_answer": "تَسِيرُ"
+    },
+    {
+      "id": 32,
+      "question_english": "Fill in the blank: الْقِطَّةُ _____ (The cat eats fish)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْقِطَّةُ _____ (பூனை மீனைச் சாப்பிடுகிறது)",
+      "options": [
+        { "arabic": "تَأْكُلُ", "transliteration": "Ta'kulu" },
+        { "arabic": "تَشْرَبُ", "transliteration": "Tashrabu" },
+        { "arabic": "تَقْرَأُ", "transliteration": "Taqra'u" },
+        { "arabic": "تَكْتُبُ", "transliteration": "Taktubu" }
+      ],
+      "correct_answer": "تَأْكُلُ"
+    },
+    {
+      "id": 33,
+      "question_english": "Fill in the blank: الْكَلْبُ _____ (The dog guards)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْكَلْبُ _____ (நாய் பாதுகாக்கிறது)",
+      "options": [
+        { "arabic": "يَحْرُسُ", "transliteration": "Yahrusu" },
+        { "arabic": "يَطِيرُ", "transliteration": "Yatiru" },
+        { "arabic": "يَسْبَحُ", "transliteration": "Yasbahu" },
+        { "arabic": "يَقْرَأُ", "transliteration": "Yaqra'u" }
+      ],
+      "correct_answer": "يَحْرُسُ"
+    },
+    {
+      "id": 34,
+      "question_english": "Fill in the blank: الْوَلَدُ _____ (The boy writes)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْوَلَدُ _____ (பையன் எழுதுகிறான்)",
+      "options": [
+        { "arabic": "يَكْتُبُ", "transliteration": "Yaktubu" },
+        { "arabic": "يَقْرَأُ", "transliteration": "Yaqra'u" },
+        { "arabic": "يَنَامُ", "transliteration": "Yanamu" },
+        { "arabic": "يَأْكُلُ", "transliteration": "Ya'kulu" }
+      ],
+      "correct_answer": "يَكْتُبُ"
+    },
+    {
+      "id": 35,
+      "question_english": "Fill in the blank: الْبِنْتُ _____ (The girl reads)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْبِنْتُ _____ (பெண் படிக்கிறாள்)",
+      "options": [
+        { "arabic": "تَقْرَأُ", "transliteration": "Taqra'u" },
+        { "arabic": "تَكْتُبُ", "transliteration": "Taktubu" },
+        { "arabic": "تَطْبُخُ", "transliteration": "Tatbuhu" },
+        { "arabic": "تَغْسِلُ", "transliteration": "Taghsilu" }
+      ],
+      "correct_answer": "تَقْرَأُ"
+    },
+    {
+      "id": 36,
+      "question_english": "Fill in the blank: الْمُعَلِّمُ _____ (The teacher explains)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْمُعَلِّمُ _____ (ஆசிரியர் விளக்குகிறார்)",
+      "options": [
+        { "arabic": "يَشْرَحُ", "transliteration": "Yashrahu" },
+        { "arabic": "يَلْعَبُ", "transliteration": "Yal'abu" },
+        { "arabic": "يَنَامُ", "transliteration": "Yanamu" },
+        { "arabic": "يَأْكُلُ", "transliteration": "Ya'kulu" }
+      ],
+      "correct_answer": "يَشْرَحُ"
+    },
+    {
+      "id": 37,
+      "question_english": "Fill in the blank: الطَّبِيبُ _____ (The doctor treats)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الطَّبِيبُ _____ (மருத்துவர் குணப்படுத்துகிறார்)",
+      "options": [
+        { "arabic": "يُعَالِجُ", "transliteration": "Yu'aliju" },
+        { "arabic": "يَبْنِي", "transliteration": "Yabnii" },
+        { "arabic": "يَحْرُثُ", "transliteration": "Yahruthu" },
+        { "arabic": "يَبِيعُ", "transliteration": "Yabi'u" }
+      ],
+      "correct_answer": "يُعَالِجُ"
+    },
+    {
+      "id": 38,
+      "question_english": "Fill in the blank: الْمُهَنْدِسُ _____ (The engineer builds)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْمُهَنْدِسُ _____ (பொறியாளர் கட்டுகிறார்)",
+      "options": [
+        { "arabic": "يَبْنِي", "transliteration": "Yabnii" },
+        { "arabic": "يُعَالِجُ", "transliteration": "Yu'aliju" },
+        { "arabic": "يَشْرَحُ", "transliteration": "Yashrahu" },
+        { "arabic": "يَكْتُبُ", "transliteration": "Yaktubu" }
+      ],
+      "correct_answer": "يَبْنِي"
+    },
+    {
+      "id": 39,
+      "question_english": "Fill in the blank: الْفَلَّاحُ _____ (The farmer plows)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الْفَلَّاحُ _____ (விவசாயி உழுகிறார்)",
+      "options": [
+        { "arabic": "يَحْرُثُ", "transliteration": "Yahruthu" },
+        { "arabic": "يَبْنِي", "transliteration": "Yabnii" },
+        { "arabic": "يُعَالِجُ", "transliteration": "Yu'aliju" },
+        { "arabic": "يَبِيعُ", "transliteration": "Yabi'u" }
+      ],
+      "correct_answer": "يَحْرُثُ"
+    },
+    {
+      "id": 40,
+      "question_english": "Fill in the blank: التَّاجِرُ _____ (The merchant sells)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: التَّاجِرُ _____ (வியாபாரி விற்கிறார்)",
+      "options": [
+        { "arabic": "يَبِيعُ", "transliteration": "Yabi'u" },
+        { "arabic": "يَشْتَرِي", "transliteration": "Yashtarii" },
+        { "arabic": "يَحْرُثُ", "transliteration": "Yahruthu" },
+        { "arabic": "يَبْنِي", "transliteration": "Yabnii" }
+      ],
+      "correct_answer": "يَبِيعُ"
+    },
+    {
+      "id": 41,
+      "question_english": "Fill in the blank: أَنَا أُحِبُّ _____ (I love reading)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَنَا أُحِبُّ _____ (நான் வாசிப்பை நேசிக்கிறேன்)",
+      "options": [
+        { "arabic": "القِرَاءَةَ", "transliteration": "Al-qira'ata" },
+        { "arabic": "النَّوْمَ", "transliteration": "Al-nawma" },
+        { "arabic": "الكَسَلَ", "transliteration": "Al-kasala" },
+        { "arabic": "الجُوعَ", "transliteration": "Al-ju'a" }
+      ],
+      "correct_answer": "القِرَاءَةَ"
+    },
+    {
+      "id": 42,
+      "question_english": "Fill in the blank: نَحْنُ نَحْبُّ _____ (We love Arabic)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: نَحْنُ نَحْبُّ _____ (நாங்கள் அரபியை நேசிக்கிறோம்)",
+      "options": [
+        { "arabic": "العَرَبِيَّةَ", "transliteration": "Al-'arabiyyata" },
+        { "arabic": "الجَهْلَ", "transliteration": "Al-jahla" },
+        { "arabic": "الكَذِبَ", "transliteration": "Al-kadhiba" },
+        { "arabic": "المَرَضَ", "transliteration": "Al-marada" }
+      ],
+      "correct_answer": "العَرَبِيَّةَ"
+    },
+    {
+      "id": 43,
+      "question_english": "Fill in the blank: العِلْمُ _____ (Knowledge is light)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: العِلْمُ _____ (கல்வி ஒளியாகும்)",
+      "options": [
+        { "arabic": "نُورٌ", "transliteration": "Nurun" },
+        { "arabic": "ظَلَامٌ", "transliteration": "Zalamun" },
+        { "arabic": "مَرَضٌ", "transliteration": "Maradun" },
+        { "arabic": "جَهْلٌ", "transliteration": "Jahlun" }
+      ],
+      "correct_answer": "نُورٌ"
+    },
+    {
+      "id": 44,
+      "question_english": "Fill in the blank: الجَهْلُ _____ (Ignorance is darkness)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الجَهْلُ _____ (அறியாமை இருள்)",
+      "options": [
+        { "arabic": "ظَلَامٌ", "transliteration": "Zalamun" },
+        { "arabic": "نُورٌ", "transliteration": "Nurun" },
+        { "arabic": "خَيْرٌ", "transliteration": "Khayrun" },
+        { "arabic": "حَقٌّ", "transliteration": "Haqqun" }
+      ],
+      "correct_answer": "ظَلَامٌ"
+    },
+    {
+      "id": 45,
+      "question_english": "Fill in the blank: الصَّبْرُ _____ (Patience is beautiful)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الصَّبْرُ _____ (பொறுமை அழகானது)",
+      "options": [
+        { "arabic": "جَمِيلٌ", "transliteration": "Jamilun" },
+        { "arabic": "قَبِيحٌ", "transliteration": "Qabihun" },
+        { "arabic": "سَيِّئٌ", "transliteration": "Sayyi'un" },
+        { "arabic": "مَكْرُوهٌ", "transliteration": "Makruhun" }
+      ],
+      "correct_answer": "جَمِيلٌ"
+    },
+    {
+      "id": 46,
+      "question_english": "Fill in the blank: الوَقْتُ _____ (Time is gold)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الوَقْتُ _____ (நேரம் தங்கம் போன்றது)",
+      "options": [
+        { "arabic": "كَالسَّيْفِ", "transliteration": "Kas-sayfi" },
+        { "arabic": "كَالمَاءِ", "transliteration": "Kal-ma'i" },
+        { "arabic": "كَالنَّارِ", "transliteration": "Kal-nari" },
+        { "arabic": "كَالتُّرْبَةِ", "transliteration": "Kal-turbati" }
+      ],
+      "correct_answer": "كَالسَّيْفِ"
+    },
+    {
+      "id": 47,
+      "question_english": "Fill in the blank: الصِّدْقُ _____ (Truthfulness saves)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الصِّدْقُ _____ (உண்மை காப்பாற்றும்)",
+      "options": [
+        { "arabic": "يُنْجِي", "transliteration": "Yunjii" },
+        { "arabic": "يُهْلِكُ", "transliteration": "Yuhliku" },
+        { "arabic": "يَضُرُّ", "transliteration": "Yadurru" },
+        { "arabic": "يَكْذِبُ", "transliteration": "Yakdhibu" }
+      ],
+      "correct_answer": "يُنْجِي"
+    },
+    {
+      "id": 48,
+      "question_english": "Fill in the blank: الكَذِبُ _____ (Lying destroys)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الكَذِبُ _____ (பொய் அழிக்கும்)",
+      "options": [
+        { "arabic": "مَهْلَكَةٌ", "transliteration": "Mahlakatun" },
+        { "arabic": "نَجَاةٌ", "transliteration": "Najatun" },
+        { "arabic": "فَوْزٌ", "transliteration": "Fawzun" },
+        { "arabic": "عِزٌّ", "transliteration": "'Izzun" }
+      ],
+      "correct_answer": "مَهْلَكَةٌ"
+    },
+    {
+      "id": 49,
+      "question_english": "Fill in the blank: النَّظَافَةُ مِنَ _____ (Cleanliness is from faith)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: النَّظَافَةُ مِنَ _____ (சுத்தம் ஈமானில் பாதியாகும்)",
+      "options": [
+        { "arabic": "الإِيمَانِ", "transliteration": "Al-imani" },
+        { "arabic": "الكُفْرِ", "transliteration": "Al-kufri" },
+        { "arabic": "الجَهْلِ", "transliteration": "Al-jahli" },
+        { "arabic": "المَرَضِ", "transliteration": "Al-maradi" }
+      ],
+      "correct_answer": "الإِيمَانِ"
+    },
+    {
+      "id": 50,
+      "question_english": "Fill in the blank: الصَّلَاةُ عِمَادُ _____ (Prayer is the pillar of religion)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الصَّلَاةُ عِمَادُ _____ (தொழுகை மார்க்கத்தின் தூணாகும்)",
+      "options": [
+        { "arabic": "الدِّينِ", "transliteration": "Ad-dini" },
+        { "arabic": "الدُّنْيَا", "transliteration": "Ad-dunya" },
+        { "arabic": "البَيْتِ", "transliteration": "Al-bayti" },
+        { "arabic": "العَمَلِ", "transliteration": "Al-'amali" }
+      ],
+      "correct_answer": "الدِّينِ"
+    },
+    {
+      "id": 51,
+      "question_english": "Fill in the blank: أَنَا أَسْكُنُ فِي _____ (I live in a house)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَنَا أَسْكُنُ فِي _____ (நான் வீட்டில் வசிக்கிறேன்)",
+      "options": [
+        { "arabic": "بَيْتٍ", "transliteration": "Baytin" },
+        { "arabic": "سُوقٍ", "transliteration": "Suqin" },
+        { "arabic": "بَنْكٍ", "transliteration": "Bankin" },
+        { "arabic": "مَطْعَمٍ", "transliteration": "Mat'amin" }
+      ],
+      "correct_answer": "بَيْتٍ"
+    },
+    {
+      "id": 52,
+      "question_english": "Fill in the blank: الطَّالِبُ يَجْلِسُ في _____ (The student sits in the class)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الطَّالِبُ يَجْلِسُ في _____ (மாணவன் வகுப்பில் உட்காருகிறான்)",
+      "options": [
+        { "arabic": "القِسْمِ", "transliteration": "Al-qismi" },
+        { "arabic": "السَّمَاءِ", "transliteration": "As-sama'i" },
+        { "arabic": "البَحْرِ", "transliteration": "Al-bahri" },
+        { "arabic": "الشَّارِعِ", "transliteration": "As-shari'i" }
+      ],
+      "correct_answer": "القِسْمِ"
+    },
+    {
+      "id": 53,
+      "question_english": "Fill in the blank: هَذَا قَلَمٌ وَذَلِكَ _____ (This is a pen and that is a book)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هَذَا قَلَمٌ وَذَلِكَ _____ (இது பேனா மற்றும் அது புத்தகம்)",
+      "options": [
+        { "arabic": "كِتَابٌ", "transliteration": "Kitabun" },
+        { "arabic": "سَيَّارَةٌ", "transliteration": "Sayyaratun" },
+        { "arabic": "بَابٌ", "transliteration": "Babun" },
+        { "arabic": "قِطَّةٌ", "transliteration": "Qittatun" }
+      ],
+      "correct_answer": "كِتَابٌ"
+    },
+    {
+      "id": 54,
+      "question_english": "Fill in the blank: عِنْدِي قَلَمٌ _____ (I have a beautiful pen)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: عِنْدِي قَلَمٌ _____ (என்னிடம் அழகான பேனா உள்ளது)",
+      "options": [
+        { "arabic": "جَمِيلٌ", "transliteration": "Jamilun" },
+        { "arabic": "قَبِيحٌ", "transliteration": "Qabihun" },
+        { "arabic": "وَسِخٌ", "transliteration": "Wasikhun" },
+        { "arabic": "صَعْبٌ", "transliteration": "Sa'bun" }
+      ],
+      "correct_answer": "جَمِيلٌ"
+    },
+    {
+      "id": 55,
+      "question_english": "Fill in the blank: البِنْتُ تَلْبَسُ _____ (The girl wears a dress/shirt)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: البِنْتُ تَلْبَسُ _____ (பெண் உடை அணிகிறாள்)",
+      "options": [
+        { "arabic": "فُسْتَانًا", "transliteration": "Fustanan" },
+        { "arabic": "قَلَمًا", "transliteration": "Qalaman" },
+        { "arabic": "كِتَابًا", "transliteration": "Kitaban" },
+        { "arabic": "مَاءً", "transliteration": "Ma'an" }
+      ],
+      "correct_answer": "فُسْتَانًا"
+    },
+    {
+      "id": 56,
+      "question_english": "Fill in the blank: الرَّجُلُ يَرْكَبُ _____ (The man rides a horse)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الرَّجُلُ يَرْكَبُ _____ (மனிதன் குதிரை மீது ஏறுகிறான்)",
+      "options": [
+        { "arabic": "حِصَانًا", "transliteration": "Hisanan" },
+        { "arabic": "سَيَّارَةً", "transliteration": "Sayyaratan" },
+        { "arabic": "طَائِرَةً", "transliteration": "Ta'iratan" },
+        { "arabic": "قِطَارًا", "transliteration": "Qitaran" }
+      ],
+      "correct_answer": "حِصَانًا"
+    },
+    {
+      "id": 57,
+      "question_english": "Fill in the blank: الأَسَدُ يَسْكُنُ في _____ (The lion lives in the forest)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الأَسَدُ يَسْكُنُ في _____ (சிங்கம் காட்டில் வசிக்கிறது)",
+      "options": [
+        { "arabic": "الغَابَةِ", "transliteration": "Al-ghabati" },
+        { "arabic": "البَيْتِ", "transliteration": "Al-bayti" },
+        { "arabic": "المَدْرَسَةِ", "transliteration": "Al-madrasati" },
+        { "arabic": "المَسْجِدِ", "transliteration": "Al-masjidi" }
+      ],
+      "correct_answer": "الغَابَةِ"
+    },
+    {
+      "id": 58,
+      "question_english": "Fill in the blank: العُصْفُورُ يَطِيرُ في _____ (The sparrow flies in the sky)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: العُصْفُورُ يَطِيرُ في _____ (சிட்டுக்குருவி வானத்தில் பறக்கிறது)",
+      "options": [
+        { "arabic": "السَّمَاءِ", "transliteration": "As-sama'i" },
+        { "arabic": "الأَرْضِ", "transliteration": "Al-ardi" },
+        { "arabic": "البَحْرِ", "transliteration": "Al-bahri" },
+        { "arabic": "البَيْتِ", "transliteration": "Al-bayti" }
+      ],
+      "correct_answer": "السَّمَاءِ"
+    },
+    {
+      "id": 59,
+      "question_english": "Fill in the blank: السَّمَكُ يَسْبَحُ في _____ (The fish swims in water/sea)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: السَّمَكُ يَسْبَحُ في _____ (மீன் நீரில் நீந்துகிறது)",
+      "options": [
+        { "arabic": "المَاءِ", "transliteration": "Al-ma'i" },
+        { "arabic": "الهَوَاءِ", "transliteration": "Al-hawa'i" },
+        { "arabic": "النَّارِ", "transliteration": "Al-nari" },
+        { "arabic": "التُّرْبَةِ", "transliteration": "Al-turbati" }
+      ],
+      "correct_answer": "المَاءِ"
+    },
+    {
+      "id": 60,
+      "question_english": "Fill in the blank: القَمَرُ يَظْهَرُ في _____ (The moon appears at night)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: القَمَرُ يَظْهَرُ في _____ (சந்திரன் இரவில் தோன்றுகிறது)",
+      "options": [
+        { "arabic": "اللَّيْلِ", "transliteration": "Al-layli" },
+        { "arabic": "النَّهَارِ", "transliteration": "An-nahari" },
+        { "arabic": "الصَّبَاحِ", "transliteration": "As-sabahi" },
+        { "arabic": "الظُّهْرِ", "transliteration": "Al-zuhri" }
+      ],
+      "correct_answer": "اللَّيْلِ"
+    },
+    {
+      "id": 61,
+      "question_english": "Fill in the blank: الشَّمْسُ تَطْلُعُ في _____ (The sun rises in the morning)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الشَّمْسُ تَطْلُعُ في _____ (சூரியன் காலையில் உதிக்கிறது)",
+      "options": [
+        { "arabic": "الصَّبَاحِ", "transliteration": "As-sabahi" },
+        { "arabic": "اللَّيْلِ", "transliteration": "Al-layli" },
+        { "arabic": "المَسَاءِ", "transliteration": "Al-masa'i" },
+        { "arabic": "المُنْتَصَفِ", "transliteration": "Al-muntasafi" }
+      ],
+      "correct_answer": "الصَّبَاحِ"
+    },
+    {
+      "id": 62,
+      "question_english": "Fill in the blank: أَنَا أَتَكَلَّمُ لُغَةَ _____ (I speak the Arabic language)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَنَا أَتَكَلَّمُ لُغَةَ _____ (நான் அரபு மொழி பேசுகிறேன்)",
+      "options": [
+        { "arabic": "العَرَبِيَّةِ", "transliteration": "Al-'arabiyyati" },
+        { "arabic": "فَرَنْسِيَّةٍ", "transliteration": "Faransiyyatin" },
+        { "arabic": "صِينِيَّةٍ", "transliteration": "Siniyyatin" },
+        { "arabic": "أَلْمَانِيَّةٍ", "transliteration": "Almaniyyatin" }
+      ],
+      "correct_answer": "العَرَبِيَّةِ"
+    },
+    {
+      "id": 63,
+      "question_english": "Fill in the blank: هَذَا وَلَدٌ _____ (This is a smart boy)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هَذَا وَلَدٌ _____ (இது ஒரு புத்திசாலி பையன்)",
+      "options": [
+        { "arabic": "ذَكِيٌّ", "transliteration": "Zakiyyun" },
+        { "arabic": "غَبِيٌّ", "transliteration": "Gabiyyun" },
+        { "arabic": "كَسْلَانُ", "transliteration": "Kaslanu" },
+        { "arabic": "مَرِيضٌ", "transliteration": "Maridun" }
+      ],
+      "correct_answer": "ذَكِيٌّ"
+    },
+    {
+      "id": 64,
+      "question_english": "Fill in the blank: هَذِهِ بِنْتٌ _____ (This is a beautiful girl)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: هَذِهِ بِنْتٌ _____ (இது ஒரு அழகான பெண்)",
+      "options": [
+        { "arabic": "جَمِيلَةٌ", "transliteration": "Jamilatun" },
+        { "arabic": "قَبِيحَةٌ", "transliteration": "Qabihatun" },
+        { "arabic": "وَسِخَةٌ", "transliteration": "Wasikhatun" },
+        { "arabic": "حَزِينَةٌ", "transliteration": "Hazinatun" }
+      ],
+      "correct_answer": "جَمِيلَةٌ"
+    },
+    {
+      "id": 65,
+      "question_english": "Fill in the blank: السَّفَرُ بِالقِطَارِ _____ (Travel by train is fun)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: السَّفَرُ بِالقِطَارِ _____ (ரயில் பயணம் சுவாரஸ்யமானது)",
+      "meaning_english": "Travel by train is fun",
+      "options": [
+        { "arabic": "مُمْتِعٌ", "transliteration": "Mumti'un" },
+        { "arabic": "مُتْعِبٌ", "transliteration": "Mut'ibun" },
+        { "arabic": "قَبِيحٌ", "transliteration": "Qabihun" },
+        { "arabic": "وَسِخٌ", "transliteration": "Wasikhun" }
+      ],
+      "correct_answer": "مُمْتِعٌ"
+    },
+    {
+      "id": 66,
+      "question_english": "Fill in the blank: العَمَلُ الجَادُّ يُؤَدِّي إِلَى _____ (Hard work leads to success)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: العَمَلُ الجَادُّ يُؤَدِّي إِلَى _____ (கடின உழைப்பு வெற்றிக்கு வழிவகுக்கும்)",
+      "options": [
+        { "arabic": "النَّجَاحِ", "transliteration": "An-najahi" },
+        { "arabic": "الفَشَلِ", "transliteration": "Al-fashali" },
+        { "arabic": "الكَسَلِ", "transliteration": "Al-kasali" },
+        { "arabic": "المَرَضِ", "transliteration": "Al-maradi" }
+      ],
+      "correct_answer": "النَّجَاحِ"
+    },
+    {
+      "id": 67,
+      "question_english": "Fill in the blank: الكَسَلُ يُؤَدِّي إِلَى _____ (Laziness leads to failure)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الكَسَلُ يُؤَدِّي إِلَى _____ (சோம்பேறித்தனம் தோல்விக்கு வழிவகுக்கும்)",
+      "options": [
+        { "arabic": "الفَشَلِ", "transliteration": "Al-fashali" },
+        { "arabic": "النَّجَاحِ", "transliteration": "An-najahi" },
+        { "arabic": "الفَوْزِ", "transliteration": "Al-fawzi" },
+        { "arabic": "السَّعَادَةِ", "transliteration": "As-sa'adati" }
+      ],
+      "correct_answer": "الفَشَلِ"
+    },
+    {
+      "id": 68,
+      "question_english": "Fill in the blank: الصَّدِيقُ يَنْفَعُ فِي _____ (A friend helps in hardship)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الصَّدِيقُ يَنْفَعُ فِي _____ (நெருக்கடியில் நண்பன் உதவுவான்)",
+      "options": [
+        { "arabic": "الشِّدَّةِ", "transliteration": "Ash-shiddati" },
+        { "arabic": "الرَّخَاءِ", "transliteration": "Ar-rakha'i" },
+        { "arabic": "النَّوْمِ", "transliteration": "An-nawmi" },
+        { "arabic": "اللَّعِبِ", "transliteration": "Al-la'ibi" }
+      ],
+      "correct_answer": "الشِّدَّةِ"
+    },
+    {
+      "id": 69,
+      "question_english": "Fill in the blank: زُورُوا المَرِيضَ لِتَكْسِبُوا _____ (Visit the patient to gain reward)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: زُورُوا المَرِيضَ لِتَكْسِبُوا _____ (நலம் விசாரிக்கச் செல்லுங்கள்)",
+      "options": [
+        { "arabic": "الأَجْرَ", "transliteration": "Al-ajra" },
+        { "arabic": "الذَّنْبَ", "transliteration": "Al-dhanba" },
+        { "arabic": "العِقَابَ", "transliteration": "Al-'iqaba" },
+        { "arabic": " الخَسَارَةَ", "transliteration": "Al-khasarata" }
+      ],
+      "correct_answer": "الأَجْرَ"
+    },
+    {
+      "id": 70,
+      "question_english": "Fill in the blank: اِقْرَأْ كِتَابَ _____ (Read the book of Allah / Quran)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: اِقْرَأْ كِتَابَ _____ (அல்லாஹ்வின் புத்தகத்தைப் படியுங்கள்)",
+      "options": [
+        { "arabic": "اللَّهِ", "transliteration": "Allahi" },
+        { "arabic": "الدُّنْيَا", "transliteration": "Ad-dunya" },
+        { "arabic": "الْمَالِ", "transliteration": "Al-mali" },
+        { "arabic": "اللَّعِبِ", "transliteration": "Al-la'ibi" }
+      ],
+      "correct_answer": "اللَّهِ"
+    },
+    {
+      "id": 71,
+      "question_english": "Fill in the blank: صَلِّ الصَّلَوَاتِ الخَمْسَ في _____ (Pray the five prayers in the mosque)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: صَلِّ الصَّلَوَاتِ الخَمْسَ في _____ (ஐவேளை தொழுகையைப் பள்ளிவாசலில் தொளுங்கள்)",
+      "options": [
+        { "arabic": "المَسْجِدِ", "transliteration": "Al-masjidi" },
+        { "arabic": "البَيْتِ", "transliteration": "Al-bayti" },
+        { "arabic": "السُّوقِ", "transliteration": "Al-suqi" },
+        { "arabic": "المَلْعَبِ", "transliteration": "Al-mal'abi" }
+      ],
+      "correct_answer": "المَسْجِدِ"
+    },
+    {
+      "id": 72,
+      "question_english": "Fill in the blank: تَصَدَّقْ عَلَى _____ (Give charity to the poor)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: تَصَدَّقْ عَلَى _____ (ஏழைகளுக்குத் தர்மம் செய்யுங்கள்)",
+      "options": [
+        { "arabic": "الفَقِيرِ", "transliteration": "Al-faqiri" },
+        { "arabic": "الغَنِيِّ", "transliteration": "Al-ghaniyyi" },
+        { "arabic": "القَوِيِّ", "transliteration": "Al-qawiyyi" },
+        { "arabic": "المَلِكِ", "transliteration": "Al-maliki" }
+      ],
+      "correct_answer": "الفَقِيرِ"
+    },
+    {
+      "id": 73,
+      "question_english": "Fill in the blank: أَكْرِمِ _____ (Honor your guest)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: أَكْرِمِ _____ (விருந்தினரைக் கௌரவியுங்கள்)",
+      "options": [
+        { "arabic": "الضَّيْفَ", "transliteration": "Ad-dayfa" },
+        { "arabic": "العَدُوَّ", "transliteration": "Al-aduwwa" },
+        { "arabic": "اللِّصَّ", "transliteration": "Al-lissa" },
+        { "arabic": "الجَاهِلَ", "transliteration": "Al-jahila" }
+      ],
+      "correct_answer": "الضَّيْفَ"
+    },
+    {
+      "id": 74,
+      "question_english": "Fill in the blank: اسْتَعِنْ بِـ _____ (Seek help from Allah)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: اسْتَعِنْ بِـ _____ (அல்லாஹ்விடம் உதவி தேடுங்கள்)",
+      "options": [
+        { "arabic": "اللَّهِ", "transliteration": "Allahi" },
+        { "arabic": "النَّاسِ", "transliteration": "An-nasi" },
+        { "arabic": "الْمَالِ", "transliteration": "Al-mali" },
+        { "arabic": "الكِتَابِ", "transliteration": "Al-kitabi" }
+      ],
+      "correct_answer": "اللَّهِ"
+    },
+    {
+      "id": 75,
+      "question_english": "Fill in the blank: رَبِّي _____ (My Lord is Allah)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: رَبِّي _____ (என் இறைவன் அல்லாஹ்)",
+      "options": [
+        { "arabic": "اللَّهُ", "transliteration": "Allahu" },
+        { "arabic": "مُحَمَّدٌ", "transliteration": "Muhammadun" },
+        { "arabic": "القُرْآنُ", "transliteration": "Al-qur'anu" },
+        { "arabic": "الإِسْلَامُ", "transliteration": "Al-islamu" }
+      ],
+      "correct_answer": "اللَّهُ"
+    },
+    {
+      "id": 76,
+      "question_english": "Fill in the blank: نَبِيِّي _____ (My Prophet is Muhammad)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: نَبِيِّي _____ (என் நபி முஹம்மது)",
+      "options": [
+        { "arabic": "مُحَمَّدٌ", "transliteration": "Muhammadun" },
+        { "arabic": "إِبْرَاهِيمُ", "transliteration": "Ibrahimu" },
+        { "arabic": "عِيسَى", "transliteration": " 'Isaa" },
+        { "arabic": "مُوسَى", "transliteration": "Musa" }
+      ],
+      "correct_answer": "مُحَمَّدٌ"
+    },
+    {
+      "id": 77,
+      "question_english": "Fill in the blank: دِينِي _____ (My religion is Islam)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: دِينِي _____ (என் மார்க்கம் இஸ்லாம்)",
+      "options": [
+        { "arabic": "الإِسْلَامُ", "transliteration": "Al-islamu" },
+        { "arabic": "العَرَبِيَّةُ", "transliteration": "Al-'arabiyyata" },
+        { "arabic": "المَسْجِدُ", "transliteration": "Al-masjidu" },
+        { "arabic": "القُرْآنُ", "transliteration": "Al-qur'anu" }
+      ],
+      "correct_answer": "الإِسْلَامُ"
+    },
+    {
+      "id": 78,
+      "question_english": "Fill in the blank: كِتَابِي _____ (My book is the Quran)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: كِتَابِي _____ (என் புத்தகம் குர்ஆன்)",
+      "options": [
+        { "arabic": "القُرْآنُ", "transliteration": "Al-qur'anu" },
+        { "arabic": "التَّوْرَاةُ", "transliteration": "Al-tawratu" },
+        { "arabic": "الإِنْجِيلُ", "transliteration": "Al-injilu" },
+        { "arabic": "الزَّبُورُ", "transliteration": "Al-zaburu" }
+      ],
+      "correct_answer": "القُرْآنُ"
+    },
+    {
+      "id": 79,
+      "question_english": "Fill in the blank: قِبْلَتِي _____ (My Qibla is the Kaaba)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: قِبْلَتِي _____ (என் கிப்லா கஅபா)",
+      "options": [
+        { "arabic": "الكَعْبَةُ", "transliteration": "Al-ka'batu" },
+        { "arabic": "المَسْجِدُ", "transliteration": "Al-masjidu" },
+        { "arabic": "المَدِينَةُ", "transliteration": "Al-madinatu" },
+        { "arabic": "مَكَّةُ", "transliteration": "Makkatu" }
+      ],
+      "correct_answer": "الكَعْبَةُ"
+    },
+    {
+      "id": 80,
+      "question_english": "Fill in the blank: إِخْوَتِي هُمْ _____ (My brothers are Muslims)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: إِخْوَتِي هُمْ _____ (என் சகோதரர்கள் முஸ்லிம்கள்)",
+      "options": [
+        { "arabic": "المُسْلِمُونَ", "transliteration": "Al-muslimuna" },
+        { "arabic": "الكَافِرُونَ", "transliteration": "Al-kafiruna" },
+        { "arabic": "المُشْرِكُونَ", "transliteration": "Al-mushrikuna" },
+        { "arabic": "الظَّالِمُونَ", "transliteration": "Al-zalimuna" }
+      ],
+      "correct_answer": "المُسْلِمُونَ"
+    },
+    {
+      "id": 81,
+      "question_english": "Fill in the blank: العَالِمُ يَخْشَى _____ (The scholar fears Allah)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: العَالِمُ يَخْشَى _____ (அறிஞர் அல்லாஹ்வைப் பயப்படுகிறார்)",
+      "options": [
+        { "arabic": "اللَّهَ", "transliteration": "Allaha" },
+        { "arabic": "الدُّنْيَا", "transliteration": "Ad-dunya" },
+        { "arabic": "المَالَ", "transliteration": "Al-mala" },
+        { "arabic": "النَّاسَ", "transliteration": "An-nasa" }
+      ],
+      "correct_answer": "اللَّهَ"
+    },
+    {
+      "id": 82,
+      "question_english": "Fill in the blank: الشَّاكِرُ يَنَالُ _____ (The grateful one attains blessings)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الشَّاكِرُ يَنَالُ _____ (நன்றியுடையோர் நற்கூலி பெறுவர்)",
+      "options": [
+        { "arabic": "النِّعْمَةَ", "transliteration": "An-ni'amata" },
+        { "arabic": "العَذَابَ", "transliteration": "Al-'adaba" },
+        { "arabic": "المَرَضَ", "transliteration": "Al-marada" },
+        { "arabic": "الفَشَلَ", "transliteration": "Al-fashala" }
+      ],
+      "correct_answer": "النِّعْمَةَ"
+    },
+    {
+      "id": 83,
+      "question_english": "Fill in the blank: الظَّالِمُ لَا يُפْلِحُ _____ (The unjust does not succeed)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الظَّالِمُ لَا يُفْلِحُ _____ (அநீதி இழைத்தவர் வெற்றி பெற மாட்டார்)",
+      "options": [
+        { "arabic": "أَبَدًا", "transliteration": "Abadan" },
+        { "arabic": "دَائِمًا", "transliteration": "Da'iman" },
+        { "arabic": "قَرِيبًا", "transliteration": "Qariban" },
+        { "arabic": "فَوْرًا", "transliteration": "Fawran" }
+      ],
+      "correct_answer": "أَبَدًا"
+    },
+    {
+      "id": 84,
+      "question_english": "Fill in the blank: المَرْءُ مَعَ مَنْ _____ (A person is with whom he loves)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: المَرْءُ مَعَ مَنْ _____ (மனிதன் தான் நேசிப்பவனுடன் இருப்பான்)",
+      "options": [
+        { "arabic": "أَحَبَّ", "transliteration": "Ahabba" },
+        { "arabic": "كَرِهَ", "transliteration": "Kariha" },
+        { "arabic": "ظَلَمَ", "transliteration": "Zalama" },
+        { "arabic": "هَرَبَ", "transliteration": "Haraba" }
+      ],
+      "correct_answer": "أَحَبَّ"
+    },
+    {
+      "id": 85,
+      "question_english": "Fill in the blank: خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلـ _____ (The best of people are those most beneficial to people)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلـ _____ (மக்களில் சிறந்தவர் மக்களுக்கு அதிகம் பயனுள்ளவராவார்)",
+      "options": [
+        { "arabic": "نَّاسِ", "transliteration": "Nasi" },
+        { "arabic": "ـأَحْجَارِ", "transliteration": "Ahjari" },
+        { "arabic": "ـأَحْوَامِ", "transliteration": "Ahwami" },
+        { "arabic": "ـأَشْجَارِ", "transliteration": "Ashjari" }
+      ],
+      "correct_answer": "نَّاسِ"
+    },
+    {
+      "id": 86,
+      "question_english": "Fill in the blank: الدَّالدُ فِي الصِّغَرِ كَالـ _____ (Learning in childhood is like carving on stone)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: العِلْمُ فِي الصِّغَرِ كَالـ _____ (இளம் வயதில் கல்வி கற்பது கல்லில் செதுக்குவது போன்றது)",
+      "options": [
+        { "arabic": "نَقْشِ عَلى الحَجَرِ", "transliteration": "Naqshi 'ala al-hajari" },
+        { "arabic": "كَتْبٍ عَلَى المَاءِ", "transliteration": "Katbin 'ala al-ma'i" },
+        { "arabic": "رَسْمٍ عَلَى الرِّيحِ", "transliteration": "Rasmin 'ala al-rihi" },
+        { "arabic": "بِنَاءٍ عَلَى الرَّمْلِ", "transliteration": "Bina'in 'ala al-ramli" }
+      ],
+      "correct_answer": "نَقْشِ عَلى الحَجَرِ"
+    },
+    {
+      "id": 87,
+      "question_english": "Fill in the blank: رِضَى اللَّهِ مِنْ رِضَى _____ (Allah's pleasure is from the parents' pleasure)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: رِضَى اللَّهِ مِنْ رِضَى _____ (அல்லாஹ்வின் திருப்தி பெற்றோரின் திருப்தியில் உள்ளது)",
+      "options": [
+        { "arabic": "الوَالِدَيْنِ", "transliteration": "Al-walidayni" },
+        { "arabic": "المُعَلِّمِ", "transliteration": "Al-mu'allimi" },
+        { "arabic": "الحَاكِمِ", "transliteration": "Al-hakimi" },
+        { "arabic": "الصَّدِيقِ", "transliteration": "Al-sadiqi" }
+      ],
+      "correct_answer": "الوَالِدَيْنِ"
+    },
+    {
+      "id": 88,
+      "question_english": "Fill in the blank: الجَنَّةُ تَحْتَ أَقْدَامِ _____ (Paradise is under the feet of mothers)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الجَنَّةُ تَحْتَ أَقْدَامِ _____ (சொர்க்கம் தாயின் காலடியில் உள்ளது)",
+      "options": [
+        { "arabic": "الأُمَّهَاتِ", "transliteration": "Al-ummahati" },
+        { "arabic": "الآبَاءِ", "transliteration": "Al-aba'i" },
+        { "arabic": "العُلَمَاءِ", "transliteration": "Al-'ulama'i" },
+        { "arabic": "المُعَلِّمِينَ", "transliteration": "Al-mu'allimina" }
+      ],
+      "correct_answer": "الأُمَّهَاتِ"
+    },
+    {
+      "id": 89,
+      "question_english": "Fill in the blank: اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ _____ (The upper hand is better than the lower hand)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ _____ (கொடுக்கும் கை வாங்கும் கையை விடச் சிறந்ததாகும்)",
+      "options": [
+        { "arabic": "السُّفْلَى", "transliteration": "Al-sufla" },
+        { "arabic": "اليُمْنَى", "transliteration": "Al-yumna" },
+        { "arabic": "اليُسْرَى", "transliteration": "Al-yusra" },
+        { "arabic": "اليُسْرَى", "transliteration": "Al-yusra" }
+      ],
+      "correct_answer": "السُّفْلَى"
+    },
+    {
+      "id": 90,
+      "question_english": "Fill in the blank: المُسْلِمُ مَنْ سَلِمَ النَّاسُ مِنْ _____ (A Muslim is one from whose tongue and hand people are safe)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: المُسْلِمُ مَنْ سَلِمَ النَّاسُ مِنْ _____ (முஸ்லிம் என்பவன் தனது நாவிலும் கையிலும் மற்றவர்கள் பாதுகாப்புப் பெறுபவன்)",
+      "options": [
+        { "arabic": "لِسَانِهِ وَيَدِهِ", "transliteration": "Lisanihi wa yadihi" },
+        { "arabic": "عَيْنِهِ وَأُذُنِهِ", "transliteration": "Aynihi wa udhunihi" },
+        { "arabic": "قَلْبِهِ وَعَقْلِهِ", "transliteration": "Qalbihi wa 'aqlihi" },
+        { "arabic": "بَيْتِهِ وَمَالِهِ", "transliteration": "Baytihi wa malihi" }
+      ],
+      "correct_answer": "لِسَانِهِ وَيَدِهِ"
+    },
+    {
+      "id": 91,
+      "question_english": "Fill in the blank: لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِـ _____ (None of you truly believes until he loves for his brother what he loves for himself)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِـ _____ (தனக்கு விரும்புவதைச் சகோதரனுக்கும் விரும்பும் வரை உங்களில் யாரும் மூமின் ஆக மாட்டார்)",
+      "options": [
+        { "arabic": "نَفْسِهِ", "transliteration": "Nafsihi" },
+        { "arabic": "عَدُوِّهِ", "transliteration": "Aduwwihi" },
+        { "arabic": "جَارِهِ", "transliteration": "Jarihi" },
+        { "arabic": "أَخِيهِ", "transliteration": "Akhihi" }
+      ],
+      "correct_answer": "نَفْسِهِ"
+    },
+    {
+      "id": 92,
+      "question_english": "Fill in the blank: الدِّينُ المُعَامَلَةُ _____ (Religion is good treatment)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الدِّينُ المُعَامَلَةُ _____ (மார்க்கம் என்பது நல்நடத்தையாகும்)",
+      "options": [
+        { "arabic": "الحَسَنَةُ", "transliteration": "Al-hasanatu" },
+        { "arabic": "السَّيِّئَةُ", "transliteration": "Al-sayyi'atu" },
+        { "arabic": "القَبِيحَةُ", "transliteration": "Al-qabihatun" },
+        { "arabic": "الضَّارَّةُ", "transliteration": "Al-darratu" }
+      ],
+      "correct_answer": "الحَسَنَةُ"
+    },
+    {
+      "id": 93,
+      "question_english": "Fill in the blank: الكَلِمَةُ الطَّيِّبَةُ _____ (A good word is charity)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الكَلِمَةُ الطَّيِّبَةُ _____ (இனிய சொல் தர்மமாகும்)",
+      "options": [
+        { "arabic": "صَدَقَةٌ", "transliteration": "Sadaqatun" },
+        { "arabic": "ظُلْمٌ", "transliteration": "Zulmun" },
+        { "arabic": "خَطَأٌ", "transliteration": "Khata'un" },
+        { "arabic": "ذَنْبٌ", "transliteration": "Dhanbun" }
+      ],
+      "correct_answer": "صَدَقَةٌ"
+    },
+    {
+      "id": 94,
+      "question_english": "Fill in the blank: تَبَسُّمُكَ في وَجْهِ أَخِيكَ _____ (Smiling in your brother's face is charity)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: تَبَسُّمُكَ في وَجْهِ أَخِيكَ _____ (சகோதரனைப் பார்த்துப் புன்னகைப்பதும் தர்மமாகும்)",
+      "options": [
+        { "arabic": "صَدَقَةٌ", "transliteration": "Sadaqatun" },
+        { "arabic": "خَطِيئَةٌ", "transliteration": "Khati'atun" },
+        { "arabic": "جَرِيمَةٌ", "transliteration": "Jarimatun" },
+        { "arabic": "عَيْبٌ", "transliteration": "'Aybun" }
+      ],
+      "correct_answer": "صَدَقَةٌ"
+    },
+    {
+      "id": 95,
+      "question_english": "Fill in the blank: الأَنَاتُ مِنَ اللَّهِ وَالْعَجَلَةُ مِنَ _____ (Deliberation is from Allah and haste is from Satan)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الأَنَاتُ مِنَ اللَّهِ وَالْعَجَلَةُ مِنَ _____ (அவசரம் ஷைத்தானிடமிருந்து வந்தது)",
+      "options": [
+        { "arabic": "الشَّيْطَانِ", "transliteration": "Ash-shaytani" },
+        { "arabic": "المَلَكِ", "transliteration": "Al-malaki" },
+        { "arabic": "البَشَرِ", "transliteration": "Al-bashari" },
+        { "arabic": "الطَّبِيعَةِ", "transliteration": "Al-tabi'ati" }
+      ],
+      "correct_answer": "الشَّيْطَانِ"
+    },
+    {
+      "id": 96,
+      "question_english": "Fill in the blank: المُؤْمِنُ المِرْآةُ لِـ _____ (A believer is a mirror to his brother)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: المُؤْمِنُ مِرْآةُ _____ (நம்பிக்கையாளர் மற்றவருக்குக் கண்ணாடியாவார்)",
+      "options": [
+        { "arabic": "أَخِيهِ", "transliteration": "Akhihi" },
+        { "arabic": "عَدُوِّهِ", "transliteration": "Aduwwihi" },
+        { "arabic": "نَفْسِهِ", "transliteration": "Nafsihi" },
+        { "arabic": "جَارِهِ", "transliteration": "Jarihi" }
+      ],
+      "correct_answer": "أَخِيهِ"
+    },
+    {
+      "id": 97,
+      "question_english": "Fill in the blank: مَنْ لَا يَرْحَمْ لَا _____ (He who does not show mercy will not be shown mercy)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: مَنْ لَا يَرْحَمْ لَا _____ (கருணை காட்டாதவருக்குக் கருணை காட்டப்படாது)",
+      "options": [
+        { "arabic": "يُرْحَمْ", "transliteration": "Yurham" },
+        { "arabic": "يُحَبَّ", "transliteration": "Yuhabba" },
+        { "arabic": "يُكْرَمْ", "transliteration": "Yukram" },
+        { "arabic": "يُعَزَّ", "transliteration": "Yu'azza" }
+      ],
+      "correct_answer": "يُرْحَمْ"
+    },
+    {
+      "id": 98,
+      "question_english": "Fill in the blank: الدُّعَاءُ مُخُّ _____ (Supplication is the core of worship)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: الدُّعَاءُ مُخُّ _____ (பிரார்த்தனை வணக்கத்தின் மூளையாகும்)",
+      "options": [
+        { "arabic": "العِبَادَةِ", "transliteration": "Al-'ibadati" },
+        { "arabic": "الدِّينِ", "transliteration": "Ad-dini" },
+        { "arabic": "الإِيمَانِ", "transliteration": "Al-imani" },
+        { "arabic": "الحَيَاةِ", "transliteration": "Al-hayati" }
+      ],
+      "correct_answer": "العِبَادَةِ"
+    },
+    {
+      "id": 99,
+      "question_english": "Fill in the blank: النَّادِمُ كَـ _____ (The one who repents is like one who has no sin)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: النَّادِمُ مِنَ الذَّنْبِ كَمَنْ لَا _____ (பாவத்திலிருந்து திருந்தியவர் பாவம் செய்யாதவரைப் போன்றவராவார்)",
+      "options": [
+        { "arabic": "ذَنْبَ لَهُ", "transliteration": "Dhanba lahu" },
+        { "arabic": "عِلْمَ لَهُ", "transliteration": "Ilma lahu" },
+        { "arabic": "مَالَ لَهُ", "transliteration": "Mala lahu" },
+        { "arabic": "بَيْتَ لَهُ", "transliteration": "Bayta lahu" }
+      ],
+      "correct_answer": "ذَنْبَ لَهُ"
+    },
+    {
+      "id": 100,
+      "question_english": "Fill in the blank: خَيْرُ الأُمُورِ _____ (The best of matters is moderation)",
+      "question_tamil": "கோடிட்ட இடத்தை நிரப்புக: خَيْرُ الأُمُورِ _____ (காரியங்களில் சிறந்தது நடுநிலையாகும்)",
+      "options": [
+        { "arabic": "أَوْسَاطُهَا", "transliteration": "Awsatuha" },
+        { "arabic": "أَوَائِلُهَا", "transliteration": "Awailuha" },
+        { "arabic": "أَوَاخِرُهَا", "transliteration": "Awakiruha" },
+        { "arabic": "أَطْوَالُهَا", "transliteration": "Atwaluha" }
+      ],
+      "correct_answer": "أَوْسَاطُهَا"
+    }
+  ]
+}
