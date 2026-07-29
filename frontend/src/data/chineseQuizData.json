@@ -2400,9 +2400,7 @@
             ],
             "correct_answer": "再见 (zài jiàn)"
         }
-    ]
-}
-{
+    ],
     "quiz_module_2": [
         {
             "id": 101,
@@ -4805,8 +4803,7 @@
             "correct_answer": "也 (yě)"
         }
     ]
-}
-{
+, 
     "quiz_module_3": [
         {
             "id": 201,
@@ -7209,8 +7206,7 @@
             "correct_answer": "马上 (mǎ shàng)"
         }
     ]
-}
-{
+, 
     "quiz_summary": {
         "strengths_feedback": [
             {
@@ -12032,8 +12028,7 @@
             "correct_answer": "喝 (hē)"
         }
     ]
-}
-{
+, 
     "small_sentence_quiz_100": [
         {
             "id": 1,
@@ -14436,8 +14431,7 @@
             "correct_answer": "祝你好运！ (Zhù nǐ hǎo yùn!)"
         }
     ]
-}
-{
+, 
     "small_sentence_quiz_200": [
         {
             "id": 101,
@@ -16840,8 +16834,7 @@
             "correct_answer": "点菜 (diǎn cài)"
         }
     ]
-}
-{
+, 
     "small_sentence_quiz_300": [
         {
             "id": 201,
@@ -19244,8 +19237,7 @@
             "correct_answer": "都做完了 (dōu zuò wán le)"
         }
     ]
-}
-{
+, 
     "small_sentence_quiz_400": [
         {
             "id": 301,
@@ -21648,8 +21640,7 @@
             "correct_answer": "接电话 (jiē diàn huà)"
         }
     ]
-}
-{
+, 
     "small_sentence_quiz_500": [
         {
             "id": 401,
@@ -24052,8 +24043,7 @@
             "correct_answer": "大家再见 (dà jiā zài jiàn)"
         }
     ]
-}
-{
+, 
     "fill_in_the_blanks_quiz_200": [
         {
             "id": 1,
@@ -29256,8 +29246,7 @@
             "correct_answer": "东 (dōng)"
         }
     ]
-}
-{
+, 
     "fill_in_the_blanks_quiz_200": [
         {
             "id": 1,
@@ -34460,8 +34449,7 @@
             "correct_answer": "东 (dōng)"
         }
     ]
-}
-{
+, 
     "big_sentence_quiz_300": [
         {
             "id": 1,
@@ -34704,8 +34692,7 @@
             "correct_answer": "如果你这个周末有空，想和我一起去市中心的新博物馆参观吗？ (Rúguǒ nǐ zhè gè zhōumò yǒu kòng, xiǎng hé wǒ yìqǐ qù shì zhōngxīn de xīn bówùguǎn cānguān ma?)"
         }
     ]
-}
-{
+, 
     "big_sentence_quiz_continuance_100": [
         {
             "id": 11,
@@ -35188,8 +35175,7 @@
             "correct_answer": "每当秋天来临的时候，山上的树叶就会渐渐变黄变红，风景非常美丽。 (Měidāng qiūtiān láilín de shíhou, shānshàng de shùyè jiù huì jiànjiàn biàn huáng biàn hóng, fēngjǐng fēicháng měilì.)"
         }
     ]
-}
-{
+, 
     "big_sentence_quiz_100_more": [
         {
             "id": 31,
@@ -35432,8 +35418,7 @@
             "correct_answer": "如果你对今天课堂上老师讲授的内容有不理解的地方，课后随时可以来问我。 (Rúguǒ nǐ duì jīntiān kètáng shàng lǎoshī jiǎngshòu de nèiróng yǒu bù lǐjiě de dìfang, kèhòu suíshí kěyǐ lái wèn wǒ.)"
         }
     ]
-}
-{
+, 
     "big_sentence_quiz_continue_100": [
         {
             "id": 41,
