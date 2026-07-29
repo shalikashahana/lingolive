@@ -1,0 +1,13 @@
+{
+  "name": "lingolive",
+  "version": "1.0.0",
+  "description": "Root package.json to serve the frontend on Render",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd frontend && npm install && npm run build",
+    "start": "serve -s frontend/dist"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
