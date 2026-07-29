@@ -248,9 +248,7 @@
             "english_meaning": "Help me, please!",
             "tamil_meaning": "தயவுசெய்து எனக்கு உதவுங்கள்!"
         }
-    }
-]
-[
+    },
     {
         "id": 1,
         "speaker_a": {
@@ -676,9 +674,7 @@
             "tamil_meaning": "ஜப்பானிய மொழி படிக்க வந்தேன்."
         }
     }
-]
-
-[
+,
     {
         "id": 26,
         "speaker_a": {
@@ -737,7 +733,7 @@
             "romaji": "Nihon no eiga o mita koto ga arimasu ka.",
             "tamil_transliteration": "நிஹோன் நோ ஏகா ஓ மிதா கோதோ கா அரிமாசு கா.",
             "english_meaning": "Have you ever watched a Japanese movie?",
-            "tamil_meaning": ஜப்பானியத் திரைப்படம் பார்த்ததுண்டா?" },"speaker_b": {"japanese": "はい、何度か見たことがあります。とても感動しました。","romaji": "Hai, nan-ka mita koto ga arimasu. Totemo kandou shimashita.","tamil_transliteration": "ஹாய், நான்-க மிதா கோதோ கா அரிமாசு. தோதேமோ கந்தோ ஷிமாஷிதா.","english_meaning": "Yes, I've seen some a few times. It was very touching.","tamil_meaning": "ஆம், சில முறை பார்த்துள்ளேன். மிகவும் நெகிழ்ச்சியாக இருந்தது."
+            "tamil_meaning": "ஜப்பானியத் திரைப்படம் பார்த்ததுண்டா?" },"speaker_b": {"japanese": "はい、何度か見たことがあります。とても感動しました。","romaji": "Hai, nan-ka mita koto ga arimasu. Totemo kandou shimashita.","tamil_transliteration": "ஹாய், நான்-க மிதா கோதோ கா அரிமாசு. தோதேமோ கந்தோ ஷிமாஷிதா.","english_meaning": "Yes, I've seen some a few times. It was very touching.","tamil_meaning": "ஆம், சில முறை பார்த்துள்ளேன். மிகவும் நெகிழ்ச்சியாக இருந்தது."
         }
     },
     {
@@ -1097,9 +1093,7 @@
             "tamil_meaning": "ஆம், நன்றி. இரவு வணக்கம்!"
         }
     }
-]
-
-[
+,
     {
         "id": 51,
         "speaker_a": {
@@ -1525,9 +1519,7 @@
             "tamil_meaning": "பத்திரமாகச் சென்று வாருங்கள்! மகிழ்ச்சியாகக் கழித்துவிட்டு வாருங்கள்."
         }
     }
-]
-
-[
+,
     {
         "id": 76,
         "speaker_a": {
@@ -1955,9 +1947,7 @@
             "tamil_meaning": "நன்றி. இரவு வணக்கம்!"
         }
     }
-]
-
-[
+,
     {
         "id": 101,
         "speaker_a": {
@@ -2383,9 +2373,7 @@
             "tamil_meaning": "ஆம், இனிய வார இறுதியில் மகிழுங்கள்! போய்வருகிறேன்."
         }
     }
-]
-
-[
+,
     {
         "id": 126,
         "speaker_a": {
@@ -2718,7 +2706,7 @@
             "english_meaning": "Where do I transfer for this train?",
             "tamil_meaning": "இந்த ரயிலை எங்கே மாற வேண்டும்?"
         },
-    _speaker_b_obj: {
+        "speaker_b": {
             "japanese": "次の新宿駅で乗り換えてください。",
             "romaji": "Tsugi no Shinjuku-eki de norikaete kudasai.",
             "tamil_transliteration": "த்சு கி நோ ஷிஞ்ஜுகு-எகி தே நொரிகாஏதே குதாஸை.",
@@ -2818,9 +2806,7 @@
             "tamil_meaning": "எனக்கும் நன்றியே, இனிய வார இறுதியைக் கழிப்பீர்கள்."
         }
     }
-]
-
-[
+,
     {
         "id": 151,
         "speaker_a": {
@@ -3344,9 +3330,12 @@
             "japanese": "はい、自家焙煎のコーヒーでとても美味しいです。",
             "romaji": "Hai, jika-baisen no koohii de totemo oishii desu.",
             "tamil_transliteration": "ஹாய், ஜிகா-பைசென் நோ கோஹி தே தோதேமோ ஓயிஷீ தேசு.",
-            "english_meaning": "Yes, it's ho[
-                {
-                    "id": 201,
+            "english_meaning": "Yes, it's home-roasted coffee and very delicious.",
+            "tamil_meaning": "ஆம், வீட்டில் வறுத்த காபி என்பதால் மிகவும் சுவையாக இருக்கும்."
+        }
+    },
+    {
+        "id": 201,
                     "speaker_a": {
                         "japanese": "おはようございます。今日も良いお天気ですね。",
                         "romaji": "Ohayou gozaimasu. Kyou mo yoi o-tenki desu ne.",
@@ -3847,3 +3836,12 @@
                         "english_meaning": "What color sweater do you like?",
                         "tamil_meaning": "உங்களுக்கு எந்த நிற ஸ்வெட்டர் பிடிக்கும்?"
                     },
+                    "speaker_b": {
+                        "japanese": "青いセーターが好きです。",
+                        "romaji": "Aoi seetaa ga suki desu.",
+                        "tamil_transliteration": "ஆஓய் சேதார் கா சுகி தேசு.",
+                        "english_meaning": "I like the blue sweater.",
+                        "tamil_meaning": "எனக்கு நீல நிற ஸ்வெட்டர் பிடிக்கும்."
+                    }
+                }
+]
