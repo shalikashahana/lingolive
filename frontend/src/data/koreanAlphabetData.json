@@ -1,1 +1,204 @@
-{"total_letters": 0, "alphabet": {"swarangal": [], "vyanjanangal": [], "chillaksharangal": []}}
+{
+  "language": "Korean",
+  "code": "ko",
+  "total_letters": 24,
+  "alphabet": {
+    "swarangal": [
+      {
+        "id": 15,
+        "letter": "ㅏ",
+        "transliteration": "a",
+        "tamil_transliteration": "ஆ",
+        "english_meaning": "a (as in father)",
+        "tamil_meaning": "ஆ ஒலி"
+      },
+      {
+        "id": 16,
+        "letter": "ㅑ",
+        "transliteration": "ya",
+        "tamil_transliteration": "யா",
+        "english_meaning": "ya sound",
+        "tamil_meaning": "யா ஒலி"
+      },
+      {
+        "id": 17,
+        "letter": "ㅓ",
+        "transliteration": "eo",
+        "tamil_transliteration": "அ",
+        "english_meaning": "eo (open 'o')",
+        "tamil_meaning": "அ/ஒ ஒலி"
+      },
+      {
+        "id": 18,
+        "letter": "ㅕ",
+        "transliteration": "yeo",
+        "tamil_transliteration": "ய",
+        "english_meaning": "yeo sound",
+        "tamil_meaning": "யொ ஒலி"
+      },
+      {
+        "id": 19,
+        "letter": "ㅗ",
+        "transliteration": "o",
+        "tamil_transliteration": "ஓ",
+        "english_meaning": "o (as in home)",
+        "tamil_meaning": "ஓ ஒலி"
+      },
+      {
+        "id": 20,
+        "letter": "ㅛ",
+        "transliteration": "yo",
+        "tamil_transliteration": "யோ",
+        "english_meaning": "yo sound",
+        "tamil_meaning": "யோ ஒலி"
+      },
+      {
+        "id": 21,
+        "letter": "ㅜ",
+        "transliteration": "u",
+        "tamil_transliteration": "ஊ",
+        "english_meaning": "u (as in boot)",
+        "tamil_meaning": "ஊ ஒலி"
+      },
+      {
+        "id": 22,
+        "letter": "ㅠ",
+        "transliteration": "yu",
+        "tamil_transliteration": "யூ",
+        "english_meaning": "yu sound",
+        "tamil_meaning": "யூ ஒலி"
+      },
+      {
+        "id": 23,
+        "letter": "ㅡ",
+        "transliteration": "eu",
+        "tamil_transliteration": "உ",
+        "english_meaning": "eu (flat 'u')",
+        "tamil_meaning": "உ/இ ஒலி"
+      },
+      {
+        "id": 24,
+        "letter": "ㅣ",
+        "transliteration": "i",
+        "tamil_transliteration": "ஈ",
+        "english_meaning": "i (as in see)",
+        "tamil_meaning": "ஈ ஒலி"
+      }
+    ],
+    "vyanjanangal": [
+      {
+        "id": 1,
+        "letter": "ㄱ",
+        "transliteration": "g/k",
+        "tamil_transliteration": "க் / க்'க்",
+        "english_meaning": "Giyeok (k/g sound)",
+        "tamil_meaning": "கீயோக் (க்/க்'க் ஒலி)"
+      },
+      {
+        "id": 2,
+        "letter": "ㄴ",
+        "transliteration": "n",
+        "tamil_transliteration": "ன்",
+        "english_meaning": "Nieun (n sound)",
+        "tamil_meaning": "நீயுன் (ன் ஒலி)"
+      },
+      {
+        "id": 3,
+        "letter": "ㄷ",
+        "transliteration": "d/t",
+        "tamil_transliteration": "த் / த்'த்",
+        "english_meaning": "Digeut (t/d sound)",
+        "tamil_meaning": "திகுத் (த்/த்'த் ஒலி)"
+      },
+      {
+        "id": 4,
+        "letter": "ㄹ",
+        "transliteration": "r/l",
+        "tamil_transliteration": "ர் / ல்",
+        "english_meaning": "Rieul (r/l sound)",
+        "tamil_meaning": "ரீயுல் (ர்/ல் ஒலி)"
+      },
+      {
+        "id": 5,
+        "letter": "ㅁ",
+        "transliteration": "m",
+        "tamil_transliteration": "ம்",
+        "english_meaning": "Mieum (m sound)",
+        "tamil_meaning": "மீயும் (ம் ஒலி)"
+      },
+      {
+        "id": 6,
+        "letter": "ㅂ",
+        "transliteration": "b/p",
+        "tamil_transliteration": "ப் / ப்'ப்",
+        "english_meaning": "Bieup (b/p sound)",
+        "tamil_meaning": "பியுப் (ப்/ப்'ப் ஒலி)"
+      },
+      {
+        "id": 7,
+        "letter": "ㅅ",
+        "transliteration": "s",
+        "tamil_transliteration": "ஸ்",
+        "english_meaning": "Siot (s sound)",
+        "tamil_meaning": "சியோத் (ஸ் ஒலி)"
+      },
+      {
+        "id": 8,
+        "letter": "ㅇ",
+        "transliteration": "ng / silent",
+        "tamil_transliteration": "ங் / அமைதி",
+        "english_meaning": "Ieung (silent start / ng end)",
+        "tamil_meaning": "இயுங் (ங் ஒலி)"
+      },
+      {
+        "id": 9,
+        "letter": "ㅈ",
+        "transliteration": "j/ch",
+        "tamil_transliteration": "ஜ் / ச்",
+        "english_meaning": "Jieut (j/ch sound)",
+        "tamil_meaning": "ஜியுத் (ஜ்/ச் ஒலி)"
+      },
+      {
+        "id": 10,
+        "letter": "ㅊ",
+        "transliteration": "ch",
+        "tamil_transliteration": "ச்",
+        "english_meaning": "Chieut (aspirated ch)",
+        "tamil_meaning": "சீயுத் (அழுத்த ச் ஒலி)"
+      },
+      {
+        "id": 11,
+        "letter": "ㅋ",
+        "transliteration": "k",
+        "tamil_transliteration": "க்",
+        "english_meaning": "Kieok (aspirated k)",
+        "tamil_meaning": "கீய his க் (அழுத்த க் ஒலி)"
+      },
+      {
+        "id": 12,
+        "letter": "ㅌ",
+        "transliteration": "t",
+        "tamil_transliteration": "த்",
+        "english_meaning": "Tieut (aspirated t)",
+        "tamil_meaning": "தீயுத் (அழுத்த த் ஒலி)"
+      },
+      {
+        "id": 13,
+        "letter": "ㅍ",
+        "transliteration": "p",
+        "tamil_transliteration": "ப்",
+        "english_meaning": "Pieup (aspirated p)",
+        "tamil_meaning": "பீயுப் (அழுத்த ப் ஒலி)"
+      },
+      {
+        "id": 14,
+        "letter": "ㅎ",
+        "transliteration": "h",
+        "tamil_transliteration": "ஹ்",
+        "english_meaning": "Hieut (h sound)",
+        "tamil_meaning": "ஹீயுத் (ஹ் ஒலி)"
+      }
+    ],
+    "chillaksharangal": []
+  }
+}

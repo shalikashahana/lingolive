@@ -1,1 +1,239 @@
-{"numbers": []}
+{
+  "language": "Korean",
+  "code": "ko",
+  "total_numbers": 29,
+  "numbers": [
+    {
+      "id": 1,
+      "korean": "일",
+      "english_transliteration": "il",
+      "tamil_transliteration": "இல்",
+      "english_meaning": "1 (One)",
+      "tamil_meaning": "1 (ஒன்று)"
+    },
+    {
+      "id": 2,
+      "korean": "이",
+      "english_transliteration": "i",
+      "tamil_transliteration": "ஈ",
+      "english_meaning": "2 (Two)",
+      "tamil_meaning": "2 (இரண்டு)"
+    },
+    {
+      "id": 3,
+      "korean": "삼",
+      "english_transliteration": "sam",
+      "tamil_transliteration": "ஸாம்",
+      "english_meaning": "3 (Three)",
+      "tamil_meaning": "3 (மூன்று)"
+    },
+    {
+      "id": 4,
+      "korean": "사",
+      "english_transliteration": "sa",
+      "tamil_transliteration": "ஸா",
+      "english_meaning": "4 (Four)",
+      "tamil_meaning": "4 (நான்கு)"
+    },
+    {
+      "id": 5,
+      "korean": "오",
+      "english_transliteration": "o",
+      "tamil_transliteration": "ஓ",
+      "english_meaning": "5 (Five)",
+      "tamil_meaning": "5 (ஐந்து)"
+    },
+    {
+      "id": 6,
+      "korean": "육",
+      "english_transliteration": "yuk",
+      "tamil_transliteration": "யுக்",
+      "english_meaning": "6 (Six)",
+      "tamil_meaning": "6 (ஆறு)"
+    },
+    {
+      "id": 7,
+      "korean": "칠",
+      "english_transliteration": "chil",
+      "tamil_transliteration": "சில்",
+      "english_meaning": "7 (Seven)",
+      "tamil_meaning": "7 (ஏழு)"
+    },
+    {
+      "id": 8,
+      "korean": "팔",
+      "english_transliteration": "pal",
+      "tamil_transliteration": "பால்",
+      "english_meaning": "8 (Eight)",
+      "tamil_meaning": "8 (எட்டு)"
+    },
+    {
+      "id": 9,
+      "korean": "구",
+      "english_transliteration": "gu",
+      "tamil_transliteration": "கு",
+      "english_meaning": "9 (Nine)",
+      "tamil_meaning": "9 (ஒன்பது)"
+    },
+    {
+      "id": 10,
+      "korean": "십",
+      "english_transliteration": "sip",
+      "tamil_transliteration": "சிப்",
+      "english_meaning": "10 (Ten)",
+      "tamil_meaning": "10 (பத்து)"
+    },
+    {
+      "id": 11,
+      "korean": "백",
+      "english_transliteration": "baek",
+      "tamil_transliteration": "பேக்",
+      "english_meaning": "100 (Hundred)",
+      "tamil_meaning": "100 (நூறு)"
+    },
+    {
+      "id": 12,
+      "korean": "천",
+      "english_transliteration": "cheon",
+      "tamil_transliteration": "ச்சொன்",
+      "english_meaning": "1,000 (Thousand)",
+      "tamil_meaning": "1,000 (ஆயிரம்)"
+    },
+    {
+      "id": 13,
+      "korean": "만",
+      "english_transliteration": "man",
+      "tamil_transliteration": "மான்",
+      "english_meaning": "10,000 (Ten Thousand)",
+      "tamil_meaning": "10,000 (பத்தாயிரம்)"
+    },
+    {
+      "id": 14,
+      "korean": "십만",
+      "english_transliteration": "sip-man",
+      "tamil_transliteration": "சிப்-மான்",
+      "english_meaning": "100,000 (Hundred Thousand)",
+      "tamil_meaning": "1,00,000 (ஒரு லட்சம்)"
+    },
+    {
+      "id": 15,
+      "korean": "백만",
+      "english_transliteration": "baek-man",
+      "tamil_transliteration": "பேக்-மான்",
+      "english_meaning": "1,000,000 (One Million)",
+      "tamil_meaning": "10,00,000 (பத்து லட்சம்)"
+    },
+    {
+      "id": 16,
+      "korean": "하나",
+      "english_transliteration": "ha-na",
+      "tamil_transliteration": "ஹானா",
+      "english_meaning": "1 (One)",
+      "tamil_meaning": "1 (ஒன்று)"
+    },
+    {
+      "id": 17,
+      "korean": "둘",
+      "english_transliteration": "dul",
+      "tamil_transliteration": "துல்",
+      "english_meaning": "2 (Two)",
+      "tamil_meaning": "2 (இரண்டு)"
+    },
+    {
+      "id": 18,
+      "korean": "셋",
+      "english_transliteration": "set",
+      "tamil_transliteration": "செத்",
+      "english_meaning": "3 (Three)",
+      "tamil_meaning": "3 (மூன்று)"
+    },
+    {
+      "id": 19,
+      "korean": "넷",
+      "english_transliteration": "net",
+      "tamil_transliteration": "நெத்",
+      "english_meaning": "4 (Four)",
+      "tamil_meaning": "4 (நான்கு)"
+    },
+    {
+      "id": 20,
+      "korean": "다섯",
+      "english_transliteration": "da-seot",
+      "tamil_transliteration": "தாசொத்",
+      "english_meaning": "5 (Five)",
+      "tamil_meaning": "5 (ஐந்து)"
+    },
+    {
+      "id": 21,
+      "korean": "여섯",
+      "english_transliteration": "yeo-seot",
+      "tamil_transliteration": "யொசொத்",
+      "english_meaning": "6 (Six)",
+      "tamil_meaning": "6 (ஆறு)"
+    },
+    {
+      "id": 22,
+      "korean": "일곱",
+      "english_transliteration": "il-gop",
+      "tamil_transliteration": "இல்கோப்",
+      "english_meaning": "7 (Seven)",
+      "tamil_meaning": "7 (ஏழு)"
+    },
+    {
+      "id": 23,
+      "korean": "여덟",
+      "english_transliteration": "yeo-deol",
+      "tamil_transliteration": "யொடொல்",
+      "english_meaning": "8 (Eight)",
+      "tamil_meaning": "8 (எட்டு)"
+    },
+    {
+      "id": 24,
+      "korean": "아홉",
+      "english_transliteration": "a-hop",
+      "tamil_transliteration": "ஆஹோப்",
+      "english_meaning": "9 (Nine)",
+      "tamil_meaning": "9 (ஒன்பது)"
+    },
+    {
+      "id": 25,
+      "korean": "열",
+      "english_transliteration": "yeol",
+      "tamil_transliteration": "யொல்",
+      "english_meaning": "10 (Ten)",
+      "tamil_meaning": "10 (பத்து)"
+    },
+    {
+      "id": 26,
+      "korean": "스물",
+      "english_transliteration": "seu-mul",
+      "tamil_transliteration": "ஸுமுல்",
+      "english_meaning": "20 (Twenty)",
+      "tamil_meaning": "20 (இருபது)"
+    },
+    {
+      "id": 27,
+      "korean": "서른",
+      "english_transliteration": "seo-reun",
+      "tamil_transliteration": "சொருன்",
+      "english_meaning": "30 (Thirty)",
+      "tamil_meaning": "30 (முப்பது)"
+    },
+    {
+      "id": 28,
+      "korean": "마흔",
+      "english_transliteration": "ma-heun",
+      "tamil_transliteration": "மாஹுன்",
+      "english_meaning": "40 (Forty)",
+      "tamil_meaning": "40 (நாற்பது)"
+    },
+    {
+      "id": 29,
+      "korean": "쉬운",
+      "english_transliteration": "swi-un",
+      "tamil_transliteration": "ஸ்விஉன்",
+      "english_meaning": "50 (Fifty)",
+      "tamil_meaning": "50 (ஐம்பது)"
+    }
+  ]
+}

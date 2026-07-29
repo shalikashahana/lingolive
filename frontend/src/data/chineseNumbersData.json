@@ -1,1 +1,704 @@
-{"numbers": []}
+{
+    "chinese_numbers_1_to_100": [
+        {
+            "number": 1,
+            "hanzi": "一",
+            "pinyin": "yī",
+            "english": "One",
+            "tamil": "ஒன்று"
+        },
+        {
+            "number": 2,
+            "hanzi": "二",
+            "pinyin": "èr",
+            "english": "Two",
+            "tamil": "இரண்டு"
+        },
+        {
+            "number": 3,
+            "hanzi": "三",
+            "pinyin": "sān",
+            "english": "Three",
+            "tamil": "மூன்று"
+        },
+        {
+            "number": 4,
+            "hanzi": "四",
+            "pinyin": "sì",
+            "english": "Four",
+            "tamil": "நான்கு"
+        },
+        {
+            "number": 5,
+            "hanzi": "五",
+            "pinyin": "wǔ",
+            "english": "Five",
+            "tamil": "ஐந்து"
+        },
+        {
+            "number": 6,
+            "hanzi": "六",
+            "pinyin": "liù",
+            "english": "Six",
+            "tamil": "ஆறு"
+        },
+        {
+            "number": 7,
+            "hanzi": "七",
+            "pinyin": "qī",
+            "english": "Seven",
+            "tamil": "ஏழு"
+        },
+        {
+            "number": 8,
+            "hanzi": "八",
+            "pinyin": "bā",
+            "english": "Eight",
+            "tamil": "எட்டு"
+        },
+        {
+            "number": 9,
+            "hanzi": "九",
+            "pinyin": "jiǔ",
+            "english": "Nine",
+            "tamil": "ஒன்பது"
+        },
+        {
+            "number": 10,
+            "hanzi": "十",
+            "pinyin": "shí",
+            "english": "Ten",
+            "tamil": "பத்து"
+        },
+        {
+            "number": 11,
+            "hanzi": "十一",
+            "pinyin": "shí yī",
+            "english": "Eleven",
+            "tamil": "பதினொன்று"
+        },
+        {
+            "number": 12,
+            "hanzi": "十二",
+            "pinyin": "shí èr",
+            "english": "Twelve",
+            "tamil": "பன்னிரண்டு"
+        },
+        {
+            "number": 13,
+            "hanzi": "十三",
+            "pinyin": "shí sān",
+            "english": "Thirteen",
+            "tamil": "பதின்மூன்று"
+        },
+        {
+            "number": 14,
+            "hanzi": "十四",
+            "pinyin": "shí sì",
+            "english": "Fourteen",
+            "tamil": "பதினான்கு"
+        },
+        {
+            "number": 15,
+            "hanzi": "十五",
+            "pinyin": "shí wǔ",
+            "english": "Fifteen",
+            "tamil": "பதினைந்து"
+        },
+        {
+            "number": 16,
+            "hanzi": "十六",
+            "pinyin": "shí liù",
+            "english": "Sixteen",
+            "tamil": "பதினாறு"
+        },
+        {
+            "number": 17,
+            "hanzi": "十七",
+            "pinyin": "shí qī",
+            "english": "Seventeen",
+            "tamil": "பதினேழு"
+        },
+        {
+            "number": 18,
+            "hanzi": "十八",
+            "pinyin": "shí bā",
+            "english": "Eighteen",
+            "tamil": "பினெட்டு"
+        },
+        {
+            "number": 19,
+            "hanzi": "十九",
+            "pinyin": "shí jiǔ",
+            "english": "Nineteen",
+            "tamil": "பத்தொன்பது"
+        },
+        {
+            "number": 20,
+            "hanzi": "二十",
+            "pinyin": "èr shí",
+            "english": "Twenty",
+            "tamil": "இருபது"
+        },
+        {
+            "number": 21,
+            "hanzi": "二十一",
+            "pinyin": "èr shí yī",
+            "english": "Twenty One",
+            "tamil": "இருபத்தொன்று"
+        },
+        {
+            "number": 22,
+            "hanzi": "二十二",
+            "pinyin": "èr shí èr",
+            "english": "Twenty Two",
+            "tamil": "இருபத்திரண்டு"
+        },
+        {
+            "number": 23,
+            "hanzi": "二十三",
+            "pinyin": "èr shí sān",
+            "english": "Twenty Three",
+            "tamil": "இருபத்திமூன்று"
+        },
+        {
+            "number": 24,
+            "hanzi": "二十四",
+            "pinyin": "èr shí sì",
+            "english": "Twenty Four",
+            "tamil": "இருபத்திநான்கு"
+        },
+        {
+            "number": 25,
+            "hanzi": "二十五",
+            "pinyin": "èr shí wǔ",
+            "english": "Twenty Five",
+            "tamil": "இருபத்திஐந்து"
+        },
+        {
+            "number": 26,
+            "hanzi": "二十六",
+            "pinyin": "èr shí liù",
+            "english": "Twenty Six",
+            "tamil": "இருபத்தியாறு"
+        },
+        {
+            "number": 27,
+            "hanzi": "二十七",
+            "pinyin": "èr shí qī",
+            "english": "Twenty Seven",
+            "tamil": "இருபத்தியேழு"
+        },
+        {
+            "number": 28,
+            "hanzi": "二十八",
+            "pinyin": "èr shí bā",
+            "english": "Twenty Eight",
+            "tamil": "இருபத்தியெட்டு"
+        },
+        {
+            "number": 29,
+            "hanzi": "二十九",
+            "pinyin": "èr shí jiǔ",
+            "english": "Twenty Nine",
+            "tamil": "இருபத்திஒன்பது"
+        },
+        {
+            "number": 30,
+            "hanzi": "三十",
+            "pinyin": "sān shí",
+            "english": "Thirty",
+            "tamil": "முப்பது"
+        },
+        {
+            "number": 31,
+            "hanzi": "三十一",
+            "pinyin": "sān shí yī",
+            "english": "Thirty One",
+            "tamil": "முப்பத்தொன்று"
+        },
+        {
+            "number": 32,
+            "hanzi": "三十二",
+            "pinyin": "sān shí èr",
+            "english": "Thirty Two",
+            "tamil": "முப்பத்திரண்டு"
+        },
+        {
+            "number": 33,
+            "hanzi": "三十三",
+            "pinyin": "sān shí sān",
+            "english": "Thirty Three",
+            "tamil": "முப்பத்திமூன்று"
+        },
+        {
+            "number": 34,
+            "hanzi": "三十四",
+            "pinyin": "sān shí sì",
+            "english": "Thirty Four",
+            "tamil": "முப்பத்திநான்கு"
+        },
+        {
+            "number": 35,
+            "hanzi": "三十五",
+            "pinyin": "sān shí wǔ",
+            "english": "Thirty Five",
+            "tamil": "முப்பத்திஐந்து"
+        },
+        {
+            "number": 36,
+            "hanzi": "三十六",
+            "pinyin": "sān shí liù",
+            "english": "Thirty Six",
+            "tamil": "முப்பத்தியாறு"
+        },
+        {
+            "number": 37,
+            "hanzi": "三十七",
+            "pinyin": "sān shí qī",
+            "english": "Thirty Seven",
+            "tamil": "முப்பத்தியேழு"
+        },
+        {
+            "number": 38,
+            "hanzi": "三十八",
+            "pinyin": "sān shí bā",
+            "english": "Thirty Eight",
+            "tamil": "முப்பத்தியெட்டு"
+        },
+        {
+            "number": 39,
+            "hanzi": "三十九",
+            "pinyin": "sān shí jiǔ",
+            "english": "Thirty Nine",
+            "tamil": "முப்பத்திஒன்பது"
+        },
+        {
+            "number": 40,
+            "hanzi": "四十",
+            "pinyin": "sì shí",
+            "english": "Forty",
+            "tamil": "நாற்பது"
+        },
+        {
+            "number": 41,
+            "hanzi": "四十一",
+            "pinyin": "sì shí yī",
+            "english": "Forty One",
+            "tamil": "நாற்பத்தொன்று"
+        },
+        {
+            "number": 42,
+            "hanzi": "四十二",
+            "pinyin": "sì shí èr",
+            "english": "Forty Two",
+            "tamil": "நாற்பத்திரண்டு"
+        },
+        {
+            "number": 43,
+            "hanzi": "四十三",
+            "pinyin": "sì shí sān",
+            "english": "Forty Three",
+            "tamil": "நாற்பத்திமூன்று"
+        },
+        {
+            "number": 44,
+            "hanzi": "四十四",
+            "pinyin": "sì shí sì",
+            "english": "Forty Four",
+            "tamil": "நாற்பத்திநான்கு"
+        },
+        {
+            "number": 45,
+            "hanzi": "四十五",
+            "pinyin": "sì shí wǔ",
+            "english": "Forty Five",
+            "tamil": "நாற்பத்திஐந்து"
+        },
+        {
+            "number": 46,
+            "hanzi": "四十六",
+            "pinyin": "sì shí liù",
+            "english": "Forty Six",
+            "tamil": "நாற்பத்தியாறு"
+        },
+        {
+            "number": 47,
+            "hanzi": "四十七",
+            "pinyin": "sì shí qī",
+            "english": "Forty Seven",
+            "tamil": "நாற்பத்தியேழு"
+        },
+        {
+            "number": 48,
+            "hanzi": "四十八",
+            "pinyin": "sì shí bā",
+            "english": "Forty Eight",
+            "tamil": "நாற்பத்தியெட்டு"
+        },
+        {
+            "number": 49,
+            "hanzi": "四十九",
+            "pinyin": "sì shí jiǔ",
+            "english": "Forty Nine",
+            "tamil": "நாற்பத்திஒன்பது"
+        },
+        {
+            "number": 50,
+            "hanzi": "五十",
+            "pinyin": "wǔ shí",
+            "english": "Fifty",
+            "tamil": "ஐம்பது"
+        },
+        {
+            "number": 51,
+            "hanzi": "五十一",
+            "pinyin": "wǔ shí yī",
+            "english": "Fifty One",
+            "tamil": "ஐம்பத்தொன்று"
+        },
+        {
+            "number": 52,
+            "hanzi": "五十二",
+            "pinyin": "wǔ shí èr",
+            "english": "Fifty Two",
+            "tamil": "ஐம்பத்திரண்டு"
+        },
+        {
+            "number": 53,
+            "hanzi": "五十三",
+            "pinyin": "wǔ shí sān",
+            "english": "Fifty Three",
+            "tamil": "ஐம்பத்திமூன்று"
+        },
+        {
+            "number": 54,
+            "hanzi": "五十四",
+            "pinyin": "wǔ shí sì",
+            "english": "Fifty Four",
+            "tamil": "ஐம்பத்திநான்கு"
+        },
+        {
+            "number": 55,
+            "hanzi": "五十五",
+            "pinyin": "wǔ shí wǔ",
+            "english": "Fifty Five",
+            "tamil": "ஐம்பத்திஐந்து"
+        },
+        {
+            "number": 56,
+            "hanzi": "五十六",
+            "pinyin": "wǔ shí liù",
+            "english": "Fifty Six",
+            "tamil": "ஐம்பத்தியாறு"
+        },
+        {
+            "number": 57,
+            "hanzi": "五十七",
+            "pinyin": "wǔ shí qī",
+            "english": "Fifty Seven",
+            "tamil": "ஐம்பத்தியேழு"
+        },
+        {
+            "number": 58,
+            "hanzi": "五十八",
+            "pinyin": "wǔ shí bā",
+            "english": "Fifty Eight",
+            "tamil": "ஐம்பத்தியெட்டு"
+        },
+        {
+            "number": 59,
+            "hanzi": "五十九",
+            "pinyin": "wǔ shí jiǔ",
+            "english": "Fifty Nine",
+            "tamil": "ஐம்பத்திஒன்பது"
+        },
+        {
+            "number": 60,
+            "hanzi": "六十",
+            "pinyin": "liù shí",
+            "english": "Sixty",
+            "tamil": "அறுபது"
+        },
+        {
+            "number": 61,
+            "hanzi": "六十一",
+            "pinyin": "liù shí yī",
+            "english": "Sixty One",
+            "tamil": "அறுபத்தொன்று"
+        },
+        {
+            "number": 62,
+            "hanzi": "六十二",
+            "pinyin": "liù shí èr",
+            "english": "Sixty Two",
+            "tamil": "அறுபத்திரண்டு"
+        },
+        {
+            "number": 63,
+            "hanzi": "六十三",
+            "pinyin": "liù shí sān",
+            "english": "Sixty Three",
+            "tamil": "அறுபத்திமூன்று"
+        },
+        {
+            "number": 64,
+            "hanzi": "六十四",
+            "pinyin": "liù shí sì",
+            "english": "Sixty Four",
+            "tamil": "அறுபத்திநான்கு"
+        },
+        {
+            "number": 65,
+            "hanzi": "六十五",
+            "pinyin": "liù shí wǔ",
+            "english": "Sixty Five",
+            "tamil": "அறுபத்திஐந்து"
+        },
+        {
+            "number": 66,
+            "hanzi": "六十六",
+            "pinyin": "liù shí liù",
+            "english": "Sixty Six",
+            "tamil": "அறுபத்தியாறு"
+        },
+        {
+            "number": 67,
+            "hanzi": "六十七",
+            "pinyin": "liù shí qī",
+            "english": "Sixty Seven",
+            "tamil": "அறுபத்தியேழு"
+        },
+        {
+            "number": 68,
+            "hanzi": "六十八",
+            "pinyin": "liù shí bā",
+            "english": "Sixty Eight",
+            "tamil": "அறுபத்தியெட்டு"
+        },
+        {
+            "number": 69,
+            "hanzi": "六十九",
+            "pinyin": "liù shí jiǔ",
+            "english": "Sixty Nine",
+            "tamil": "அறுபத்திஒன்பது"
+        },
+        {
+            "number": 70,
+            "hanzi": "七十",
+            "pinyin": "qī shí",
+            "english": "Seventy",
+            "tamil": "எழுபது"
+        },
+        {
+            "number": 71,
+            "hanzi": "七十一",
+            "pinyin": "qī shí yī",
+            "english": "Seventy One",
+            "tamil": "எழுபத்தொன்று"
+        },
+        {
+            "number": 72,
+            "hanzi": "七十二",
+            "pinyin": "qī shí èr",
+            "english": "Seventy Two",
+            "tamil": "எழுபத்திரண்டு"
+        },
+        {
+            "number": 73,
+            "hanzi": "七十三",
+            "pinyin": "qī shí sān",
+            "english": "Seventy Three",
+            "tamil": "எழுபத்திமூன்று"
+        },
+        {
+            "number": 74,
+            "hanzi": "七十四",
+            "pinyin": "qī shí sì",
+            "english": "Seventy Four",
+            "tamil": "எழுபத்திநான்கு"
+        },
+        {
+            "number": 75,
+            "hanzi": "七十五",
+            "pinyin": "qī shí wǔ",
+            "english": "Seventy Five",
+            "tamil": "எழுபத்திஐந்து"
+        },
+        {
+            "number": 76,
+            "hanzi": "七十六",
+            "pinyin": "qī shí liù",
+            "english": "Seventy Six",
+            "tamil": "எழுபத்தியாறு"
+        },
+        {
+            "number": 77,
+            "hanzi": "七十七",
+            "pinyin": "qī shí qī",
+            "english": "Seventy Seven",
+            "tamil": "எழுபத்தியேழு"
+        },
+        {
+            "number": 78,
+            "hanzi": "七十八",
+            "pinyin": "qī shí bā",
+            "english": "Seventy Eight",
+            "tamil": "எழுபத்தியெட்டு"
+        },
+        {
+            "number": 79,
+            "hanzi": "七十九",
+            "pinyin": "qī shí jiǔ",
+            "english": "Seventy Nine",
+            "tamil": "எழுபத்திஒன்பது"
+        },
+        {
+            "number": 80,
+            "hanzi": "八十",
+            "pinyin": "bā shí",
+            "english": "Eighty",
+            "tamil": "எண்பது"
+        },
+        {
+            "number": 81,
+            "hanzi": "八十一",
+            "pinyin": "bā shí yī",
+            "english": "Eighty One",
+            "tamil": "எண்பத்தொன்று"
+        },
+        {
+            "number": 82,
+            "hanzi": "八十二",
+            "pinyin": "bā shí èr",
+            "english": "Eighty Two",
+            "tamil": "எண்பத்திரண்டு"
+        },
+        {
+            "number": 83,
+            "hanzi": "八十三",
+            "pinyin": "bā shí sān",
+            "english": "Eighty Three",
+            "tamil": "எண்பத்திமூன்று"
+        },
+        {
+            "number": 84,
+            "hanzi": "八十四",
+            "pinyin": "bā shí sì",
+            "english": "Eighty Four",
+            "tamil": "எண்பத்திநான்கு"
+        },
+        {
+            "number": 85,
+            "hanzi": "八十五",
+            "pinyin": "bā shí wǔ",
+            "english": "Eighty Five",
+            "tamil": "எண்பத்திஐந்து"
+        },
+        {
+            "number": 86,
+            "hanzi": "八十六",
+            "pinyin": "bā shí liù",
+            "english": "Eighty Six",
+            "tamil": "எண்பத்தியாறு"
+        },
+        {
+            "number": 87,
+            "hanzi": "八十七",
+            "pinyin": "bā shí qī",
+            "english": "Eighty Seven",
+            "tamil": "எண்பத்தியேழு"
+        },
+        {
+            "number": 88,
+            "hanzi": "八十八",
+            "pinyin": "bā shí bā",
+            "english": "Eighty Eight",
+            "tamil": "எண்பத்தியெட்டு"
+        },
+        {
+            "number": 89,
+            "hanzi": "八十九",
+            "pinyin": "bā shí jiǔ",
+            "english": "Eighty Nine",
+            "tamil": "எண்பத்திஒன்பது"
+        },
+        {
+            "number": 90,
+            "hanzi": "九十",
+            "pinyin": "jiǔ shí",
+            "english": "Ninety",
+            "tamil": "தொண்ணூறு"
+        },
+        {
+            "number": 91,
+            "hanzi": "九十一",
+            "pinyin": "jiǔ shí yī",
+            "english": "Ninety One",
+            "tamil": "தொண்ணூற்றொன்று"
+        },
+        {
+            "number": 92,
+            "hanzi": "九十二",
+            "pinyin": "jiǔ shí èr",
+            "english": "Ninety Two",
+            "tamil": "தொண்ணூற்றிரண்டு"
+        },
+        {
+            "number": 93,
+            "hanzi": "九十三",
+            "pinyin": "jiǔ shí sān",
+            "english": "Ninety Three",
+            "tamil": "தொண்ணூற்றுமூன்று"
+        },
+        {
+            "number": 94,
+            "hanzi": "九十四",
+            "pinyin": "jiǔ shí sì",
+            "english": "Ninety Four",
+            "tamil": "தொண்ணூற்றுநான்கு"
+        },
+        {
+            "number": 95,
+            "hanzi": "九十五",
+            "pinyin": "jiǔ shí wǔ",
+            "english": "Ninety Five",
+            "tamil": "தொண்ணூற்றுஐந்து"
+        },
+        {
+            "number": 96,
+            "hanzi": "九十六",
+            "pinyin": "jiǔ shí liù",
+            "english": "Ninety Six",
+            "tamil": "தொண்ணூற்றாறு"
+        },
+        {
+            "number": 97,
+            "hanzi": "九十七",
+            "pinyin": "jiǔ shí qī",
+            "english": "Ninety Seven",
+            "tamil": "தொண்ணூற்றேழு"
+        },
+        {
+            "number": 98,
+            "hanzi": "九十八",
+            "pinyin": "jiǔ shí bā",
+            "english": "Ninety Eight",
+            "tamil": "தொண்ணூற்றெட்டு"
+        },
+        {
+            "number": 99,
+            "hanzi": "九十九",
+            "pinyin": "jiǔ shí jiǔ",
+            "english": "Ninety Nine",
+            "tamil": "தொண்ணூற்றுஒன்பது"
+        },
+        {
+            "number": 100,
+            "hanzi": "一百",
+            "pinyin": "yì bǎi",
+            "english": "One Hundred",
+            "tamil": "நூறு"
+        }
+    ]
+}

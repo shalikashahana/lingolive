@@ -21,6 +21,7 @@ import MalayalamAlphabet from "./pages/malayalam/MalayalamAlphabet";
 import HindiDashboard from "./pages/hindi/HindiDashboard";
 import MalayalamDashboard from "./pages/malayalam/MalayalamDashboard";
 import KoreanDashboard from "./pages/korean/KoreanDashboard";
+import KoreanQuiz from "./pages/korean/KoreanQuiz";
 import JapaneseDashboard from "./pages/japanese/JapaneseDashboard";
 import ThaiDashboard from "./pages/thai/ThaiDashboard";
 import ChineseDashboard from "./pages/chinese/ChineseDashboard";
@@ -78,6 +79,7 @@ export default function App() {
                     <Route path="/chat" element={<Chat />} />
                     <Route path="/quiz" element={<Quiz />} />
                     <Route path="/telugu-quiz" element={<TeluguQuiz />} />
+                    <Route path="/korean-quiz" element={<KoreanQuiz />} />
                     <Route path="/telugu-sentences" element={<TeluguSentences />} />
                     <Route path="/malayalam-alphabet" element={<MalayalamAlphabet />} />
                     <Route path="/analytics" element={<Analytics />} />

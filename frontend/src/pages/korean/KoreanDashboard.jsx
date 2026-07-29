@@ -1,10 +1,11 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import alphabetData from "../../data/koreanAlphabetData.json";
 import koreanWordsData from "../../data/koreanWordsData.json";
 import koreanNumbersData from "../../data/koreanNumbersData.json";
 import koreanSentencesData from "../../data/koreanSentencesData.json";
 import koreanQuizData from "../../data/koreanQuizData.json";
+import KoreanQuiz from "./KoreanQuiz";
 import { useAuth } from "../../context/AuthContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
@@ -221,7 +222,7 @@ export default function KoreanDashboard() {
 
   const TABS = [
     "Home",
-    "Alphabets (അക്ഷരമാല)",
+    "Alphabets (한글)",
     "Essential Words",
     "Numbers",
     "Sentences",
@@ -254,7 +255,7 @@ export default function KoreanDashboard() {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "ko-IN";
+    utterance.lang = "ko-KR";
     utterance.rate = 0.8;
     window.speechSynthesis.speak(utterance);
   };
@@ -294,13 +295,13 @@ export default function KoreanDashboard() {
 
   // Dashboard overview cards
   const dashboardCards = [
-    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
-    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
-    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
-    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: koreanWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: koreanNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: koreanSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: koreanQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "swarangal", label: "Vowels (모음)", tab: TABS[1], icon: "ㅏ", total: (alphabetData.alphabet?.swarangal || []).length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
+    { key: "vyanjanangal", label: "Consonants (자음)", tab: TABS[1], icon: "ㄱ", total: (alphabetData.alphabet?.vyanjanangal || []).length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
+    { key: "chillaksharangal", label: "Special Letters", tab: TABS[1], icon: "ㅎ", total: (alphabetData.alphabet?.chillaksharangal || []).length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: (koreanWordsData.words || []).length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: (koreanNumbersData.numbers || []).length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: koreanSentencesData.total_sentences || 0, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: koreanQuizData.total_questions || 0, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -509,13 +510,13 @@ export default function KoreanDashboard() {
                 </h1>
                 <p className="max-w-2xl font-sans text-sm text-white/70 leading-relaxed">
                   Master the core {alphabetData.total_letters} letters of Korean. 
-                  Start with the vowels (സ്വരങ്ങൾ) and progress to the consonants (വ്യഞ്ജനങ്ങൾ) to build your foundation.
+                  Start with the vowels (모음) and progress to the consonants (자음) to build your foundation.
                 </p>
 
                 {/* Quick Action buttons */}
                 <div className="flex flex-wrap items-center gap-3 pt-2">
                   <button
-                    onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
+                    onClick={() => setActiveTab("Alphabets (한글)")}
                     className="flex items-center gap-2 rounded-xl bg-[#C9A227] px-5 py-3 font-sans text-sm font-bold text-[#14213D] shadow-lg transition hover:brightness-110 active:scale-95"
                   >
                     <BookOpen className="h-4 w-4" />
@@ -598,28 +599,30 @@ export default function KoreanDashboard() {
               </div>
             )}
             
-            {activeTab === "Alphabets (അക്ഷരമാല)" && (
+            {activeTab.startsWith("Alphabets") && (
               <div className="space-y-12">
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (സ്വരങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (모음)
                   </h3>
-                  {renderLetterGrid("swarangal", alphabetData.alphabet.swarangal)}
+                  {renderLetterGrid("swarangal", alphabetData.alphabet?.swarangal || [])}
                 </div>
 
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (വ്യഞ്ജനങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (자음)
                   </h3>
-                  {renderLetterGrid("vyanjanangal", alphabetData.alphabet.vyanjanangal)}
+                  {renderLetterGrid("vyanjanangal", alphabetData.alphabet?.vyanjanangal || [])}
                 </div>
 
-                <div className="space-y-6">
-                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#6366f1]" /> Chillu Letters (ചില്ലക്ഷരങ്ങൾ)
-                  </h3>
-                  {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
-                </div>
+                {alphabetData.alphabet?.chillaksharangal && alphabetData.alphabet.chillaksharangal.length > 0 && (
+                  <div className="space-y-6">
+                    <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                      <Languages className="w-6 h-6 text-[#6366f1]" /> Special Letters
+                    </h3>
+                    {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
+                  </div>
+                )}
               </div>
             )}
 
@@ -909,133 +912,7 @@ export default function KoreanDashboard() {
             )}
 
             {activeTab === "Quiz" && (
-              <div className="space-y-6">
-                {activeQuizModuleView === null ? (
-                  <div className="space-y-4 pt-4">
-                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#8b5cf6]" /> {koreanQuizData.total_questions} Quiz Questions
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {koreanQuizData.modules.map((moduleData, i) => (
-                        <button
-                          key={moduleData.module}
-                          onClick={() => {
-                            setActiveQuizModuleView(i);
-                            setActiveQuizPartView(null);
-                          }}
-                          className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
-                        >
-                          <BookOpen className="w-8 h-8 mb-3 text-[#8b5cf6]" />
-                          <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
-                          {moduleData.description && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.description}</span>}
-                          <div className="mt-4">
-                            <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">{moduleData.total_questions} Questions</span>
-                          </div>
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                ) : activeQuizPartView === null ? (
-                  <div className="space-y-6 pt-4">
-                    <button 
-                      onClick={() => setActiveQuizModuleView(null)}
-                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
-                    >
-                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
-                    </button>
-                    
-                    <div className="flex items-center justify-between">
-                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {koreanQuizData.modules[activeQuizModuleView].module} ({koreanQuizData.modules[activeQuizModuleView].total_questions} Questions)
-                      </h3>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(koreanQuizData.modules[activeQuizModuleView].quiz.length / 10) }).map((_, i) => {
-                        const startIdx = i * 10;
-                        const endIdx = Math.min((i + 1) * 10, koreanQuizData.modules[activeQuizModuleView].quiz.length);
-                        const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
-                        
-                        let moduleGlobalStartIdx = 0;
-                        for (let m = 0; m < activeQuizModuleView; m++) {
-                           moduleGlobalStartIdx += koreanQuizData.modules[m].total_questions;
-                        }
-                        const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
-                        const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
-                        
-                        const isLocked = progress.quiz < partGlobalStartIdx;
-                        const isCompleted = progress.quiz > partGlobalEndIdx;
-                        const isInProgress = !isLocked && !isCompleted;
-                        
-                        return (
-                          <button
-                            key={partName}
-                            disabled={isLocked}
-                            onClick={() => setActiveQuizPartView(i)}
-                            className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
-                              isLocked 
-                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
-                                : isInProgress
-                                ? "border-[#8b5cf6] bg-[#8b5cf6]/10 shadow-lg"
-                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
-                            }`}
-                          >
-                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#8b5cf6]" : "text-emerald-500"}`} />
-                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
-                            <div className="mt-3">
-                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
-                               isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
-                               <span className="text-xs font-bold text-[#8b5cf6] bg-[#8b5cf6]/20 px-3 py-1 rounded-full">In Progress</span>}
-                            </div>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="space-y-6 pt-4">
-                    <button 
-                      onClick={() => setActiveQuizPartView(null)}
-                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
-                    >
-                      <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
-                    </button>
-                    
-                    <div className="flex items-center justify-between">
-                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {koreanQuizData.modules[activeQuizModuleView].module} - Part {activeQuizPartView + 1}
-                      </h3>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {koreanQuizData.modules[activeQuizModuleView].quiz.slice(activeQuizPartView * 10, (activeQuizPartView + 1) * 10).map((q, relIdx) => {
-                         let globalIdx = 0;
-                         for (let m = 0; m < activeQuizModuleView; m++) {
-                            globalIdx += koreanQuizData.modules[m].total_questions;
-                         }
-                         globalIdx += (activeQuizPartView * 10) + relIdx;
-
-                         const isCompleted = globalIdx < progress.quiz;
-                         const isInProgress = globalIdx === progress.quiz;
-                         const isLocked = globalIdx > progress.quiz;
-                         
-                         return (
-                           <InteractiveQuizCard 
-                             key={globalIdx} 
-                             question={q} 
-                             index={globalIdx}
-                             isCompleted={isCompleted}
-                             isInProgress={isInProgress}
-                             isLocked={isLocked}
-                             playAudio={playAudio}
-                             onInteract={() => handleInteraction('quiz', globalIdx, q.korean)} 
-                           />
-                         );
-                      })}
-                    </div>
-                  </div>
-                )}
-              </div>
+              <KoreanQuiz onExit={() => setActiveTab("Home")} />
             )}
           </div>
         </div>

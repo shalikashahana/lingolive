@@ -1,1 +1,648 @@
-{"total_letters": 0, "alphabet": {"swarangal": [], "vyanjanangal": [], "chillaksharangal": []}}
+[
+    {
+        "id": 1,
+        "character": "あ",
+        "romaji": "a",
+        "tamil_transliteration": "அ",
+        "sound_guide": "Like 'a' in father"
+    },
+    {
+        "id": 2,
+        "character": "い",
+        "romaji": "i",
+        "tamil_transliteration": "இ",
+        "sound_guide": "Like 'ee' in beet"
+    },
+    {
+        "id": 3,
+        "character": "う",
+        "romaji": "u",
+        "tamil_transliteration": "உ",
+        "sound_guide": "Like 'oo' in boot (lips unrounded)"
+    },
+    {
+        "id": 4,
+        "character": "え",
+        "romaji": "e",
+        "tamil_transliteration": "எ",
+        "sound_guide": "Like 'e' in pet"
+    },
+    {
+        "id": 5,
+        "character": "お",
+        "romaji": "o",
+        "tamil_transliteration": "ஒ",
+        "sound_guide": "Like 'o' in go"
+    },
+    {
+        "id": 6,
+        "character": "か",
+        "romaji": "ka",
+        "tamil_transliteration": "கா",
+        "sound_guide": "Like 'ka' in kite"
+    },
+    {
+        "id": 7,
+        "character": "き",
+        "romaji": "ki",
+        "tamil_transliteration": "கி",
+        "sound_guide": "Like 'key'"
+    },
+    {
+        "id": 8,
+        "character": "く",
+        "romaji": "ku",
+        "tamil_transliteration": "கு",
+        "sound_guide": "Like 'coo' in cool"
+    },
+    {
+        "id": 9,
+        "character": "け",
+        "romaji": "ke",
+        "tamil_transliteration": "கே",
+        "sound_guide": "Like 'ke' in keg"
+    },
+    {
+        "id": 10,
+        "character": "こ",
+        "romaji": "ko",
+        "tamil_transliteration": "கோ",
+        "sound_guide": "Like 'co' in cone"
+    },
+    {
+        "id": 11,
+        "character": "さ",
+        "romaji": "sa",
+        "tamil_transliteration": "சா",
+        "sound_guide": "Like 'sa' in samurai"
+    },
+    {
+        "id": 12,
+        "character": "し",
+        "romaji": "shi",
+        "tamil_transliteration": "ஷி",
+        "sound_guide": "Like 'she'"
+    },
+    {
+        "id": 13,
+        "character": "す",
+        "romaji": "su",
+        "tamil_transliteration": "சு",
+        "sound_guide": "Like 'su' in sue"
+    },
+    {
+        "id": 14,
+        "character": "せ",
+        "romaji": "se",
+        "tamil_transliteration": "செ",
+        "sound_guide": "Like 'se' in set"
+    },
+    {
+        "id": 15,
+        "character": "そ",
+        "romaji": "so",
+        "tamil_transliteration": "சொ",
+        "sound_guide": "Like 'so'"
+    },
+    {
+        "id": 16,
+        "character": "た",
+        "romaji": "ta",
+        "tamil_transliteration": "தா",
+        "sound_guide": "Like 'ta' in taco"
+    },
+    {
+        "id": 17,
+        "character": "ち",
+        "romaji": "chi",
+        "tamil_transliteration": "ச்சி",
+        "sound_guide": "Like 'chi' in cheese"
+    },
+    {
+        "id": 18,
+        "character": "つ",
+        "romaji": "tsu",
+        "tamil_transliteration": "த்ஸு",
+        "sound_guide": "Like 'ts' in cats"
+    },
+    {
+        "id": 19,
+        "character": "て",
+        "romaji": "te",
+        "tamil_transliteration": "தே",
+        "sound_guide": "Like 'te' in ten"
+    },
+    {
+        "id": 20,
+        "character": "と",
+        "romaji": "to",
+        "tamil_transliteration": "தோ",
+        "sound_guide": "Like 'to' in toe"
+    },
+    {
+        "id": 21,
+        "character": "な",
+        "romaji": "na",
+        "tamil_transliteration": "நா",
+        "sound_guide": "Like 'na' in nana"
+    },
+    {
+        "id": 22,
+        "character": "に",
+        "romaji": "ni",
+        "tamil_transliteration": "நி",
+        "sound_guide": "Like 'nee' in knee"
+    },
+    {
+        "id": 23,
+        "character": "ぬ",
+        "romaji": "nu",
+        "tamil_transliteration": "நு",
+        "sound_guide": "Like 'nu' in nude"
+    },
+    {
+        "id": 24,
+        "character": "ね",
+        "romaji": "ne",
+        "tamil_transliteration": "நெ",
+        "sound_guide": "Like 'ne' in net"
+    },
+    {
+        "id": 25,
+        "character": "の",
+        "romaji": "no",
+        "tamil_transliteration": "நோ",
+        "sound_guide": "Like 'no'"
+    },
+    {
+        "id": 26,
+        "character": "は",
+        "romaji": "ha",
+        "tamil_transliteration": "ஹா",
+        "sound_guide": "Like 'ha' in hat"
+    },
+    {
+        "id": 27,
+        "character": "ひ",
+        "romaji": "hi",
+        "tamil_transliteration": "ஹி",
+        "sound_guide": "Like 'he'"
+    },
+    {
+        "id": 28,
+        "character": "ふ",
+        "romaji": "fu",
+        "tamil_transliteration": "ஃபு",
+        "sound_guide": "Between 'fu' and 'hu'"
+    },
+    {
+        "id": 29,
+        "character": "へ",
+        "romaji": "he",
+        "tamil_transliteration": "ஹெ",
+        "sound_guide": "Like 'he' in hen"
+    },
+    {
+        "id": 30,
+        "character": "ほ",
+        "romaji": "ho",
+        "tamil_transliteration": "ஹோ",
+        "sound_guide": "Like 'ho' in home"
+    },
+    {
+        "id": 31,
+        "character": "ま",
+        "romaji": "ma",
+        "tamil_transliteration": "மா",
+        "sound_guide": "Like 'ma' in mama"
+    },
+    {
+        "id": 32,
+        "character": "み",
+        "romaji": "mi",
+        "tamil_transliteration": "மி",
+        "sound_guide": "Like 'me'"
+    },
+    {
+        "id": 33,
+        "character": "む",
+        "romaji": "mu",
+        "tamil_transliteration": "மு",
+        "sound_guide": "Like 'moo' in moon"
+    },
+    {
+        "id": 34,
+        "character": "め",
+        "romaji": "me",
+        "tamil_transliteration": "மெ",
+        "sound_guide": "Like 'me' in met"
+    },
+    {
+        "id": 35,
+        "character": "も",
+        "romaji": "mo",
+        "tamil_transliteration": "மோ",
+        "sound_guide": "Like 'mo' in mote"
+    },
+    {
+        "id": 36,
+        "character": "や",
+        "romaji": "ya",
+        "tamil_transliteration": "யா",
+        "sound_guide": "Like 'ya' in yard"
+    },
+    {
+        "id": 37,
+        "character": "ゆ",
+        "romaji": "yu",
+        "tamil_transliteration": "யு",
+        "sound_guide": "Like 'yu' in yule"
+    },
+    {
+        "id": 38,
+        "character": "よ",
+        "romaji": "yo",
+        "tamil_transliteration": "யோ",
+        "sound_guide": "Like 'yo' in yonder"
+    },
+    {
+        "id": 39,
+        "character": "ら",
+        "romaji": "ra",
+        "tamil_transliteration": "ரா",
+        "sound_guide": "Rolled tap between r and l"
+    },
+    {
+        "id": 40,
+        "character": "り",
+        "romaji": "ri",
+        "tamil_transliteration": "ரி",
+        "sound_guide": "Like 're' in reed"
+    },
+    {
+        "id": 41,
+        "character": "る",
+        "romaji": "ru",
+        "tamil_transliteration": "ரு",
+        "sound_guide": "Like 'ru' in rule"
+    },
+    {
+        "id": 42,
+        "character": "れ",
+        "romaji": "re",
+        "tamil_transliteration": "ரெ",
+        "sound_guide": "Like 're' in red"
+    },
+    {
+        "id": 43,
+        "character": "ろ",
+        "romaji": "ro",
+        "tamil_transliteration": "ரோ",
+        "sound_guide": "Like 'ro' in robe"
+    },
+    {
+        "id": 44,
+        "character": "わ",
+        "romaji": "wa",
+        "tamil_transliteration": "வா",
+        "sound_guide": "Like 'wa' in water"
+    },
+    {
+        "id": 45,
+        "character": "を",
+        "romaji": "wo",
+        "tamil_transliteration": "வோ",
+        "sound_guide": "Pronounced like 'o' (object marker)"
+    },
+    {
+        "id": 46,
+        "character": "ん",
+        "romaji": "n",
+        "tamil_transliteration": "ன்",
+        "sound_guide": "Nasal 'n' sound at the end"
+    }
+]
+[
+    {
+        "id": 1,
+        "character": "ア",
+        "romaji": "a",
+        "tamil_transliteration": "அ",
+        "sound_guide": "Like 'a' in father"
+    },
+    {
+        "id": 2,
+        "character": "イ",
+        "romaji": "i",
+        "tamil_transliteration": "இ",
+        "sound_guide": "Like 'ee' in beet"
+    },
+    {
+        "id": 3,
+        "character": "ウ",
+        "romaji": "u",
+        "tamil_transliteration": "உ",
+        "sound_guide": "Like 'oo' in boot"
+    },
+    {
+        "id": 4,
+        "character": "エ",
+        "romaji": "e",
+        "tamil_transliteration": "எ",
+        "sound_guide": "Like 'e' in pet"
+    },
+    {
+        "id": 5,
+        "character": "オ",
+        "romaji": "o",
+        "tamil_transliteration": "ஒ",
+        "sound_guide": "Like 'o' in go"
+    },
+    {
+        "id": 6,
+        "character": "カ",
+        "romaji": "ka",
+        "tamil_transliteration": "கா",
+        "sound_guide": "Like 'ka' in kite"
+    },
+    {
+        "id": 7,
+        "character": "キ",
+        "romaji": "ki",
+        "tamil_transliteration": "கி",
+        "sound_guide": "Like 'key'"
+    },
+    {
+        "id": 8,
+        "character": "ク",
+        "romaji": "ku",
+        "tamil_transliteration": "கு",
+        "sound_guide": "Like 'coo' in cool"
+    },
+    {
+        "id": 9,
+        "character": "ケ",
+        "romaji": "ke",
+        "tamil_transliteration": "கே",
+        "sound_guide": "Like 'ke' in keg"
+    },
+    {
+        "id": 10,
+        "character": "コ",
+        "romaji": "ko",
+        "tamil_transliteration": "கோ",
+        "sound_guide": "Like 'co' in cone"
+    },
+    {
+        "id": 11,
+        "character": "サ",
+        "romaji": "sa",
+        "tamil_transliteration": "சா",
+        "sound_guide": "Like 'sa' in samurai"
+    },
+    {
+        "id": 12,
+        "character": "シ",
+        "romaji": "shi",
+        "tamil_transliteration": "ஷி",
+        "sound_guide": "Like 'she'"
+    },
+    {
+        "id": 13,
+        "character": "ス",
+        "romaji": "su",
+        "tamil_transliteration": "சு",
+        "sound_guide": "Like 'su' in sue"
+    },
+    {
+        "id": 14,
+        "character": "セ",
+        "romaji": "se",
+        "tamil_transliteration": "செ",
+        "sound_guide": "Like 'se' in set"
+    },
+    {
+        "id": 15,
+        "character": "ソ",
+        "romaji": "so",
+        "tamil_transliteration": "சொ",
+        "sound_guide": "Like 'so'"
+    },
+    {
+        "id": 16,
+        "character": "タ",
+        "romaji": "ta",
+        "tamil_transliteration": "தா",
+        "sound_guide": "Like 'ta' in taco"
+    },
+    {
+        "id": 17,
+        "character": "チ",
+        "romaji": "chi",
+        "tamil_transliteration": "ச்சி",
+        "sound_guide": "Like 'chi' in cheese"
+    },
+    {
+        "id": 18,
+        "character": "ツ",
+        "romaji": "tsu",
+        "tamil_transliteration": "த்ஸு",
+        "sound_guide": "Like 'ts' in cats"
+    },
+    {
+        "id": 19,
+        "character": "テ",
+        "romaji": "te",
+        "tamil_transliteration": "தே",
+        "sound_guide": "Like 'te' in ten"
+    },
+    {
+        "id": 20,
+        "character": "ト",
+        "romaji": "to",
+        "tamil_transliteration": "தோ",
+        "sound_guide": "Like 'to' in toe"
+    },
+    {
+        "id": 21,
+        "character": "ナ",
+        "romaji": "na",
+        "tamil_transliteration": "நா",
+        "sound_guide": "Like 'na' in nana"
+    },
+    {
+        "id": 22,
+        "character": "ニ",
+        "romaji": "ni",
+        "tamil_transliteration": "நி",
+        "sound_guide": "Like 'nee' in knee"
+    },
+    {
+        "id": 23,
+        "character": "ヌ",
+        "romaji": "nu",
+        "tamil_transliteration": "நு",
+        "sound_guide": "Like 'nu' in nude"
+    },
+    {
+        "id": 24,
+        "character": "ネ",
+        "romaji": "ne",
+        "tamil_transliteration": "நெ",
+        "sound_guide": "Like 'ne' in net"
+    },
+    {
+        "id": 25,
+        "character": "ノ",
+        "romaji": "no",
+        "tamil_transliteration": "நோ",
+        "sound_guide": "Like 'no'"
+    },
+    {
+        "id": 26,
+        "character": "ハ",
+        "romaji": "ha",
+        "tamil_transliteration": "ஹா",
+        "sound_guide": "Like 'ha' in hat"
+    },
+    {
+        "id": 27,
+        "character": "ヒ",
+        "romaji": "hi",
+        "tamil_transliteration": "ஹி",
+        "sound_guide": "Like 'he'"
+    },
+    {
+        "id": 28,
+        "character": "フ",
+        "romaji": "fu",
+        "tamil_transliteration": "ஃபு",
+        "sound_guide": "Between 'fu' and 'hu'"
+    },
+    {
+        "id": 29,
+        "character": "ヘ",
+        "romaji": "he",
+        "tamil_transliteration": "ஹெ",
+        "sound_guide": "Like 'he' in hen"
+    },
+    {
+        "id": 30,
+        "character": "ホ",
+        "romaji": "ho",
+        "tamil_transliteration": "ஹோ",
+        "sound_guide": "Like 'ho' in home"
+    },
+    {
+        "id": 31,
+        "character": "マ",
+        "romaji": "ma",
+        "tamil_transliteration": "மா",
+        "sound_guide": "Like 'ma' in mama"
+    },
+    {
+        "id": 32,
+        "character": "ミ",
+        "romaji": "mi",
+        "tamil_transliteration": "மி",
+        "sound_guide": "Like 'me'"
+    },
+    {
+        "id": 33,
+        "character": "ム",
+        "romaji": "mu",
+        "tamil_transliteration": "மு",
+        "sound_guide": "Like 'moo' in moon"
+    },
+    {
+        "id": 34,
+        "character": "メ",
+        "romaji": "me",
+        "tamil_transliteration": "மெ",
+        "sound_guide": "Like 'me' in met"
+    },
+    {
+        "id": 35,
+        "character": "モ",
+        "romaji": "mo",
+        "tamil_transliteration": "மோ",
+        "sound_guide": "Like 'mo' in mote"
+    },
+    {
+        "id": 36,
+        "character": "ヤ",
+        "romaji": "ya",
+        "tamil_transliteration": "யா",
+        "sound_guide": "Like 'ya' in yard"
+    },
+    {
+        "id": 37,
+        "character": "ユ",
+        "romaji": "yu",
+        "tamil_transliteration": "யு",
+        "sound_guide": "Like 'yu' in yule"
+    },
+    {
+        "id": 38,
+        "character": "ヨ",
+        "romaji": "yo",
+        "tamil_transliteration": "யோ",
+        "sound_guide": "Like 'yo' in yonder"
+    },
+    {
+        "id": 39,
+        "character": "ラ",
+        "romaji": "ra",
+        "tamil_transliteration": "ரா",
+        "sound_guide": "Rolled tap between r and l"
+    },
+    {
+        "id": 40,
+        "character": "リ",
+        "romaji": "ri",
+        "tamil_transliteration": "ரி",
+        "sound_guide": "Like 're' in reed"
+    },
+    {
+        "id": 41,
+        "character": "ル",
+        "romaji": "ru",
+        "tamil_transliteration": "ரு",
+        "sound_guide": "Like 'ru' in rule"
+    },
+    {
+        "id": 42,
+        "character": "レ",
+        "romaji": "re",
+        "tamil_transliteration": "ரெ",
+        "sound_guide": "Like 're' in red"
+    },
+    {
+        "id": 43,
+        "character": "ロ",
+        "romaji": "ro",
+        "tamil_transliteration": "ரோ",
+        "sound_guide": "Like 'ro' in robe"
+    },
+    {
+        "id": 44,
+        "character": "ワ",
+        "romaji": "wa",
+        "tamil_transliteration": "வா",
+        "sound_guide": "Like 'wa' in water"
+    },
+    {
+        "id": 45,
+        "character": "ヲ",
+        "romaji": "wo",
+        "tamil_transliteration": "வோ",
+        "sound_guide": "Pronounced like 'o' (object marker)"
+    },
+    {
+        "id": 46,
+        "character": "ン",
+        "romaji": "n",
+        "tamil_transliteration": "ன்",
+        "sound_guide": "Nasal 'n' sound at the end"
+    }
+]

@@ -1,1 +1,3849 @@
-{"total_sentences": 0, "modules": []}
+[
+    {
+        "id": 1,
+        "speaker_a": {
+            "japanese": "おはようございます。",
+            "romaji": "Ohayou gozaimasu.",
+            "tamil_transliteration": "ஒஹாயோ கோஜைமாசு.",
+            "english_meaning": "Good morning.",
+            "tamil_meaning": "காலை வணக்கம்."
+        }
+    },
+    {
+        "id": 2,
+        "speaker_a": {
+            "japanese": "こんにちは。",
+            "romaji": "Konnichiwa.",
+            "tamil_transliteration": "கொன்னிச்சிவா.",
+            "english_meaning": "Good afternoon / Hello.",
+            "tamil_meaning": "மதிய வணக்கம் / வணக்கம்."
+        }
+    },
+    {
+        "id": 3,
+        "speaker_a": {
+            "japanese": "こんばんは。",
+            "romaji": "Konbanwa.",
+            "tamil_transliteration": "கொன்பான்வா.",
+            "english_meaning": "Good evening.",
+            "tamil_meaning": "மாலை வணக்கம்."
+        }
+    },
+    {
+        "id": 4,
+        "speaker_a": {
+            "japanese": "おやすみなさい。",
+            "romaji": "Oyasuminasai.",
+            "tamil_transliteration": "ஒயாசுமினாஸை.",
+            "english_meaning": "Good night.",
+            "tamil_meaning": "இரவு வணக்கம் (தூங்கச் செல்லும்போது)."
+        }
+    },
+    {
+        "id": 5,
+        "speaker_a": {
+            "japanese": "さようなら。",
+            "romaji": "Sayounara.",
+            "tamil_transliteration": "சயோனாரா.",
+            "english_meaning": "Good-bye.",
+            "tamil_meaning": "போய்வருகிறேன் / விடைபெறுகிறேன்."
+        }
+    },
+    {
+        "id": 6,
+        "speaker_a": {
+            "japanese": "またね。",
+            "romaji": "Mata ne.",
+            "tamil_transliteration": "மாதா நே.",
+            "english_meaning": "See you again.",
+            "tamil_meaning": "மீண்டும் சந்திப்போம்."
+        }
+    },
+    {
+        "id": 7,
+        "speaker_a": {
+            "japanese": "ありがとうございます。",
+            "romaji": "Arigatou gozaimasu.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு.",
+            "english_meaning": "Thank you very much.",
+            "tamil_meaning": "மிக்க நன்றி."
+        }
+    },
+    {
+        "id": 8,
+        "speaker_a": {
+            "japanese": "どういたしまして。",
+            "romaji": "Dou itashimashite.",
+            "tamil_transliteration": "தோ இத்தாஷிமாஷிதே.",
+            "english_meaning": "You're welcome.",
+            "tamil_meaning": "வரவேற்கிறேன் / பரவாயில்லை."
+        }
+    },
+    {
+        "id": 9,
+        "speaker_a": {
+            "japanese": "すみません。",
+            "romaji": "Sumimasen.",
+            "tamil_transliteration": "சுமிமாசென்.",
+            "english_meaning": "Excuse me / I'm sorry.",
+            "tamil_meaning": "மன்னிக்கவும் / ச一点 உதவி."
+        }
+    },
+    {
+        "id": 10,
+        "speaker_a": {
+            "japanese": "ごめんなさい。",
+            "romaji": "Gomen nasai.",
+            "tamil_transliteration": "கோமென் நாஸை.",
+            "english_meaning": "I'm sorry.",
+            "tamil_meaning": "மன்னிக்கவும் (தவறுக்கு)."
+        }
+    },
+    {
+        "id": 11,
+        "speaker_a": {
+            "japanese": "はじめまして。",
+            "romaji": "Hajimemashite.",
+            "tamil_transliteration": "ஹஜிமேமாஷிதே.",
+            "english_meaning": "Nice to meet you.",
+            "tamil_meaning": "உங்களைச் சந்திப்பதில் மகிழ்ச்சி."
+        }
+    },
+    {
+        "id": 12,
+        "speaker_a": {
+            "japanese": "どうぞよろしくお願いします。",
+            "romaji": "Douzo yoroshiku onegaishimasu.",
+            "tamil_transliteration": "தோசோ யோரோஷிகு ஒனேகைஷிமாசு.",
+            "english_meaning": "I look forward to working with you / Please treat me well.",
+            "tamil_meaning": "தங்கள் ஒத்துழைப்பை நாடுகிறேன்."
+        }
+    },
+    {
+        "id": 13,
+        "speaker_a": {
+            "japanese": "お元気ですか。",
+            "romaji": "Ogenki desu ka.",
+            "tamil_transliteration": "ஒகென்கி தேசு கா.",
+            "english_meaning": "How are you?",
+            "tamil_meaning": "நீங்கள் நலமா?"
+        }
+    },
+    {
+        "id": 14,
+        "speaker_a": {
+            "japanese": "はい、元気です。",
+            "romaji": "Hai, genki desu.",
+            "tamil_transliteration": "ஹாய், கென்கி தேசு.",
+            "english_meaning": "Yes, I am fine.",
+            "tamil_meaning": "ஆம், நான் நலம்."
+        }
+    },
+    {
+        "id": 15,
+        "speaker_a": {
+            "japanese": "お名前は何ですか。",
+            "romaji": "O-namae wa nan desu ka.",
+            "tamil_transliteration": "ஒ-நாமே வா நான் தேசு கா.",
+            "english_meaning": "What is your name?",
+            "tamil_meaning": "உங்கள் பெயர் என்ன?"
+        }
+    },
+    {
+        "id": 16,
+        "speaker_a": {
+            "japanese": "私は [名前] です。",
+            "romaji": "Watashi wa [Name] desu.",
+            "tamil_transliteration": "வடஷி வா [பெயர்] தேசு.",
+            "english_meaning": "I am [Name].",
+            "tamil_meaning": "என் பெயர் [பெயர்]."
+        }
+    },
+    {
+        "id": 17,
+        "speaker_a": {
+            "japanese": "どこから来ましたか。",
+            "romaji": "Doko kara kimashita ka.",
+            "tamil_transliteration": "டோகோ காரா கிமாஷிதா கா.",
+            "english_meaning": "Where are you from?",
+            "tamil_meaning": "நீங்கள் எந்த ஊர்?"
+        }
+    },
+    {
+        "id": 18,
+        "speaker_a": {
+            "japanese": "インドから来ました。",
+            "romaji": "Indo kara kimashita.",
+            "tamil_transliteration": "இந்தோ காரா கிமாஷிதா.",
+            "english_meaning": "I am from India.",
+            "tamil_meaning": "நான் இந்தியாவில் இருந்து வருகிறேன்."
+        }
+    },
+    {
+        "id": 19,
+        "speaker_a": {
+            "japanese": "日本語が少し話せます。",
+            "romaji": "Nihongo ga sukoshi hanasemasu.",
+            "tamil_transliteration": "நிஹோங்கோ கா சுகோஷி ஹனஸேமாசு.",
+            "english_meaning": "I can speak a little Japanese.",
+            "tamil_meaning": "என்னால் கொஞ்சம் கொரிய/ஜப்பானிய மொழி பேச முடியும்."
+        }
+    },
+    {
+        "id": 20,
+        "speaker_a": {
+            "japanese": "わかりません。",
+            "romaji": "Wakarimasen.",
+            "tamil_transliteration": "வகாரிமாசென்.",
+            "english_meaning": "I don't understand.",
+            "tamil_meaning": "எனக்குப் புரியவில்லை."
+        }
+    },
+    {
+        "id": 21,
+        "speaker_a": {
+            "japanese": "もう一度お願いします。",
+            "romaji": "Mou ichido onegai shimasu.",
+            "tamil_transliteration": "மோ இச்சிதோ ஒனேகை ஷிமாசு.",
+            "english_meaning": "Once more, please.",
+            "tamil_meaning": "தயவுசெய்து மீண்டும் கூறுங்கள்."
+        }
+    },
+    {
+        "id": 22,
+        "speaker_a": {
+            "japanese": "ゆっくり話してください。",
+            "romaji": "Yukkuri hanashite kudasai.",
+            "tamil_transliteration": "யுக்குரி ஹனஷிதே குதாஸை.",
+            "english_meaning": "Please speak slowly.",
+            "tamil_meaning": "தயவுசெய்து மெதுவாகப் பேசுங்கள்."
+        }
+    },
+    {
+        "id": 23,
+        "speaker_a": {
+            "japanese": "これはいくですか。",
+            "romaji": "Kore wa ikura desu ka.",
+            "tamil_transliteration": "கொரே வா இக்குரா தேசு கா.",
+            "english_meaning": "How much is this?",
+            "tamil_meaning": "இதன் விலை என்ன?"
+        }
+    },
+    {
+        "id": 24,
+        "speaker_a": {
+            "japanese": "トイレはどこですか。",
+            "romaji": "Toire wa doko desu ka.",
+            "tamil_transliteration": "தொயிறே வா டோகோ தேசு கா.",
+            "english_meaning": "Where is the restroom?",
+            "tamil_meaning": "கழிப்பறை எங்கே இருக்கிறது?"
+        }
+    },
+    {
+        "id": 25,
+        "speaker_a": {
+            "japanese": "助けてください！",
+            "romaji": "Tasukete kudasai!",
+            "tamil_transliteration": "தாசுக்கேதே குதாஸை!",
+            "english_meaning": "Help me, please!",
+            "tamil_meaning": "தயவுசெய்து எனக்கு உதவுங்கள்!"
+        }
+    }
+]
+[
+    {
+        "id": 1,
+        "speaker_a": {
+            "japanese": "おはようございます。今日もいい天気ですね。",
+            "romaji": "Ohayou gozaimasu. Kyou mo ii tenki desu ne.",
+            "tamil_transliteration": "ஒஹாயோ கோஜைமாசு. கியோ மோ ஈ தேங்கி தேசு நே.",
+            "english_meaning": "Good morning. The weather is nice today too, isn't it?",
+            "tamil_meaning": "காலை வணக்கம். இன்று வானிலையும் நன்றாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "はい、そうですね。お出かけですか。",
+            "romaji": "Hai, sou desu ne. O-dekake desu ka.",
+            "tamil_transliteration": "ஹாய், சோ தேசு நே. ஒ-தேகாக்கே தேசு கா.",
+            "english_meaning": "Yes, that's right. Are you going out?",
+            "tamil_meaning": "ஆம், உண்மைதான். நீங்கள் வெளியே செல்கிறீர்களா?"
+        }
+    },
+    {
+        "id": 2,
+        "speaker_a": {
+            "japanese": "はじめまして、田中です。どうぞよろしくお願いします。",
+            "romaji": "Hajimemashite, Tanaka desu. Douzo yoroshiku onegaishimasu.",
+            "tamil_transliteration": "ஹஜிமேமாஷிதே, தனாகா தேசு. தோசோ யோரோஷிகு ஒனேகைஷிமாசு.",
+            "english_meaning": "Nice to meet you, I'm Tanaka. Please treat me well.",
+            "tamil_meaning": "உங்களைச் சந்திப்பதில் மகிழ்ச்சி, நான் தனாகா. ஒத்துழைப்புத் தாருங்கள்."
+        },
+        "speaker_b": {
+            "japanese": "はじめまして、佐藤です。こちらこそよろしくお願いします。",
+            "romaji": "Hajimemashite, Satou desu. Kochira koso yoroshiku onegaishimasu.",
+            "tamil_transliteration": "ஹஜிமேமாஷிதே, சதோ தேசு. கொச்சிரா கோசோ யோரோஷிகு ஒனேகைஷிமாசு.",
+            "english_meaning": "Nice to meet you, I'm Sato. Likewise, please treat me well.",
+            "tamil_meaning": "உங்களைச் சந்திப்பதில் மகிழ்ச்சி, நான் சதோ. எனக்கும் மகிழ்ச்சியே."
+        }
+    },
+    {
+        "id": 3,
+        "speaker_a": {
+            "japanese": "すみません、この電車は東京駅に行きますか。",
+            "romaji": "Sumimasen, kono densha wa Toukyou-eki ni ikimasu ka.",
+            "tamil_transliteration": "சுமிமாசென், கொனோ தேன்ஷா வா தோக்கியோ-எகி நி இகிமாசு கா.",
+            "english_meaning": "Excuse me, does this train go to Tokyo Station?",
+            "tamil_meaning": "மன்னிக்கவும், இந்த ரயில் டோக்கியோ ரயில் நிலையத்திற்குச் செல்லுமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、この電車は行きません。次の電車に乗ってください。",
+            "romaji": "Ie, kono densha wa ikimasen. Tsugi no densha ni notte kudasai.",
+            "tamil_transliteration": "ஈஏ, கொனோ தேன்ஷா வா இகிமாசென். த்சு கி நோ தேன்ஷா நி நோத்தே குதாஸை.",
+            "english_meaning": "No, this train doesn't go there. Please take the next train.",
+            "tamil_meaning": "இல்லை, இந்த ரயில் செல்லாது. அடுத்த ரயிலில் ஏறுங்கள்."
+        }
+    },
+    {
+        "id": 4,
+        "speaker_a": {
+            "japanese": "お名前は何とおっしゃいますか。",
+            "romaji": "O-namae wa nan to osshaimasu ka.",
+            "tamil_transliteration": "ஒ-நாமே வா நான் தோ ஒச்சைமாசு கா.",
+            "english_meaning": "What is your name? (Polite)",
+            "tamil_meaning": "உங்கள் பெயர் என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "私はアミットと申します。インドから来ました。",
+            "romaji": "Watashi wa Amitto to moushimasu. Indo kara kimashita.",
+            "tamil_transliteration": "வடஷி வா அமித்தோ தோ மோஷிமாசு. இந்தோ காரா கிமாஷிதா.",
+            "english_meaning": "My name is Amit. I came from India.",
+            "tamil_meaning": "என் பெயர் அமித். நான் இந்தியாவில் இருந்து வந்துள்ளேன்."
+        }
+    },
+    {
+        "id": 5,
+        "speaker_a": {
+            "japanese": "これはいくらですか。",
+            "romaji": "Kore wa ikura desu ka.",
+            "tamil_transliteration": "கொரே வா இக்குரா தேசு கா.",
+            "english_meaning": "How much is this?",
+            "tamil_meaning": "இதன் விலை எவ்வளவு?"
+        },
+        "speaker_b": {
+            "japanese": "それは一千円です。",
+            "romaji": "Sore wa issen-en desu.",
+            "tamil_transliteration": "சோரே வா இச்சென்-என் தேசு.",
+            "english_meaning": "That is 1,000 yen.",
+            "tamil_meaning": "அது 1,000 யென் ஆகும்."
+        }
+    },
+    {
+        "id": 6,
+        "speaker_a": {
+            "japanese": "日本語の勉強は難しいですか。",
+            "romaji": "Nihongo no benkyou wa muzukashii desu ka.",
+            "tamil_transliteration": "நிஹோங்கோ நோ பெங்கியோ வா முஜுகாஷீ தேசு கா.",
+            "english_meaning": "Is studying Japanese difficult?",
+            "tamil_meaning": "கொரிய/ஜப்பானிய மொழிப் படிப்பு கடினமாக இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "`japanese": "漢字は少し難しいですが、とても面白いです。",
+            "romaji": "Kanji wa sukoshi muzukashii desu ga, totemo omoshiroi desu.",
+            "tamil_transliteration": "கஞ்சி வா சுகோஷி முஜுகாஷீ தேசு கா, தோதேமோ ஓமோஷிரோய் தேசு.",
+            "english_meaning": "Kanji is a bit difficult, but it's very interesting.",
+            "tamil_meaning": "கஞ்சி எழுத்துகள் கொஞ்சம் கடினம், ஆனால் மிகவும் சுவாரஸ்யமானது."
+        }
+    },
+    {
+        "id": 7,
+        "speaker_a": {
+            "japanese": "今何時ですか。",
+            "romaji": "Ima nan-ji desu ka.",
+            "tamil_transliteration": "இமா நான்-ஜி தேசு கா.",
+            "english_meaning": "What time is it now?",
+            "tamil_meaning": "இப்போது மணி என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "午後三時半です。",
+            "romaji": "Go-ji san-ji-han desu.",
+            "tamil_transliteration": "கோ-ஜி சான்-ஜி-ஹான் தேசு.",
+            "english_meaning": "It is 3:30 PM.",
+            "tamil_meaning": "பிற்பகல் மூன்றரை மணி."
+        }
+    },
+    {
+        "id": 8,
+        "speaker_a": {
+            "japanese": "週末は普段何をして過ごしますか。",
+            "romaji": "Shuumatsu wa fudan nani o shite sugoshimasu ka.",
+            "tamil_transliteration": "ஷூமத்சு வா புதான் நானி ஓ ஷிதே சுகோஷிமாசு கா.",
+            "english_meaning": "What do you usually do on weekends?",
+            "tamil_meaning": "வார இறுதியில் வழக்கமாக என்ன செய்வீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "家で本を読んだり、映画を見たりします。",
+            "romaji": "Ie de hon o yondari, eiga o mitari shimasu.",
+            "tamil_transliteration": "ஈஏ தே ஹோன் ஓ யோந்தாரி, ஏகா ஓ மிதாரி ஷிமாசு.",
+            "english_meaning": "I read books at home, watch movies, and do things like that.",
+            "tamil_meaning": "வீட்டில் புத்தகம் படிப்பது, படம் பார்ப்பது போன்றவற்றைச் செய்வேன்."
+        }
+    },
+    {
+        "id": 9,
+        "speaker_a": {
+            "japanese": "すみません、トイレはどこですか。",
+            "romaji": "Sumimasen, toire wa doko desu ka.",
+            "tamil_transliteration": "சுமிமாசென், தொயிறே வா டோகோ தேசு கா.",
+            "english_meaning": "Excuse me, where is the restroom?",
+            "tamil_meaning": "மன்னிக்கவும், கழிப்பறை எங்கே இருக்கிறது?"
+        },
+        "speaker_b": {
+            "japanese": "あちらの階段の横にあります。",
+            "romaji": "Achira no kaidan no yoko ni arimasu.",
+            "tamil_transliteration": "அச்சிரா நோ கைதான் நோ யோகோ நி அரிமாசு.",
+            "english_meaning": "It is right next to the stairs over there.",
+            "tamil_meaning": "அங்கே படியின் பக்கத்தில் இருக்கிறது."
+        }
+    },
+    {
+        "id": 10,
+        "speaker_a": {
+            "japanese": "お腹が空きましたね。何か食べましょうか。",
+            "romaji": "Onaka ga sukimashita ne. Nani ka tabemashou ka.",
+            "tamil_transliteration": "ஒனாகா கா சுகிமாஷிதா நே. நானி கா தபேமாஷோ கா.",
+            "english_meaning": "I'm hungry, aren't I? Shall we eat something?",
+            "tamil_meaning": "பசிக்கிறது அல்லவா. ஏதாவது சாப்பிடலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいですね、近くのラーメン屋に行きましょう。",
+            "romaji": "Ii desu ne, chikaku no raamen-ya ni ikimashou.",
+            "tamil_transliteration": "ஈ தேசு நே, திகாகு நோ ராமென்-யா நி இகிமாஷோ.",
+            "english_meaning": "Sounds good, let's go to the ramen shop nearby.",
+            "tamil_meaning": "நல்லது, அருகில் உள்ள ராமன் கடைக்குச் செல்வோம்."
+        }
+    },
+    {
+        "id": 11,
+        "speaker_a": {
+            "japanese": "明日、一緒に映画を見に行きませんか。",
+            "romaji": "Ashita, issho ni eiga o mi ni ikimasen ka.",
+            "tamil_transliteration": "அஷிதா, இஷோ நி ஏகா ஓ மி நி இகிமாசென் கா.",
+            "english_meaning": "Would you like to go see a movie together tomorrow?",
+            "tamil_meaning": "நாளை சேர்ந்து படம் பார்க்கச் செல்லலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "すみません、明日はちょっと用事があります。",
+            "romaji": "Sumimasen, ashita wa chotto youji ga arimasu.",
+            "tamil_transliteration": "சுமிமாசென், அஷிதா வா சொத்தோ யோoji கா அரிமாசு.",
+            "english_meaning": "I'm sorry, I have some business to attend to tomorrow.",
+            "tamil_meaning": "மன்னிக்கவும், நாளை எனக்குக் கொஞ்சம் வேலை இருக்கிறது."
+        }
+    },
+    {
+        "id": 12,
+        "speaker_a": {
+            "japanese": "日本の食べ物で何が一番好きですか。",
+            "romaji": "Nihon no tabemono de nani ga ichiban suki desu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தபேமோனோ தே நானி கா இச்சிபான் சுகி தேசு கா.",
+            "english_meaning": "What Japanese food do you like the most?",
+            "tamil_meaning": "ஜப்பானிய உணவுகளில் உங்களுக்கு எது மிகவும் பிடிக்கும்?"
+        },
+        "speaker_b": {
+            "japanese": "寿司が一番好きです。とても美味しいです。",
+            "romaji": "Sushi ga ichiban suki desu. Totemo oishii desu.",
+            "tamil_transliteration": "சுஷி கா இச்சிபான் சுகி தேசு. தோதேமோ ஓயிஷீ தேசு.",
+            "english_meaning": "I like sushi the best. It's very delicious.",
+            "tamil_meaning": "எனக்கு சுஷி மிகவும் பிடிக்கும். மிகவும் சுவையாக இருக்கும்."
+        }
+    },
+    {
+        "id": 13,
+        "speaker_a": {
+            "japanese": "今何時ですか。時計を持っていますか。",
+            "romaji": "Ima nan-ji desu ka. Tokei o motte imasu ka.",
+            "tamil_transliteration": "இமா நான்-ஜி தேசு கா. தொகேய் ஓ மோத்தே இமாசு கா.",
+            "english_meaning": "What time is it now? Do you have a watch?",
+            "tamil_meaning": "இப்போது மணி என்ன? உங்களிடம் கைக்கடிகாரம் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、十時四十五分です。",
+            "romaji": "Hai, juu-ji yon-juu-go-fun desu.",
+            "tamil_transliteration": "ஹாய், ஜூ-ஜி யொன்-ஜூ-கோ-புன் தேசு.",
+            "english_meaning": "Yes, it is 10:45.",
+            "tamil_meaning": "ஆம், மணி 10:45 ஆகிறது."
+        }
+    },
+    {
+        "id": 14,
+        "speaker_a": {
+            "japanese": "きょうの天気はどうですか。",
+            "romaji": "Kyou no tenki wa dou desu ka.",
+            "tamil_transliteration": "கியோ நோ தேங்கி வா தோ தேசு கா.",
+            "english_meaning": "How is the weather today?",
+            "tamil_meaning": "இன்றைய வானிலை எப்படி இருக்கிறது?"
+        },
+        "speaker_b": {
+            "japanese": "少し曇っていますが、雨は降っていません。",
+            "romaji": "Sukoshi kumotte imasu ga, ame wa futteいません.",
+            "tamil_transliteration": "சுகோஷி குமோத்தே இமாசு கா, அமே வா புத்தே இமாசென்.",
+            "english_meaning": "It's a bit cloudy, but it's not raining.",
+            "tamil_meaning": "கொஞ்சம் மேகமூட்டமாக இருக்கிறது, ஆனால் மழை பெய்யவில்லை."
+        }
+    },
+    {
+        "id": 15,
+        "speaker_a": {
+            "japanese": "あなたの趣味は何ですか。",
+            "romaji": "Anata no shumi wa nan desu ka.",
+            "tamil_transliteration": "அனாத நோ ஷுமி வா நான் தேசு கா.",
+            "english_meaning": "What is your hobby?",
+            "tamil_meaning": "உங்கள் பொழுதுபோக்கு என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "私の趣味は写真を撮ることです。",
+            "romaji": "Watashi no shumi wa shashin o toru koto desu.",
+            "tamil_transliteration": "வடஷி நோ ஷுமி வா ஷாஷின் ஓ தொரு கோதோ தேசு.",
+            "english_meaning": "My hobby is taking photographs.",
+            "tamil_meaning": "புகைப்படம் எடுப்பது எனது பொழுதுபோக்கு."
+        }
+    },
+    {
+        "id": 16,
+        "speaker_a": {
+            "japanese": "この漢字の読み方を教えてください。",
+            "romaji": "Kono kanji no yomikata o oshiete kudasai.",
+            "tamil_transliteration": "கொனோ கஞ்சி நோ யோமிகாதா ஓ ஒஷிஏதே குதாஸை.",
+            "english_meaning": "Please teach me how to read this Kanji.",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தை எப்படிப் படிப்பது என்று சொல்லிக் கொடுங்கள்."
+        },
+        "speaker_b": {
+            "japanese": "はい、それは「にほん」と読みます。",
+            "romaji": "Hai, sore wa 'Nihon' to yomimasu.",
+            "tamil_transliteration": "ஹாய், சோரே வா 'நிஹோன்' தோ யோமிமாசு.",
+            "english_meaning": "Yes, that is read as 'Nihon'.",
+            "tamil_meaning": "ஆம், அது 'நிஹோன்' என்று படிக்கப்படுகிறது."
+        }
+    },
+    {
+        "id": 17,
+        "speaker_a": {
+            "japanese": "すいません、クレジットカードは使えますか。",
+            "romaji": "Sumimasen, kurejitto-kaado wa tsukaemasu ka.",
+            "tamil_transliteration": "சுமிமாசென், குரேஜித்தோ-காதோ வா சுகாஏமாசு கா.",
+            "english_meaning": "Excuse me, can I use a credit card?",
+            "tamil_meaning": "மன்னிக்கவும், கிரெடிட் கார்டு பயன்படுத்தலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、ご利用いただけます。",
+            "romaji": "Hai, goriyou itadakemasu.",
+            "tamil_transliteration": "ஹாய், கோரியோ இடாதகேமாசு.",
+            "english_meaning": "Yes, you can use it.",
+            "tamil_meaning": "ஆம், பயன்படுத்தலாம்."
+        }
+    },
+    {
+        "id": 18,
+        "speaker_a": {
+            "japanese": "どのカメラがいちばんいいですか。",
+            "romaji": "Dono kamera ga ichiban ii desu ka.",
+            "tamil_transliteration": "தோனோ காமேரா கா இச்சிபான் ஈ தேசு கா.",
+            "english_meaning": "Which camera is the best?",
+            "tamil_meaning": "எந்தக் கேமரா மிகச் சிறந்தது?"
+        },
+        "speaker_b": {
+            "japanese": "こちらのが一番軽くて人気があります。",
+            "romaji": "Kochira no ga ichiban karukute ninki ga arimasu.",
+            "tamil_transliteration": "கொச்சிரா நோ கா இச்சிபான் கருகூதே நின்கி கா அரிமாசு.",
+            "english_meaning": "This one is the lightest and most popular.",
+            "tamil_meaning": "இதுதான் மிக லேசானது மற்றும் பிரபலமானது."
+        }
+    },
+    {
+        "id": 19,
+        "speaker_a": {
+            "japanese": "駅までどのくらいかかりますか。",
+            "romaji": "Eki made dono kurai kakarimasu ka.",
+            "tamil_transliteration": "எகி மாதெ தோனோ குரை ககரிமாசு கா.",
+            "english_meaning": "How long does it take to get to the station?",
+            "tamil_meaning": "ரயில் நிலையம் செல்ல எவ்வளவு நேரம் ஆகும்?"
+        },
+        "speaker_b": {
+            "japanese": "歩いて約十分ぐらいかかります。",
+            "romaji": "Aruite yaku juu-pun gurai kakarimasu.",
+            "tamil_transliteration": "அருஇதே யாகு ஜூ-புன் குரை ககரிமாசு.",
+            "english_meaning": "It takes about 10 minutes on foot.",
+            "tamil_meaning": "நடந்து சென்றால் சுமார் 10 நிமிடங்கள் ஆகும்."
+        }
+    },
+    {
+        "id": 20,
+        "speaker_a": {
+            "japanese": "風邪をひいてしまいました。",
+            "romaji": "Kaze o hiite shimaimashita.",
+            "tamil_transliteration": "கஜே ஓ ஹிஇதே ஷிமைமாஷிதா.",
+            "english_meaning": "I have caught a cold.",
+            "tamil_meaning": "எனக்குச் சளி பிடித்துவிட்டது."
+        },
+        "speaker_b": {
+            "japanese": "それは大変ですね。どうぞお大事に。",
+            "romaji": "Sore wa taihen desu ne. Douzo odai ni.",
+            "tamil_transliteration": "சோரே வா தைஹென் தேசு நே. தோசோ ஒடை நி.",
+            "english_meaning": "That's terrible. Please take good care of yourself.",
+            "tamil_meaning": "கவலைக்குரியது. உடம்பைப் பார்த்துக் கொள்ளுங்கள்."
+        }
+    },
+    {
+        "id": 21,
+        "speaker_a": {
+            "japanese": "昨日、何時に寝ましたか。",
+            "romaji": "Kinou, nan-ji ni nemashita ka.",
+            "tamil_transliteration": "கினோ, நான்-ஜி நி நேமாஷிதா கா.",
+            "english_meaning": "What time did you go to sleep yesterday?",
+            "tamil_meaning": "நேற்று எத்தனை மணிக்குத் தூங்கச் சென்றீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "昨日は十一時ごろ寝ました。",
+            "romaji": "Kinou wa juu-ichi-ji goro nemashita.",
+            "tamil_transliteration": "கினோ வா ஜூ-இச்சி-ஜி கோரோ நேமாஷிதா.",
+            "english_meaning": "Yesterday I went to sleep around 11 o'clock.",
+            "tamil_meaning": "நேற்று 11 மணி வாக்கில் தூங்கினேன்."
+        }
+    },
+    {
+        "id": 22,
+        "speaker_a": {
+            "japanese": "英語が話せますか。",
+            "romaji": "Eigo ga hanasemasu ka.",
+            "tamil_transliteration": "ஏகோ கா ஹனஸேமாசு கா.",
+            "english_meaning": "Can you speak English?",
+            "tamil_meaning": "உங்களுக்கு ஆங்கிலம் பேசத் தெரியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "少しだけ話せます。",
+            "romaji": "Sukoshi dake hanasemasu.",
+            "tamil_transliteration": "சுகோஷி தகே ஹனஸேமாசு.",
+            "english_meaning": "I can speak just a little.",
+            "tamil_meaning": "கொஞ்சம் பேசத் தெரியும்."
+        }
+    },
+    {
+        "id": 23,
+        "speaker_a": {
+            "japanese": "ここに座ってもいいですか。",
+            "romaji": "Koko ni suwatte mo ii desu ka.",
+            "tamil_transliteration": "கோகோ நி சுவாத்தே மோ ஈ தேசு கா.",
+            "english_meaning": "May I sit here?",
+            "tamil_meaning": "நான் இங்கே உட்காரலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、どうぞ。",
+            "romaji": "Hai, douzo.",
+            "tamil_transliteration": "ஹாய், தோசோ.",
+            "english_meaning": "Yes, please.",
+            "tamil_meaning": "ஆம், தாராளமாக."
+        }
+    },
+    {
+        "id": 24,
+        "speaker_a": {
+            "japanese": "今何を食べたいですか。",
+            "romaji": "Ima nani o tabetai desu ka.",
+            "tamil_transliteration": "இமா நானி ஓ தபேதாய் தேசு கா.",
+            "english_meaning": "What would you like to eat now?",
+            "tamil_meaning": "இப்போது என்ன சாப்பிட விரும்புகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "ラーメンが食べたいです。",
+            "romaji": "Raamen ga tabetai desu.",
+            "tamil_transliteration": "ராமென் கா தபேதாய் தேசு.",
+            "english_meaning": "I want to eat ramen.",
+            "tamil_meaning": "எனக்கு ராமன் சாப்பிட விருப்பம்."
+        }
+    },
+    {
+        "id": 25,
+        "speaker_a": {
+            "japanese": "どうして日本に来ましたか。",
+            "romaji": "Doushite Nihon ni kimashita ka.",
+            "tamil_transliteration": "தோஷிதே நிஹோன் நி கிமாஷிதா கா.",
+            "english_meaning": "Why did you come to Japan?",
+            "tamil_meaning": "நீங்கள் எதற்காக ஜப்பானுக்கு வந்தீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "日本語を勉強するためです。",
+            "romaji": "Nihongo o benkyou suru tame desu.",
+            "tamil_transliteration": "நிஹோங்கோ ஓ பெங்கியோ சுரு தமே தேசு.",
+            "english_meaning": "It is to study Japanese.",
+            "tamil_meaning": "ஜப்பானிய மொழி படிக்க வந்தேன்."
+        }
+    }
+]
+
+[
+    {
+        "id": 26,
+        "speaker_a": {
+            "japanese": "この近くにスーパーはありますか。",
+            "romaji": "Kono chikaku ni suupaa wa arimasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி சூபா வா அரிமாசு கா.",
+            "english_meaning": "Is there a supermarket near here?",
+            "tamil_meaning": "இந்த அருகில் சூப்பர் மார்க்கெட் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、あそこの角を曲がるとあります。",
+            "romaji": "Hai, asoko no kado o magaru to arimasu.",
+            "tamil_transliteration": "ஹாய், அசோகோ நோ கதோ ஓ மகரு தோ அரிமாசு.",
+            "english_meaning": "Yes, if you turn the corner over there, there is one.",
+            "tamil_meaning": "ஆம், அங்கே மூலையில் திரும்பினால் இருக்கிறது."
+        }
+    },
+    {
+        "id": 27,
+        "speaker_a": {
+            "japanese": "休日は普段何をしていますか。",
+            "romaji": "Kyuujitsu wa fudan nani o shite imasu ka.",
+            "tamil_transliteration": "கியூஜித்சு வா புதான் நானி ஓ ஷிதே இமாசு கா.",
+            "english_meaning": "What do you usually do on your days off?",
+            "tamil_meaning": "விடுமுறை நாட்களில் வழக்கமாக என்ன செய்வீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "友達とカフェに行ったり、買い物したりします。",
+            "romaji": "Tomodachi to kafe ni ittari, kaimono shitari shimasu.",
+            "tamil_transliteration": "தொமோதாச்சி தோ காபே நி இத்தாரி, கைமோனோ ஷிதாரி ஷிமாசு.",
+            "english_meaning": "I meet friends at cafes and go shopping.",
+            "tamil_meaning": "நண்பர்களுடன் கஃபேவுக்குச் செல்வது மற்றும் ஷாப்பிங் செய்வது வழக்கம்."
+        }
+    },
+    {
+        "id": 28,
+        "speaker_a": {
+            "japanese": "すみません、この写真をとっていただけませんか。",
+            "romaji": "Sumimasen, kono shashin o totte itadakemasen ka.",
+            "tamil_transliteration": "சுமிமாசென், கொனோ ஷாஷின் ஓ தொத்தே இடாதகேமாசென் கா.",
+            "english_meaning": "Excuse me, could you take this picture for me?",
+            "tamil_meaning": "மன்னிக்கவும், இந்தப் புகைப்படத்தை எனக்கு எடுத்துத் தர முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、喜んで。1、2、3！",
+            "romaji": "Hai, yorokonde. Ichi, ni, san!",
+            "tamil_transliteration": "ஹாய், யோரோகொந்தே. இச்சி, நி, சான்!",
+            "english_meaning": "With pleasure. One, two, three!",
+            "tamil_meaning": "தாராளமாக. ஒன்று, இரண்டு, மூன்று!"
+        }
+    },
+    {
+        "id": 29,
+        "speaker_a": {
+            "japanese": "日本の映画を見たことがありますか。",
+            "romaji": "Nihon no eiga o mita koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ ஏகா ஓ மிதா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever watched a Japanese movie?",
+            "tamil_meaning": ஜப்பானியத் திரைப்படம் பார்த்ததுண்டா?" },"speaker_b": {"japanese": "はい、何度か見たことがあります。とても感動しました。","romaji": "Hai, nan-ka mita koto ga arimasu. Totemo kandou shimashita.","tamil_transliteration": "ஹாய், நான்-க மிதா கோதோ கா அரிமாசு. தோதேமோ கந்தோ ஷிமாஷிதா.","english_meaning": "Yes, I've seen some a few times. It was very touching.","tamil_meaning": "ஆம், சில முறை பார்த்துள்ளேன். மிகவும் நெகிழ்ச்சியாக இருந்தது."
+        }
+    },
+    {
+        "id": 30,
+        "speaker_a": {
+            "japanese": "明日の天気はどうなるでしょうか。",
+            "romaji": "Ashita no tenki wa dounaru deshou ka.",
+            "tamil_transliteration": "அஷிதா நோ தேங்கி வா தோனாரு தேஷோ கா.",
+            "english_meaning": "I wonder what tomorrow's weather will be like.",
+            "tamil_meaning": "நாளை வானிலை எப்படி இருக்கும் என்று நினைக்கிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "天気予報によると、明日は晴れるそうです。",
+            "romaji": "Tenki-yohou ni yoru to, ashita wa hareru sou desu.",
+            "tamil_transliteration": "தேங்கி-யோஹோ நி யோரு தோ, அஷிதா வா ஹரெரு சோ தேசு.",
+            "english_meaning": "According to the weather forecast, it's supposed to be sunny tomorrow.",
+            "tamil_meaning": "வானிலை முன்னறிவிப்பின்படி, நாளை வெயிலாக இருக்குமாம்."
+        }
+    },
+    {
+        "id": 31,
+        "speaker_a": {
+            "japanese": "何かおすすめの本はありますか。",
+            "romaji": "Nani ka osusume no hon wa arimasu ka.",
+            "tamil_transliteration": "நானி கா ஒசுசுமே நோ ஹோன் வா அரிமாசு கா.",
+            "english_meaning": "Do you have any book recommendations?",
+            "tamil_meaning": "பரிந்துரைக்கப் படியுங்கள் போன்ற ஏதாவது நல்ல புத்தகம் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "この小説はとても面白いので読んでみてください。",
+            "romaji": "Kono shousetsu wa totemo omoshiroi node yonde mite kudasai.",
+            "tamil_transliteration": "கொனோ ஷோசெத்சு வா தோதேமோ ஓமோஷிரோய் நோதே யோந்தே மிதே குதாஸை.",
+            "english_meaning": "This novel is very interesting, so please try reading it.",
+            "tamil_meaning": "இந்த நாவல் மிகவும் சுவாரஸ்யமாக இருக்கும், படித்துப் பாருங்கள்."
+        }
+    },
+    {
+        "id": 32,
+        "speaker_a": {
+            "japanese": "お仕事は何をしていらっしゃいますか。",
+            "romaji": "O-shigoto wa nani o shite irasshaimasu ka.",
+            "tamil_transliteration": "ஒ-ஷிகோதோ வா நானி ஓ ஷிதே இரச்சாய்மாசு கா.",
+            "english_meaning": "What do you do for work? (Polite)",
+            "tamil_meaning": "நீங்கள் என்ன வேலை செய்கிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "私はエンジニアとして働いています。",
+            "romaji": "Watashi wa enjinia to shite hataraite imasu.",
+            "tamil_transliteration": "வடஷி வா என்ஜினிஅ தோ ஷிதே ஹதரஇதே இமாசு.",
+            "english_meaning": "I work as an engineer.",
+            "tamil_meaning": "நான் பொறியியலாளராகப் பணிபுரிகிறேன்."
+        }
+    },
+    {
+        "id": 33,
+        "speaker_a": {
+            "japanese": "この漢字はどうやって書きますか。",
+            "romaji": "Kono kanji wa dou yatte kakimasu ka.",
+            "tamil_transliteration": "கொனோ கஞ்சி வா தோ யத்தே ககிமாசு கா.",
+            "english_meaning": "How do you write this Kanji?",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தை எப்படி எழுதுவது?"
+        },
+        "speaker_b": {
+            "japanese": "上から下に、左から右に書きます。",
+            "romaji": "Ue kara shita ni, hidari kara migi ni kakimasu.",
+            "tamil_transliteration": "உஏ காரா ஷிதா நி, ஹிதாரி காரா மிகி நி ககிமாசு.",
+            "english_meaning": "You write it from top to bottom, left to right.",
+            "tamil_meaning": "மேலிருந்து கீழாகவும், இடதுபுறமிருந்து வலதுபுறமாகவும் எழுத வேண்டும்."
+        }
+    },
+    {
+        "id": 34,
+        "speaker_a": {
+            "japanese": "今夜、一緒に食事でもいかがですか。",
+            "romaji": "Konya, issho ni shokuji demo ikaga desu ka.",
+            "tamil_transliteration": "கொன்யா, இஷோ நி ஷோகுஜி தேமோ இகாகா தேசு கா.",
+            "english_meaning": "How about having dinner together tonight?",
+            "tamil_meaning": "இன்று இரவு சேர்ந்து உணவு அருந்தலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいですね。何を食べましょうか。",
+            "romaji": "Ii desu ne. Nani o tabemashou ka.",
+            "tamil_transliteration": "ஈ தேசு நே. நானி ஓ தபேமாஷோ கா.",
+            "english_meaning": "Sounds good. What shall we eat?",
+            "tamil_meaning": "நல்லது. என்ன சாப்பிடலாம்?"
+        }
+    },
+    {
+        "id": 35,
+        "speaker_a": {
+            "japanese": "この電車はどこ行きですか。",
+            "romaji": "Kono densha wa doko iki desu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா டோகோ இகி தேசு கா.",
+            "english_meaning": "Where is this train bound for?",
+            "tamil_meaning": "இந்த ரயில் எங்கு செல்கிறது?"
+        },
+        "speaker_b": {
+            "japanese": "新宿行きです。次の駅で止まります。",
+            "romaji": "Shinjuku iki desu. Tsugi no eki de tomarimasu.",
+            "tamil_transliteration": "ஷிஞ்ஜுகு இகி தேசு. த்சு கி நோ எகி தே தொமரிமாசு.",
+            "english_meaning": "It's bound for Shinjuku. It stops at the next station.",
+            "tamil_meaning": "இது ஷிஞ்ஜுகு செல்கிறது. அடுத்த நிலையத்தில் நிற்கும்."
+        }
+    },
+    {
+        "id": 36,
+        "speaker_a": {
+            "japanese": "日本でどこに行きたいですか。",
+            "romaji": "Nihon de doko ni ikitai desu ka.",
+            "tamil_transliteration": "நிஹோன் தே டோகோ நி இகীতாய் தேசு கா.",
+            "english_meaning": "Where do you want to go in Japan?",
+            "tamil_meaning": "ஜப்பானில் நீங்கள் எங்கு செல்ல விரும்புகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "京都の寺や神社を見てみたいです。",
+            "romaji": "Kyouto no tera ya jinja o mite mitai desu.",
+            "tamil_transliteration": "கியோதோ நோ தேரா யா ஜின்ஜா ஓ மிதே மிதாய் தேசு.",
+            "english_meaning": "I'd like to see the temples and shrines in Kyoto.",
+            "tamil_meaning": "கியோட்டோவில் உள்ள கோயில்களையும் வழிபாட்டுத் தலங்களையும் பார்க்க விரும்புகிறேன்."
+        }
+    },
+    {
+        "id": 37,
+        "speaker_a": {
+            "japanese": "お疲れ様でした。お先に失礼します。",
+            "romaji": "Otsukaresama deshita. O-saki ni shitsurei shimasu.",
+            "tamil_transliteration": "ஒட்சுகாரேசமா தேஷிதா. ஒ-சாகி நி ஷித்சுரேய் ஷிமாசு.",
+            "english_meaning": "Thank you for your hard work today. Excuse me for leaving early.",
+            "tamil_meaning": "இன்று கடினமாக உழைத்தீர்கள். நான் முன்கூட்டியே விடைபெறுகிறேன்."
+        },
+        "speaker_b": {
+            "japanese": "お疲れ様でした。気をつけて帰ってください。",
+            "romaji": "Otsukaresama deshita. Ki o tsukete kaette kudasai.",
+            "tamil_transliteration": "ஒட்சுகாரேசமா தேஷிதா. கி ஓ த்சுகேதே கஹேதே குதாஸை.",
+            "english_meaning": "Thank you for your hard work. Have a safe trip back.",
+            "tamil_meaning": "நன்றி. பத்திரமாக வீட்டிற்குச் செல்லுங்கள்."
+        }
+    },
+    {
+        "id": 38,
+        "speaker_a": {
+            "japanese": "少し体調が良くありません。",
+            "romaji": "Sukoshi taichou ga yoku arimasen.",
+            "tamil_transliteration": "சுகோஷி தைச்சோ கா யோகு அரிமாசென்.",
+            "english_meaning": "I'm not feeling very well.",
+            "tamil_meaning": "எனது உடல்நிலை சற்று சரியில்லை."
+        },
+        "speaker_b": {
+            "japanese": "それは大変ですね。早く病院に行ってください。",
+            "romaji": "Sore wa taihen desu ne. Hayaku byouin ni itte kudasai.",
+            "tamil_transliteration": "சோரே வா தைஹென் தேசு நே. ஹயாகு பியோஇன் நி இத்தே குதாஸை.",
+            "english_meaning": "That's terrible. Please go to the hospital quickly.",
+            "tamil_meaning": "கவலைக்குரியது. விரைவாக மருத்துவமனைக்குச் செல்லுங்கள்."
+        }
+    },
+    {
+        "id": 39,
+        "speaker_a": {
+            "japanese": "何時に待ち合わせをしますか。",
+            "romaji": "Nan-ji ni machiawase o shimasu ka.",
+            "tamil_transliteration": "நான்-ஜி நி மச்சியாவாசே ஓ ஷிமாசு கா.",
+            "english_meaning": "What time shall we meet?",
+            "tamil_meaning": "எத்தனை மணிக்குச் சந்திப்போம்?"
+        },
+        "speaker_b": {
+            "japanese": "午後二時に駅前でどうですか。",
+            "romaji": "Go-ji ni-ji ni ekimae de dou desu ka.",
+            "tamil_transliteration": "கோ-ஜி நி-ஜி நி எகிமாஏ தே தோ தேசு கா.",
+            "english_meaning": "How about 2:00 PM in front of the station?",
+            "tamil_meaning": "பிற்பகல் 2 மணிக்கு ரயில் நிலையத்தின் முன்பு எப்படி?"
+        }
+    },
+    {
+        "id": 40,
+        "speaker_a": {
+            "japanese": "このお酒はどこで作られましたか。",
+            "romaji": "Kono osake wa doko de tsukuraremashita ka.",
+            "tamil_transliteration": "கொனோ ஒசகே வா டோகோ தே த்சுகுரரேமாஷிதா கா.",
+            "english_meaning": "Where was this sake brewed/made?",
+            "tamil_meaning": "இந்த ஒயின் (சகே) எங்கே தயாரிக்கப்பட்டது?"
+        },
+        "speaker_b": {
+            "japanese": "それは新潟県で作られたお酒です。",
+            "romaji": "Sore wa Niigata-ken de tsukurareta osake desu.",
+            "tamil_transliteration": "சோரே வா நீகாதா-கென் தே த்சுகுரரேதா ஒசகே தேசு.",
+            "english_meaning": "That sake was made in Niigata Prefecture.",
+            "tamil_meaning": "அது நீகாதா மாகாணத்தில் தயாரிக்கப்பட்ட மதுபானம்."
+        }
+    },
+    {
+        "id": 41,
+        "speaker_a": {
+            "japanese": "スマホの充電器を貸していただけませんか。",
+            "romaji": "Sumaho no juudenki o kashite itadakemasen ka.",
+            "tamil_transliteration": "சுமாஹோ நோ ஜூதேன்கி ஓ கஷிதே இடாதகேமாசென் கா.",
+            "english_meaning": "Could you lend me your smartphone charger?",
+            "tamil_meaning": "உங்கள் ஸ்மார்ட்போன் சார்ஜரை எனக்குத் தர முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、どうぞ。使ってください。",
+            "romaji": "Hai, douzo. Tsukatte kudasai.",
+            "tamil_transliteration": "ஹாய், தோசோ. த்சுகத்தே குதாஸை.",
+            "english_meaning": "Yes, go ahead. Please use it.",
+            "tamil_meaning": "ஆம், தாராளமாகப் பயன்படுத்துங்கள்."
+        }
+    },
+    {
+        "id": 42,
+        "speaker_a": {
+            "japanese": "日本に来て一番驚いたことは何ですか。",
+            "romaji": "Nihon ni kite ichiban odoroita koto wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன் நி கிதே இச்சிபான் ஒதோரோஇதா கோதோ வா நான் தேசு கா.",
+            "english_meaning": "What surprised you the most when you came to Japan?",
+            "tamil_meaning": "ஜப்பானுக்கு வந்தபோது உங்களை மிகவும் ஆச்சரியப்படுத்திய விஷயம் என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "電車の時間が正確なことに一番驚きました。",
+            "romaji": "Densha no jikan ga seikaku na koto ni ichiban odorokimashita.",
+            "tamil_transliteration": "தேன்ஷா நோ ஜிகான் கா செய்காகு நா கோதோ நி இச்சிபான் ஒதோரோகிமாஷிதா.",
+            "english_meaning": "I was most surprised by how punctual the trains are.",
+            "tamil_meaning": "ரயில்கள் நேரத்திற்குச் சரியாக இயங்குவதுதான் என்னை மிகவும் ஆச்சரியப்படுத்தியது."
+        }
+    },
+    {
+        "id": 43,
+        "speaker_a": {
+            "japanese": "新しい靴を買いたいんですが、どこがいいですか。",
+            "romaji": "Atarashii kutsu o kaitai n desu ga, doko ga ii desu ka.",
+            "tamil_transliteration": "அதாரஷீ குத்சு ஓ கைதாய் ன் தேசு கா, டோகோ கா ஈ தேசு கா.",
+            "english_meaning": "I want to buy new shoes, where is a good place?",
+            "tamil_meaning": "நான் புதிய காலணி வாங்க வேண்டும், எங்கு செல்வது நல்லது?"
+        },
+        "speaker_b": {
+            "japanese": "新宿のデパートに行けばたくさんありますよ。",
+            "romaji": "Shinjuku no depaato ni ikeba takusan arimasu yo.",
+            "tamil_transliteration": "ஷிஞ்ஜுகு நோ தேபாத்தோ நி இகேபா தகூசான் அரிமாசு யோ.",
+            "english_meaning": "If you go to a department store in Shinjuku, there are a lot.",
+            "tamil_meaning": "ஷிஞ்ஜுகு பகுதியில் உள்ள வணிக வளாகத்திற்குச் சென்றால் நிறையக் கிடைக்கும்."
+        }
+    },
+    {
+        "id": 44,
+        "speaker_a": {
+            "japanese": "この資料をコピーしていただけますか。",
+            "romaji": "Kono shiryou o kopii shite itadakemasu ka.",
+            "tamil_transliteration": "கொனோ ஷிரியோ ஓ கோபீ ஷிதே இடாதகேமாசு கா.",
+            "english_meaning": "Could you make copies of this document?",
+            "tamil_meaning": "இந்த ஆவணத்தின் நகலை எடுத்துத் தர முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、何部必要ですか。",
+            "romaji": "Hai, nan-bu hitsuyou desu ka.",
+            "tamil_transliteration": "ஹாய், நான்-பு ஹித்சுயோ தேசு கா.",
+            "english_meaning": "Yes, how many copies do you need?",
+            "tamil_meaning": "சரி, எத்தனை நகல்கள் வேண்டும்?"
+        }
+    },
+    {
+        "id": 45,
+        "speaker_a": {
+            "japanese": "日本語を話すときに緊張しますか。",
+            "romaji": "Nihongo o hanasu toki ni kinchou shimasu ka.",
+            "tamil_transliteration": "நிஹோங்கோ ஓ ஹனசு தொகி நி கின்சோ ஷிமாசு கா.",
+            "english_meaning": "Do you get nervous when speaking Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழியில் பேசும்போது உங்களுக்குப் பதற்றமாக இருக்குமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、間違えるのがちょっと怖いです。",
+            "romaji": "Hai, machigaeru no ga chotto kowai desu.",
+            "tamil_transliteration": "ஹாய், மச்சிகேரு நோ கா சொத்தோ கொவாய் தேசு.",
+            "english_meaning": "Yes, I'm a bit afraid of making mistakes.",
+            "tamil_meaning": "ஆம், எங்கே தவறிவிடுமோ என்ற பயம் சிறிது உண்டு."
+        }
+    },
+    {
+        "id": 46,
+        "speaker_a": {
+            "japanese": "週末はどこかへ出かけましたか。",
+            "romaji": "Shuumatsu wa dokoka e dekakimashita ka.",
+            "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தேககிமாஷிதா கா.",
+            "english_meaning": "Did you go anywhere over the weekend?",
+            "tamil_meaning": "வார இறுதியில் எங்குமாவது வெளியே சென்றீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、友達と公園を散歩しました。",
+            "romaji": "Hai, tomodachi to kouen o sampo shimashita.",
+            "tamil_transliteration": "ஹாய், தொமோதாச்சி தோ கோவென் ஓ சாம்போ ஷிமாஷிதா.",
+            "english_meaning": "Yes, I took a walk in the park with a friend.",
+            "tamil_meaning": "ஆம், நண்பருடன் பூங்காவில் நடைப்பயிற்சி செய்தேன்."
+        }
+    },
+    {
+        "id": 47,
+        "speaker_a": {
+            "japanese": "日本の夏は暑くて湿度が高いですね。",
+            "romaji": "Nihon no natsu wa atsukute shitsudo ga takai desu ne.",
+            "tamil_transliteration": "நிஹோன் நோ நத்சு வா அத்சுகுதே ஷித்சுடோ கா தகாய் தேசு நே.",
+            "english_meaning": "Japanese summers are hot and humid, aren't they?",
+            "tamil_meaning": "ஜப்பானின் கோடைகாலம் வெய்யிலாகவும் ஈரப்பதமாகவும் இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "本当にそうですね。水分をたくさん取ってください。",
+            "romaji": "Hontou ni sou desu ne. Suibun o takusan totte kudasai.",
+            "tamil_transliteration": "ஹொந்தோ நி சோ தேசு நே. சுஇபுன் ஓ தகூசான் தொத்தே குதாஸை.",
+            "english_meaning": "It really is. Please drink plenty of water.",
+            "tamil_meaning": "உண்மைதான். போதுமான அளவு தண்ணீர் குடியுங்கள்."
+        }
+    },
+    {
+        "id": 48,
+        "speaker_a": {
+            "japanese": "この電車の切符はどこで買えますか。",
+            "romaji": "Kono densha no kippu wa doko de kaemasu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா நோ கிப்பு வா டோகோ தே கைமாசு கா.",
+            "english_meaning": "Where can I buy tickets for this train?",
+            "tamil_meaning": "இந்த ரயிலுக்கான சீட்டு எங்கே வாங்குவது?"
+        },
+        "speaker_b": {
+            "japanese": "あそにある券売機で購入できます。",
+            "romaji": "Asoko ni aru kenbaiki de kounyuu dekimasu.",
+            "tamil_transliteration": "அசோகோ நி அரு கென்பைக்கி தே கோன்யூ தேகிமாசு.",
+            "english_meaning": "You can purchase them at the ticket vending machine over there.",
+            "tamil_meaning": "அங்கே உள்ள தானியங்கி இயந்திரத்தில் வாங்கலாம்."
+        }
+    },
+    {
+        "id": 49,
+        "speaker_a": {
+            "japanese": "好きな季節はいつですか。",
+            "romaji": "Sukina kisetsu wa itsu desu ka.",
+            "tamil_transliteration": "சுகினா கிஸெத்சு வா இத்சு தேசு கா.",
+            "english_meaning": "What is your favorite season?",
+            "tamil_meaning": "உங்களுக்குப் பிடித்த பருவகாலம் எது?"
+        },
+        "speaker_b": {
+            "japanese": "桜がきれいな春が一番好きです。",
+            "romaji": "Sakura ga kirei na haru ga ichiban suki desu.",
+            "tamil_transliteration": "சகுரா கா கிர்ஏய் நா ஹரு கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "I like spring the best when the cherry blossoms are pretty.",
+            "tamil_meaning": "செர்ரி பூக்கள் அழகಾಗಿ மலரும் வசந்த காலம் எனக்கு மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 50,
+        "speaker_a": {
+            "japanese": "今日もお疲れ様でした。明日も頑張りましょう。",
+            "romaji": "Kyou mo otsukaresama deshita. Ashita mo gambarimashou.",
+            "tamil_transliteration": "கியோ மோ ஒட்சுகாரேசமா தேஷிதா. அஷிதா மோ கன்பரிமாஷோ.",
+            "english_meaning": "Thank you for your hard work today too. Let's do our best tomorrow as well!",
+            "tamil_meaning": "இன்றைய நாளிலும் உழைத்தமைக்கு நன்றி. நாளையும் சிறப்பாக உழைப்போம்!"
+        },
+        "speaker_b": {
+            "japanese": "はい、お疲れ様でした。おやすみなさい。",
+            "romaji": "Hai, otsukaresama deshita. Oyasuminasai.",
+            "tamil_transliteration": "ஹாய், ஒட்சுகாரேசமா தேஷிதா. ஒயாசுமினாஸை.",
+            "english_meaning": "Yes, thank you for your hard work. Good night!",
+            "tamil_meaning": "ஆம், நன்றி. இரவு வணக்கம்!"
+        }
+    }
+]
+
+[
+    {
+        "id": 51,
+        "speaker_a": {
+            "japanese": "このケーキは甘すぎますか。",
+            "romaji": "Kono keeki wa amasugimasu ka.",
+            "tamil_transliteration": "கொனோ கேகி வா amasugimasu கா.",
+            "english_meaning": "Is this cake too sweet?",
+            "tamil_meaning": "இந்த கேக் மிகவும் இனிப்பாக இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、ちょうどいい甘さでとても美味しいですよ。",
+            "romaji": "Iie, choudo ii amasa de totemo oishii desu yo.",
+            "tamil_transliteration": "ஈஏ, சோதோ ஈ அமஸ தே தோதேமோ ஓயிஷீ தேசு யோ.",
+            "english_meaning": "No, it has just the right sweetness and is very delicious.",
+            "tamil_meaning": "இல்லை, அளவான இனிப்புடன் மிகவும் சுவையாக இருக்கிறது."
+        }
+    },
+    {
+        "id": 52,
+        "speaker_a": {
+            "japanese": "日本の伝統文化に興味がありますか。",
+            "romaji": "Nihon no dentou-bunka ni kyoumi ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தெந்தோ-புன்கா நி கியோமி கா அரிமாசு கா.",
+            "english_meaning": "Are you interested in Japanese traditional culture?",
+            "tamil_meaning": "ஜப்பானியப் பாரம்பரிய கலாச்சாரத்தில் உங்களுக்கு ஆர்வம் உண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、茶道や着物にとても興味があります。",
+            "romaji": "Hai, sadou ya kimono ni totemo kyoumi ga arimasu.",
+            "tamil_transliteration": "ஹாய், சதோ யா கிமோனோ நி தோதேமோ கியோமி கா அரிமாசு.",
+            "english_meaning": "Yes, I'm very interested in the tea ceremony and kimono.",
+            "tamil_meaning": "ஆம், தேநீர் கலை மற்றும் கிமோனோ ஆடையில் எனக்குப் பெ통ிய ஆர்வம் உண்டு."
+        }
+    },
+    {
+        "id": 53,
+        "speaker_a": {
+            "japanese": "次の電車は何時に来ますか。",
+            "romaji": "Tsugi no densha wa nan-ji ni kimasu ka.",
+            "tamil_transliteration": "த்சு கி நோ தேன்ஷா வா நான்-ஜி நி கிமாசு கா.",
+            "english_meaning": "What time does the next train arrive?",
+            "tamil_meaning": "அடுத்த ரயில் எத்தனை மணிக்கு வரும்?"
+        },
+        "speaker_b": {
+            "japanese": "あと五分ほどで到着する予定です。",
+            "romaji": "Ato go-fun hodo de touchaku suru yotei desu.",
+            "tamil_transliteration": "அதோ கோ-புன் ஹோதோ தே தோச்சாகு சுரு யோதேய் தேசு.",
+            "english_meaning": "It is scheduled to arrive in about five minutes.",
+            "tamil_meaning": "இன்னும் ஐந்து நிமிடங்களில் வந்துவிடும்."
+        }
+    },
+    {
+        "id": 54,
+        "speaker_a": {
+            "japanese": "休日は家でゆっくり休むことが多いですか。",
+            "romaji": "Kyuujitsu wa ie de yukkuri yasumu koto ga ooi desu ka.",
+            "tamil_transliteration": "கியூஜித்சு வா ஈஏ தே யுக்குரி யாசுமு கோதோ கா ஓய் தேசு கா.",
+            "english_meaning": "Do you often spend your days off resting quietly at home?",
+            "tamil_meaning": "விடுமுறை நாட்களில் வீட்டில் ஓய்வெடுப்பது வழியா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、たまには外に出てリフレッシュします。",
+            "romaji": "Hai, tama ni wa soto ni dete rifuresshu shimasu.",
+            "tamil_transliteration": "ஹாய், தமா நி வா சோதோ நி தேதே ரிபுரேஷ்கு ஷிமாசு.",
+            "english_meaning": "Yes, but occasionally I go outside to refresh myself.",
+            "tamil_meaning": "ஆம், என்றாலும் சில சமயம் வெளியே சென்று புத்துணர்ச்சி பெறுவேன்."
+        }
+    },
+    {
+        "id": 55,
+        "speaker_a": {
+            "japanese": "このレストランのおすすめメニューは何ですか。",
+            "romaji": "Kono resutoran no osusume menyuu wa nan desu ka.",
+            "tamil_transliteration": "கொனோ ரெசுதோரான் நோ ஒசுசுமே மெனியூ வா நான் தேசு கா.",
+            "english_meaning": "What is the recommended menu at this restaurant?",
+            "tamil_meaning": "இந்த உணவகத்தில் பரிந்துரைக்கப்படும் உணவு என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "天ぷら定食が一番人気があります。",
+            "romaji": "Tenpura teishoku ga ichiban ninki ga arimasu.",
+            "tamil_transliteration": "தென்புரா தேஷோகு கா இச்சிபான் நின்கி கா அரிமாசு.",
+            "english_meaning": "The tempura set meal is the most popular.",
+            "tamil_meaning": "தெம்புரா உணவுத் தொகுப்புதான் மிகவும் பிரபலமானது."
+        }
+    },
+    {
+        "id": 56,
+        "speaker_a": {
+            "japanese": "日本語を勉強して何か良いことがありましたか。",
+            "romaji": "Nihon-go o benkyou shite nani ka yoi koto ga arimashita ka.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ பெங்கியோ ஷிதே நானி கா யோய் கோதோ கா அரிமாஷிதா கா.",
+            "english_meaning": "Has anything good happened since you started studying Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழி படிப்பதால் உங்களுக்கு என்ன நன்மைகள் கிடைத்துள்ளன?"
+        },
+        "speaker_b": {
+            "japanese": "日本人の友達ができて、会話が楽しくなりました。",
+            "romaji": "Nihonjin no tomodachi ga dekite, kaiwa ga tanoshiku narimashita.",
+            "tamil_transliteration": "நிஹோன்ஜின் நோ தொமோதாச்சி கா தேகிதே, கைவா கா தனுஷிகு நாரிமாஷிதா.",
+            "english_meaning": "I made Japanese friends, and conversations became fun.",
+            "tamil_meaning": "ஜப்பானிய நண்பர்கள் கிடைத்தார்கள், பேசுவது மிகவும் மகிழ்ச்சியாக இருக்கிறது."
+        }
+    },
+    {
+        "id": 57,
+        "speaker_a": {
+            "japanese": "その本、もう読み終わりましたか。",
+            "romaji": "Sono hon, mou yomiowarimashita ka.",
+            "tamil_transliteration": "சோனோ ஹோன், மோ யோமிஓவாரிமாஷிதா கா.",
+            "english_meaning": "Have you already finished reading that book?",
+            "tamil_meaning": "அந்தப் புத்தகத்தை நீங்கள் படித்து முடித்துவிட்டீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、まだ半分くらいです。",
+            "romaji": "Ie, mada hambun kurai desu.",
+            "tamil_transliteration": "ஈஏ, மதா ஹம்புன் குரை தேசு.",
+            "english_meaning": "No, I'm only about halfway through.",
+            "tamil_meaning": "இல்லை, இன்னும் பாதி அளவுக்குத்தான் படித்திருக்கிறேன்."
+        }
+    },
+    {
+        "id": 58,
+        "speaker_a": {
+            "japanese": "明日、何時に待ち合わせしましょうか。",
+            "romaji": "Ashita, nan-ji ni machiawase shimashou ka.",
+            "tamil_transliteration": "அஷிதா, நான்-ஜி நி மச்சியாவாசே ஷிமாஷோ கா.",
+            "english_meaning": "What time shall we meet tomorrow?",
+            "tamil_meaning": "நாளை எத்தனை மணிக்குச் சந்திக்கலாம்?"
+        },
+        "speaker_b": {
+            "japanese": "お昼の十二時ごろはどうですか。",
+            "romaji": "Ohiru no juu-ni-ji goro wa dou desu ka.",
+            "tamil_transliteration": "ஒஹிளு நோ ஜூ-நி-ஜி கோரோ வா தோ தேசு கா.",
+            "english_meaning": "How about around 12:00 noon?",
+            "tamil_meaning": "மதியம் 12 மணி வாக்கில் எப்படி?"
+        }
+    },
+    {
+        "id": 59,
+        "speaker_a": {
+            "japanese": "この辺に銀行はありますか。",
+            "romaji": "Kono hen ni ginkou wa arimasu ka.",
+            "tamil_transliteration": "கொனோ ஹென் நி கின்கோ வா அரிமாசு கா.",
+            "english_meaning": "Is there a bank around here?",
+            "tamil_meaning": "இந்த அருகில் வங்கி ஏதாவது இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "駅の近くに大きな銀行があります。",
+            "romaji": "Eki no chikaku ni ookina ginkou ga arimasu.",
+            "tamil_transliteration": "எகி நோ திகாகு நி ஓகினா கின்கோ கா அரிமாசு.",
+            "english_meaning": "There is a big bank near the station.",
+            "tamil_meaning": "ரயில் நிலையத்திற்கு அருகில் ஒரு பெரிய வங்கி உள்ளது."
+        }
+    },
+    {
+        "id": 60,
+        "speaker_a": {
+            "japanese": "日本の伝統的なお祭りに行ったことがありますか。",
+            "romaji": "Nihon no dentouteki na omatsuri ni itta koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தெந்தோதேகி நா ஒமத்சுரி நி இத்தா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever been to a traditional Japanese festival?",
+            "tamil_meaning": "ஜப்பானியப் பாரம்பரியத் திருவிழாவிற்குச் சென்று பார்த்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、夏の盆踊りに行ったことがあります。",
+            "romaji": "Hai, natsu no bon-odori ni itta koto ga arimasu.",
+            "tamil_transliteration": "ஹாய், நத்சு நோ போன்-ஒதோரி நி இத்தா கோதோ கா அரிமாசு.",
+            "english_meaning": "Yes, I've been to the summer Bon Odori festival.",
+            "tamil_meaning": "ஆம், கோடைக்கால போன் ஓடோரி திருவிழாவிற்குச் சென்றுள்ளேன்."
+        }
+    },
+    {
+        "id": 61,
+        "speaker_a": {
+            "japanese": "このズボン、試着してもいいですか。",
+            "romaji": "Kono zubon, shichaku shite mo ii desu ka.",
+            "tamil_transliteration": "கொனோ சுபோன், ஷிசாகு ஷிதே மோ ஈ தேசு கா.",
+            "english_meaning": "May I try on these pants?",
+            "tamil_meaning": "இந்த பேண்ட்டை அணிந்து பார்க்கலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、どうぞ。試着室はあちらです。",
+            "romaji": "Hai, douzo. Shichakushitsu wa achira desu.",
+            "tamil_transliteration": "ஹாய், தோசோ. ஷிசாகுஷித்சு வா அச்சிரா தேசு.",
+            "english_meaning": "Yes, please. The fitting room is over there.",
+            "tamil_meaning": "ஆம், தாராளமாக. ஆடை மாற்றும் அறை அங்கே உள்ளது."
+        }
+    },
+    {
+        "id": 62,
+        "speaker_a": {
+            "japanese": "何色のセーターが好きですか。",
+            "romaji": "Nani-iro no seetaa ga suki desu ka.",
+            "tamil_transliteration": "நானி-இரோ நோ சேதார் கா சுகி தேசு கா.",
+            "english_meaning": "What color sweater do you like?",
+            "tamil_meaning": "உங்களுக்கு எந்த நிற ஸ்வெட்டர் பிடிக்கும்?"
+        },
+        "speaker_b": {
+            "japanese": "私は青いセーターが一番好きです。",
+            "romaji": "Watashi wa aoi seetaa ga ichiban suki desu.",
+            "tamil_transliteration": "வடஷி வா அஓய் சேதார் கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "I like blue sweaters the best.",
+            "tamil_meaning": "எனக்கு நீல நிற ஸ்வெட்டர் மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 63,
+        "speaker_a": {
+            "japanese": "この電車は指定席ですか。",
+            "romaji": "Kono densha wa shiteiseki desu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா ஷிதேஇசெகி தேசு கா.",
+            "english_meaning": "Is this train reserved seating?",
+            "tamil_meaning": "இந்த ரயிலில் முன்பதிவு செய்த இருக்கைகள் மட்டுமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、こちらは自由席です。",
+            "romaji": "Ie, kochira wa jiyuuseki desu.",
+            "tamil_transliteration": "ஈஏ, கொச்சிரா வா ஜியூசெகி தேசு.",
+            "english_meaning": "No, this is unreserved seating.",
+            "tamil_meaning": "இல்லை, இது பொதுவான இருக்கை பிரிவு."
+        }
+    },
+    {
+        "id": 64,
+        "speaker_a": {
+            "japanese": "日本語を教えてくれてありがとうございます。",
+            "romaji": "Nihon-go o oshiete kurete arigatou gozaimasu.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ ஒஷிஏதே குரேதே அரிகதோ கோஜைமாசு.",
+            "english_meaning": "Thank you for teaching me Japanese.",
+            "tamil_meaning": "ஜப்பானிய மொழி கற்றுக் கொடுத்ததற்கு நன்றி."
+        },
+        "speaker_b": {
+            "japanese": "どういたしまして。一緒に頑張りましょう。",
+            "romaji": "Dou itashimashite. Issho ni gambarimashou.",
+            "tamil_transliteration": "தோ இத்தாஷிமாஷிதே. இஷோ நி கன்பரிமாஷோ.",
+            "english_meaning": "You're welcome. Let's do our best together.",
+            "tamil_meaning": "பரவாயில்லை. இணைந்து கடுமையாக உழைப்போம்."
+        }
+    },
+    {
+        "id": 65,
+        "speaker_a": {
+            "japanese": "今週末、予定はありますか。",
+            "romaji": "Kima-shuumatsu, yotei wa arimasu ka.",
+            "tamil_transliteration": "கிம-ஷூமத்சு, யோதேய் வா அரிமாசு கா.",
+            "english_meaning": "Do you have any plans this weekend?",
+            "tamil_meaning": "இந்த வார இறுதியில் ஏதாவது திட்டம் உள்ளதா?"
+        },
+        "speaker_b": {
+            "japanese": "土曜日は買い物に行きますが、日曜日は暇です。",
+            "romaji": "Dyoubi wa kaimono ni ikimasu ga, nichiyoubi wa hima desu.",
+            "tamil_transliteration": "த்யோபி வா கைமோனோ நி இகிமாசு கா, நிச்சியோபி வா ஹிம தேசு.",
+            "english_meaning": "I'm going shopping on Saturday, but I'm free on Sunday.",
+            "tamil_meaning": "சனிக்கிழமை ஷாப்பிங் செல்கிறேன், ஆனால் ஞாயிற்றுக்கிழமை நான் இலவசமாக இருக்கிறேன்."
+        }
+    },
+    {
+        "id": 66,
+        "speaker_a": {
+            "japanese": "コーヒーに砂糖を入れますか。",
+            "romaji": "Koohii ni satou o iremasu ka.",
+            "tamil_transliteration": "கோஹி நி சதோ ஓ இரேமாசு கா.",
+            "english_meaning": "Do you put sugar in your coffee?",
+            "tamil_meaning": "உங்கள் காபியில் சர்க்கரை சேர்த்துக் கொள்வீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、いつもブラックで飲みます。",
+            "romaji": "Ie, itsumo burakku de nomimasu.",
+            "tamil_transliteration": "ஈஏ, இத்சுமோ புரக்கு தே நொமிமாசு.",
+            "english_meaning": "No, I always drink it black.",
+            "tamil_meaning": "இல்லை, நான் எப்போதும் பிளாக் காபிதான் குடிப்பேன்."
+        }
+    },
+    {
+        "id": 67,
+        "speaker_a": {
+            "japanese": "この漢字はどういう意味ですか。",
+            "romaji": "Kono kanji wa dou iu imi desu ka.",
+            "tamil_transliteration": "கொனோ கஞ்சி வா தோ இஉ இமி தேசு கா.",
+            "english_meaning": "What does this Kanji mean?",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தின் பொருள் என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "それは「友情」という意味です。",
+            "romaji": "Sore wa 'yuujou' to iu imi desu.",
+            "tamil_transliteration": "சோரே வா 'யூஜோ' தோ இஉ இமி தேசு.",
+            "english_meaning": "That means 'friendship'.",
+            "tamil_meaning": "அதன் பொருள் 'நட்பு' என்பதாகும்."
+        }
+    },
+    {
+        "id": 68,
+        "speaker_a": {
+            "japanese": "何時に起きるのが一番好きですか。",
+            "romaji": "Nan-ji ni okiru no ga ichiban suki desu ka.",
+            "tamil_transliteration": "நான்-ஜி நி ஒகிரு நோ கா இச்சிபான் சுகி தேசு கா.",
+            "english_meaning": "What time do you like waking up best?",
+            "tamil_meaning": "எத்தனை மணிக்கு எழுவது உங்களுக்கு மிகவும் பிடிக்கும்?"
+        },
+        "speaker_b": {
+            "japanese": "朝六時ごろ起きるのが一番気持ちいいです。",
+            "romaji": "Asa roku-ji goro okiru no ga ichiban kimochi ii desu.",
+            "tamil_transliteration": "ஆசா ரோகு-ஜி கோரோ ஒகிரு நோ கா இச்சிபான் கிமோச்சி ஈ தேசு.",
+            "english_meaning": "Waking up around 6:00 AM feels the best.",
+            "tamil_meaning": "காலை 6 மணி வாக்கில் எழுவது மிகவும் இதமாக இருக்கும்."
+        }
+    },
+    {
+        "id": 69,
+        "speaker_a": {
+            "japanese": "お寿司を自分で作ったことがありますか。",
+            "romaji": "Sushi o jibun de tsukutta koto ga arimasu ka.",
+            "tamil_transliteration": "சுஷி ஓ ஜிபுன் தே த்சுகுத்தா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever made sushi yourself?",
+            "tamil_meaning": "நீங்களாகவே சுஷி தயாரித்துப் பார்த்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、一度だけ友達と一緒に作りました。",
+            "romaji": "Hai, ichido dake tomodachi to issho ni tsukurimashita.",
+            "tamil_transliteration": "ஹாய், இச்சிதோ தகே தொமோதாச்சி தோ இஷோ நி த்சுகுரிமாஷிதா.",
+            "english_meaning": "Yes, I made it together with a friend just once.",
+            "tamil_meaning": "ஆம், ஒரே ஒரு முறை நண்பருடன் சேர்ந்து செய்துள்ளேன்."
+        }
+    },
+    {
+        "id": 70,
+        "speaker_a": {
+            "japanese": "この靴、ちょっときついです。",
+            "romaji": "Kono kutsu, chotto kitsui desu.",
+            "tamil_transliteration": "கொனோ குத்சு, சொத்தோ கிட்சுய் தேசு.",
+            "english_meaning": "These shoes are a bit tight.",
+            "tamil_meaning": "இந்த ஷூ கொஞ்சம் இறுக்கமாக இருக்கிறது."
+        },
+        "speaker_b": {
+            "japanese": "では、一回り大きいサイズをお持ちします。",
+            "romaji": "Dewa, hitomawari ookii saizu o omochi shimasu.",
+            "tamil_transliteration": "தேவா, ஹிதோமாவரி ஓகீ சைஜு ஓ ஒமோச்சி ஷிமாசு.",
+            "english_meaning": "Then, I'll bring you a size larger.",
+            "tamil_meaning": "அப்படியானால், ஒரு அளவு பெரிய சைஸ் எடுத்துத் தருகிறேன்."
+        }
+    },
+    {
+        "id": 71,
+        "speaker_a": {
+            "japanese": "日本に来て何年になりますか。",
+            "romaji": "Nihon ni kite nan-nen ni narimasu ka.",
+            "tamil_transliteration": "நிஹோன் நி கிதே நான்-நென் நி நரிமாசு கா.",
+            "english_meaning": "How many years has it been since you came to Japan?",
+            "tamil_meaning": "ஜப்பானுக்கு வந்து எத்தனை ஆண்டுகள் ஆகின்றன?"
+        },
+        "speaker_b": {
+            "japanese": "今年でちょうど三年になります。",
+            "romaji": "Kotoshi de choudo san-nen ni narimasu.",
+            "tamil_transliteration": "கொதோஷி தே சோதோ சான்-நென் நி நரிமாசு.",
+            "english_meaning": "This year makes it exactly three years.",
+            "tamil_meaning": "இந்த ஆண்டோடு சரியாக மூன்று ஆண்டுகள் ஆகின்றன."
+        }
+    },
+    {
+        "id": 72,
+        "speaker_a": {
+            "japanese": "日本語の上達が早いですね。",
+            "romaji": "Nihon-go no joutatsu ga hayai desu ne.",
+            "tamil_transliteration": "நிஹோன்-கோ நோ ஜோதட்சு கா ஹயாய் தேசு நே.",
+            "english_meaning": "Your Japanese is improving fast, isn't it?",
+            "tamil_meaning": "உங்கள் ஜப்பானிய மொழித் திறன் வேகமாக வளர்ந்து வருகிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ありがとうございます。毎日練習しています。",
+            "romaji": "Arigatou gozaimasu. Mainichi renshuu shite imasu.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு. மைனிச்சி ரென்ஷூ ஷிதே இமாசு.",
+            "english_meaning": "Thank you very much. I practice every day.",
+            "tamil_meaning": "மிக்க நன்றி. தினமும் பயிற்சி செய்து வருகிறேன்."
+        }
+    },
+    {
+        "id": 73,
+        "speaker_a": {
+            "japanese": "この電車は特急ですか。",
+            "romaji": "Kono densha wa tokkyuu desu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா தொக்கியூ தேசு கா.",
+            "english_meaning": "Is this train a limited express?",
+            "tamil_meaning": "இந்த ரயில் விரைவு ரயிலா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、各駅停車です。",
+            "romaji": "Ie, kakueki-teisha desu.",
+            "tamil_transliteration": "ஈஏ, ககுஎகி-தேஷ்கா தேசு.",
+            "english_meaning": "No, it's a local train.",
+            "tamil_meaning": "இல்லை, இது அனைத்து நிலையங்களிலும் நிற்கும் சாதாரண ரயில்."
+        }
+    },
+    {
+        "id": 74,
+        "speaker_a": {
+            "japanese": "今日の夜、暇ですか。",
+            "romaji": "Kyou no yoru, hima desu ka.",
+            "tamil_transliteration": "கியோ நோ யோரு, ஹிம தேசு கா.",
+            "english_meaning": "Are you free tonight?",
+            "tamil_meaning": "இன்று இரவு உங்களுக்குப் ஓய்வு நேரம் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、特に予定はありませんよ。",
+            "romaji": "Hai, tokuni yotei wa arimasen yo.",
+            "tamil_transliteration": "ஹாய், தொகுனி யோதேய் வா அரிமாசென் யோ.",
+            "english_meaning": "Yes, I don't have any particular plans.",
+            "tamil_meaning": "ஆம், குறிப்பாக எந்தத் திட்டமும் இல்லை."
+        }
+    },
+    {
+        "id": 75,
+        "speaker_a": {
+            "japanese": "明日から旅行に行ってきます。",
+            "romaji": "Ashita kara ryokou ni ittekimasu.",
+            "tamil_transliteration": "அஷிதா காரா ரியோகோ நி இத்தேகிமாசு.",
+            "english_meaning": "I'm going on a trip starting tomorrow.",
+            "tamil_meaning": "நாளை முதல் நான் சுற்றுலா செல்ல இருக்கிறேன்."
+        },
+        "speaker_b": {
+            "japanese": "いってらっしゃい！楽しんできてください。",
+            "romaji": "Itterasshai! Tanoshinde kite kudasai.",
+            "tamil_transliteration": "இத்தெரச்சாய்! தனுஷிதே கிதே குதாஸை.",
+            "english_meaning": "Have a good trip! Enjoy yourself.",
+            "tamil_meaning": "பத்திரமாகச் சென்று வாருங்கள்! மகிழ்ச்சியாகக் கழித்துவிட்டு வாருங்கள்."
+        }
+    }
+]
+
+[
+    {
+        "id": 76,
+        "speaker_a": {
+            "japanese": "このお土産は誰に買いますか。",
+            "romaji": "Kono omiyage wa dare ni kaimasu ka.",
+            "tamil_transliteration": "கொனோ ஒமியாகே வா தரே நி கைமாசு கா.",
+            "english_meaning": "Who are you buying this souvenir for?",
+            "tamil_meaning": "இந்தப் பரிசை யாருக்காக வாங்குகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "家族と友達のために買います。",
+            "romaji": "Kazoku to tomodachi no tame ni kaimasu.",
+            "tamil_transliteration": "கஜோகு தோ தொமோதாச்சி நோ தமே நி கைமாசு.",
+            "english_meaning": "I am buying them for my family and friends.",
+            "tamil_meaning": "எனது குடும்பத்தினருக்கும் நண்பர்களுக்கும் வாங்குகிறேன்."
+        }
+    },
+    {
+        "id": 77,
+        "speaker_a": {
+            "japanese": "休みの日は何をすることが多いですか。",
+            "romaji": "Yasumi no hi wa nani o suru koto ga ooi desu ka.",
+            "tamil_transliteration": "யாசுமி நோ ஹி வா நானி ஓ சுரு கோதோ கா ஓய் தேசு கா.",
+            "english_meaning": "What do you often do on your days off?",
+            "tamil_meaning": "விடுமுறை நாட்களில் நீங்கள் பொதுவாக என்ன செய்வீர்கள்?"
+        },
+        "speaker_b": {
+            "speaker": "家で音楽を聴いたり、料理を作ったりします。",
+            "japanese": "家で音楽を聴いたり、料理を創ったりします。",
+            "romaji": "Ie de ongaku o kiitari, ryouri o tsukuttari shimasu.",
+            "tamil_transliteration": "ஈஏ தே ஒங்காகு ஓ கிஇதாரி, ரியோரி ஓ த்சுகுத்தாரி ஷிமாசு.",
+            "english_meaning": "I listen to music at home and cook.",
+            "tamil_meaning": "வீட்டில்音乐 கேட்பது மற்றும் சமையல் செய்வது வழக்கம்."
+        }
+    },
+    {
+        "id": 78,
+        "speaker_a": {
+            "japanese": "この靴、とても軽くて歩きやすいですね。",
+            "romaji": "Kono kutsu, totemo karukute arukiyasui desu ne.",
+            "tamil_transliteration": "கொனோ குத்சு, தோதேமோ கருகூதே அருக்கியசுய் தேசு நே.",
+            "english_meaning": "These shoes are very light and easy to walk in, aren't they?",
+            "tamil_meaning": "இந்த ஷூ மிகவும் லேசாக இருப்பதால் நடக்க எளிதாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "はい、私も気に入っています。",
+            "romaji": "Hai, watashi mo ki ni itte imasu.",
+            "tamil_transliteration": "ஹாய், வடஷி மோ கி நி இத்தே இமாசு.",
+            "english_meaning": "Yes, I like them too.",
+            "tamil_meaning": "ஆம், எனக்கும் இது மிகவும் பிடித்திருக்கிறது."
+        }
+    },
+    {
+        "id": 79,
+        "speaker_a": {
+            "japanese": "何時に会社に着きますか。",
+            "romaji": "Nan-ji ni kaisha ni tsukimasu ka.",
+            "tamil_transliteration": "நான்-ஜி நி கைஷா நி த்சுகிமாசு கா.",
+            "english_meaning": "What time do you arrive at the office?",
+            "tamil_meaning": "எத்தனை மணிக்கு அலுவலகத்திற்குச் சென்று சேருவீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "大体九時十五分ごろに着きます。",
+            "romaji": "Daitai ku-ji juu-go-fun goro ni tsukimasu.",
+            "tamil_transliteration": "தைதை கு-ஜி ஜூ-கோ-புன் கோரோ நி த்சுகிமாசு.",
+            "english_meaning": "I usually arrive around 9:15.",
+            "tamil_meaning": "சுமார் 9:15 மணிக்குச் சென்று சேருவேன்."
+        }
+    },
+    {
+        "id": 80,
+        "speaker_a": {
+            "japanese": "日本の文化についてどう思いますか。",
+            "romaji": "Nihon no bunka ni tsuite dou omoimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ புன்கா நி த்சுஇதே தோ ஒமோஇமாசு கா.",
+            "english_meaning": "What do you think about Japanese culture?",
+            "tamil_meaning": "ஜப்பானிய கலாச்சாரம் பற்றி நீங்கள் என்ன நினைக்கிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "伝統と現代がうまく調和していて素晴らしいと思います。",
+            "romaji": "Dentou to gendai ga umaku chowah shite itte subarashii to omoimasu.",
+            "tamil_transliteration": "தெந்தோ தோ கென்தை கா உமாகு சோவா ஷிதே இத்தே சுபராஷீ தோ ஒமோஇமாசு.",
+            "english_meaning": "I think it's wonderful how tradition and modernity harmonize well.",
+            "tamil_meaning": "பாரம்பரியமும் நவீனமும் அழகாக இணைந்துள்ளது மிகவும் அருமையாகத் தெரிகிறது."
+        }
+    },
+    {
+        "id": 81,
+        "speaker_a": {
+            "japanese": "このお茶は少し苦いですか。",
+            "romaji": "Kono ocha wa sukoshi nigai desu ka.",
+            "tamil_transliteration": "கொனோ ஒச்சா வா சுகோஷி நிகாய் தேசு கா.",
+            "english_meaning": "Is this tea a little bitter?",
+            "tamil_meaning": "இந்தத் தேநீர் சற்று கசப்பாக இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、香りが良くてとても飲みやすいです。",
+            "romaji": "Ie, kaori ga yokute totemo nomiyasui desu.",
+            "tamil_transliteration": "ஈஏ, காஓரி கா யோகுதே தோதேமோ நோமியாசுய் தேசு.",
+            "english_meaning": "No, it has a great aroma and is very easy to drink.",
+            "tamil_meaning": "இல்லை, நறுமணமாக இருப்பதால் குடிப்பதற்கு மிகவும் சுலபமாக உள்ளது."
+        }
+    },
+    {
+        "id": 82,
+        "speaker_a": {
+            "japanese": "明日の待ち合わせの場所はどこですか。",
+            "romaji": "Ashita no machiawase no basho wa doko desu ka.",
+            "tamil_transliteration": "அஷிதா நோ மச்சியாவாசே நோ பாஷோ வா டோகோ தேசு கா.",
+            "english_meaning": "Where is the meeting place for tomorrow?",
+            "tamil_meaning": "நாளை சந்திக்கும் இடம் எங்கே?"
+        },
+        "speaker_b": {
+            "japanese": "駅前の大きな本屋の前で待ち合わせしましょう。",
+            "romaji": "Ekimae no ookina honya no mae de machiawase shimashou.",
+            "tamil_transliteration": "எகிமாஏ நோ ஓகினா ஹோன்யா நோ மாஏ தே மச்சியாவாசே ஷிமாஷோ.",
+            "english_meaning": "Let's meet in front of the big bookstore in front of the station.",
+            "tamil_meaning": "ரயில் நிலையத்திற்கு முன்பd உள்ள பெரிய புத்தகக் கடையில் சந்திப்போம்."
+        }
+    },
+    {
+        "id": 83,
+        "speaker_a": {
+            "japanese": "この仕事はいつまでに終わらせますか。",
+            "romaji": "Kono shigoto wa itsu made ni owarasemasu ka.",
+            "tamil_transliteration": "கொனோ ஷிகோதோ வா இத்சு மாதெ நி ஒவரஸேமாசு கா.",
+            "english_meaning": "By when do you have to finish this work?",
+            "tamil_meaning": "இந்தப் பணியை எப்போதுக்குள் முடிக்க வேண்டும்?"
+        },
+        "speaker_b": {
+            "japanese": "今週の金曜日までに終わらせる予定です。",
+            "romaji": "Konshuu no kinyoubi made ni owaraseru yotei desu.",
+            "tamil_transliteration": "கொன்ஷூ நோ கின்யோபி மாதெ நி ஒவரசெரு யோதேய் தேசு.",
+            "english_meaning": "I plan to finish it by this Friday.",
+            "tamil_meaning": "இந்த வாரம் வெள்ளிக்கிழமைக்குள் முடிக்கத் திட்டமிட்டுள்ளேன்."
+        }
+    },
+    {
+        "id": 84,
+        "speaker_a": {
+            "japanese": "日本の歌を歌うことができますか。",
+            "romaji": "Nihon no uta o utau koto ga dekimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ உதா ஓ உதாஉ கோதோ கா தேகிமாசு கா.",
+            "english_meaning": "Can you sing Japanese songs?",
+            "tamil_meaning": "உங்களுக்கு ஜப்பானியப் பாடல்கள் பாடத் தெரியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、アニメの歌なら少し歌えます。",
+            "japanese": "はい、アニメのうたなら少しうたえます。",
+            "romaji": "Hai, anime no uta nara sukoshi utaemasu.",
+            "tamil_transliteration": "ஹாய், அனிமே நோ உதா நாரா சுகோஷி உதாஏமாசு.",
+            "english_meaning": "Yes, I can sing a few anime songs.",
+            "tamil_meaning": "ஆம், அனிமேஷன் பாடல்கள் என்றால் கொஞ்சம் பாட முடியும்."
+        }
+    },
+    {
+        "id": 85,
+        "speaker_a": {
+            "japanese": "何か温かい飲み物を飲みませんか。",
+            "romaji": "Nani ka atatakai nomimono o nomimasen ka.",
+            "tamil_transliteration": "நானி கா அதாதகாய் நொமிமோனோ ஓ நொமிமாசென் கா.",
+            "english_meaning": "Would you like to drink something warm?",
+            "tamil_meaning": "சூடான பானம் ஏதாவது குடிக்கிறீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "そうですね、温かい紅茶をお願いします。",
+            "romaji": "Sou desu ne, atatakai koucha o onegai shimasu.",
+            "tamil_transliteration": "சோ தேசு நே, அதாதகாய் கோச்சா ஓ ஒனேகை ஷிமாசு.",
+            "english_meaning": "That sounds good, I'll have a warm black tea, please.",
+            "tamil_meaning": "நல்லது, சூடான கருந்தேநீர் கொடுங்கள்."
+        }
+    },
+    {
+        "id": 86,
+        "speaker_a": {
+            "japanese": "この電車は急行ですか、それとも普通ですか。",
+            "romaji": "Kono densha wa kyuukou desu ka, soretomo futsuu desu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா கியூகோ தேசு கா, சோரெதோ மோ புட்சூ தேசு கா.",
+            "english_meaning": "Is this train an express or local?",
+            "tamil_meaning": "இந்த ரயில் விரைவு ரயிலா அல்லது சாதாரண ரயிலா?"
+        },
+        "speaker_b": {
+            "japanese": "これは急行列車です。次の駅を通過します。",
+            "romaji": "Kore wa kyuukou-ressha desu. Tsugi no eki o tsuuka shimasu.",
+            "tamil_transliteration": "கொரே வா கியூகோ-ரெஷ்கா தேசு. த்சு கி நோ எகி ஓ த்சூகா ஷிமாசு.",
+            "english_meaning": "This is an express train. It will pass through the next station.",
+            "tamil_meaning": "இது விரைவு ரயில். அடுத்த நிலையத்தில் நிற்காமல் செல்லும்."
+        }
+    },
+    {
+        "id": 87,
+        "speaker_a": {
+            "japanese": "週末はどんな服を着ますか。",
+            "romaji": "Shuumatsu wa donna fuku o kimasu ka.",
+            "tamil_transliteration": "ஷூமத்சு வா தொன்னா புக்கு ஓ கிமாசு கா.",
+            "english_meaning": "What kind of clothes do you wear on weekends?",
+            "tamil_meaning": "வார இறுதியில் நீங்கள் என்ன மாதிரியான ஆடைகளை அணிவீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "普段は動きやすいカジュアルな服を着ます。",
+            "romaji": "Fudan wa ugokiyasui kajuaru na fuku o kimasu.",
+            "tamil_transliteration": "புதான் வா உகோகியசுய் கஜுஅரு நா புக்கு ஓ கிமாசு.",
+            "english_meaning": "I usually wear casual clothes that are easy to move in.",
+            "tamil_meaning": "வழக்கமாக எளிதாக இயங்கும் வகையிலான கேஷுவல் ஆடைகளையே அணிவேன்."
+        }
+    },
+    {
+        "id": 88,
+        "speaker_a": {
+            "japanese": "このスマホの使い方がわかりません。",
+            "romaji": "Kono sumaho no tsukaikata ga wakarimasen.",
+            "tamil_transliteration": "கொனோ சுமாஹோ நோ சுகைவதா கா வகாரிமாசென்.",
+            "english_meaning": "I don't know how to use this smartphone.",
+            "tamil_meaning": "இந்த ஸ்மார்ட்போனை எப்படிப் பயன்படுத்துவது என்று எனக்குத் தெரியவில்லை."
+        },
+        "speaker_b": {
+            "japanese": "では、一緒に操作してみましょう。",
+            "romaji": "Dewa, issho ni sousa shite mimashou.",
+            "tamil_transliteration": "தேவா, இஷோ நி சோஸா ஷிதே மிமாஷோ.",
+            "english_meaning": "Well then, let's operate it together.",
+            "tamil_meaning": "அப்படியானால், இணைந்து இயக்கப் பார்ப்போம்."
+        }
+    },
+    {
+        "id": 89,
+        "speaker_a": {
+            "japanese": "日本の文化で一番好きなものは何ですか。",
+            "romaji": "Nihon no bunka de ichiban suki na mono wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன் நோ புன்கா தே இச்சிபான் சுகி நா மோனோ வா நான் தேசு கா.",
+            "english_meaning": "What is your favorite thing about Japanese culture?",
+            "tamil_meaning": "ஜப்பானிய கலாச்சாரத்தில் உங்களுக்கு மிகவும் பிடித்த விஷயம் என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "四季の美しさが一番好きです。",
+            "romaji": "Shiki no utsukushisa ga ichiban suki desu.",
+            "tamil_transliteration": "ஷிகி நோ உட்சுகுஷிசா கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "I like the beauty of the four seasons the best.",
+            "tamil_meaning": "நான்கு பருவங்களின் அழகைத்தான் எனக்கு மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 90,
+        "speaker_a": {
+            "japanese": "明日の夜、空いていますか。",
+            "romaji": "Ashita no yoru, aite imasu ka.",
+            "tamil_transliteration": "அஷிதா நோ யோரு, ஐதே இமாசு கா.",
+            "english_meaning": "Are you free tomorrow night?",
+            "tamil_meaning": "நாளை இரவு உங்களுக்கு நேரம் உள்ளதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、特に予定はありませんよ。",
+            "romaji": "Hai, tokuni yotei wa arimasen yo.",
+            "tamil_transliteration": "ஹாய், தொகுனி யோதேய் வா அரிமாசென் யோ.",
+            "english_meaning": "Yes, I don't have any particular plans.",
+            "tamil_meaning": "ஆம், குறிப்பாக எந்தத் திட்டமும் இல்லை."
+        }
+    },
+    {
+        "id": 91,
+        "speaker_a": {
+            "japanese": "この漢字は何と読みますか。",
+            "romaji": "Kono kanji wa nan to yomimasu ka.",
+            "tamil_transliteration": "கொனோ கஞ்சி வா நான் தோ யோமிமாசு கா.",
+            "english_meaning": "How do you read this Kanji?",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தை எப்படிப் படிக்க வேண்டும்?"
+        },
+        "speaker_b": {
+            "japanese": "それは「しんぶん」と読みます。",
+            "romaji": "Sore wa 'shinbun' to yomimasu.",
+            "tamil_transliteration": "சோரே வா 'ஷின்புன்' தோ யோமிமாசு.",
+            "english_meaning": "That is read as 'shinbun' (newspaper).",
+            "tamil_meaning": "அது 'ஷின்புன்' (செய்திதாள்) என்று படிக்கப்படுகிறது."
+        }
+    },
+    {
+        "id": 92,
+        "speaker_a": {
+            "japanese": "日本料理を食べたことがありますか。",
+            "romaji": "Nihon-ryouri o tabeta koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன்-ரியோரி ஓ தபேதா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever eaten Japanese cuisine?",
+            "tamil_meaning": "ஜப்பானிய உணவைச் சாப்பிட்டுப் பார்த்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、お寿司やすき焼きを食べたことがあります。",
+            "romaji": "Hai, sushi ya sukiyaki o tabeta koto ga arimasu.",
+            "tamil_transliteration": "ஹாய், சுஷி யா சுகியாகி ஓ தபேதா கோதோ கா அரிமாசு.",
+            "english_meaning": "Yes, I have eaten sushi and sukiyaki.",
+            "tamil_meaning": "ஆம், சுஷி மற்றும் சுகியாகி உணவுகளைச் சாப்பிட்டுள்ளேன்."
+        }
+    },
+    {
+        "id": 93,
+        "speaker_a": {
+            "japanese": "どのカバンがあなたのですか。",
+            "romaji": "Dono kaban ga anata no desu ka.",
+            "tamil_transliteration": "தோனோ கபான் கா அனாத நோ தேசு கா.",
+            "english_meaning": "Which bag is yours?",
+            "tamil_meaning": "எந்தப் பை உங்களுடையது?"
+        },
+        "speaker_b": {
+            "japanese": "あの黒いカバンが私のです。",
+            "romaji": "Ano kuroi kaban ga watashi no desu.",
+            "tamil_transliteration": "அனோ குரோய் கபான் கா வடஷி நோ தேசு.",
+            "english_meaning": "That black bag is mine.",
+            "tamil_meaning": "அங்கே இருக்கும் கருப்புப் பை என்னுடையது."
+        }
+    },
+    {
+        "id": 94,
+        "speaker_a": {
+            "japanese": "この仕事は一人でやりますか。",
+            "romaji": "Kono shigoto wa hitori de yarimasu ka.",
+            "tamil_transliteration": "கொனோ ஷிகோதோ வா ஹிதோரி தே யரிமாசு கா.",
+            "english_meaning": "Are you doing this work alone?",
+            "tamil_meaning": "இந்தப் பணியை நீங்கள் தனியாகத்தான் செய்கிறீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、チームのメンバーと一緒にやります。",
+            "romaji": "Ie, chiimu no menbaa to issho ni yarimasu.",
+            "tamil_transliteration": "ஈஏ, சீமு நோ மென்பா தோ இஷோ நி யரிமாசு.",
+            "english_meaning": "No, I do it together with team members.",
+            "tamil_meaning": "இல்லை, குழு உறுப்பினர்களுடன் சேர்ந்து செய்கிறேன்."
+        }
+    },
+    {
+        "id": 95,
+        "speaker_a": {
+            "japanese": "休日は何をして過ごすのが好きですか。",
+            "romaji": "Kyujitsu wa nani o shite sugosu no ga suki desu ka.",
+            "tamil_transliteration": "கியூஜித்சு வா நானி ஓ ஷிதே சுகோசு நோ கா சுகி தேசு கா.",
+            "english_meaning": "What do you like doing on your days off?",
+            "tamil_meaning": "விடுமுறை நாட்களில் என்ன செய்து கழிக்க உங்களுக்குப் பிடிக்கும்?"
+        },
+        "speaker_b": {
+            "japanese": "家で本を読んでいる時間が一番好きです。",
+            "romaji": "Ie de hon o yonde iru jikan ga ichiban suki desu.",
+            "tamil_transliteration": "ஈஏ தே ஹோன் ஓ யோந்தே இரும் ஜிகான் கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "I like the time spent reading books at home the most.",
+            "tamil_meaning": "வீட்டில் அமர்ந்து புத்தகம் படிக்கும் நேரம்தான் எனக்கு மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 96,
+        "speaker_a": {
+            "japanese": "この近くに郵便局はありますか。",
+            "romaji": "Kono chikaku ni yuubinkyoku wa arimasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி யூபின் கியோகு வா அரிமாசு கா.",
+            "english_meaning": "Is there a post office near here?",
+            "tamil_meaning": "இந்த அருகில் அஞ்சல் அலுவலகம் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、角を曲がるとすぐに見えますよ。",
+            "romaji": "Hai, kado o magaru to sugu ni miemasu yo.",
+            "tamil_transliteration": "ஹாய், கதோ ஓ மகரு தோ சுগু நி மிஏமாசு யோ.",
+            "english_meaning": "Yes, if you turn the corner, you'll see it right away.",
+            "tamil_meaning": "ஆம், மூலையில் திரும்பியவுடன் அது கண்ணில்படும்."
+        }
+    },
+    {
+        "id": 97,
+        "speaker_a": {
+            "japanese": "明日、何を食べる予定ですか。",
+            "romaji": "Ashita, nani o taberu yotei desu ka.",
+            "tamil_transliteration": "அஷிதா, நானி ஓ தபேரு யோதேய் தேசு கா.",
+            "english_meaning": "What do you plan to eat tomorrow?",
+            "tamil_meaning": "நாளை என்ன சாப்பிடத் திட்டமிட்டுள்ளீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "友達と焼き肉を食べに行く予定です。",
+            "romaji": "Tomodachi to yakiniku o tabe ni iku yotei desu.",
+            "tamil_transliteration": "தொமோதாச்சி தோ யகினுகு ஓ தபே நி இகு யோதேய் தேசு.",
+            "english_meaning": "I plan to go eat Yakiniku (grilled meat) with a friend.",
+            "tamil_meaning": "நண்பருடன் சேர்ந்து யகினுகு (இறைச்சி சுடப்படும் உணவு) சாப்பிடச் செல்லத் திட்டம்."
+        }
+    },
+    {
+        "id": 98,
+        "speaker_a": {
+            "japanese": "このカメラは使いやすいですか。",
+            "romaji": "Kono kamera wa tsukaiyasui desu ka.",
+            "tamil_transliteration": "கொனோ காமேரா வா சுகையசுய் தேசு கா.",
+            "english_meaning": "Is this camera easy to use?",
+            "tamil_meaning": "இந்தக் கேமராவைப் பயன்படுத்துவது எளிதானதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、初心者でも簡単に使えますよ。",
+            "romaji": "Hai, shoshinsha demo kantan ni tsukaemasu yo.",
+            "tamil_transliteration": "ஹாய், ஷோஷின்ஷா தேமோ கந்தான் நி சுகாஏமாசு யோ.",
+            "english_meaning": "Yes, even beginners can use it easily.",
+            "tamil_meaning": "ஆம், தொடக்கநிலையாளர்கள்கூட எளிமையாகப் பயன்படுத்தலாம்."
+        }
+    },
+    {
+        "id": 99,
+        "speaker_a": {
+            "japanese": "次の電車はいつ来ますか。",
+            "romaji": "Tsugi no densha wa itsu kimasu ka.",
+            "tamil_transliteration": "த்சு கி நோ தேன்ஷா வா இத்சு கிமாசு கா.",
+            "english_meaning": "When does the next train come?",
+            "tamil_meaning": "அடுத்த ரயில் எப்போது வரும்?"
+        },
+        "speaker_b": {
+            "japanese": "あと三分で来るはずです。",
+            "romaji": "Ato san-pun de kuru hazu desu.",
+            "tamil_transliteration": "அதோ சான்-புன் தே குரு ஹஜு தேசு.",
+            "english_meaning": "It should come in three more minutes.",
+            "tamil_meaning": "இன்னும் மூன்று நிமிடங்களில் வந்துவிடும்."
+        }
+    },
+    {
+        "id": 100,
+        "speaker_a": {
+            "japanese": "今日も一日、本当にお疲れ様でした。",
+            "romaji": "Kyou mo ichi-nichi, hontou ni otsukaresama deshita.",
+            "tamil_transliteration": "கியோ மோ இச்சி-நிதி, ஹொந்தோ நி ஒட்சுகாரேசமா தேஷிதா.",
+            "english_meaning": "Thank you truly for your hard work today as well.",
+            "tamil_meaning": "இன்றைய நாளிலும் கடினமாக உழைத்தமைக்கு மிக்க நன்றி."
+        },
+        "speaker_b": {
+            "japanese": "お疲れ様でした。おやすみなさい。",
+            "romaji": "Otsukaresama deshita. Oyasuminasai.",
+            "tamil_transliteration": "ஒட்சுகாரேசமா தேஷிதா. ஒயாசுமினாஸை.",
+            "english_meaning": "Thank you for your hard work. Good night!",
+            "tamil_meaning": "நன்றி. இரவு வணக்கம்!"
+        }
+    }
+]
+
+[
+    {
+        "id": 101,
+        "speaker_a": {
+            "japanese": "この近くに美味しいパン屋はありますか。",
+            "romaji": "Kono chikaku ni oishii pan-ya wa arimasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி ஓயிஷீ பன்-யா வா அரிமாசு கா.",
+            "english_meaning": "Is there a good bakery near here?",
+            "tamil_meaning": "இந்த அருகில் நல்ல ரொட்டிக் கடை ஏதாவது இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、駅の裏にとても人気のあるお店があります。",
+            "romaji": "Hai, eki no ura ni totemo ninki no aru omise ga arimasu.",
+            "tamil_transliteration": "ஹாய், எகி நோ உரா நி தோதேமோ நின்கி நோ அரு ஒமிசே கா அரிமாசு.",
+            "english_meaning": "Yes, there is a very popular shop behind the station.",
+            "tamil_meaning": "ஆம், ரயில் நிலையத்திற்குப் பின்னால் மிகவும் பிரபலமான ஒரு கடை உள்ளது."
+        }
+    },
+    {
+        "id": 102,
+        "speaker_a": {
+            "japanese": "明日のミーティングの資料はもう準備できましたか。",
+            "romaji": "Ashita no miitingu no shiryou wa mou junbi dekimashita ka.",
+            "tamil_transliteration": "அஷிதா நோ மீட்டிங்கு நோ ஷிரியோ வா மோ ஜுன்பி தேகிமாஷிதா கா.",
+            "english_meaning": "Are the materials for tomorrow's meeting ready yet?",
+            "tamil_meaning": "நாளை நடக்கும் கூட்டத்திற்கான ஆவணங்கள் தயார் செய்துவிட்டதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、先ほどすべて印刷して机の上に置きました。",
+            "romaji": "Hai, sakihodo subete insatsu shite tsukue no ue ni okimashita.",
+            "tamil_transliteration": "ஹாய், சகிஹோதோ சுபேதே இன்ஸாட்சு ஷிதே த்சுகுஏ நோ உஏ நி ஒகிமாஷிதா.",
+            "english_meaning": "Yes, I just printed everything and placed it on the desk.",
+            "tamil_meaning": "ஆம், சற்று முன்பு அனைத்தையும் பிரிண்ட் செய்து மேஜை மீது வைத்துள்ளேன்."
+        }
+    },
+    {
+        "id": 103,
+        "speaker_a": {
+            "japanese": "日本の伝統的なお菓子を食べたことがありますか。",
+            "romaji": "Nihon no dentouteki na okashi o tabeta koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தெந்தோதேகி நா ஒகாஷி ஓ தபேதா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever eaten traditional Japanese sweets?",
+            "tamil_meaning": "ஜப்பானியப் பாரம்பரிய இனிப்பு வகைகளைச் சாப்பிட்டுப் பார்த்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、お茶と一緒に和菓子を食べたことがあります。",
+            "romaji": "Hai, ocha to issho ni wagashi o tabeta koto ga arimasu.",
+            "tamil_transliteration": "ஹாய், ஒச்சா தோ இஷோ நி வகாஷி ஓ தபேதா கோதோ கா அரிமாசு.",
+            "english_meaning": "Yes, I've eaten Japanese sweets together with green tea.",
+            "tamil_meaning": "ஆம், தேநீருடன் சேர்த்து வகாஷி (பாரம்பரிய இனிப்பு) சாப்பிட்டுள்ளேன்."
+        }
+    },
+    {
+        "id": 104,
+        "speaker_a": {
+            "japanese": "このパソコンは重いですか。",
+            "romaji": "Kono pasokon wa omoi desu ka.",
+            "tamil_transliteration": "கொனோ பாசோகோன் வா ஒமோய் தேசு கா.",
+            "english_meaning": "Is this laptop heavy?",
+            "tamil_meaning": "இந்தக் கணினி பாரமானதா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、とても軽くて持ち運びが便利です。",
+            "romaji": "Ie, totemo karukute mochihakobi ga benri desu.",
+            "tamil_transliteration": "ஈஏ, தோதேமோ கருகூதே மோசிஹகோபி கா பென்ரி தேசு.",
+            "english_meaning": "No, it's very light and convenient to carry around.",
+            "tamil_meaning": "இல்லை, மிகவும் லேசாக இருப்பதால் எடுத்துச் செல்வது எளிது."
+        }
+    },
+    {
+        "id": 105,
+        "speaker_a": {
+            "japanese": "週末にどんなスポーツをしますか。",
+            "romaji": "Shuumatsu ni donna supootsu o shimasu ka.",
+            "tamil_transliteration": "ஷூமத்சு நி தொன்னா சுபோட்சு ஓ ஷிமாசு கா.",
+            "english_meaning": "What kind of sports do you play on weekends?",
+            "tamil_meaning": "வார இறுதியில் என்ன விளையாட்டு விளையாடுவீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "休日はよく友達とテニスをします。",
+            "romaji": "Kyuujitsu wa yoku tomodachi to tenisu o shimasu.",
+            "tamil_transliteration": "கியூஜித்சு வா யோகு தொமோதாச்சி தோ தேனிசு ஓ ஷிமாசு.",
+            "english_meaning": "I often play tennis with friends on my days off.",
+            "tamil_meaning": "விடுமுறை நாட்களில் நண்பர்களுடன் அடிக்கடி டென்னிஸ் விளையாடுவேன்."
+        }
+    },
+    {
+        "id": 106,
+        "speaker_a": {
+            "japanese": "今夜は星がとてもきれいですね。",
+            "romaji": "Konya wa hoshi ga totemo kirei desu ne.",
+            "tamil_transliteration": "கொன்யா வா ஹோஷி கா தோதேமோ கிர்ஏய் தேசு நே.",
+            "english_meaning": "The stars are very beautiful tonight, aren't they?",
+            "tamil_meaning": "இன்று இரவு விண்மீன்கள் மிகவும் அழகாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "本当ですね。明日も晴れるといいですね。",
+            "romaji": "Hontou desu ne. Ashita mo hareru to ii desu ne.",
+            "tamil_transliteration": "ஹொந்தோ தேசு நே. அஷிதா மோ ஹரெரு தோ ஈ தேசு நே.",
+            "english_meaning": "True. I hope it's sunny tomorrow too.",
+            "tamil_meaning": "உண்மைதான். நாளையும் வெயில் அடித்தால் நன்றாக இருக்கும்."
+        }
+    },
+    {
+        "id": 107,
+        "speaker_a": {
+            "japanese": "この電車はどこ行きですか。",
+            "romaji": "Kono densha wa doko iki desu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா டோகோ இகி தேசு கா.",
+            "english_meaning": "Where is this train bound for?",
+            "tamil_meaning": "இந்த ரயில் எங்கு செல்கிறது?"
+        },
+        "speaker_b": {
+            "japanese": "大阪行きの特急列車です。",
+            "romaji": "Oosaka iki no tokkyuu-ressha desu.",
+            "tamil_transliteration": "ஓசாகா இகி நோ தொக்கியூ-ரெஷ்கா தேசு.",
+            "english_meaning": "It's a limited express bound for Osaka.",
+            "tamil_meaning": "இது ஒசாகா செல்லும் விரைவு ரயில்."
+        }
+    },
+    {
+        "id": 108,
+        "speaker_a": {
+            "japanese": "何時に起きて会社に行きますか。",
+            "romaji": "Nan-ji ni okite kaisha ni ikimasu ka.",
+            "tamil_transliteration": "நான்-ஜி நி ஒகிதே கைஷா நி இகிமாசு கா.",
+            "english_meaning": "What time do you wake up and go to the office?",
+            "tamil_meaning": "எத்தனை மணிக்கு எழுந்து அலுவலகத்திற்குச் செல்வீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "毎朝七時に起きて、八時半に出かけます。",
+            "romaji": "Maiasa shichi-ji ni okite, hachi-ji-han ni dekakemasu.",
+            "tamil_transliteration": "மைஆசா ஷிச்சி-ஜி நி ஒகிதே, ஹச்சி-ஜி-ஹான் நி தேககேமாசு.",
+            "english_meaning": "I wake up every morning at 7:00 and leave at 8:30.",
+            "tamil_meaning": "தினமும் காலை 7 மணிக்கு எழுந்து, 8:30 மணிக்குக் கிளம்புவேன்."
+        }
+    },
+    {
+        "id": 109,
+        "speaker_a": {
+            "japanese": "このレストランは予約が必要ですか。",
+            "romaji": "Kono resutoran wa yoyaku ga hitsuyou desu ka.",
+            "tamil_transliteration": "கொனோ ரெசுதோரான் வா யோயாகு கா ஹித்சுயோ தேசு கா.",
+            "english_meaning": "Does this restaurant require a reservation?",
+            "tamil_meaning": "இந்த உணவகத்திற்கு முன்பதிவு கட்டாயமா?"
+        },
+        "speaker_b": {
+            "japanese": "週末は混むので予約したほうが安心です。",
+            "romaji": "Shuumatsu wa komu node yoyaku shita hou ga anshin desu.",
+            "tamil_transliteration": "ஷூமத்சு வா கொமு நோதே யோயாகு ஷிதா ஹோ கா ஆன்ஷின் தேசு.",
+            "english_meaning": "It gets crowded on weekends, so it's safer to make a reservation.",
+            "tamil_meaning": "வார இறுதியில் கூட்டம் அதிகமாக இருக்கும் என்பதால் முன்பதிவு செய்வது நல்லது."
+        }
+    },
+    {
+        "id": 110,
+        "speaker_a": {
+            "japanese": "日本の温泉に入ったことがありますか。",
+            "romaji": "Nihon no onsen ni haitta koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ ஒன்சென் நி ஹைத்தா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever been in a Japanese hot spring (onsen)?",
+            "tamil_meaning": "ஜப்பானிய வெந்நீரூற்றில் (ஒன்சென்) குளித்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、何度か入りましたが、とても温まります。",
+            "romaji": "Hai, nan-ka hairimashita ga, totemo atatamarimasu.",
+            "tamil_transliteration": "ஹாய், நான்-க ஹைரிமாஷிதா கா, தோதேமோ அதாதமரிமாசு.",
+            "english_meaning": "Yes, I've been in a few times, and it warms you up so well.",
+            "tamil_meaning": "ஆம், பலமுறை சென்றுள்ளேன், உடல் முழுவதும் இதமாகச் சூடேறும்."
+        }
+    },
+    {
+        "id": 111,
+        "speaker_a": {
+            "japanese": "この漢字の書き方を教えてもらえませんか。",
+            "romaji": "Kono kanji no kakikata o oshiete moraemasen ka.",
+            "tamil_transliteration": "கொனோ கஞ்சி நோ ககிவதா ஓ ஒஷிஏதே மோரஏமாசென் கா.",
+            "english_meaning": "Could you teach me how to write this Kanji?",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தை எப்படி எழுதுவது என்று சொல்லிக் தர முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいですよ。紙とペンを貸してください。",
+            "romaji": "Ii desu yo. Kami to pen o kashite kudasai.",
+            "tamil_transliteration": "ஈ தேசு யோ. காமி தோ பென் ஓ கஷிதே குதாஸை.",
+            "english_meaning": "Sure. Please lend me some paper and a pen.",
+            "tamil_meaning": "தாராளமாக. எனக்குத் தா தாளும் பேனாவும் கொடுங்கள்."
+        }
+    },
+    {
+        "id": 112,
+        "speaker_a": {
+            "japanese": "明日のお出かけは何を着ていきますか。",
+            "romaji": "Ashita no odekake wa nani o kite ikimasu ka.",
+            "tamil_transliteration": "அஷிதா நோ ஒதேகாக்கே வா நானி ஓ கிதே இகிமாசு கா.",
+            "english_meaning": "What are you going to wear for tomorrow's outing?",
+            "tamil_meaning": "நாளை வெளியே செல்லும்போது என்ன ஆடை அணியப் போகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "動きやすいジーンズとシャツを着ていくつもりです。",
+            "romaji": "Ugokiyasui jiinzu to shatsu o kite iku tsumori desu.",
+            "tamil_transliteration": "உகோகியசுய் ஜீன்சு தோ ஷத்சு ஓ கிதே இகு த்சுமோரி தேசு.",
+            "english_meaning": "I plan to wear comfortable jeans and a shirt.",
+            "tamil_meaning": "சுலபமாக இயங்கும் வகையில் ஜீன்ஸும் சட்டையும் அணியத் திட்டம்."
+        }
+    },
+    {
+        "id": 113,
+        "speaker_a": {
+            "japanese": "日本の生活で一番大変なことは何ですか。",
+            "romaji": "Nihon no seikatsu de ichiban taihen na koto wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன் நோ செய்காத் தே இச்சிபான் தைஹென் நா கோதோ வா நான் தேசு கா.",
+            "english_meaning": "What is the hardest thing about living in Japan?",
+            "tamil_meaning": "ஜப்பானில் வாழ்வதில் உங்களுக்கு மிகவும் கடினமான விஷயம் எது?"
+        },
+        "speaker_b": {
+            "japanese": "ゴミの分別ルールが最初は難しかったです。",
+            "romaji": "Gomi no bunbetsu ruuru wa saisho wa muzukashikatta desu.",
+            "tamil_transliteration": "கோமி நோ புன்பெத்சு ரூரு வா சைஷோ வா முஜுகாஷிகத்தா தேசு.",
+            "english_meaning": "The garbage sorting rules were difficult at first.",
+            "tamil_meaning": "குப்பைகளைப் பிரித்துப்போடும் முறைகள் ஆரம்பத்தில் கடினமாக இருந்தன."
+        }
+    },
+    {
+        "id": 114,
+        "speaker_a": {
+            "japanese": "このお土産は誰に渡しますか。",
+            "romaji": "Kono omiyage wa dare ni watashimasu ka.",
+            "tamil_transliteration": "கொனோ ஒமியாகே வா தரே நி வதஷிமாசு கா.",
+            "english_meaning": "Who are you giving this souvenir to?",
+            "tamil_meaning": "இந்தப் பரிசை யாருக்குக் கொடுக்கப் போகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "会社の上司と同僚に渡します。",
+            "romaji": "Kaisha no joushi to douryou ni watashimasu.",
+            "tamil_transliteration": "கைஷா நோ ஜோஷி தோ தோரியோ நி வதஷிமாசு.",
+            "english_meaning": "I'll give it to my boss and colleagues at work.",
+            "tamil_meaning": "அலுவலக மேலதிகாரிக்கும் சக ஊழியர்களுக்கும் கொடுக்க உள்ளேன்."
+        }
+    },
+    {
+        "id": 115,
+        "speaker_a": {
+            "japanese": "この服は洗濯機で洗えますか。",
+            "romaji": "Kono fuku wa sentakuki de araemasu ka.",
+            "tamil_transliteration": "கொனோ புக்கு வா செந்தாக்குகீ தே அரஏமாசு கா.",
+            "english_meaning": "Can this clothing be washed in the washing machine?",
+            "tamil_meaning": "இந்த ஆடையைச் சலவை இயந்திரத்தில் துவைக்கலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、手洗い表示がありますので、手洗いしてください。",
+            "romaji": "Ie, tearai hyouji ga arimasu node, tearai shite kudasai.",
+            "tamil_transliteration": "ஈஏ, தேஅராய் ஹியோஜி கா அரிமாசு நோதே, தேஅராய் ஷிதே குதாஸை.",
+            "english_meaning": "No, there's a hand-wash label, so please wash it by hand.",
+            "tamil_meaning": "இல்லை, கைகளால் துவைக்க வேண்டிய குறியீடு உள்ளது, எனவே கைகளால் துவையுங்கள்."
+        }
+    },
+    {
+        "id": 116,
+        "speaker_a": {
+            "japanese": "今度の日曜日、映画に行きませんか。",
+            "romaji": "Kondo no nichiyoubi, eiga ni ikimasen ka.",
+            "tamil_transliteration": "கொந்தோ நோ நிச்சியோபி, ஏகா நி இகிமாசென் கா.",
+            "english_meaning": "Would you like to go to the movies this coming Sunday?",
+            "tamil_meaning": "வரும் ஞாயிற்றுக்கிழமை சினிமாவுக்குச் செல்லலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいですね、何を見に行きましょうか。",
+            "romaji": "Ii desu ne, nani o mi ni ikimashou ka.",
+            "tamil_transliteration": "ஈ தேசு நே, நானி ஓ மி நி இகிமாஷோ கா.",
+            "english_meaning": "Sounds good, what shall we go see?",
+            "tamil_meaning": "நல்லது, என்ன படம் பார்க்கச் செல்வோம்?"
+        }
+    },
+    {
+        "id": 117,
+        "speaker_a": {
+            "japanese": "日本の新幹線に乗ったことがありますか。",
+            "romaji": "Nihon no shinkansen ni notta koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ ஷின்கான்சென் நி நோத்தா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever ridden the Japanese Shinkansen (bullet train)?",
+            "tamil_meaning": "ஜப்பானின் அதிவேக ரயிலான ஷின்கான்செனில் பயணம் செய்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、京都に行くときに乗りました。とても早かったです。",
+            "romaji": "Hai, Kyouto ni iku toki ni norimashita. Totemo hayakatta desu.",
+            "tamil_transliteration": "ஹாய், கியோதோ நி இகு தொகி நி நோரிமாஷிதா. தோதேமோ ஹயகத்தா தேசு.",
+            "english_meaning": "Yes, I rode it when going to Kyoto. It was very fast.",
+            "tamil_meaning": "ஆம், கியோட்டோ செல்லும்போது அதில் பயணம் செய்தேன். மிகவும் வேகமாகச் சென்றது."
+        }
+    },
+    {
+        "id": 118,
+        "speaker_a": {
+            "japanese": "この問題の答えがわかりません。",
+            "romaji": "Kono mondai no kotae ga wakarimasen.",
+            "tamil_transliteration": "கொனோ மோன்தை நோ கோதாஏ கா வகாரிமாசென்.",
+            "english_meaning": "I don't know the answer to this problem.",
+            "tamil_meaning": "இந்தக் கேள்விக்கான விடை எனக்குத் தெரியவில்லை."
+        },
+        "speaker_b": {
+            "japanese": "一緒に考えてみましょう。",
+            "romaji": "Issho ni kangaete mimashou.",
+            "tamil_transliteration": "இஷோ நி கங்காஏதே மிமாஷோ.",
+            "english_meaning": "Let's think about it together.",
+            "tamil_meaning": "சேர்ந்து சிந்தித்துப் பார்ப்போம்."
+        }
+    },
+    {
+        "id": 119,
+        "speaker_a": {
+            "japanese": "何か甘いものが食べたいですね。",
+            "romaji": "Nani ka amai mono ga tabetai desu ne.",
+            "tamil_transliteration": "நானி கா அமாய் மோனோ கா தபேதாய் தேசு நே.",
+            "english_meaning": "I want to eat something sweet, don't you?",
+            "tamil_meaning": "இனிப்பான பொருள் ஏதாவது சாப்பிடத் தோன்றுகிறதே."
+        },
+        "speaker_b": {
+            "japanese": "近くに美味しいケーキ屋さんがありますよ。",
+            "romaji": "Chikaku ni oishii keekiya-san ga arimasu yo.",
+            "tamil_transliteration": "திகாகு நி ஓயிஷீ கேகியா-சான் கா அரிமாசு யோ.",
+            "english_meaning": "There is a delicious cake shop nearby.",
+            "tamil_meaning": "அருகில் ஒரு சுவையான கேக் கடை உள்ளது."
+        }
+    },
+    {
+        "id": 120,
+        "speaker_a": {
+            "japanese": "この仕事を終わらせてから帰ります。",
+            "romaji": "Kono shigoto o owarasete kara kaerimasu.",
+            "tamil_transliteration": "கொனோ ஷிகோதோ ஓ ஒவரஸேதே காரா கஎரிமாசு.",
+            "english_meaning": "I will go home after finishing this work.",
+            "tamil_meaning": "இந்தப் பணியை முடித்துவிட்டு வீட்டிற்குச் செல்வேன்."
+        },
+        "speaker_b": {
+            "japanese": "無理しないでくださいね。お疲れ様です。",
+            "romaji": "Muri shinai de kudasai ne. Otsukaresama desu.",
+            "tamil_transliteration": "முரி ஷிநாய் தே குதாஸை நே. ஒட்சுகாரேசமா தேசு.",
+            "english_meaning": "Please don't overdo it. Good work.",
+            "tamil_meaning": "உடம்பைக் கெடுத்துக்கொள்ள வேண்டாம். கடின உழைப்புக்கு நன்றி."
+        }
+    },
+    {
+        "id": 121,
+        "speaker_a": {
+            "japanese": "日本の伝統的な音楽を聴いたことがありますか。",
+            "romaji": "Nihon no dentouteki na ongaku o kiita koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தெந்தோதேகி நா ஒங்காகு ஓ கிஇதா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever listened to traditional Japanese music?",
+            "tamil_meaning": "ஜப்பானியப் பாரம்பரிய இசையைக் கேட்டுள்ளதுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、琴の演奏を聴いたことがあります。",
+            "romaji": "Hai, koto no ensou o kiita koto ga arimasu.",
+            "tamil_transliteration": "ஹாய், கோதோ நோ என்சோ ஓ கிஇதா கோதோ கா அரிமாசு.",
+            "english_meaning": "Yes, I have listened to Koto (traditional harp) performances.",
+            "tamil_meaning": "ஆம், கொட்டோ (பாரம்பரிய நரம்பிசைக்கருவி) இசையைக் கேட்டுள்ளேன்."
+        }
+    },
+    {
+        "id": 122,
+        "speaker_a": {
+            "japanese": "この薬は一日に何回飲みますか。",
+            "romaji": "Kono kusuri wa ichi-nichi ni nan-kai nomimasu ka.",
+            "tamil_transliteration": "கொனோ குசுரி வா இச்சி-நிதி நி நான்-கை நொமிமாசு கா.",
+            "english_meaning": "How many times a day do I take this medicine?",
+            "tamil_meaning": "இந்த மருந்தை ஒரு நாளைக்கு எத்தனை முறை சாப்பிட வேண்டும்?"
+        },
+        "speaker_b": {
+            "japanese": "毎食後、一回に一錠飲んでください。",
+            "romaji": "Maishokugo, ikkai ni ichijou nonde kudasai.",
+            "tamil_transliteration": "மைஷோகுகோ, இக்காய் நி இச்சிஜோ நோந்தே குதாஸை.",
+            "english_meaning": "Take one tablet after each meal.",
+            "tamil_meaning": "ஒவ்வொரு வேளை உணவுக்குப் பிறகും ஒரு மாத்திரை வீதம் சாப்பிடுங்கள்."
+        }
+    },
+    {
+        "id": 123,
+        "speaker_a": {
+            "japanese": "明日のパーティには何を穿いていきますか。",
+            "romaji": "Ashita no paatii ni wa nani o haite ikimasu ka.",
+            "tamil_transliteration": "அஷிதா நோ பார்தீ நி வா நானி ஓ ஹைதே இகிமாசு கா.",
+            "english_meaning": "What are you going to wear (on your lower body) for tomorrow's party?",
+            "tamil_meaning": "நாளை நடக்கும் விருந்துக்கு என்ன ஆடை அணியப் போகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "お気に入りのスカートを穿いていくつもりです。",
+            "romaji": "O-ki-ni-iri no sukaato o haite iku tsumori desu.",
+            "tamil_transliteration": "ஒ-கி-நி-இரி நோ சுகார்தோ ஓ ஹைதே இகு த்சுமோரி தேசு.",
+            "english_meaning": "I plan to wear my favorite skirt.",
+            "tamil_meaning": "எனக்குப் பிடித்தமான பாவாடையை அணியத் திட்டமிட்டுள்ளேன்."
+        }
+    },
+    {
+        "id": 124,
+        "speaker_a": {
+            "japanese": "この漢字テストは難しかったですね。",
+            "romaji": "Kono kanji tesuto wa muzukashikatta desu ne.",
+            "tamil_transliteration": "கொனோ கஞ்சி தேசுதோ வா முஜுகாஷிகத்தா தேசு நே.",
+            "english_meaning": "This Kanji test was difficult, wasn't it?",
+            "tamil_meaning": "இந்த கஞ்சி தேர்வு கடினமாக இருந்ததே."
+        },
+        "speaker_b": {
+            "japanese": "はい、勉強したけれど分からないところが多かったです。",
+            "romaji": "Hai, benkyou shita keredo wakaranai tokoro ga ookatta desu.",
+            "tamil_transliteration": "ஹாய், பெங்கியோ ஷிதா கெரேதோ வகாரநாய் தொகோரோ கா ஓகத்தா தேசு.",
+            "english_meaning": "Yes, I studied, but there were many parts I didn't understand.",
+            "tamil_meaning": "ஆம், படித்திருந்தாலும் புரியாத பகுதிகள் அதிகமாக இருந்தன."
+        }
+    },
+    {
+        "id": 125,
+        "speaker_a": {
+            "japanese": "それでは、また来週お会いしましょう。",
+            "romaji": "Sore dewa, mata raishuu o-ai shimashou.",
+            "tamil_transliteration": "சோரே தேவா, மதா ரைக்ஷூ ஒ-ஐ ஷிமாஷோ.",
+            "english_meaning": "Well then, let's meet again next week.",
+            "tamil_meaning": "அப்படியானால், அடுத்த வாரம் மீண்டும் சந்திப்போம்."
+        },
+        "speaker_b": {
+            "japanese": "はい、良い週末を！失礼します。",
+            "romaji": "Hai, yoi shuumatsu o! Shitsurei shimasu.",
+            "tamil_transliteration": "ஹாய், யோய் ஷூமத்சு ஓ! ஷித்சுரேய் ஷிமாசு.",
+            "english_meaning": "Yes, have a good weekend! Goodbye.",
+            "tamil_meaning": "ஆம், இனிய வார இறுதியில் மகிழுங்கள்! போய்வருகிறேன்."
+        }
+    }
+]
+
+[
+    {
+        "id": 126,
+        "speaker_a": {
+            "japanese": "この近くに美味しいレストランを知っていますか。",
+            "romaji": "Kono chikaku ni oishii resutoran o shitte imasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி ஓயிஷீ ரெசுதோரான் ஓ ஷித்தே இமாசு கா.",
+            "english_meaning": "Do you know a good restaurant near here?",
+            "tamil_meaning": "இந்த அருகில் நல்ல உணவகம் ஏதாவது உங்களுக்குத் தெரியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、駅の前に美味しい寿司屋がありますよ。",
+            "romaji": "Hai, eki no mae ni oishii sushiya ga arimasu yo.",
+            "tamil_transliteration": "ஹாய், எகி நோ மாஏ நி ஓயிஷீ சுஷியா கா அரிமாசு யோ.",
+            "english_meaning": "Yes, there is a delicious sushi shop in front of the station.",
+            "tamil_meaning": "ஆம், ரயில் நிலையத்திற்கு முன்பு சுவையான சுஷி கடை ஒன்று உள்ளது."
+        }
+    },
+    {
+        "id": 127,
+        "speaker_a": {
+            "japanese": "日本の電車は時間通りに来て便利ですね。",
+            "romaji": "Nihon no densha wa jikan-dōri ni kite benri desu ne.",
+            "tamil_transliteration": "நிஹோன் நோ தேன்ஷா வா ஜிகான்-தோரி நி கிதே பென்ரி தேசு நே.",
+            "english_meaning": "Japanese trains are convenient because they arrive on time, aren't they?",
+            "tamil_meaning": "ஜப்பானிய ரயில்கள் நேரத்திற்குச் சரியாக வருவதால் மிகவும் வசதியாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "そうですね。でもラッシュ時はとても混雑します。",
+            "romaji": "Sou desu ne. Demo rasshu-ji wa totemo konzatsu shimasu.",
+            "tamil_transliteration": "சோ தேசு நே. தேமோ ரஷ்சு-ஜி வா தோதேமோ கொன்ஜாத்சு ஷிமாசு.",
+            "english_meaning": "That's right. But rush hour is very crowded.",
+            "tamil_meaning": "உண்மைதான். ஆனால் நெரிசல் நேரத்தில் மிகவும் கூட்டமாக இருக்கும்."
+        }
+    },
+    {
+        "id": 128,
+        "speaker_a": {
+            "japanese": "週末はどこかへドライブに行きませんか。",
+            "romaji": "Shuumatsu wa dokoka e doraibu ni ikimasen ka.",
+            "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தொரைபு நி இகிமாசென் கா.",
+            "english_meaning": "Would you like to go somewhere for a drive this weekend?",
+            "tamil_meaning": "வார இறுதியில் எங்குமாவது கார் பயணம் செல்லலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "いいですね。海の方に行きましょうか。",
+            "romaji": "Ii desu ne. Umi no hou ni ikimashou ka.",
+            "tamil_transliteration": "ஈ தேசு நே. உமி நோ ஹோ நி இகிமாஷோ கா.",
+            "english_meaning": "Sounds good. Shall we go toward the ocean?",
+            "tamil_meaning": "நல்லது. கடற்கரைப்பக்கம் செல்லலாமா?"
+        }
+    },
+    {
+        "id": 129,
+        "speaker_a": {
+            "japanese": "この漢字の書き順を教えてもらえますか。",
+            "romaji": "Kono kanji no kakijun o oshiete moraemasu ka.",
+            "tamil_transliteration": "கொனோ கஞ்சி நோ ககிஜுன் ஓ ஒஷிஏதே மோரஏமாசு கா.",
+            "english_meaning": "Could you teach me the stroke order for this Kanji?",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தின் எழுதும் முறையைச் (Stroke order) சொல்லிக் தர முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、見ていてください。こう書きます。",
+            "romaji": "Hai, mite ite kudasai. Kou kakimasu.",
+            "tamil_transliteration": "ஹாய், மிதே இத்தே குதாஸை. கோ ககிமாசு.",
+            "english_meaning": "Yes, watch me. You write it like this.",
+            "tamil_meaning": "ஆம், பாருங்கள். இப்படித்தான் எழுத வேண்டும்."
+        }
+    },
+    {
+        "id": 130,
+        "speaker_a": {
+            "japanese": "明日の天気が心配ですね。",
+            "romaji": "Ashita no tenki ga shinpai desu ne.",
+            "tamil_transliteration": "அஷிதா நோ தேங்கி கா ஷின்பை தேசு நே.",
+            "english_meaning": "Tomorrow's weather is worrying, isn't it?",
+            "tamil_meaning": "நாளை வானிலை எப்படி இருக்குமோ என்ற கவலையாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "大丈夫です。雨は降らないと思いますよ。",
+            "romaji": "Daijoubu desu. Ame wa furanai to omoimasu yo.",
+            "tamil_transliteration": "தைஜோபு தேசு. அமே வா புரணாய் தோ ஒமோஇமாசு யோ.",
+            "english_meaning": "It's fine. I think it won't rain.",
+            "tamil_meaning": "பரவாயில்லை, மழை பெயராது என்று நினைக்கிறேன்."
+        }
+    },
+    {
+        "id": 131,
+        "speaker_a": {
+            "japanese": "この服、サイズが合わないのですが交換できますか。",
+            "romaji": "Kono fuku, saizu ga awanai n desu ga koukan dekimasu ka.",
+            "tamil_transliteration": "கொனோ புக்கு, சைஜு கா அவநாய் ன் தேசு கா கோஹான் தேகிமாசு கா.",
+            "english_meaning": "These clothes don't fit in size, can I exchange them?",
+            "tamil_meaning": "இந்த ஆடை அளவு சரியாகவில்லை, மாற்றிக் கொள்ளலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "レシートをお持ちですか。確認いたします。",
+            "romaji": "Reshiito o omochi desu ka. Kakunin itashimasu.",
+            "tamil_transliteration": "ரெஷிதோ ஓ ஒமோச்சி தேசு கா. ககுனின் இத்தாஷிமாசு.",
+            "english_meaning": "Do you have the receipt? I will check.",
+            "tamil_meaning": "ரசீது உங்களிடம் உள்ளதா? சரிபார்த்துக் தருகிறேன்."
+        }
+    },
+    {
+        "id": 132,
+        "speaker_a": {
+            "japanese": "日本のアニメを見たことがありますか。",
+            "romaji": "Nihon no anime o mita koto ga arimasu ka.",
+            "tamil_transliteration": "நிஹோன் நோ அனிமே ஓ மிதா கோதோ கா அரிமாசு கா.",
+            "english_meaning": "Have you ever watched Japanese anime?",
+            "tamil_meaning": "ஜப்பானிய அனிமேஷன் பார்த்ததுண்டா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、子供の頃からたくさん見ています。",
+            "romaji": "Hai, kodomo no koro kara takusan mite imasu.",
+            "tamil_transliteration": "ஹாய், கொடோமோ நோ கோரோ காரா தகூசான் மிதே இமாசு.",
+            "english_meaning": "Yes, I've watched a lot since I was a child.",
+            "tamil_meaning": "ஆம், சிறுவயது முதலே நிறையப் பார்த்துள்ளேன்."
+        }
+    },
+    {
+        "id": 133,
+        "speaker_a": {
+            "japanese": "何時に会社を出発しますか。",
+            "romaji": "Nan-ji ni kaisha o shuppatsu shimasu ka.",
+            "tamil_transliteration": "நான்-ஜி நி கைஷா ஓ ஷுப்பத்சு ஷிமாசு கா.",
+            "english_meaning": "What time do you leave the office?",
+            "tamil_meaning": "எத்தனை மணிக்கு அலுவலகத்திலிருந்து கிளம்புவீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "通常は午後六時ごろに会社を出ます。",
+            "romaji": "Tsuujou wa go-hu roku-ji goro ni kaisha o demasu.",
+            "tamil_transliteration": "த்சுஜோ வா கோ-ஹு ரோகு-ஜி கோரோ நி கைஷா ஓ தேமாசு.",
+            "english_meaning": "Normally I leave the office around 6:00 PM.",
+            "tamil_meaning": "வழக்கமாக மாலை 6 மணி வாக்கில் அலுவலகத்திலிருந்து கிளம்புவேன்."
+        }
+    },
+    {
+        "id": 134,
+        "speaker_a": {
+            "japanese": "このお茶、とても香りがいいですね。",
+            "romaji": "Kono ocha, totemo kaori ga ii desu ne.",
+            "tamil_transliteration": "கொனோ ஒச்சா, தோதேமோ காஓரி கா ஈ தேசு நே.",
+            "english_meaning": "This tea has a wonderful aroma, doesn't it?",
+            "tamil_meaning": "இந்தத் தேநீர் நறுமணமாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "京都から買ってきた特別な緑茶です。",
+            "romaji": "Kyouto kara kattekita tokubetsu na ryokucha desu.",
+            "tamil_transliteration": "கியோதோ காரா கத்தேகிதா தொகெப்து நா ரியோக்சா தேசு.",
+            "english_meaning": "It's special green tea I bought from Kyoto.",
+            "tamil_meaning": "இது கியோட்டோவில் வாங்கிய சிறப்புப் பச்சைத் தேநீர்."
+        }
+    },
+    {
+        "id": 135,
+        "speaker_a": {
+            "japanese": "週末に映画を見に行く予定です。",
+            "romaji": "Shuumatsu ni eiga o mi ni iku yotei desu.",
+            "tamil_transliteration": "ஷூமத்சு நி ஏகா ஓ மி நி இகு யோதேய் தேசு.",
+            "english_meaning": "I plan to go see a movie this weekend.",
+            "tamil_meaning": "வார இறுதியில் சினிமா பார்க்கச் செல்லத் திட்டமிட்டுள்ளேன்."
+        },
+        "speaker_b": {
+            "japanese": "何の映画を見るんですか。",
+            "romaji": "Nan no eiga o miru n desu ka.",
+            "tamil_transliteration": "நான் நோ ஏகா ஓ மிரு ன் தேசு கா.",
+            "english_meaning": "What movie are you going to see?",
+            "tamil_meaning": "என்ன படம் பார்க்கப் போகிறீர்கள்?"
+        }
+    },
+    {
+        "id": 136,
+        "speaker_a": {
+            "japanese": "このパソコンの設定を手伝っていただけますか。",
+            "romaji": "Kono pasokon no settei o tetsudatte itadakemasu ka.",
+            "tamil_transliteration": "கொனோ பாசோகோன் நோ செத்தே ஓ தெட்சுதாத்தே இடாதகேமாசு கா.",
+            "english_meaning": "Could you help me set up this computer?",
+            "tamil_meaning": "இந்தக் கணினியை அமைக்க எனக்கு உதவ முடியுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、喜んでお手伝いします。",
+            "romaji": "Hai, yorokonde otetsudai shimasu.",
+            "tamil_transliteration": "ஹாய், யோரோகொந்தே ஒதெட்சுदाई ஷிமாசு.",
+            "english_meaning": "Yes, I'd be glad to help.",
+            "tamil_meaning": "ஆம், மகிழ்ச்சியுடன் உதவுகிறேன்."
+        }
+    },
+    {
+        "id": 137,
+        "speaker_a": {
+            "japanese": "日本で一番好きな季節はいつですか。",
+            "romaji": "Nihon de ichiban suki na kisetsu wa itsu desu ka.",
+            "tamil_transliteration": "நிஹோன் தே இச்சிபான் சுகி நா கிஸெத்சு வா இத்சு தேசு கா.",
+            "english_meaning": "What is your favorite season in Japan?",
+            "tamil_meaning": "ஜப்பானில் உங்களுக்கு மிகவும் பிடித்த பருவகாலம் எது?"
+        },
+        "speaker_b": {
+            "japanese": "紅葉が綺麗な秋が一番好きです。",
+            "romaji": "Kouyou ga kireina aki ga ichiban suki desu.",
+            "tamil_transliteration": "கோயோ கா கிர்ஏய்நா அகி கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "I like autumn when the leaves turn color the most.",
+            "tamil_meaning": "இலைகள் நிறம்மாறும் இலையுதிர் காலம்தான் எனக்கு மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 138,
+        "speaker_a": {
+            "japanese": "明日、何を勉強する予定ですか。",
+            "romaji": "Ashita, nani o benkyou suru yotei desu ka.",
+            "tamil_transliteration": "அஷிதா, நானி ஓ பெங்கியோ சுரு யோதேய் தேசு கா.",
+            "english_meaning": "What do you plan to study tomorrow?",
+            "tamil_meaning": "நாளை என்ன படிக்கத் திட்டமிட்டுள்ளீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "漢字と文法を中心に勉強します。",
+            "romaji": "Kanji to bunpou o chuushin ni benkyou shimasu.",
+            "tamil_transliteration": "கஞ்சி தோ புன்போ ஓ சூஷின் நி பெங்கியோ ஷிமாசு.",
+            "english_meaning": "I will focus on studying Kanji and grammar.",
+            "tamil_meaning": "கஞ்சி மற்றும் இலக்கணப் பகுதியை முக்கியமாகக் கற்க உள்ளேன்."
+        }
+    },
+    {
+        "id": 139,
+        "speaker_a": {
+            "japanese": "このレストランはカードが使えますか。",
+            "romaji": "Kono resutoran wa kaado ga tsukaemasu ka.",
+            "tamil_transliteration": "கொனோ ரெசுதோரான் வா காதோ கா சுகாஏமாசு கா.",
+            "english_meaning": "Can I use a card at this restaurant?",
+            "tamil_meaning": "இந்த உணவகத்தில் கார்டு மூலம் பணம் செலுத்தலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、すべての主要カードが使えます。",
+            "romaji": "Hai, subete no shuuyou-kaado ga tsukaemasu.",
+            "tamil_transliteration": "ஹாய், சுபேதே நோ ஷூயோ-காதோ கா சுகாஏமாசு.",
+            "english_meaning": "Yes, all major cards are accepted.",
+            "tamil_meaning": "ஆம், அனைத்து முக்கிய அட்டைகளும் ஏற்றுக்கொள்ளப்படும்."
+        }
+    },
+    {
+        "id": 140,
+        "speaker_a": {
+            "japanese": "今日はちょっと疲れたので早く寝ます。",
+            "romaji": "Kyou wa chotto tsukareta node hayaku nemasu.",
+            "tamil_transliteration": "கியோ வா சொத்தோ த்சுதாரேதா நோதே ஹயாகு நேமாசு.",
+            "english_meaning": "I'm a bit tired today, so I'll go to sleep early.",
+            "tamil_meaning": "இன்று எனக்குச் சற்று சோர்வாக இருப்பதால் சீக்கிரம் தூங்கச் செல்கிறேன்."
+        },
+        "speaker_b": {
+            "japanese": "そうですか。お疲れ様でした。おやすみなさい。",
+            "romaji": "Sou desu ka. Otsukaresama deshita. Oyasuminasai.",
+            "tamil_transliteration": "சோ தேசு கா. ஒட்சுகாரேசமா தேஷிதா. ஒயாசுமினாஸை.",
+            "english_meaning": "I see. Thank you for your hard work. Good night.",
+            "tamil_meaning": "அப்படியா. கடின உழைப்புக்கு நன்றி. இரவு வணக்கம்."
+        }
+    },
+    {
+        "id": 141,
+        "speaker_a": {
+            "japanese": "日本語のニュースを毎日聞いていますか。",
+            "romaji": "Nihon-go no nyuusu o mainichi kiite imasu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ நோ நியூசு ஓ மைனிச்சி கிஇதே இமாசு கா.",
+            "english_meaning": "Do you listen to Japanese news every day?",
+            "tamil_meaning": "தினமும் ஜப்பானியச் செய்திகளைக் கேட்கிறீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、リスニングの練習のために聞いています。",
+            "romaji": "Hai, risuningu no renshuu no tame ni kiite imasu.",
+            "tamil_transliteration": "ஹாய், ரிசுனிங்கு நோ ரென்ஷூ நோ தமே நி கிஇதே இமாசு.",
+            "english_meaning": "Yes, I listen to it for listening practice.",
+            "tamil_meaning": "ஆம், கேட்புத் திறனை (Listening) வளர்த்துக்கொள்ளக் கேட்கிறேன்."
+        }
+    },
+    {
+        "id": 142,
+        "speaker_a": {
+            "japanese": "この靴、とても履きやすいですね。",
+            "romaji": "Kono kutsu, totemo hakiyasui desu ne.",
+            "tamil_transliteration": "கொனோ குத்சு, தோதேமோ ஹகியசுய் தேசு நே.",
+            "english_meaning": "These shoes are very comfortable to wear, aren't they?",
+            "tamil_meaning": "இந்தச் ஷூ அணிவதற்கு மிகவும் வசதியாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ありがとうございます。お気に入りの一足です。",
+            "romaji": "Arigatou gozaimasu. O-ki-ni-iri no issoku desu.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு. ஒ-கி-நி-இரி நோ இச்சோகு தேசு.",
+            "english_meaning": "Thank you. It's my favorite pair.",
+            "tamil_meaning": "மிக்க நன்றி. இது எனக்கு மிகவும் பிடித்த ஜோடி."
+        }
+    },
+    {
+        "id": 143,
+        "speaker_a": {
+            "japanese": "明日の予定を確認してもいいですか。",
+            "romaji": "Ashita no yotei o kakunin shite mo ii desu ka.",
+            "tamil_transliteration": "அஷிதா நோ யோதேய் ஓ ககுனின் ஷிதே மோ ஈ தேசு கா.",
+            "english_meaning": "May I check tomorrow's schedule?",
+            "tamil_meaning": "நாளைக்கான திட்டத்தை ஒருமுறை சரிபார்த்துக் கொள்ளலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、どうぞ。何を確認しますか。",
+            "romaji": "Hai, douzo. Nani o kakunin shimasu ka.",
+            "tamil_transliteration": "ஹாய், தோசோ. நானி ஓ ககுனின் ஷிமாசு கா.",
+            "english_meaning": "Yes, go ahead. What are you checking?",
+            "tamil_meaning": "ஆம், தாராளமாக. என்ன சரிபார்க்க வேண்டும்?"
+        }
+    },
+    {
+        "id": 144,
+        "speaker_a": {
+            "japanese": "日本の食べ物で一番好きなものは何ですか。",
+            "romaji": "Nihon no tabemono de ichiban suki na mono wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன் நோ தபேமோனோ தே இச்சிபான் சுகி நா மோனோ வா நான் தேசு கா.",
+            "english_meaning": "What is your favorite Japanese food?",
+            "tamil_meaning": "ஜப்பானிய உணவுகளில் உங்களுக்கு மிகவும் பிடித்தது எது?"
+        },
+        "speaker_b": {
+            "japanese": "やっぱりラーメンが一番好きです。",
+            "romaji": "Yappari raamen ga ichiban suki desu.",
+            "tamil_transliteration": "யாப்பரி ராமேன் கா இச்சிபான் சுகி தேசு.",
+            "english_meaning": "As expected, I like ramen the best.",
+            "tamil_meaning": "எப்படியும் ராமன் நூடுல்ஸ்தான் எனக்கு மிகவும் பிடிக்கும்."
+        }
+    },
+    {
+        "id": 145,
+        "speaker_a": {
+            "japanese": "この電車はどこで乗り換えますか。",
+            "romaji": "Kono densha wa doko de norikaemasu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா டோகோ தே நொரிகாஏமாசு கா.",
+            "english_meaning": "Where do I transfer for this train?",
+            "tamil_meaning": "இந்த ரயிலை எங்கே மாற வேண்டும்?"
+        },
+    _speaker_b_obj: {
+            "japanese": "次の新宿駅で乗り換えてください。",
+            "romaji": "Tsugi no Shinjuku-eki de norikaete kudasai.",
+            "tamil_transliteration": "த்சு கி நோ ஷிஞ்ஜுகு-எகி தே நொரிகாஏதே குதாஸை.",
+            "english_meaning": "Please transfer at the next station, Shinjuku.",
+            "tamil_meaning": "அடுத்த நிலையமான ஷிஞ்ஜுகுவில் மாறிக் கொள்ளுங்கள்."
+        },
+        "speaker_b": {
+            "japanese": "次の新宿駅で乗り換えてください。",
+            "romaji": "Tsugi no Shinjuku-eki de norikaete kudasai.",
+            "tamil_transliteration": "த்சு கி நோ ஷிஞ்ஜுகு-எகி தே நொரிகாஏதே குதாஸை.",
+            "english_meaning": "Please transfer at the next station, Shinjuku.",
+            "tamil_meaning": "அடுத்த நிலையமான ஷிஞ்ஜுகுவில் மாறிக் கொள்ளுங்கள்."
+        }
+    },
+    {
+        "id": 146,
+        "speaker_a": {
+            "japanese": "週末はどんなところに行きますか。",
+            "romaji": "Shuumatsu wa donna tokoro ni ikimasu ka.",
+            "tamil_transliteration": "ஷூமத்சு வா தொன்னா தொகோரோ நி இகிமாசு கா.",
+            "english_meaning": "What kind of places do you go on weekends?",
+            "tamil_meaning": "வார இறுதியில் நீங்கள் எத்தகைய இடங்களுக்குச் செல்வீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "静かな公園や図書館によく行きます。",
+            "romaji": "Shizukana kouen ya toshokan ni yoku ikimasu.",
+            "tamil_transliteration": "ஷிஜுகானா கோவென் யா தொஷோகான் நி யோகு இகிமாசு.",
+            "english_meaning": "I often go to quiet parks and libraries.",
+            "tamil_meaning": "அமைதியான பூங்காக்கள் மற்றும் நூலகங்களுக்கு அடிக்கடி செல்வேன்."
+        }
+    },
+    {
+        "id": 147,
+        "speaker_a": {
+            "japanese": "このカバンはとても丈夫ですね。",
+            "romaji": "Kono kaban wa totemo joubu desu ne.",
+            "tamil_transliteration": "கொனோ கபான் வா தோதேமோ ஜோபு தேசு நே.",
+            "english_meaning": "This bag is very sturdy, isn't it?",
+            "tamil_meaning": "இந்தப் பை மிகவும் உறுதியாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "はい、革で作られているので長持ちします。",
+            "romaji": "Hai, kawa de tsukurarete iru node nagamochi shimasu.",
+            "tamil_transliteration": "ஹாய், கவ தே த்சுகுரரேதே இரும் நோதே நகாமோச்சி ஷிமாசு.",
+            "english_meaning": "Yes, since it's made of leather, it lasts a long time.",
+            "tamil_meaning": "ஆம், தோலால் செய்யப்பட்டிருப்பதால் நீண்ட காலம் உழைக்கும்."
+        }
+    },
+    {
+        "id": 148,
+        "speaker_a": {
+            "japanese": "日本語を話すときに気をつけていることは何ですか。",
+            "romaji": "Nihon-go o hanasu toki ni ki o tsukete iru koto wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ ஹனசு தொகி நி கி ஓ த்சுகேதே இரும் கோதோ வா நான் தேசு கா.",
+            "english_meaning": "What do you watch out for when speaking Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழியில் பேசும்போது நீங்கள் எதில் கவனம் செலுத்துவீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "相手に失礼のないように敬語に気をつけています。",
+            "romaji": "Aite ni shitsurei no nai you ni keigo ni ki o tsukete imasu.",
+            "tamil_transliteration": "ஐதே நி ஷித்சுரேய் நோ நாய் யோ நி கேகோ நி கி ஓ த்சுகேதே இமாசு.",
+            "english_meaning": "I pay attention to polite language (Keigo) so as not to be rude to the other person.",
+            "tamil_meaning": "எதிரிலுள்ளவருக்கு மரியாதை குறையாதவாறு உயர்தனிமொழி (Keigo) பயன்படுத்துவதில் கவனம் செலுத்துவேன்."
+        }
+    },
+    {
+        "id": 149,
+        "speaker_a": {
+            "japanese": "この問題は少し難しすぎます。",
+            "romaji": "Kono mondai wa sukoshi muzukashisugimasu.",
+            "tamil_transliteration": "கொனோ மோன்தை வா சுகோஷி முஜுகாஷிசுಗಿமாசு.",
+            "english_meaning": "This problem is a bit too difficult.",
+            "tamil_meaning": "இந்தக் கேள்வி சற்று கடினமாக உள்ளது."
+        },
+        "speaker_b": {
+            "japanese": "大丈夫です、一緒に解いていきましょう。",
+            "romaji": "Daijoubu desu, issho ni toite ikimashou.",
+            "tamil_transliteration": "தைஜோபு தேசு, இஷோ நி தோஇதே இகிமாஷோ.",
+            "english_meaning": "It's okay, let's solve it together.",
+            "tamil_meaning": "பரவாயில்லை, சேர்ந்து தீர்ப்போம்."
+        }
+    },
+    {
+        "id": 150,
+        "speaker_a": {
+            "japanese": "今週も本当にお世話になりました。",
+            "romaji": "Konshuu mo hontou ni osewa ni narimashita.",
+            "tamil_transliteration": "கொன்ஷூ மோ ஹொந்தோ நி ஒசேவா நி நரிமாஷிதா.",
+            "english_meaning": "Thank you truly for all your help this week as well.",
+            "tamil_meaning": "இந்த வாரத்திலும் எனக்குச் செய்த உதவிகளுக்கு மிக்க நன்றி."
+        },
+        "speaker_b": {
+            "japanese": "こちらこそ、良い週末をお過ごしください。",
+            "romaji": "Kochira koso, yoi shuumatsu o osugoshi kudasai.",
+            "tamil_transliteration": "கொச்சிரா கோசோ, யோய் ஷூமத்சு ஓ ஒசுகோஷி குதாஸை.",
+            "english_meaning": "Likewise, please have a good weekend.",
+            "tamil_meaning": "எனக்கும் நன்றியே, இனிய வார இறுதியைக் கழிப்பீர்கள்."
+        }
+    }
+]
+
+[
+    {
+        "id": 151,
+        "speaker_a": {
+            "japanese": "今日のお天気はとても爽やかですね。",
+            "romaji": "Kyou no o-tenki wa totemo sawayaka desu ne.",
+            "tamil_transliteration": "கியோ நோ ஒ-தேங்கி வா தோதேமோ சவாயகா தேசு நே.",
+            "english_meaning": "Today's weather is very refreshing, isn't it?",
+            "tamil_meaning": "இன்றைய வானிலை மிகவும் புத்துணர்ச்சியாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ええ、こんな日は散歩したくなりますね。",
+            "romaji": "Ee, konna hi wa sampo shitaku narimasu ne.",
+            "tamil_transliteration": "ஏஏ, கொன்னா ஹி வா சாம்போ ஷிதாகு நரிமாசு நே.",
+            "english_meaning": "Yes, on days like this, it makes you want to go for a walk.",
+            "tamil_meaning": "ஆமாம், இது போன்ற நாட்களில் நடைப்பயிற்சி செய்யத் தோன்றும்."
+        }
+    },
+    {
+        "id": 152,
+        "speaker_a": {
+            "japanese": "この近くに郵便局はありますか。",
+            "romaji": "Kono chikaku ni yuubinkyoku wa arimasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி யூபின் கியோகு வா அரிமாசு கா.",
+            "english_meaning": "Is there a post office near here?",
+            "tamil_meaning": "இந்த அருகில் அஞ்சல் அலுவலகம் இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、銀行の裏手にありますよ。",
+            "romaji": "Hai, ginkou no urate ni arimasu yo.",
+            "tamil_transliteration": "ஹாய், கின்கோ நோ உரதே நி அரிமாசு யோ.",
+            "english_meaning": "Yes, it's right behind the bank.",
+            "tamil_meaning": "ஆம், வங்கிக்குப் பின்னாலேயே உள்ளது."
+        }
+    },
+    {
+        "id": 153,
+        "speaker_a": {
+            "japanese": "明日の予定について確認してもいいですか。",
+            "romaji": "Ashita no yotei ni tsuite kakunin shite mo ii desu ka.",
+            "tamil_transliteration": "அஷிதா நோ யோதேய் நி த்சுஇதே ககுனின் ஷிதே மோ ஈ தேசு கா.",
+            "english_meaning": "May I check about tomorrow's schedule?",
+            "tamil_meaning": "நாளைக்கான திட்டம் பற்றி ஒருமுறை சரிபார்த்துக் கொள்ளலாமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、何でも聞いてください。",
+            "romaji": "Hai, nan demo kiite kudasai.",
+            "tamil_transliteration": "ஹாய், நான் தேமோ கிஇதே குதாஸை.",
+            "english_meaning": "Yes, please ask anything.",
+            "tamil_meaning": "ஆம், எதை வேண்டுமானாலும் கேளுங்கள்."
+        }
+    },
+    {
+        "id": 154,
+        "speaker_a": {
+            "japanese": "このケーキは甘さ控えめで美味しいですね。",
+            "romaji": "Kono keeki wa amasa hikaeme de oishii desu ne.",
+            "tamil_transliteration": "கொனோ கேகி வா அமஸ ஹிகாஏமே தே ஓயிஷீ தேசு நே.",
+            "english_meaning": "This cake is deliciously moderate in sweetness.",
+            "tamil_meaning": "இந்த கேக் அளவான இனிப்புடன் சுவையாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ありがとうございます。お店の人気商品なんですよ。",
+            "romaji": "Arigatou gozaimasu. Omise no ninki-shouhin nan desu yo.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு. ஒமிசே நோ நின்கி-ஷோஹின் நான் தேசு யோ.",
+            "english_meaning": "Thank you. It's a popular item in the shop.",
+            "tamil_meaning": "மிக்க நன்றி. இது எங்கள் கடையில் மிகவும் பிரபலமான பொருள்."
+        }
+    },
+    {
+        "id": 155,
+        "speaker_a": {
+            "japanese": "新しいスマートフォンを買いました。",
+            "romaji": "Atarashii sumātofon o kaimashita.",
+            "tamil_transliteration": "அதாரஷீ சுமாதோபோன் ஓ கைமாஷிதா.",
+            "english_meaning": "I bought a new smartphone.",
+            "tamil_meaning": "நான் ஒரு புதிய ஸ்மார்ட்போன் வாங்கியுள்ளேன்."
+        },
+        "speaker_b": {
+            "japanese": "おめでとうございます。機能は使いこなせそうですか。",
+            "romaji": "Omedetou gozaimasu. Kinou wa tsukaikonasu sou desu ka.",
+            "tamil_transliteration": "ஒமேதேதோ கோஜைமாசு. கினோ வா சுகைக்கோநசு சோ தேசு கா.",
+            "english_meaning": "Congratulations. Do you think you can handle all its features?",
+            "tamil_meaning": "வாழ்த்துகள். அதன் வசதிகளை உங்களால் கையாள முடிகிறதா?"
+        }
+    },
+    {
+        "id": 156,
+        "speaker_a": {
+            "japanese": "日本語を話すとき、何を意識していますか。",
+            "romaji": "Nihon-go o hanasu toki, nani o ishiki shite imasu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ ஹனசு தொகி, நானி ஓ இஷிகி ஷிதே இமாசு கா.",
+            "english_meaning": "What do you keep in mind when speaking Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழியில் பேசும்போது எதை மனதில் கொள்வீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "発音とアクセントに気をつけています。",
+            "romaji": "Hatsuon to akusento ni ki o tsukete imasu.",
+            "tamil_transliteration": "ஹத்சுஒன் தோ அக்செந்தோ நி கி ஓ த்சுகேதே இமாசு.",
+            "english_meaning": "I pay attention to pronunciation and accent.",
+            "tamil_meaning": "உச்சரிப்பு மற்றும் ஒலியேற்றத்தில் (Accent) கவனம் செலுத்துவேன்."
+        }
+    },
+    {
+        "id": 157,
+        "speaker_a": {
+            "japanese": "この資料を急いでコピーしてください。",
+            "romaji": "Kono shiryou o isoide kopii shite kudasai.",
+            "tamil_transliteration": "கொனோ ஷிரியோ ஓ இசோஇதே கோபீ ஷிதே குதாஸை.",
+            "english_meaning": "Please make copies of this document urgently.",
+            "tamil_meaning": "இந்த ஆவணத்தை உடனடியாக நகல் எடுத்துத் தாருங்கள்."
+        },
+        "speaker_b": {
+            "japanese": "かしこまりました。すぐにやります。",
+            "romaji": "Kashikomarimashita. Sugu ni yarimasu.",
+            "tamil_transliteration": "கஷிகோமரிமாஷிதா. சுগু நி யரிமாசு.",
+            "english_meaning": "Understood. I'll do it right away.",
+            "tamil_meaning": "புரிந்தது. இப்போதே செய்து தருகிறேன்."
+        }
+    },
+    {
+        "id": 158,
+        "speaker_a": {
+            "japanese": "週末はどこかへ出かけましたか。",
+            "romaji": "Shuumatsu wa dokoka e dekakimashita ka.",
+            "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தேககிமாஷிதா கா.",
+            "english_meaning": "Did you go anywhere over the weekend?",
+            "tamil_meaning": "வார இறுதியில் எங்குமாவது வெளியே சென்றீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、近くの山にハイキングに行きました。",
+            "romaji": "Hai, chikaku no yama ni haikingu ni ikimashita.",
+            "tamil_transliteration": "ஹாய், திகாகு நோ யமா நி ஹைகிங்கு நி இகிமாஷிதா.",
+            "english_meaning": "Yes, I went hiking in a nearby mountain.",
+            "tamil_meaning": "ஆம், அருகில் உள்ள மலைக்கு மலையேற்றப் பயிற்சிக்குச் சென்றேன்."
+        }
+    },
+    {
+        "id": 159,
+        "speaker_a": {
+            "japanese": "この電車は東京駅を通りますか。",
+            "romaji": "Kono densha wa Toukyou-eki o toorimasu ka.",
+            "tamil_transliteration": "கொனோ தேன்ஷா வா தோக்கியோ-எகி ஓ தோரிமாசு கா.",
+            "english_meaning": "Does this train pass through Tokyo Station?",
+            "tamil_meaning": "இந்த ரயில் டோக்கியோ ரயில் நிலையத்தைக் கடந்து செல்லுமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、通りますよ。次の駅です。",
+            "romaji": "Hai, toorimasu yo. Tsugi no eki desu.",
+            "tamil_transliteration": "ஹாய், தோரிமாசு யோ. த்சு கி நோ எகி தேசு.",
+            "english_meaning": "Yes, it does. It's the next station.",
+            "tamil_meaning": "ஆம், கடந்து செல்லும். அது அடுத்த நிலையமாகும்."
+        }
+    },
+    {
+        "id": 160,
+        "speaker_a": {
+            "japanese": "日本語の勉強は順調ですか。",
+            "romaji": "Nihon-go no benkyou wa junchou desu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ நோ பெங்கியோ வா ஜுன்சோ தேசு கா.",
+            "english_meaning": "Is your Japanese study going smoothly?",
+            "tamil_meaning": "உங்கள் ஜப்பானிய மொழிப் படிப்பு சீராகச் செல்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "まあまあです。毎日少しずつ頑張っています。",
+            "romaji": "Maa maa desu. Mainichi sukoshi zutsu ganbatte imasu.",
+            "tamil_transliteration": "மாமா தேசு. மைனிச்சி சுகோஷி ஜுட்சு கன்பத்தே இமாசு.",
+            "english_meaning": "So-so. I'm doing my best a little bit every day.",
+            "tamil_meaning": "பரவாயில்லை. ஒவ்வொரு நாளும் கொஞ்சம் கொஞ்சமாக முயன்று வருகிறேன்."
+        }
+    },
+    {
+        "id": 161,
+        "speaker_a": {
+            "japanese": "このお土産、とても可愛いですね。",
+            "romaji": "Kono omiyage wa totemo kawaii desu ne.",
+            "tamil_transliteration": "கொனோ ஒமியாகே வா தோதேமோ கவாய் தேசு நே.",
+            "english_meaning": "This souvenir is so cute, isn't it?",
+            "tamil_meaning": "இந்தப் பரிசு மிகவும் அழகாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ありがとうございます。京都で買いました。",
+            "romaji": "Arigatou gozaimasu. Kyouto de kaimashita.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு. கியோதோ தே கைமாஷிதா.",
+            "english_meaning": "Thank you. I bought it in Kyoto.",
+            "tamil_meaning": "மிக்க நன்றி. நான் கியோட்டோவில் வாங்கினேன்."
+        }
+    },
+    {
+        "id": 162,
+        "speaker_a": {
+            "japanese": "明日は何時に起きる予定ですか。",
+            "romaji": "Ashita wa nan-ji ni okiru yotei desu ka.",
+            "tamil_transliteration": "அஷிதா வா நான்-ஜி நி ஒகிரு யோதேய் தேசு கா.",
+            "english_meaning": "What time do you plan to wake up tomorrow?",
+            "tamil_meaning": "நாளை எத்தனை மணிக்கு எഴ வேண்டும் என்று திட்டம்?"
+        },
+        "speaker_b": {
+            "japanese": "明日は休みなので、少し遅く起きます。",
+            "romaji": "Ashita wa yasumi nanode, sukoshi osoku okimasu.",
+            "tamil_transliteration": "அஷிதா வா யாசுமி நொண்டே, சுகோஷி ஒசோகு ஒகிமாசு.",
+            "english_meaning": "Tomorrow is a day off, so I'll wake up a bit late.",
+            "tamil_meaning": "நாளை விடுமுறை என்பதால் சற்று தாமதமாக எழுவேன்."
+        }
+    },
+    {
+        "id": 163,
+        "speaker_a": {
+            "japanese": "このレストランのおすすめは何ですか。",
+            "romaji": "Kono resutoran no osusume wa nan desu ka.",
+            "tamil_transliteration": "கொனோ ரெசுதோரான் நோ ஒசுசுமே வா நான் தேசு கா.",
+            "english_meaning": "What is the recommendation at this restaurant?",
+            "tamil_meaning": "இந்த உணவகத்தில் என்ன ஸ்பெஷல்?"
+        },
+        "speaker_b": {
+            "japanese": "新鮮な刺身定食が人気です。",
+            "romaji": "Shinsenna sashimi teishoku ga ninki desu.",
+            "tamil_transliteration": "ஷின்சென்னா ஷாஷிமி தேஷோகு கா நின்கி தேசு.",
+            "english_meaning": "The fresh sashimi set meal is popular.",
+            "tamil_meaning": "புதிய சஷிமி உணவுத் தொகுப்பு மிகவும் பிரபலமானது."
+        }
+    },
+    {
+        "id": 164,
+        "speaker_a": {
+            "japanese": "この漢字の意味を教えてください。",
+            "romaji": "Kono kanji no imi o oshiete kudasai.",
+            "tamil_transliteration": "கொனோ கஞ்சி நோ இமி ஓ ஒஷிஏதே குதாஸை.",
+            "english_meaning": "Please tell me the meaning of this Kanji.",
+            "tamil_meaning": "இந்த கஞ்சி எழுத்தின் பொருளைச் சொல்லிக் கொடுங்கள்."
+        },
+        "speaker_b": {
+            "japanese": "それは「未来」という意味の漢字です。",
+            "romaji": "Sore wa 'mirai' to iu imi no kanji desu.",
+            "tamil_transliteration": "சோரே வா 'மிராய்' தோ இஉ இமி நோ கஞ்சி தேசு.",
+            "english_meaning": "That is a Kanji meaning 'future'.",
+            "tamil_meaning": "அது 'எதிர்காலம்' என்று பொருள்படும் கஞ்சி எழுத்து."
+        }
+    },
+    {
+        "id": 165,
+        "speaker_a": {
+            "japanese": "今日の夜ご飯はカレーにしましょう。",
+            "romaji": "Kyou no yorugohan wa karee ni shimashou.",
+            "tamil_transliteration": "கியோ நோ யோருகோஹான் வா கரே நி ஷிமாஷோ.",
+            "english_meaning": "Let's have curry for dinner tonight.",
+            "tamil_meaning": "இன்றைய இரவு உணவிற்கு கறி (Curry) சமைப்போம்."
+        },
+        "speaker_b": {
+            "japanese": "賛成です！とても楽しみです。",
+            "romaji": "Sansei desu! Totemo tanoshimi desu.",
+            "tamil_transliteration": "சான்செய் தேசு! தோதேமோ தனுஷிமி தேசு.",
+            "english_meaning": "I agree! I'm looking forward to it.",
+            "tamil_meaning": "சம்மதம்! நான் மிகவும் ஆவலுடன் காத்திருக்கிறேன்."
+        }
+    },
+    {
+        "id": 166,
+        "speaker_a": {
+            "japanese": "日本の文化についてもっと知りたいです。",
+            "romaji": "Nihon no bunka ni tsuite motto shiritai desu.",
+            "tamil_transliteration": "நிஹோன் நோ புன்கா நி த்சுஇதே மோத்தோ ஷிரிதாய் தேசு.",
+            "english_meaning": "I want to know more about Japanese culture.",
+            "tamil_meaning": "ஜப்பானிய கலாச்சாரம் பற்றி மேலும் தெரிந்துகொள்ள விரும்புகிறேன்."
+        },
+        "speaker_b": {
+            "japanese": "それなら、歴史の本を読むのがおすすめです。",
+            "romaji": "Sore nara, rekishi no hon o yomu no ga osusume desu.",
+            "tamil_transliteration": "சோரே நாரா, ரெகிஷி நோ ஹோன் ஓ யோமு நோ கா ஒசுசுமே தேசு.",
+            "english_meaning": "If so, reading history books is recommended.",
+            "tamil_meaning": "அப்படியானால் வரலாறு புத்தகங்களைப் படிப்பது நல்லது."
+        }
+    },
+    {
+        "id": 167,
+        "speaker_a": {
+            "japanese": "この靴、少しきつくありませんか。",
+            "romaji": "Kono kutsu, sukoshi kitsuku arimasen ka.",
+            "tamil_transliteration": "கொனோ குத்சு, சுகோஷி கிட்சுகு அரிமாசென் கா.",
+            "english_meaning": "Aren't these shoes a bit tight?",
+            "tamil_meaning": "இந்த ஷூ கொஞ்சம் இறுக்கமாக இல்லையா?"
+        },
+        "speaker_b": {
+            "japanese": "いいえ、ちょうどいいフィット感です。",
+            "romaji": "Ie, choudo ii fitto-kan desu.",
+            "tamil_transliteration": "ஈஏ, சோதோ ஈ பித்தோ-கான் தேசு.",
+            "english_meaning": "No, it has just the right fit.",
+            "tamil_meaning": "இல்லை, சரியாகப் பொருந்திவருகிறது."
+        }
+    },
+    {
+        "id": 168,
+        "speaker_a": {
+            "japanese": "明日、何時にどこで会いますか。",
+            "romaji": "Ashita, nan-ji ni doko de aimasu ka.",
+            "tamil_transliteration": "அஷிதா, நான்-ஜி நி டோகோ தே ஐமாசு கா.",
+            "english_meaning": "What time and where shall we meet tomorrow?",
+            "tamil_meaning": "நாளை எத்தனை மணிக்கு எங்கே சந்திப்போம்?"
+        },
+        "speaker_b": {
+            "japanese": "午前十時に駅の改札の前で会いましょう。",
+            "romaji": "Gozen juu-ji ni eki no kaisatsu no mae de aimashou.",
+            "tamil_transliteration": "கோசென் ஜூ-ஜி நி எகி நோ கைசத்சு நோ மாஏ தே ஐமாஷோ.",
+            "english_meaning": "Let's meet in front of the station ticket gates at 10:00 AM.",
+            "tamil_meaning": "காலை 10 மணிக்கு ரயில் நிலைய நுழைவாயிலில் சந்திப்போம்."
+        }
+    },
+    {
+        "id": 169,
+        "speaker_a": {
+            "japanese": "このカバンはとても軽くて便利ですね。",
+            "romaji": "Kono kaban wa totemo karukute benri desu ne.",
+            "tamil_transliteration": "கொனோ கபான் வா தோதேமோ கருகூதே பென்ரி தேசு நே.",
+            "english_meaning": "This bag is very light and convenient, isn't it?",
+            "tamil_meaning": "இந்தப் பை மிகவும் லேசாகவும் வசதியாகவும் இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "はい、たくさん入るのによく使っています。",
+            "romaji": "Hai, takusan hairu no ni yoku tsukatte imasu.",
+            "tamil_transliteration": "ஹாய், தகூசான் ஹைரு நோ நி யோகு த்சுகத்தே இமாசு.",
+            "english_meaning": "Yes, a lot fits inside so I use it often.",
+            "tamil_meaning": "ஆம், பொருட்கள் நிறையக் கொள்ளும் என்பதால் அடிக்கடி பயன்படுத்துகிறேன்."
+        }
+    },
+    {
+        "id": 170,
+        "speaker_a": {
+            "japanese": "日本語を勉強して良かったですか。",
+            "romaji": "Nihon-go o benkyou shite yokatta desu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ பெங்கியோ ஷிதே யோகத்தா தேசு கா.",
+            "english_meaning": "Are you glad you studied Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழி படித்தது உங்களுக்கு மகிழ்ச்சியைத் தருகிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、世界が広がって本当に良かったです。",
+            "romaji": "Hai, sekai ga hirogatte hontou ni yokatta desu.",
+            "tamil_transliteration": "ஹாய், செகை கா ஹிரோகத்தே ஹொந்தோ நி யோகத்தா தேசு.",
+            "english_meaning": "Yes, my world has expanded and I'm really glad.",
+            "tamil_meaning": "ஆம், எனது உலகம் விரிவடைந்துள்ளது, மிகவும் மகிழ்ச்சி."
+        }
+    },
+    {
+        "id": 171,
+        "speaker_a": {
+            "japanese": "この近くに銀行はありますか。",
+            "romaji": "Kono chikaku ni ginkou wa arimasu ka.",
+            "tamil_transliteration": "கொனோ திகாகு நி கின்கோ வா அரிமாசு கா.",
+            "english_meaning": "Is there a bank near here?",
+            "tamil_meaning": "இந்த அருகில் வங்கி ஏதாவது இருக்கிறதா?"
+        },
+        "speaker_b": {
+            "japanese": "あちらのコンビニの隣にありますよ。",
+            "romaji": "Achira no konbini no tonari ni arimasu yo.",
+            "tamil_transliteration": "அச்சிரா நோ கொன்பினி நோ தொனாரி நி அரிமாசு யோ.",
+            "english_meaning": "Yes, it's right next to that convenience store.",
+            "tamil_meaning": "அங்கே உள்ள வசதிக்கடைக்குப் பக்கத்தில் உள்ளது."
+        }
+    },
+    {
+        "id": 172,
+        "speaker_a": {
+            "japanese": "今日の夜、何を食べたいですか。",
+            "romaji": "Kyou no yoru, nani o tabetai desu ka.",
+            "tamil_transliteration": "கியோ நோ யோரு, நானி ஓ தபேதாய் தேசு கா.",
+            "english_meaning": "What would you like to eat tonight?",
+            "tamil_meaning": "இன்று இரவு என்ன சாப்பிட விரும்புகிறீர்கள்?"
+        },
+        "speaker_b": {
+            "japanese": "温かいお鍋が食べたい気分です。",
+            "romaji": "Atatakai onabe ga tabetai kibun desu.",
+            "tamil_transliteration": "அதாதகாய் ஒநபே கா தபேதாய் கிபுன் தேசு.",
+            "english_meaning": "I'm in the mood to eat a warm hot pot.",
+            "tamil_meaning": "சூடான சூப் வகைகளைச் சாப்பிட வேண்டும் போல் உள்ளது."
+        }
+    },
+    {
+        "id": 173,
+        "speaker_a": {
+            "japanese": "日本語の会話は難しくないですか。",
+            "romaji": "Nihon-go no kaiwa wa muzukashikunai desu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ நோ கைவா வா முஜுகாஷிகுநாய் தேசு கா.",
+            "english_meaning": "Isn't Japanese conversation difficult?",
+            "tamil_meaning": "ஜப்பானிய மொழி உரையாடல் கடினமாக இல்லையா?"
+        },
+        "speaker_b": {
+            "japanese": "敬語を使うときは少し難しいです。",
+            "romaji": "Keigo o tsukau toki wa sukoshi muzukashii desu.",
+            "tamil_transliteration": "கேகோ ஓ த்சுகஉ தொகி வா சுகோஷி முஜுகாஷீ தேசு.",
+            "english_meaning": "It's a bit difficult when using polite language (Keigo).",
+            "tamil_meaning": "மரியாதைக்குரிய சொற்களைப் (Keigo) பயன்படுத்தும்போது சற்று கடினமாக இருக்கும்."
+        }
+    },
+    {
+        "id": 174,
+        "speaker_a": {
+            "japanese": "このカメラはいくらですか。",
+            "romaji": "Kono kamera wa ikura desu ka.",
+            "tamil_transliteration": "கொனோ காமேரா வா இக்குரா தேசு கா.",
+            "english_meaning": "How much is this camera?",
+            "tamil_meaning": "இந்தக் கேமராவின் விலை எவ்வளவு?"
+        },
+        "speaker_b": {
+            "japanese": "こちらは五万円です。",
+            "romaji": "Kochira wa go-man-en desu.",
+            "tamil_transliteration": "கொச்சிரா வா கோ-மான்-என் தேசு.",
+            "english_meaning": "This one is 50,000 yen.",
+            "tamil_meaning": "இதன் விலை 50,000 யென் ஆகும்."
+        }
+    },
+    {
+        "id": 175,
+        "speaker_a": {
+            "japanese": "週末はどこかへ出かけましたか。",
+            "romaji": "Shuumatsu wa dokoka e dekakimashita ka.",
+            "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தேககிமாஷிதா கா.",
+            "english_meaning": "Did you go anywhere over the weekend?",
+            "tamil_meaning": "வார இறுதியில் எங்குமாவது வெளியே சென்றீர்களா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、美術館に行って絵を鑑賞しました。",
+            "romaji": "Hai, bijutsukan ni itte e o kanshou shimashita.",
+            "tamil_transliteration": "ஹாய், பிஜுட்சுகான் நி இத்தே ஏ ஓ கன்ஷோ ஷிமாஷிதா.",
+            "english_meaning": "Yes, I went to an art museum and appreciated paintings.",
+            "tamil_meaning": "ஆம், கலைக்கூடத்திற்குச் சென்று ஓவியங்களைப் பார்வையிட்டேன்."
+        }
+    },
+    {
+        "id": 176,
+        "speaker_a": {
+            "japanese": "このシャツの色、とても素敵ですね。",
+            "romaji": "Kono shatsu no iro, totemo suteki desu ne.",
+            "tamil_transliteration": "கொனோ ஷத்சு நோ இரோ, தோதேமோ சுதேகி தேசு நே.",
+            "english_meaning": "The color of this shirt is very nice, isn't it?",
+            "tamil_meaning": "இந்தச் சட்டையின் நிறம் மிகவும் அழகாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "ありがとうございます。お気に入りの色なんです。",
+            "romaji": "Arigatou gozaimasu. O-ki-ni-iri no iro nan desu.",
+            "tamil_transliteration": "அரிகதோ கோஜைமாசு. ஒ-கி-நி-இரி நோ இரோ நான் தேசு.",
+            "english_meaning": "Thank you. It's my favorite color.",
+            "tamil_meaning": "மிக்க நன்றி. இது எனக்கு மிகவும் பிடித்த நிறமாகும்."
+        }
+    },
+    {
+        "id": 177,
+        "speaker_a": {
+            "japanese": "次の電車は何時に出発しますか。",
+            "romaji": "Tsugi no densha wa nan-ji ni shuppatsu shimasu ka.",
+            "tamil_transliteration": "த்சு கி நோ தேன்ஷா வா நான்-ஜி நி ஷுப்பத்சு ஷிமாசு கா.",
+            "english_meaning": "What time does the next train depart?",
+            "tamil_meaning": "அடுத்த ரயில் எத்தனை மணிக்குக் கிளம்பும்?"
+        },
+        "speaker_b": {
+            "japanese": "午後三時十五分に出発します。",
+            "romaji": "Go-ji san-ji ju-go-fun ni shuppatsu shimasu.",
+            "tamil_transliteration": "கோ-ஜி சான்-ஜி ஜூ-கோ-புன் நி ஷுப்பத்சு ஷிமாசு.",
+            "english_meaning": "It departs at 3:15 PM.",
+            "tamil_meaning": "பிற்பகல் 3:15 மணிக்குக் கிளம்பும்."
+        }
+    },
+    {
+        "id": 178,
+        "speaker_a": {
+            "japanese": "日本語を勉強する理由は何ですか。",
+            "romaji": "Nihon-go o benkyou suru riyuu wa nan desu ka.",
+            "tamil_transliteration": "நிஹோன்-கோ ஓ பெங்கியோ சுரு ரியூ வா நான் தேசு கா.",
+            "english_meaning": "What is your reason for studying Japanese?",
+            "tamil_meaning": "ஜப்பானிய மொழி படிப்பதற்கான காரணம் என்ன?"
+        },
+        "speaker_b": {
+            "japanese": "日本のアニメが好きで、自分で理解したいからです。",
+            "romaji": "Nihon no anime ga suki de, jibun de rikai shitai kara desu.",
+            "tamil_transliteration": "நிஹோன் நோ அனிமே கா சுகி தே, ஜிபுன் தே ரிகாய் ஷிதாய் காரா தேசு.",
+            "english_meaning": "I like Japanese anime and want to understand it myself.",
+            "tamil_meaning": "எனக்கு ஜப்பானிய அனிமேஷன் பிடிக்கும், அதை நானே புரிந்துகொள்ள விரும்புகிறேன்."
+        }
+    },
+    {
+        "id": 179,
+        "speaker_a": {
+            "japanese": "この問題は少し難しそうですね。",
+            "romaji": "Kono mondai wa sukoshi muzukashisou desu ne.",
+            "tamil_transliteration": "கொனோ மோன்தை வா சுகோஷி முஜுகாஷிசோ தேசு நே.",
+            "english_meaning": "This problem looks a bit difficult, doesn't it?",
+            "tamil_meaning": "இந்தக் கேள்வி பார்ப்பதற்குச் சற்று கடினமாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "大丈夫です、一緒に解けば簡単ですよ。",
+            "romaji": "Daijoubu desu, issho ni tokeba kantan desu yo.",
+            "tamil_transliteration": "தைஜோபு தேசு, இஷோ நி தொகேப கந்தான் தேசு யோ.",
+            "english_meaning": "It's okay, if we solve it together, it's easy.",
+            "tamil_meaning": "பரவாயில்லை, சேர்ந்து தீர்த்தால் எளிதாகிவிடும்."
+        }
+    },
+    {
+        "id": 180,
+        "speaker_a": {
+            "japanese": "今夜は星空がとても美しいですね。",
+            "romaji": "Konya wa hoshizora ga totemo utsukushii desu ne.",
+            "tamil_transliteration": "கொன்யா வா ஹோஷிசோரா கா தோதேமோ உட்சுகுஷீ தேசு நே.",
+            "english_meaning": "The starry sky is very beautiful tonight, isn't it?",
+            "tamil_meaning": "இன்று இரவு விண்மீன்கள் நிறைந்த வானம் மிகவும் அழகாக இருக்கிறதே."
+        },
+        "speaker_b": {
+            "japanese": "本当にロマンチックな夜ですね。",
+            "romaji": "Hontou ni romanchikku na yoru desu ne.",
+            "tamil_transliteration": "ஹொந்தோ நி ரோமஞ்சிக்கு நா யோரு தேசு நே.",
+            "english_meaning": "It really is a romantic night.",
+            "tamil_meaning": "உண்மையில் இது ஒரு காதல் நிறைந்த இரவு."
+        }
+    },
+    {
+        "id": 181,
+        "speaker_a": {
+            "japanese": "このカフェのコーヒーは美味しいですか。",
+            "romaji": "Kono kafe no koohii wa oishii desu ka.",
+            "tamil_transliteration": "கொனோ காபே நோ கோஹி வா ஓயிஷீ தேசு கா.",
+            "english_meaning": "Is the coffee at this cafe delicious?",
+            "tamil_meaning": "இந்த கஃபேவில் காபி சுவையாக இருக்குமா?"
+        },
+        "speaker_b": {
+            "japanese": "はい、自家焙煎のコーヒーでとても美味しいです。",
+            "romaji": "Hai, jika-baisen no koohii de totemo oishii desu.",
+            "tamil_transliteration": "ஹாய், ஜிகா-பைசென் நோ கோஹி தே தோதேமோ ஓயிஷீ தேசு.",
+            "english_meaning": "Yes, it's ho[
+                {
+                    "id": 201,
+                    "speaker_a": {
+                        "japanese": "おはようございます。今日も良いお天気ですね。",
+                        "romaji": "Ohayou gozaimasu. Kyou mo yoi o-tenki desu ne.",
+                        "tamil_transliteration": "ஒஹாயோ கோஜைமாசு. கியோ மோ யோய் ஒ-தேங்கி தேசு நே.",
+                        "english_meaning": "Good morning. The weather is nice today too, isn't it?",
+                        "tamil_meaning": "காலை வணக்கம். இன்று வானிலையும் நன்றாக இருக்கிறதே."
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、本当に気持ちがいい朝ですね。",
+                        "romaji": "Hai, hontou ni kimochi ga ii asa desu ne.",
+                        "tamil_transliteration": "ஹாய், ஹொந்தோ நி கிமோச்சி கா ஈ ஆசா தேசு நே.",
+                        "english_meaning": "Yes, it's a really pleasant morning.",
+                        "tamil_meaning": "ஆம், உண்மையில் இது ஒரு மனதுக்குப் பிடித்தமான காலை."
+                    }
+                },
+                {
+                    "id": 202,
+                    "speaker_a": {
+                        "japanese": "この近くに美味しいパン屋さんを知っていますか。",
+                        "romaji": "Kono chikaku ni oishii pan-ya-san o shitte imasu ka.",
+                        "tamil_transliteration": "கொனோ திகாகு நி ஓயிஷீ பன்-யா-சான் ஓ ஷித்தே இமாசு கா.",
+                        "english_meaning": "Do you know a good bakery near here?",
+                        "tamil_meaning": "இந்த அருகில் நல்ல ரொட்டிக் கடை ஏதாவது உங்களுக்குத் தெரியுமா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "ええ、駅の裏手にすごく人気の店がありますよ。",
+                        "romaji": "Ee, eki no urate ni sugoku ninki no mise ga arimasu yo.",
+                        "tamil_transliteration": "ஏஏ, எகி நோ உரதே நி சுவொகு நின்கி நோ மிசே கா அரிமாசு யோ.",
+                        "english_meaning": "Yes, there is a very popular shop behind the station.",
+                        "tamil_meaning": "ஆம், ரயில் நிலையத்திற்குப் பின்னால் மிகவும் பிரபலமான ஒரு கடை உள்ளது."
+                    }
+                },
+                {
+                    "id": 203,
+                    "speaker_a": {
+                        "japanese": "明日の会議の資料はもう印刷しましたか。",
+                        "romaji": "Ashita no kaigi no shiryou o mou insatsu shimashita ka.",
+                        "tamil_transliteration": "அஷிதா நோ கைგი நோ ஷிரியோ ஓ மோ இன்ஸாட்சு ஷிமாஷிதா கா.",
+                        "english_meaning": "Have you already printed the materials for tomorrow's meeting?",
+                        "tamil_meaning": "நாளை நடக்கும் கூட்டத்திற்கான ஆவணங்களை ஏற்கனவே பிரிண்ட் செய்துவிட்டீர்களா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、先ほど全部コピーして机の上に置きました。",
+                        "romaji": "Hai, sakihodo zenbu kopii shite tsukue no ue ni okimashita.",
+                        "tamil_transliteration": "ஹாய், சகிஹோதோ ஜெம்பு கோபீ ஷிதே த்சுகுஏ நோ உஏ நி ஒகிமாஷிதா.",
+                        "english_meaning": "Yes, I just copied everything and placed it on the desk.",
+                        "tamil_meaning": "ஆம், சற்று முன்பு அனைத்தையும் நகல் எடுத்து மேஜை மீது வைத்துள்ளேன்."
+                    }
+                },
+                {
+                    "id": 204,
+                    "speaker_a": {
+                        "japanese": "日本に来てから一番驚いた文化は何ですか。",
+                        "romaji": "Nihon ni kite kara ichiban odoroita bunka wa nan desu ka.",
+                        "tamil_transliteration": "நிஹோன் நி கிதே காரா இச்சிபான் ஒதோரோஇதா புன்கா வா நான் தேசு கா.",
+                        "english_meaning": "What culture surprised you the most since coming to Japan?",
+                        "tamil_meaning": "ஜப்பானுக்கு வந்ததில் இருந்து உங்களை மிகவும் ஆச்சரியப்படுத்திய கலாச்சாரம் எது?"
+                    },
+                    "speaker_b": {
+                        "japanese": "電車が時間通りに正確に来ることです。",
+                        "romaji": "Densha ga jikan-douri ni seikaku ni kuru koto desu.",
+                        "tamil_transliteration": "தேன்ஷா கா ஜிகான்-தோரி நி செய்காகு நி குரு கோதோ தேசு.",
+                        "english_meaning": "It's the fact that trains arrive accurately on time.",
+                        "tamil_meaning": "ரயில்கள் நேரத்திற்குத் துல்லியமாக வருவதுதான்."
+                    }
+                },
+                {
+                    "id": 205,
+                    "speaker_a": {
+                        "japanese": "この漢字の書き方を忘れてしまいました。",
+                        "romaji": "Kono kanji no kakikata o wasurete shimaimashita.",
+                        "tamil_transliteration": "கொனோ கஞ்சி நோ ககிவதா ஓ வசுரேதே ஷிமைமாஷிதா.",
+                        "english_meaning": "I've forgotten how to write this Kanji.",
+                        "tamil_meaning": "இந்த கஞ்சி எழுத்தை எப்படி எழுதுவது என்று மறந்துவிட்டேன்."
+                    },
+                    "speaker_b": {
+                        "japanese": "大丈夫です。私がもう一度書いて見せますね。",
+                        "romaji": "Daijoubu desu. Watashi ga mou ichido kaite misemasu ne.",
+                        "tamil_transliteration": "தைஜோபு தேசு. வடஷி கா மோ இச்சிதோ கைதே மிசெமாசு நே.",
+                        "english_meaning": "It's okay. I'll write and show it to you once more.",
+                        "tamil_meaning": "பரவாயில்லை. நான் இன்னொரு முறை எழுதிக் காட்டுகிறேன்."
+                    }
+                },
+                {
+                    "id": 206,
+                    "speaker_a": {
+                        "japanese": "週末はどこかへドライブに行きませんか。",
+                        "romaji": "Shuumatsu wa dokoka e doraibu ni ikimasen ka.",
+                        "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தொரைபு நி இகிமாசென் கா.",
+                        "english_meaning": "Would you like to go somewhere for a drive this weekend?",
+                        "tamil_meaning": "வார இறுதியில் எங்குமாவது கார் பயணம் செல்லலாமா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "いいですね。海を見に行きましょう。",
+                        "romaji": "Ii desu ne. Umi o mi ni ikimashou.",
+                        "tamil_transliteration": "ஈ தேசு நே. உமி ஓ மி நி இகிமாஷோ.",
+                        "english_meaning": "Sounds good. Let's go see the ocean.",
+                        "tamil_meaning": "நல்லது. கடலைப் பார்க்கச் செல்வோம்."
+                    }
+                },
+                {
+                    "id": 207,
+                    "speaker_a": {
+                        "japanese": "日本語の勉強を始めてどのくらいになりますか。",
+                        "romaji": "Nihon-go no benkyou o hajimete dono kurai ni narimasu ka.",
+                        "tamil_transliteration": "நிஹோன்-கோ நோ பெங்கியோ ஓ ஹஜிமேதே தோனோ குரை நி நரிமாசு கா.",
+                        "english_meaning": "How long has it been since you started studying Japanese?",
+                        "tamil_meaning": "ஜப்பானிய மொழி படிக்கத் தொடங்கி எவ்வளவு காலம் ஆகிறது?"
+                    },
+                    "speaker_b": {
+                        "japanese": "ちょうど一年くらいになります。",
+                        "romaji": "Choudo ichi-nen kurai ni narimasu.",
+                        "tamil_transliteration": "சோதோ இச்சி-நென் குரை நி நரிமாசு.",
+                        "english_meaning": "It's been about a year.",
+                        "tamil_meaning": "சரியாக ஒரு வருடமாகிறது."
+                    }
+                },
+                {
+                    "id": 208,
+                    "speaker_a": {
+                        "japanese": "この服、サイズが合わないので交換できますか。",
+                        "romaji": "Kono fuku, saizu ga awanai node koukan dekimasu ka.",
+                        "tamil_transliteration": "கொனோ புக்கு, சைஜு கா அவநாய் நோதே கோஹான் தேகிமாசு கா.",
+                        "english_meaning": "These clothes don't fit, can I exchange them?",
+                        "tamil_meaning": "இந்த ஆடை அளவு சரியாகவில்லை, மாற்றிக் கொள்ளலாமா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、レシートがあれば大丈夫です。",
+                        "romaji": "Hai, reshiito ga areba daijoubu desu.",
+                        "tamil_transliteration": "ஹாய், ரெஷிதோ கா அரேபா தைஜோபு தேசு.",
+                        "english_meaning": "Yes, if you have the receipt, it's fine.",
+                        "tamil_meaning": "ஆம், உங்களிடம் ரசீது இருந்தால் மாற்றலாம்."
+                    }
+                },
+                {
+                    "id": 209,
+                    "speaker_a": {
+                        "japanese": "今夜は何か特別な予定がありますか。",
+                        "romaji": "Konya wa nani ka tokubetsu na yotei ga arimasu ka.",
+                        "tamil_transliteration": "கொன்யா வா நானி கா தொகெப்து நா யோதேய் கா அரிமாசு கா.",
+                        "english_meaning": "Do you have any special plans for tonight?",
+                        "tamil_meaning": "இன்று இரவு உங்களுக்கு ஏதாவது சிறப்புத் திட்டம் இருக்கிறதா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "いいえ、特にありません。家でゆっくりします。",
+                        "romaji": "Ie, tokuni arimasen. Ie de yukkuri shimasu.",
+                        "tamil_transliteration": "ஈஏ, தொகுனி அரிமாசென். ஈஏ தே யுக்குரி ஷிமாசு.",
+                        "english_meaning": "No, nothing special. I'll relax at home.",
+                        "tamil_meaning": "இல்லை, குறிப்பாக ஒன்றுமில்லை. வீட்டிலேயே ஓய்வெடுப்பேன்."
+                    }
+                },
+                {
+                    "id": 210,
+                    "speaker_a": {
+                        "japanese": "この電車の終電は何時ですか。",
+                        "romaji": "Kono densha wa shuuden wa nan-ji desu ka.",
+                        "tamil_transliteration": "கொனோ தேன்ஷா வா ஷூதேன்ப வா நான்-ஜி தேசு கா.",
+                        "english_meaning": "What time is the last train for this line?",
+                        "tamil_meaning": "இந்த ரயிலின் கடைசி நேரம் (Last train) எப்போது?"
+                    },
+                    "speaker_b": {
+                        "japanese": "十一時半が終電です。",
+                        "romaji": "Juu-ichi-ji-han ga shuuden desu.",
+                        "tamil_transliteration": "ஜூ-இச்சி-ஜி-ஹான் கா ஷூதேன்ப தேசு.",
+                        "english_meaning": "The last train is at 11:30 PM.",
+                        "tamil_meaning": "இரவு 11:30 மணிதான் கடைசி ரயில்."
+                    }
+                },
+                {
+                    "id": 211,
+                    "speaker_a": {
+                        "japanese": "日本の伝統的なお祭りに行ったことがありますか。",
+                        "romaji": "Nihon no dentouteki na omatsuri ni itta koto ga arimasu ka.",
+                        "tamil_transliteration": "நிஹோன் நோ தெந்தோதேகி நா ஒமத்சுரி நி இத்தா கோதோ கா அரிமாசு கா.",
+                        "english_meaning": "Have you ever been to a traditional Japanese festival?",
+                        "tamil_meaning": "ஜப்பானியப் பாரம்பரியத் திருவிழாவிற்குச் சென்று பார்த்ததுண்டா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、夏の盆踊りに行ったことがあります。",
+                        "romaji": "Hai, natsu no bon-odori ni itta koto ga arimasu.",
+                        "tamil_transliteration": "ஹாய், நத்சு நோ போன்-ஒதோரி நி இத்தா கோதோ கா அரிமாசு.",
+                        "english_meaning": "Yes, I've been to the summer Bon Odori festival.",
+                        "tamil_meaning": "ஆம், கோடைக்கால போன் ஓடோரி திருவிழாவிற்குச் சென்றுள்ளேன்."
+                    }
+                },
+                {
+                    "id": 212,
+                    "speaker_a": {
+                        "japanese": "このスマホの使い方がわかりません。",
+                        "romaji": "Kono sumaho no tsukaikata ga wakarimasen.",
+                        "tamil_transliteration": "கொனோ சுமாஹோ நோ சுகைவதா கா வகாரிமாசென்.",
+                        "english_meaning": "I don't know how to use this smartphone.",
+                        "tamil_meaning": "இந்த ஸ்மார்ட்போனை எப்படிப் பயன்படுத்துவது என்று எனக்குத் தெரியவில்லை."
+                    },
+                    "speaker_b": {
+                        "japanese": "では、一緒に操作してみましょう。",
+                        "romaji": "Dewa, issho ni sousa shite mimashou.",
+                        "tamil_transliteration": "தேவா, இஷோ நி சோஸா ஷிதே மிமாஷோ.",
+                        "english_meaning": "Well then, let's operate it together.",
+                        "tamil_meaning": "அப்படியானால், இணைந்து இயக்கப் பார்ப்போம்."
+                    }
+                },
+                {
+                    "id": 213,
+                    "speaker_a": {
+                        "japanese": "日本語を話すときに緊張しますか。",
+                        "romaji": "Nihon-go o hanasu toki ni kinchou shimasu ka.",
+                        "tamil_transliteration": "நிஹோன்-கோ ஓ ஹனசு தொகி நி கின்சோ ஷிமாசு கா.",
+                        "english_meaning": "Do you get nervous when speaking Japanese?",
+                        "tamil_meaning": "ஜப்பானிய மொழியில் பேசும்போது உங்களுக்குப் பதற்றமாக இருக்குமா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、間違えるのがちょっと怖いです。",
+                        "romaji": "Hai, machigaeru no ga chotto kowai desu.",
+                        "tamil_transliteration": "ஹாய், மச்சிகேரு நோ கா சொத்தோ கொவாய் தேசு.",
+                        "english_meaning": "Yes, I'm a bit afraid of making mistakes.",
+                        "tamil_meaning": "ஆம், எங்கே தவறிவிடுமோ என்ற பயம் சிறிது உண்டு."
+                    }
+                },
+                {
+                    "id": 214,
+                    "speaker_a": {
+                        "japanese": "週末はどこかへ出かけましたか。",
+                        "romaji": "Shuumatsu wa dokoka e dekakimashita ka.",
+                        "tamil_transliteration": "ஷூமத்சு வா டோகோகா ஏ தேககிமாஷிதா கா.",
+                        "english_meaning": "Did you go anywhere over the weekend?",
+                        "tamil_meaning": "வார இறுதியில் எங்குமாவது வெளியே சென்றீர்களா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、友達と公園を散歩しました。",
+                        "romaji": "Hai, tomodachi to kouen o sampo shimashita.",
+                        "tamil_transliteration": "ஹாய், தொமோதாச்சி தோ கோவென் ஓ சாம்போ ஷிமாஷிதா.",
+                        "english_meaning": "Yes, I took a walk in the park with a friend.",
+                        "tamil_meaning": "ஆம், நண்பருடன் பூங்காவில் நடைப்பயிற்சி செய்தேன்."
+                    }
+                },
+                {
+                    "id": 215,
+                    "speaker_a": {
+                        "japanese": "日本の夏は暑くて湿度が高いですね。",
+                        "romaji": "Nihon no natsu wa atsukute shitsudo ga takai desu ne.",
+                        "tamil_transliteration": "நிஹோன் நோ நத்சு வா அத்சுகுதே ஷித்சுடோ கா தகாய் தேசு நே.",
+                        "english_meaning": "Japanese summers are hot and humid, aren't they?",
+                        "tamil_meaning": "ஜப்பானின் கோடைகாலம் வெய்யிலாகவும் ஈரப்பதமாகவும் இருக்கிறதே."
+                    },
+                    "speaker_b": {
+                        "japanese": "本当にそうですね。水分をたくさん取ってください。",
+                        "romaji": "Hontou ni sou desu ne. Suibun o takusan totte kudasai.",
+                        "tamil_transliteration": "ஹொந்தோ நி சோ தேசு நே. சுஇபுன் ஓ தகூசான் தொத்தே குதாஸை.",
+                        "english_meaning": "It really is. Please drink plenty of water.",
+                        "tamil_meaning": "உண்மைதான். போதுமான அளவு தண்ணீர் குடியுங்கள்."
+                    }
+                },
+                {
+                    "id": 216,
+                    "speaker_a": {
+                        "japanese": "この電車の切符はどこで買えますか。",
+                        "romaji": "Kono densha no kippu wa doko de kaemasu ka.",
+                        "tamil_transliteration": "கொனோ தேன்ஷா நோ கிப்பு வா டோகோ தே கைமாசு கா.",
+                        "english_meaning": "Where can I buy tickets for this train?",
+                        "tamil_meaning": "இந்த ரயிலுக்கான சீட்டு எங்கே வாங்குவது?"
+                    },
+                    "speaker_b": {
+                        "japanese": "あそこにある券売機で購入できます。",
+                        "romaji": "Asoko ni aru kenbaiki de kounyuu dekimasu.",
+                        "tamil_transliteration": "அசோகோ நி அரு கென்பைக்கி தே கோன்யூ தேகிமாசு.",
+                        "english_meaning": "You can purchase them at the ticket vending machine over there.",
+                        "tamil_meaning": "அங்கே உள்ள தானியங்கி இயந்திரத்தில் வாங்கலாம்."
+                    }
+                },
+                {
+                    "id": 217,
+                    "speaker_a": {
+                        "japanese": "好きな季節はいつですか。",
+                        "romaji": "Sukina kisetsu wa itsu desu ka.",
+                        "tamil_transliteration": "சுகினா கிஸெத்சு வா இத்சு தேசு கா.",
+                        "english_meaning": "What is your favorite season?",
+                        "tamil_meaning": "உங்களுக்குப் பிடித்த பருவகாலம் எது?"
+                    },
+                    "speaker_b": {
+                        "japanese": "桜がきれいな春が一番好きです。",
+                        "romaji": "Sakura ga kirei na haru ga ichiban suki desu.",
+                        "tamil_transliteration": "சகுரா கா கிர்ஏய் நா ஹரு கா இச்சிபான் சுகி தேசு.",
+                        "english_meaning": "I like spring the best when the cherry blossoms are pretty.",
+                        "tamil_meaning": "செர்ரி பூக்கள் அழகாக மலரும் வசந்த காலம் எனக்கு மிகவும் பிடிக்கும்."
+                    }
+                },
+                {
+                    "id": 218,
+                    "speaker_a": {
+                        "japanese": "今日もお疲れ様でした。明日も頑張りましょう。",
+                        "romaji": "Kyou mo otsukaresama deshita. Ashita mo gambarimashou.",
+                        "tamil_transliteration": "கியோ மோ ஒட்சுகாரேசமா தேஷிதா. அஷிதா மோ கன்பரிமாஷோ.",
+                        "english_meaning": "Thank you for your hard work today too. Let's do our best tomorrow as well!",
+                        "tamil_meaning": "இன்றைய நாளிலும் உழைத்தமைக்கு நன்றி. நாளையும் சிறப்பாக உழைப்போம்!"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、お疲れ様でした。おやすみなさい。",
+                        "romaji": "Hai, otsukaresama deshita. Oyasuminasai.",
+                        "tamil_transliteration": "ஹாய், ஒட்சுகாரேசமா தேஷிதா. ஒயாசுமினாஸை.",
+                        "english_meaning": "Yes, thank you for your hard work. Good night!",
+                        "tamil_meaning": "ஆம், நன்றி. இரவு வணக்கம்!"
+                    }
+                },
+                {
+                    "id": 219,
+                    "speaker_a": {
+                        "japanese": "このケーキは甘すぎますか。",
+                        "romaji": "Kono keeki wa amasugimasu ka.",
+                        "tamil_transliteration": "கொனோ கேகி வா amasugimasu கா.",
+                        "english_meaning": "Is this cake too sweet?",
+                        "tamil_meaning": "இந்த கேக் மிகவும் இனிப்பாக இருக்கிறதா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "いいえ、ちょうどいい甘さでとても美味しいですよ。",
+                        "romaji": "Ie, choudo ii amasa de totemo oishii desu yo.",
+                        "tamil_transliteration": "ஈஏ, சோதோ ஈ அமஸ தே தோதேமோ ஓயிஷீ தேசு யோ.",
+                        "english_meaning": "No, it has just the right sweetness and is very delicious.",
+                        "tamil_meaning": "இல்லை, அளவான இனிப்புடன் மிகவும் சுவையாக இருக்கிறது."
+                    }
+                },
+                {
+                    "id": 220,
+                    "speaker_a": {
+                        "japanese": "日本の伝統文化に興味がありますか。",
+                        "romaji": "Nihon no dentou-bunka ni kyoumi ga arimasu ka.",
+                        "tamil_transliteration": "நிஹோன் நோ தெந்தோ-புன்கா நி கியோமி கா அரிமாசு கா.",
+                        "english_meaning": "Are you interested in Japanese traditional culture?",
+                        "tamil_meaning": "ஜப்பானியப் பாரம்பரிய கலாச்சாரத்தில் உங்களுக்கு ஆர்வம் உண்டா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、茶道や着物にとても興味があります。",
+                        "romaji": "Hai, sadou ya kimono ni totemo kyoumi ga arimasu.",
+                        "tamil_transliteration": "ஹாய், சதோ யா கிமோனோ நி தோதேமோ கியோமி கா அரிமாசு.",
+                        "english_meaning": "Yes, I'm very interested in the tea ceremony and kimono.",
+                        "tamil_meaning": "ஆம், தேநீர் கலை மற்றும் கிமோனோ ஆடையில் எனக்குப் பெருமளவு ஆர்வம் உண்டு."
+                    }
+                },
+                {
+                    "id": 221,
+                    "speaker_a": {
+                        "japanese": "次の電車は何時に来ますか。",
+                        "romaji": "Tsugi no densha wa nan-ji ni kimasu ka.",
+                        "tamil_transliteration": "த்சு கி நோ தேன்ஷா வா நான்-ஜி நி கிமாசு கா.",
+                        "english_meaning": "What time does the next train arrive?",
+                        "tamil_meaning": "அடுத்த ரயில் எத்தனை மணிக்கு வரும்?"
+                    },
+                    "speaker_b": {
+                        "japanese": "あと五分ほどで到着する予定です。",
+                        "romaji": "Ato go-fun hodo de touchaku suru yotei desu.",
+                        "tamil_transliteration": "அதோ கோ-புன் ஹோதோ தே தோச்சாகு சுரு யோதேய் தேசு.",
+                        "english_meaning": "It is scheduled to arrive in about five minutes.",
+                        "tamil_meaning": "இன்னும் ஐந்து நிமிடங்களில் வந்துவிடும்."
+                    }
+                },
+                {
+                    "id": 222,
+                    "speaker_a": {
+                        "japanese": "休日は家でゆっくり休むことが多いですか。",
+                        "romaji": "Kyuujitsu wa ie de yukkuri yasumu koto ga ooi desu ka.",
+                        "tamil_transliteration": "கியூஜித்சு வா ஈஏ தே யுக்குரி யாசுமு கோதோ கா ஓய் தேசு கா.",
+                        "english_meaning": "Do you often spend your days off resting quietly at home?",
+                        "tamil_meaning": "விடுமுறை நாட்களில் வீட்டில் ஓய்வெடுப்பது வழியா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、たまには外に出てリフレッシュします。",
+                        "romaji": "Hai, tama ni wa soto ni dete rifuresshu shimasu.",
+                        "tamil_transliteration": "ஹாய், தமா நி வா சோதோ நி தேதே ரிபுரேஷ்கு ஷிமாசு.",
+                        "english_meaning": "Yes, but occasionally I go outside to refresh myself.",
+                        "tamil_meaning": "ஆம், என்றாலும் சில சமயம் வெளியே சென்று புத்துணர்ச்சி பெறுவேன்."
+                    }
+                },
+                {
+                    "id": 223,
+                    "speaker_a": {
+                        "japanese": "このレストランのおすすめメニューは何ですか。",
+                        "romaji": "Kono resutoran no osusume menyuu wa nan desu ka.",
+                        "tamil_transliteration": "கொனோ ரெசுதோரான் நோ ஒசுசுமே மெனியூ வா நான் தேசு கா.",
+                        "english_meaning": "What is the recommended menu at this restaurant?",
+                        "tamil_meaning": "இந்த உணவகத்தில் பரிந்துரைக்கப்படும் உணவு என்ன?"
+                    },
+                    "speaker_b": {
+                        "japanese": "天ぷら定食が一番人気があります。",
+                        "romaji": "Tenpura teishoku ga ichiban ninki ga arimasu.",
+                        "tamil_transliteration": "தென்புரா தேஷோகு கா இச்சிபான் நின்கி கா அரிமாசு.",
+                        "english_meaning": "The tempura set meal is the most popular.",
+                        "tamil_meaning": "தெம்புரா உணவுத் தொகுப்புதான் மிகவும் பிரபலமானது."
+                    }
+                },
+                {
+                    "id": 224,
+                    "speaker_a": {
+                        "japanese": "日本語を勉強して何か良いことがありましたか。",
+                        "romaji": "Nihon-go o benkyou shite nani ka yoi koto ga arimashita ka.",
+                        "tamil_transliteration": "நிஹோன்-கோ ஓ பெங்கியோ ஷிதே நானி கா யோய் கோதோ கா அரிமாஷிதா கா.",
+                        "english_meaning": "Has anything good happened since you started studying Japanese?",
+                        "tamil_meaning": "ஜப்பானிய மொழி படிப்பதால் உங்களுக்கு என்ன நன்மைகள் கிடைத்துள்ளன?"
+                    },
+                    "speaker_b": {
+                        "japanese": "日本人の友達ができて、会話が楽しくなりました。",
+                        "romaji": "Nihonjin no tomodachi ga dekite, kaiwa ga tanoshiku narimashita.",
+                        "tamil_transliteration": "நிஹோன்ஜின் நோ தொமோதாச்சி கா தேகிதே, கைவா கா தனுஷிகு நாரிமாஷிதா.",
+                        "english_meaning": "I made Japanese friends, and conversations became fun.",
+                        "tamil_meaning": "ஜப்பானிய நண்பர்கள் கிடைத்தார்கள், பேசுவது மிகவும் மகிழ்ச்சியாக இருக்கிறது."
+                    }
+                },
+                {
+                    "id": 225,
+                    "speaker_a": {
+                        "japanese": "その本、もう読み終わりましたか。",
+                        "romaji": "Sono hon, mou yomiowarimashita ka.",
+                        "tamil_transliteration": "சோனோ ஹோன், மோ யோமிஓவாரிமாஷிதா கா.",
+                        "english_meaning": "Have you already finished reading that book?",
+                        "tamil_meaning": "அந்தப் புத்தகத்தை நீங்கள் படித்து முடித்துவிட்டீர்களா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "いいえ、まだ半分くらいです。",
+                        "romaji": "Ie, mada hambun kurai desu.",
+                        "tamil_transliteration": "ஈஏ, மதா ஹம்புன் குரை தேசு.",
+                        "english_meaning": "No, I'm only about halfway through.",
+                        "tamil_meaning": "இல்லை, இன்னும் பாதி அளவுக்குத்தான் படித்திருக்கிறேன்."
+                    }
+                },
+                {
+                    "id": 226,
+                    "speaker_a": {
+                        "japanese": "明日、何時に待ち合わせしましょうか。",
+                        "romaji": "Ashita, nan-ji ni machiawase shimashou ka.",
+                        "tamil_transliteration": "அஷிதா, நான்-ஜி நி மச்சியாவாசே ஷிமாஷோ கா.",
+                        "english_meaning": "What time shall we meet tomorrow?",
+                        "tamil_meaning": "நாளை எத்தனை மணிக்குச் சந்திக்கலாம்?"
+                    },
+                    "speaker_b": {
+                        "japanese": "お昼の十二時ごろはどうですか。",
+                        "romaji": "Ohiru no juu-ni-ji goro wa dou desu ka.",
+                        "tamil_transliteration": "ஒஹிளு நோ ஜூ-நி-ஜி கோரோ வா தோ தேசு கா.",
+                        "english_meaning": "How about around 12:00 noon?",
+                        "tamil_meaning": "மதியம் 12 மணி வாக்கில் எப்படி?"
+                    }
+                },
+                {
+                    "id": 227,
+                    "speaker_a": {
+                        "japanese": "この辺に銀行はありますか。",
+                        "romaji": "Kono hen ni ginkou wa arimasu ka.",
+                        "tamil_transliteration": "கொனோ ஹென் நி கின்கோ வா அரிமாசு கா.",
+                        "english_meaning": "Is there a bank around here?",
+                        "tamil_meaning": "இந்த அருகில் வங்கி ஏதாவது இருக்கிறதா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "駅の近くに大きな銀行があります。",
+                        "romaji": "Eki no chikaku ni ookina ginkou ga arimasu.",
+                        "tamil_transliteration": "எகி நோ திகாகு நி ஓகினா கின்கோ கா அரிமாசு.",
+                        "english_meaning": "There is a big bank near the station.",
+                        "tamil_meaning": "ரயில் நிலையத்திற்கு அருகில் ஒரு பெரிய வங்கி உள்ளது."
+                    }
+                },
+                {
+                    "id": 228,
+                    "speaker_a": {
+                        "japanese": "日本の伝統的なお祭りに行ったことがありますか。",
+                        "romaji": "Nihon no dentouteki na omatsuri ni itta koto ga arimasu ka.",
+                        "tamil_transliteration": "நிஹோன் நோ தெந்தோதேகி நா ஒமத்சுரி நி இத்தா கோதோ கா அரிமாசு கா.",
+                        "english_meaning": "Have you ever been to a traditional Japanese festival?",
+                        "tamil_meaning": "ஜப்பானியப் பாரம்பரியத் திருவிழாவிற்குச் சென்று பார்த்ததுண்டா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、夏の盆踊りに行ったことがあります。",
+                        "romaji": "Hai, natsu no bon-odori ni itta koto ga arimasu.",
+                        "tamil_transliteration": "ஹாய், நத்சு நோ போன்-ஒதோரி நி இத்தா கோதோ கா அரிமாசு.",
+                        "english_meaning": "Yes, I've been to the summer Bon Odori festival.",
+                        "tamil_meaning": "ஆம், கோடைக்கால போன் ஓடோரி திருவிழாவிற்குச் சென்றுள்ளேன்."
+                    }
+                },
+                {
+                    "id": 229,
+                    "speaker_a": {
+                        "japanese": "このズボン、試着してもいいですか。",
+                        "romaji": "Kono zubon, shichaku shite mo ii desu ka.",
+                        "tamil_transliteration": "கொனோ சுபோன், ஷிசாகு ஷிதே மோ ஈ தேசு கா.",
+                        "english_meaning": "May I try on these pants?",
+                        "tamil_meaning": "இந்த பேண்ட்டை அணிந்து பார்க்கலாமா?"
+                    },
+                    "speaker_b": {
+                        "japanese": "はい、どうぞ。試着室はあちらです。",
+                        "romaji": "Hai, douzo. Shichakushitsu wa achira desu.",
+                        "tamil_transliteration": "ஹாய், தோசோ. ஷிசாகுஷித்சு வா அச்சிரா தேசு.",
+                        "english_meaning": "Yes, please. The fitting room is over there.",
+                        "tamil_meaning": "ஆம், தாராளமாக. ஆடை மாற்றும் அறை அங்கே உள்ளது."
+                    }
+                },
+                {
+                    "id": 230,
+                    "speaker_a": {
+                        "japanese": "何色のセーターが好きですか。",
+                        "romaji": "Nani-iro no seetaa ga suki desu ka.",
+                        "tamil_transliteration": "நானி-இரோ நோ சேதார் கா சுகி தேசு கா.",
+                        "english_meaning": "What color sweater do you like?",
+                        "tamil_meaning": "உங்களுக்கு எந்த நிற ஸ்வெட்டர் பிடிக்கும்?"
+                    },

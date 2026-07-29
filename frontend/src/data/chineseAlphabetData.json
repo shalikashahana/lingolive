@@ -1,1 +1,269 @@
-{"total_letters": 0, "alphabet": {"swarangal": [], "vyanjanangal": [], "chillaksharangal": []}}
+{
+    "chinese_phonetics_pinyin": {
+        "initials": [
+            {
+                "pinyin": "b",
+                "sound": "bo",
+                "approximate_sound": "'b' as in boy"
+            },
+            {
+                "pinyin": "p",
+                "sound": "po",
+                "approximate_sound": "'p' as in pen"
+            },
+            {
+                "pinyin": "m",
+                "sound": "mo",
+                "approximate_sound": "'m' as in mother"
+            },
+            {
+                "pinyin": "f",
+                "sound": "fo",
+                "approximate_sound": "'f' as in father"
+            },
+            {
+                "pinyin": "d",
+                "sound": "de",
+                "approximate_sound": "'d' as in door"
+            },
+            {
+                "pinyin": "t",
+                "sound": "te",
+                "approximate_sound": "'t' as in tea"
+            },
+            {
+                "pinyin": "n",
+                "sound": "ne",
+                "approximate_sound": "'n' as in name"
+            },
+            {
+                "pinyin": "l",
+                "sound": "le",
+                "approximate_sound": "'l' as in love"
+            },
+            {
+                "pinyin": "g",
+                "sound": "ge",
+                "approximate_sound": "'g' as in go"
+            },
+            {
+                "pinyin": "k",
+                "sound": "ke",
+                "approximate_sound": "'k' as in kite"
+            },
+            {
+                "pinyin": "h",
+                "sound": "he",
+                "approximate_sound": "'h' as in hat"
+            },
+            {
+                "pinyin": "j",
+                "sound": "ji",
+                "approximate_sound": "'j' as in jeep"
+            },
+            {
+                "pinyin": "q",
+                "sound": "qi",
+                "approximate_sound": "'ch' as in cheese"
+            },
+            {
+                "pinyin": "x",
+                "sound": "xi",
+                "approximate_sound": "'sh' as in she"
+            },
+            {
+                "pinyin": "zh",
+                "sound": "zhi",
+                "approximate_sound": "'dr' with tongue curled back"
+            },
+            {
+                "pinyin": "ch",
+                "sound": "chi",
+                "approximate_sound": "'tr' with tongue curled back"
+            },
+            {
+                "pinyin": "sh",
+                "sound": "shi",
+                "approximate_sound": "'sh' with tongue curled back"
+            },
+            {
+                "pinyin": "r",
+                "sound": "ri",
+                "approximate_sound": "'r' in read or 'z' in azure"
+            },
+            {
+                "pinyin": "z",
+                "sound": "zi",
+                "approximate_sound": "'ds' as in cats"
+            },
+            {
+                "pinyin": "c",
+                "sound": "ci",
+                "approximate_sound": "'ts' as in hats"
+            },
+            {
+                "pinyin": "s",
+                "sound": "si",
+                "approximate_sound": "'s' as in sun"
+            },
+            {
+                "pinyin": "y",
+                "sound": "yi",
+                "approximate_sound": "'y' as in yes"
+            },
+            {
+                "pinyin": "w",
+                "sound": "wu",
+                "approximate_sound": "'w' as in water"
+            }
+        ],
+        "simple_finals": [
+            {
+                "pinyin": "a",
+                "sound": "ah",
+                "approximate_sound": "'a' as in father"
+            },
+            {
+                "pinyin": "o",
+                "sound": "oh",
+                "approximate_sound": "'o' as in more"
+            },
+            {
+                "pinyin": "e",
+                "sound": "uh",
+                "approximate_sound": "'a' as in ago"
+            },
+            {
+                "pinyin": "i",
+                "sound": "ee",
+                "approximate_sound": "'ee' as in see"
+            },
+            {
+                "pinyin": "u",
+                "sound": "oo",
+                "approximate_sound": "'oo' as in too"
+            },
+            {
+                "pinyin": "ü",
+                "sound": "yu",
+                "approximate_sound": "'u' with rounded lips"
+            }
+        ],
+        "compound_finals": [
+            {
+                "pinyin": "ai",
+                "approximate_sound": "eye"
+            },
+            {
+                "pinyin": "ei",
+                "approximate_sound": "ay (day)"
+            },
+            {
+                "pinyin": "ao",
+                "approximate_sound": "ow (cow)"
+            },
+            {
+                "pinyin": "ou",
+                "approximate_sound": "oh (go)"
+            },
+            {
+                "pinyin": "ia",
+                "approximate_sound": "ya"
+            },
+            {
+                "pinyin": "ie",
+                "approximate_sound": "ye"
+            },
+            {
+                "pinyin": "iao",
+                "approximate_sound": "yow"
+            },
+            {
+                "pinyin": "iu",
+                "approximate_sound": "yew"
+            },
+            {
+                "pinyin": "ua",
+                "approximate_sound": "wa"
+            },
+            {
+                "pinyin": "uo",
+                "approximate_sound": "wo"
+            },
+            {
+                "pinyin": "uai",
+                "approximate_sound": "why"
+            },
+            {
+                "pinyin": "ui",
+                "approximate_sound": "way"
+            },
+            {
+                "pinyin": "üe",
+                "approximate_sound": "yü-eh"
+            },
+            {
+                "pinyin": "er",
+                "approximate_sound": "err"
+            },
+            {
+                "pinyin": "an",
+                "approximate_sound": "ahn"
+            },
+            {
+                "pinyin": "en",
+                "approximate_sound": "uhn"
+            },
+            {
+                "pinyin": "in",
+                "approximate_sound": "een"
+            },
+            {
+                "pinyin": "un",
+                "approximate_sound": "oon"
+            },
+            {
+                "pinyin": "ün",
+                "approximate_sound": "yü-n"
+            },
+            {
+                "pinyin": "ang",
+                "approximate_sound": "ahng"
+            },
+            {
+                "pinyin": "eng",
+                "approximate_sound": "uhng"
+            },
+            {
+                "pinyin": "ing",
+                "approximate_sound": "eeng"
+            },
+            {
+                "pinyin": "ong",
+                "approximate_sound": "ohng"
+            }
+        ],
+        "tones": [
+            {
+                "tone_number": 1,
+                "symbol": "ā",
+                "description": "High and flat pitch"
+            },
+            {
+                "tone_number": 2,
+                "symbol": "á",
+                "description": "Rising pitch"
+            },
+            {
+                "tone_number": 3,
+                "symbol": "ǎ",
+                "description": "Low dipping pitch"
+            },
+            {
+                "tone_number": 4,
+                "symbol": "à",
+                "description": "Falling pitch"
+            }
+        ]
+    }
+}
