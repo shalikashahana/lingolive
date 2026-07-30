@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import alphabetData from "../../data/chineseAlphabetData.json";
 import chineseWordsData from "../../data/chineseWordsData.json";
@@ -221,7 +221,7 @@ export default function ChineseDashboard() {
 
   const TABS = [
     "Home",
-    "Alphabets (അക്ഷരമാല)",
+    "Pinyin",
     "Essential Words",
     "Numbers",
     "Sentences",
@@ -230,9 +230,9 @@ export default function ChineseDashboard() {
 
   // Progress Tracking State
   const [progress, setProgress] = useState({
-    swarangal: 0,
-    vyanjanangal: 0,
-    chillaksharangal: 0,
+    initials: 0,
+    simple_finals: 0,
+    compound_finals: 0,
     words: 0,
     numbers: 0,
     sentences: 0,
@@ -242,7 +242,7 @@ export default function ChineseDashboard() {
 
   useEffect(() => {
     const savedProgressStr = localStorage.getItem("chinese_progress");
-    const defaultProgress = { swarangal: 0, vyanjanangal: 0, chillaksharangal: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
+    const defaultProgress = { initials: 0, simple_finals: 0, compound_finals: 0, words: 0, numbers: 0, sentences: 0, quiz: 0 };
     const savedProgress = savedProgressStr ? JSON.parse(savedProgressStr) : defaultProgress;
     setProgress({ ...defaultProgress, ...savedProgress });
 
@@ -294,9 +294,9 @@ export default function ChineseDashboard() {
 
   // Dashboard overview cards
   const dashboardCards = [
-    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
-    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
-    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
+    { key: "initials", label: "Initials", tab: TABS[1], icon: "拼", total: alphabetData.chinese_phonetics_pinyin.initials.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
+    { key: "simple_finals", label: "Simple Finals", tab: TABS[1], icon: "音", total: alphabetData.chinese_phonetics_pinyin.simple_finals.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
+    { key: "compound_finals", label: "Compound Finals", tab: TABS[1], icon: "语", total: alphabetData.chinese_phonetics_pinyin.compound_finals.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
     { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: chineseWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
     { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: chineseNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
     { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: chineseSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
@@ -313,7 +313,7 @@ export default function ChineseDashboard() {
         return (
           <div 
             key={idx} 
-            onClick={() => !isLocked && handleInteraction(type, idx, letter.letter)}
+            onClick={() => !isLocked && handleInteraction(type, idx, letter.pinyin)}
             className={`group relative flex flex-col items-center justify-between aspect-square p-3 rounded-2xl border transition-all duration-300 overflow-hidden ${
               isInProgress
                 ? "border-[#3F6656] bg-[#3F6656]/10 ring-2 ring-[#3F6656]/50 shadow-lg cursor-pointer"
@@ -334,13 +334,13 @@ export default function ChineseDashboard() {
             
             <div className="my-1 flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-base font-bold transition shadow-sm bg-gradient-to-br text-[#14213D] shadow-[#14213D]/10 bg-white">
               <span className={`text-[32px] font-bold font-sans leading-none ${isLocked ? 'text-gray-400' : 'text-[#14213D] group-hover:text-[#3F6656]'} transition-colors drop-shadow-sm`}>
-                {letter.letter}
+                {letter.pinyin}
               </span>
             </div>
             
             <div className="flex flex-col items-center gap-1 z-10 w-full px-1">
               <span className="font-mono text-[10px] font-semibold bg-[#14213D]/5 text-[#14213D]/70 px-1.5 py-0.5 rounded w-full text-center truncate">
-                {letter.transliteration}
+                {letter.sound}
               </span>
               <div className="flex justify-center gap-1 mt-1">
                 {isCompleted ? (
@@ -598,27 +598,27 @@ export default function ChineseDashboard() {
               </div>
             )}
             
-            {activeTab === "Alphabets (അക്ഷരമാല)" && (
+            {activeTab === "Pinyin" && (
               <div className="space-y-12">
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (സ്വരങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#C9A227]" /> Initials
                   </h3>
-                  {renderLetterGrid("swarangal", alphabetData.alphabet.swarangal)}
+                  {renderLetterGrid("initials", alphabetData.chinese_phonetics_pinyin.initials)}
                 </div>
 
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (വ്യഞ്ജനങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#3F6656]" /> Simple Finals
                   </h3>
-                  {renderLetterGrid("vyanjanangal", alphabetData.alphabet.vyanjanangal)}
+                  {renderLetterGrid("simple_finals", alphabetData.chinese_phonetics_pinyin.simple_finals)}
                 </div>
 
                 <div className="space-y-6">
                   <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#6366f1]" /> Chillu Letters (ചില്ലക്ഷരങ്ങൾ)
+                    <Languages className="w-6 h-6 text-[#6366f1]" /> Compound Finals
                   </h3>
-                  {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
+                  {renderLetterGrid("compound_finals", alphabetData.chinese_phonetics_pinyin.compound_finals)}
                 </div>
               </div>
             )}
