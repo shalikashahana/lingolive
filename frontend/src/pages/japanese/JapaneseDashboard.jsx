@@ -291,12 +291,38 @@ export default function JapaneseDashboard() {
   const [activeQuizPartView, setActiveQuizPartView] = useState(null);
 
   // Dashboard overview cards
+  // Adapter: normalize plain arrays to expected structured format
+  const wordsArray = Array.isArray(japaneseWordsData) ? japaneseWordsData : (japaneseWordsData.words || []);
+  const numbersArray = Array.isArray(japaneseNumbersData) ? japaneseNumbersData : (japaneseNumbersData.numbers || []);
+  const sentencesArray = Array.isArray(japaneseSentencesData) ? japaneseSentencesData : (japaneseSentencesData.sentences || []);
+  const quizArray = Array.isArray(japaneseQuizData) ? japaneseQuizData : (japaneseQuizData.questions || []);
+
+  // Group sentences into virtual modules of 50 each
+  const SENTENCES_PER_MODULE = 50;
+  const sentencesModules = Array.from({ length: Math.ceil(sentencesArray.length / SENTENCES_PER_MODULE) }, (_, i) => ({
+    module: i + 1,
+    description: `Sentences ${i * SENTENCES_PER_MODULE + 1}–${Math.min((i + 1) * SENTENCES_PER_MODULE, sentencesArray.length)}`,
+    sentences: sentencesArray.slice(i * SENTENCES_PER_MODULE, (i + 1) * SENTENCES_PER_MODULE),
+    total_sentences: Math.min(SENTENCES_PER_MODULE, sentencesArray.length - i * SENTENCES_PER_MODULE)
+  }));
+  const sentencesStructured = { total_sentences: sentencesArray.length, modules: sentencesModules };
+
+  // Group quiz into virtual modules of 50 each
+  const QUIZ_PER_MODULE = 50;
+  const quizModules = Array.from({ length: Math.ceil(quizArray.length / QUIZ_PER_MODULE) }, (_, i) => ({
+    module: i + 1,
+    description: `Questions ${i * QUIZ_PER_MODULE + 1}–${Math.min((i + 1) * QUIZ_PER_MODULE, quizArray.length)}`,
+    quiz: quizArray.slice(i * QUIZ_PER_MODULE, (i + 1) * QUIZ_PER_MODULE),
+    total_questions: Math.min(QUIZ_PER_MODULE, quizArray.length - i * QUIZ_PER_MODULE)
+  }));
+  const quizStructured = { total_questions: quizArray.length, modules: quizModules };
+
   const dashboardCards = [
     { key: "alphabets", label: "Characters", tab: TABS[1], icon: "あ", total: alphabetData.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
-    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: japaneseWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: japaneseNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: japaneseSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: japaneseQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: wordsArray.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: numbersArray.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: sentencesStructured.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: quizStructured.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -610,10 +636,10 @@ export default function JapaneseDashboard() {
                 {activeWordPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {japaneseWordsData.words.length} Essential Words
+                      <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {wordsArray.length} Essential Words
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(japaneseWordsData.words.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(wordsArray.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -662,7 +688,7 @@ export default function JapaneseDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {japaneseWordsData.words.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
+                      {wordsArray.slice(activeWordPartView * 10, (activeWordPartView + 1) * 10).map((word, relIdx) => {
                          const globalIdx = (activeWordPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.words;
                          const isInProgress = globalIdx === progress.words;
@@ -690,10 +716,10 @@ export default function JapaneseDashboard() {
                 {activeNumberPartView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {japaneseNumbersData.numbers.length} Numbers
+                      <BookOpen className="w-5 h-5 text-[#ec4899]" /> {numbersArray.length} Numbers
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(japaneseNumbersData.numbers.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(numbersArray.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
                         const endIdx = (i + 1) * 10;
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
@@ -742,7 +768,7 @@ export default function JapaneseDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {japaneseNumbersData.numbers.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
+                      {numbersArray.slice(activeNumberPartView * 10, (activeNumberPartView + 1) * 10).map((number, relIdx) => {
                          const globalIdx = (activeNumberPartView * 10) + relIdx;
                          const isCompleted = globalIdx < progress.numbers;
                          const isInProgress = globalIdx === progress.numbers;
@@ -770,10 +796,10 @@ export default function JapaneseDashboard() {
                 {activeSentenceModuleView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {japaneseSentencesData.total_sentences} Sentences
+                      <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {sentencesStructured.total_sentences} Sentences
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {japaneseSentencesData.modules.map((moduleData, i) => (
+                      {sentencesStructured.modules.map((moduleData, i) => (
                         <button
                           key={moduleData.module}
                           onClick={() => setActiveSentenceModuleView(i)}
@@ -800,19 +826,19 @@ export default function JapaneseDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {japaneseSentencesData.modules[activeSentenceModuleView].module} ({japaneseSentencesData.modules[activeSentenceModuleView].total_sentences} Sentences)
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {sentencesStructured.modules[activeSentenceModuleView].module} ({sentencesStructured.modules[activeSentenceModuleView].total_sentences} Sentences)
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(japaneseSentencesData.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(sentencesStructured.modules[activeSentenceModuleView].sentences.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
-                        const endIdx = Math.min((i + 1) * 10, japaneseSentencesData.modules[activeSentenceModuleView].sentences.length);
+                        const endIdx = Math.min((i + 1) * 10, sentencesStructured.modules[activeSentenceModuleView].sentences.length);
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
                         
                         let moduleGlobalStartIdx = 0;
                         for (let m = 0; m < activeSentenceModuleView; m++) {
-                           moduleGlobalStartIdx += japaneseSentencesData.modules[m].total_sentences;
+                           moduleGlobalStartIdx += sentencesStructured.modules[m].total_sentences;
                         }
                         const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
                         const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
@@ -857,15 +883,15 @@ export default function JapaneseDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {japaneseSentencesData.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
+                        <BookOpen className="w-6 h-6 text-[#f59e0b]" /> Module {sentencesStructured.modules[activeSentenceModuleView].module} - Part {activeSentencePartView + 1}
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {japaneseSentencesData.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
+                      {sentencesStructured.modules[activeSentenceModuleView].sentences.slice(activeSentencePartView * 10, (activeSentencePartView + 1) * 10).map((sentence, relIdx) => {
                          let globalIdx = 0;
                          for (let m = 0; m < activeSentenceModuleView; m++) {
-                            globalIdx += japaneseSentencesData.modules[m].total_sentences;
+                            globalIdx += sentencesStructured.modules[m].total_sentences;
                          }
                          globalIdx += (activeSentencePartView * 10) + relIdx;
 
@@ -895,10 +921,10 @@ export default function JapaneseDashboard() {
                 {activeQuizModuleView === null ? (
                   <div className="space-y-4 pt-4">
                     <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-5 h-5 text-[#8b5cf6]" /> {japaneseQuizData.total_questions} Quiz Questions
+                      <BookOpen className="w-5 h-5 text-[#8b5cf6]" /> {quizStructured.total_questions} Quiz Questions
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {japaneseQuizData.modules.map((moduleData, i) => (
+                      {quizStructured.modules.map((moduleData, i) => (
                         <button
                           key={moduleData.module}
                           onClick={() => {
@@ -928,19 +954,19 @@ export default function JapaneseDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {japaneseQuizData.modules[activeQuizModuleView].module} ({japaneseQuizData.modules[activeQuizModuleView].total_questions} Questions)
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {quizStructured.modules[activeQuizModuleView].module} ({quizStructured.modules[activeQuizModuleView].total_questions} Questions)
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                      {Array.from({ length: Math.ceil(japaneseQuizData.modules[activeQuizModuleView].quiz.length / 10) }).map((_, i) => {
+                      {Array.from({ length: Math.ceil(quizStructured.modules[activeQuizModuleView].quiz.length / 10) }).map((_, i) => {
                         const startIdx = i * 10;
-                        const endIdx = Math.min((i + 1) * 10, japaneseQuizData.modules[activeQuizModuleView].quiz.length);
+                        const endIdx = Math.min((i + 1) * 10, quizStructured.modules[activeQuizModuleView].quiz.length);
                         const partName = `Part ${i + 1} (${startIdx + 1}-${endIdx})`;
                         
                         let moduleGlobalStartIdx = 0;
                         for (let m = 0; m < activeQuizModuleView; m++) {
-                           moduleGlobalStartIdx += japaneseQuizData.modules[m].total_questions;
+                           moduleGlobalStartIdx += quizStructured.modules[m].total_questions;
                         }
                         const partGlobalStartIdx = moduleGlobalStartIdx + startIdx;
                         const partGlobalEndIdx = moduleGlobalStartIdx + endIdx - 1;
@@ -985,15 +1011,15 @@ export default function JapaneseDashboard() {
                     
                     <div className="flex items-center justify-between">
                       <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {japaneseQuizData.modules[activeQuizModuleView].module} - Part {activeQuizPartView + 1}
+                        <BookOpen className="w-6 h-6 text-[#8b5cf6]" /> Module {quizStructured.modules[activeQuizModuleView].module} - Part {activeQuizPartView + 1}
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                      {japaneseQuizData.modules[activeQuizModuleView].quiz.slice(activeQuizPartView * 10, (activeQuizPartView + 1) * 10).map((q, relIdx) => {
+                      {quizStructured.modules[activeQuizModuleView].quiz.slice(activeQuizPartView * 10, (activeQuizPartView + 1) * 10).map((q, relIdx) => {
                          let globalIdx = 0;
                          for (let m = 0; m < activeQuizModuleView; m++) {
-                            globalIdx += japaneseQuizData.modules[m].total_questions;
+                            globalIdx += quizStructured.modules[m].total_questions;
                          }
                          globalIdx += (activeQuizPartView * 10) + relIdx;
 
