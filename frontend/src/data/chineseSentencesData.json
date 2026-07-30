@@ -799,8 +799,7 @@
         "meaning_english": "See you later.",
         "meaning_tamil": "சற்று நேரத்தில் சந்திப்போம்."
     }
-]
-[
+,
     {
         "id": 101,
         "chinese": "太棒了",
@@ -1601,8 +1600,7 @@
         "meaning_english": "Wish you happiness!",
         "meaning_tamil": "உங்களுக்கு மகிழ்ச்சி நிலைக்கட்டும்!"
     }
-]
-[
+,
     {
         "id": 201,
         "chinese": "我爱你",
@@ -2403,8 +2401,7 @@
         "meaning_english": "Keep in touch.",
         "meaning_tamil": "தொடர்பில் இருங்கள்."
     }
-]
-[
+,
     {
         "id": 301,
         "chinese": "慢慢吃",
@@ -3205,9 +3202,7 @@
         "meaning_english": "Take care of health.",
         "meaning_tamil": "உடம்பைப் பார்த்துக்கொள்."
     }
-]
-
-[
+,
     {
         "id": 401,
         "chinese": "太酷了",
@@ -4008,8 +4003,7 @@
         "meaning_english": "Goodbye!",
         "meaning_tamil": "மீண்டும் சந்திப்போம்!"
     }
-]
-[
+,
     {
         "id": 501,
         "chinese": "我先走了",
@@ -4810,8 +4804,7 @@
         "meaning_english": "Forge ahead bravely.",
         "meaning_tamil": "துணிச்சலுடன் முன்னோக்கிச் செல்."
     }
-]
-[
+,
     {
         "id": 601,
         "chinese": "学无止境",
@@ -5612,8 +5605,7 @@
         "meaning_english": "Gather strength and move forward.",
         "meaning_tamil": "பலம் பெற்று முன்னோக்கிச் செல்."
     }
-]
-[
+,
     {
         "id": 701,
         "chinese": "一鸣惊人",
@@ -6414,8 +6406,7 @@
         "meaning_english": "Constantly strive to become stronger.",
         "meaning_tamil": "தொடர்ந்து உன்னை வலிமைப்படுத்திக்கொள்."
     }
-]
-[
+,
     {
         "id": 801,
         "chinese": "学以致用",
@@ -7216,8 +7207,7 @@
         "meaning_english": "March towards victory.",
         "meaning_tamil": "வெற்றியை நோக்கி நடைபோடு."
     }
-]
-[
+,
     {
         "id": 901,
         "chinese": "光阴似箭",

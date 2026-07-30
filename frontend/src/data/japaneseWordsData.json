@@ -798,9 +798,7 @@
         "tamil_transliteration": "ஸாகானா",
         "english_meaning": "Fish",
         "tamil_meaning": "மீன்"
-    }
-]
-[
+    },
     {
         "id": 101,
         "japanese": "空 (そら)",
@@ -1601,8 +1599,7 @@
         "english_meaning": "Inside / In",
         "tamil_meaning": "உள்ளே"
     }
-]
-[
+,
     {
         "id": 201,
         "japanese": "外 (そと)",
@@ -2403,8 +2400,7 @@
         "english_meaning": "Every year",
         "tamil_meaning": "ஒவ்வொரு ஆண்டும்"
     }
-]
-[
+,
     {
         "id": 301,
         "japanese": "春休み (はるやすみ)",
@@ -3205,8 +3201,7 @@
         "english_meaning": "Box",
         "tamil_meaning": "பெட்டி"
     }
-]
-[
+,
     {
         "id": 401,
         "japanese": "家族 (かぞく)",
@@ -4807,8 +4802,7 @@
         "english_meaning": "Miso (soybean paste)",
         "tamil_meaning": "மிசோ பேஸ்ட்"
     }
-]
-[
+,
     {
         "id": 601,
         "japanese": "赤ん坊 (あかんぼう)",
@@ -6409,8 +6403,7 @@
         "english_meaning": "Tightly packed",
         "tamil_meaning": "அடர்த்தியாக அடைக்கப்பட்ட"
     }
-]
-[
+,
     {
         "id": 801,
         "japanese": "道具 (どうぐ)",

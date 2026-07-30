@@ -799,8 +799,7 @@
         "meaning_english": "How / Why",
         "meaning_tamil": "எப்படி"
     }
-]
-[
+,
     {
         "id": 101,
         "chinese": "什么",
@@ -1601,8 +1600,7 @@
         "meaning_english": "New",
         "meaning_tamil": "புதிய"
     }
-]
-[
+,
     {
         "id": 201,
         "chinese": "旧",
@@ -2403,8 +2401,7 @@
         "meaning_english": "Road / Path",
         "meaning_tamil": "சாலை / வழி"
     }
-]
-[
+,
     {
         "id": 301,
         "chinese": "街",
@@ -3205,8 +3202,7 @@
         "meaning_english": "Again (past action)",
         "meaning_tamil": "மீண்டும்"
     }
-]
-[
+,
     {
         "id": 401,
         "chinese": "还",
@@ -4007,8 +4003,7 @@
         "meaning_english": "To protect",
         "meaning_tamil": "பாதுகாக்கவும்"
     }
-]
-[
+,
     {
         "id": 501,
         "chinese": "照顾",
@@ -4809,8 +4804,7 @@
         "meaning_english": "To greet someone",
         "meaning_tamil": "வணக்கம் சொல்"
     }
-]
-[
+,
     {
         "id": 601,
         "chinese": "集合",
@@ -6411,8 +6405,7 @@
         "meaning_english": "Verification code",
         "meaning_tamil": "சரிபார்ப்பு குறியீடு"
     }
-]
-[
+,
     {
         "id": 801,
         "chinese": "账户",
