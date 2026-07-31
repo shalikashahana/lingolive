@@ -4,7 +4,7 @@ import { Mic, X, Check, XCircle, SkipForward, Play, Volume2 } from "lucide-react
 import CuteCatAvatar from "./CuteCatAvatar";
 import { speakText, startVoiceRecognition, stopSpeech, stopVoiceRecognition } from "../../services/voiceSpeechService";
 
-export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onComplete }) {
+export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onComplete, learningLanguage = "english", sourceLanguage = "tamil" }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentIndexRef = useRef(0);
   const [catState, setCatState] = useState("LEVEL_PASSED");
@@ -45,7 +45,12 @@ export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onCompl
     setScore(0);
     setIsCompleted(false);
     setUserTranscript("");
-    const introMsg = `Let's practice ${phaseData.phase}! I will say the Tamil meaning, and you tell me the English phrase.`;
+    
+    // Determine prompt based on target language
+    const langName = learningLanguage.charAt(0).toUpperCase() + learningLanguage.slice(1);
+    const sourceName = sourceLanguage.charAt(0).toUpperCase() + sourceLanguage.slice(1);
+    const introMsg = `Let's practice ${phaseData.phase}! I will say the ${sourceName} meaning, and you tell me the ${langName} phrase.`;
+    
     speakCat(introMsg, "HAPPY", () => {
       askCurrentQuestion(0);
     });
@@ -59,13 +64,14 @@ export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onCompl
     const item = items[index];
     setUserTranscript("");
     
-    const fullMessage = `How do you say: "${item.tamil}" ?`;
+    const sourceText = item[sourceLanguage];
+    const fullMessage = `How do you say: "${sourceText}" ?`;
     setCatState("TALKING");
     setCatMessage(fullMessage);
     
-    // Speak English part first, then Tamil part with correct voice
+    // Speak prompt part first, then the source text with correct voice
     speakText("How do you say", "english", null, () => {
-      speakText(item.tamil, "tamil", null, () => {
+      speakText(sourceText, sourceLanguage, null, () => {
         setCatState("LEVEL_PASSED");
         handleStartListening();
       });
@@ -77,7 +83,7 @@ export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onCompl
     setCatState("LISTENING");
     // We intentionally do NOT change catMessage here so the user can still read the question!
     
-    startVoiceRecognition("english", (transcript) => {
+    startVoiceRecognition(learningLanguage, (transcript) => {
       setIsListening(false);
       setUserTranscript(transcript);
       evaluateAnswer(transcript);
@@ -93,17 +99,17 @@ export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onCompl
   const evaluateAnswer = (transcript) => {
     const item = getCurrentItem();
     if (!item) return;
-    const target = cleanText(item.english);
+    const target = cleanText(item[learningLanguage]);
     const spoken = cleanText(transcript);
     
     // Simple evaluation (if spoken contains main words or is close enough)
     if (spoken.includes(target) || target.includes(spoken) || spoken.length > target.length * 0.7) {
       setScore(prev => prev + 1);
-      speakCat(`Purr-fect! You said it right! The answer is: ${item.english}`, "CORRECT", () => {
+      speakCat(`Purr-fect! You said it right! The answer is: ${item[learningLanguage]}`, "CORRECT", () => {
         nextQuestion();
       });
     } else {
-      speakCat(`Good try, but the correct phrase is: ${item.english}. Let's move on!`, "OOPS", () => {
+      speakCat(`Good try, but the correct phrase is: ${item[learningLanguage]}. Let's move on!`, "OOPS", () => {
         nextQuestion();
       });
     }
@@ -126,7 +132,7 @@ export default function CatVoiceCheckpoint({ isOpen, onClose, phaseData, onCompl
     stopVoiceRecognition();
     setIsListening(false);
     const item = getCurrentItem();
-    speakCat(`Okay, skipping! The answer was: ${item?.english || ""}`, "OOPS", () => {
+    speakCat(`Okay, skipping! The answer was: ${item?.[learningLanguage] || ""}`, "OOPS", () => {
       nextQuestion();
     });
   };

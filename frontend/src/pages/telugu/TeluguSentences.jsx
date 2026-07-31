@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import CatVoiceCheckpoint from "../../components/catTeacher/CatVoiceCheckpoint";
 import TeluguQuiz from "./TeluguQuiz";
 import { teluguAlphabet } from "../../data/teluguAlphabetData";
 import { teluguWords } from "../../data/teluguWordsData";
@@ -8,7 +10,7 @@ import { teluguSentences } from "../../data/teluguSentencesData";
 import { useAuth } from "../../context/AuthContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
-  Play, Volume2, Eye, EyeOff, User, Filter, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard 
+  Play, Volume2, Eye, EyeOff, User, Filter, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard, Search, MessageCircle, ChevronDown, ChevronUp
 } from "lucide-react";
 
 function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked, onInteract }) {
@@ -139,30 +141,88 @@ export default function TeluguSentences() {
     return acc;
   }, {});
 
+  const [activeWordModuleView, setActiveWordModuleView] = useState(null);
+  const [activeWordPartView, setActiveWordPartView] = useState(null);
+  const [activeSentenceModuleView, setActiveSentenceModuleView] = useState(null);
+  const [activeQuizModuleView, setActiveQuizModuleView] = useState(null);
+  const [activeQuizPartView, setActiveQuizPartView] = useState(null);
+
   const wordCategories = Object.keys(groupedWords);
   const [activeWordCategory, setActiveWordCategory] = useState(wordCategories[0]);
 
-  const groupedSentencesByModule = teluguSentences.reduce((acc, sentence, idx) => {
-    const setNum = Math.floor(idx / 10) + 1;
-    const moduleNum = Math.floor((setNum - 1) / 50) + 1;
-    const moduleName = `Module ${moduleNum}`;
-    const category = `Part ${setNum} (${(setNum - 1) * 10 + 1}-${setNum * 10})`;
-    
-    if (!acc[moduleName]) acc[moduleName] = {};
-    if (!acc[moduleName][category]) acc[moduleName][category] = [];
-    acc[moduleName][category].push({
-      ...sentence,
-      telugu: sentence.te,
-      english: sentence.en,
-      tamil: sentence.ta,
-      transliteration: sentence.tr,
-      number: sentence.id
+  const formattedTeluguSentences = useMemo(() => {
+    const parts = [];
+    teluguSentencesData.modules.forEach((mod, modIndex) => {
+      const sentences = mod.sentences;
+      for (let i = 0; i < sentences.length; i += 10) {
+        const partSentences = sentences.slice(i, i + 10);
+        parts.push({
+          moduleIndex: modIndex,
+          moduleName: mod.module,
+          phase: `Module ${mod.module} - Part ${Math.floor(i / 10) + 1} (${i + 1}-${i + partSentences.length})`,
+          context: mod.category || "Basic Sentences",
+          sentences: partSentences.map(s => ({
+            english: s.english_meaning || "",
+            tamil: s.tamil_meaning || "",
+            telugu: s.telugu || "",
+            transliteration: s.english_transliteration || ""
+          }))
+        });
+      }
     });
-    return acc;
-  }, {});
+    return parts;
+  }, []);
 
-  const [activeSentenceModule, setActiveSentenceModule] = useState(null);
-  const [activeSentencePartView, setActiveSentencePartView] = useState(null);
+  const [activePhaseKey, setActivePhaseKey] = useState(null);
+  const [visibleTranslations, setVisibleTranslations] = useState({});
+  const [searchQuery, setSearchQuery] = useState("");
+  const [checkpointPhase, setCheckpointPhase] = useState(null);
+  const [completedPhases, setCompletedPhases] = useState(() => {
+    return JSON.parse(localStorage.getItem("telugu_cat_completed_phases") || "{}");
+  });
+
+  const handleCheckpointComplete = (score, total) => {
+    if (checkpointPhase) {
+      const updated = { ...completedPhases, [checkpointPhase.phase]: { score, total } };
+      setCompletedPhases(updated);
+      localStorage.setItem("telugu_cat_completed_phases", JSON.stringify(updated));
+    }
+  };
+
+  const filteredData = useMemo(() => {
+    let dataToFilter = formattedTeluguSentences;
+    
+    if (!searchQuery.trim()) {
+      if (activeSentenceModuleView !== null) {
+        return dataToFilter.filter(p => p.moduleIndex === activeSentenceModuleView);
+      } else {
+        return [];
+      }
+    }
+    
+    return dataToFilter.map(phaseObj => {
+      const matchingSentences = phaseObj.sentences.filter(s => {
+        const enMatch = s.english.toLowerCase().includes(searchQuery.toLowerCase());
+        const taMatch = s.tamil.includes(searchQuery);
+        const teMatch = s.telugu.includes(searchQuery);
+        return enMatch || taMatch || teMatch;
+      });
+      return { ...phaseObj, sentences: matchingSentences };
+    }).filter(phaseObj => phaseObj.sentences.length > 0);
+  }, [searchQuery, formattedTeluguSentences, activeSentenceModuleView]);
+
+  const togglePhase = (phaseKey) => {
+    setActivePhaseKey(activePhaseKey === phaseKey ? null : phaseKey);
+    setVisibleTranslations({});
+  };
+
+  const toggleTranslation = (sIndex, phaseKey) => {
+    const key = `${phaseKey}-${sIndex}`;
+    setVisibleTranslations((prev) => ({
+      ...prev,
+      [key]: !prev[key],
+    }));
+  };
   
   const TABS = [
     "Home",
@@ -687,124 +747,230 @@ export default function TeluguSentences() {
            </div>
          )}
          {activeTab === "Sentences" && (
-            <div className="space-y-6">
-              {!activeSentenceModule ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                  {Object.keys(groupedSentencesByModule).map((moduleName, i) => {
-                    const startIdx = i * 500;
-                    const isLocked = progress.sentences < startIdx;
-                    const isCompleted = progress.sentences >= (i + 1) * 500;
-                    const isInProgress = !isLocked && !isCompleted;
-                    
-                    return (
-                      <button
-                        key={moduleName}
-                        disabled={isLocked}
-                        onClick={() => setActiveSentenceModule(moduleName)}
-                        className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
-                          isLocked 
-                            ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
-                            : isInProgress
-                            ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
-                            : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
-                        }`}
-                      >
-                        <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
-                        <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{moduleName}</span>
-                        <div className="mt-3">
-                          {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
-                           isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
-                           <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
-                        </div>
-                      </button>
-                    );
-                  })}
-                </div>
-              ) : !activeSentencePartView ? (
-                <div className="space-y-6">
-                  <button 
-                    onClick={() => setActiveSentenceModule(null)}
-                    className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+            <div className="space-y-8 pb-20 w-full max-w-4xl mx-auto">
+              {/* Premium Animated Header */}
+              <motion.div 
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="relative overflow-hidden flex flex-col gap-6 rounded-3xl bg-gradient-to-br from-[#14213D] via-[#1a2f5c] to-[#0f172a] p-8 sm:p-10 text-white shadow-2xl"
+              >
+                <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#C9A227] opacity-20 blur-3xl"></div>
+                <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-[#3F6656] opacity-30 blur-3xl"></div>
+                
+                <div className="relative z-10 space-y-4 text-center sm:text-left flex flex-col items-center sm:items-start">
+                  <motion.div 
+                    initial={{ scale: 0.9, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    transition={{ delay: 0.2 }}
+                    className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/30 bg-[#C9A227]/10 px-4 py-1.5 font-mono text-xs font-bold text-[#e6c148] backdrop-blur-md"
                   >
-                    <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
-                  </button>
-                  
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-6 h-6 text-[#3F6656]" /> {activeSentenceModule}
-                    </h3>
-                  </div>
+                    <Sparkles className="h-4 w-4" /> Fluent Expressions
+                  </motion.div>
+                  <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70">
+                    Daily Conversations
+                  </h1>
+                  <p className="max-w-xl font-sans text-base sm:text-lg text-white/70 leading-relaxed text-center sm:text-left">
+                    Master everyday Telugu sentences grouped by real-life contexts. Use the search bar to find specific phrases instantly.
+                  </p>
+                </div>
+              </motion.div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    {Object.keys(groupedSentencesByModule[activeSentenceModule]).map((category) => {
-                      const setNumStr = category.match(/Part (\d+)/)[1];
-                      const setNum = parseInt(setNumStr, 10);
-                      const startIdx = (setNum - 1) * 10;
-                      const isLocked = progress.sentences < startIdx;
-                      const isCompleted = progress.sentences >= setNum * 10;
-                      const isInProgress = !isLocked && !isCompleted;
-                      
-                      return (
-                        <button
-                          key={category}
-                          disabled={isLocked}
-                          onClick={() => setActiveSentencePartView(category)}
-                          className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
-                            isLocked 
-                              ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
-                              : isInProgress
-                              ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
-                              : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
-                          }`}
-                        >
-                          <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
-                          <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{category}</span>
-                          <div className="mt-3">
-                            {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
-                             isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
-                             <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
-                          </div>
-                        </button>
-                      );
-                    })}
-                  </div>
+              {/* Search Bar */}
+              <motion.div 
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.1 }}
+                className="relative"
+              >
+                <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                  <Search className="h-5 w-5 text-[#14213D]/40" />
                 </div>
-              ) : (
-                <div className="space-y-6">
-                  <button 
-                    onClick={() => setActiveSentencePartView(null)}
-                    className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
-                  >
-                    <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
-                  </button>
-                  
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                      <BookOpen className="w-6 h-6 text-[#3F6656]" /> {activeSentencePartView}
-                    </h3>
-                  </div>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {groupedSentencesByModule[activeSentenceModule][activeSentencePartView].map((sentence) => {
-                       const idx = sentence.id - 1;
-                       const isCompleted = idx < progress.sentences;
-                       const isInProgress = idx === progress.sentences;
-                       const isLocked = idx > progress.sentences;
-                       return (
-                         <WordCard 
-                           key={`sentence-${sentence.id}`} 
-                           word={sentence} 
-                           index={idx}
-                           isCompleted={isCompleted}
-                           isInProgress={isInProgress}
-                           isLocked={isLocked}
-                           onInteract={() => handleInteraction('sentences', idx, sentence.telugu)} 
-                         />
-                       );
-                    })}
-                  </div>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    if (e.target.value.trim() && filteredData.length > 0) {
+                      setActivePhaseKey(filteredData[0].phase);
+                    }
+                  }}
+                  placeholder="Search for sentences in Telugu, English or Tamil..."
+                  className="w-full bg-white/80 backdrop-blur-md border border-[#14213D]/15 rounded-2xl py-4 pl-12 pr-4 font-sans text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-[#C9A227]/50 focus:border-[#C9A227]/50 transition-all text-[#14213D] placeholder:text-[#14213D]/40"
+                />
+              </motion.div>
+
+              {/* Accordion Layout */}
+              <div className="flex flex-col gap-4">
+                  {!searchQuery.trim() && activeSentenceModuleView === null ? (
+                    <div className="space-y-4 pt-4">
+                      <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                        <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {teluguSentencesData.total_sentences} Sentences
+                      </h3>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        {teluguSentencesData.modules.map((moduleData, i) => (
+                          <button
+                            key={moduleData.module}
+                            onClick={() => setActiveSentenceModuleView(i)}
+                            className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#14213D]/10 hover:border-[#C9A227] bg-white hover:bg-[#C9A227]/5 shadow-sm hover:shadow-md"
+                          >
+                            <BookOpen className="w-8 h-8 mb-3 text-[#C9A227]" />
+                            <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
+                            {moduleData.category && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.category}</span>}
+                            <div className="mt-4">
+                              <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/10 px-3 py-1 rounded-full">{moduleData.total_sentences || moduleData.sentences.length} Sentences</span>
+                            </div>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <>
+                      {!searchQuery.trim() && activeSentenceModuleView !== null && (
+                        <div className="mb-2">
+                          <button 
+                            onClick={() => setActiveSentenceModuleView(null)}
+                            className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                          >
+                            <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
+                          </button>
+                        </div>
+                      )}
+
+                      {filteredData.length === 0 ? (
+                        <div className="text-center py-10">
+                          <p className="text-[#14213D]/60 font-sans text-lg">No matches found for "{searchQuery}"</p>
+                        </div>
+                      ) : (
+                        filteredData.map((data, index) => {
+                          const isActive = activePhaseKey === data.phase;
+                          
+                          return (
+                            <motion.div 
+                              initial={{ opacity: 0, y: 20 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              transition={{ delay: Math.min(index * 0.05, 0.5) }}
+                              key={data.phase} 
+                              className={`rounded-3xl border ${isActive ? 'border-[#14213D]/20 shadow-xl bg-white/90 backdrop-blur-md' : 'border-[#14213D]/10 bg-white/60 backdrop-blur-sm'} transition-all duration-300 overflow-hidden`}
+                            >
+                              {/* Accordion Header */}
+                              <button
+                                onClick={() => togglePhase(data.phase)}
+                                className="w-full flex items-center justify-between p-6 sm:p-8 text-left hover:bg-[#14213D]/5 transition-colors"
+                              >
+                                <div>
+                                  <h2 className={`font-display text-2xl font-extrabold ${isActive ? 'text-[#14213D]' : 'text-[#14213D]/80'}`}>
+                                    {data.phase} {completedPhases[data.phase] && <span className="ml-2 inline-flex items-center text-sm font-bold text-[#C9A227] bg-[#C9A227]/10 px-2 py-0.5 rounded-full">⭐ Passed</span>}
+                                  </h2>
+                                  <p className="font-sans text-sm text-[#14213D]/60 mt-1">
+                                    {data.context} • {data.sentences.length} items
+                                  </p>
+                                </div>
+                                <div className={`p-3 rounded-full transition-colors ${isActive ? 'bg-[#14213D]/10' : 'bg-transparent'}`}>
+                                  {isActive ? <ChevronUp className="h-6 w-6 text-[#14213D]" /> : <ChevronDown className="h-6 w-6 text-[#14213D]/60" />}
+                                </div>
+                              </button>
+
+                              {/* Accordion Content */}
+                              <AnimatePresence>
+                                {isActive && (
+                                  <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: "auto", opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    className="overflow-hidden border-t border-[#14213D]/5"
+                                  >
+                                    <div className="p-6 sm:p-8 pt-6">
+                                      {/* Cat Checkpoint Button */}
+                                      <div className="mb-8">
+                                        <button
+                                          onClick={() => setCheckpointPhase(data)}
+                                          className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#14213D] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+                                        >
+                                          <Sparkles className="h-5 w-5 text-[#C9A227]" />
+                                          Phase Oral Checkpoint with Cat AI Teacher
+                                        </button>
+                                      </div>
+
+                                      <div className="space-y-4">
+                                        {data.sentences.map((sentence, sIndex) => {
+                                          const isTranslated = visibleTranslations[`${data.phase}-${sIndex}`];
+                                          
+                                          return (
+                                            <div key={sIndex} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-5 rounded-2xl bg-white border border-[#14213D]/10 hover:border-[#C9A227]/30 hover:shadow-md transition-all duration-300">
+                                              <div className="flex-shrink-0 mt-1">
+                                                <div className="h-10 w-10 rounded-full bg-[#14213D]/5 flex items-center justify-center text-[#14213D]/40 group-hover:bg-[#C9A227]/10 group-hover:text-[#C9A227] transition-colors">
+                                                  <MessageCircle className="h-5 w-5" />
+                                                </div>
+                                              </div>
+                                              
+                                              <div className="flex-1 space-y-3">
+                                                <div className="flex items-start justify-between gap-4">
+                                                  <p className="font-serif text-xl sm:text-2xl text-[#14213D] font-medium leading-snug">
+                                                    {sentence.telugu}
+                                                  </p>
+                                                  <button 
+                                                    onClick={() => playAudio(sentence.telugu)}
+                                                    className="p-2.5 rounded-full hover:bg-gray-100 text-gray-400 hover:text-[#C9A227] transition-colors flex-shrink-0"
+                                                  >
+                                                    <Volume2 className="h-5 w-5" />
+                                                  </button>
+                                                </div>
+                                                
+                                                <div className="flex flex-wrap gap-2">
+                                                  <button
+                                                    onClick={() => toggleTranslation(sIndex, data.phase)}
+                                                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-50 text-amber-700 hover:bg-amber-100 transition-colors"
+                                                  >
+                                                    <Languages className="h-4 w-4" />
+                                                    {isTranslated ? "Hide Translation" : "View Translation"}
+                                                  </button>
+                                                </div>
+                                                
+                                                <AnimatePresence>
+                                                  {isTranslated && (
+                                                    <motion.div
+                                                      initial={{ opacity: 0, y: -10 }}
+                                                      animate={{ opacity: 1, y: 0 }}
+                                                      exit={{ opacity: 0, y: -10 }}
+                                                      className="pt-3 border-t border-gray-100 space-y-2"
+                                                    >
+                                                      <p className="font-sans text-[#14213D]/80">
+                                                        <strong className="text-[#14213D]">Meaning:</strong> {sentence.english}
+                                                      </p>
+                                                      <p className="font-sans text-[#14213D]/60 text-sm">
+                                                        {sentence.tamil}
+                                                      </p>
+                                                      <p className="font-sans text-[#14213D]/60 text-sm italic font-mono bg-gray-50 p-2 rounded-lg mt-2">
+                                                        {sentence.transliteration}
+                                                      </p>
+                                                    </motion.div>
+                                                  )}
+                                                </AnimatePresence>
+                                              </div>
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
+                                    </div>
+                                  </motion.div>
+                                )}
+                              </AnimatePresence>
+                            </motion.div>
+                          );
+                        })
+                      )}
+                    </>
+                  )}
                 </div>
-              )}
+              {/* Checkpoint Modal */}
+              <CatVoiceCheckpoint
+                isOpen={!!checkpointPhase}
+                onClose={() => setCheckpointPhase(null)}
+                phaseData={checkpointPhase}
+                onComplete={handleCheckpointComplete}
+                learningLanguage="telugu"
+                sourceLanguage="english"
+              />
             </div>
          )}
          

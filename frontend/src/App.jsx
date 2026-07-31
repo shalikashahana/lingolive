@@ -6,7 +6,6 @@ import Login from "./pages/shared/Login";
 import Dashboard from "./pages/shared/Dashboard";
 import Vocabulary from "./pages/english/Vocabulary";
 import Reading from "./pages/english/Reading";
-import Chat from "./pages/english/Chat";
 import Quiz from "./pages/english/Quiz";
 import TeluguQuiz from "./pages/telugu/TeluguQuiz";
 import Analytics from "./pages/shared/Analytics";
@@ -78,7 +77,6 @@ export default function App() {
                     <Route path="/path" element={<EnglishPath />} />
                     <Route path="/vocabulary" element={<Vocabulary />} />
                     <Route path="/reading" element={<Reading />} />
-                    <Route path="/chat" element={<Chat />} />
                     <Route path="/quiz" element={<Quiz />} />
                     <Route path="/telugu-quiz" element={<TeluguQuiz />} />
                     <Route path="/korean-quiz" element={<KoreanQuiz />} />

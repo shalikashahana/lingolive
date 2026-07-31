@@ -56,7 +56,6 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     { label: "Quiz Dashboard", path: "/path", icon: Map },
     { label: "Vocabulary", path: "/vocabulary", icon: BookMarked },
     { label: "Reading", path: "/reading", icon: BookOpen },
-    { label: "AI Tutor", path: "/chat", icon: MessageSquareCode, badge: "Gemma" },
     { label: "Quizzes", path: "/quiz", icon: Zap, hidden: true },
     { label: "Sentences", path: "/sentences", icon: MessageCircle },
     { label: "Idioms", path: "/idioms", icon: Sparkles },
