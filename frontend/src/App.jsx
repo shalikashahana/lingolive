@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AuthContext";
+import { CatTeacherProvider } from "./context/CatTeacherContext";
 import AppLayout from "./components/AppLayout";
 import Login from "./pages/shared/Login";
 import Dashboard from "./pages/shared/Dashboard";
@@ -54,7 +55,8 @@ function PrivateRoute({ children, checkLanguage = true }) {
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <CatTeacherProvider>
+        <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route 
@@ -96,6 +98,7 @@ export default function App() {
                     <Route path="/chinese-learning" element={<ChineseDashboard />} />
                     <Route path="/arabic-learning" element={<ArabicDashboard />} />
 
+
                     <Route path="*" element={<Navigate to="/" replace />} />
                   </Routes>
                 </AppLayout>
@@ -104,6 +107,7 @@ export default function App() {
           />
         </Routes>
       </BrowserRouter>
-    </AuthProvider>
+    </CatTeacherProvider>
+  </AuthProvider>
   );
 }

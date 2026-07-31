@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import koreanQuizJson from "../../data/koreanQuizData.json";
+import { useCatTeacher } from "../../context/CatTeacherContext";
 import {
   Zap,
   CheckCircle2,
@@ -18,6 +19,7 @@ import {
 
 export default function KoreanQuiz({ onExit }) {
   const navigate = useNavigate();
+  const { triggerCatTeacherModal } = useCatTeacher();
   const allQuestions = koreanQuizJson.questions || [];
 
   const handleExit = () => {
@@ -91,25 +93,23 @@ export default function KoreanQuiz({ onExit }) {
       setSelectedOption(null);
     } else {
       setQuizFinished(true);
-      
-      const passed = true;
-      try {
-        if (passed && activeLevel === unlockedLevel && activeLevel < totalLevels) {
-          const newUnlocked = activeLevel + 1;
-          setUnlockedLevel(newUnlocked);
-          localStorage.setItem("korean_quiz_unlocked_level", newUnlocked.toString());
+      triggerCatTeacherModal({
+        language: "korean",
+        category: "Quiz",
+        level: activeLevel || 1,
+        items: questions,
+        onUnlockNextLevel: (nextLvl) => {
+          if (activeLevel === unlockedLevel && activeLevel < totalLevels) {
+            setUnlockedLevel(nextLvl);
+            localStorage.setItem("korean_quiz_unlocked_level", nextLvl.toString());
+          }
+          const savedStats = JSON.parse(localStorage.getItem("korean_stats") || '{"streak":0,"xp":0}');
+          localStorage.setItem("korean_stats", JSON.stringify({
+            streak: savedStats.streak === 0 ? 1 : savedStats.streak,
+            xp: savedStats.xp + 50
+          }));
         }
-
-        const savedStats = JSON.parse(localStorage.getItem("korean_stats") || '{"streak":0,"xp":0}');
-        const xpGain = passed ? 50 : 10;
-        const newStats = {
-          streak: savedStats.streak === 0 ? 1 : savedStats.streak,
-          xp: savedStats.xp + xpGain
-        };
-        localStorage.setItem("korean_stats", JSON.stringify(newStats));
-      } catch(e) {
-        console.error(e);
-      }
+      });
     }
   };
 

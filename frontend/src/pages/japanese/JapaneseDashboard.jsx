@@ -6,6 +6,7 @@ import japaneseNumbersData from "../../data/japaneseNumbersData.json";
 import japaneseSentencesData from "../../data/japaneseSentencesData.json";
 import japaneseQuizData from "../../data/japaneseQuizData.json";
 import { useAuth } from "../../context/AuthContext";
+import { useCatTeacher } from "../../context/CatTeacherContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
   Play, Volume2, Eye, EyeOff, User, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard 
@@ -257,6 +258,8 @@ export default function JapaneseDashboard() {
     window.speechSynthesis.speak(utterance);
   };
 
+  const { triggerCatTeacherModal } = useCatTeacher();
+
   const handleInteraction = (type, index, text) => {
     playAudio(text);
     if (index === progress[type]) {
@@ -271,6 +274,19 @@ export default function JapaneseDashboard() {
       
       localStorage.setItem("japanese_progress", JSON.stringify(newProgress));
       localStorage.setItem("japanese_stats", JSON.stringify(newStats));
+
+      // Cat Teacher popup on completing a set / 10 items
+      if ((index + 1) % 10 === 0) {
+        const categoryArray = type === 'words' ? wordsArray : type === 'numbers' ? numbersArray : type === 'sentences' ? sentencesArray : type === 'alphabets' ? alphabetData : quizArray;
+        const startIdx = Math.max(0, index - 9);
+        const levelItems = categoryArray.slice(startIdx, index + 1);
+        triggerCatTeacherModal({
+          language: "japanese",
+          category: type,
+          level: Math.floor((index + 1) / 10),
+          items: levelItems
+        });
+      }
     }
   };
 

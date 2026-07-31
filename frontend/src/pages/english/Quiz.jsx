@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useSearchParams, useNavigate } from "react-router-dom";
-import { SAMPLE_QUIZZES } from "../../data/mockData";
+import englishTamilQuizData from "../../data/englishTamilQuizData.json";
 import { useAuth } from "../../context/AuthContext";
 import {
   Zap,
@@ -75,52 +75,30 @@ export default function Quiz() {
         }
       }
       setSelectedOption(null);
-      // After fetching progress, if we don't have questions stored locally, fetch them from backend
-      const savedQs = localStorage.getItem(`lingolive_quiz_questions_${levelNum}`);
-      if (savedQs) {
-        setQuestions(JSON.parse(savedQs));
-      } else {
-        await generateNewQuiz();
-      }
+      
+      // Always load 10 questions per level from user's full Tamil-to-English dataset
+      const totalAvailableLevels = Math.max(1, Math.ceil(englishTamilQuizData.length / 10));
+      const startIndex = ((levelNum - 1) % totalAvailableLevels) * 10;
+      const levelItems = englishTamilQuizData.slice(startIndex, startIndex + 10);
 
+      const realQuestions = levelItems.map((item) => {
+        const correctIdx = item.options.indexOf(item.correct_answer);
+        return {
+          id: item.id,
+          type: "mcq",
+          question: `What is the English word for "${item.question_tamil}" (${item.tamil_transliteration})?`,
+          question_tamil: item.question_tamil,
+          tamil_transliteration: item.tamil_transliteration,
+          options: item.options,
+          correct_index: correctIdx >= 0 ? correctIdx : 0,
+          correct_answer: item.correct_answer,
+          explanation: `"${item.question_tamil}" (${item.tamil_transliteration}) means "${item.correct_answer}".`
+        };
+      });
+
+      setQuestions(realQuestions);
       setLoadingProgress(false);
       isInitialLoad.current = false;
-    };
-
-    const generateNewQuiz = async () => {
-      setGeneratingQuiz(true);
-      let loadedFromBackend = false;
-      if (user) {
-        try {
-          const token = await user.getIdToken();
-          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
-          const res = await fetch(`${baseUrl}/quiz/generate/${levelNum}`, {
-            headers: {
-              Authorization: `Bearer ${token}`
-            }
-          });
-          if (res.ok) {
-            const data = await res.json();
-            if (data.questions && data.questions.length > 0) {
-              setQuestions(data.questions);
-              localStorage.setItem(`lingolive_quiz_questions_${levelNum}`, JSON.stringify(data.questions));
-              loadedFromBackend = true;
-            }
-          }
-        } catch (e) {
-          console.error("Failed to generate quiz", e);
-        }
-      }
-      
-      if (!loadedFromBackend) {
-        const fallbackQuiz = SAMPLE_QUIZZES[levelNum] || SAMPLE_QUIZZES[1];
-        if (fallbackQuiz && fallbackQuiz.questions) {
-          setQuestions(fallbackQuiz.questions);
-          localStorage.setItem(`lingolive_quiz_questions_${levelNum}`, JSON.stringify(fallbackQuiz.questions));
-        }
-      }
-
-      setGeneratingQuiz(false);
     };
 
     fetchProgress();

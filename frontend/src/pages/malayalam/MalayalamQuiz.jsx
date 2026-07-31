@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useCatTeacher } from "../../context/CatTeacherContext";
 import malayalamQuizData from "../../data/malayalamQuizData.json";
 import {
   Zap,
@@ -18,6 +19,7 @@ const allMalayalamQuestions = malayalamQuizData.modules.reduce((acc, mod) => [..
 
 export default function MalayalamQuiz({ onExit }) {
   const navigate = useNavigate();
+  const { triggerCatTeacherModal } = useCatTeacher();
   
   const handleExit = () => {
     if (onExit) onExit();
@@ -106,6 +108,12 @@ export default function MalayalamQuiz({ onExit }) {
       setSelectedOption(null);
     } else {
       setQuizFinished(true);
+      triggerCatTeacherModal({
+        language: "malayalam",
+        category: "Quiz",
+        level: activeLevel || 1,
+        items: questions
+      });
       
       const scorePercentage = Math.round((scoreCount / questions.length) * 100);
       const passed = true; // Always unlock next level upon finishing

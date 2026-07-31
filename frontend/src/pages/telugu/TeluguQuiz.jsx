@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { teluguQuizData } from "../../data/teluguQuizData";
+import { useAuth } from "../../context/AuthContext";
+import { useCatTeacher } from "../../context/CatTeacherContext";
 import {
   Zap,
   CheckCircle2,
@@ -16,6 +18,7 @@ import {
 
 export default function TeluguQuiz({ onExit }) {
   const navigate = useNavigate();
+  const { triggerCatTeacherModal } = useCatTeacher();
   
   const handleExit = () => {
     if (onExit) onExit();
@@ -75,28 +78,24 @@ export default function TeluguQuiz({ onExit }) {
     } else {
       setQuizFinished(true);
       
-      const scorePercentage = Math.round((scoreCount / questions.length) * 100);
-      const passed = true; // Always unlock next level upon finishing
-      
       const totalLevels = Math.ceil(teluguQuizData.length / 10);
-      try {
-        // Unlock next level if passed and it's the current max
-        if (passed && activeLevel === unlockedLevel && activeLevel < totalLevels) {
-          const newUnlocked = activeLevel + 1;
-          setUnlockedLevel(newUnlocked);
-          localStorage.setItem("telugu_quiz_unlocked_level", newUnlocked.toString());
+      triggerCatTeacherModal({
+        language: "telugu",
+        category: "Quiz",
+        level: activeLevel || 1,
+        items: questions,
+        onUnlockNextLevel: (nextLvl) => {
+          if (activeLevel === unlockedLevel && activeLevel < totalLevels) {
+            setUnlockedLevel(nextLvl);
+            localStorage.setItem("telugu_quiz_unlocked_level", nextLvl.toString());
+          }
+          const savedStats = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
+          localStorage.setItem("telugu_stats", JSON.stringify({
+            streak: savedStats.streak === 0 ? 1 : savedStats.streak,
+            xp: savedStats.xp + 50
+          }));
         }
-
-        const savedStats = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
-        const xpGain = passed ? 50 : 10;
-        const newStats = {
-          streak: savedStats.streak === 0 ? 1 : savedStats.streak,
-          xp: savedStats.xp + xpGain
-        };
-        localStorage.setItem("telugu_stats", JSON.stringify(newStats));
-      } catch(e) {
-        console.error(e);
-      }
+      });
     }
   };
 

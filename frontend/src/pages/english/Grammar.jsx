@@ -1,7 +1,8 @@
 import { useState, useMemo, useEffect } from "react";
 import { grammarData } from "../../data/grammarData";
-import { BookA, MessageCircle, Volume2, Languages, ChevronDown, ChevronUp, Search, GraduationCap, ArrowLeft, Layers, Component, FileText } from "lucide-react";
+import { BookA, MessageCircle, Volume2, Languages, ChevronDown, ChevronUp, Search, GraduationCap, ArrowLeft, Layers, Component, FileText, Sparkles } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import CatVoiceCheckpoint from "../../components/catTeacher/CatVoiceCheckpoint";
 
 export default function Grammar() {
   const [activeCategoryIdx, setActiveCategoryIdx] = useState(null);
@@ -10,6 +11,18 @@ export default function Grammar() {
   
   const [visibleTranslations, setVisibleTranslations] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
+  const [checkpointPhase, setCheckpointPhase] = useState(null);
+  const [completedPhases, setCompletedPhases] = useState(() => {
+    return JSON.parse(localStorage.getItem("grammar_cat_completed_phases") || "{}");
+  });
+
+  const handleCheckpointComplete = (score, total) => {
+    if (checkpointPhase) {
+      const updated = { ...completedPhases, [checkpointPhase.phase]: { score, total } };
+      setCompletedPhases(updated);
+      localStorage.setItem("grammar_cat_completed_phases", JSON.stringify(updated));
+    }
+  };
 
   const filteredData = useMemo(() => {
     if (!searchQuery.trim()) return grammarData;
@@ -359,7 +372,7 @@ export default function Grammar() {
                         <FileText className="h-4 w-4" />
                       </div>
                       <h3 className="font-bold text-[#14213D] text-sm sm:text-base leading-snug pr-4">
-                        {section.title}
+                        {section.title} {completedPhases[section.title] && <span className="ml-1 text-[#C9A227]">⭐</span>}
                       </h3>
                       <p className="text-sm text-[#14213D]/60 font-medium mt-2">
                         {section.items.length} Sentences
@@ -390,8 +403,28 @@ export default function Grammar() {
                     </p>
                     <h2 className="font-display text-xl font-bold text-[#14213D] leading-none">
                       {filteredData[activeCategoryIdx].subcategories[activeSubcategoryIdx].sections[activeSectionIdx].title}
+                      {completedPhases[filteredData[activeCategoryIdx].subcategories[activeSubcategoryIdx].sections[activeSectionIdx].title] && (
+                        <span className="ml-2 inline-flex items-center text-sm font-bold text-[#C9A227] bg-[#C9A227]/10 px-2 py-0.5 rounded-full">⭐ Passed</span>
+                      )}
                     </h2>
                   </div>
+                </div>
+
+                {/* Cat AI Checkpoint Button */}
+                <div className="mt-4 mb-6">
+                  <button
+                    onClick={() => {
+                      const section = filteredData[activeCategoryIdx].subcategories[activeSubcategoryIdx].sections[activeSectionIdx];
+                      setCheckpointPhase({
+                        phase: section.title,
+                        sentences: section.items
+                      });
+                    }}
+                    className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#14213D] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+                  >
+                    <Sparkles className="h-5 w-5 text-[#C9A227]" />
+                    Section Oral Checkpoint with Cat AI Teacher
+                  </button>
                 </div>
 
                 <div className="space-y-4">
@@ -406,6 +439,14 @@ export default function Grammar() {
           </AnimatePresence>
         )}
       </div>
+
+      {/* Checkpoint Modal */}
+      <CatVoiceCheckpoint
+        isOpen={!!checkpointPhase}
+        onClose={() => setCheckpointPhase(null)}
+        phaseData={checkpointPhase}
+        onComplete={handleCheckpointComplete}
+      />
     </div>
   );
 }

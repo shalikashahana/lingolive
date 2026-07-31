@@ -8,14 +8,17 @@ import {
   Sparkles,
   ArrowLeft,
   Info,
-  ChevronRight
+  ChevronRight,
+  Mic
 } from "lucide-react";
+import CatReadingEvaluator from "../../components/catTeacher/CatReadingEvaluator";
 
 export default function Reading() {
   const [selectedPassage, setSelectedPassage] = useState(null);
   const [selectedWordPopover, setSelectedWordPopover] = useState(null);
   const [completedPassages, setCompletedPassages] = useState({});
   const { user } = useAuth();
+  const [evaluatorOpen, setEvaluatorOpen] = useState(false);
 
   useEffect(() => {
     async function fetchLearned() {
@@ -162,11 +165,11 @@ export default function Reading() {
 
           <div className="relative rounded-3xl border border-[#14213D]/15 bg-white p-6 shadow-xl sm:p-10">
             <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#14213D]/10 pb-6">
-              <div>
-                <span className="rounded-full bg-[#14213D]/10 px-3 py-1 font-mono text-xs font-bold text-[#14213D]">
-                  CEFR {selectedPassage.cefr_level} Story
+              <div className="mb-6 max-w-[85%]">
+                <span className="rounded-full bg-[#14213D] px-3 py-1 font-mono text-xs font-bold text-[#C9A227] mb-3 inline-block">
+                  CEFR {selectedPassage.cefr_level}
                 </span>
-                <h2 className="mt-2 font-display text-3xl font-bold text-[#14213D]">
+                <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-[#14213D] leading-tight">
                   {selectedPassage.title}
                 </h2>
               </div>
@@ -191,6 +194,17 @@ export default function Reading() {
                   {completedPassages[selectedPassage.id] ? "Story Completed" : "Mark as Read"}
                 </button>
               </div>
+            </div>
+
+            {/* Read Aloud to Cat Teacher Button */}
+            <div className="mb-8 mt-2">
+              <button
+                onClick={() => setEvaluatorOpen(true)}
+                className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#3F6656] to-[#2d4a3e] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+              >
+                <Mic className="h-5 w-5 text-emerald-400" />
+                Read Aloud to Cat AI Teacher
+              </button>
             </div>
 
             {/* Passage Body with Interactive Word Highlights */}
@@ -246,6 +260,14 @@ export default function Reading() {
           </div>
         </div>
       )}
+
+      {/* Cat AI Reading Evaluator Modal */}
+      <CatReadingEvaluator
+        isOpen={evaluatorOpen}
+        onClose={() => setEvaluatorOpen(false)}
+        passage={selectedPassage}
+        onComplete={(acc, wpm) => markCompleted(selectedPassage.id)}
+      />
     </div>
   );
 }

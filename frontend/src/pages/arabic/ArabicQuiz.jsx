@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { useCatTeacher } from "../../context/CatTeacherContext";
 import arabicQuizData from "../../data/arabicQuizData.json";
 import arabicQuizData2 from "../../data/arabicQuizData2.json";
 import arabicQuizData3 from "../../data/arabicQuizData3.json";
@@ -39,6 +40,7 @@ const LEVELS_PER_MODULE = 10;
 
 export default function ArabicQuiz({ onExit }) {
   const navigate = useNavigate();
+  const { triggerCatTeacherModal } = useCatTeacher();
 
   const handleExit = () => {
     if (onExit) onExit();
@@ -110,6 +112,12 @@ export default function ArabicQuiz({ onExit }) {
     } else {
       // Level complete
       setQuizFinished(true);
+      triggerCatTeacherModal({
+        language: "arabic",
+        category: "Quiz",
+        level: activeLevel || 1,
+        items: questions
+      });
       try {
         const modTotalLevels = Math.ceil(ALL_MODULES[activeModuleIdx].questions.length / QUESTIONS_PER_LEVEL);
         if (activeLevel === unlockedLevel && activeLevel < modTotalLevels) {

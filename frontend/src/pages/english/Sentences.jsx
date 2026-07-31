@@ -2,11 +2,24 @@ import { useState, useMemo } from "react";
 import { sentencesData } from "../../data/sentencesData";
 import { Sparkles, MessageCircle, Volume2, Languages, ChevronDown, ChevronUp, Search, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import CatVoiceCheckpoint from "../../components/catTeacher/CatVoiceCheckpoint";
 
 export default function Sentences() {
   const [activePhaseKey, setActivePhaseKey] = useState(sentencesData[0].phase);
   const [visibleTranslations, setVisibleTranslations] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
+  const [checkpointPhase, setCheckpointPhase] = useState(null);
+  const [completedPhases, setCompletedPhases] = useState(() => {
+    return JSON.parse(localStorage.getItem("sentences_cat_completed_phases") || "{}");
+  });
+
+  const handleCheckpointComplete = (score, total) => {
+    if (checkpointPhase) {
+      const updated = { ...completedPhases, [checkpointPhase.phase]: { score, total } };
+      setCompletedPhases(updated);
+      localStorage.setItem("sentences_cat_completed_phases", JSON.stringify(updated));
+    }
+  };
 
   const filteredData = useMemo(() => {
     if (!searchQuery.trim()) return sentencesData;
@@ -131,7 +144,7 @@ export default function Sentences() {
                 >
                   <div>
                     <h2 className={`font-display text-2xl font-extrabold ${isActive ? 'text-[#14213D]' : 'text-[#14213D]/80'}`}>
-                      {data.phase}
+                      {data.phase} {completedPhases[data.phase] && <span className="ml-2 inline-flex items-center text-sm font-bold text-[#C9A227] bg-[#C9A227]/10 px-2 py-0.5 rounded-full">⭐ Passed</span>}
                     </h2>
                     <p className="font-sans text-sm text-[#14213D]/60 mt-1">
                       {data.context} • {data.sentences.length} items
@@ -153,6 +166,16 @@ export default function Sentences() {
                       className="overflow-hidden"
                     >
                       <div className="p-6 pt-0 space-y-4 border-t border-[#14213D]/5 mt-2">
+                        {/* Cat AI Checkpoint Button */}
+                        <div className="mb-6">
+                          <button
+                            onClick={() => setCheckpointPhase(data)}
+                            className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#14213D] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+                          >
+                            <Sparkles className="h-5 w-5 text-[#C9A227]" />
+                            Phase Oral Checkpoint with Cat AI Teacher
+                          </button>
+                        </div>
                         {data.sentences.map((sentenceObj, sIndex) => {
                           const transKey = `${data.phase}-${sIndex}`;
                           return (
@@ -238,6 +261,14 @@ export default function Sentences() {
           })
         )}
       </div>
+
+      {/* Checkpoint Modal */}
+      <CatVoiceCheckpoint
+        isOpen={!!checkpointPhase}
+        onClose={() => setCheckpointPhase(null)}
+        phaseData={checkpointPhase}
+        onComplete={handleCheckpointComplete}
+      />
     </div>
   );
 }
