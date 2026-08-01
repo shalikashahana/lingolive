@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from "./context/AuthContext";
 import { CatTeacherProvider } from "./context/CatTeacherContext";
 import AppLayout from "./components/AppLayout";
 import Login from "./pages/shared/Login";
+import AboutUs from "./pages/shared/AboutUs";
 import Dashboard from "./pages/shared/Dashboard";
 import Vocabulary from "./pages/english/Vocabulary";
 import Reading from "./pages/english/Reading";
@@ -23,6 +24,7 @@ import MalayalamDashboard from "./pages/malayalam/MalayalamDashboard";
 import KoreanDashboard from "./pages/korean/KoreanDashboard";
 import KoreanQuiz from "./pages/korean/KoreanQuiz";
 import JapaneseDashboard from "./pages/japanese/JapaneseDashboard";
+import TeluguDashboard from "./pages/telugu/TeluguDashboard";
 import ThaiDashboard from "./pages/thai/ThaiDashboard";
 import ChineseDashboard from "./pages/chinese/ChineseDashboard";
 import ArabicDashboard from "./pages/arabic/ArabicDashboard";
@@ -58,6 +60,7 @@ export default function App() {
         <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route 
             path="/select-language" 
             element={
@@ -95,6 +98,7 @@ export default function App() {
                     <Route path="/thai-learning" element={<ThaiDashboard />} />
                     <Route path="/chinese-learning" element={<ChineseDashboard />} />
                     <Route path="/arabic-learning" element={<ArabicDashboard />} />
+                    <Route path="/telugu-learning" element={<TeluguDashboard />} />
 
 
                     <Route path="*" element={<Navigate to="/" replace />} />

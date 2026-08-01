@@ -152,24 +152,24 @@ export default function TeluguSentences() {
 
   const formattedTeluguSentences = useMemo(() => {
     const parts = [];
-    teluguSentencesData.modules.forEach((mod, modIndex) => {
-      const sentences = mod.sentences;
-      for (let i = 0; i < sentences.length; i += 10) {
-        const partSentences = sentences.slice(i, i + 10);
-        parts.push({
-          moduleIndex: modIndex,
-          moduleName: mod.module,
-          phase: `Module ${mod.module} - Part ${Math.floor(i / 10) + 1} (${i + 1}-${i + partSentences.length})`,
-          context: mod.category || "Basic Sentences",
-          sentences: partSentences.map(s => ({
-            english: s.english_meaning || "",
-            tamil: s.tamil_meaning || "",
-            telugu: s.telugu || "",
-            transliteration: s.english_transliteration || ""
-          }))
-        });
-      }
-    });
+    const moduleSize = 100;
+    for (let i = 0; i < teluguSentences.length; i += 10) {
+      const partSentences = teluguSentences.slice(i, i + 10);
+      const moduleIndex = Math.floor(i / moduleSize);
+      const moduleName = String(moduleIndex + 1);
+      parts.push({
+        moduleIndex: moduleIndex,
+        moduleName: moduleName,
+        phase: `Module ${moduleName} - Part ${Math.floor((i % moduleSize) / 10) + 1} (${i + 1}-${Math.min(i + 10, teluguSentences.length)})`,
+        context: "Basic Sentences",
+        sentences: partSentences.map(s => ({
+          english: s.en || "",
+          tamil: s.ta || "",
+          telugu: s.te || "",
+          transliteration: s.tr || ""
+        }))
+      });
+    }
     return parts;
   }, []);
 

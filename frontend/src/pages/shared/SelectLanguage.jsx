@@ -21,12 +21,19 @@ export default function SelectLanguage() {
   const { user } = useAuth();
 
   const handleSelect = (code) => {
-    setSelected(code);
     localStorage.setItem("lingolive_target_language", code);
-  };
-
-  const handleContinue = () => {
-    navigate("/dashboard");
+    const routes = {
+      en: "/dashboard",
+      te: "/telugu-learning",
+      ml: "/malayalam-learning",
+      hi: "/hindi-learning",
+      ar: "/arabic-learning",
+      ko: "/korean-learning",
+      th: "/thai-learning",
+      zh: "/chinese-learning",
+      ja: "/japanese-learning"
+    };
+    navigate(routes[code] || "/dashboard");
   };
 
   return (
@@ -73,15 +80,6 @@ export default function SelectLanguage() {
           ))}
         </div>
 
-        <div className="relative z-10 flex justify-center mt-8">
-          <button
-            onClick={handleContinue}
-            className="group flex items-center gap-3 rounded-xl bg-[#C9A227] px-8 py-4 font-sans text-sm font-bold text-[#14213D] shadow-lg transition-all hover:brightness-110 active:scale-95"
-          >
-            <span>Continue</span>
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </button>
-        </div>
       </div>
     </div>
   );
