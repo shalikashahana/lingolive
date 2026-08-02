@@ -8,6 +8,9 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
+      workbox: {
+        maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15 MB — needed for large bundle
+      },
       manifest: {
         name: "LingoLive",
         short_name: "LingoLive",
