@@ -60,8 +60,9 @@ const SCENARIOS = [
 
 export default function Chat() {
   const [searchParams] = useSearchParams();
-  const levelNum = searchParams.get("level") || "1";
   const { user } = useAuth();
+
+  const levelNum = searchParams.get("level") || "1";
 
   const [inputMessage, setInputMessage] = useState("");
   const [loading, setLoading] = useState(false);
@@ -380,7 +381,7 @@ export default function Chat() {
               </span>
             </div>
             <p className="font-mono text-xs text-slate-400">
-              Level {levelNum} Proficiency • Live Voice & Text
+              Real-Time English Conversation Coach • Live Voice &amp; Text
             </p>
           </div>
         </div>

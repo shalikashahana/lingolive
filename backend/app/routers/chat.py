@@ -17,10 +17,8 @@ async def chat_health():
 @router.post("/message")
 async def send_chat_message(payload: ChatMessagePayload):
     user_text = payload.message.strip()
-    level = payload.level or "1"
-    
-    prompt = f"{TUTOR_SYSTEM_PROMPT}\n\nThe user is at Level {level} (out of 100).\nUser Message: \"{user_text}\"\n"
-    
-    result = await call_gemma(prompt)
+    full_prompt = f"{TUTOR_SYSTEM_PROMPT}\n\nUser Message: \"{user_text}\"\n"
+    result = await call_gemma(full_prompt)
     return result
+
 
