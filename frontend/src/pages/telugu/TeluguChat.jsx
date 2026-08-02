@@ -327,7 +327,7 @@ export default function TeluguChat() {
   ];
 
   return (
-    <div className="relative mx-auto max-w-5xl h-[calc(100vh-7.5rem)] flex flex-col rounded-3xl border border-amber-500/20 bg-[#050816] text-white shadow-2xl overflow-hidden font-sans">
+    <div className="relative w-full h-[calc(100vh-9rem)] flex flex-col rounded-3xl border border-amber-500/20 bg-[#050816] text-white shadow-2xl overflow-hidden font-sans">
 
       {/* ── Header ── */}
       <div className="flex flex-wrap items-center justify-between gap-4 border-b border-amber-500/20 bg-gradient-to-r from-amber-900/30 via-[#0f172a] to-[#050816] px-6 py-4 backdrop-blur-xl z-10">

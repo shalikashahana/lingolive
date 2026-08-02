@@ -11,8 +11,9 @@ import { teluguSentences } from "../../data/teluguSentencesData";
 import { useAuth } from "../../context/AuthContext";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
-  Play, Volume2, Eye, EyeOff, User, Filter, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard, Search, MessageCircle, ChevronDown, ChevronUp
+  Play, Volume2, Eye, EyeOff, User, Filter, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard, Search, MessageCircle, ChevronDown, ChevronUp, Bot
 } from "lucide-react";
+import TeluguChat from "./TeluguChat";
 
 function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked, onInteract }) {
   const [revealed, setRevealed] = useState(false);
@@ -231,7 +232,8 @@ export default function TeluguSentences() {
     "Essential Words",
     "Numbers (1-100)",
     "Sentences",
-    "Quiz Dashboard"
+    "Quiz Dashboard",
+    "AI Conversation"
   ];
 
   // Progress Tracking State
@@ -261,7 +263,8 @@ export default function TeluguSentences() {
     { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: teluguWords.words?.length || 0, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
     { key: "numbers", label: "Numbers (1-100)", tab: TABS[3], icon: "🔢", total: teluguNumbers.numbers?.length || 100, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
     { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: teluguSentences?.length || 0, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "quiz", label: "Quiz Dashboard", tab: TABS[5], icon: "⚡", total: null, color: "#f97316", bg: "bg-orange-50", border: "border-orange-200" }
+    { key: "quiz", label: "Quiz Dashboard", tab: TABS[5], icon: "⚡", total: null, color: "#f97316", bg: "bg-orange-50", border: "border-orange-200" },
+    { key: "ai", label: "AI Conversation", tab: TABS[6], icon: "🤖", total: null, color: "#7c3aed", bg: "bg-violet-50", border: "border-violet-200" }
   ];
 
   const playAudio = (text) => {
@@ -362,6 +365,7 @@ export default function TeluguSentences() {
               if (name.includes("Numbers")) return <span className="text-sm font-mono font-bold text-current">12</span>;
               if (name.includes("Sentences")) return <BookOpen className="w-4 h-4 text-current" />;
               if (name.includes("Quiz")) return <Zap className="w-4 h-4 text-current" />;
+              if (name.includes("AI")) return <Bot className="w-4 h-4 text-current" />;
               return <CheckCircle2 className="w-4 h-4 text-current" />;
             };
 
@@ -977,6 +981,12 @@ export default function TeluguSentences() {
          {activeTab === "Quiz Dashboard" && (
            <div className="-mx-4 sm:-mx-10 -my-6 sm:-my-10">
              <TeluguQuiz onExit={() => setActiveTab(TABS[0])} />
+           </div>
+         )}
+
+         {activeTab === "AI Conversation" && (
+           <div className="-mx-4 sm:-mx-10 -my-6 sm:-my-10">
+             <TeluguChat />
            </div>
          )}
         </div>
