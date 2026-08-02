@@ -37,7 +37,6 @@ export default function Sentences() {
 
   const togglePhase = (phaseKey) => {
     setActivePhaseKey(activePhaseKey === phaseKey ? null : phaseKey);
-    // Reset translations when changing phase
     setVisibleTranslations({});
   };
 
@@ -48,7 +47,6 @@ export default function Sentences() {
       [key]: !prev[key],
     }));
 
-    // Update sentences practiced stat
     if (!visibleTranslations[key]) {
       const currentStats = JSON.parse(localStorage.getItem("sentences_stats") || '{"practiced":0}');
       currentStats.practiced += 1;
@@ -66,200 +64,142 @@ export default function Sentences() {
   };
 
   return (
-    <div className="space-y-8 pb-20 max-w-4xl mx-auto">
-      {/* Premium Animated Header */}
+    <div className="space-y-8 pb-20 max-w-4xl mx-auto font-sans text-white">
+      {/* Premium Header */}
       <motion.div 
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -15 }}
         animate={{ opacity: 1, y: 0 }}
-        className="relative overflow-hidden flex flex-col gap-6 rounded-3xl bg-gradient-to-br from-[#14213D] via-[#1a2f5c] to-[#0f172a] p-8 sm:p-10 text-white shadow-2xl"
+        className="relative overflow-hidden flex flex-col gap-4 rounded-3xl border border-white/10 bg-gradient-to-r from-blue-950 via-[#0f172a] to-[#050816] p-8 sm:p-10 shadow-2xl"
       >
-        <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#C9A227] opacity-20 blur-3xl"></div>
-        <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-[#3F6656] opacity-30 blur-3xl"></div>
-        
-        <div className="relative z-10 space-y-4 text-center sm:text-left flex flex-col items-center sm:items-start">
-          <motion.div 
-            initial={{ scale: 0.9, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/30 bg-[#C9A227]/10 px-4 py-1.5 font-mono text-xs font-bold text-[#e6c148] backdrop-blur-md"
-          >
-            <Sparkles className="h-4 w-4" /> Fluent Expressions
-          </motion.div>
-          <h1 className="font-display text-4xl sm:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70">
-            Daily Conversations
-          </h1>
-          <p className="max-w-xl font-sans text-base sm:text-lg text-white/70 leading-relaxed text-center sm:text-left">
-            Master 300+ everyday English sentences grouped by real-life contexts. Use the search bar to find specific phrases instantly.
-          </p>
+        <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-3.5 py-1 font-mono text-xs font-bold text-sky-300 w-fit">
+          <MessageCircle className="h-4 w-4 text-sky-400" /> Daily Sentences & Phrases
         </div>
+        <h1 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+          Contextual Daily Sentences
+        </h1>
+        <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
+          Master high-frequency conversational sentences categorized by practical real-life situations.
+        </p>
       </motion.div>
 
       {/* Search Bar */}
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.1 }}
-        className="relative"
-      >
-        <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-          <Search className="h-5 w-5 text-[#14213D]/40" />
-        </div>
+      <div className="relative">
+        <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-500" />
         <input
           type="text"
           value={searchQuery}
-          onChange={(e) => {
-            setSearchQuery(e.target.value);
-            // If searching, auto-expand the first result
-            if (e.target.value.trim() && filteredData.length > 0) {
-              setActivePhaseKey(filteredData[0].phase);
-            }
-          }}
-          placeholder="Search for sentences in English or Tamil..."
-          className="w-full bg-white/80 backdrop-blur-md border border-[#14213D]/15 rounded-2xl py-4 pl-12 pr-4 font-sans text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-[#C9A227]/50 focus:border-[#C9A227]/50 transition-all text-[#14213D] placeholder:text-[#14213D]/40"
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search sentences in English or Tamil..."
+          className="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 font-sans text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-400 transition-colors shadow-lg"
         />
-      </motion.div>
+      </div>
 
-      {/* Accordion Layout */}
-      <div className="flex flex-col gap-4">
-        {filteredData.length === 0 ? (
-          <div className="text-center py-10">
-            <p className="text-[#14213D]/60 font-sans text-lg">No matches found for "{searchQuery}"</p>
-          </div>
-        ) : (
-          filteredData.map((data, index) => {
-            const isActive = activePhaseKey === data.phase;
-            
-            return (
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.05 }}
-                key={data.phase} 
-                className={`rounded-3xl border ${isActive ? 'border-[#14213D]/20 shadow-xl bg-white/90 backdrop-blur-md' : 'border-[#14213D]/10 bg-white/60 backdrop-blur-sm'} transition-all duration-300 overflow-hidden`}
+      {/* Accordion List */}
+      <div className="space-y-4">
+        {filteredData.map((phaseObj) => {
+          const isOpen = searchQuery.trim() !== "" || activePhaseKey === phaseObj.phase;
+          const isCompleted = completedPhases[phaseObj.phase];
+
+          return (
+            <div 
+              key={phaseObj.phase}
+              className="rounded-3xl border border-white/10 bg-white/[0.03] shadow-xl overflow-hidden transition-all"
+            >
+              <button
+                onClick={() => togglePhase(phaseObj.phase)}
+                className="w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition-colors"
               >
-                {/* Accordion Header */}
-                <button
-                  onClick={() => togglePhase(data.phase)}
-                  className="w-full flex items-center justify-between p-6 sm:p-8 text-left hover:bg-[#14213D]/5 transition-colors"
-                >
+                <div className="flex items-center gap-4">
+                  <div className="h-10 w-10 rounded-2xl bg-blue-600/20 text-sky-400 flex items-center justify-center font-bold font-mono text-sm">
+                    {phaseObj.sentences.length}
+                  </div>
                   <div>
-                    <h2 className={`font-display text-2xl font-extrabold ${isActive ? 'text-[#14213D]' : 'text-[#14213D]/80'}`}>
-                      {data.phase} {completedPhases[data.phase] && <span className="ml-2 inline-flex items-center text-sm font-bold text-[#C9A227] bg-[#C9A227]/10 px-2 py-0.5 rounded-full">⭐ Passed</span>}
-                    </h2>
-                    <p className="font-sans text-sm text-[#14213D]/60 mt-1">
-                      {data.context} • {data.sentences.length} items
-                    </p>
+                    <h3 className="font-heading text-lg font-bold text-white flex items-center gap-2">
+                      {phaseObj.phase}
+                      {isCompleted && (
+                        <span className="inline-flex items-center text-xs font-bold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-2.5 py-0.5 rounded-full">
+                          ⭐ Passed
+                        </span>
+                      )}
+                    </h3>
+                    <p className="text-xs text-slate-400 mt-0.5">Click to view practice sentences</p>
                   </div>
-                  <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl transition-colors ${isActive ? 'bg-[#14213D] text-white' : 'bg-[#14213D]/10 text-[#14213D]'}`}>
-                    {isActive ? <ChevronUp className="h-6 w-6" /> : <ChevronDown className="h-6 w-6" />}
-                  </div>
-                </button>
+                </div>
 
-                {/* Accordion Content (Sentences & Idioms) */}
-                <AnimatePresence>
-                  {isActive && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className="overflow-hidden"
+                <div className="h-8 w-8 rounded-full bg-white/5 text-slate-400 flex items-center justify-center">
+                  {isOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                </div>
+              </button>
+
+              <AnimatePresence>
+                {isOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, height: 0 }}
+                    animate={{ opacity: 1, height: "auto" }}
+                    exit={{ opacity: 0, height: 0 }}
+                    className="overflow-hidden border-t border-white/10 bg-black/20 p-6 space-y-4"
+                  >
+                    {/* Checkpoint button */}
+                    <button
+                      onClick={() => setCheckpointPhase(phaseObj)}
+                      className="w-full flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 p-3.5 font-bold text-white shadow-lg shadow-blue-600/30 transition-all text-xs"
                     >
-                      <div className="p-6 pt-0 space-y-4 border-t border-[#14213D]/5 mt-2">
-                        {/* Cat AI Checkpoint Button */}
-                        <div className="mb-6">
-                          <button
-                            onClick={() => setCheckpointPhase(data)}
-                            className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#14213D] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
-                          >
-                            <Sparkles className="h-5 w-5 text-[#C9A227]" />
-                            Phase Oral Checkpoint with Cat AI Teacher
-                          </button>
-                        </div>
-                        {data.sentences.map((sentenceObj, sIndex) => {
-                          const transKey = `${data.phase}-${sIndex}`;
-                          return (
-                            <motion.div
-                              initial={{ opacity: 0, x: -10 }}
-                              animate={{ opacity: 1, x: 0 }}
-                              transition={{ delay: Math.min(sIndex * 0.03, 0.3) }}
-                              key={sIndex}
-                              className="group relative flex flex-col gap-4 rounded-2xl border border-white/50 bg-[#F8F6F0]/80 p-5 shadow-sm hover:shadow-md hover:bg-white transition-all duration-300"
+                      <Sparkles className="h-4 w-4 text-amber-300" />
+                      Take Oral Checkpoint with Cat AI
+                    </button>
+
+                    {phaseObj.sentences.map((s, idx) => {
+                      const itemKey = `${phaseObj.phase}-${idx}`;
+                      const isTransVisible = visibleTranslations[itemKey];
+
+                      return (
+                        <div key={idx} className="p-5 rounded-2xl border border-white/10 bg-white/[0.02] space-y-3">
+                          <div className="flex items-start gap-3">
+                            <Quote className="h-4 w-4 text-sky-400 shrink-0 mt-1" />
+                            <div className="flex-1">
+                              <p className="font-semibold text-white text-base leading-relaxed">
+                                {s.english}
+                              </p>
+                              <p className="text-xs text-sky-300 font-medium mt-1">
+                                {s.tamil}
+                              </p>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-2 pt-2 border-t border-white/5">
+                            <button
+                              onClick={() => playAudio(s.english)}
+                              className="flex items-center gap-1.5 rounded-xl bg-blue-500/10 border border-blue-500/20 px-3 py-1.5 text-xs font-semibold text-sky-300 hover:bg-blue-500/20"
                             >
-                              <div className="absolute top-0 left-0 w-1 h-full rounded-l-2xl bg-gradient-to-b from-[#C9A227] to-[#e6c148] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                              
-                              <div className="flex items-start justify-between gap-4">
-                                <div className="flex items-start gap-4 flex-1">
-                                  <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-[#3F6656]/10 text-[#3F6656]">
-                                    {sentenceObj.example ? (
-                                      <Quote className="h-4 w-4" />
-                                    ) : (
-                                      <MessageCircle className="h-4 w-4" />
-                                    )}
-                                  </div>
-                                  
-                                  <div className="flex-1">
-                                    <p className="font-display text-[17px] font-bold text-[#14213D] leading-tight">
-                                      {sentenceObj.english}
-                                    </p>
-                                    
-                                    {/* Show example always if it exists */}
-                                    {sentenceObj.example && (
-                                      <div className="mt-2 text-[14px] text-[#14213D]/70 font-sans italic border-l-2 border-[#14213D]/10 pl-3">
-                                        Eg: {sentenceObj.example}
-                                      </div>
-                                    )}
-                                    
-                                    <AnimatePresence>
-                                      {visibleTranslations[transKey] && (
-                                        <motion.div 
-                                          initial={{ opacity: 0, height: 0, marginTop: 0 }}
-                                          animate={{ opacity: 1, height: "auto", marginTop: 8 }}
-                                          exit={{ opacity: 0, height: 0, marginTop: 0 }}
-                                          className="overflow-hidden"
-                                        >
-                                          <div className="rounded-xl bg-gradient-to-r from-[#3F6656]/10 to-[#3F6656]/5 p-3 border border-[#3F6656]/10">
-                                            <p className="font-sans text-[15px] font-medium text-[#2d4a3e] leading-relaxed">
-                                              {sentenceObj.tamil}
-                                            </p>
-                                          </div>
-                                        </motion.div>
-                                      )}
-                                    </AnimatePresence>
+                              <Volume2 className="h-3.5 w-3.5" />
+                              Listen
+                            </button>
 
-                                    <button
-                                      onClick={() => toggleTranslation(sIndex, data.phase)}
-                                      className={`flex items-center gap-1.5 mt-3 text-xs font-bold transition-all px-3 py-1.5 rounded-lg ${
-                                        visibleTranslations[transKey] 
-                                        ? "bg-[#14213D]/10 text-[#14213D]" 
-                                        : "bg-[#C9A227]/15 text-[#8C6D13] hover:bg-[#C9A227]/25"
-                                      }`}
-                                    >
-                                      <Languages className="h-3.5 w-3.5" />
-                                      {visibleTranslations[transKey] ? "Hide Translation" : "View in Tamil"}
-                                    </button>
-                                  </div>
-                                </div>
+                            {s.example && (
+                              <button
+                                onClick={() => toggleTranslation(idx, phaseObj.phase)}
+                                className="flex items-center gap-1.5 rounded-xl bg-white/5 border border-white/10 px-3 py-1.5 text-xs font-semibold text-slate-300 hover:text-white hover:bg-white/10"
+                              >
+                                <Languages className="h-3.5 w-3.5" />
+                                {isTransVisible ? "Hide Usage" : "Usage Example"}
+                              </button>
+                            )}
+                          </div>
 
-                                <button
-                                  onClick={() => playAudio(sentenceObj.english + (sentenceObj.example ? ". " + sentenceObj.example : ""))}
-                                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white border border-[#14213D]/10 text-[#14213D]/60 hover:bg-[#C9A227] hover:border-transparent hover:text-white shadow-sm transition-all duration-300"
-                                  title="Listen to Native Audio"
-                                >
-                                  <Volume2 className="h-4 w-4" />
-                                </button>
-                              </div>
-                            </motion.div>
-                          );
-                        })}
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </motion.div>
-            );
-          })
-        )}
+                          {s.example && isTransVisible && (
+                            <div className="mt-2 p-3 rounded-xl bg-blue-900/20 border-l-2 border-sky-400 text-xs text-slate-300 italic">
+                              "{s.example}"
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          );
+        })}
       </div>
 
       {/* Checkpoint Modal */}

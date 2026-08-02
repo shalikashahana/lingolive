@@ -15,6 +15,7 @@ import {
   Languages,
   Lock
 } from "lucide-react";
+import { calculateNewStreak } from "../../utils/streak";
 
 export default function TeluguQuiz({ onExit }) {
   const navigate = useNavigate();
@@ -90,8 +91,10 @@ export default function TeluguQuiz({ onExit }) {
             localStorage.setItem("telugu_quiz_unlocked_level", nextLvl.toString());
           }
           const savedStats = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
+          const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
           localStorage.setItem("telugu_stats", JSON.stringify({
-            streak: savedStats.streak === 0 ? 1 : savedStats.streak,
+            streak: updatedStreak,
+            lastActiveDate: lastActiveDate,
             xp: savedStats.xp + 50
           }));
         }

@@ -16,6 +16,7 @@ import {
   Sparkles,
   Volume2
 } from "lucide-react";
+import { calculateNewStreak } from "../../utils/streak";
 
 export default function KoreanQuiz({ onExit }) {
   const navigate = useNavigate();
@@ -104,8 +105,10 @@ export default function KoreanQuiz({ onExit }) {
             localStorage.setItem("korean_quiz_unlocked_level", nextLvl.toString());
           }
           const savedStats = JSON.parse(localStorage.getItem("korean_stats") || '{"streak":0,"xp":0}');
+          const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
           localStorage.setItem("korean_stats", JSON.stringify({
-            streak: savedStats.streak === 0 ? 1 : savedStats.streak,
+            streak: updatedStreak,
+            lastActiveDate: lastActiveDate,
             xp: savedStats.xp + 50
           }));
         }

@@ -27,6 +27,7 @@ import JapaneseDashboard from "./pages/japanese/JapaneseDashboard";
 import TeluguDashboard from "./pages/telugu/TeluguDashboard";
 import ThaiDashboard from "./pages/thai/ThaiDashboard";
 import ChineseDashboard from "./pages/chinese/ChineseDashboard";
+import Chat from "./pages/english/Chat";
 import ArabicDashboard from "./pages/arabic/ArabicDashboard";
 
 
@@ -91,6 +92,7 @@ export default function App() {
                     <Route path="/sentences" element={<Sentences />} />
                     <Route path="/idioms" element={<Idioms />} />
                     <Route path="/grammar" element={<Grammar />} />
+                    <Route path="/chat" element={<Chat />} />
                     <Route path="/hindi-learning" element={<HindiDashboard />} />
                     <Route path="/malayalam-learning" element={<MalayalamDashboard />} />
                     <Route path="/korean-learning" element={<KoreanDashboard />} />

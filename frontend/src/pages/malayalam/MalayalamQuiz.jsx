@@ -14,6 +14,7 @@ import {
   Languages,
   Lock
 } from "lucide-react";
+import { calculateNewStreak } from "../../utils/streak";
 
 const allMalayalamQuestions = malayalamQuizData.modules.reduce((acc, mod) => [...acc, ...mod.quiz], []);
 
@@ -129,8 +130,10 @@ export default function MalayalamQuiz({ onExit }) {
 
         const savedStats = JSON.parse(localStorage.getItem("malayalam_stats") || '{"streak":0,"xp":0}');
         const xpGain = passed ? 50 : 10;
+        const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
         const newStats = {
-          streak: savedStats.streak === 0 ? 1 : savedStats.streak,
+          streak: updatedStreak,
+          lastActiveDate: lastActiveDate,
           xp: savedStats.xp + xpGain
         };
         localStorage.setItem("malayalam_stats", JSON.stringify(newStats));

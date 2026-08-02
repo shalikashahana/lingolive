@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { storyPages } from "../../data/storyData";
-import { ChevronLeft, ChevronRight, BookOpen } from "lucide-react";
+import { ChevronLeft, ChevronRight, BookOpen, Sparkles } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function Story() {
   const [currentPage, setCurrentPage] = useState(0);
   const totalPages = storyPages.length;
 
-  // Handle keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "ArrowRight") {
@@ -23,7 +23,6 @@ export default function Story() {
     if (currentPage < totalPages - 1) {
       setCurrentPage((prev) => prev + 1);
       
-      // Update story read stat if reaching the last page
       if (currentPage === totalPages - 2) {
         const currentStats = JSON.parse(localStorage.getItem("story_stats") || '{"read":0}');
         currentStats.read += 1;
@@ -40,10 +39,9 @@ export default function Story() {
 
   const currentText = storyPages[currentPage];
 
-  // Helper to safely render text with paragraphs
   const renderText = (text) => {
     return text.split('\n\n').map((paragraph, idx) => (
-      <p key={idx} className="mb-4 leading-relaxed text-gray-800">
+      <p key={idx} className="mb-6 leading-relaxed text-slate-200 text-base sm:text-lg">
         {paragraph.split('\n').map((line, lineIdx) => (
           <span key={lineIdx}>
             {line}
@@ -55,99 +53,89 @@ export default function Story() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[80vh] px-4 py-8 sm:px-6">
+    <div className="flex flex-col items-center justify-center min-h-[80vh] px-4 py-8 sm:px-6 font-sans text-white">
       
       {/* Header */}
       <div className="w-full max-w-4xl flex items-center justify-between mb-8">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-[#14213D] text-[#C9A227] rounded-xl shadow-md">
+          <div className="p-3 bg-blue-600/20 text-sky-400 rounded-2xl border border-blue-500/30">
             <BookOpen className="w-6 h-6" />
           </div>
-          <h1 className="text-2xl font-bold font-display text-[#14213D]">
-            The Dusty Corner
-          </h1>
+          <div>
+            <span className="font-mono text-xs font-bold text-sky-400 uppercase tracking-widest block">Short Story Library</span>
+            <h1 className="text-2xl font-bold font-heading text-white">
+              The Dusty Corner
+            </h1>
+          </div>
         </div>
-        <div className="text-sm font-medium text-[#14213D]/70 bg-white px-4 py-2 rounded-full shadow-sm border border-[#14213D]/10">
+
+        <div className="text-xs font-mono font-bold text-sky-300 bg-blue-500/10 px-4 py-2 rounded-2xl border border-blue-500/20 shadow-lg">
           Page {currentPage + 1} of {totalPages}
         </div>
       </div>
 
       {/* Book Container */}
-      <div className="w-full max-w-4xl bg-[#FCFAF5] rounded-l-md rounded-r-3xl shadow-[0_20px_50px_rgba(0,0,0,0.1),_inset_10px_0_20px_rgba(0,0,0,0.05)] border-y border-r border-[#14213D]/10 relative overflow-hidden transition-all duration-500 min-h-[60vh] flex flex-col">
+      <div className="w-full max-w-4xl glass-card rounded-3xl border border-white/10 bg-[#0f172a]/90 shadow-2xl relative overflow-hidden transition-all duration-500 min-h-[55vh] flex flex-col justify-between p-8 sm:p-12">
         
-        {/* Book Binding effect */}
-        <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#e3dac3] to-transparent border-r border-[#14213D]/5 z-10 pointer-events-none"></div>
+        {/* Ambient Glow */}
+        <div className="absolute top-0 right-0 w-64 h-64 bg-sky-500/10 blur-3xl pointer-events-none" />
 
-        {/* Content Area */}
-        <div className="flex-grow p-8 sm:p-12 md:p-16 pl-12 sm:pl-16 font-serif text-lg md:text-xl transition-opacity duration-300">
-          {renderText(currentText)}
-        </div>
+        {/* Page Content */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentPage}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            transition={{ duration: 0.25 }}
+            className="flex-1 overflow-y-auto pr-2 custom-scrollbar"
+          >
+            {renderText(currentText)}
+          </motion.div>
+        </AnimatePresence>
 
-        {/* Pagination Controls */}
-        <div className="mt-auto px-8 py-6 border-t border-[#14213D]/5 flex items-center justify-between bg-white/50 backdrop-blur-sm z-20">
+        {/* Navigation Controls */}
+        <div className="flex items-center justify-between border-t border-white/10 pt-6 mt-6">
           <button
             onClick={prevPage}
             disabled={currentPage === 0}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 
-              disabled:opacity-40 disabled:cursor-not-allowed
-              hover:bg-[#14213D]/5 active:bg-[#14213D]/10 text-[#14213D]"
+            className={`flex items-center gap-2 px-5 py-2.5 rounded-2xl font-bold text-xs transition-all ${
+              currentPage === 0
+                ? "opacity-30 cursor-not-allowed bg-white/5 text-slate-500"
+                : "bg-white/5 hover:bg-white/10 text-white border border-white/10"
+            }`}
           >
             <ChevronLeft className="w-4 h-4" />
-            Previous
+            <span>Previous Page</span>
           </button>
-          
-          <div className="flex gap-2">
-            {/* Page Indicators (show a few around current) */}
-            {[...Array(totalPages)].map((_, idx) => {
-              // Show only relevant dots (first, last, and around current)
-              if (
-                idx === 0 || 
-                idx === totalPages - 1 || 
-                (idx >= currentPage - 2 && idx <= currentPage + 2)
-              ) {
-                return (
-                  <button
-                    key={idx}
-                    onClick={() => setCurrentPage(idx)}
-                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-                      currentPage === idx 
-                        ? 'bg-[#C9A227] w-6' 
-                        : 'bg-[#14213D]/20 hover:bg-[#14213D]/40'
-                    }`}
-                    aria-label={`Go to page ${idx + 1}`}
-                  />
-                );
-              }
-              // Show ellipsis if there's a gap
-              if (
-                (idx === 1 && currentPage > 3) || 
-                (idx === totalPages - 2 && currentPage < totalPages - 4)
-              ) {
-                return <span key={idx} className="text-[#14213D]/40 text-xs flex items-center">...</span>;
-              }
-              return null;
-            })}
+
+          {/* Page Indicators */}
+          <div className="hidden sm:flex items-center gap-1.5">
+            {storyPages.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => setCurrentPage(idx)}
+                className={`h-2 rounded-full transition-all ${
+                  currentPage === idx ? "w-6 bg-sky-400" : "w-2 bg-white/20 hover:bg-white/40"
+                }`}
+              />
+            ))}
           </div>
 
           <button
             onClick={nextPage}
             disabled={currentPage === totalPages - 1}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-200 
-              disabled:opacity-40 disabled:cursor-not-allowed
-              bg-[#14213D] text-white hover:bg-[#14213D]/90 active:bg-black shadow-md hover:shadow-lg"
+            className={`flex items-center gap-2 px-6 py-2.5 rounded-2xl font-bold text-xs transition-all ${
+              currentPage === totalPages - 1
+                ? "opacity-30 cursor-not-allowed bg-white/5 text-slate-500"
+                : "bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/30"
+            }`}
           >
-            Next
+            <span>Next Page</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
       </div>
-      
-      {/* Help text */}
-      <p className="mt-6 text-sm text-[#14213D]/50 font-medium flex items-center gap-2">
-        <span className="hidden sm:inline">Use arrow keys to navigate pages</span>
-        <span className="sm:hidden">Swipe or use buttons to navigate</span>
-      </p>
-
     </div>
   );
 }

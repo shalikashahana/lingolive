@@ -11,23 +11,18 @@ import {
   Cell
 } from "recharts";
 import { useAuth } from "../../context/AuthContext";
-import { INITIAL_ANALYTICS, CEFR_BANDS } from "../../data/mockData";
+import { INITIAL_ANALYTICS } from "../../data/mockData";
 import {
   ArrowLeft,
   Flame,
   Zap,
-  BookMarked,
   BookOpen,
   TrendingUp,
   BarChart3,
-  Award,
-  MessageSquare,
   Sparkles,
   Target,
   BrainCircuit,
   MessageCircle,
-  Activity,
-  ScrollText,
   Map
 } from "lucide-react";
 
@@ -47,7 +42,6 @@ export default function Analytics() {
   const { user } = useAuth();
   
   useEffect(() => {
-    // 1. Fetch Backend Stats (if any)
     async function fetchAnalytics() {
       if (user) {
         try {
@@ -68,7 +62,6 @@ export default function Analytics() {
     }
     fetchAnalytics();
 
-    // 2. Load Local Storage Stats per Activity
     const savedEnglishMaxLevel = parseInt(localStorage.getItem("lingolive_max_unlocked_level") || "1", 10);
     const englishXP = (savedEnglishMaxLevel - 1) * 150;
 
@@ -95,7 +88,7 @@ export default function Analytics() {
 
   const allTabs = [
     { id: "overview", label: "Overview", icon: BarChart3, lang: "all" },
-    { id: "english_quiz", label: "Quiz Overview", icon: Target, lang: "en" },
+    { id: "english_quiz", label: "Quiz Path", icon: Target, lang: "en" },
     { id: "telugu_quiz", label: "Telugu Overview", icon: Map, lang: "te" },
     { id: "sentences", label: "Sentences", icon: MessageCircle, lang: "en" },
     { id: "grammar", label: "Grammar", icon: BrainCircuit, lang: "en" },
@@ -106,32 +99,34 @@ export default function Analytics() {
   const tabs = allTabs.filter(tab => tab.lang === "all" || tab.lang === targetLanguage);
 
   return (
-    <div className="space-y-8 pb-16">
+    <div className="space-y-8 pb-16 font-sans text-white">
+      
+      {/* Back Button */}
       <button 
         onClick={() => navigate("/")}
-        className="flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-bold text-[#14213D] shadow-sm hover:bg-[#14213D]/5 transition-colors border border-[#14213D]/10 w-fit"
+        className="flex items-center gap-2 rounded-2xl bg-white/5 px-4 py-2 text-xs font-bold text-slate-300 hover:text-white border border-white/10 hover:bg-white/10 transition-colors"
       >
         <ArrowLeft className="h-4 w-4" />
         Back to Dashboard
       </button>
 
       {/* Header Banner */}
-      <div className="flex flex-col gap-4 rounded-3xl bg-[#14213D] p-6 text-white shadow-xl sm:flex-row sm:items-center sm:justify-between sm:p-8">
+      <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-r from-blue-950 via-[#0f172a] to-[#050816] p-8 shadow-2xl">
         <div className="space-y-2">
-          <div className="inline-flex items-center gap-2 rounded-full bg-[#C9A227]/20 px-3 py-1 font-mono text-xs font-bold text-[#C9A227]">
-            <TrendingUp className="h-3.5 w-3.5" /> Performance Dashboard
+          <div className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-3.5 py-1 font-mono text-xs font-bold text-sky-300">
+            <TrendingUp className="h-3.5 w-3.5 text-sky-400" /> Performance Analytics
           </div>
-          <h1 className="font-display text-3xl font-bold tracking-tight text-white">
+          <h1 className="font-heading text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
             Fluency & Progress Insights
           </h1>
-          <p className="max-w-xl font-sans text-sm text-white/70">
-            Track your CEFR proficiency growth, daily study streaks, vocabulary mastery, and Gemma AI evaluation scores.
+          <p className="max-w-xl text-sm text-slate-400 leading-relaxed">
+            Track your CEFR proficiency growth, daily study streaks, vocabulary mastery, and AI evaluation metrics.
           </p>
         </div>
       </div>
 
       {/* Tabs Navigation */}
-      <div className="flex space-x-2 overflow-x-auto pb-2 border-b border-[#14213D]/10 scrollbar-hide">
+      <div className="flex space-x-2 overflow-x-auto pb-2 border-b border-white/10 custom-scrollbar">
         {tabs.map(tab => {
           const Icon = tab.icon;
           const isActive = activeTab === tab.id;
@@ -139,13 +134,13 @@ export default function Analytics() {
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center gap-2 px-5 py-2.5 text-sm font-bold rounded-t-xl transition-all whitespace-nowrap ${
+              className={`flex items-center gap-2 px-5 py-3 text-xs font-bold rounded-2xl transition-all whitespace-nowrap ${
                 isActive
-                  ? "bg-[#14213D] text-white shadow-md"
-                  : "text-[#14213D]/60 hover:text-[#14213D] hover:bg-[#14213D]/5"
+                  ? "bg-blue-600 text-white shadow-lg shadow-blue-600/30"
+                  : "text-slate-400 hover:text-white hover:bg-white/5"
               }`}
             >
-              <Icon className={`h-4 w-4 ${isActive ? "text-[#C9A227]" : ""}`} />
+              <Icon className={`h-4 w-4 ${isActive ? "text-sky-300" : ""}`} />
               {tab.label}
             </button>
           );
@@ -159,70 +154,74 @@ export default function Analytics() {
         {activeTab === "overview" && (
           <div className="space-y-8">
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/10 to-orange-500/5 p-6 space-y-3">
-                <div className="flex items-center justify-between text-amber-600">
+              <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+                <div className="flex items-center justify-between text-amber-400">
                   <span className="font-mono text-xs font-bold uppercase">Daily Streak</span>
-                  <Flame className="h-6 w-6 text-amber-500 fill-amber-500" />
+                  <Flame className="h-6 w-6 fill-amber-400" />
                 </div>
                 <div>
-                  <p className="font-mono text-3xl font-bold text-amber-900">{Math.max(stats.streak_days, localStats.telugu.streak)} Days</p>
-                  <p className="font-sans text-xs text-amber-800/70">Active learning streak</p>
+                  <p className="font-number text-3xl font-extrabold text-white">
+                    {Math.max(stats.streak_days, localStats.telugu.streak)} Days
+                  </p>
+                  <p className="text-xs text-slate-400">Active learning streak</p>
                 </div>
               </div>
 
-              <div className="rounded-3xl border border-[#C9A227]/30 bg-gradient-to-br from-[#C9A227]/15 to-yellow-500/5 p-6 space-y-3">
-                <div className="flex items-center justify-between text-[#8C6D13]">
-                  <span className="font-mono text-xs font-bold uppercase">Earned XP</span>
-                  <Zap className="h-6 w-6 text-[#C9A227] fill-[#C9A227]" />
+              <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+                <div className="flex items-center justify-between text-sky-400">
+                  <span className="font-mono text-xs font-bold uppercase">Total XP</span>
+                  <Zap className="h-6 w-6 fill-sky-400" />
                 </div>
                 <div>
-                  <p className="font-mono text-3xl font-bold text-[#5C4505]">{Math.max(stats.xp_points, localStats.telugu.xp, localStats.english.xp)} XP</p>
-                  <p className="font-sans text-xs text-[#8C6D13]/70">Total experience points</p>
+                  <p className="font-number text-3xl font-extrabold text-white">
+                    {Math.max(stats.xp_points, localStats.telugu.xp, localStats.english.xp)} XP
+                  </p>
+                  <p className="text-xs text-slate-400">Total experience points</p>
                 </div>
               </div>
             </div>
 
             {/* CEFR Progression */}
-            <div className="rounded-3xl border border-[#14213D]/10 bg-white p-6 shadow-sm space-y-6 sm:p-8">
-              <div className="flex items-center justify-between border-b border-[#14213D]/10 pb-4">
-                <h2 className="font-display text-xl font-bold text-[#14213D]">CEFR Band Progression</h2>
-                <span className="font-mono text-xs text-[#14213D]/60">Target: C2 Mastery</span>
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] shadow-2xl space-y-6 sm:p-8">
+              <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                <h2 className="font-heading text-xl font-bold text-white">CEFR Band Progression</h2>
+                <span className="font-mono text-xs text-sky-400 font-semibold">Target: C2 Mastery</span>
               </div>
               <div className="h-72 w-full pt-4">
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart data={stats.cefr_distribution} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
-                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#14213D1A" />
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.08)" />
                     <XAxis 
                       dataKey="band" 
                       axisLine={false} 
                       tickLine={false} 
-                      tick={{fill: '#14213D', fontSize: 12, fontWeight: 700}} 
+                      tick={{fill: '#94A3B8', fontSize: 12, fontWeight: 700}} 
                       dy={10}
                     />
                     <YAxis 
                       axisLine={false} 
                       tickLine={false} 
-                      tick={{fill: '#14213D', fontSize: 12}} 
+                      tick={{fill: '#94A3B8', fontSize: 12}} 
                       domain={[0, 100]}
                       ticks={[0, 25, 50, 75, 100]}
                       tickFormatter={(val) => `${val}%`}
                     />
                     <Tooltip 
-                      cursor={{fill: '#14213D0A'}}
-                      contentStyle={{borderRadius: '16px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)', fontWeight: 'bold', color: '#14213D'}}
+                      cursor={{fill: 'rgba(255,255,255,0.05)'}}
+                      contentStyle={{borderRadius: '16px', background: '#0f172a', border: '1px solid rgba(255,255,255,0.15)', fontWeight: 'bold', color: '#FFFFFF'}}
                       formatter={(value) => [`${value}% Mastered`, 'Progress']}
                     />
                     <Bar dataKey="percentage" radius={[8, 8, 0, 0]} maxBarSize={60}>
                       {stats.cefr_distribution.map((entry, index) => {
                         const colorMap = {
                           'A1': '#64748b',
-                          'A2': '#0ea5e9',
+                          'A2': '#38bdf8',
                           'B1': '#f59e0b',
-                          'B2': '#10b981',
-                          'C1': '#4f46e5',
-                          'C2': '#db2777'
+                          'B2': '#22c55e',
+                          'C1': '#2563eb',
+                          'C2': '#e11d48'
                         };
-                        return <Cell key={`cell-${index}`} fill={colorMap[entry.band] || '#C9A227'} />;
+                        return <Cell key={`cell-${index}`} fill={colorMap[entry.band] || '#38bdf8'} />;
                       })}
                     </Bar>
                   </BarChart>
@@ -235,50 +234,40 @@ export default function Analytics() {
         {/* ENGLISH QUIZ TAB */}
         {activeTab === "english_quiz" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-indigo-500/20 bg-gradient-to-br from-indigo-500/10 to-blue-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-indigo-600">
-                <span className="font-mono text-xs font-bold uppercase">Highest Level</span>
-                <Target className="h-6 w-6 text-indigo-600" />
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-sky-400">
+                <span className="font-mono text-xs font-bold uppercase">Highest Unlocked Level</span>
+                <Target className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-indigo-950">{localStats.english.maxLevel}</p>
-                <p className="font-sans text-xs text-indigo-800/70">Max level unlocked</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.english.maxLevel}</p>
+                <p className="text-xs text-slate-400">Roadmap level reached</p>
               </div>
             </div>
-            <div className="rounded-3xl border border-[#C9A227]/20 bg-gradient-to-br from-[#C9A227]/10 to-yellow-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-[#8C6D13]">
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-blue-400">
                 <span className="font-mono text-xs font-bold uppercase">Quiz XP</span>
-                <Zap className="h-6 w-6 text-[#C9A227]" />
+                <Zap className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-[#5C4505]">{localStats.english.xp}</p>
-                <p className="font-sans text-xs text-[#8C6D13]/70">Estimated XP from quizzes</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.english.xp}</p>
+                <p className="text-xs text-slate-400">Estimated XP from quizzes</p>
               </div>
             </div>
           </div>
         )}
 
-        {/* TELUGU QUIZ TAB */}
+        {/* TELUGU TAB */}
         {activeTab === "telugu_quiz" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/10 to-yellow-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-amber-600">
-                <span className="font-mono text-xs font-bold uppercase">Highest Level</span>
-                <Map className="h-6 w-6 text-amber-600" />
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-amber-400">
+                <span className="font-mono text-xs font-bold uppercase">Highest Telugu Level</span>
+                <Map className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-amber-950">{localStats.telugu.maxLevel}</p>
-                <p className="font-sans text-xs text-amber-800/70">Max level unlocked</p>
-              </div>
-            </div>
-            <div className="rounded-3xl border border-[#C9A227]/20 bg-gradient-to-br from-[#C9A227]/10 to-yellow-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-[#8C6D13]">
-                <span className="font-mono text-xs font-bold uppercase">Quiz XP</span>
-                <Zap className="h-6 w-6 text-[#C9A227]" />
-              </div>
-              <div>
-                <p className="font-mono text-3xl font-bold text-[#5C4505]">{localStats.telugu.xp}</p>
-                <p className="font-sans text-xs text-[#8C6D13]/70">XP Earned in Quizzes</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.telugu.maxLevel}</p>
+                <p className="text-xs text-slate-400">Max level unlocked</p>
               </div>
             </div>
           </div>
@@ -287,14 +276,14 @@ export default function Analytics() {
         {/* SENTENCES TAB */}
         {activeTab === "sentences" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-rose-500/20 bg-gradient-to-br from-rose-500/10 to-pink-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-rose-600">
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-emerald-400">
                 <span className="font-mono text-xs font-bold uppercase">Sentences Practiced</span>
-                <MessageCircle className="h-6 w-6 text-rose-600" />
+                <MessageCircle className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-rose-950">{localStats.sentences.practiced}</p>
-                <p className="font-sans text-xs text-rose-800/70">Contextual usages reviewed</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.sentences.practiced}</p>
+                <p className="text-xs text-slate-400">Contextual usages reviewed</p>
               </div>
             </div>
           </div>
@@ -303,14 +292,14 @@ export default function Analytics() {
         {/* GRAMMAR TAB */}
         {activeTab === "grammar" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-[#3F6656]/20 bg-gradient-to-br from-[#3F6656]/10 to-emerald-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-[#3F6656]">
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-sky-400">
                 <span className="font-mono text-xs font-bold uppercase">Grammar Interactions</span>
-                <BrainCircuit className="h-6 w-6 text-[#3F6656]" />
+                <BrainCircuit className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-[#2a4539]">{localStats.grammar.interactions}</p>
-                <p className="font-sans text-xs text-[#3F6656]/70">Grammar rules explored</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.grammar.interactions}</p>
+                <p className="text-xs text-slate-400">Grammar rules explored</p>
               </div>
             </div>
           </div>
@@ -319,14 +308,14 @@ export default function Analytics() {
         {/* IDIOMS TAB */}
         {activeTab === "idioms" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-purple-500/20 bg-gradient-to-br from-purple-500/10 to-fuchsia-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-purple-600">
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-purple-400">
                 <span className="font-mono text-xs font-bold uppercase">Idioms Viewed</span>
-                <Sparkles className="h-6 w-6 text-purple-600" />
+                <Sparkles className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-purple-950">{localStats.idioms.flips}</p>
-                <p className="font-sans text-xs text-purple-800/70">Native expressions learned</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.idioms.flips}</p>
+                <p className="text-xs text-slate-400">Native expressions learned</p>
               </div>
             </div>
           </div>
@@ -335,14 +324,14 @@ export default function Analytics() {
         {/* STORIES TAB */}
         {activeTab === "stories" && (
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-3xl border border-blue-500/20 bg-gradient-to-br from-blue-500/10 to-indigo-500/5 p-6 space-y-3">
-              <div className="flex items-center justify-between text-blue-600">
+            <div className="glass-card p-6 border border-white/10 rounded-3xl bg-white/[0.03] space-y-3">
+              <div className="flex items-center justify-between text-blue-400">
                 <span className="font-mono text-xs font-bold uppercase">Stories Read</span>
-                <BookOpen className="h-6 w-6 text-blue-600" />
+                <BookOpen className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-mono text-3xl font-bold text-blue-950">{localStats.story.read}</p>
-                <p className="font-sans text-xs text-blue-800/70">Total narratives completed</p>
+                <p className="font-number text-3xl font-extrabold text-white">{localStats.story.read}</p>
+                <p className="text-xs text-slate-400">Total narratives completed</p>
               </div>
             </div>
           </div>

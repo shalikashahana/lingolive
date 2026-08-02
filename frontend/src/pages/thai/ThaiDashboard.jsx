@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
+import { calculateNewStreak } from "../../utils/streak";
 import { useNavigate } from "react-router-dom";
 import alphabetData from "../../data/thaiAlphabetData.json";
 import thaiWordsData from "../../data/thaiWordsData.json";
@@ -264,9 +265,8 @@ export default function ThaiDashboard() {
     playAudio(text);
     if (index === progress[type]) {
       const newProgress = { ...progress, [type]: index + 1 };
-      const newStats = { 
-        streak: stats.streak === 0 ? 1 : stats.streak, 
-        xp: stats.xp + 10 
+      const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(stats);
+      const newStats = { streak: updatedStreak, lastActiveDate, xp: stats.xp + 10 
       };
       
       setProgress(newProgress);

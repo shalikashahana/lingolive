@@ -15,7 +15,8 @@ import {
   Filter,
   X,
   ChevronRight,
-  Loader2
+  Loader2,
+  RotateCcw
 } from "lucide-react";
 
 export default function EnglishPath() {
@@ -25,6 +26,37 @@ export default function EnglishPath() {
   const [levels, setLevels] = useState([]);
   const [currentLevel, setCurrentLevel] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const handleResetProgress = async () => {
+    try {
+      if (user) {
+        const token = await user.getIdToken();
+        await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/progress/reset`, {
+          method: "POST",
+          headers: { Authorization: `Bearer ${token}` }
+        });
+      }
+    } catch (e) {
+      console.error("Reset error:", e);
+    }
+    localStorage.setItem('lingolive_max_unlocked_level', '1');
+    localStorage.removeItem('telugu_quiz_unlocked_level');
+    localStorage.removeItem('malayalam_quiz_unlocked_level');
+    localStorage.removeItem('korean_quiz_unlocked_level');
+    localStorage.removeItem('sentences_stats');
+    localStorage.removeItem('grammar_stats');
+    localStorage.removeItem('idioms_stats');
+    localStorage.removeItem('story_stats');
+    
+    const defaultLevels = generate100Levels().map(lvl => ({
+      ...lvl,
+      status: lvl.level_number === 1 ? 'unlocked' : 'locked',
+      stars: 0,
+      score: 0
+    }));
+    setLevels(defaultLevels);
+    setCurrentLevel(defaultLevels[0]);
+  };
   
   const [selectedCefr, setSelectedCefr] = useState("ALL");
   const [selectedStatus, setSelectedStatus] = useState("ALL");
@@ -152,6 +184,15 @@ export default function EnglishPath() {
               >
                 <MessageSquareCode className="h-4 w-4 text-[#C9A227]" />
                 <span>Practice with Gemma AI</span>
+              </button>
+
+              <button
+                onClick={handleResetProgress}
+                className="flex items-center gap-2 rounded-xl bg-rose-500/20 text-rose-300 border border-rose-500/30 px-4 py-3 font-sans text-xs font-bold hover:bg-rose-500/30 transition shadow-md"
+                title="Reset all level progress to Level 1"
+              >
+                <RotateCcw className="h-4 w-4" />
+                <span>Reset to Level 1</span>
               </button>
             </div>
           </div>

@@ -9,7 +9,21 @@ export default {
         gold: "#C9A227",
         moss: "#3F6656",
         charcoal: "#24211B",
-        // New landing page palette
+        // SaaS Palette
+        saas: {
+          bg: "#050816",
+          surface: "rgba(255,255,255,0.05)",
+          surfaceBorder: "rgba(255,255,255,0.1)",
+          surfaceHover: "rgba(255,255,255,0.08)",
+          primary: "#2563EB",
+          accent: "#38BDF8",
+          success: "#22C55E",
+          warning: "#F59E0B",
+          error: "#EF4444",
+          textPrimary: "#FFFFFF",
+          textSecondary: "#94A3B8",
+          textMuted: "#64748B",
+        },
         lingo: {
           deep:    "#1a0a3c",
           purple:  "#2d1b69",
@@ -21,12 +35,14 @@ export default {
         },
       },
       fontFamily: {
-        display:  ["Fraunces", "serif"],
-        sans:     ["'Plus Jakarta Sans'", "sans-serif"],
+        heading:  ["'Space Grotesk'", "sans-serif"],
+        display:  ["'Space Grotesk'", "Fraunces", "sans-serif"],
+        sans:     ["Inter", "'Plus Jakarta Sans'", "sans-serif"],
+        number:   ["Manrope", "sans-serif"],
         mono:     ["'IBM Plex Mono'", "monospace"],
         telugu:   ["'Noto Sans Telugu'", "sans-serif"],
         script:   ["'Pacifico'", "cursive"],
-        body:     ["'Nunito'", "sans-serif"],
+        body:     ["Inter", "'Nunito'", "sans-serif"],
       },
       keyframes: {
         float: {

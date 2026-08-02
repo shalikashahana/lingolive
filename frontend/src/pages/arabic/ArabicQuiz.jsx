@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { calculateNewStreak } from "../../utils/streak";
 import { useNavigate } from "react-router-dom";
 import { useCatTeacher } from "../../context/CatTeacherContext";
 import arabicQuizData from "../../data/arabicQuizData.json";
@@ -130,7 +131,8 @@ export default function ArabicQuiz({ onExit }) {
           localStorage.setItem(`arabic_quiz_unlocked_level_m${activeModuleIdx}`, newUnlocked.toString());
         }
         const savedStats = JSON.parse(localStorage.getItem("arabic_stats") || '{"streak":0,"xp":0}');
-        const newStats = { streak: savedStats.streak === 0 ? 1 : savedStats.streak, xp: savedStats.xp + 50 };
+        const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
+      const newStats = { streak: updatedStreak, lastActiveDate, xp: savedStats.xp + 50 };
         localStorage.setItem("arabic_stats", JSON.stringify(newStats));
       } catch (e) {
         console.error(e);

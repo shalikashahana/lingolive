@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
+import { calculateNewStreak } from "../../utils/streak";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import CatVoiceCheckpoint from "../../components/catTeacher/CatVoiceCheckpoint";
@@ -278,9 +279,8 @@ export default function TeluguSentences() {
     // If they interact with the currently 'in-progress' item, unlock next and add XP
     if (index === progress[type]) {
       const newProgress = { ...progress, [type]: index + 1 };
-      const newStats = { 
-        streak: stats.streak === 0 ? 1 : stats.streak, 
-        xp: stats.xp + 10 
+      const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(stats);
+      const newStats = { streak: updatedStreak, lastActiveDate, xp: stats.xp + 10 
       };
       
       setProgress(newProgress);

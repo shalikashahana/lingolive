@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import {
   Map,
   BookOpen,
   BookMarked,
-  MessageSquareCode,
   Zap,
   BarChart3,
   Flame,
@@ -19,16 +18,49 @@ import {
   MessageCircle,
   BookA,
   Globe,
-  Home
+  Home,
+  ChevronRight,
+  ShieldCheck,
+  Compass,
+  Bot
 } from "lucide-react";
 
-export default function AppLayout({ children, userStats = { streak: 0, xp: 0, level: 1, cefr: 'A1' } }) {
+export default function AppLayout({ children, userStats }) {
   const { user, logout } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [profileDropdownOpen, setProfileDropdownOpen] = useState(false);
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
+  const [liveStats, setLiveStats] = useState(userStats || { streak: 0, xp: 0, level: 1, cefr: 'A1' });
+
+  useEffect(() => {
+    async function fetchLiveStats() {
+      if (!user) return;
+      try {
+        const token = await user.getIdToken();
+        const res = await fetch(`${import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'}/analytics/overview`, {
+          headers: { Authorization: `Bearer ${token}` }
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (!data.error) {
+            setLiveStats({
+              streak: data.streak_days || 0,
+              xp: data.xp_points || 0,
+              level: data.current_level || 1,
+              cefr: data.cefr_band || "A1"
+            });
+          }
+        }
+      } catch (e) {
+        console.error("Failed to fetch live sidebar stats", e);
+      }
+    }
+    fetchLiveStats();
+  }, [user]);
+
+  const activeStats = userStats || liveStats;
 
   const availableLanguages = [
     { code: "en", name: "English", flag: "🇺🇸" },
@@ -45,24 +77,25 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
   const changeLanguage = (code) => {
     localStorage.setItem("lingolive_target_language", code);
     setLangDropdownOpen(false);
-    window.location.href = "/"; // Redirect to dashboard to reflect the new target language content
+    window.location.href = "/";
   };
 
   const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const navItems = [
-    { label: "Home", path: "/", icon: Home },
-    { label: "Quiz Dashboard", path: "/path", icon: Map },
+    { label: "Dashboard", path: "/", icon: Home },
+    { label: "AI Conversation", path: "/chat", icon: Bot },
+    { label: "Learning Path", path: "/path", icon: Map },
     { label: "Vocabulary", path: "/vocabulary", icon: BookMarked },
-    { label: "Reading", path: "/reading", icon: BookOpen },
+    { label: "Reading Practice", path: "/reading", icon: BookOpen },
     { label: "Quizzes", path: "/quiz", icon: Zap, hidden: true },
-    { label: "Sentences", path: "/sentences", icon: MessageCircle },
-    { label: "Idioms", path: "/idioms", icon: Sparkles },
-    { label: "Grammar", path: "/grammar", icon: BookA },
+    { label: "Daily Sentences", path: "/sentences", icon: MessageCircle },
+    { label: "Native Idioms", path: "/idioms", icon: Sparkles },
+    { label: "Grammar Guide", path: "/grammar", icon: BookA },
     { label: "Analytics", path: "/analytics", icon: BarChart3 },
-    { label: "Story", path: "/story", icon: Library },
-    { label: "Videos", path: "/videos", icon: Video },
+    { label: "Story Library", path: "/story", icon: Library },
+    { label: "Video Lessons", path: "/videos", icon: Video },
   ];
 
   const handleLogout = async () => {
@@ -74,7 +107,6 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
     }
   };
 
-  // Only bypass the 'Coming Soon' screen if English, or if it's a target language AND we are on allowed paths
   const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/telugu-quiz" || location.pathname === "/telugu-sentences");
   const isMalayalamDashboard = currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/malayalam-alphabet" || location.pathname === "/malayalam-learning");
   
@@ -85,30 +117,29 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
 
   if (currentLanguageCode !== "en" && !isStandaloneDashboard) {
     return (
-      <div className="flex h-screen w-full flex-col items-center justify-center bg-[#F8F6F0] font-sans text-[#14213D] relative overflow-hidden">
-        {/* Top Right Language Switcher for the standalone screen */}
+      <div className="flex h-screen w-full flex-col items-center justify-center bg-[#050816] font-sans text-white relative overflow-hidden">
         <div className="absolute top-4 right-4 md:right-8 z-30">
           <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="group flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
+              className="flex items-center justify-center h-10 w-auto px-4 gap-2 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl text-white shadow-xl hover:border-sky-400/50 hover:bg-white/10 transition-all"
             >
-              <Globe className="h-4 w-4 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
-              <span className="text-lg leading-none hidden md:inline">{currentLanguage.flag}</span>
-              <span className="hidden md:inline font-sans text-sm font-bold uppercase">
+              <Globe className="h-4 w-4 text-sky-400" />
+              <span className="text-lg leading-none">{currentLanguage.flag}</span>
+              <span className="font-sans text-xs font-bold uppercase tracking-wider text-slate-300">
                 {currentLanguage.code}
               </span>
             </button>
             {langDropdownOpen && (
-              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+              <div className="absolute right-0 top-full mt-2 w-52 rounded-2xl border border-white/10 bg-[#0f172a]/95 py-2 shadow-2xl backdrop-blur-2xl z-50">
                 {availableLanguages.map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
-                    className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
+                    className={`flex w-full items-center gap-3 px-4 py-2.5 font-sans text-sm font-semibold transition-colors ${
                       currentLanguageCode === lang.code
-                        ? "bg-[#14213D]/5 text-[#C9A227]"
-                        : "text-[#14213D] hover:bg-[#14213D]/5"
+                        ? "bg-blue-600/20 text-sky-400"
+                        : "text-slate-300 hover:bg-white/5 hover:text-white"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -120,245 +151,240 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-center text-center px-6 animate-in zoom-in-95 duration-500">
-          <div className="flex h-24 w-24 items-center justify-center rounded-[2rem] bg-[#14213D] text-[#C9A227] shadow-2xl mb-8 rotate-3 hover:rotate-6 transition-transform">
-            <Globe className="h-12 w-12" />
+        <div className="flex flex-col items-center justify-center text-center px-6 max-w-lg">
+          <div className="flex h-20 w-20 items-center justify-center rounded-3xl bg-blue-600/20 text-sky-400 border border-sky-400/30 shadow-2xl mb-6">
+            <Globe className="h-10 w-10" />
           </div>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-[#14213D] mb-4">
-            {currentLanguage.name} Course
+          <h1 className="font-heading text-4xl font-bold tracking-tight text-white mb-3">
+            {currentLanguage.name} Path
             <br />
-            <span className="text-[#C9A227]">Coming Soon</span>
+            <span className="text-sky-400">Launching Soon</span>
           </h1>
-          <p className="font-sans text-lg sm:text-xl text-[#14213D]/70 max-w-lg mb-10 leading-relaxed">
-            Our language experts and AI tutors are currently building a world-class curriculum for {currentLanguage.name}. 
+          <p className="font-sans text-sm text-slate-400 mb-8 leading-relaxed">
+            Our AI language engines are training interactive modules for {currentLanguage.name}. 
           </p>
           <button
             onClick={() => changeLanguage("en")}
-            className="group flex items-center gap-2 rounded-2xl bg-[#14213D] px-8 py-4 font-sans text-base font-bold text-white shadow-lg hover:bg-[#14213D]/90 transition-all hover:scale-105 active:scale-95"
+            className="flex items-center gap-2 rounded-2xl bg-blue-600 px-8 py-3.5 font-sans text-sm font-bold text-white shadow-lg shadow-blue-600/30 hover:bg-blue-500 transition-all hover:scale-105"
           >
             <span>Switch to English</span>
-            <span className="text-[#C9A227] group-hover:translate-x-1 transition-transform">→</span>
+            <ChevronRight className="w-4 h-4 text-sky-300" />
           </button>
         </div>
       </div>
     );
   }
 
-
-    if (isStandaloneDashboard) {
+  if (isStandaloneDashboard) {
     return (
-      <div className="relative h-screen w-full overflow-hidden bg-gray-50">
+      <div className="relative h-screen w-full overflow-hidden bg-[#050816]">
         {children}
       </div>
     );
   }
 
   return (
-    <div className="flex h-screen overflow-hidden bg-[#F8F6F0] font-sans text-[#14213D] selection:bg-[#C9A227]/30">
+    <div className="flex h-screen overflow-hidden bg-[#050816] font-sans text-white selection:bg-blue-500/30">
       
       {/* Desktop Sidebar */}
       {!isStandaloneDashboard && (
-        <aside className="hidden md:flex flex-col w-72 border-r border-[#14213D]/10 bg-white/80 backdrop-blur-xl z-20 shadow-[4px_0_24px_rgba(20,33,61,0.02)]">
-        {/* Brand logo */}
-        <div className="p-6 border-b border-[#14213D]/5">
-          <Link to="/" className="flex items-center gap-3 font-display text-2xl font-bold tracking-tight text-[#14213D]">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#14213D] text-[#C9A227] shadow-sm">
-              <Zap className="h-6 w-6 fill-[#C9A227]" />
-            </div>
-            <span>LingoLive</span>
-          </Link>
-          <div className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-[#3F6656]/10 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-wider text-[#3F6656]">
-            <Sparkles className="w-3 h-3" />
-            AI Powered
-          </div>
-        </div>
-
-        {/* Navigation links */}
-        <nav className="flex-1 overflow-y-auto p-4 space-y-1">
-          {navItems.filter(item => !item.hidden).map((item) => {
-            const Icon = item.icon;
-            const isActive = location.pathname === item.path;
-            return (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`group relative flex items-center justify-between rounded-xl px-4 py-3 font-sans text-sm font-semibold transition-all duration-200 ${
-                  isActive
-                    ? "bg-[#14213D] text-white shadow-md shadow-[#14213D]/20 translate-x-1"
-                    : "text-[#14213D]/70 hover:bg-[#14213D]/5 hover:text-[#14213D]"
-                }`}
-              >
-                <div className="flex items-center gap-3">
-                  <Icon className={`h-5 w-5 transition-transform duration-200 ${isActive ? "text-[#C9A227] scale-110" : "text-[#14213D]/50 group-hover:scale-110"}`} />
-                  <span>{item.label}</span>
-                </div>
-                {item.badge && (
-                  <span className={`flex items-center gap-1 rounded-full px-2 py-0.5 font-mono text-[10px] font-bold ${isActive ? "bg-white/20 text-white" : "bg-[#C9A227]/20 text-[#C9A227]"}`}>
-                    {item.badge}
-                  </span>
-                )}
-              </Link>
-            );
-          })}
-        </nav>
-
-        {/* User Stats & Profile (Bottom of sidebar) */}
-        <div className="p-4 border-t border-[#14213D]/5 bg-[#14213D]/[0.02]">
+        <aside className="hidden md:flex flex-col w-72 border-r border-white/10 bg-[#050816]/90 backdrop-blur-2xl z-20">
           
-          {/* Stats Row */}
-          <div className="flex items-center justify-between gap-2 mb-4 px-1">
-            <div className="flex flex-col items-center justify-center flex-1 bg-amber-500/10 rounded-lg py-2 border border-amber-500/20" title="Streak">
-              <Flame className="h-5 w-5 text-amber-500 fill-amber-500 animate-pulse mb-1" />
-              <span className="text-xs font-bold text-amber-700">{userStats.streak}d</span>
-            </div>
-            <div className="flex flex-col items-center justify-center flex-1 bg-[#C9A227]/10 rounded-lg py-2 border border-[#C9A227]/20" title="XP">
-              <Zap className="h-5 w-5 text-[#C9A227] fill-[#C9A227] mb-1" />
-              <span className="text-xs font-bold text-[#8C6D13]">{userStats.xp}</span>
-            </div>
-            <div className="flex flex-col items-center justify-center flex-1 bg-[#3F6656]/10 rounded-lg py-2 border border-[#3F6656]/20" title="Level">
-              <span className="text-[10px] font-bold text-[#3F6656]/60 mb-0.5">{userStats.cefr}</span>
-              <span className="text-xs font-bold text-[#3F6656]">Lvl {userStats.level}</span>
-            </div>
+          {/* Brand header */}
+          <div className="p-6 border-b border-white/5 flex items-center justify-between">
+            <Link to="/" className="flex items-center gap-3 font-heading text-xl font-bold tracking-tight text-white group">
+              <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white shadow-lg shadow-blue-500/30 group-hover:scale-105 transition-transform">
+                <Zap className="h-5 w-5 fill-white" />
+              </div>
+              <div className="flex flex-col">
+                <span className="leading-none text-white font-extrabold tracking-tight">LingoLive</span>
+                <span className="text-[10px] font-mono text-sky-400 font-semibold uppercase tracking-widest mt-1">SaaS Edition</span>
+              </div>
+            </Link>
           </div>
 
-          {/* Profile Section */}
-          <div className="relative">
-            <button
-              onClick={() => setProfileDropdownOpen(!profileDropdownOpen)}
-              className="flex w-full items-center gap-3 rounded-xl border border-[#14213D]/10 bg-white p-2 hover:border-[#14213D]/30 hover:bg-[#14213D]/5 transition-colors"
-            >
-              {user?.photoURL ? (
-                <img src={user.photoURL} alt="Avatar" className="h-10 w-10 rounded-lg object-cover shadow-sm" />
-              ) : (
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#14213D] to-[#2a3a5c] text-sm font-bold text-white shadow-sm">
-                  {user?.displayName?.[0] || user?.email?.[0]?.toUpperCase() || "L"}
+          {/* Navigation Links */}
+          <nav className="flex-1 overflow-y-auto p-4 space-y-1.5 custom-scrollbar">
+            <div className="px-3 pb-2 pt-1 font-mono text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+              Core Modules
+            </div>
+            {navItems.filter(item => !item.hidden).map((item) => {
+              const Icon = item.icon;
+              const isActive = location.pathname === item.path;
+              return (
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  className={`group relative flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold transition-all duration-200 ${
+                    isActive
+                      ? "bg-blue-600/15 border border-blue-500/30 text-white shadow-lg shadow-blue-600/10"
+                      : "text-slate-400 hover:bg-white/5 hover:text-white"
+                  }`}
+                >
+                  <div className="flex items-center gap-3">
+                    <Icon className={`h-4 w-4 transition-colors ${isActive ? "text-sky-400" : "text-slate-500 group-hover:text-slate-300"}`} />
+                    <span>{item.label}</span>
+                  </div>
+                  {isActive && (
+                    <div className="h-2 w-2 rounded-full bg-sky-400 shadow-[0_0_8px_#38bdf8]" />
+                  )}
+                </Link>
+              );
+            })}
+          </nav>
+
+          {/* User Stats & Profile Drawer */}
+          <div className="p-4 border-t border-white/10 bg-white/[0.02]">
+            
+            {/* Stats Row */}
+            <div className="grid grid-cols-2 gap-2 mb-4">
+              <div className="flex flex-col items-center justify-center bg-amber-500/10 rounded-2xl py-2.5 border border-amber-500/20" title="Daily Streak">
+                <div className="flex items-center gap-1">
+                  <Flame className="h-4 w-4 text-amber-400 fill-amber-400" />
+                  <span className="text-xs font-bold font-number text-amber-300">{activeStats.streak}d</span>
+                </div>
+                <span className="text-[9px] font-mono text-amber-500 uppercase tracking-wider mt-0.5">Streak</span>
+              </div>
+              <div className="flex flex-col items-center justify-center bg-blue-500/10 rounded-2xl py-2.5 border border-blue-500/20" title="XP Points">
+                <div className="flex items-center gap-1">
+                  <Zap className="h-4 w-4 text-sky-400 fill-sky-400" />
+                  <span className="text-xs font-bold font-number text-sky-300">{activeStats.xp}</span>
+                </div>
+                <span className="text-[9px] font-mono text-sky-500 uppercase tracking-wider mt-0.5">XP</span>
+              </div>
+            </div>
+
+            {/* Profile Dropdown Trigger */}
+            <div className="relative">
+              <button
+                onClick={() => setProfileDropdownOpen(!profileDropdownOpen)}
+                className="flex w-full items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-2.5 hover:border-white/20 hover:bg-white/10 transition-colors"
+              >
+                {user?.photoURL ? (
+                  <img src={user.photoURL} alt="Avatar" className="h-9 w-9 rounded-xl object-cover" />
+                ) : (
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-sky-400 text-xs font-bold text-white shadow-md">
+                    {user?.displayName?.[0] || user?.email?.[0]?.toUpperCase() || "L"}
+                  </div>
+                )}
+                <div className="flex flex-col items-start overflow-hidden text-left flex-1">
+                  <span className="font-sans text-xs font-bold text-white truncate w-full">
+                    {user?.displayName || "Pro Learner"}
+                  </span>
+                  <span className="font-sans text-[11px] text-slate-400 truncate w-full">
+                    {user?.email || "learner@lingolive.app"}
+                  </span>
+                </div>
+              </button>
+
+              {/* Profile Menu */}
+              {profileDropdownOpen && (
+                <div className="absolute bottom-full left-0 mb-2 w-full rounded-2xl border border-white/10 bg-[#0f172a] p-2 shadow-2xl backdrop-blur-2xl z-50">
+                  <button
+                    onClick={handleLogout}
+                    className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left font-sans text-xs font-semibold text-rose-400 hover:bg-rose-500/10 transition-colors"
+                  >
+                    <LogOut className="h-4 w-4" />
+                    Sign out
+                  </button>
                 </div>
               )}
-              <div className="flex flex-col items-start overflow-hidden text-left flex-1">
-                <span className="font-sans text-sm font-bold text-[#14213D] truncate w-full">
-                  {user?.displayName || "Learner"}
-                </span>
-                <span className="font-sans text-xs font-medium text-[#14213D]/60 truncate w-full">
-                  {user?.email || "learner@lingolive.app"}
-                </span>
-              </div>
-            </button>
-
-            {/* Profile Dropdown Menu */}
-            {profileDropdownOpen && (
-              <div className="absolute bottom-full left-0 mb-2 w-full rounded-2xl border border-[#14213D]/10 bg-white p-2 shadow-[0_-10px_40px_rgba(0,0,0,0.1)] backdrop-blur-lg z-50">
-                <button
-                  onClick={handleLogout}
-                  className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left font-sans text-sm font-semibold text-red-600 hover:bg-red-50 transition-colors"
-                >
-                  <LogOut className="h-4 w-4" />
-                  Sign out
-                </button>
-              </div>
-            )}
+            </div>
           </div>
-        </div>
-      </aside>
+        </aside>
       )}
 
       {/* Mobile Header (Hidden on Desktop) */}
       {!isStandaloneDashboard && (
         <div className="md:hidden absolute top-0 left-0 w-full z-40 flex flex-col">
-        <header className="border-b border-[#14213D]/10 bg-white/90 backdrop-blur-md">
-          <div className="flex items-center justify-between px-4 py-3">
-            <Link to="/" className="flex items-center gap-2 font-display text-lg font-bold tracking-tight text-[#14213D]">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#14213D] text-[#C9A227]">
-                <Zap className="h-4 w-4 fill-[#C9A227]" />
+          <header className="border-b border-white/10 bg-[#050816]/95 backdrop-blur-xl px-4 py-3 flex items-center justify-between">
+            <Link to="/" className="flex items-center gap-2 font-heading text-lg font-bold text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white">
+                <Zap className="h-4 w-4 fill-white" />
               </div>
               <span>LingoLive</span>
             </Link>
 
             <div className="flex items-center gap-3">
-              <div className="flex items-center gap-1.5 rounded-lg border border-amber-500/20 bg-amber-500/10 px-2.5 py-1 text-xs font-bold text-amber-700">
-                <Flame className="h-3.5 w-3.5 text-amber-500 fill-amber-500" />
-                {userStats.streak}
+              <div className="flex items-center gap-1.5 rounded-xl border border-amber-500/30 bg-amber-500/10 px-2.5 py-1 text-xs font-bold text-amber-400">
+                <Flame className="h-3.5 w-3.5 text-amber-400 fill-amber-400" />
+                {activeStats.streak}d
               </div>
               
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="flex h-9 w-9 items-center justify-center rounded-xl border border-[#14213D]/15 bg-white text-[#14213D]"
+                className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white"
               >
                 {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
               </button>
             </div>
-          </div>
-        </header>
+          </header>
 
-        {/* Mobile Dropdown Nav */}
-        {mobileMenuOpen && (
-          <div className="border-b border-[#14213D]/10 bg-white px-4 py-3 shadow-xl h-[calc(100vh-60px)] overflow-y-auto">
-            <div className="flex flex-col gap-1.5">
-              {navItems.map((item) => {
-                const Icon = item.icon;
-                const isActive = location.pathname === item.path;
-                return (
-                  <Link
-                    key={item.path}
-                    to={item.path}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className={`flex items-center justify-between rounded-xl px-4 py-3.5 text-sm font-semibold ${
-                      isActive ? "bg-[#14213D] text-white shadow-md" : "text-[#14213D]/80 hover:bg-[#14213D]/5"
-                    }`}
+          {/* Mobile Dropdown Nav */}
+          {mobileMenuOpen && (
+            <div className="border-b border-white/10 bg-[#050816] px-4 py-4 shadow-2xl h-[calc(100vh-60px)] overflow-y-auto">
+              <div className="flex flex-col gap-1.5">
+                {navItems.filter(item => !item.hidden).map((item) => {
+                  const Icon = item.icon;
+                  const isActive = location.pathname === item.path;
+                  return (
+                    <Link
+                      key={item.path}
+                      to={item.path}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`flex items-center justify-between rounded-xl px-4 py-3.5 text-sm font-semibold ${
+                        isActive ? "bg-blue-600 text-white shadow-lg" : "text-slate-300 hover:bg-white/5"
+                      }`}
+                    >
+                      <div className="flex items-center gap-3">
+                        <Icon className={`h-4 w-4 ${isActive ? "text-white" : "text-slate-400"}`} />
+                        <span>{item.label}</span>
+                      </div>
+                    </Link>
+                  );
+                })}
+                
+                <div className="mt-6 pt-4 border-t border-white/10">
+                  <button
+                    onClick={handleLogout}
+                    className="flex w-full items-center gap-3 rounded-xl px-4 py-3.5 text-left font-sans text-sm font-semibold text-rose-400 hover:bg-rose-500/10"
                   >
-                    <div className="flex items-center gap-3">
-                      <Icon className={`h-5 w-5 ${isActive ? "text-[#C9A227]" : ""}`} />
-                      <span>{item.label}</span>
-                    </div>
-                    {item.badge && (
-                      <span className={`rounded-full px-2 py-0.5 font-mono text-[10px] font-bold ${isActive ? "bg-white/20 text-white" : "bg-[#C9A227]/20 text-[#C9A227]"}`}>
-                        {item.badge}
-                      </span>
-                    )}
-                  </Link>
-                );
-              })}
-              
-              <div className="mt-4 pt-4 border-t border-[#14213D]/10">
-                <button
-                  onClick={handleLogout}
-                  className="flex w-full items-center gap-3 rounded-xl px-4 py-3.5 text-left font-sans text-sm font-semibold text-red-600 hover:bg-red-50"
-                >
-                  <LogOut className="h-5 w-5" />
-                  Sign out
-                </button>
+                    <LogOut className="h-5 w-5" />
+                    Sign out
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
       )}
 
       {/* Main Content Area */}
-      <main className="flex-1 overflow-y-auto pt-16 md:pt-0 relative bg-gradient-to-br from-[#F8F6F0] to-[#f0efe9]">
+      <main className="flex-1 overflow-y-auto pt-16 md:pt-0 relative bg-radial-gradient custom-scrollbar">
         
-        {/* Top Right Language Switcher */}
+        {/* Top Right Floating Language Switcher */}
         <div className="absolute top-4 right-4 md:right-8 z-30">
           <div className="relative">
             <button
               onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-              className="group flex items-center justify-center h-10 w-10 md:h-11 md:w-auto md:px-3 gap-2 rounded-xl border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
+              className="flex items-center justify-center h-10 px-3.5 gap-2 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl text-white shadow-lg hover:border-sky-400/40 hover:bg-white/10 transition-all"
             >
-              <Globe className="h-4 w-4 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
-              <span className="text-lg leading-none hidden md:inline">{currentLanguage.flag}</span>
-              <span className="hidden md:inline font-sans text-sm font-bold uppercase">
-                {currentLanguage.code}
+              <Globe className="h-4 w-4 text-sky-400" />
+              <span className="text-base leading-none">{currentLanguage.flag}</span>
+              <span className="hidden md:inline font-sans text-xs font-bold uppercase tracking-wider text-slate-300">
+                {currentLanguage.name}
               </span>
             </button>
             {langDropdownOpen && (
-              <div className="absolute right-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+              <div className="absolute right-0 top-full mt-2 w-52 rounded-2xl border border-white/10 bg-[#0f172a]/95 py-2 shadow-2xl backdrop-blur-2xl z-50">
                 {availableLanguages.map((lang) => (
                   <button
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
-                    className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
+                    className={`flex w-full items-center gap-3 px-4 py-2.5 font-sans text-sm font-semibold transition-colors ${
                       currentLanguageCode === lang.code
-                        ? "bg-[#14213D]/5 text-[#C9A227]"
-                        : "text-[#14213D] hover:bg-[#14213D]/5"
+                        ? "bg-blue-600/20 text-sky-400"
+                        : "text-slate-300 hover:bg-white/5 hover:text-white"
                     }`}
                   >
                     <span>{lang.flag}</span>
@@ -370,7 +396,7 @@ export default function AppLayout({ children, userStats = { streak: 0, xp: 0, le
           </div>
         </div>
 
-        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 pb-20 mt-4 md:mt-12">
+        <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 pb-20 mt-2 md:mt-8">
           {children}
         </div>
       </main>
