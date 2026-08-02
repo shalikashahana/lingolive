@@ -25,6 +25,7 @@ import KoreanDashboard from "./pages/korean/KoreanDashboard";
 import KoreanQuiz from "./pages/korean/KoreanQuiz";
 import JapaneseDashboard from "./pages/japanese/JapaneseDashboard";
 import TeluguDashboard from "./pages/telugu/TeluguDashboard";
+import TeluguChat from "./pages/telugu/TeluguChat";
 import ThaiDashboard from "./pages/thai/ThaiDashboard";
 import ChineseDashboard from "./pages/chinese/ChineseDashboard";
 import Chat from "./pages/english/Chat";
@@ -101,6 +102,7 @@ export default function App() {
                     <Route path="/chinese-learning" element={<ChineseDashboard />} />
                     <Route path="/arabic-learning" element={<ArabicDashboard />} />
                     <Route path="/telugu-learning" element={<TeluguDashboard />} />
+                    <Route path="/telugu-chat" element={<TeluguChat />} />
 
 
                     <Route path="*" element={<Navigate to="/" replace />} />
