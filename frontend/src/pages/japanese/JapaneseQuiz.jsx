@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import koreanQuizJson from "../../data/koreanQuizData.json";
+import japaneseQuizJson from "../../data/japaneseQuizData.json";
 import { useCatTeacher } from "../../context/CatTeacherContext";
 import {
   Zap,
@@ -18,10 +18,10 @@ import {
 } from "lucide-react";
 import { calculateNewStreak } from "../../utils/streak";
 
-export default function KoreanQuiz({ onExit }) {
+export default function JapaneseQuiz({ onExit }) {
   const navigate = useNavigate();
   const { triggerCatTeacherModal } = useCatTeacher();
-  const allQuestions = koreanQuizJson.questions || [];
+  const allQuestions = Array.isArray(japaneseQuizJson) ? japaneseQuizJson : [];
 
   const handleExit = () => {
     if (onExit) onExit();
@@ -44,7 +44,7 @@ export default function KoreanQuiz({ onExit }) {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    const savedLevel = localStorage.getItem("korean_quiz_unlocked_level");
+    const savedLevel = localStorage.getItem("japanese_quiz_unlocked_level");
     if (savedLevel) {
       setUnlockedLevel(parseInt(savedLevel, 10));
     }
@@ -54,7 +54,7 @@ export default function KoreanQuiz({ onExit }) {
     if (!window.speechSynthesis || !text) return;
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "ko-KR";
+    utterance.lang = "ja-JP";
     utterance.rate = 0.85;
     window.speechSynthesis.speak(utterance);
   };
@@ -76,12 +76,12 @@ export default function KoreanQuiz({ onExit }) {
   const currentQ = questions[currentIndex];
   const isAnswered = currentQ ? answersSubmitted[currentQ.id] !== undefined : false;
 
-  const handleMCQSubmit = (idx, isCorrect, koText) => {
+  const handleMCQSubmit = (idx, isCorrect, jaText) => {
     if (isAnswered) return;
     setSelectedOption(idx);
     setAnswersSubmitted((prev) => ({ ...prev, [currentQ.id]: isCorrect }));
     
-    if (koText) playAudio(koText);
+    if (jaText) playAudio(jaText);
 
     if (isCorrect) {
       setScoreCount((prev) => prev + 1);
@@ -95,18 +95,18 @@ export default function KoreanQuiz({ onExit }) {
     } else {
       setQuizFinished(true);
       triggerCatTeacherModal({
-        language: "korean",
+        language: "japanese",
         category: "Quiz",
         level: activeLevel || 1,
         items: questions,
         onUnlockNextLevel: (nextLvl) => {
           if (activeLevel === unlockedLevel && activeLevel < totalLevels) {
             setUnlockedLevel(nextLvl);
-            localStorage.setItem("korean_quiz_unlocked_level", nextLvl.toString());
+            localStorage.setItem("japanese_quiz_unlocked_level", nextLvl.toString());
           }
-          const savedStats = JSON.parse(localStorage.getItem("korean_stats") || '{"streak":0,"xp":0}');
+          const savedStats = JSON.parse(localStorage.getItem("japanese_stats") || '{"streak":0,"xp":0}');
           const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
-          localStorage.setItem("korean_stats", JSON.stringify({
+          localStorage.setItem("japanese_stats", JSON.stringify({
             streak: updatedStreak,
             lastActiveDate: lastActiveDate,
             xp: savedStats.xp + 50
@@ -123,7 +123,7 @@ export default function KoreanQuiz({ onExit }) {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="font-display text-3xl font-bold text-white flex items-center gap-2">
-              <Zap className="w-8 h-8 text-blue-400" /> Korean Quiz Modules
+              <Zap className="w-8 h-8 text-red-400" /> Japanese Quiz Modules
             </h2>
             <p className="font-sans text-sm text-slate-400 mt-1">
               Select a module to access themed levels ({allQuestions.length} Total Questions)
@@ -131,7 +131,7 @@ export default function KoreanQuiz({ onExit }) {
           </div>
           <button 
             onClick={handleExit} 
-            className="flex items-center gap-1.5 rounded-xl bg-white/5 border border-white/10 px-4 py-2 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 hover:text-white transition shadow-sm"
+            className="flex items-center gap-1.5 rounded-xl bg-white/5 border border-white/10 px-4 py-2 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 transition shadow-sm"
           >
             <X className="h-4 w-4" /> Close
           </button>
@@ -154,13 +154,13 @@ export default function KoreanQuiz({ onExit }) {
                 disabled={isLocked}
                 className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 text-center ${
                   isLocked 
-                    ? "border-white/5 bg-white/5 opacity-60 cursor-not-allowed" 
+                    ? "border-white/5 bg-slate-900/40 opacity-60 cursor-not-allowed" 
                     : isInProgress
-                    ? "border-blue-500/50 bg-blue-500/10 shadow-lg shadow-blue-500/5 hover:-translate-y-1"
-                    : "border-emerald-500/30 bg-emerald-500/10 hover:shadow-md hover:bg-emerald-500/20 hover:-translate-y-1"
+                    ? "border-red-500 bg-red-500/10 shadow-lg hover:-translate-y-1"
+                    : "border-emerald-500/30 bg-emerald-950/20 hover:shadow-md hover:-translate-y-1"
                 }`}
               >
-                <div className={`w-14 h-14 mb-4 flex items-center justify-center rounded-2xl ${isLocked ? "bg-slate-800 text-slate-500" : isInProgress ? "bg-blue-500 text-white" : "bg-emerald-500 text-white"} shadow-md`}>
+                <div className={`w-14 h-14 mb-4 flex items-center justify-center rounded-2xl ${isLocked ? "bg-slate-800" : isInProgress ? "bg-red-500" : "bg-emerald-500"} text-white shadow-md`}>
                   <Map className="w-7 h-7" />
                 </div>
                 <span className={`font-display text-xl font-bold ${isLocked ? "text-slate-500" : "text-white"}`}>Module {moduleNum}</span>
@@ -168,9 +168,9 @@ export default function KoreanQuiz({ onExit }) {
                   Levels {startLevelNum} - {endLevelNum}
                 </span>
                 <div className="mt-4">
-                  {isLocked ? <Lock className="w-5 h-5 text-slate-600" /> : 
+                  {isLocked ? <Lock className="w-5 h-5 text-slate-500" /> : 
                    isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-400" /> : 
-                   <span className="text-xs font-bold text-blue-400 bg-blue-500/20 px-3.5 py-1 rounded-full border border-blue-500/20">In Progress</span>}
+                   <span className="text-xs font-bold text-red-400 bg-red-500/20 px-3.5 py-1 rounded-full">In Progress</span>}
                 </div>
               </button>
             );
@@ -192,18 +192,18 @@ export default function KoreanQuiz({ onExit }) {
           <div className="flex items-center gap-3">
             <button 
               onClick={() => setActiveModule(null)}
-              className="flex items-center gap-1 rounded-xl bg-white/5 border border-white/10 px-3 py-1.5 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 hover:text-white transition shadow-sm"
+              className="flex items-center gap-1 rounded-xl bg-white/5 border border-white/10 px-3 py-1.5 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 transition shadow-sm"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
               Back
             </button>
             <h2 className="font-display text-2xl font-bold text-white flex items-center gap-2">
-               <Map className="w-6 h-6 text-blue-400" /> Module {activeModule} Levels
+               <Map className="w-6 h-6 text-red-400" /> Module {activeModule} Levels
             </h2>
           </div>
           <button 
             onClick={handleExit} 
-            className="flex items-center gap-1 rounded-xl bg-white/5 border border-white/10 px-3 py-1.5 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 hover:text-white transition shadow-sm"
+            className="flex items-center gap-1 rounded-xl bg-white/5 border border-white/10 px-3 py-1.5 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 transition shadow-sm"
           >
             <X className="h-3.5 w-3.5" /> Close
           </button>
@@ -222,21 +222,21 @@ export default function KoreanQuiz({ onExit }) {
                 disabled={isLocked}
                 className={`relative flex flex-col items-center justify-center p-6 rounded-2xl border transition-all duration-300 ${
                   isCurrent
-                    ? "border-blue-500/50 bg-blue-500/10 ring-2 ring-blue-500/20 shadow-lg hover:-translate-y-1"
+                    ? "border-red-500 bg-red-500/10 ring-2 ring-red-500/50 shadow-lg hover:-translate-y-1"
                     : isCompleted
-                    ? "border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 hover:-translate-y-1"
-                    : "border-white/5 bg-white/5 opacity-60 cursor-not-allowed"
+                    ? "border-emerald-500/30 bg-emerald-950/20 hover:-translate-y-1"
+                    : "border-white/10 bg-slate-900/40 opacity-60 cursor-not-allowed"
                 }`}
               >
                 <div className="absolute top-3 right-3">
-                  {isCompleted && <CheckCircle2 className="h-4 w-4 text-emerald-400" />}
-                  {isLocked && <Lock className="h-4 w-4 text-slate-600" />}
+                  {isCompleted && <CheckCircle2 className="h-4 w-4 text-emerald-400 fill-emerald-900/50" />}
+                  {isLocked && <Lock className="h-4 w-4 text-slate-500" />}
                 </div>
 
                 <div className={`flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-xl font-bold mb-2 shadow-sm ${
-                  isCurrent ? 'bg-gradient-to-br from-blue-500 to-blue-700 text-white shadow-blue-500/20' :
+                  isCurrent ? 'bg-gradient-to-br from-red-500 to-rose-600 text-white border border-red-400/50' :
                   isCompleted ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
-                  'bg-slate-800 text-slate-500 border border-white/5'
+                  'bg-slate-800 text-slate-500 border border-slate-700'
                 }`}>
                   {levelNum}
                 </div>
@@ -244,7 +244,7 @@ export default function KoreanQuiz({ onExit }) {
                   Level {levelNum}
                 </span>
                 {isCurrent && (
-                  <span className="mt-1 font-mono text-[9px] font-bold text-blue-400 uppercase tracking-wider">
+                  <span className="mt-1 font-mono text-[9px] font-bold text-red-400 uppercase tracking-wider">
                     Next up
                   </span>
                 )}
@@ -263,20 +263,20 @@ export default function KoreanQuiz({ onExit }) {
   return (
     <div className="mx-auto max-w-3xl space-y-8 pb-16 pt-4">
       {!quizFinished ? (
-        <div className="rounded-3xl border border-white/10 bg-[#0f172a] p-6 shadow-2xl sm:p-10 space-y-8 relative">
+        <div className="rounded-3xl border border-white/10 bg-[#0f172a]/90 p-6 shadow-xl sm:p-10 space-y-8 relative">
           {/* Top Right Back to Levels */}
           <button 
             onClick={() => setActiveLevel(null)} 
-            className="absolute top-5 right-5 flex items-center gap-1.5 rounded-lg bg-white/5 px-3 py-1.5 font-sans text-xs font-bold text-slate-400 hover:bg-white/10 hover:text-white transition"
+            className="absolute top-5 right-5 flex items-center gap-1.5 rounded-lg bg-white/5 px-3 py-1.5 font-sans text-xs font-bold text-slate-300 hover:bg-white/10 transition"
           >
             <X className="h-3.5 w-3.5" /> Back to Levels
           </button>
           
           {/* Top Progress bar */}
           <div className="space-y-3 pt-2">
-            <div className="flex items-center justify-between font-mono text-xs font-bold text-slate-300">
-              <span className="flex items-center gap-1.5 text-blue-400">
-                <Sparkles className="h-4 w-4 text-blue-400" /> Level {activeLevel}
+            <div className="flex items-center justify-between font-mono text-xs font-bold text-white">
+              <span className="flex items-center gap-1.5 text-amber-400">
+                <Sparkles className="h-4 w-4 text-amber-400" /> Level {activeLevel}
               </span>
               <span className="text-slate-400">
                 Question {currentIndex + 1} of {questions.length}
@@ -284,7 +284,7 @@ export default function KoreanQuiz({ onExit }) {
             </div>
             <div className="h-2 w-full overflow-hidden rounded-full bg-white/10">
               <div
-                className="h-full rounded-full bg-gradient-to-r from-blue-400 to-blue-600 transition-all duration-300"
+                className="h-full rounded-full bg-gradient-to-r from-amber-400 to-red-500 transition-all duration-300"
                 style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
               />
             </div>
@@ -293,12 +293,12 @@ export default function KoreanQuiz({ onExit }) {
           {/* Question Title */}
           {currentQ && (
             <div className="space-y-3">
-              <span className="inline-block rounded-full bg-blue-500/10 border border-blue-500/20 px-3.5 py-1 font-mono text-xs font-semibold text-blue-400 uppercase tracking-wider">
+              <span className="inline-block rounded-full bg-white/10 px-3.5 py-1 font-mono text-xs font-semibold text-slate-300 uppercase tracking-wider">
                 MULTIPLE CHOICE
               </span>
               
               <h2 className="font-display text-2xl sm:text-3xl font-bold text-white leading-relaxed">
-                What is the Korean word for <span className="text-blue-400">"{currentQ.en}"</span> <span className="text-slate-400 text-xl">({currentQ.ta})</span>?
+                {currentQ.question}
               </h2>
             </div>
           )}
@@ -308,28 +308,28 @@ export default function KoreanQuiz({ onExit }) {
             <div className="space-y-3.5">
               {currentQ.options.map((opt, idx) => {
                 const isSelected = selectedOption === idx;
-                const isCorrect = opt.ans;
+                const isCorrect = opt.japanese === currentQ.correct_answer;
 
-                let btnStyle = "border-white/10 bg-white/5 text-white hover:bg-white/10 hover:border-white/20";
+                let btnStyle = "border-white/10 bg-[#050816] text-white hover:bg-white/5 hover:border-white/20";
                 if (isAnswered) {
-                  if (isCorrect) btnStyle = "border-emerald-500/50 bg-emerald-500/10 text-emerald-400 font-semibold shadow-sm";
-                  else if (isSelected) btnStyle = "border-red-500/50 bg-red-500/10 text-red-400 shadow-sm";
-                  else btnStyle = "border-white/5 bg-transparent opacity-40 text-slate-300";
+                  if (isCorrect) btnStyle = "border-emerald-500 bg-emerald-500/20 text-emerald-400 font-semibold shadow-sm";
+                  else if (isSelected) btnStyle = "border-red-500 bg-red-500/20 text-red-400 shadow-sm";
+                  else btnStyle = "border-white/5 bg-[#050816]/50 opacity-40";
                 }
 
                 return (
                   <button
                     key={idx}
                     disabled={isAnswered}
-                    onClick={() => handleMCQSubmit(idx, isCorrect, opt.ko)}
+                    onClick={() => handleMCQSubmit(idx, isCorrect, opt.japanese)}
                     className={`flex w-full items-center justify-between rounded-2xl border p-5 font-sans text-left transition duration-200 shadow-sm ${btnStyle}`}
                   >
                     <div className="flex flex-col gap-0.5">
-                      <span className="font-bold font-sans text-2xl tracking-wide">{opt.ko}</span>
-                      <span className="text-xs font-mono text-slate-400 mt-0.5">{opt.tr}</span>
+                      <span className="font-bold font-sans text-2xl tracking-wide">{opt.japanese}</span>
+                      <span className={`text-xs font-mono mt-0.5 ${isAnswered && isCorrect ? 'text-emerald-400' : isAnswered && isSelected && !isCorrect ? 'text-red-400' : 'text-slate-400'}`}>{opt.romaji}</span>
                     </div>
-                    {isAnswered && isCorrect && <CheckCircle2 className="h-6 w-6 text-emerald-400 shrink-0" />}
-                    {isAnswered && isSelected && !isCorrect && <XCircle className="h-6 w-6 text-red-400 shrink-0" />}
+                    {isAnswered && isCorrect && <CheckCircle2 className="h-6 w-6 text-emerald-400 fill-emerald-900/50 shrink-0" />}
+                    {isAnswered && isSelected && !isCorrect && <XCircle className="h-6 w-6 text-red-400 fill-red-900/50 shrink-0" />}
                   </button>
                 );
               })}
@@ -352,7 +352,7 @@ export default function KoreanQuiz({ onExit }) {
               </div>
               <button
                 onClick={handleNext}
-                className="flex items-center justify-center gap-2 w-full rounded-xl bg-blue-500 py-3.5 font-sans text-sm font-bold text-white shadow-md hover:bg-blue-600 transition"
+                className="flex items-center justify-center gap-2 w-full rounded-xl bg-red-600 py-3.5 font-sans text-sm font-bold text-white shadow-md hover:bg-red-500 transition"
               >
                 <span>{currentIndex < questions.length - 1 ? "Next Question" : "View Final Results"}</span>
                 <ArrowRight className="h-4 w-4" />
@@ -362,13 +362,13 @@ export default function KoreanQuiz({ onExit }) {
         </div>
       ) : (
         /* Quiz Final Result Screen */
-        <div className="rounded-3xl border border-white/10 bg-[#0f172a] p-8 text-center shadow-2xl space-y-6 sm:p-12">
-          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-blue-500/20 border border-blue-500/30 text-blue-400 shadow-xl">
+        <div className="rounded-3xl border border-white/10 bg-[#0f172a]/90 p-8 text-center shadow-2xl space-y-6 sm:p-12">
+          <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-amber-500/20 text-amber-400 border border-amber-500/30 shadow-xl">
             <Award className="h-10 w-10" />
           </div>
 
           <div className="space-y-2">
-            <span className="inline-block rounded-full bg-emerald-500/10 px-3 py-1 font-mono text-xs font-bold text-emerald-400 border border-emerald-500/20">
+            <span className="inline-block rounded-full bg-emerald-500/20 px-3 py-1 font-mono text-xs font-bold text-emerald-400 border border-emerald-500/30">
               Level {activeLevel} Evaluation
             </span>
             <h2 className="font-display text-3xl font-bold text-white">
@@ -380,17 +380,17 @@ export default function KoreanQuiz({ onExit }) {
           </div>
 
           {/* Stats Box */}
-          <div className="grid grid-cols-3 gap-4 rounded-2xl bg-white/5 border border-white/5 p-4 text-center">
+          <div className="grid grid-cols-3 gap-4 rounded-2xl bg-[#050816]/60 border border-white/5 p-4 text-center">
             <div>
               <p className="font-mono text-2xl font-bold text-white">{scorePercentage}%</p>
               <p className="text-[11px] text-slate-400">Accuracy</p>
             </div>
             <div>
-              <p className="font-mono text-2xl font-bold text-blue-400">+{passed ? 50 : 10} XP</p>
+              <p className="font-mono text-2xl font-bold text-amber-400">+{passed ? 50 : 10} XP</p>
               <p className="text-[11px] text-slate-400">Earned XP</p>
             </div>
             <div>
-              <p className="font-mono text-2xl font-bold text-emerald-400">{scoreCount}/{questions.length}</p>
+              <p className="font-mono text-2xl font-bold text-sky-400">{scoreCount}/{questions.length}</p>
               <p className="text-[11px] text-slate-400">Correct</p>
             </div>
           </div>
@@ -398,14 +398,14 @@ export default function KoreanQuiz({ onExit }) {
           <div className="flex flex-col sm:flex-row gap-3 pt-2">
             <button
               onClick={() => startLevel(activeLevel)}
-              className="flex items-center justify-center gap-2 flex-1 rounded-xl border border-white/20 bg-white/5 py-3.5 font-sans text-sm font-bold text-white shadow-sm hover:bg-white/10 transition"
+              className="flex items-center justify-center gap-2 flex-1 rounded-xl border border-white/10 bg-white/5 py-3.5 font-sans text-sm font-bold text-white shadow-sm hover:bg-white/10 transition"
             >
               <RotateCcw className="h-4 w-4" /> Retry Level
             </button>
             {activeLevel < totalLevels && (
               <button
                 onClick={() => startLevel(activeLevel + 1)}
-                className="flex items-center justify-center gap-2 flex-1 rounded-xl bg-blue-500 py-3.5 font-sans text-sm font-bold text-white shadow-md hover:bg-blue-600 transition"
+                className="flex items-center justify-center gap-2 flex-1 rounded-xl bg-red-600 py-3.5 font-sans text-sm font-bold text-white shadow-md hover:bg-red-500 transition"
               >
                 <span>Next Level</span>
                 <ArrowRight className="h-4 w-4" />

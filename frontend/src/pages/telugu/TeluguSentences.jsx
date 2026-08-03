@@ -152,6 +152,21 @@ export default function TeluguSentences() {
   const wordCategories = Object.keys(groupedWords);
   const [activeWordCategory, setActiveWordCategory] = useState(wordCategories[0]);
 
+  const teluguSentencesData = useMemo(() => {
+    const modules = [];
+    const numModules = Math.ceil(teluguSentences.length / 100);
+    for (let i = 0; i < numModules; i++) {
+      modules.push({
+        module: String(i + 1),
+        sentences: teluguSentences.slice(i * 100, (i + 1) * 100)
+      });
+    }
+    return {
+      total_sentences: teluguSentences.length,
+      modules: modules
+    };
+  }, []);
+
   const formattedTeluguSentences = useMemo(() => {
     const parts = [];
     const moduleSize = 100;
@@ -304,251 +319,365 @@ export default function TeluguSentences() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50 overflow-hidden">
-      {/* Left Sidebar */}
-      <aside className="w-72 h-screen bg-white border-r border-[#14213D]/10 flex flex-col shadow-sm shrink-0">
-        {/* Top Section */}
-        <div className="p-6 border-b border-[#14213D]/10 flex flex-col gap-3">
-          <div className="flex items-center justify-between">
-            <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
-            </h1>
-            <div className="relative">
-              <button
-                onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-                className="group flex items-center justify-center h-8 px-2.5 gap-1.5 rounded-lg border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
-              >
-                <Globe className="h-3.5 w-3.5 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
-                <span className="text-[13px] leading-none">{currentLanguage.flag}</span>
-                <span className="font-sans text-[11px] font-bold uppercase mt-0.5">
-                  {currentLanguage.code}
-                </span>
-              </button>
-              {langDropdownOpen && (
-                <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
-                  {availableLanguages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      onClick={() => changeLanguage(lang.code)}
-                      className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
-                        currentLanguageCode === lang.code
-                          ? "bg-[#14213D]/5 text-[#C9A227]"
-                          : "text-[#14213D] hover:bg-[#14213D]/5"
-                      }`}
-                    >
-                      <span>{lang.flag}</span>
-                      <span>{lang.name}</span>
-                    </button>
-                  ))}
-                </div>
-              )}
+    <div className="flex h-screen bg-[#050816] overflow-hidden font-sans text-white">
+      {/* ── Left Sidebar (dark glassmorphism) ── */}
+      <aside className="w-64 h-screen bg-[#050816]/95 border-r border-white/[0.08] flex flex-col backdrop-blur-2xl shrink-0">
+
+        {/* Brand header */}
+        <div className="p-5 border-b border-white/[0.06] flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-amber-600 to-yellow-400 text-white shadow-lg shadow-amber-500/30">
+              <Zap className="h-4 w-4 fill-white" />
+            </div>
+            <div>
+              <span className="font-extrabold text-white tracking-tight leading-none block">LingoLive</span>
+              <span className="text-[10px] font-mono text-amber-400 uppercase tracking-widest">Telugu Edition</span>
             </div>
           </div>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#14213D]/5 px-3 py-1.5 font-mono text-xs font-semibold text-[#14213D]/70 w-fit">
-            Telugu Learning
-          </span>
-          <button 
+          <div className="relative">
+            <button
+              onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+              className="flex items-center gap-1.5 h-8 px-2.5 rounded-xl border border-white/10 bg-white/[0.05] hover:bg-white/10 transition-all"
+            >
+              <Globe className="h-3.5 w-3.5 text-amber-400" />
+              <span className="text-sm leading-none">{currentLanguage.flag}</span>
+              <span className="font-mono text-[10px] font-bold uppercase text-slate-300">{currentLanguage.code}</span>
+            </button>
+            {langDropdownOpen && (
+              <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-white/10 bg-[#0f172a]/95 py-2 shadow-2xl backdrop-blur-2xl z-50">
+                {availableLanguages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`flex w-full items-center gap-3 px-4 py-2.5 font-sans text-sm font-semibold transition-colors ${
+                      currentLanguageCode === lang.code
+                        ? "bg-amber-500/10 text-amber-400"
+                        : "text-slate-300 hover:bg-white/5 hover:text-white"
+                    }`}
+                  >
+                    <span>{lang.flag}</span>
+                    <span>{lang.name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Back to main */}
+        <div className="px-4 pt-3 pb-1">
+          <button
             onClick={() => navigate("/")}
-            className="mt-1 flex items-center gap-2 px-3 py-2 text-xs font-semibold text-[#14213D]/60 hover:text-[#14213D] hover:bg-[#14213D]/5 rounded-lg transition-colors border border-transparent hover:border-[#14213D]/10 w-fit"
+            className="flex items-center gap-2 px-3 py-2 text-xs font-semibold text-slate-500 hover:text-slate-300 hover:bg-white/5 rounded-xl transition-all w-full"
           >
             <ArrowLeft className="w-3.5 h-3.5" /> Back to Main
           </button>
         </div>
 
-        {/* Middle Section (Navigation) */}
-        <nav className="flex-1 overflow-y-auto p-4 space-y-2">
+        {/* Section label */}
+        <div className="px-6 pt-3 pb-1">
+          <span className="font-mono text-[10px] font-bold text-slate-600 uppercase tracking-widest">Core Modules</span>
+        </div>
+
+        {/* Navigation */}
+        <nav className="flex-1 overflow-y-auto px-3 py-2 space-y-0.5">
           {TABS.map((tabName) => {
             const getIcon = (name) => {
-              if (name === "Home") return <LayoutDashboard className="w-4 h-4 text-current" />;
-              if (name.includes("Alphabets")) return <span className="text-sm font-telugu text-current">అ</span>;
-              if (name.includes("Words")) return <BookOpen className="w-4 h-4 text-current" />;
-              if (name.includes("Numbers")) return <span className="text-sm font-mono font-bold text-current">12</span>;
-              if (name.includes("Sentences")) return <BookOpen className="w-4 h-4 text-current" />;
-              if (name.includes("Quiz")) return <Zap className="w-4 h-4 text-current" />;
-              if (name.includes("AI")) return <Bot className="w-4 h-4 text-current" />;
-              return <CheckCircle2 className="w-4 h-4 text-current" />;
+              if (name === "Home") return <LayoutDashboard className="w-4 h-4" />;
+              if (name.includes("Alphabets")) return <span className="text-sm font-telugu">అ</span>;
+              if (name.includes("Words")) return <BookOpen className="w-4 h-4" />;
+              if (name.includes("Numbers")) return <span className="text-sm font-mono font-bold">12</span>;
+              if (name.includes("Sentences")) return <BookOpen className="w-4 h-4" />;
+              if (name.includes("Quiz")) return <Zap className="w-4 h-4" />;
+              if (name.includes("AI")) return <Bot className="w-4 h-4" />;
+              return <CheckCircle2 className="w-4 h-4" />;
             };
-
             const isActive = activeTab === tabName;
-
             return (
               <button
                 key={tabName}
                 onClick={() => setActiveTab(tabName)}
-                className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all duration-200 ${
+                className={`w-full flex items-center justify-between px-3 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
                   isActive
-                    ? "bg-[#14213D] text-white shadow-md"
-                    : "text-[#14213D]/70 hover:bg-[#14213D]/5 hover:text-[#14213D]"
+                    ? "bg-amber-500/15 border border-amber-500/30 text-white shadow-sm"
+                    : "text-slate-400 hover:bg-white/5 hover:text-white border border-transparent"
                 }`}
               >
-                <div className={`flex items-center justify-center w-7 h-7 rounded-lg ${
-                  isActive ? "bg-white/20" : "bg-[#14213D]/10"
-                }`}>
-                  {getIcon(tabName)}
+                <div className="flex items-center gap-3">
+                  <span className={isActive ? "text-amber-400" : "text-slate-500"}>{getIcon(tabName)}</span>
+                  <span className="truncate text-left">{tabName}</span>
                 </div>
-                <span className="text-sm text-left truncate">{tabName}</span>
+                {isActive && <div className="h-2 w-2 rounded-full bg-amber-400 shadow-[0_0_8px_#fbbf24] shrink-0" />}
               </button>
-            )
+            );
           })}
         </nav>
 
-        {/* Bottom Section */}
-        <div className="p-5 border-t border-[#14213D]/10 bg-gray-50/50 flex flex-col gap-4">
-          <div className="flex items-center justify-between px-1">
-            <div className="flex flex-col items-center gap-1">
-              <div className="flex items-center gap-1.5">
-                <Flame className={`w-4 h-4 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
-                <span className="text-xs font-semibold text-[#14213D]/70">Streak</span>
+        {/* Bottom: Stats + Profile */}
+        <div className="p-4 border-t border-white/[0.06] space-y-3">
+          <div className="grid grid-cols-2 gap-2">
+            <div className="flex items-center gap-2 rounded-xl bg-amber-500/10 border border-amber-500/20 px-3 py-2" title="Daily Streak">
+              <Flame className={`w-4 h-4 shrink-0 ${stats.streak > 0 ? "text-amber-400 fill-amber-400" : "text-slate-500"}`} />
+              <div>
+                <div className={`font-bold text-sm leading-none ${stats.streak > 0 ? "text-amber-300" : "text-slate-500"}`}>{stats.streak}d</div>
+                <div className="text-[9px] font-mono text-amber-600 uppercase tracking-wider mt-0.5">Streak</div>
               </div>
-              <span className={`font-mono font-bold ${stats.streak > 0 ? "text-amber-600" : "text-[#14213D]/40"}`}>{stats.streak}</span>
             </div>
-            <div className="w-px h-8 bg-[#14213D]/10"></div>
-            <div className="flex flex-col items-center gap-1">
-              <div className="flex items-center gap-1.5">
-                <Zap className={`w-4 h-4 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
-                <span className="text-xs font-semibold text-[#14213D]/70">Points</span>
+            <div className="flex items-center gap-2 rounded-xl bg-sky-500/10 border border-sky-500/20 px-3 py-2" title="XP Points">
+              <Zap className={`w-4 h-4 shrink-0 ${stats.xp > 0 ? "text-sky-400 fill-sky-400" : "text-slate-500"}`} />
+              <div>
+                <div className={`font-bold text-sm leading-none ${stats.xp > 0 ? "text-sky-300" : "text-slate-500"}`}>{stats.xp}</div>
+                <div className="text-[9px] font-mono text-sky-600 uppercase tracking-wider mt-0.5">XP</div>
               </div>
-              <span className={`font-mono font-bold ${stats.xp > 0 ? "text-[#C9A227]" : "text-[#14213D]/40"}`}>{stats.xp}</span>
             </div>
           </div>
-          
+
           {user && (
-            <div className="flex items-center justify-between bg-white p-3 rounded-xl border border-[#14213D]/10 shadow-sm">
-              <div className="flex items-center gap-2 overflow-hidden">
-                <div className="w-8 h-8 rounded-full bg-[#14213D]/5 flex items-center justify-center shrink-0">
-                  <User className="w-4 h-4 text-[#3F6656]" />
+            <div className="flex items-center justify-between rounded-xl border border-white/[0.08] bg-white/[0.04] p-2.5 hover:bg-white/[0.07] transition-colors">
+              <div className="flex items-center gap-2.5 overflow-hidden">
+                {user.photoURL ? (
+                  <img src={user.photoURL} alt="Avatar" className="h-8 w-8 rounded-lg object-cover shrink-0" />
+                ) : (
+                  <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-gradient-to-tr from-amber-600 to-yellow-400 text-xs font-bold text-white">
+                    {user.displayName?.[0] || user.email?.[0]?.toUpperCase() || "L"}
+                  </div>
+                )}
+                <div className="overflow-hidden">
+                  <p className="text-xs font-bold text-white truncate">{user.displayName || "Learner"}</p>
+                  <p className="text-[10px] text-slate-500 truncate">{user.email}</p>
                 </div>
-                <span className="text-xs font-semibold truncate text-[#14213D]">{user.email}</span>
               </div>
-              <button 
-                onClick={handleLogout}
-                className="p-2 rounded-lg text-red-500 hover:bg-red-50 transition-colors shrink-0"
-                title="Logout"
-              >
-                <LogOut className="w-4 h-4" />
+              <button onClick={handleLogout} className="p-1.5 rounded-lg text-slate-500 hover:text-rose-400 hover:bg-rose-500/10 transition-colors shrink-0" title="Sign out">
+                <LogOut className="w-3.5 h-3.5" />
               </button>
             </div>
           )}
         </div>
       </aside>
 
-      {/* Main Content Area */}
-      <main className="flex-1 flex flex-col overflow-y-auto">
-        <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-8 pb-16">
-          <div className="relative overflow-hidden rounded-3xl bg-[#14213D] p-6 text-white shadow-xl sm:p-10">
-        <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-[#C9A227]/10 blur-3xl" />
-        <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-[#3F6656]/20 blur-2xl" />
+      {/* ── Main Content Area ── */}
+      <main className="flex-1 flex flex-col overflow-y-auto bg-[#050816] custom-scrollbar">
+        <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-6 pb-16">
 
-        <div className="relative z-10 grid gap-6 md:grid-cols-[1fr_auto]">
-          <div className="space-y-4">
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C9A227] px-3 py-1 font-mono text-xs font-bold text-[#14213D]">
-                <Sparkles className="h-3.5 w-3.5" />
-                Telugu Fundamentals
-              </span>
-              <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
-                Beginner
-              </span>
-            </div>
+          {/* ── Hero Banner ── */}
+          <motion.div
+            initial={{ opacity: 0, y: -15 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="relative overflow-hidden rounded-3xl border border-white/[0.08] bg-gradient-to-r from-[#0c1a2e] via-[#0f1e38] to-[#050816] p-8 sm:p-10 shadow-2xl"
+          >
+            <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-amber-600/15 blur-3xl pointer-events-none" />
+            <div className="absolute -left-16 -bottom-16 h-56 w-56 rounded-full bg-sky-600/10 blur-3xl pointer-events-none" />
 
-            <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Learn the Telugu Alphabet
-            </h1>
-            <p className="max-w-2xl font-sans text-sm text-white/70 leading-relaxed">
-              Master the core {teluguAlphabet.total_core_letters} letters of Telugu. 
-              Start with the vowels (Acchulu) and progress to the consonants (Hallulu) to build your foundation.
-            </p>
-
-            {/* Quick Action buttons */}
-            <div className="flex flex-wrap items-center gap-3 pt-2">
-              <button
-                onClick={() => setActiveTab("Quiz Dashboard")}
-                className="flex items-center gap-2 rounded-xl bg-[#C9A227] px-5 py-3 font-sans text-sm font-bold text-[#14213D] shadow-lg transition hover:brightness-110 active:scale-95"
-              >
-                <Zap className="h-4 w-4 fill-[#14213D]" />
-                <span>Take Quiz</span>
-              </button>
-
-              <button
-                onClick={() => navigate("/analytics")}
-                className="flex items-center gap-2 rounded-xl bg-white/10 px-5 py-3 font-sans text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20 border border-white/15"
-              >
-                <BarChart3 className="h-4 w-4 text-[#C9A227]" />
-                <span>View Analytics</span>
-              </button>
-            </div>
-          </div>
-
-          {/* Right Progress Card (Streak and XP) */}
-          <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md md:w-64 space-y-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                 <Flame className={`w-5 h-5 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
-                 <span className="text-sm text-white/80 font-medium">Daily Streak</span>
-              </div>
-              <span className={`font-mono font-bold text-lg ${stats.streak > 0 ? "text-amber-500" : "text-white"}`}>{stats.streak}</span>
-            </div>
-            
-            <div className="flex items-center justify-between border-t border-white/10 pt-4">
-              <div className="flex items-center gap-2">
-                 <Zap className={`w-5 h-5 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
-                 <span className="text-sm text-white/80 font-medium">Earned XP</span>
-              </div>
-              <span className={`font-mono font-bold text-lg ${stats.xp > 0 ? "text-[#C9A227]" : "text-white"}`}>{stats.xp}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Content Area Grid */}
-      <div className="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-[#14213D]/5">
-          {activeTab === "Home" && (
-            <div className="space-y-8 animate-fade-in">
-              <div className="space-y-2">
-                <h2 className="font-display text-3xl font-bold text-[#14213D]">
-                  Welcome back! 👋
-                </h2>
-                <p className="font-sans text-sm text-[#14213D]/60 max-w-xl">
-                  Pick up where you left off or start a new lesson. Your Telugu journey is waiting for you!
+            <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+              <div className="space-y-3">
+                <div className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3.5 py-1 text-xs font-mono font-bold text-amber-300 backdrop-blur-md">
+                  <Sparkles className="h-3.5 w-3.5 text-amber-400" />
+                  Telugu Fundamentals · {teluguAlphabet.total_core_letters} Letters
+                </div>
+                <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tight text-white">
+                  Welcome back,{" "}
+                  <span className="bg-gradient-to-r from-amber-400 to-yellow-300 bg-clip-text text-transparent">
+                    {user?.displayName?.split(" ")[0] || "Learner"}
+                  </span>
+                </h1>
+                <p className="max-w-xl text-sm sm:text-base text-slate-400 leading-relaxed">
+                  {stats.streak > 0
+                    ? <>You're on a <span className="text-amber-400 font-bold">{stats.streak}-day streak</span>! Keep practicing daily to maintain momentum.</>
+                    : "Start your learning streak today by completing your first lesson module!"}
                 </p>
               </div>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {dashboardCards.map((card) => (
-                  <button
-                    key={card.key}
-                    onClick={() => setActiveTab(card.tab)}
-                    className={`flex flex-col items-start gap-4 p-6 rounded-2xl border text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${card.bg} ${card.border}`}
-                  >
-                    <div 
-                      className="w-12 h-12 rounded-xl flex items-center justify-center shadow-sm text-2xl font-bold text-white" 
-                      style={{ backgroundColor: card.color }}
-                    >
-                      {card.icon}
+              <button
+                onClick={() => setActiveTab("Alphabets (అక్షరమాల)")}
+                className="flex items-center gap-2.5 bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-500 hover:to-yellow-400 text-white font-bold px-6 py-3.5 rounded-2xl shadow-lg shadow-amber-600/30 transition-all hover:scale-105 active:scale-95 shrink-0 whitespace-nowrap"
+              >
+                <span>Start Learning</span>
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+          </motion.div>
+
+      {/* ── Content Area ── */}
+      <div className="space-y-6">
+          {activeTab === "Home" && (
+            <div className="space-y-6 animate-fade-in">
+
+              {/* ── Stats Row (4 cards) ── */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                {/* Daily Streak */}
+                <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                  <div>
+                    <span className="font-mono text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">Daily Streak</span>
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-2xl font-extrabold text-amber-400">{stats.streak}</span>
+                      <span className="text-xs text-slate-400 font-semibold">Days Active</span>
                     </div>
-                    <div>
-                      <h3 className="font-display text-lg font-bold text-[#14213D]">{card.label}</h3>
-                      {card.total !== null ? (
-                        <p className="font-mono text-sm font-semibold text-[#14213D]/60 mt-1">
-                          {progress[card.key]} / {card.total} Completed
-                        </p>
-                      ) : (
-                        <p className="font-sans text-sm font-semibold text-[#14213D]/60 mt-1">
-                          Practice with smart challenges
-                        </p>
-                      )}
+                  </div>
+                  <div className="h-12 w-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center">
+                    <Flame className={`h-6 w-6 ${stats.streak > 0 ? "fill-amber-400 text-amber-400" : "text-slate-500"}`} />
+                  </div>
+                </div>
+
+                {/* XP Progress */}
+                <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03]">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="font-mono text-[11px] font-bold text-slate-500 uppercase tracking-wider">Level 1 XP</span>
+                    <span className="text-xs font-bold text-amber-400">{stats.xp} / 500</span>
+                  </div>
+                  <div className="w-full h-2.5 bg-white/10 rounded-full overflow-hidden mb-1.5">
+                    <div
+                      className="h-full bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full transition-all duration-700"
+                      style={{ width: `${Math.min(100, (stats.xp / 500) * 100)}%` }}
+                    />
+                  </div>
+                  <span className="text-[10px] text-slate-500 font-medium">{Math.max(0, 500 - stats.xp)} XP remaining to Level 2</span>
+                </div>
+
+                {/* Alphabet Progress */}
+                <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                  <div>
+                    <span className="font-mono text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">Alphabet Progress</span>
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-2xl font-extrabold text-emerald-400">{progress.vowels + progress.consonants}</span>
+                      <span className="text-xs text-slate-400 font-semibold">/ {teluguAlphabet.total_core_letters} Letters</span>
                     </div>
-                    {/* Progress Bar (if applicable) */}
-                    {card.total !== null && (
-                      <div className="w-full h-1.5 rounded-full bg-white/50 mt-2 overflow-hidden border border-black/5">
-                        <div 
-                          className="h-full rounded-full transition-all duration-700" 
-                          style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
-                        />
+                  </div>
+                  <div className="h-12 w-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                    <span className="text-xl font-bold font-telugu text-emerald-400">అ</span>
+                  </div>
+                </div>
+
+                {/* Words Learned */}
+                <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                  <div>
+                    <span className="font-mono text-[11px] font-bold text-slate-500 uppercase tracking-wider block mb-1">Words Learned</span>
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-2xl font-extrabold text-sky-400">{progress.words}</span>
+                      <span className="text-xs text-slate-400 font-semibold">/ {teluguWords.words?.length || 200} Words</span>
+                    </div>
+                  </div>
+                  <div className="h-12 w-12 rounded-2xl bg-sky-500/10 border border-sky-500/20 flex items-center justify-center">
+                    <BookOpen className="h-6 w-6 text-sky-400" />
+                  </div>
+                </div>
+              </div>
+
+              {/* ── Today's Mission + AI Coach ── */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+                {/* Mission Checklist (2 cols) */}
+                <div className="md:col-span-2 p-6 border border-white/[0.08] rounded-3xl bg-white/[0.03] flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-center justify-between mb-5">
+                      <div className="flex items-center gap-2">
+                        <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
+                        <h3 className="text-lg font-bold text-white">Today's Mission</h3>
                       </div>
-                    )}
+                      <span className="px-3 py-1 rounded-full bg-amber-500/15 text-amber-300 font-mono text-xs font-bold border border-amber-500/20">+50 XP Reward</span>
+                    </div>
+                    <div className="space-y-3">
+                      {[
+                        { text: "Learn 5 Telugu Vowels (అచ్చులు)", tab: "Alphabets (అక్షరమాల)", done: progress.vowels >= 5 },
+                        { text: "Study 10 Essential Words", tab: "Essential Words", done: progress.words >= 10 },
+                        { text: "Practice with Quiz Dashboard", tab: "Quiz Dashboard", done: false },
+                      ].map((item, i) => (
+                        <div
+                          key={i}
+                          onClick={() => setActiveTab(item.tab)}
+                          className="flex items-center justify-between p-3.5 rounded-2xl bg-white/[0.04] border border-white/[0.06] cursor-pointer hover:bg-white/[0.08] transition-colors group"
+                        >
+                          <div className="flex items-center gap-3">
+                            {item.done ? (
+                              <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
+                            ) : (
+                              <div className="h-5 w-5 rounded-full border-2 border-slate-600 shrink-0" />
+                            )}
+                            <span className={`text-sm font-medium ${item.done ? "text-slate-400 line-through" : "text-slate-200"}`}>{item.text}</span>
+                          </div>
+                          <ChevronRight className="w-4 h-4 text-slate-600 group-hover:text-slate-400 transition-colors" />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="mt-5 flex justify-end">
+                    <button
+                      onClick={() => setActiveTab("Alphabets (అక్షరమాల)")}
+                      className="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1 transition-colors"
+                    >
+                      <span>View All Lessons</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+
+                {/* Gemma AI Coach (1 col) */}
+                <div className="p-6 border border-amber-500/20 rounded-3xl bg-gradient-to-b from-amber-900/20 to-slate-900/40 flex flex-col justify-between">
+                  <div>
+                    <div className="h-12 w-12 rounded-2xl bg-gradient-to-tr from-amber-600 to-yellow-400 text-white flex items-center justify-center shadow-lg shadow-amber-500/30 mb-4">
+                      <Bot className="w-6 h-6" />
+                    </div>
+                    <h3 className="text-lg font-bold text-white mb-1">Gemma AI Conversation</h3>
+                    <p className="text-xs text-slate-400 leading-relaxed mb-4">
+                      Practice real-time Telugu conversations with instant feedback on pronunciation and vocabulary usage.
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => setActiveTab("AI Conversation")}
+                    className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-500 hover:to-yellow-400 text-white font-bold py-3 rounded-2xl shadow-lg shadow-amber-600/30 transition-all hover:scale-[1.02] text-xs"
+                  >
+                    <span>Open AI Conversation</span>
+                    <ChevronRight className="w-4 h-4" />
                   </button>
-                ))}
+                </div>
+              </div>
+
+              {/* ── Module Cards Grid ── */}
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <h2 className="text-sm font-bold text-slate-400 uppercase tracking-widest">All Modules</h2>
+                  <div className="h-px flex-1 bg-white/[0.06]" />
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {dashboardCards.map((card) => (
+                    <button
+                      key={card.key}
+                      onClick={() => setActiveTab(card.tab)}
+                      className="group relative text-left p-6 rounded-3xl border border-white/[0.08] bg-white/[0.03] flex flex-col justify-between overflow-hidden transition-all duration-300 hover:bg-white/[0.06] hover:border-white/[0.15] hover:-translate-y-1 hover:shadow-xl"
+                    >
+                      <div className="flex items-center justify-between mb-8 w-full">
+                        <div
+                          className="h-12 w-12 rounded-2xl flex items-center justify-center text-xl font-bold text-white shadow-lg"
+                          style={{ backgroundColor: card.color }}
+                        >
+                          {card.icon}
+                        </div>
+                        <div className="h-9 w-9 rounded-full bg-white/5 group-hover:bg-amber-500 text-slate-400 group-hover:text-white flex items-center justify-center transition-colors">
+                          <ChevronRight className="h-4 w-4" />
+                        </div>
+                      </div>
+                      <div className="w-full">
+                        <h3 className="font-bold text-white text-lg group-hover:text-amber-300 transition-colors mb-2">
+                          {card.label}
+                        </h3>
+                        {card.total !== null ? (
+                          <>
+                            <p className="font-mono text-xs text-slate-400 mb-2">{progress[card.key]} / {card.total} Completed</p>
+                            <div className="w-full h-1.5 rounded-full bg-white/[0.08] overflow-hidden">
+                              <div
+                                className="h-full rounded-full transition-all duration-700"
+                                style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
+                              />
+                            </div>
+                          </>
+                        ) : (
+                          <p className="text-xs text-slate-400 leading-relaxed">
+                            Practice with smart challenges and interactive exercises.
+                          </p>
+                        )}
+                      </div>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           )}

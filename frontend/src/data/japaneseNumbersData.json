@@ -1,1 +1,37 @@
-{"numbers": []}
+{
+  "language": "Japanese",
+  "code": "ja",
+  "total_numbers": 30,
+  "numbers": [
+    { "id": 1, "digit": "1", "japanese": "一 (いち)", "english_transliteration": "ichi", "tamil_transliteration": "இச்சி", "english_meaning": "1 (One)", "tamil_meaning": "1 (ஒன்று)" },
+    { "id": 2, "digit": "2", "japanese": "二 (に)", "english_transliteration": "ni", "tamil_transliteration": "நி", "english_meaning": "2 (Two)", "tamil_meaning": "2 (இரண்டு)" },
+    { "id": 3, "digit": "3", "japanese": "三 (さん)", "english_transliteration": "san", "tamil_transliteration": "சான்", "english_meaning": "3 (Three)", "tamil_meaning": "3 (மூன்று)" },
+    { "id": 4, "digit": "4", "japanese": "四 (よん / し)", "english_transliteration": "yon / shi", "tamil_transliteration": "யோன் / ஷி", "english_meaning": "4 (Four)", "tamil_meaning": "4 (நான்கு)" },
+    { "id": 5, "digit": "5", "japanese": "五 (ご)", "english_transliteration": "go", "tamil_transliteration": "கோ", "english_meaning": "5 (Five)", "tamil_meaning": "5 (ஐந்து)" },
+    { "id": 6, "digit": "6", "japanese": "六 (ろく)", "english_transliteration": "roku", "tamil_transliteration": "ரோகு", "english_meaning": "6 (Six)", "tamil_meaning": "6 (ஆறு)" },
+    { "id": 7, "digit": "7", "japanese": "七 (なな / しち)", "english_transliteration": "nana / shichi", "tamil_transliteration": "நானா / ஷிச்சி", "english_meaning": "7 (Seven)", "tamil_meaning": "7 (ஏழு)" },
+    { "id": 8, "digit": "8", "japanese": "八 (はち)", "english_transliteration": "hachi", "tamil_transliteration": "ஹாச்சி", "english_meaning": "8 (Eight)", "tamil_meaning": "8 (எட்டு)" },
+    { "id": 9, "digit": "9", "japanese": "九 (きゅう / く)", "english_transliteration": "kyuu / ku", "tamil_transliteration": "கியூ / கு", "english_meaning": "9 (Nine)", "tamil_meaning": "9 (ஒன்பது)" },
+    { "id": 10, "digit": "10", "japanese": "十 (じゅう)", "english_transliteration": "juu", "tamil_transliteration": "ஜூ", "english_meaning": "10 (Ten)", "tamil_meaning": "10 (பத்து)" },
+    { "id": 11, "digit": "11", "japanese": "十一 (じゅういち)", "english_transliteration": "juu-ichi", "tamil_transliteration": "ஜூ இச்சி", "english_meaning": "11 (Eleven)", "tamil_meaning": "11 (பதினொன்று)" },
+    { "id": 12, "digit": "12", "japanese": "十二 (じゅうに)", "english_transliteration": "juu-ni", "tamil_transliteration": "ஜூ நி", "english_meaning": "12 (Twelve)", "tamil_meaning": "12 (பன்னிரண்டு)" },
+    { "id": 13, "digit": "13", "japanese": "十三 (じゅうさん)", "english_transliteration": "juu-san", "tamil_transliteration": "ஜூ சான்", "english_meaning": "13 (Thirteen)", "tamil_meaning": "13 (பதிமூன்று)" },
+    { "id": 14, "digit": "14", "japanese": "十四 (じゅうよん)", "english_transliteration": "juu-yon", "tamil_transliteration": "ஜூ யோன்", "english_meaning": "14 (Fourteen)", "tamil_meaning": "14 (பதினான்கு)" },
+    { "id": 15, "digit": "15", "japanese": "十五 (じゅうご)", "english_transliteration": "juu-go", "tamil_transliteration": "ஜூ கோ", "english_meaning": "15 (Fifteen)", "tamil_meaning": "15 (பதினைந்து)" },
+    { "id": 16, "digit": "16", "japanese": "十六 (じゅうろく)", "english_transliteration": "juu-roku", "tamil_transliteration": "ஜூ ரோகு", "english_meaning": "16 (Sixteen)", "tamil_meaning": "16 (பதினாறு)" },
+    { "id": 17, "digit": "17", "japanese": "十七 (じゅうなな)", "english_transliteration": "juu-nana", "tamil_transliteration": "ஜூ நானா", "english_meaning": "17 (Seventeen)", "tamil_meaning": "17 (பதினேழு)" },
+    { "id": 18, "digit": "18", "japanese": "十八 (じゅうはち)", "english_transliteration": "juu-hachi", "tamil_transliteration": "ஜூ ஹாச்சி", "english_meaning": "18 (Eighteen)", "tamil_meaning": "18 (பதினெட்டு)" },
+    { "id": 19, "digit": "19", "japanese": "十九 (じゅうきゅう)", "english_transliteration": "juu-kyuu", "tamil_transliteration": "ஜூ கியூ", "english_meaning": "19 (Nineteen)", "tamil_meaning": "19 (பத்தொன்பது)" },
+    { "id": 20, "digit": "20", "japanese": "二十 (にじゅう)", "english_transliteration": "ni-juu", "tamil_transliteration": "நி ஜூ", "english_meaning": "20 (Twenty)", "tamil_meaning": "20 (இருபது)" },
+    { "id": 21, "digit": "30", "japanese": "三十 (さんじゅう)", "english_transliteration": "san-juu", "tamil_transliteration": "சான் ஜூ", "english_meaning": "30 (Thirty)", "tamil_meaning": "30 (முப்பது)" },
+    { "id": 22, "digit": "40", "japanese": "四十 (よんじゅう)", "english_transliteration": "yon-juu", "tamil_transliteration": "யோன் ஜூ", "english_meaning": "40 (Forty)", "tamil_meaning": "40 (நாற்பது)" },
+    { "id": 23, "digit": "50", "japanese": "五十 (ごじゅう)", "english_transliteration": "go-juu", "tamil_transliteration": "கோ ஜூ", "english_meaning": "50 (Fifty)", "tamil_meaning": "50 (ஐம்பது)" },
+    { "id": 24, "digit": "60", "japanese": "六十 (ろくじゅう)", "english_transliteration": "roku-juu", "tamil_transliteration": "ரோகு ஜூ", "english_meaning": "60 (Sixty)", "tamil_meaning": "60 (அறுபது)" },
+    { "id": 25, "digit": "70", "japanese": "七十 (ななじゅう)", "english_transliteration": "nana-juu", "tamil_transliteration": "நானா ஜூ", "english_meaning": "70 (Seventy)", "tamil_meaning": "70 (எழுபது)" },
+    { "id": 26, "digit": "80", "japanese": "八十 (はちじゅう)", "english_transliteration": "hachi-juu", "tamil_transliteration": "ஹாச்சி ஜூ", "english_meaning": "80 (Eighty)", "tamil_meaning": "80 (எண்பது)" },
+    { "id": 27, "digit": "90", "japanese": "九十 (きゅうじゅう)", "english_transliteration": "kyuu-juu", "tamil_transliteration": "கியூ ஜூ", "english_meaning": "90 (Ninety)", "tamil_meaning": "90 (தொண்ணூறு)" },
+    { "id": 28, "digit": "100", "japanese": "百 (ひゃく)", "english_transliteration": "hyaku", "tamil_transliteration": "ஹியாகு", "english_meaning": "100 (One Hundred)", "tamil_meaning": "100 (நூறு)" },
+    { "id": 29, "digit": "1000", "japanese": "千 (せん)", "english_transliteration": "sen", "tamil_transliteration": "சென்", "english_meaning": "1000 (One Thousand)", "tamil_meaning": "1000 (ஆயிரம்)" },
+    { "id": 30, "digit": "10000", "japanese": "万 (まん)", "english_transliteration": "man", "tamil_transliteration": "மான்", "english_meaning": "10000 (Ten Thousand)", "tamil_meaning": "10000 (பத்தாயிரம்)" }
+  ]
+}

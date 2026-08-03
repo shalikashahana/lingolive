@@ -54,7 +54,7 @@ export default function AppLayout({ children, userStats }) {
           }
         }
       } catch (e) {
-        console.error("Failed to fetch live sidebar stats", e);
+        console.warn("Live sidebar stats fetch warning:", e.message);
       }
     }
     fetchLiveStats();
@@ -107,8 +107,11 @@ export default function AppLayout({ children, userStats }) {
     }
   };
 
-  const isTeluguDashboard = currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/telugu-quiz" || location.pathname === "/telugu-sentences");
-  const isMalayalamDashboard = currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname === "/malayalam-alphabet" || location.pathname === "/malayalam-learning");
+  const isTeluguRoute = location.pathname.startsWith("/telugu-");
+  const isTeluguDashboard = (currentLanguageCode === "te" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics")) || isTeluguRoute;
+
+  const isMalayalamRoute = location.pathname.startsWith("/malayalam-");
+  const isMalayalamDashboard = (currentLanguageCode === "ml" && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics")) || isMalayalamRoute;
   
   const targetLanguages = ["hi", "ko", "ja", "th", "zh", "ar"];
   const isNewTargetLanguage = targetLanguages.includes(currentLanguageCode) && (location.pathname === "/" || location.pathname === "/dashboard" || location.pathname === "/analytics" || location.pathname.endsWith("-learning"));

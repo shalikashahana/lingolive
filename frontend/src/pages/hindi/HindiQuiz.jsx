@@ -2,11 +2,7 @@ import { useState, useEffect } from "react";
 import { calculateNewStreak } from "../../utils/streak";
 import { useNavigate } from "react-router-dom";
 import { useCatTeacher } from "../../context/CatTeacherContext";
-import arabicQuizData from "../../data/arabicQuizData.json";
-import arabicQuizData2 from "../../data/arabicQuizData2.json";
-import arabicQuizData3 from "../../data/arabicQuizData3.json";
-import arabicQuizData4 from "../../data/arabicQuizData4.json";
-import arabicQuizData5 from "../../data/arabicQuizData5.json";
+import hindiQuizData from "../../data/hindiQuizData.json";
 import {
   CheckCircle2,
   XCircle,
@@ -19,27 +15,19 @@ import {
   Lock
 } from "lucide-react";
 
+// In hindiQuizData.json, questions are inside modules[i].quiz
 const extractQuestions = (data) =>
-  Array.isArray(data) ? data
-  : data.questions ? data.questions
-  : data.modules ? data.modules.flatMap((m) => m.quiz)
-  : [];
+  data.modules ? data.modules.flatMap((m) => m.quiz) : [];
 
-// Each module = an independent list of questions
-const ALL_MODULES = [
-  { label: "Module 1", questions: extractQuestions(arabicQuizData) },
-  { label: "Module 2", questions: extractQuestions(arabicQuizData2) },
-  { label: "Module 3", questions: extractQuestions(arabicQuizData3) },
-  { label: "Module 4", questions: extractQuestions(arabicQuizData4) },
-  { label: "Module 5", questions: extractQuestions(arabicQuizData5) },
-];
+const ALL_MODULES = hindiQuizData.modules.map(m => ({
+  label: `Module ${m.module}`,
+  description: m.description,
+  questions: m.quiz || []
+}));
 
 const QUESTIONS_PER_LEVEL = 10;
-const LEVELS_PER_MODULE = 10;
 
-
-
-export default function ArabicQuiz({ onExit }) {
+export default function HindiQuiz({ onExit }) {
   const navigate = useNavigate();
   const { triggerCatTeacherModal } = useCatTeacher();
 
@@ -48,10 +36,9 @@ export default function ArabicQuiz({ onExit }) {
     else navigate("/");
   };
 
-  // unlockedLevels[moduleIdx] = the first locked level number for that module
   const [unlockedLevels, setUnlockedLevels] = useState(() => {
     return ALL_MODULES.map((_, i) => {
-      const saved = localStorage.getItem(`arabic_quiz_unlocked_level_m${i}`);
+      const saved = localStorage.getItem(`hindi_quiz_unlocked_level_m${i}`);
       return saved ? parseInt(saved, 10) : 1;
     });
   });
@@ -59,7 +46,6 @@ export default function ArabicQuiz({ onExit }) {
   const [activeModuleIdx, setActiveModuleIdx] = useState(null);
   const [activeLevel, setActiveLevel] = useState(null);
 
-  // Quiz state
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedIdx, setSelectedIdx] = useState(null);
@@ -87,19 +73,18 @@ export default function ArabicQuiz({ onExit }) {
     setQuizFinished(false);
   };
 
-  const handleOptionClick = (idx, isCorrect, arabicText) => {
-    if (answered) return; // prevent double-click
+  const handleOptionClick = (idx, isCorrect, hindiText) => {
+    if (answered) return;
     setSelectedIdx(idx);
     setAnswered(true);
     setWasCorrect(isCorrect);
     if (isCorrect) setScoreCount((prev) => prev + 1);
 
-    // Play audio
-    if (window.speechSynthesis) {
+    if (window.speechSynthesis && hindiText) {
       window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(arabicText);
-      u.lang = "ar-SA";
-      u.rate = 0.8;
+      const u = new SpeechSynthesisUtterance(hindiText);
+      u.lang = "hi-IN";
+      u.rate = 0.85;
       window.speechSynthesis.speak(u);
     }
   };
@@ -111,10 +96,9 @@ export default function ArabicQuiz({ onExit }) {
       setAnswered(false);
       setWasCorrect(false);
     } else {
-      // Level complete
       setQuizFinished(true);
       triggerCatTeacherModal({
-        language: "arabic",
+        language: "hindi",
         category: "Quiz",
         level: activeLevel || 1,
         items: questions
@@ -128,12 +112,12 @@ export default function ArabicQuiz({ onExit }) {
             next[activeModuleIdx] = newUnlocked;
             return next;
           });
-          localStorage.setItem(`arabic_quiz_unlocked_level_m${activeModuleIdx}`, newUnlocked.toString());
+          localStorage.setItem(`hindi_quiz_unlocked_level_m${activeModuleIdx}`, newUnlocked.toString());
         }
-        const savedStats = JSON.parse(localStorage.getItem("arabic_stats") || '{"streak":0,"xp":0}');
+        const savedStats = JSON.parse(localStorage.getItem("hindi_stats") || '{"streak":0,"xp":0}');
         const { streak: updatedStreak, lastActiveDate } = calculateNewStreak(savedStats);
-      const newStats = { streak: updatedStreak, lastActiveDate, xp: savedStats.xp + 50 };
-        localStorage.setItem("arabic_stats", JSON.stringify(newStats));
+        const newStats = { streak: updatedStreak, lastActiveDate, xp: savedStats.xp + 50 };
+        localStorage.setItem("hindi_stats", JSON.stringify(newStats));
       } catch (e) {
         console.error(e);
       }
@@ -142,7 +126,6 @@ export default function ArabicQuiz({ onExit }) {
 
   const scorePercentage = questions.length > 0 ? Math.round((scoreCount / questions.length) * 100) : 0;
 
-  // ─── MODULE SELECTION SCREEN ─────────────────────────────────────────────────
   if (activeModuleIdx === null && activeLevel === null) {
     return (
       <div className="mx-auto max-w-4xl space-y-6 pt-4 pb-16">
@@ -205,7 +188,6 @@ export default function ArabicQuiz({ onExit }) {
     );
   }
 
-  // ─── LEVEL SELECTION SCREEN ──────────────────────────────────────────────────
   if (activeModuleIdx !== null && activeLevel === null) {
     const modTotalLevels = Math.ceil(ALL_MODULES[activeModuleIdx].questions.length / QUESTIONS_PER_LEVEL);
     const moduleLevels = Array.from({ length: modTotalLevels }).map((_, i) => i + 1);
@@ -272,16 +254,15 @@ export default function ArabicQuiz({ onExit }) {
     );
   }
 
-  // ─── ACTIVE QUIZ SCREEN ───────────────────────────────────────────────────────
   const currentQ = questions[currentIndex];
-
   if (!currentQ) return null;
+
+  const optionEntries = Object.entries(currentQ.options || {});
 
   return (
     <div className="mx-auto max-w-3xl space-y-8 pb-16 pt-4">
       {!quizFinished ? (
         <div className="rounded-3xl border border-white/10 bg-[#0f172a] p-6 shadow-2xl sm:p-10 space-y-8 relative">
-          {/* Back button */}
           <button
             onClick={() => { setActiveLevel(null); }}
             className="absolute top-4 right-4 flex items-center gap-1 rounded-lg bg-white/5 px-3 py-1.5 font-sans text-xs font-bold text-slate-400 hover:bg-white/10 hover:text-white transition"
@@ -289,7 +270,6 @@ export default function ArabicQuiz({ onExit }) {
             <X className="h-3.5 w-3.5" /> Back to Levels
           </button>
 
-          {/* Progress bar */}
           <div className="space-y-3 pt-2">
             <div className="flex items-center justify-between font-mono text-xs font-bold text-slate-300">
               <span className="flex items-center gap-1 text-amber-400">
@@ -305,29 +285,28 @@ export default function ArabicQuiz({ onExit }) {
             </div>
           </div>
 
-          {/* Question */}
           <div className="space-y-2">
             <span className="inline-block rounded-full bg-amber-500/10 border border-amber-500/20 px-3 py-1 font-mono text-xs font-semibold text-amber-400 uppercase tracking-wider">
               Multiple Choice
             </span>
-            <h2 className="font-display text-2xl font-bold text-white">
-              {currentQ.question_english || currentQ.question_en || currentQ.en}
-              <br />
-              <span className="text-lg font-sans font-normal opacity-70 text-slate-400">
-                ({currentQ.question_tamil || currentQ.question_ta || currentQ.ta})
-              </span>
+            <h2 className="font-display text-4xl font-bold text-white mb-2">
+              {currentQ.hindi}
             </h2>
+            <div className="flex items-center gap-3">
+              <span className="font-mono text-slate-300 bg-white/10 px-3 py-1 rounded-lg text-sm">
+                {currentQ.english_transliteration}
+              </span>
+              <span className="font-sans text-amber-200/70 text-sm">
+                ({currentQ.tamil_transliteration})
+              </span>
+            </div>
           </div>
 
-          {/* Options */}
           <div className="space-y-3">
-            {currentQ.options.map((opt, idx) => {
-              const arabicText = opt.arabic || opt.text || "";
-              const transliteration = opt.transliteration || "";
-              const isCorrectOption = arabicText === currentQ.correct_answer;
+            {optionEntries.map(([key, optText], idx) => {
+              const isCorrectOption = key === currentQ.correct_option;
               const isSelected = selectedIdx === idx;
 
-              // Determine styling AFTER answer is submitted
               let btnClass = "border-white/10 bg-white/5 text-white hover:bg-white/10 hover:border-white/20 cursor-pointer";
               if (answered) {
                 if (isCorrectOption) {
@@ -341,18 +320,15 @@ export default function ArabicQuiz({ onExit }) {
 
               return (
                 <button
-                  key={idx}
+                  key={key}
                   disabled={answered}
-                  onClick={() => handleOptionClick(idx, isCorrectOption, arabicText)}
+                  onClick={() => handleOptionClick(idx, isCorrectOption, currentQ.hindi)}
                   className={`flex w-full items-center justify-between rounded-2xl border-2 p-4 text-left transition-all duration-200 ${btnClass}`}
                 >
                   <div className="flex flex-col gap-0.5">
-                    <span className="font-bold text-[22px] leading-tight" dir="rtl" style={{ fontFamily: "'Noto Naskh Arabic', 'Arabic Typesetting', serif" }}>
-                      {arabicText}
+                    <span className="font-bold text-[20px] leading-tight">
+                      {key}. {optText}
                     </span>
-                    {transliteration && (
-                      <span className="text-xs opacity-60 font-mono text-slate-400">{transliteration}</span>
-                    )}
                   </div>
                   <div className="ml-3 flex-shrink-0">
                     {answered && isCorrectOption && (
@@ -367,7 +343,6 @@ export default function ArabicQuiz({ onExit }) {
             })}
           </div>
 
-          {/* Feedback + Next button (only shows AFTER answering) */}
           {answered && (
             <div className={`rounded-2xl p-5 border space-y-4 ${wasCorrect ? "bg-emerald-500/10 border-emerald-500/20" : "bg-red-500/10 border-red-500/20"}`}>
               <div className="flex items-center gap-2 font-bold text-sm">
@@ -392,7 +367,6 @@ export default function ArabicQuiz({ onExit }) {
           )}
         </div>
       ) : (
-        /* Results Screen */
         <div className="rounded-3xl border border-white/10 bg-[#0f172a] p-8 text-center shadow-2xl space-y-6 sm:p-12">
           <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-3xl bg-amber-500/20 border border-amber-500/30 text-amber-400 shadow-xl">
             <Award className="h-10 w-10" />

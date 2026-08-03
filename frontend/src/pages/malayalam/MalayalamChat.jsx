@@ -26,69 +26,69 @@ import {
 
 import { useAuth } from "../../context/AuthContext";
 
-const TELUGU_SCENARIOS = [
+const Malayalam_SCENARIOS = [
   {
     id: "free",
     label: "Free Conversation",
-    labelTe: "స్వేచ్ఛా సంభాషణ",
+    labelMl: "స్వేచ్ఛా సంభాషణ",
     icon: MessageSquare,
     promptPrefix: "",
-    welcome: () => `Hello! I'm Gemma, your AI Telugu Coach! 😊 I'm here to help you learn Telugu from scratch — don't worry if you don't know any Telugu yet, that's totally okay! We'll go step by step. Just type in English and I'll teach you useful Telugu phrases. Let's start! What would you like to learn today?`,
+    welcome: () => `Hello! I'm Gemma, your AI Malayalam Coach! 😊 I'm here to help you learn Malayalam from scratch — don't worry if you don't know any Malayalam yet, that's totally okay! We'll go step by step. Just type in English and I'll teach you useful Malayalam phrases. Let's start! What would you like to learn today?`,
   },
   {
     id: "market",
     label: "Market Shopping",
-    labelTe: "బజారులో కొనుగోలు",
+    labelMl: "బజారులో కొనుగోలు",
     icon: Compass,
-    promptPrefix: "[Market Shopping Scenario in Telugu] ",
-    welcome: () => `Welcome to the Market Shopping scenario! 🛒 I'll help you learn how to shop at a Telugu market. We'll practice phrases like asking for prices, bargaining, and more — all explained in English with Telugu words taught along the way. Ready? Tell me what you'd like to buy and I'll teach you how to say it in Telugu!`,
+    promptPrefix: "[Market Shopping Scenario in Malayalam] ",
+    welcome: () => `Welcome to the Market Shopping scenario! 🛒 I'll help you learn how to shop at a Malayalam market. We'll practice phrases like asking for prices, bargaining, and more — all explained in English with Malayalam words taught along the way. Ready? Tell me what you'd like to buy and I'll teach you how to say it in Malayalam!`,
   },
   {
     id: "family",
     label: "Family Conversation",
-    labelTe: "కుటుంబ సంభాషణ",
+    labelMl: "కుటుంబ సంభాషణ",
     icon: Award,
-    promptPrefix: "[Family Conversation Scenario in Telugu] ",
-    welcome: () => `Welcome to the Family Conversation scenario! 👨‍👩‍👧 Let's learn how to talk about family members in Telugu. I'll guide you in English and introduce Telugu words and phrases step by step. How many people are in your family? Tell me in English and I'll show you how to say it in Telugu!`,
+    promptPrefix: "[Family Conversation Scenario in Malayalam] ",
+    welcome: () => `Welcome to the Family Conversation scenario! 👨‍👩‍👧 Let's learn how to talk about family members in Malayalam. I'll guide you in English and introduce Malayalam words and phrases step by step. How many people are in your family? Tell me in English and I'll show you how to say it in Malayalam!`,
   },
   {
     id: "interview",
     label: "Job Interview",
-    labelTe: "ఉద్యోగ ఇంటర్వ్యూ",
+    labelMl: "ఉద్యోగ ఇంటర్వ్యూ",
     icon: Briefcase,
-    promptPrefix: "[Job Interview in Telugu Scenario] ",
-    welcome: () => `Welcome to the Job Interview Practice scenario! 💼 I'll help you learn how to introduce yourself and answer common interview questions in Telugu. Don't worry — I'll explain everything in English first, then teach you the Telugu way to say it. To start, tell me a little about yourself in English!`,
+    promptPrefix: "[Job Interview in Malayalam Scenario] ",
+    welcome: () => `Welcome to the Job Interview Practice scenario! 💼 I'll help you learn how to introduce yourself and answer common interview questions in Malayalam. Don't worry — I'll explain everything in English first, then teach you the Malayalam way to say it. To start, tell me a little about yourself in English!`,
   },
 ];
 
-const TELUGU_API_KEY = import.meta.env.VITE_GEMINI_API_KEY_TELUGU || import.meta.env.VITE_GEMINI_API_KEY;
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
-const TELUGU_SYSTEM_PROMPT = `You are Gemma, a friendly AI Telugu Language Coach. The users you talk to are BEGINNERS who do NOT know Telugu. They are here to LEARN Telugu. Your primary language for communication is ENGLISH. Never assume the user knows Telugu.
+const Malayalam_SYSTEM_PROMPT = `You are Gemma, a friendly AI Malayalam Language Coach. The users you talk to are BEGINNERS who do NOT know Malayalam. They are here to LEARN Malayalam. Your primary language for communication is ENGLISH. Never assume the user knows Malayalam.
 
 In every reply:
 1. Always respond primarily in ENGLISH so the user can understand you.
-2. Teach Telugu vocabulary and phrases in a clear, beginner-friendly way. Show the Telugu script, transliteration (romanized pronunciation), and the English meaning.
-3. If the user tries to write Telugu and makes a mistake, gently correct it in English and show the right way.
+2. Teach Malayalam vocabulary and phrases in a clear, beginner-friendly way. Show the Malayalam script, transliteration (romanized pronunciation), and the English meaning.
+3. If the user tries to write Malayalam and makes a mistake, gently correct it in English and show the right way.
 4. Keep your tone warm, encouraging, fun, and patient — like a great teacher.
-5. End every reply with a simple follow-up question or a small Telugu exercise, explained in English.
+5. End every reply with a simple follow-up question or a small Malayalam exercise, explained in English.
 
-Example format for teaching a Telugu word:
-→ In Telugu: "నమస్కారం" (Namaskāram) = Hello
+Example format for teaching a Malayalam word:
+→ In Malayalam: "నమస్కారం" (Namaskāram) = Hello
 
 Output your response ONLY as JSON in this exact format:
 {
-  "reply": "Your friendly, English-language response here. Teach Telugu words/phrases with script, transliteration, and meaning. End with an English question or exercise.",
+  "reply": "Your friendly, English-language response here. Teach Malayalam words/phrases with script, transliteration, and meaning. End with an English question or exercise.",
   "corrections": {
     "original": "the exact phrase the user used that needs improvement",
-    "improved": "the correct Telugu phrasing with transliteration",
+    "improved": "the correct Malayalam phrasing with transliteration",
     "explanation": "Brief friendly explanation in English of what was wrong and how to fix it"
   }
 }
 If there are no mistakes (or user typed in English only), set "corrections" to null.`;
 
-async function callTeluguGemini(userMessage, scenarioPrefix) {
-  const fullPrompt = `${TELUGU_SYSTEM_PROMPT}\n\nUser Message: "${scenarioPrefix}${userMessage}"`;
+async function callMalayalamGemini(userMessage, scenarioPrefix) {
+  const fullPrompt = `${Malayalam_SYSTEM_PROMPT}\n\nUser Message: "${scenarioPrefix}${userMessage}"`;
 
   const res = await fetch(GEMINI_ENDPOINT, {
     method: "POST",
@@ -109,7 +109,7 @@ async function callTeluguGemini(userMessage, scenarioPrefix) {
   return JSON.parse(raw);
 }
 
-export default function TeluguChat() {
+export default function MalayalamChat() {
   const { user } = useAuth();
 
   const [inputMessage, setInputMessage] = useState("");
@@ -127,7 +127,7 @@ export default function TeluguChat() {
     {
       id: 1,
       sender: "ai",
-      text: TELUGU_SCENARIOS[0].welcome(),
+      text: Malayalam_SCENARIOS[0].welcome(),
       corrections: null,
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
     }
@@ -138,7 +138,7 @@ export default function TeluguChat() {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("lingolive_telugu_chat_history");
+      const saved = localStorage.getItem("lingolive_Malayalam_chat_history");
       if (saved) setHistoryList(JSON.parse(saved));
     } catch (e) {}
   }, []);
@@ -181,7 +181,7 @@ export default function TeluguChat() {
   const saveHistory = (msgs, scenId, sessId) => {
     const userMsgs = msgs.filter((m) => m.sender === "user");
     if (!userMsgs.length) return;
-    const sc = TELUGU_SCENARIOS.find((s) => s.id === scenId) || TELUGU_SCENARIOS[0];
+    const sc = Malayalam_SCENARIOS.find((s) => s.id === scenId) || Malayalam_SCENARIOS[0];
     const snippet = (userMsgs[0]?.text || "").slice(0, 35);
     const entry = {
       id: sessId,
@@ -194,7 +194,7 @@ export default function TeluguChat() {
     };
     setHistoryList((prev) => {
       const updated = [entry, ...prev.filter((i) => i.id !== sessId)];
-      localStorage.setItem("lingolive_telugu_chat_history", JSON.stringify(updated));
+      localStorage.setItem("lingolive_Malayalam_chat_history", JSON.stringify(updated));
       return updated;
     });
   };
@@ -202,7 +202,7 @@ export default function TeluguChat() {
   const handleScenarioChange = (newId) => {
     if (newId === selectedScenario) return;
     saveHistory(messages, selectedScenario, sessionId);
-    const sc = TELUGU_SCENARIOS.find((s) => s.id === newId) || TELUGU_SCENARIOS[0];
+    const sc = Malayalam_SCENARIOS.find((s) => s.id === newId) || Malayalam_SCENARIOS[0];
     const newSessId = `te_session_${Date.now()}`;
     const initMsg = {
       id: Date.now(),
@@ -220,7 +220,7 @@ export default function TeluguChat() {
 
   const handleStartNewChat = () => {
     saveHistory(messages, selectedScenario, sessionId);
-    const sc = TELUGU_SCENARIOS.find((s) => s.id === selectedScenario) || TELUGU_SCENARIOS[0];
+    const sc = Malayalam_SCENARIOS.find((s) => s.id === selectedScenario) || Malayalam_SCENARIOS[0];
     const newSessId = `te_session_${Date.now()}`;
     setSessionId(newSessId);
     setMessages([{
@@ -252,15 +252,15 @@ export default function TeluguChat() {
     e.stopPropagation();
     setHistoryList((prev) => {
       const updated = prev.filter((i) => i.id !== id);
-      localStorage.setItem("lingolive_telugu_chat_history", JSON.stringify(updated));
+      localStorage.setItem("lingolive_Malayalam_chat_history", JSON.stringify(updated));
       return updated;
     });
   };
 
   const handleClearAll = () => {
-    if (window.confirm("Clear all Telugu chat history?")) {
+    if (window.confirm("Clear all Malayalam chat history?")) {
       setHistoryList([]);
-      localStorage.removeItem("lingolive_telugu_chat_history");
+      localStorage.removeItem("lingolive_Malayalam_chat_history");
     }
   };
 
@@ -280,10 +280,10 @@ export default function TeluguChat() {
     setInputMessage("");
     setLoading(true);
 
-    const sc = TELUGU_SCENARIOS.find((s) => s.id === selectedScenario);
+    const sc = Malayalam_SCENARIOS.find((s) => s.id === selectedScenario);
 
     try {
-      const data = await callTeluguGemini(text, sc?.promptPrefix || "");
+      const data = await callMalayalamGemini(text, sc?.promptPrefix || "");
       const aiReply = data.reply || "చాలా బాగుంది! (Very good!) Tell me more!";
       const corrections = data.corrections || null;
 
@@ -303,7 +303,7 @@ export default function TeluguChat() {
         fluencyScore: Math.min(100, Math.max(75, p.fluencyScore + (corrections ? -2 : 1)))
       }));
     } catch (err) {
-      console.warn("Telugu Gemini error:", err);
+      console.warn("Malayalam Gemini error:", err);
       setTimeout(() => {
         const fallback = "చాలా బాగుంది! (Very good!) మీరు మళ్ళీ ప్రయత్నించండి. (Please try again.)";
         const updatedMsgs = [...newMsgs, {
@@ -323,14 +323,14 @@ export default function TeluguChat() {
   };
 
   const quickChips = [
-    "Hello! (Teach me to greet in Telugu)",
-    "How do I say Thank you in Telugu?",
-    "Teach me basic Telugu words",
+    "Hello! (Teach me to greet in Malayalam)",
+    "How do I say Thank you in Malayalam?",
+    "Teach me basic Malayalam words",
     "Let's have a simple conversation"
   ];
 
   return (
-    <div className="relative w-full h-[calc(100vh-9rem)] flex flex-col rounded-3xl border border-amber-500/20 bg-[#050816] text-white shadow-2xl overflow-hidden font-sans">
+    <div className="relative w-full h-[calc(100vh-3.5rem)] flex flex-col rounded-3xl border border-amber-500/20 bg-[#050816] text-white shadow-2xl overflow-hidden font-sans">
 
       {/* ── Header ── */}
       <div className="flex flex-wrap items-center justify-between gap-4 border-b border-amber-500/20 bg-gradient-to-r from-amber-900/30 via-[#0f172a] to-[#050816] px-6 py-4 backdrop-blur-xl z-10">
@@ -343,12 +343,12 @@ export default function TeluguChat() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h2 className="font-heading text-lg font-bold text-white">Telugu AI Coach</h2>
+              <h2 className="font-heading text-lg font-bold text-white">Malayalam AI Coach</h2>
               <span className="inline-flex items-center gap-1 rounded-full bg-amber-400/10 border border-amber-400/20 px-2.5 py-0.5 font-mono text-[10px] font-semibold text-amber-300">
                 <Sparkles className="h-3 w-3 text-amber-400" /> Real-Time Gemini AI
               </span>
             </div>
-            <p className="font-mono text-xs text-slate-400">Telugu Language Coach • Live Voice & Text</p>
+            <p className="font-mono text-xs text-slate-400">Malayalam Language Coach • Live Voice & Text</p>
           </div>
         </div>
 
@@ -390,7 +390,7 @@ export default function TeluguChat() {
       <div className="flex flex-wrap items-center justify-between border-b border-white/5 bg-white/[0.02] px-6 py-2.5 text-xs gap-3 z-10">
         <div className="flex items-center gap-2 overflow-x-auto py-0.5">
           <span className="font-mono text-[10px] uppercase font-bold text-slate-500 mr-1">Mode:</span>
-          {TELUGU_SCENARIOS.map((sc) => {
+          {Malayalam_SCENARIOS.map((sc) => {
             const Icon = sc.icon;
             const isSelected = selectedScenario === sc.id;
             return (
@@ -457,7 +457,7 @@ export default function TeluguChat() {
                   <div className="rounded-2xl border border-amber-500/30 bg-amber-500/10 p-4 font-sans text-xs space-y-2 text-amber-200 shadow-md">
                     <div className="flex items-center gap-1.5 font-bold text-amber-300">
                       <Lightbulb className="h-4 w-4 text-amber-400" />
-                      <span>Telugu Coach Recommendation</span>
+                      <span>Malayalam Coach Recommendation</span>
                     </div>
                     {Array.isArray(msg.corrections) ? (
                       msg.corrections.map((c, idx) => (
@@ -488,7 +488,7 @@ export default function TeluguChat() {
             </div>
             <div className="rounded-2xl bg-slate-900/80 border border-white/10 px-4 py-3 text-xs text-slate-400 flex items-center gap-2.5">
               <RefreshCw className="h-4 w-4 animate-spin text-amber-400" />
-              <span>Telugu AI analyzing your message…</span>
+              <span>Malayalam AI analyzing your message…</span>
             </div>
           </div>
         )}
@@ -521,7 +521,7 @@ export default function TeluguChat() {
                 ? "bg-rose-600 text-white border-rose-400 animate-pulse shadow-lg shadow-rose-600/40"
                 : "bg-white/5 border-white/10 text-slate-300 hover:bg-white/10"
             }`}
-            title={isListening ? "Listening…" : "Speak in English or Telugu"}
+            title={isListening ? "Listening…" : "Speak in English or Malayalam"}
           >
             {isListening ? <MicOff className="h-5 w-5" /> : <Mic className="h-5 w-5 text-amber-400" />}
           </button>
@@ -530,7 +530,7 @@ export default function TeluguChat() {
             type="text"
             value={inputMessage}
             onChange={(e) => setInputMessage(e.target.value)}
-            placeholder={isListening ? "Listening… speak now" : "Type in English or Telugu…"}
+            placeholder={isListening ? "Listening… speak now" : "Type in English or Malayalam…"}
             className="flex-1 rounded-2xl border border-white/10 bg-white/5 px-4 py-3.5 font-sans text-sm text-white placeholder-slate-500 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/20 transition-all"
           />
 
@@ -566,7 +566,7 @@ export default function TeluguChat() {
                 <div className="flex items-center justify-between mb-6 pb-4 border-b border-amber-500/10">
                   <div className="flex items-center gap-2">
                     <History className="h-5 w-5 text-amber-400" />
-                    <h3 className="font-heading text-lg font-bold text-white">Telugu Chat History</h3>
+                    <h3 className="font-heading text-lg font-bold text-white">Malayalam Chat History</h3>
                     <span className="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-mono text-xs">{historyList.length}</span>
                   </div>
                   <button onClick={() => setIsHistoryOpen(false)} className="p-1 rounded-xl text-slate-400 hover:bg-white/10 hover:text-white transition-colors">

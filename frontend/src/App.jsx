@@ -30,6 +30,7 @@ import ThaiDashboard from "./pages/thai/ThaiDashboard";
 import ChineseDashboard from "./pages/chinese/ChineseDashboard";
 import Chat from "./pages/english/Chat";
 import ArabicDashboard from "./pages/arabic/ArabicDashboard";
+import HindiChat from "./pages/hindi/HindiChat";
 
 
 function PrivateRoute({ children, checkLanguage = true }) {
@@ -103,6 +104,7 @@ export default function App() {
                     <Route path="/arabic-learning" element={<ArabicDashboard />} />
                     <Route path="/telugu-learning" element={<TeluguDashboard />} />
                     <Route path="/telugu-chat" element={<TeluguChat />} />
+                    <Route path="/hindi-chat" element={<HindiChat />} />
 
 
                     <Route path="*" element={<Navigate to="/" replace />} />

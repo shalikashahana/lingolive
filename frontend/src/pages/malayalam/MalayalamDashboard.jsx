@@ -19,10 +19,10 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
   const [revealed, setRevealed] = useState(false);
   
   return (
-    <div className={`group relative flex flex-col p-5 bg-white/80 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
-      isInProgress ? "border-[#C9A227] ring-2 ring-[#C9A227]/30" : 
-      isCompleted ? "border-emerald-500/30 bg-emerald-50/30" : 
-      "border-[#14213D]/10"
+    <div className={`group relative flex flex-col p-5 bg-[#0f172a]/90 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
+      isInProgress ? "border-amber-500 ring-2 ring-amber-500/30" : 
+      isCompleted ? "border-emerald-500/30 bg-emerald-500/10/30" : 
+      "border-white/10"
     }`}>
       <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none" />
       
@@ -30,24 +30,24 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
       <div className="flex justify-between items-start mb-2">
         <div className="flex items-center gap-1">
           {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-500" />}
-          {isInProgress && <Play className="w-4 h-4 text-[#C9A227] animate-pulse" />}
-          {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+          {isInProgress && <Play className="w-4 h-4 text-amber-500 animate-pulse" />}
+          {isLocked && <Lock className="w-4 h-4 text-white/40" />}
         </div>
         <button 
           onClick={(e) => { e.stopPropagation(); onInteract(); }}
           disabled={isLocked}
           className={`p-1.5 rounded-xl shadow-sm border transition-all z-10 hover:scale-110 active:scale-95 ${
-            isLocked ? "bg-gray-100 border-gray-200 cursor-not-allowed opacity-50" : "bg-[#14213D]/5 border-[#14213D]/5 hover:bg-[#C9A227]/10 hover:border-[#C9A227]/20"
+            isLocked ? "bg-white/5 border-white/10 cursor-not-allowed opacity-50" : "bg-white/5 border-[#ffffff]/5 hover:bg-amber-500/10 hover:border-amber-500/20"
           }`}
         >
-          <Volume2 className={`w-4 h-4 ${isLocked ? "text-gray-400" : "text-[#14213D]/60 hover:text-[#C9A227]"}`} />
+          <Volume2 className={`w-4 h-4 ${isLocked ? "text-slate-500" : "text-white/60 hover:text-amber-500"}`} />
         </button>
       </div>
 
       <div className="flex-1">
-        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-[#14213D] mb-3 pr-2 flex items-start gap-2 break-words">
+        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-white mb-3 pr-2 flex items-start gap-2 break-words">
           {word.digit && (
-            <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-[#C9A227]/20 to-[#C9A227]/10 border border-[#C9A227]/20 text-[#8C6D13] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
+            <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-amber-500/20 to-amber-500/10 border border-amber-500/20 text-[#8C6D13] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
               {word.digit}.
             </span>
           )}
@@ -55,26 +55,26 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
         </span>
         
         <div className={`flex flex-wrap gap-2 mb-5 ${isLocked ? "opacity-50" : ""}`}>
-          <span className="font-mono text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
+          <span className="font-mono text-[11px] font-medium bg-white/5 border border-white/10 text-white/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-white/10">
             {word.english_transliteration}
           </span>
           {word.tamil_transliteration && (
-            <span className="font-sans text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-[#14213D]/10">
+            <span className="font-sans text-[11px] font-medium bg-white/5 border border-white/10 text-white/70 px-2.5 py-1 rounded-lg transition-colors group-hover:bg-white/10">
               {word.tamil_transliteration}
             </span>
           )}
         </div>
       </div>
 
-      <div className="mt-auto border-t border-[#14213D]/5 pt-4">
+      <div className="mt-auto border-t border-[#ffffff]/5 pt-4">
         {!revealed ? (
           <button 
             onClick={() => !isLocked && setRevealed(true)}
             disabled={isLocked}
             className={`flex items-center justify-center gap-2 w-full py-2.5 text-xs font-bold tracking-wide rounded-xl transition-all ${
               isLocked 
-                ? "bg-gray-100 text-gray-400 cursor-not-allowed" 
-                : "text-[#14213D]/60 bg-[#14213D]/5 hover:bg-[#14213D]/10 hover:text-[#14213D]"
+                ? "bg-white/5 text-slate-500 cursor-not-allowed" 
+                : "text-white/60 bg-white/5 hover:bg-white/10 hover:text-white"
             }`}
           >
             {isLocked ? <Lock className="w-4 h-4" /> : <Eye className="w-4 h-4" />} 
@@ -83,18 +83,18 @@ function WordCard({ word, playAudio, index, isCompleted, isInProgress, isLocked,
         ) : (
           <div 
             onClick={() => setRevealed(false)} 
-            className="flex flex-col gap-1.5 cursor-pointer group/reveal p-3 -mx-3 -mb-3 rounded-xl hover:bg-[#14213D]/5 transition-colors relative"
+            className="flex flex-col gap-1.5 cursor-pointer group/reveal p-3 -mx-3 -mb-3 rounded-xl hover:bg-white/5 transition-colors relative"
           >
             <div className="flex justify-between items-start pr-8">
               <div className="flex flex-col gap-1">
-                <span className="font-sans font-bold text-sm text-[#14213D] leading-tight">
+                <span className="font-sans font-bold text-sm text-white leading-tight">
                   {word.english_meaning}
                 </span>
-                <span className="font-sans font-medium text-[13px] text-[#14213D]/60 leading-tight">
+                <span className="font-sans font-medium text-[13px] text-white/60 leading-tight">
                   {word.tamil_meaning}
                 </span>
               </div>
-              <EyeOff className="absolute top-3.5 right-3 w-4 h-4 text-[#14213D]/40 group-hover/reveal:text-[#14213D] transition-colors" />
+              <EyeOff className="absolute top-3.5 right-3 w-4 h-4 text-white/40 group-hover/reveal:text-white transition-colors" />
             </div>
           </div>
         )}
@@ -119,31 +119,31 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
   };
 
   return (
-    <div className={`group relative flex flex-col p-5 bg-white/80 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
-      isCompleted ? "border-emerald-500/30 bg-emerald-50/30" : 
-      isInProgress ? "border-[#8b5cf6]/50 ring-2 ring-[#8b5cf6]/30 bg-purple-50/30" :
-      "border-[#14213D]/10 opacity-70"
+    <div className={`group relative flex flex-col p-5 bg-[#0f172a]/90 backdrop-blur-xl rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md overflow-hidden h-full ${
+      isCompleted ? "border-emerald-500/30 bg-emerald-500/10/30" : 
+      isInProgress ? "border-[#8b5cf6]/50 ring-2 ring-[#8b5cf6]/30 bg-purple-500/10/30" :
+      "border-white/10 opacity-70"
     }`}>
       {/* Top action/status bar */}
       <div className="flex justify-between items-start mb-2">
         <div className="flex items-center gap-1">
           {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-500" />}
           {isInProgress && <Play className="w-4 h-4 text-[#8b5cf6] animate-pulse" />}
-          {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+          {isLocked && <Lock className="w-4 h-4 text-white/40" />}
         </div>
         <button 
           onClick={(e) => { e.stopPropagation(); playAudio(question.malayalam); }}
           disabled={isLocked}
           className={`p-1.5 rounded-xl shadow-sm border transition-all z-10 hover:scale-110 active:scale-95 ${
-            isLocked ? "bg-gray-100 border-gray-200 cursor-not-allowed opacity-50" : "bg-[#14213D]/5 border-[#14213D]/5 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]/20"
+            isLocked ? "bg-white/5 border-white/10 cursor-not-allowed opacity-50" : "bg-white/5 border-[#ffffff]/5 hover:bg-[#8b5cf6]/10 hover:border-[#8b5cf6]/20"
           }`}
         >
-          <Volume2 className={`w-4 h-4 ${isLocked ? "text-gray-400" : "text-[#14213D]/60 hover:text-[#8b5cf6]"}`} />
+          <Volume2 className={`w-4 h-4 ${isLocked ? "text-slate-500" : "text-white/60 hover:text-[#8b5cf6]"}`} />
         </button>
       </div>
 
       <div className="flex-1 mb-4">
-        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-[#14213D] mb-3 pr-2 flex items-start gap-2 break-words">
+        <span className="text-[22px] font-bold font-sans leading-[1.7] tracking-wide text-white mb-3 pr-2 flex items-start gap-2 break-words">
           <span className="mt-1 flex-shrink-0 bg-gradient-to-br from-[#8b5cf6]/20 to-[#8b5cf6]/10 border border-[#8b5cf6]/20 text-[#6d28d9] px-2 py-0.5 rounded-lg text-xs font-mono font-bold shadow-sm">
             {question.q_no}.
           </span>
@@ -151,26 +151,26 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
         </span>
         
         <div className={`flex flex-wrap gap-2 mb-2 ${isLocked ? "opacity-50" : ""}`}>
-          <span className="font-mono text-[11px] font-medium bg-[#14213D]/5 border border-[#14213D]/10 text-[#14213D]/70 px-2.5 py-1 rounded-lg">
+          <span className="font-mono text-[11px] font-medium bg-white/5 border border-white/10 text-white/70 px-2.5 py-1 rounded-lg">
             {question.english_transliteration}
           </span>
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 mt-auto border-t border-[#14213D]/5 pt-4">
+      <div className="flex flex-col gap-2 mt-auto border-t border-[#ffffff]/5 pt-4">
         {Object.entries(question.options || {}).map(([key, val]) => {
-           let btnClass = "bg-white border-[#14213D]/10 hover:border-[#8b5cf6]/30 hover:bg-[#8b5cf6]/5 text-[#14213D]";
+           let btnClass = "bg-[#0f172a] border-white/10 hover:border-[#8b5cf6]/30 hover:bg-[#8b5cf6]/5 text-white";
            
            if (selectedOpt) {
               if (key === question.correct_option) {
-                 btnClass = "bg-emerald-50 border-emerald-500 text-emerald-700 font-bold";
+                 btnClass = "bg-emerald-500/10 border-emerald-500 text-emerald-700 font-bold";
               } else if (key === selectedOpt) {
                  btnClass = "bg-red-50 border-red-500 text-red-700";
               } else {
-                 btnClass = "bg-white border-[#14213D]/10 opacity-50";
+                 btnClass = "bg-[#0f172a] border-white/10 opacity-50";
               }
            } else if (isCompleted && key === question.correct_option) {
-               btnClass = "bg-emerald-50 border-emerald-500 text-emerald-700 font-bold opacity-70";
+               btnClass = "bg-emerald-500/10 border-emerald-500 text-emerald-700 font-bold opacity-70";
            }
 
            return (
@@ -180,7 +180,7 @@ function InteractiveQuizCard({ question, index, isCompleted, isInProgress, isLoc
                onClick={() => handleSelect(key)}
                className={`text-left px-4 py-2.5 border rounded-xl text-sm transition-all shadow-sm flex items-center gap-3 ${btnClass} ${isLocked ? 'opacity-50 cursor-not-allowed' : ''}`}
              >
-               <span className={`w-6 h-6 flex items-center justify-center rounded-lg text-xs font-bold ${selectedOpt && key === question.correct_option ? 'bg-emerald-200 text-emerald-800' : selectedOpt && key === selectedOpt ? 'bg-red-200 text-red-800' : 'bg-gray-100 text-gray-500'}`}>{key}</span> 
+               <span className={`w-6 h-6 flex items-center justify-center rounded-lg text-xs font-bold ${selectedOpt && key === question.correct_option ? 'bg-emerald-200 text-emerald-800' : selectedOpt && key === selectedOpt ? 'bg-red-200 text-red-800' : 'bg-white/5 text-slate-400'}`}>{key}</span> 
                {val}
              </button>
            );
@@ -370,13 +370,13 @@ export default function MalayalamDashboard() {
 
   // Dashboard overview cards
   const dashboardCards = [
-    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "#C9A227", bg: "bg-amber-50", border: "border-amber-200" },
-    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "#3F6656", bg: "bg-emerald-50", border: "border-emerald-200" },
-    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-50", border: "border-indigo-200" },
-    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-50", border: "border-sky-200" },
-    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-50", border: "border-pink-200" },
-    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-50", border: "border-orange-200" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-50", border: "border-purple-200" }
+    { key: "swarangal", label: "Vowels (സ്വരങ്ങൾ)", tab: TABS[1], icon: "അ", total: alphabetData.alphabet.swarangal.length, color: "amber-500", bg: "bg-amber-500/10", border: "border-amber-500/20" },
+    { key: "vyanjanangal", label: "Consonants (വ്യഞ്ജനങ്ങൾ)", tab: TABS[1], icon: "ക", total: alphabetData.alphabet.vyanjanangal.length, color: "emerald-500", bg: "bg-emerald-500/10", border: "border-emerald-500/20" },
+    { key: "chillaksharangal", label: "Chillu Letters (ചില്ലക്ഷരങ്ങൾ)", tab: TABS[1], icon: "ൺ", total: alphabetData.alphabet.chillaksharangal.length, color: "#6366f1", bg: "bg-indigo-500/10", border: "border-indigo-500/20" },
+    { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-500/10", border: "border-sky-500/20" },
+    { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-500/10", border: "border-pink-500/20" },
+    { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-500/10", border: "border-orange-500/20" },
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-500/10", border: "border-purple-500/20" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -392,30 +392,30 @@ export default function MalayalamDashboard() {
             onClick={() => !isLocked && handleInteraction(type, idx, letter.letter)}
             className={`group relative flex flex-col items-center justify-between aspect-square p-3 rounded-2xl border transition-all duration-300 overflow-hidden ${
               isInProgress
-                ? "border-[#3F6656] bg-[#3F6656]/10 ring-2 ring-[#3F6656]/50 shadow-lg cursor-pointer"
+                ? "border-emerald-500 bg-emerald-500/10 ring-2 ring-emerald-500/50 shadow-lg cursor-pointer"
                 : isCompleted
-                ? "border-emerald-500/30 bg-emerald-50/50 cursor-pointer"
-                : "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed"
+                ? "border-emerald-500/30 bg-emerald-500/10/50 cursor-pointer"
+                : "border-white/10 bg-slate-900/40 opacity-70 cursor-not-allowed"
             } ${!isLocked ? 'hover:-translate-y-1 hover:shadow-md' : ''}`}
           >
             <div className="flex w-full items-center justify-between z-10">
-               <span className="font-mono text-[10px] font-bold text-[#14213D]/60">{idx + 1}</span>
+               <span className="font-mono text-[10px] font-bold text-white/60">{idx + 1}</span>
                {isCompleted && <CheckCircle2 className="w-4 h-4 text-emerald-600 fill-emerald-100" />}
-               {isInProgress && <Play className="w-4 h-4 text-[#3F6656] fill-[#3F6656] animate-bounce" />}
-               {isLocked && <Lock className="w-4 h-4 text-[#14213D]/40" />}
+               {isInProgress && <Play className="w-4 h-4 text-emerald-500 fill-emerald-500 animate-bounce" />}
+               {isLocked && <Lock className="w-4 h-4 text-white/40" />}
             </div>
 
             <div className="absolute inset-0 bg-gradient-to-b from-white/80 to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none" />
-            {!isLocked && <Volume2 className="absolute top-6 right-2 w-3.5 h-3.5 text-[#14213D]/20 group-hover:text-[#3F6656] transition-colors" />}
+            {!isLocked && <Volume2 className="absolute top-6 right-2 w-3.5 h-3.5 text-white/20 group-hover:text-emerald-500 transition-colors" />}
             
-            <div className="my-1 flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-base font-bold transition shadow-sm bg-gradient-to-br text-[#14213D] shadow-[#14213D]/10 bg-white">
-              <span className={`text-[32px] font-bold font-sans leading-none ${isLocked ? 'text-gray-400' : 'text-[#14213D] group-hover:text-[#3F6656]'} transition-colors drop-shadow-sm`}>
+            <div className="my-1 flex h-12 w-12 items-center justify-center rounded-2xl font-mono text-base font-bold transition shadow-sm bg-gradient-to-br text-white shadow-[#ffffff]/10 bg-[#0f172a]">
+              <span className={`text-[32px] font-bold font-sans leading-none ${isLocked ? 'text-slate-500' : 'text-white group-hover:text-emerald-500'} transition-colors drop-shadow-sm`}>
                 {letter.letter}
               </span>
             </div>
             
             <div className="flex flex-col items-center gap-1 z-10 w-full px-1">
-              <span className="font-mono text-[10px] font-semibold bg-[#14213D]/5 text-[#14213D]/70 px-1.5 py-0.5 rounded w-full text-center truncate">
+              <span className="font-mono text-[10px] font-semibold bg-white/5 text-white/70 px-1.5 py-0.5 rounded w-full text-center truncate">
                 {letter.transliteration}
               </span>
               <div className="flex justify-center gap-1 mt-1">
@@ -424,9 +424,9 @@ export default function MalayalamDashboard() {
                      <Star key={i} className="h-2.5 w-2.5 text-amber-500 fill-amber-500" />
                    ))
                  ) : isInProgress ? (
-                   <span className="font-mono text-[9px] font-bold text-[#3F6656]">In Progress</span>
+                   <span className="font-mono text-[9px] font-bold text-emerald-500">In Progress</span>
                  ) : (
-                   <span className="font-mono text-[9px] text-gray-400">Locked</span>
+                   <span className="font-mono text-[9px] text-slate-500">Locked</span>
                  )}
               </div>
             </div>
@@ -437,36 +437,36 @@ export default function MalayalamDashboard() {
   );
 
   return (
-    <div className="flex h-screen bg-gray-50 overflow-hidden">
+    <div className="flex h-screen bg-white/5 overflow-hidden">
       {/* Left Sidebar */}
-      <aside className="w-72 h-screen bg-white border-r border-[#14213D]/10 flex flex-col shadow-sm shrink-0">
+      <aside className="w-72 h-screen bg-[#0f172a] border-r border-white/10 flex flex-col shadow-sm shrink-0">
         {/* Top Section */}
-        <div className="p-6 border-b border-[#14213D]/10 flex flex-col gap-3">
+        <div className="p-6 border-b border-white/10 flex flex-col gap-3">
           <div className="flex items-center justify-between">
-            <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
+            <h1 className="font-display text-2xl font-bold text-white flex items-center gap-2">
+              <Languages className="w-6 h-6 text-amber-500" /> LingoLive
             </h1>
             <div className="relative">
               <button
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-                className="group flex items-center justify-center h-8 px-2.5 gap-1.5 rounded-lg border border-[#14213D]/10 bg-white/90 backdrop-blur-md text-[#14213D] shadow-sm hover:border-[#C9A227] hover:text-[#C9A227] transition-all"
+                className="group flex items-center justify-center h-8 px-2.5 gap-1.5 rounded-lg border border-white/10 bg-[#0f172a]/90 backdrop-blur-md text-white shadow-sm hover:border-amber-500 hover:text-amber-500 transition-all"
               >
-                <Globe className="h-3.5 w-3.5 text-[#C9A227] group-hover:rotate-180 transition-transform duration-500" />
+                <Globe className="h-3.5 w-3.5 text-amber-500 group-hover:rotate-180 transition-transform duration-500" />
                 <span className="text-[13px] leading-none">{currentLanguage.flag}</span>
                 <span className="font-sans text-[11px] font-bold uppercase mt-0.5">
                   {currentLanguage.code}
                 </span>
               </button>
               {langDropdownOpen && (
-                <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-[#14213D]/10 bg-white py-2 shadow-xl z-50">
+                <div className="absolute left-0 top-full mt-2 w-48 rounded-2xl border border-white/10 bg-[#0f172a] py-2 shadow-xl z-50">
                   {availableLanguages.map((lang) => (
                     <button
                       key={lang.code}
                       onClick={() => changeLanguage(lang.code)}
                       className={`flex w-full items-center gap-3 px-4 py-2 font-sans text-sm font-semibold transition-colors ${
                         currentLanguageCode === lang.code
-                          ? "bg-[#14213D]/5 text-[#C9A227]"
-                          : "text-[#14213D] hover:bg-[#14213D]/5"
+                          ? "bg-white/5 text-amber-500"
+                          : "text-white hover:bg-white/5"
                       }`}
                     >
                       <span>{lang.flag}</span>
@@ -477,12 +477,12 @@ export default function MalayalamDashboard() {
               )}
             </div>
           </div>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#14213D]/5 px-3 py-1.5 font-mono text-xs font-semibold text-[#14213D]/70 w-fit">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/5 px-3 py-1.5 font-mono text-xs font-semibold text-white/70 w-fit">
             Malayalam Learning
           </span>
           <button 
             onClick={() => navigate("/")}
-            className="mt-1 flex items-center gap-2 px-3 py-2 text-xs font-semibold text-[#14213D]/60 hover:text-[#14213D] hover:bg-[#14213D]/5 rounded-lg transition-colors border border-transparent hover:border-[#14213D]/10 w-fit"
+            className="mt-1 flex items-center gap-2 px-3 py-2 text-xs font-semibold text-white/60 hover:text-white hover:bg-white/5 rounded-lg transition-colors border border-transparent hover:border-white/10 w-fit"
           >
             <ArrowLeft className="w-3.5 h-3.5" /> Back to Main
           </button>
@@ -506,12 +506,12 @@ export default function MalayalamDashboard() {
                 onClick={() => setActiveTab(tabName)}
                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all duration-200 ${
                   isActive
-                    ? "bg-[#14213D] text-white shadow-md"
-                    : "text-[#14213D]/70 hover:bg-[#14213D]/5 hover:text-[#14213D]"
+                    ? "bg-[#ffffff] text-white shadow-md"
+                    : "text-white/70 hover:bg-white/5 hover:text-white"
                 }`}
               >
                 <div className={`flex items-center justify-center w-7 h-7 rounded-lg ${
-                  isActive ? "bg-white/20" : "bg-[#14213D]/10"
+                  isActive ? "bg-[#0f172a]/20" : "bg-white/10"
                 }`}>
                   {getIcon(tabName)}
                 </div>
@@ -522,32 +522,32 @@ export default function MalayalamDashboard() {
         </nav>
 
         {/* Bottom Section */}
-        <div className="p-5 border-t border-[#14213D]/10 bg-gray-50/50 flex flex-col gap-4">
+        <div className="p-5 border-t border-white/10 bg-white/5/50 flex flex-col gap-4">
           <div className="flex items-center justify-between px-1">
             <div className="flex flex-col items-center gap-1">
               <div className="flex items-center gap-1.5">
-                <Flame className={`w-4 h-4 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
-                <span className="text-xs font-semibold text-[#14213D]/70">Streak</span>
+                <Flame className={`w-4 h-4 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
+                <span className="text-xs font-semibold text-white/70">Streak</span>
               </div>
-              <span className={`font-mono font-bold ${stats.streak > 0 ? "text-amber-600" : "text-[#14213D]/40"}`}>{stats.streak}</span>
+              <span className={`font-mono font-bold ${stats.streak > 0 ? "text-amber-600" : "text-white/40"}`}>{stats.streak}</span>
             </div>
-            <div className="w-px h-8 bg-[#14213D]/10"></div>
+            <div className="w-px h-8 bg-white/10"></div>
             <div className="flex flex-col items-center gap-1">
               <div className="flex items-center gap-1.5">
-                <Zap className={`w-4 h-4 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
-                <span className="text-xs font-semibold text-[#14213D]/70">Points</span>
+                <Zap className={`w-4 h-4 ${stats.xp > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
+                <span className="text-xs font-semibold text-white/70">Points</span>
               </div>
-              <span className={`font-mono font-bold ${stats.xp > 0 ? "text-[#C9A227]" : "text-[#14213D]/40"}`}>{stats.xp}</span>
+              <span className={`font-mono font-bold ${stats.xp > 0 ? "text-amber-500" : "text-white/40"}`}>{stats.xp}</span>
             </div>
           </div>
           
           {user && (
-            <div className="flex items-center justify-between bg-white p-3 rounded-xl border border-[#14213D]/10 shadow-sm">
+            <div className="flex items-center justify-between bg-[#0f172a] p-3 rounded-xl border border-white/10 shadow-sm">
               <div className="flex items-center gap-2 overflow-hidden">
-                <div className="w-8 h-8 rounded-full bg-[#14213D]/5 flex items-center justify-center shrink-0">
-                  <User className="w-4 h-4 text-[#3F6656]" />
+                <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center shrink-0">
+                  <User className="w-4 h-4 text-emerald-500" />
                 </div>
-                <span className="text-xs font-semibold truncate text-[#14213D]">{user.email}</span>
+                <span className="text-xs font-semibold truncate text-white">{user.email}</span>
               </div>
               <button 
                 onClick={handleLogout}
@@ -564,18 +564,18 @@ export default function MalayalamDashboard() {
       {/* Main Content Area */}
       <main className="flex-1 flex flex-col overflow-y-auto">
         <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-8 pb-16">
-          <div className="relative overflow-hidden rounded-3xl bg-[#14213D] p-6 text-white shadow-xl sm:p-10">
-            <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-[#C9A227]/10 blur-3xl" />
-            <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-[#3F6656]/20 blur-2xl" />
+          <div className="relative overflow-hidden rounded-3xl bg-[#ffffff] p-6 text-white shadow-xl sm:p-10">
+            <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-amber-500/10 blur-3xl" />
+            <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-emerald-500/20 blur-2xl" />
 
             <div className="relative z-10 grid gap-6 md:grid-cols-[1fr_auto]">
               <div className="space-y-4">
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-[#C9A227] px-3 py-1 font-mono text-xs font-bold text-[#14213D]">
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500 px-3 py-1 font-mono text-xs font-bold text-white">
                     <Sparkles className="h-3.5 w-3.5" />
                     Malayalam Fundamentals
                   </span>
-                  <span className="rounded-full bg-white/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
+                  <span className="rounded-full bg-[#0f172a]/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
                     Beginner
                   </span>
                 </div>
@@ -592,7 +592,7 @@ export default function MalayalamDashboard() {
                 <div className="flex flex-wrap items-center gap-3 pt-2">
                   <button
                     onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
-                    className="flex items-center gap-2 rounded-xl bg-[#C9A227] px-5 py-3 font-sans text-sm font-bold text-[#14213D] shadow-lg transition hover:brightness-110 active:scale-95"
+                    className="flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 font-sans text-sm font-bold text-white shadow-lg transition hover:brightness-110 active:scale-95"
                   >
                     <BookOpen className="h-4 w-4" />
                     <span>Start Learning</span>
@@ -600,19 +600,19 @@ export default function MalayalamDashboard() {
 
                   <button
                     onClick={() => navigate("/analytics")}
-                    className="flex items-center gap-2 rounded-xl bg-white/10 px-5 py-3 font-sans text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20 border border-white/15"
+                    className="flex items-center gap-2 rounded-xl bg-[#0f172a]/10 px-5 py-3 font-sans text-sm font-semibold text-white backdrop-blur-md transition hover:bg-[#0f172a]/20 border border-white/15"
                   >
-                    <BarChart3 className="h-4 w-4 text-[#C9A227]" />
+                    <BarChart3 className="h-4 w-4 text-amber-500" />
                     <span>View Analytics</span>
                   </button>
                 </div>
               </div>
 
               {/* Right Progress Card (Streak and XP) */}
-              <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-md md:w-64 space-y-4">
+              <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-[#0f172a]/5 p-6 backdrop-blur-md md:w-64 space-y-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                     <Flame className={`w-5 h-5 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-gray-400"}`} />
+                     <Flame className={`w-5 h-5 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
                      <span className="text-sm text-white/80 font-medium">Daily Streak</span>
                   </div>
                   <span className={`font-mono font-bold text-lg ${stats.streak > 0 ? "text-amber-500" : "text-white"}`}>{stats.streak}</span>
@@ -620,24 +620,24 @@ export default function MalayalamDashboard() {
                 
                 <div className="flex items-center justify-between border-t border-white/10 pt-4">
                   <div className="flex items-center gap-2">
-                     <Zap className={`w-5 h-5 ${stats.xp > 0 ? "text-[#C9A227] fill-[#C9A227]" : "text-gray-400"}`} />
+                     <Zap className={`w-5 h-5 ${stats.xp > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
                      <span className="text-sm text-white/80 font-medium">Earned XP</span>
                   </div>
-                  <span className={`font-mono font-bold text-lg ${stats.xp > 0 ? "text-[#C9A227]" : "text-white"}`}>{stats.xp}</span>
+                  <span className={`font-mono font-bold text-lg ${stats.xp > 0 ? "text-amber-500" : "text-white"}`}>{stats.xp}</span>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Content Area Grid */}
-          <div className="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-[#14213D]/5">
+          <div className="bg-[#0f172a] rounded-3xl p-6 sm:p-10 shadow-sm border border-[#ffffff]/5">
             {activeTab === "Home" && (
               <div className="space-y-8 animate-fade-in">
                 <div className="space-y-2">
-                  <h2 className="font-display text-3xl font-bold text-[#14213D]">
+                  <h2 className="font-display text-3xl font-bold text-white">
                     Welcome back! 👋
                   </h2>
-                  <p className="font-sans text-sm text-[#14213D]/60 max-w-xl">
+                  <p className="font-sans text-sm text-white/60 max-w-xl">
                     Pick up where you left off or start a new lesson. Your Malayalam journey is waiting for you!
                   </p>
                 </div>
@@ -656,13 +656,13 @@ export default function MalayalamDashboard() {
                         {card.icon}
                       </div>
                       <div>
-                        <h3 className="font-display text-lg font-bold text-[#14213D]">{card.label}</h3>
-                        <p className="font-mono text-sm font-semibold text-[#14213D]/60 mt-1">
+                        <h3 className="font-display text-lg font-bold text-white">{card.label}</h3>
+                        <p className="font-mono text-sm font-semibold text-white/60 mt-1">
                           {progress[card.key]} / {card.total} Completed
                         </p>
                       </div>
                       {/* Progress Bar */}
-                      <div className="w-full h-1.5 rounded-full bg-white/50 mt-2 overflow-hidden border border-black/5">
+                      <div className="w-full h-1.5 rounded-full bg-[#0f172a]/50 mt-2 overflow-hidden border border-black/5">
                         <div 
                           className="h-full rounded-full transition-all duration-700" 
                           style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
@@ -677,21 +677,21 @@ export default function MalayalamDashboard() {
             {activeTab === "Alphabets (അക്ഷരമാല)" && (
               <div className="space-y-12">
                 <div className="space-y-6">
-                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#C9A227]" /> Vowels (സ്വരങ്ങൾ)
+                  <h3 className="font-display text-2xl font-bold text-white flex items-center gap-2">
+                    <Languages className="w-6 h-6 text-amber-500" /> Vowels (സ്വരങ്ങൾ)
                   </h3>
                   {renderLetterGrid("swarangal", alphabetData.alphabet.swarangal)}
                 </div>
 
                 <div className="space-y-6">
-                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-                    <Languages className="w-6 h-6 text-[#3F6656]" /> Consonants (വ്യഞ്ജനങ്ങൾ)
+                  <h3 className="font-display text-2xl font-bold text-white flex items-center gap-2">
+                    <Languages className="w-6 h-6 text-emerald-500" /> Consonants (വ്യഞ്ജനങ്ങൾ)
                   </h3>
                   {renderLetterGrid("vyanjanangal", alphabetData.alphabet.vyanjanangal)}
                 </div>
 
                 <div className="space-y-6">
-                  <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                  <h3 className="font-display text-2xl font-bold text-white flex items-center gap-2">
                     <Languages className="w-6 h-6 text-[#6366f1]" /> Chillu Letters (ചില്ലക്ഷരങ്ങൾ)
                   </h3>
                   {renderLetterGrid("chillaksharangal", alphabetData.alphabet.chillaksharangal)}
@@ -703,7 +703,7 @@ export default function MalayalamDashboard() {
               <div className="space-y-6">
                 {activeWordPartView === null ? (
                   <div className="space-y-4 pt-4">
-                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                    <h3 className="font-display text-xl font-bold text-white flex items-center gap-2">
                       <BookOpen className="w-5 h-5 text-[#0ea5e9]" /> {malayalamWordsData.words.length} Essential Words
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -722,18 +722,18 @@ export default function MalayalamDashboard() {
                             onClick={() => setActiveWordPartView(i)}
                             className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
                               isLocked 
-                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                ? "border-white/10 bg-slate-900/40 opacity-70 cursor-not-allowed" 
                                 : isInProgress
-                                ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
-                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                                ? "border-amber-500 bg-amber-500/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-500/10/50 hover:shadow-md"
                             }`}
                           >
-                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
-                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-slate-500" : isInProgress ? "text-amber-500" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-slate-400" : "text-white"}`}>{partName}</span>
                             <div className="mt-3">
-                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                              {isLocked ? <Lock className="w-5 h-5 text-slate-500" /> : 
                                isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
-                               <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
+                               <span className="text-xs font-bold text-amber-500 bg-amber-500/20 px-3 py-1 rounded-full">In Progress</span>}
                             </div>
                           </button>
                         );
@@ -744,13 +744,13 @@ export default function MalayalamDashboard() {
                   <div className="space-y-6 pt-4">
                     <button 
                       onClick={() => setActiveWordPartView(null)}
-                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                      className="flex items-center gap-2 text-sm font-bold text-white/60 hover:text-white transition-colors bg-[#0f172a] px-4 py-2 rounded-xl shadow-sm border border-white/10 w-fit"
                     >
                       <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
                     </button>
                     
                     <div className="flex items-center justify-between">
-                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                      <h3 className="font-display text-2xl font-bold text-white flex items-center gap-2">
                         <BookOpen className="w-6 h-6 text-[#0ea5e9]" /> Part {activeWordPartView + 1} ({(activeWordPartView * 10) + 1}-{(activeWordPartView + 1) * 10})
                       </h3>
                     </div>
@@ -783,7 +783,7 @@ export default function MalayalamDashboard() {
               <div className="space-y-6">
                 {activeNumberPartView === null ? (
                   <div className="space-y-4 pt-4">
-                    <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                    <h3 className="font-display text-xl font-bold text-white flex items-center gap-2">
                       <BookOpen className="w-5 h-5 text-[#ec4899]" /> {malayalamNumbersData.numbers.length} Numbers
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -802,18 +802,18 @@ export default function MalayalamDashboard() {
                             onClick={() => setActiveNumberPartView(i)}
                             className={`flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 ${
                               isLocked 
-                                ? "border-[#14213D]/10 bg-gray-50/60 opacity-70 cursor-not-allowed" 
+                                ? "border-white/10 bg-slate-900/40 opacity-70 cursor-not-allowed" 
                                 : isInProgress
-                                ? "border-[#C9A227] bg-[#C9A227]/10 shadow-lg"
-                                : "border-emerald-500/30 bg-emerald-50/50 hover:shadow-md"
+                                ? "border-amber-500 bg-amber-500/10 shadow-lg"
+                                : "border-emerald-500/30 bg-emerald-500/10/50 hover:shadow-md"
                             }`}
                           >
-                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-gray-400" : isInProgress ? "text-[#C9A227]" : "text-emerald-500"}`} />
-                            <span className={`font-display text-lg font-bold ${isLocked ? "text-gray-500" : "text-[#14213D]"}`}>{partName}</span>
+                            <BookOpen className={`w-8 h-8 mb-3 ${isLocked ? "text-slate-500" : isInProgress ? "text-amber-500" : "text-emerald-500"}`} />
+                            <span className={`font-display text-lg font-bold ${isLocked ? "text-slate-400" : "text-white"}`}>{partName}</span>
                             <div className="mt-3">
-                              {isLocked ? <Lock className="w-5 h-5 text-gray-400" /> : 
+                              {isLocked ? <Lock className="w-5 h-5 text-slate-500" /> : 
                                isCompleted ? <CheckCircle2 className="w-5 h-5 text-emerald-500" /> : 
-                               <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/20 px-3 py-1 rounded-full">In Progress</span>}
+                               <span className="text-xs font-bold text-amber-500 bg-amber-500/20 px-3 py-1 rounded-full">In Progress</span>}
                             </div>
                           </button>
                         );
@@ -824,13 +824,13 @@ export default function MalayalamDashboard() {
                   <div className="space-y-6 pt-4">
                     <button 
                       onClick={() => setActiveNumberPartView(null)}
-                      className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                      className="flex items-center gap-2 text-sm font-bold text-white/60 hover:text-white transition-colors bg-[#0f172a] px-4 py-2 rounded-xl shadow-sm border border-white/10 w-fit"
                     >
                       <ChevronRight className="w-4 h-4 rotate-180" /> Back to Parts
                     </button>
                     
                     <div className="flex items-center justify-between">
-                      <h3 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
+                      <h3 className="font-display text-2xl font-bold text-white flex items-center gap-2">
                         <BookOpen className="w-6 h-6 text-[#ec4899]" /> Part {activeNumberPartView + 1} ({(activeNumberPartView * 10) + 1}-{(activeNumberPartView + 1) * 10})
                       </h3>
                     </div>
@@ -865,17 +865,17 @@ export default function MalayalamDashboard() {
                 <motion.div 
                   initial={{ opacity: 0, y: -20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="relative overflow-hidden flex flex-col gap-6 rounded-3xl bg-gradient-to-br from-[#14213D] via-[#1a2f5c] to-[#0f172a] p-8 sm:p-10 text-white shadow-2xl"
+                  className="relative overflow-hidden flex flex-col gap-6 rounded-3xl bg-gradient-to-br from-[#ffffff] via-[#1a2f5c] to-[#0f172a] p-8 sm:p-10 text-white shadow-2xl"
                 >
-                  <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#C9A227] opacity-20 blur-3xl"></div>
-                  <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-[#3F6656] opacity-30 blur-3xl"></div>
+                  <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-amber-500 opacity-20 blur-3xl"></div>
+                  <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-emerald-500 opacity-30 blur-3xl"></div>
                   
                   <div className="relative z-10 space-y-4 text-center sm:text-left flex flex-col items-center sm:items-start">
                     <motion.div 
                       initial={{ scale: 0.9, opacity: 0 }}
                       animate={{ scale: 1, opacity: 1 }}
                       transition={{ delay: 0.2 }}
-                      className="inline-flex items-center gap-2 rounded-full border border-[#C9A227]/30 bg-[#C9A227]/10 px-4 py-1.5 font-mono text-xs font-bold text-[#e6c148] backdrop-blur-md"
+                      className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1.5 font-mono text-xs font-bold text-[#e6c148] backdrop-blur-md"
                     >
                       <Sparkles className="h-4 w-4" /> Fluent Expressions
                     </motion.div>
@@ -896,7 +896,7 @@ export default function MalayalamDashboard() {
                   className="relative"
                 >
                   <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                    <Search className="h-5 w-5 text-[#14213D]/40" />
+                    <Search className="h-5 w-5 text-white/40" />
                   </div>
                   <input
                     type="text"
@@ -908,7 +908,7 @@ export default function MalayalamDashboard() {
                       }
                     }}
                     placeholder="Search for sentences in Malayalam, English or Tamil..."
-                    className="w-full bg-white/80 backdrop-blur-md border border-[#14213D]/15 rounded-2xl py-4 pl-12 pr-4 font-sans text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-[#C9A227]/50 focus:border-[#C9A227]/50 transition-all text-[#14213D] placeholder:text-[#14213D]/40"
+                    className="w-full bg-[#0f172a]/90 backdrop-blur-md border border-white/10 rounded-2xl py-4 pl-12 pr-4 font-sans text-base shadow-sm focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-500/50 transition-all text-white placeholder:text-white/40"
                   />
                 </motion.div>
 
@@ -916,7 +916,7 @@ export default function MalayalamDashboard() {
                 <div className="flex flex-col gap-4">
                   {!searchQuery.trim() && activeSentenceModuleView === null ? (
                     <div className="space-y-4 pt-4">
-                      <h3 className="font-display text-xl font-bold text-[#14213D] flex items-center gap-2">
+                      <h3 className="font-display text-xl font-bold text-white flex items-center gap-2">
                         <BookOpen className="w-5 h-5 text-[#f59e0b]" /> {malayalamSentencesData.total_sentences} Sentences
                       </h3>
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -924,13 +924,13 @@ export default function MalayalamDashboard() {
                           <button
                             key={moduleData.module}
                             onClick={() => setActiveSentenceModuleView(i)}
-                            className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-[#14213D]/10 hover:border-[#C9A227] bg-white hover:bg-[#C9A227]/5 shadow-sm hover:shadow-md"
+                            className="flex flex-col items-center justify-center p-8 rounded-3xl border-2 transition-all duration-300 hover:-translate-y-1 border-white/10 hover:border-amber-500 bg-[#0f172a] hover:bg-amber-500/5 shadow-sm hover:shadow-md"
                           >
-                            <BookOpen className="w-8 h-8 mb-3 text-[#C9A227]" />
-                            <span className="font-display text-lg font-bold text-[#14213D]">Module {moduleData.module}</span>
-                            {moduleData.category && <span className="text-sm text-gray-500 mt-2 text-center">{moduleData.category}</span>}
+                            <BookOpen className="w-8 h-8 mb-3 text-amber-500" />
+                            <span className="font-display text-lg font-bold text-white">Module {moduleData.module}</span>
+                            {moduleData.category && <span className="text-sm text-slate-400 mt-2 text-center">{moduleData.category}</span>}
                             <div className="mt-4">
-                              <span className="text-xs font-bold text-[#C9A227] bg-[#C9A227]/10 px-3 py-1 rounded-full">{moduleData.total_sentences || moduleData.sentences.length} Sentences</span>
+                              <span className="text-xs font-bold text-amber-500 bg-amber-500/10 px-3 py-1 rounded-full">{moduleData.total_sentences || moduleData.sentences.length} Sentences</span>
                             </div>
                           </button>
                         ))}
@@ -942,7 +942,7 @@ export default function MalayalamDashboard() {
                         <div className="mb-2">
                           <button 
                             onClick={() => setActiveSentenceModuleView(null)}
-                            className="flex items-center gap-2 text-sm font-bold text-[#14213D]/60 hover:text-[#14213D] transition-colors bg-white px-4 py-2 rounded-xl shadow-sm border border-[#14213D]/10 w-fit"
+                            className="flex items-center gap-2 text-sm font-bold text-white/60 hover:text-white transition-colors bg-[#0f172a] px-4 py-2 rounded-xl shadow-sm border border-white/10 w-fit"
                           >
                             <ChevronRight className="w-4 h-4 rotate-180" /> Back to Modules
                           </button>
@@ -951,7 +951,7 @@ export default function MalayalamDashboard() {
 
                       {filteredData.length === 0 ? (
                         <div className="text-center py-10">
-                          <p className="text-[#14213D]/60 font-sans text-lg">No matches found for "{searchQuery}"</p>
+                          <p className="text-white/60 font-sans text-lg">No matches found for "{searchQuery}"</p>
                         </div>
                       ) : (
                         filteredData.map((data, index) => {
@@ -963,23 +963,23 @@ export default function MalayalamDashboard() {
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ delay: Math.min(index * 0.05, 0.5) }}
                               key={data.phase} 
-                              className={`rounded-3xl border ${isActive ? 'border-[#14213D]/20 shadow-xl bg-white/90 backdrop-blur-md' : 'border-[#14213D]/10 bg-white/60 backdrop-blur-sm'} transition-all duration-300 overflow-hidden`}
+                              className={`rounded-3xl border ${isActive ? 'border-white/15 shadow-xl bg-[#0f172a]/90 backdrop-blur-md' : 'border-white/10 bg-slate-900/40 backdrop-blur-sm'} transition-all duration-300 overflow-hidden`}
                             >
                           {/* Accordion Header */}
                           <button
                             onClick={() => togglePhase(data.phase)}
-                            className="w-full flex items-center justify-between p-6 sm:p-8 text-left hover:bg-[#14213D]/5 transition-colors"
+                            className="w-full flex items-center justify-between p-6 sm:p-8 text-left hover:bg-white/5 transition-colors"
                           >
                             <div>
-                              <h2 className={`font-display text-2xl font-extrabold ${isActive ? 'text-[#14213D]' : 'text-[#14213D]/80'}`}>
-                                {data.phase} {completedPhases[data.phase] && <span className="ml-2 inline-flex items-center text-sm font-bold text-[#C9A227] bg-[#C9A227]/10 px-2 py-0.5 rounded-full">⭐ Passed</span>}
+                              <h2 className={`font-display text-2xl font-extrabold ${isActive ? 'text-white' : 'text-white/80'}`}>
+                                {data.phase} {completedPhases[data.phase] && <span className="ml-2 inline-flex items-center text-sm font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded-full">⭐ Passed</span>}
                               </h2>
-                              <p className="font-sans text-sm text-[#14213D]/60 mt-1">
+                              <p className="font-sans text-sm text-white/60 mt-1">
                                 {data.context} • {data.sentences.length} items
                               </p>
                             </div>
-                            <div className={`p-3 rounded-full transition-colors ${isActive ? 'bg-[#14213D]/10' : 'bg-transparent'}`}>
-                              {isActive ? <ChevronUp className="h-6 w-6 text-[#14213D]" /> : <ChevronDown className="h-6 w-6 text-[#14213D]/60" />}
+                            <div className={`p-3 rounded-full transition-colors ${isActive ? 'bg-white/10' : 'bg-transparent'}`}>
+                              {isActive ? <ChevronUp className="h-6 w-6 text-white" /> : <ChevronDown className="h-6 w-6 text-white/60" />}
                             </div>
                           </button>
 
@@ -990,16 +990,16 @@ export default function MalayalamDashboard() {
                                 initial={{ height: 0, opacity: 0 }}
                                 animate={{ height: "auto", opacity: 1 }}
                                 exit={{ height: 0, opacity: 0 }}
-                                className="overflow-hidden border-t border-[#14213D]/5"
+                                className="overflow-hidden border-t border-[#ffffff]/5"
                               >
                                 <div className="p-6 sm:p-8 pt-6">
                                   {/* Cat Checkpoint Button */}
                                   <div className="mb-8">
                                     <button
                                       onClick={() => setCheckpointPhase(data)}
-                                      className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#14213D] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
+                                      className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#ffffff] to-[#1a2f5c] p-4 font-bold text-white shadow-md hover:shadow-lg transition-all hover:-translate-y-0.5"
                                     >
-                                      <Sparkles className="h-5 w-5 text-[#C9A227]" />
+                                      <Sparkles className="h-5 w-5 text-amber-500" />
                                       Phase Oral Checkpoint with Cat AI Teacher
                                     </button>
                                   </div>
@@ -1009,21 +1009,21 @@ export default function MalayalamDashboard() {
                                       const isTranslated = visibleTranslations[`${data.phase}-${sIndex}`];
                                       
                                       return (
-                                        <div key={sIndex} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-5 rounded-2xl bg-white border border-[#14213D]/10 hover:border-[#C9A227]/30 hover:shadow-md transition-all duration-300">
+                                        <div key={sIndex} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-5 rounded-2xl bg-[#0f172a] border border-white/10 hover:border-amber-500/30 hover:shadow-md transition-all duration-300">
                                           <div className="flex-shrink-0 mt-1">
-                                            <div className="h-10 w-10 rounded-full bg-[#14213D]/5 flex items-center justify-center text-[#14213D]/40 group-hover:bg-[#C9A227]/10 group-hover:text-[#C9A227] transition-colors">
+                                            <div className="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center text-white/40 group-hover:bg-amber-500/10 group-hover:text-amber-500 transition-colors">
                                               <MessageCircle className="h-5 w-5" />
                                             </div>
                                           </div>
                                           
                                           <div className="flex-1 space-y-3">
                                             <div className="flex items-start justify-between gap-4">
-                                              <p className="font-sans text-xl sm:text-2xl text-[#14213D] font-medium leading-snug break-words">
+                                              <p className="font-sans text-xl sm:text-2xl text-white font-medium leading-snug break-words">
                                                 {sentence.malayalam}
                                               </p>
                                               <button 
                                                 onClick={() => playAudio(sentence.malayalam)}
-                                                className="p-2.5 rounded-full hover:bg-gray-100 text-gray-400 hover:text-[#C9A227] transition-colors flex-shrink-0"
+                                                className="p-2.5 rounded-full hover:bg-white/5 text-slate-500 hover:text-amber-500 transition-colors flex-shrink-0"
                                               >
                                                 <Volume2 className="h-5 w-5" />
                                               </button>
@@ -1032,7 +1032,7 @@ export default function MalayalamDashboard() {
                                             <div className="flex flex-wrap gap-2">
                                               <button
                                                 onClick={() => toggleTranslation(sIndex, data.phase)}
-                                                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-50 text-amber-700 hover:bg-amber-100 transition-colors"
+                                                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-500/10 text-amber-700 hover:bg-amber-100 transition-colors"
                                               >
                                                 <Languages className="h-4 w-4" />
                                                 {isTranslated ? "Hide Translation" : "View Translation"}
@@ -1045,15 +1045,15 @@ export default function MalayalamDashboard() {
                                                   initial={{ opacity: 0, y: -10 }}
                                                   animate={{ opacity: 1, y: 0 }}
                                                   exit={{ opacity: 0, y: -10 }}
-                                                  className="pt-3 border-t border-gray-100 space-y-2"
+                                                  className="pt-3 border-t border-white/10 space-y-2"
                                                 >
-                                                  <p className="font-sans text-[#14213D]/80">
-                                                    <strong className="text-[#14213D]">Meaning:</strong> {sentence.english}
+                                                  <p className="font-sans text-white/80">
+                                                    <strong className="text-white">Meaning:</strong> {sentence.english}
                                                   </p>
-                                                  <p className="font-sans text-[#14213D]/60 text-sm">
+                                                  <p className="font-sans text-white/60 text-sm">
                                                     {sentence.tamil}
                                                   </p>
-                                                  <p className="font-sans text-[#14213D]/60 text-sm italic font-mono bg-gray-50 p-2 rounded-lg mt-2">
+                                                  <p className="font-sans text-white/60 text-sm italic font-mono bg-white/5 p-2 rounded-lg mt-2">
                                                     {sentence.transliteration}
                                                   </p>
                                                 </motion.div>

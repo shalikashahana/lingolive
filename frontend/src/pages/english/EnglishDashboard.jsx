@@ -95,7 +95,7 @@ export default function EnglishDashboard() {
           }
         }
       } catch (err) {
-        console.error("Failed to fetch dashboard user progress", err);
+        console.warn("Dashboard user progress fetch warning:", err.message);
       } finally {
         setLoading(false);
       }
