@@ -145,11 +145,11 @@ export default function KoreanDashboard() {
     { code: "zh", name: "Chinese", flag: "🇨🇳" },
     { code: "ja", name: "Japanese", flag: "🇯🇵" },
   ];
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.href = "/"; 
   };
@@ -367,7 +367,7 @@ export default function KoreanDashboard() {
               <Zap className="h-5 w-5 fill-white" />
             </div>
             <div>
-              <span className="font-extrabold text-white tracking-tight leading-none block text-base">LingoLive</span>
+              <span className="font-extrabold text-white tracking-tight leading-none block text-base">Mozhify</span>
               <span className="text-[10px] font-mono font-bold text-rose-400 uppercase tracking-widest">Korean Edition</span>
             </div>
           </div>
@@ -484,46 +484,45 @@ export default function KoreanDashboard() {
       <main className="flex-1 flex flex-col overflow-y-auto bg-[#050816] custom-scrollbar">
         <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-8 pb-16">
           
-          {/* Hero Banner */}
-          <motion.div
-            initial={{ opacity: 0, y: -15 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="relative overflow-hidden rounded-3xl border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#0f172a] to-[#050816] p-8 sm:p-10 shadow-2xl"
-          >
-            <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-600/15 blur-3xl pointer-events-none" />
-            <div className="absolute -left-16 -bottom-16 h-56 w-56 rounded-full bg-rose-600/10 blur-3xl pointer-events-none" />
-
-            <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-              <div className="space-y-3">
-                <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-400/10 px-3.5 py-1 text-xs font-mono font-bold text-blue-300 backdrop-blur-md">
-                  <Sparkles className="h-3.5 w-3.5 text-blue-400" />
-                  Korean Hangul · Seoul Modern Style
-                </div>
-                <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tight text-white">
-                  Annyeong,{" "}
-                  <span className="bg-gradient-to-r from-blue-400 to-rose-400 bg-clip-text text-transparent">
-                    {user?.displayName?.split(" ")[0] || "Learner"}!
-                  </span>
-                </h1>
-                <p className="max-w-xl text-sm sm:text-base text-slate-400 leading-relaxed">
-                  Master Hangul vowels (모음), consonants (자음), essential vocabulary, and conversation sentences step-by-step.
-                </p>
-              </div>
-              
-              <div className="flex items-center gap-4 bg-white/5 border border-white/10 p-4 rounded-3xl backdrop-blur-md shrink-0">
-                <ProgressRing progress={Math.min(100, ((progress.swarangal + progress.vyanjanangal + progress.words) / 80) * 100)} size={56} strokeWidth={5} color="#FF6B6B" />
-                <div>
-                  <div className="text-xs font-mono font-bold text-slate-400 uppercase tracking-wider">Overall Goal</div>
-                  <div className="text-lg font-extrabold text-white">Hangul Mastery</div>
-                  <div className="text-[11px] text-rose-400 font-medium">Daily Korean practice</div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
           <div className="space-y-6">
             {activeTab === "Home" && (
               <div className="space-y-8 animate-fade-in">
+                {/* Hero Banner */}
+                <motion.div
+                  initial={{ opacity: 0, y: -15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="relative overflow-hidden rounded-3xl border border-blue-500/30 bg-gradient-to-r from-blue-950/40 via-[#0f172a] to-[#050816] p-8 sm:p-10 shadow-2xl"
+                >
+                  <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-blue-600/15 blur-3xl pointer-events-none" />
+                  <div className="absolute -left-16 -bottom-16 h-56 w-56 rounded-full bg-rose-600/10 blur-3xl pointer-events-none" />
+
+                  <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                    <div className="space-y-3">
+                      <div className="inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-400/10 px-3.5 py-1 text-xs font-mono font-bold text-blue-300 backdrop-blur-md">
+                        <Sparkles className="h-3.5 w-3.5 text-blue-400" />
+                        Korean Hangul · Seoul Modern Style
+                      </div>
+                      <h1 className="font-extrabold text-3xl sm:text-4xl md:text-5xl tracking-tight text-white">
+                        Annyeong,{" "}
+                        <span className="bg-gradient-to-r from-blue-400 to-rose-400 bg-clip-text text-transparent">
+                          {user?.displayName?.split(" ")[0] || "Learner"}!
+                        </span>
+                      </h1>
+                      <p className="max-w-xl text-sm sm:text-base text-slate-400 leading-relaxed">
+                        Master Hangul vowels (모음), consonants (자음), essential vocabulary, and conversation sentences step-by-step.
+                      </p>
+                    </div>
+                    
+                    <div className="flex items-center gap-4 bg-white/5 border border-white/10 p-4 rounded-3xl backdrop-blur-md shrink-0">
+                      <ProgressRing progress={Math.min(100, ((progress.swarangal + progress.vyanjanangal + progress.words) / 80) * 100)} size={56} strokeWidth={5} color="#FF6B6B" />
+                      <div>
+                        <div className="text-xs font-mono font-bold text-slate-400 uppercase tracking-wider">Overall Goal</div>
+                        <div className="text-lg font-extrabold text-white">Hangul Mastery</div>
+                        <div className="text-[11px] text-rose-400 font-medium">Daily Korean practice</div>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   <div className="lg:col-span-2 p-6 rounded-3xl border border-blue-500/20 bg-gradient-to-br from-[#0f172a] to-[#090d1f] flex flex-col justify-between space-y-4 shadow-xl">

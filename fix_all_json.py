@@ -2,7 +2,7 @@ import os
 import re
 import json
 
-data_dir = r"c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\data"
+data_dir = r"c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\data"
 
 json_files = [f for f in os.listdir(data_dir) if f.endswith('.json')]
 

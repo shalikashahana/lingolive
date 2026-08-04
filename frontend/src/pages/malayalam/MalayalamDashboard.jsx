@@ -8,9 +8,10 @@ import malayalamSentencesData from "../../data/malayalamSentencesData.json";
 import malayalamQuizData from "../../data/malayalamQuizData.json";
 import { useAuth } from "../../context/AuthContext";
 import MalayalamQuiz from "./MalayalamQuiz";
+import MalayalamChat from "./MalayalamChat";
 import { 
   BookOpen, Sparkles, Languages, CheckCircle2, ChevronRight, ArrowLeft,
-  Play, Volume2, Eye, EyeOff, User, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard, Search, MessageCircle, ChevronDown, ChevronUp 
+  Play, Volume2, Eye, EyeOff, User, LogOut, Lock, Star, Flame, Zap, BarChart3, Globe, LayoutDashboard, Search, MessageCircle, ChevronDown, ChevronUp, Bot 
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import CatVoiceCheckpoint from "../../components/catTeacher/CatVoiceCheckpoint";
@@ -213,11 +214,11 @@ export default function MalayalamDashboard() {
     { code: "zh", name: "Chinese", flag: "🇨🇳" },
     { code: "ja", name: "Japanese", flag: "🇯🇵" },
   ];
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.href = "/"; 
   };
@@ -228,7 +229,8 @@ export default function MalayalamDashboard() {
     "Essential Words",
     "Numbers",
     "Sentences",
-    "Quiz"
+    "Quiz",
+    "AI Conversation"
   ];
 
   // Progress Tracking State
@@ -376,7 +378,8 @@ export default function MalayalamDashboard() {
     { key: "words", label: "Essential Words", tab: TABS[2], icon: "📚", total: malayalamWordsData.words.length, color: "#0ea5e9", bg: "bg-sky-500/10", border: "border-sky-500/20" },
     { key: "numbers", label: "Numbers", tab: TABS[3], icon: "🔢", total: malayalamNumbersData.numbers.length, color: "#ec4899", bg: "bg-pink-500/10", border: "border-pink-500/20" },
     { key: "sentences", label: "Sentences", tab: TABS[4], icon: "💬", total: malayalamSentencesData.total_sentences, color: "#f59e0b", bg: "bg-orange-500/10", border: "border-orange-500/20" },
-    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-500/10", border: "border-purple-500/20" }
+    { key: "quiz", label: "Quiz", tab: TABS[5], icon: "🧠", total: malayalamQuizData.total_questions, color: "#8b5cf6", bg: "bg-purple-500/10", border: "border-purple-500/20" },
+    { key: "ai", label: "AI Conversation", tab: TABS[6], icon: "🤖", total: "∞", color: "#10b981", bg: "bg-emerald-500/10", border: "border-emerald-500/20" }
   ];
 
   const renderLetterGrid = (type, lettersArray) => (
@@ -444,7 +447,7 @@ export default function MalayalamDashboard() {
         <div className="p-6 border-b border-white/10 flex flex-col gap-3">
           <div className="flex items-center justify-between">
             <h1 className="font-display text-2xl font-bold text-white flex items-center gap-2">
-              <Languages className="w-6 h-6 text-amber-500" /> LingoLive
+              <Languages className="w-6 h-6 text-amber-500" /> Mozhify
             </h1>
             <div className="relative">
               <button
@@ -493,6 +496,7 @@ export default function MalayalamDashboard() {
           {TABS.map((tabName) => {
             const getIcon = (name) => {
               if (name === "Home") return <LayoutDashboard className="w-4 h-4 text-current" />;
+              if (name === "AI Conversation") return <Bot className="w-4 h-4 text-current" />;
               if (name.includes("Alphabets")) return <span className="text-sm font-sans text-current">അ</span>;
               if (name.includes("Words")) return <BookOpen className="w-4 h-4 text-current" />;
               return <CheckCircle2 className="w-4 h-4 text-current" />;
@@ -506,7 +510,7 @@ export default function MalayalamDashboard() {
                 onClick={() => setActiveTab(tabName)}
                 className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl font-semibold transition-all duration-200 ${
                   isActive
-                    ? "bg-[#ffffff] text-white shadow-md"
+                    ? "bg-[#ffffff] text-[#0f172a] shadow-md"
                     : "text-white/70 hover:bg-white/5 hover:text-white"
                 }`}
               >
@@ -564,112 +568,210 @@ export default function MalayalamDashboard() {
       {/* Main Content Area */}
       <main className="flex-1 flex flex-col overflow-y-auto">
         <div className="p-6 sm:p-8 max-w-6xl mx-auto w-full space-y-8 pb-16">
-          <div className="relative overflow-hidden rounded-3xl bg-[#ffffff] p-6 text-white shadow-xl sm:p-10">
-            <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-amber-500/10 blur-3xl" />
-            <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-emerald-500/20 blur-2xl" />
-
-            <div className="relative z-10 grid gap-6 md:grid-cols-[1fr_auto]">
-              <div className="space-y-4">
-                <div className="flex flex-wrap items-center gap-3">
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500 px-3 py-1 font-mono text-xs font-bold text-white">
-                    <Sparkles className="h-3.5 w-3.5" />
-                    Malayalam Fundamentals
-                  </span>
-                  <span className="rounded-full bg-[#0f172a]/10 px-3 py-1 font-mono text-xs font-medium text-white/80 backdrop-blur-sm border border-white/10">
-                    Beginner
-                  </span>
-                </div>
-
-                <h1 className="font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                  Learn the Malayalam Alphabet
-                </h1>
-                <p className="max-w-2xl font-sans text-sm text-white/70 leading-relaxed">
-                  Master the core {alphabetData.total_letters} letters of Malayalam. 
-                  Start with the vowels (സ്വരങ്ങൾ) and progress to the consonants (വ്യഞ്ജനങ്ങൾ) to build your foundation.
-                </p>
-
-                {/* Quick Action buttons */}
-                <div className="flex flex-wrap items-center gap-3 pt-2">
-                  <button
-                    onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
-                    className="flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-3 font-sans text-sm font-bold text-white shadow-lg transition hover:brightness-110 active:scale-95"
-                  >
-                    <BookOpen className="h-4 w-4" />
-                    <span>Start Learning</span>
-                  </button>
-
-                  <button
-                    onClick={() => navigate("/analytics")}
-                    className="flex items-center gap-2 rounded-xl bg-[#0f172a]/10 px-5 py-3 font-sans text-sm font-semibold text-white backdrop-blur-md transition hover:bg-[#0f172a]/20 border border-white/15"
-                  >
-                    <BarChart3 className="h-4 w-4 text-amber-500" />
-                    <span>View Analytics</span>
-                  </button>
-                </div>
-              </div>
-
-              {/* Right Progress Card (Streak and XP) */}
-              <div className="flex flex-col justify-between rounded-2xl border border-white/10 bg-[#0f172a]/5 p-6 backdrop-blur-md md:w-64 space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                     <Flame className={`w-5 h-5 ${stats.streak > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
-                     <span className="text-sm text-white/80 font-medium">Daily Streak</span>
-                  </div>
-                  <span className={`font-mono font-bold text-lg ${stats.streak > 0 ? "text-amber-500" : "text-white"}`}>{stats.streak}</span>
-                </div>
-                
-                <div className="flex items-center justify-between border-t border-white/10 pt-4">
-                  <div className="flex items-center gap-2">
-                     <Zap className={`w-5 h-5 ${stats.xp > 0 ? "text-amber-500 fill-amber-500" : "text-slate-500"}`} />
-                     <span className="text-sm text-white/80 font-medium">Earned XP</span>
-                  </div>
-                  <span className={`font-mono font-bold text-lg ${stats.xp > 0 ? "text-amber-500" : "text-white"}`}>{stats.xp}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Content Area Grid */}
           <div className="bg-[#0f172a] rounded-3xl p-6 sm:p-10 shadow-sm border border-[#ffffff]/5">
             {activeTab === "Home" && (
-              <div className="space-y-8 animate-fade-in">
-                <div className="space-y-2">
-                  <h2 className="font-display text-3xl font-bold text-white">
-                    Welcome back! 👋
-                  </h2>
-                  <p className="font-sans text-sm text-white/60 max-w-xl">
-                    Pick up where you left off or start a new lesson. Your Malayalam journey is waiting for you!
-                  </p>
-                </div>
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                  {dashboardCards.map((card) => (
-                    <button
-                      key={card.key}
-                      onClick={() => setActiveTab(card.tab)}
-                      className={`flex flex-col items-start gap-4 p-6 rounded-2xl border text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${card.bg} ${card.border}`}
-                    >
-                      <div 
-                        className="w-12 h-12 rounded-xl flex items-center justify-center shadow-sm text-2xl font-bold text-white" 
-                        style={{ backgroundColor: card.color }}
+              <div className="space-y-6 animate-fade-in">
+                {/* Top Banner */}
+                <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#0d1f40] via-[#162a55] to-[#090e1c] p-6 text-white shadow-xl sm:p-8 border border-white/10 mb-6">
+                  <div className="absolute -right-10 -top-10 h-64 w-64 rounded-full bg-amber-500/15 blur-3xl" />
+                  <div className="absolute -bottom-10 right-20 h-48 w-48 rounded-full bg-blue-500/15 blur-2xl" />
+
+                  <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                    <div className="space-y-3">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/25 bg-amber-400/10 px-3.5 py-1 text-xs font-mono font-bold text-amber-300 backdrop-blur-md">
+                          <Sparkles className="h-3.5 w-3.5 text-amber-400" />
+                          Malayalam Fundamentals · {alphabetData.total_letters} Letters
+                        </span>
+                      </div>
+
+                      <h1 className="font-display text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                        Welcome back, <span className="bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-200 bg-clip-text text-transparent">{user?.displayName?.split(" ")[0] || "Learner"}</span>
+                      </h1>
+                      <p className="max-w-xl font-sans text-sm text-slate-300 leading-relaxed">
+                        Start your learning streak today by completing your first lesson module!
+                      </p>
+                    </div>
+
+                    {/* Action Button */}
+                    <div className="shrink-0">
+                      <button
+                        onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
+                        className="flex items-center gap-2 rounded-2xl bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 px-6 py-3.5 font-sans text-sm font-bold text-slate-950 shadow-lg shadow-amber-500/25 transition-all hover:scale-105 active:scale-95"
                       >
-                        {card.icon}
+                        <span>Start Learning</span>
+                        <ChevronRight className="h-4 w-4" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                {/* ── Stats Row (4 cards) ── */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                  {/* Daily Streak */}
+                  <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                    <div>
+                      <span className="font-mono text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Daily Streak</span>
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-2xl font-extrabold text-amber-400">{stats.streak}</span>
+                        <span className="text-xs text-slate-400 font-semibold">Days Active</span>
                       </div>
-                      <div>
-                        <h3 className="font-display text-lg font-bold text-white">{card.label}</h3>
-                        <p className="font-mono text-sm font-semibold text-white/60 mt-1">
-                          {progress[card.key]} / {card.total} Completed
-                        </p>
+                    </div>
+                    <div className="h-12 w-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center">
+                      <Flame className={`h-6 w-6 ${stats.streak > 0 ? "fill-amber-400 text-amber-400" : "text-slate-500"}`} />
+                    </div>
+                  </div>
+
+                  {/* XP Progress */}
+                  <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03]">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="font-mono text-[11px] font-bold text-slate-400 uppercase tracking-wider">Level 1 XP</span>
+                      <span className="text-xs font-bold text-amber-400">{stats.xp} / 500</span>
+                    </div>
+                    <div className="w-full h-2.5 bg-white/10 rounded-full overflow-hidden mb-1.5">
+                      <div
+                        className="h-full bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full transition-all duration-700"
+                        style={{ width: `${Math.min(100, (stats.xp / 500) * 100)}%` }}
+                      />
+                    </div>
+                    <span className="text-[10px] text-slate-400 font-medium">{Math.max(0, 500 - stats.xp)} XP remaining to Level 2</span>
+                  </div>
+
+                  {/* Alphabet Progress */}
+                  <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                    <div>
+                      <span className="font-mono text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Alphabet Progress</span>
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-2xl font-extrabold text-emerald-400">{progress.swarangal + progress.vyanjanangal + progress.chillaksharangal}</span>
+                        <span className="text-xs text-slate-400 font-semibold">/ {alphabetData.total_letters} Letters</span>
                       </div>
-                      {/* Progress Bar */}
-                      <div className="w-full h-1.5 rounded-full bg-[#0f172a]/50 mt-2 overflow-hidden border border-black/5">
-                        <div 
-                          className="h-full rounded-full transition-all duration-700" 
-                          style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
-                        />
+                    </div>
+                    <div className="h-12 w-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                      <span className="text-xl font-bold font-sans text-emerald-400">അ</span>
+                    </div>
+                  </div>
+
+                  {/* Words Learned */}
+                  <div className="p-5 border border-white/[0.08] rounded-2xl bg-white/[0.03] flex items-center justify-between">
+                    <div>
+                      <span className="font-mono text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-1">Words Learned</span>
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="text-2xl font-extrabold text-sky-400">{progress.words}</span>
+                        <span className="text-xs text-slate-400 font-semibold">/ {malayalamWordsData.words?.length || 200} Words</span>
                       </div>
+                    </div>
+                    <div className="h-12 w-12 rounded-2xl bg-sky-500/10 border border-sky-500/20 flex items-center justify-center">
+                      <BookOpen className="h-6 w-6 text-sky-400" />
+                    </div>
+                  </div>
+                </div>
+
+                {/* ── Today's Mission + AI Coach ── */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+
+                  {/* Mission Checklist (2 cols) */}
+                  <div className="md:col-span-2 p-6 border border-white/[0.08] rounded-3xl bg-white/[0.03] flex flex-col justify-between">
+                    <div>
+                      <div className="flex items-center justify-between mb-5">
+                        <div className="flex items-center gap-2">
+                          <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
+                          <h3 className="text-lg font-bold text-white">Today's Mission</h3>
+                        </div>
+                        <span className="px-3 py-1 rounded-full bg-amber-500/15 text-amber-300 font-mono text-xs font-bold border border-amber-500/20">+50 XP Reward</span>
+                      </div>
+                      <div className="space-y-3">
+                        {[
+                          { text: "Learn 5 Malayalam Vowels (സ്വരങ്ങൾ)", tab: "Alphabets (അക്ഷരമാല)", done: progress.swarangal >= 5 },
+                          { text: "Study 10 Essential Words", tab: "Essential Words", done: progress.words >= 10 },
+                          { text: "Practice with Quiz Dashboard", tab: "Quiz", done: progress.quiz > 0 },
+                        ].map((item, i) => (
+                          <div
+                            key={i}
+                            onClick={() => setActiveTab(item.tab)}
+                            className="flex items-center justify-between p-3.5 rounded-2xl bg-white/[0.04] border border-white/[0.06] cursor-pointer hover:bg-white/[0.08] transition-colors group"
+                          >
+                            <div className="flex items-center gap-3">
+                              {item.done ? (
+                                <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
+                              ) : (
+                                <div className="h-5 w-5 rounded-full border-2 border-slate-500 shrink-0" />
+                              )}
+                              <span className={`text-sm font-medium ${item.done ? "text-slate-400 line-through" : "text-slate-200"}`}>{item.text}</span>
+                            </div>
+                            <ChevronRight className="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition-colors" />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="mt-5 flex justify-end">
+                      <button
+                        onClick={() => setActiveTab("Alphabets (അക്ഷരമാല)")}
+                        className="text-xs font-bold text-amber-400 hover:text-amber-300 flex items-center gap-1 transition-colors"
+                      >
+                        <span>View All Lessons</span>
+                        <ChevronRight className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Gemma AI Coach (1 col) */}
+                  <div className="p-6 border border-amber-500/20 rounded-3xl bg-gradient-to-b from-amber-900/20 to-slate-900/40 flex flex-col justify-between">
+                    <div>
+                      <div className="h-12 w-12 rounded-2xl bg-gradient-to-tr from-amber-600 to-yellow-400 text-white flex items-center justify-center shadow-lg shadow-amber-500/30 mb-4">
+                        <Bot className="w-6 h-6" />
+                      </div>
+                      <h3 className="text-lg font-bold text-white mb-1">Gemma AI Conversation</h3>
+                      <p className="text-xs text-slate-400 leading-relaxed mb-4">
+                        Practice real-time Malayalam conversations with instant feedback on pronunciation and vocabulary usage.
+                      </p>
+                    </div>
+                    <button
+                      onClick={() => setActiveTab("AI Conversation")}
+                      className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-amber-600 to-yellow-500 hover:from-amber-500 hover:to-yellow-400 text-white font-bold py-3 rounded-2xl shadow-lg shadow-amber-600/30 transition-all hover:scale-[1.02] text-xs"
+                    >
+                      <span>Open AI Conversation</span>
+                      <ChevronRight className="w-4 h-4" />
                     </button>
-                  ))}
+                  </div>
+                </div>
+
+                {/* ── Module Cards Grid ── */}
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <h2 className="text-sm font-bold text-slate-400 uppercase tracking-widest">All Modules</h2>
+                    <div className="h-px flex-1 bg-white/[0.06]" />
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                    {dashboardCards.map((card) => (
+                      <button
+                        key={card.key}
+                        onClick={() => setActiveTab(card.tab)}
+                        className={`flex flex-col items-start gap-4 p-6 rounded-2xl border text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-lg ${card.bg} ${card.border}`}
+                      >
+                        <div 
+                          className="w-12 h-12 rounded-xl flex items-center justify-center shadow-sm text-2xl font-bold text-white" 
+                          style={{ backgroundColor: card.color }}
+                        >
+                          {card.icon}
+                        </div>
+                        <div>
+                          <h3 className="font-display text-lg font-bold text-white">{card.label}</h3>
+                          <p className="font-mono text-sm font-semibold text-white/60 mt-1">
+                            {progress[card.key]} / {card.total} Completed
+                          </p>
+                        </div>
+                        {/* Progress Bar */}
+                        <div className="w-full h-1.5 rounded-full bg-[#0f172a]/50 mt-2 overflow-hidden border border-black/5">
+                          <div 
+                            className="h-full rounded-full transition-all duration-700" 
+                            style={{ backgroundColor: card.color, width: `${(progress[card.key] / card.total) * 100}%` }}
+                          />
+                        </div>
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
             )}
@@ -1091,6 +1193,12 @@ export default function MalayalamDashboard() {
             {activeTab === "Quiz" && (
               <div className="-mx-4 sm:-mx-10 -my-6 sm:-my-10">
                 <MalayalamQuiz onExit={() => setActiveTab(TABS[0])} />
+              </div>
+            )}
+
+            {activeTab === "AI Conversation" && (
+              <div className="-mx-4 sm:-mx-10 -my-6 sm:-my-10 h-screen max-h-[800px]">
+                <MalayalamChat />
               </div>
             )}
           </div>

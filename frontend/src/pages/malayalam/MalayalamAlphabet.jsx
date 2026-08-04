@@ -28,11 +28,11 @@ export default function MalayalamAlphabet() {
     { code: "ja", name: "Japanese", flag: "🇯🇵" },
   ];
 
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.href = "/";
   };

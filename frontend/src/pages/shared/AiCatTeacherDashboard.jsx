@@ -24,7 +24,7 @@ const LANGUAGES_LIST = [
 
 export default function AiCatTeacherDashboard() {
   const [selectedLangCode, setSelectedLangCode] = useState(() => {
-    return localStorage.getItem("lingolive_target_language") || "en";
+    return localStorage.getItem("mozhify_target_language") || "en";
   });
 
   const selectedLangObj = LANGUAGES_LIST.find(l => l.code === selectedLangCode) || LANGUAGES_LIST[0];
@@ -58,7 +58,7 @@ export default function AiCatTeacherDashboard() {
 
   // Load unlocked level & curriculum when language changes
   useEffect(() => {
-    const savedLevel = localStorage.getItem(`lingolive_cat_unlocked_level_${targetLanguageId}`);
+    const savedLevel = localStorage.getItem(`mozhify_cat_unlocked_level_${targetLanguageId}`);
     setUnlockedLevel(savedLevel ? parseInt(savedLevel, 10) : 1);
 
     const curr = get50LevelCurriculumForLanguage(targetLanguageId);
@@ -271,7 +271,7 @@ export default function AiCatTeacherDashboard() {
           if (activeLevelNum === unlockedLevel && activeLevelNum < 50) {
             const nextLvl = activeLevelNum + 1;
             setUnlockedLevel(nextLvl);
-            localStorage.setItem(`lingolive_cat_unlocked_level_${targetLanguageId}`, nextLvl.toString());
+            localStorage.setItem(`mozhify_cat_unlocked_level_${targetLanguageId}`, nextLvl.toString());
           }
         } else {
           setPassedReview(false);
@@ -316,7 +316,7 @@ export default function AiCatTeacherDashboard() {
               onChange={(e) => {
                 const code = e.target.value;
                 setSelectedLangCode(code);
-                localStorage.setItem("lingolive_target_language", code);
+                localStorage.setItem("mozhify_target_language", code);
               }}
               className="px-4 py-2.5 bg-white border border-[#14213D]/15 rounded-2xl text-xs font-bold text-[#14213D] shadow-sm focus:ring-2 focus:ring-amber-500 outline-none cursor-pointer pr-8"
             >

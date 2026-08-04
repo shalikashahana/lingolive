@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const dataFile = 'C:\\Users\\shalika shahana\\OneDrive\\Documents\\lingolive\\frontend\\src\\data\\teluguQuizData.js';
+const dataFile = 'C:\\Users\\shalika shahana\\OneDrive\\Documents\\mozhify\\frontend\\src\\data\\teluguQuizData.js';
 const promptFile = 'C:\\Users\\shalika shahana\\.gemini\\antigravity-ide\\brain\\d26e8b4c-a495-48a0-9e3d-e590ce742ce0\\latest_prompt.txt';
 
 let promptContent = fs.readFileSync(promptFile, 'utf8');

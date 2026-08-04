@@ -75,12 +75,12 @@ export default function AppLayout({ children, userStats }) {
   ];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.href = "/";
   };
 
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const navItems = [
@@ -200,7 +200,7 @@ export default function AppLayout({ children, userStats }) {
                 <Zap className="h-5 w-5 fill-white" />
               </div>
               <div className="flex flex-col">
-                <span className="leading-none text-white font-extrabold tracking-tight">LingoLive</span>
+                <span className="leading-none text-white font-extrabold tracking-tight">Mozhify</span>
                 <span className="text-[10px] font-mono text-sky-400 font-semibold uppercase tracking-widest mt-1">SaaS Edition</span>
               </div>
             </Link>
@@ -275,7 +275,7 @@ export default function AppLayout({ children, userStats }) {
                     {user?.displayName || "Pro Learner"}
                   </span>
                   <span className="font-sans text-[11px] text-slate-400 truncate w-full">
-                    {user?.email || "learner@lingolive.app"}
+                    {user?.email || "learner@mozhify.app"}
                   </span>
                 </div>
               </button>
@@ -305,7 +305,7 @@ export default function AppLayout({ children, userStats }) {
               <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white">
                 <Zap className="h-4 w-4 fill-white" />
               </div>
-              <span>LingoLive</span>
+              <span>Mozhify</span>
             </Link>
 
             <div className="flex items-center gap-3">

@@ -38,7 +38,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
 
   const navigateBasedOnLanguage = () => {
-    const code = localStorage.getItem("lingolive_target_language");
+    const code = localStorage.getItem("mozhify_target_language");
     if (code) {
       const routes = {
         en: "/dashboard",
@@ -125,7 +125,7 @@ export default function Login() {
           <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-tr from-blue-600 to-sky-400 text-white shadow-lg shadow-blue-500/30">
             <Zap className="h-5 w-5 fill-white" />
           </div>
-          <span className="font-extrabold tracking-tight">LingoLive</span>
+          <span className="font-extrabold tracking-tight">Mozhify</span>
         </Link>
 
         <div className="flex items-center gap-4">
@@ -164,7 +164,7 @@ export default function Login() {
 
         {/* Title */}
         <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight max-w-4xl leading-[1.1] mb-6">
-          Master English Fluency with{" "}
+          Master Any Language with{" "}
           <span className="bg-gradient-to-r from-blue-400 via-sky-300 to-indigo-300 bg-clip-text text-transparent">
             AI Precision
           </span>
@@ -221,7 +221,7 @@ export default function Login() {
             </div>
             <h3 className="font-heading text-lg font-bold text-white mb-2">Interview & Career Readiness</h3>
             <p className="font-sans text-xs text-slate-400 leading-relaxed">
-              Simulated technical & professional English interviews with instant AI scoring.
+              Simulated technical & professional language interviews with instant AI scoring.
             </p>
           </div>
         </div>
@@ -243,12 +243,12 @@ export default function Login() {
 
             <div className="mb-6 text-left">
               <h2 className="font-heading text-2xl font-bold text-white mb-1">
-                {mode === "signin" ? "Welcome back to LingoLive" : "Create your Account"}
+                {mode === "signin" ? "Welcome back to Mozhify" : "Create your Account"}
               </h2>
               <p className="font-sans text-xs text-slate-400">
                 {mode === "signin"
-                  ? "Continue your daily streak and practice English."
-                  : "Join thousands of learners reaching English fluency."}
+                  ? "Continue your daily streak and practice languages."
+                  : "Join thousands of learners reaching multilingual fluency."}
               </p>
             </div>
 

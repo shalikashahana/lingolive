@@ -1,7 +1,7 @@
 import re
 
-file_path = "c:/Users/shalika shahana/OneDrive/Documents/lingolive/frontend/src/data/mockData.js"
-txt_path = "c:/Users/shalika shahana/OneDrive/Documents/lingolive/frontend/src/data/az_words.txt"
+file_path = "c:/Users/shalika shahana/OneDrive/Documents/mozhify/frontend/src/data/mockData.js"
+txt_path = "c:/Users/shalika shahana/OneDrive/Documents/mozhify/frontend/src/data/az_words.txt"
 
 with open(txt_path, "r", encoding="utf-8") as f:
     lines = f.readlines()

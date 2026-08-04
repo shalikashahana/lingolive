@@ -1,8 +1,8 @@
 import json
 import re
 
-json_path = r"C:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\data\new_questions.json"
-js_path = r"C:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\data\teluguQuizData.js"
+json_path = r"C:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\data\new_questions.json"
+js_path = r"C:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\data\teluguQuizData.js"
 
 with open(json_path, 'r', encoding='utf-8') as f:
     new_questions = json.load(f)

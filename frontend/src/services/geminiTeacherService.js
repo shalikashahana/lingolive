@@ -18,7 +18,7 @@ const LANGUAGE_KEY_MAPPING = {
 export function getGeminiApiKeyForLanguage(language) {
   const langLower = (language || "english").toLowerCase();
   
-  const customKey = localStorage.getItem(`lingolive_gemini_key_${langLower}`);
+  const customKey = localStorage.getItem(`mozhify_gemini_key_${langLower}`);
   if (customKey && customKey.trim()) {
     return customKey.trim();
   }
@@ -37,9 +37,9 @@ export function getGeminiApiKeyForLanguage(language) {
 export function setGeminiApiKeyForLanguage(language, key) {
   const langLower = (language || "english").toLowerCase();
   if (!key) {
-    localStorage.removeItem(`lingolive_gemini_key_${langLower}`);
+    localStorage.removeItem(`mozhify_gemini_key_${langLower}`);
   } else {
-    localStorage.setItem(`lingolive_gemini_key_${langLower}`, key.trim());
+    localStorage.setItem(`mozhify_gemini_key_${langLower}`, key.trim());
   }
 }
 

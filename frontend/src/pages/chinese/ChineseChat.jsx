@@ -97,7 +97,7 @@ export default function ChineseChat() {
   // Load History from localStorage on mount
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("lingolive_chinese_chat_history");
+      const saved = localStorage.getItem("mozhify_chinese_chat_history");
       if (saved) {
         setHistoryList(JSON.parse(saved));
       }
@@ -130,7 +130,7 @@ export default function ChineseChat() {
       const filtered = prev.filter(item => item.id !== currentId);
       const updated = [sessionData, ...filtered];
       try {
-        localStorage.setItem("lingolive_chinese_chat_history", JSON.stringify(updated));
+        localStorage.setItem("mozhify_chinese_chat_history", JSON.stringify(updated));
       } catch (e) {
         console.error("Failed to save history item", e);
       }
@@ -248,7 +248,7 @@ export default function ChineseChat() {
     e.stopPropagation();
     setHistoryList((prev) => {
       const updated = prev.filter(item => item.id !== targetId);
-      localStorage.setItem("lingolive_chinese_chat_history", JSON.stringify(updated));
+      localStorage.setItem("mozhify_chinese_chat_history", JSON.stringify(updated));
       return updated;
     });
   };
@@ -257,7 +257,7 @@ export default function ChineseChat() {
   const handleClearAllHistory = () => {
     if (window.confirm("Clear all chat history?")) {
       setHistoryList([]);
-      localStorage.removeItem("lingolive_chinese_chat_history");
+      localStorage.removeItem("mozhify_chinese_chat_history");
     }
   };
 

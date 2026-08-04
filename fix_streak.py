@@ -2,10 +2,10 @@ import os
 import re
 
 def fix_streak():
-    base_dir = r"c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\pages"
+    base_dir = r"c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\pages"
     
     # 1. Create the streak utility
-    utils_dir = r"c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\utils"
+    utils_dir = r"c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\utils"
     os.makedirs(utils_dir, exist_ok=True)
     with open(os.path.join(utils_dir, "streak.js"), "w", encoding="utf-8") as f:
         f.write('''export const calculateNewStreak = (stats) => {

@@ -1,7 +1,7 @@
-﻿import re
+import re
 
 # File 1: TeluguSentences.jsx
-ts_file = r'c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\pages\TeluguSentences.jsx'
+ts_file = r'c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\pages\TeluguSentences.jsx'
 with open(ts_file, 'r', encoding='utf-8') as f:
     ts_content = f.read()
 
@@ -26,21 +26,21 @@ state_logic = '''  const [activeTab, setActiveTab] = useState("Vowels (అచ్
     { code: "zh", name: "Chinese", flag: "🇨🇳" },
     { code: "ja", name: "Japanese", flag: "🇯🇵" },
   ];
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.reload(); 
   };
 '''
 ts_content = ts_content.replace('  const [activeTab, setActiveTab] = useState("Vowels (అచ్చులు - Acchulu)");', state_logic)
 
-# Add UI next to LingoLive
+# Add UI next to Mozhify
 ui_code = '''          <div className="flex items-center justify-between">
             <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
+              <Languages className="w-6 h-6 text-[#C9A227]" /> Mozhify
             </h1>
             <div className="relative">
               <button
@@ -77,7 +77,7 @@ ui_code = '''          <div className="flex items-center justify-between">
 ts_content = ts_content.replace(
     '''          <div className="flex items-center justify-between">
             <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
+              <Languages className="w-6 h-6 text-[#C9A227]" /> Mozhify
             </h1>
           </div>''',
     ui_code
@@ -87,7 +87,7 @@ with open(ts_file, 'w', encoding='utf-8') as f:
     f.write(ts_content)
 
 # File 2: AppLayout.jsx
-al_file = r'c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\components\AppLayout.jsx'
+al_file = r'c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\components\AppLayout.jsx'
 with open(al_file, 'r', encoding='utf-8') as f:
     al_content = f.read()
 

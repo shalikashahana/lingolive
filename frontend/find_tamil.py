@@ -5,8 +5,8 @@ def contains_tamil(text):
     return bool(re.search(r'[\u0B80-\u0BFF]', text))
 
 def main():
-    file_path = r"c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\data\malayalamQuizData.json"
-    out_path = r"c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\tamil_results.txt"
+    file_path = r"c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\data\malayalamQuizData.json"
+    out_path = r"c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\tamil_results.txt"
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 

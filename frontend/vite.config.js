@@ -12,8 +12,8 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15 MB — needed for large bundle
       },
       manifest: {
-        name: "LingoLive",
-        short_name: "LingoLive",
+        name: "Mozhify",
+        short_name: "Mozhify",
         description: "Your personalized language learning app",
         theme_color: "#14213D",
         background_color: "#F8F6F0",

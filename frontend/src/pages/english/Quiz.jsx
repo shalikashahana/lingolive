@@ -60,7 +60,7 @@ export default function Quiz() {
         } catch (e) {
           console.error("Failed to load quiz progress from backend", e);
           // Fallback to local storage if API fails
-          const saved = localStorage.getItem(`lingolive_quiz_progress_${levelNum}`);
+          const saved = localStorage.getItem(`mozhify_quiz_progress_${levelNum}`);
           if (saved) {
             try {
               const parsed = JSON.parse(saved);
@@ -112,7 +112,7 @@ export default function Quiz() {
     
     // Always save locally as fallback
     localStorage.setItem(
-      `lingolive_quiz_progress_${levelNum}`,
+      `mozhify_quiz_progress_${levelNum}`,
       JSON.stringify(state)
     );
 
@@ -120,9 +120,9 @@ export default function Quiz() {
       const scorePercentage = Math.round((scoreCount / questions.length) * 100);
       const passed = scorePercentage >= 80;
       if (passed) {
-        const currentMax = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+        const currentMax = parseInt(localStorage.getItem('mozhify_max_unlocked_level') || '1', 10);
         if (levelNum + 1 > currentMax) {
-          localStorage.setItem('lingolive_max_unlocked_level', (levelNum + 1).toString());
+          localStorage.setItem('mozhify_max_unlocked_level', (levelNum + 1).toString());
         }
       }
     }
@@ -153,7 +153,7 @@ export default function Quiz() {
     saveProgress();
   }, [levelNum, currentIndex, answersSubmitted, scoreCount, quizFinished, user, loadingProgress]);
 
-  const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+  const maxUnlocked = parseInt(localStorage.getItem('mozhify_max_unlocked_level') || '1', 10);
   const alreadyCompleted = levelNum < maxUnlocked;
 
   if (alreadyCompleted) {
@@ -405,8 +405,8 @@ export default function Quiz() {
                 setCurrentIndex(0);
                 setScoreCount(0);
                 setAnswersSubmitted({});
-                localStorage.removeItem(`lingolive_quiz_progress_${levelNum}`);
-                localStorage.removeItem(`lingolive_quiz_questions_${levelNum}`);
+                localStorage.removeItem(`mozhify_quiz_progress_${levelNum}`);
+                localStorage.removeItem(`mozhify_quiz_questions_${levelNum}`);
                 window.location.reload();
               }}
               className="flex items-center justify-center gap-2 w-full sm:w-auto rounded-xl border border-[#14213D]/20 bg-white px-6 py-3 font-sans text-sm font-bold text-[#14213D] hover:bg-[#F8F6F0]"

@@ -1,4 +1,4 @@
-﻿import json
+import json
 import random
 
 input_json = """[
@@ -79,7 +79,7 @@ for i, item in enumerate(data):
     })
 
 # Now append this to teluguQuizData.js
-js_file_path = r'c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\data\teluguQuizData.js'
+js_file_path = r'c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\data\teluguQuizData.js'
 with open(js_file_path, 'r', encoding='utf-8') as f:
     js_content = f.read()
 

@@ -1,7 +1,7 @@
-# LingoLive — AI-Powered English Learning Platform
+# Mozhify — AI-Powered Multilingual Learning Platform
 
 Duolingo-style gamification + Brilliant.org-level polish, for intermediate → advanced
-English learners.
+language learners.
 
 ## Tech Stack
 - **Frontend:** React (Vite), Tailwind CSS, Framer Motion, Lucide Icons
@@ -13,7 +13,7 @@ English learners.
 ## Folder Structure
 
 ```
-lingolive/
+mozhify/
 ├── frontend/                          # React (Vite) + Tailwind + Framer Motion
 │   ├── index.html
 │   ├── package.json

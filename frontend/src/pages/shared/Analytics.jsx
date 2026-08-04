@@ -62,7 +62,7 @@ export default function Analytics() {
     }
     fetchAnalytics();
 
-    const savedEnglishMaxLevel = parseInt(localStorage.getItem("lingolive_max_unlocked_level") || "1", 10);
+    const savedEnglishMaxLevel = parseInt(localStorage.getItem("mozhify_max_unlocked_level") || "1", 10);
     const englishXP = (savedEnglishMaxLevel - 1) * 150;
 
     const savedTelugu = JSON.parse(localStorage.getItem("telugu_stats") || '{"streak":0,"xp":0}');
@@ -82,7 +82,7 @@ export default function Analytics() {
       story: savedStory
     });
 
-    const lang = localStorage.getItem("lingolive_target_language") || "en";
+    const lang = localStorage.getItem("mozhify_target_language") || "en";
     setTargetLanguage(lang);
   }, [user]);
 

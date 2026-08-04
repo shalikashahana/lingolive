@@ -214,7 +214,7 @@ export default function TeluguDashboard() {
   const goalPct = Math.round((goalDone / goalTotal) * 100);
 
   // Continue Learning — track last visited module
-  const lastId = localStorage.getItem("lingolive_te_last") || "sentences";
+  const lastId = localStorage.getItem("mozhify_te_last") || "sentences";
   const continueMod = MODULES.find((m) => m.id === lastId) || MODULES[0];
 
   // Streak dots — last 7 days
@@ -355,7 +355,7 @@ export default function TeluguDashboard() {
           whileHover={{ y: -3, transition: { duration: 0.2, ease: "easeOut" } }}
           whileTap={{ scale: 0.985 }}
           onClick={() => {
-            localStorage.setItem("lingolive_te_last", continueMod.id);
+            localStorage.setItem("mozhify_te_last", continueMod.id);
             navigate(continueMod.route);
           }}
           className="md:col-span-3 group relative overflow-hidden rounded-3xl border border-white/[0.08] bg-gradient-to-br from-[#0c1828] via-[#0f1f35] to-[#080e1c] p-6 text-left transition-all duration-300 hover:border-sky-500/25 hover:shadow-2xl hover:shadow-blue-900/20 focus:outline-none"
@@ -534,7 +534,7 @@ export default function TeluguDashboard() {
                 whileHover={{ y: -5, transition: { duration: 0.2, ease: "easeOut" } }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => {
-                  localStorage.setItem("lingolive_te_last", mod.id);
+                  localStorage.setItem("mozhify_te_last", mod.id);
                   navigate(mod.route);
                 }}
                 className={`group relative flex flex-col overflow-hidden rounded-3xl border ${mod.border} bg-gradient-to-br ${mod.cardBg} p-6 text-left transition-all duration-300 hover:shadow-2xl ${mod.glow} focus:outline-none`}

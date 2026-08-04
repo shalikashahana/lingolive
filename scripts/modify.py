@@ -1,6 +1,6 @@
-﻿import re
+import re
 
-file_path = r'c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\pages\TeluguSentences.jsx'
+file_path = r'c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\pages\TeluguSentences.jsx'
 with open(file_path, 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
@@ -21,7 +21,7 @@ new_return_block = '''  return (
         <div className="p-6 border-b border-[#14213D]/10 flex flex-col gap-3">
           <div className="flex items-center justify-between">
             <h1 className="font-display text-2xl font-bold text-[#14213D] flex items-center gap-2">
-              <Languages className="w-6 h-6 text-[#C9A227]" /> LingoLive
+              <Languages className="w-6 h-6 text-[#C9A227]" /> Mozhify
             </h1>
           </div>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-[#14213D]/5 px-3 py-1.5 font-mono text-xs font-semibold text-[#14213D]/70 w-fit">

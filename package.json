@@ -1,5 +1,5 @@
 {
-  "name": "lingolive",
+  "name": "mozhify",
   "version": "1.0.0",
   "description": "Root package.json to serve the frontend on Render",
   "private": true,

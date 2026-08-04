@@ -39,7 +39,7 @@ export default function EnglishPath() {
     } catch (e) {
       console.error("Reset error:", e);
     }
-    localStorage.setItem('lingolive_max_unlocked_level', '1');
+    localStorage.setItem('mozhify_max_unlocked_level', '1');
     localStorage.removeItem('telugu_quiz_unlocked_level');
     localStorage.removeItem('malayalam_quiz_unlocked_level');
     localStorage.removeItem('korean_quiz_unlocked_level');
@@ -95,7 +95,7 @@ export default function EnglishPath() {
 
       if (usedMock) {
         // Fallback to mock data if backend isn't seeded or user not logged in
-        const maxUnlocked = parseInt(localStorage.getItem('lingolive_max_unlocked_level') || '1', 10);
+        const maxUnlocked = parseInt(localStorage.getItem('mozhify_max_unlocked_level') || '1', 10);
         dataCurrentLevel = maxUnlocked;
         const defaultLevels = generate100Levels();
         dataLevels = defaultLevels.map(lvl => {

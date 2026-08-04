@@ -20,12 +20,12 @@ const VIDEO_DATA = [
 
 export default function Videos() {
   const [watchedVideos, setWatchedVideos] = useState(() => {
-    const saved = localStorage.getItem("lingolive_watched_videos");
+    const saved = localStorage.getItem("mozhify_watched_videos");
     return saved ? JSON.parse(saved) : {};
   });
 
   useEffect(() => {
-    localStorage.setItem("lingolive_watched_videos", JSON.stringify(watchedVideos));
+    localStorage.setItem("mozhify_watched_videos", JSON.stringify(watchedVideos));
   }, [watchedVideos]);
 
   const toggleWatched = (id) => {

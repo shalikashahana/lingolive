@@ -1,6 +1,6 @@
-﻿import re
+import re
 
-file_path = r'c:\Users\shalika shahana\OneDrive\Documents\lingolive\frontend\src\pages\TeluguSentences.jsx'
+file_path = r'c:\Users\shalika shahana\OneDrive\Documents\mozhify\frontend\src\pages\TeluguSentences.jsx'
 with open(file_path, 'r', encoding='utf-8') as f:
     content = f.read()
 

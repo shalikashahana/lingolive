@@ -27,7 +27,7 @@ LEVEL_TITLES = [
   'Executive Diplomacy', 'Mastering Idiomatic Expressions', 'Literary & Cultural Criticism', 'Strategic Negotiation',
   'Advanced Public Advocacy', 'Complex Ethical Debates', 'Executive Public Speaking', 'Global Diplomacy',
   'Native-Level Fluency & Elegance', 'Mastery of Abstract Concepts', 'Sophisticated Rhetorical Analysis', 'Executive Communication Excellence',
-  'Mastery of Subtle Irony & Wit', 'Native-Level Spontaneous Discourse', 'Ultimate Linguistic Mastery', 'LingoLive Grandmaster'
+  'Mastery of Subtle Irony & Wit', 'Native-Level Spontaneous Discourse', 'Ultimate Linguistic Mastery', 'Mozhify Grandmaster'
 ]
 
 sql_statements = []

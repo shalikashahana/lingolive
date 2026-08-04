@@ -145,11 +145,11 @@ export default function ChineseDashboard() {
     { code: "zh", name: "Chinese", flag: "🇨🇳" },
     { code: "ja", name: "Japanese", flag: "🇯🇵" },
   ];
-  const currentLanguageCode = localStorage.getItem("lingolive_target_language") || "en";
+  const currentLanguageCode = localStorage.getItem("mozhify_target_language") || "en";
   const currentLanguage = availableLanguages.find(l => l.code === currentLanguageCode) || availableLanguages[0];
 
   const changeLanguage = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     setLangDropdownOpen(false);
     window.location.href = "/"; 
   };
@@ -395,7 +395,7 @@ export default function ChineseDashboard() {
               <Zap className="h-5 w-5 fill-white" />
             </div>
             <div>
-              <span className="font-extrabold text-white tracking-tight leading-none block text-base">LingoLive</span>
+              <span className="font-extrabold text-white tracking-tight leading-none block text-base">Mozhify</span>
               <span className="text-[10px] font-mono font-bold text-amber-400 uppercase tracking-widest">Chinese Mandarin</span>
             </div>
           </div>

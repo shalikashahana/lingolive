@@ -1,24 +1,30 @@
 import { useEffect, useState } from "react";
-import TeluguDashboard from "../telugu/TeluguDashboard";
+import TeluguSentences from "../telugu/TeluguSentences";
+import MalayalamDashboard from "../malayalam/MalayalamDashboard";
+import HindiDashboard from "../hindi/HindiDashboard";
+import KoreanDashboard from "../korean/KoreanDashboard";
+import JapaneseDashboard from "../japanese/JapaneseDashboard";
+import ThaiDashboard from "../thai/ThaiDashboard";
+import ChineseDashboard from "../chinese/ChineseDashboard";
+import ArabicDashboard from "../arabic/ArabicDashboard";
 import EnglishDashboard from "../english/EnglishDashboard";
-import GenericLanding from "./GenericLanding";
 
 export default function Dashboard() {
   const [targetLanguage, setTargetLanguage] = useState("en");
 
   useEffect(() => {
-    const lang = localStorage.getItem("lingolive_target_language") || "en";
+    const lang = localStorage.getItem("mozhify_target_language") || "en";
     setTargetLanguage(lang);
   }, []);
 
-  if (targetLanguage === "te") return <TeluguDashboard />;
-  if (targetLanguage === "ml") return <GenericLanding languageName="Malayalam" path="/malayalam-learning" />;
-  if (targetLanguage === "hi") return <GenericLanding languageName="Hindi" path="/hindi-learning" />;
-  if (targetLanguage === "ko") return <GenericLanding languageName="Korean" path="/korean-learning" />;
-  if (targetLanguage === "ja") return <GenericLanding languageName="Japanese" path="/japanese-learning" />;
-  if (targetLanguage === "th") return <GenericLanding languageName="Thai" path="/thai-learning" />;
-  if (targetLanguage === "zh") return <GenericLanding languageName="Chinese" path="/chinese-learning" />;
-  if (targetLanguage === "ar") return <GenericLanding languageName="Arabic" path="/arabic-learning" />;
+  if (targetLanguage === "te") return <TeluguSentences />;
+  if (targetLanguage === "ml") return <MalayalamDashboard />;
+  if (targetLanguage === "hi") return <HindiDashboard />;
+  if (targetLanguage === "ko") return <KoreanDashboard />;
+  if (targetLanguage === "ja") return <JapaneseDashboard />;
+  if (targetLanguage === "th") return <ThaiDashboard />;
+  if (targetLanguage === "zh") return <ChineseDashboard />;
+  if (targetLanguage === "ar") return <ArabicDashboard />;
 
   return <EnglishDashboard />;
 }

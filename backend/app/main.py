@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .core.config import settings
 from .routers import chat, quiz, progress, analytics, vocabulary, reading
 
-app = FastAPI(title="LingoLive API")
+app = FastAPI(title="Mozhify API")
 
 app.add_middleware(
     CORSMiddleware,

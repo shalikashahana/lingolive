@@ -62,7 +62,7 @@ const TELUGU_SCENARIOS = [
 ];
 
 const TELUGU_API_KEY = import.meta.env.VITE_GEMINI_API_KEY_TELUGU || import.meta.env.VITE_GEMINI_API_KEY;
-const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
+const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${TELUGU_API_KEY}`;
 
 const TELUGU_SYSTEM_PROMPT = `You are Gemma, a friendly AI Telugu Language Coach. The users you talk to are BEGINNERS who do NOT know Telugu. They are here to LEARN Telugu. Your primary language for communication is ENGLISH. Never assume the user knows Telugu.
 
@@ -138,7 +138,7 @@ export default function TeluguChat() {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("lingolive_telugu_chat_history");
+      const saved = localStorage.getItem("mozhify_telugu_chat_history");
       if (saved) setHistoryList(JSON.parse(saved));
     } catch (e) {}
   }, []);
@@ -194,7 +194,7 @@ export default function TeluguChat() {
     };
     setHistoryList((prev) => {
       const updated = [entry, ...prev.filter((i) => i.id !== sessId)];
-      localStorage.setItem("lingolive_telugu_chat_history", JSON.stringify(updated));
+      localStorage.setItem("mozhify_telugu_chat_history", JSON.stringify(updated));
       return updated;
     });
   };
@@ -252,7 +252,7 @@ export default function TeluguChat() {
     e.stopPropagation();
     setHistoryList((prev) => {
       const updated = prev.filter((i) => i.id !== id);
-      localStorage.setItem("lingolive_telugu_chat_history", JSON.stringify(updated));
+      localStorage.setItem("mozhify_telugu_chat_history", JSON.stringify(updated));
       return updated;
     });
   };
@@ -260,7 +260,7 @@ export default function TeluguChat() {
   const handleClearAll = () => {
     if (window.confirm("Clear all Telugu chat history?")) {
       setHistoryList([]);
-      localStorage.removeItem("lingolive_telugu_chat_history");
+      localStorage.removeItem("mozhify_telugu_chat_history");
     }
   };
 

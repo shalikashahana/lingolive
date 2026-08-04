@@ -17,11 +17,11 @@ const languages = [
 
 export default function SelectLanguage() {
   const navigate = useNavigate();
-  const [selected, setSelected] = useState(localStorage.getItem("lingolive_target_language") || "en");
+  const [selected, setSelected] = useState(localStorage.getItem("mozhify_target_language") || "en");
   const { user } = useAuth();
 
   const handleSelect = (code) => {
-    localStorage.setItem("lingolive_target_language", code);
+    localStorage.setItem("mozhify_target_language", code);
     const routes = {
       en: "/dashboard",
       te: "/telugu-learning",

@@ -38,7 +38,7 @@ function PrivateRoute({ children, checkLanguage = true }) {
   if (loading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-[#F8F6F0] font-sans text-sm font-semibold text-[#14213D]">
-        Loading LingoLive Platform…
+        Loading Mozhify Platform…
       </div>
     );
   }
@@ -47,7 +47,7 @@ function PrivateRoute({ children, checkLanguage = true }) {
   }
 
   if (checkLanguage) {
-    const lang = localStorage.getItem("lingolive_target_language");
+    const lang = localStorage.getItem("mozhify_target_language");
     if (!lang) {
       return <Navigate to="/select-language" replace />;
     }
@@ -102,7 +102,7 @@ export default function App() {
                     <Route path="/thai-learning" element={<ThaiDashboard />} />
                     <Route path="/chinese-learning" element={<ChineseDashboard />} />
                     <Route path="/arabic-learning" element={<ArabicDashboard />} />
-                    <Route path="/telugu-learning" element={<TeluguDashboard />} />
+                    <Route path="/telugu-learning" element={<TeluguSentences />} />
                     <Route path="/telugu-chat" element={<TeluguChat />} />
                     <Route path="/hindi-chat" element={<HindiChat />} />
 

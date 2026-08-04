@@ -1,4 +1,4 @@
-// LingoLive Mock Dataset & Helper Services
+// Mozhify Mock Dataset & Helper Services
 
 export const CEFR_BANDS = {
   A1: { label: 'A1 Beginner', range: 'Levels 1 - 15', color: 'from-gray-500 to-slate-500', badgeBg: 'bg-gray-500/10 text-gray-600 border-gray-500/20' },
@@ -34,7 +34,7 @@ const LEVEL_TITLES = [
   "Executive Diplomacy", "Mastering Idiomatic Expressions", "Literary & Cultural Criticism", "Strategic Negotiation",
   "Advanced Public Advocacy", "Complex Ethical Debates", "Executive Public Speaking", "Global Diplomacy",
   "Native-Level Fluency & Elegance", "Mastery of Abstract Concepts", "Sophisticated Rhetorical Analysis", "Executive Communication Excellence",
-  "Mastery of Subtle Irony & Wit", "Native-Level Spontaneous Discourse", "Ultimate Linguistic Mastery", "LingoLive Grandmaster"
+  "Mastery of Subtle Irony & Wit", "Native-Level Spontaneous Discourse", "Ultimate Linguistic Mastery", "Mozhify Grandmaster"
 ];
 
 export function generate100Levels() {
